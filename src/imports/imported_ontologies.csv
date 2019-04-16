@@ -1,0 +1,9 @@
+﻿Name,IRI,Entities file,Ignore
+IAO Ontology Metadata,http://purl.obolibrary.org/obo/iao/ontology-metadata.owl,,
+Basic Formal Ontology,http://purl.obolibrary.org/obo/bfo.owl,bfo_ovt_entities.csv,Y
+Information Artifact Ontology,http://purl.obolibrary.org/obo/iao.owl,iao_ovt_entities.csv,Y
+Ontology for Biomedical Investigations,http://purl.obolibrary.org/obo/obi.owl,obi_ovt_entities.csv,Y
+Biocollections Ontology,http://purl.obolibrary.org/obo/bco.owl,bco_ovt_entities.csv,Y
+Population and Community Ontology,http://purl.obolibrary.org/obo/pco.owl,pco_ovt_entities.csv,Y
+Relations Ontology,http://purl.obolibrary.org/obo/ro.owl,ro_ovt_entities.csv,Y
+Phenotype and Trait Ontology,http://purl.obolibrary.org/obo/pato.owl,pato_ovt_entities.csv,Y
