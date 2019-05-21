@@ -1,1 +1,2 @@
-ID,Type,Label,Parent,Text definition,Comments,Subclass of,Equivalent to,Disjoint with,IgnoreFOVT_0000004,Class,humerus tubercle width',,,,,'width' and ('inheres in' some ('tubercle' and ('part of' some 'humerus'))),,
+ID,Type,Label,Parent,Text definition,Comments,Subclass of,Equivalent to,Disjoint with,Ignore
+FOVT_0000004,Class,'humerus tubercle width',,,,,'width' and ('inheres in' some ('tubercle' and ('part of' some 'humerus'))),,
