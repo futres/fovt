@@ -1,5 +1,6 @@
 ID,Type,Label,Parent,Text definition,Comments,Subclass of,Equivalent to,Disjoint with,Ignore
-FOVT_0000005,class,lower fourth secondary premolar tooth,,,,,premolar tooth' and (part_of some 'lower jaw region') and (part_of some 'secondary dentition'),,
-FOVT_0000006,class,upper fourth secondary premolar tooth,,,,,premolar tooth' and (part_of some 'upper jaw region') and (part_of some 'secondary dentition'),,
-FOVT_0000007,class,upper third secondary premolar tooth,,,,,premolar tooth' and (part_of some 'lower jaw region') and (part_of some 'secondary dentition'),,
-FOVT_0000008,class,lower third secondary premolar tooth,,,,,premolar tooth' and (part_of some 'upper jaw region') and (part_of some 'secondary dentition'),,
+FOVT_0000005,class,lower fourth secondary premolar tooth,,,,premolar tooth 4,premolar tooth' and (part_of some 'lower jaw region') and (part_of some 'secondary dentition'),,
+FOVT_0000006,class,upper fourth secondary premolar tooth,,,,premolar tooth 4,premolar tooth' and (part_of some 'upper jaw region') and (part_of some 'secondary dentition'),,
+FOVT_0000007,class,upper third secondary premolar tooth,,,,premolar 3,premolar tooth' and (part_of some 'lower jaw region') and (part_of some 'secondary dentition'),,
+FOVT_0000008,class,lower third secondary premolar tooth,,,,premolar 3,premolar tooth' and (part_of some 'upper jaw region') and (part_of some 'secondary dentition'),,
+,class,premolar 3,,,,premolar tooth,,,
