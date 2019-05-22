@@ -54,7 +54,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:label xml:lang="en">humerus tubercle width&apos;</rdfs:label>
+        <rdfs:label xml:lang="en">humerus tubercle width</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 
