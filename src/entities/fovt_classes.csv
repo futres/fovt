@@ -1,6 +1,27 @@
 ID,Type,Label,Parent,Text definition,Comments,Subclass of,Equivalent to,Disjoint with,Ignore
-FOVT:0001001,class,lower fourth secondary premolar tooth',,Secondary fourth premolar tooth of the lower jaw; p4,,premolar tooth 4',premolar tooth' and ('part of' some 'lower jaw region') and ('part of' some 'secondary dentition'),,Y
-FOVT:0001002,class,upper fourth secondary premolar tooth',,Secondary fourth premolar tooth of the upper jaw; P4,,premolar tooth 4',premolar tooth' and ('part of' some 'upper jaw region') and ('part of' some 'secondary dentition'),,Y
-FOVT:0001003,class,upper third secondary premolar tooth',,Secondary third premolar tooth of the lower jaw; p3,,premolar 3',premolar tooth' and ('part of' some 'lower jaw region') and ('part of' some 'secondary dentition'),,Y
-FOVT:0001004,class,lower third secondary premolar tooth',,Secondary third premolar tooth of the upper jaw; P3,,premolar 3',premolar tooth' and ('part of' some 'upper jaw region') and ('part of' some 'secondary dentition'),,Y
-FOVT:0001005,class,premolar 3',,Third premolar,,premolar tooth',,,
+FOVT_0000001,Class,'hind foot length',,The length of a hind foot,,,'length' and ('inheres in' some 'pes'),,
+FOVT_0000002,Class,'hind foot length with claw',,The length of a hind foot that includes a cutaneous appendage,,,'length' and ('inheres in' some 'pes') and ('has part' some 'cutaneous appendage'),,
+FOVT_0000003,Class,'hind foot length without claw',,The length of a hind foot that does not include a cutaneous appendage,,,'length' and ('inheres in' some 'pes') and (not ('has part' some 'cutaneous appendage')),,
+FOVT_0000004,Class,'femur length',,The length of a femur,,,'length' and ('inheres in' some 'femur'),,
+FOVT_0000005,Class,'femur length to head',,A femur where the anatomical position of the head of the femur is the tallest point,,'femur length','length' and ('inheres in' some 'femur') and ('part of' some 'head of femur'),,
+FOVT_0000006,Class,'femur length beyond head',,A femur where the anatomical position of the head of the femur is not the tallest point,,'femur length','length' and ('inheres in' some 'femur') and ('part of' some 'trochanter major'),,
+FOVT_0000007,Class,'femur circumference',,The circumference of a femur,,,'circumference' and ('inheres in' some 'femur'),,
+FOVT_0000008,Class,'tibia length',,The length of a tibia,,,'length' and ('inheres in' some 'tibia'),,
+FOVT_0000009,Class,'tibia proximal breadth',,The width of the proximal region of the tibia,,,'width' and ('inheres in' some 'distal epiphysis of tibia'),,
+FOVT_0000010,Class,'tibia distal depth',,The depth of the distal region of the tibia,,,'depth' and ('inheres in' some ('distal region' and ('part of' some 'tibia'))),,
+FOVT_0000011,Class,'proximal epiphysis of tibia length',,The length of the proximal epiphysis of the tibia,,,'length' and ('inheres in' some 'proximal epiphysis of tibia'),,
+FOVT_0000012,Class,'distal epiphysis of tibia size trait',,The size of the distal epiphysis of the tibia,,,'size' and ('inheres in' some 'distal epiphysis of tibia'),,
+FOVT_0000013,Class,'distal epiphysis of tibia length',,The length of the distal epiphysis of the tibia,,,'length' and ('inheres in' some 'distal epiphysis of tibia'),,
+FOVT_0000014,Class,'humerus length above the caput',,The length of the humerus where the caput is not the highest point,,'humerus length','length' and ('inheres in' some 'humerus') and ('part of' some 'pars cranialis'),,
+FOVT_0000015,Class,'humerus length from caput',,The length of a humerus where the caput is the highest point,,'humerus length','length' and ('inheres in' some 'humerus') and ('part of' some 'proximal head of humerus'),,
+FOVT_0000016,Class,'humerus circumference',,The circumference of a humerus,,,'circumference' and ('inheres in' some 'humerus'),,
+FOVT_0000017,Class,'humerus tubercle width',,The width of the tubercle of the humerus,,,'width' and ('inheres in' some 'ventral tubercle of humerus'),,
+FOVT_0000018,Class,'radius length',,The length of a radius,,,'length' and ('inheres in' some 'radius bone'),,
+FOVT_0000019,Class,'distal radius breadth',,The width of the distal epiphyses of the radius,,,'width' and ('inheres in' some ('distal region' and ('part of' some 'radius bone'))),,
+FOVT_0000020,Class,'olecranon length',,The length of the olecranon,,,'length' and ('inheres in' some 'olecranon'),,
+FOVT_0000021,Class,'olecranon width',,The width of the olecranon,,,'width' and ('inheres in' some 'olecranon'),,
+FOVT_0000022,Class,'metacarpal proximal breadth',,The breadth of the proximal metacarpal,,,'width' and ('inheres in' some ('proximal region' and ('part of' some 'metacarpal bone'))),,
+FOVT_0000023,Class,'pars cranialis',,possibly one of the highest points of humerus,,'humerus length','proximal region' and ('part of' some 'humerus'),,
+FOVT_0000024,Class,'trochanter major',,highest point of femur,,,'proximal region' and ('part of' some 'femur'),,
+FOVT_0000025,Class,'greater tubercle',,possibly one of the highest points of humerus,,'humerus length','proximal region' and ('part of' some 'humerus'),,
+FOVT_0000026,Class,'lesser tubercle',,possibly one of the highest points of humerus,,'humerus length','proximal region' and ('part of' some 'humerus'),,

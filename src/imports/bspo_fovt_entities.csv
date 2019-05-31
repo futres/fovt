@@ -1,0 +1,3 @@
+label,ID,Method,Related entities,Ignore,Exclude
+distal region,BSPO:0000078,locality,,,
+proximal region,BSPO:0000077,locality,,,

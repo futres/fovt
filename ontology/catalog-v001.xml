@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <uri id="User Entered Import Resolution" name="https://raw.githubusercontent.com/futres/fovt/master/src/imports/bco_fovt_import_module.owl" uri="file:/Users/meghanabalk/GitHub/megbalk/fovt/imports/bco_fovt_import_module.owl"/>
+    <uri id="User Entered Import Resolution" name="https://raw.githubusercontent.com/futres/fovt/master/src/imports/bfo_fovt_import_module.owl" uri="file:/Users/meghanabalk/GitHub/megbalk/fovt/imports/bfo_fovt_import_module.owl"/>
+    <uri id="User Entered Import Resolution" name="https://raw.githubusercontent.com/futres/fovt/master/src/imports/uberon_fovt_import_module.owl" uri="file:/Users/meghanabalk/GitHub/megbalk/fovt/imports/uberon_fovt_import_module.owl"/>
+    <uri id="User Entered Import Resolution" name="https://raw.githubusercontent.com/futres/fovt/master/src/imports/bspo_fovt_import_module.owl" uri="file:/Users/meghanabalk/GitHub/megbalk/fovt/imports/bspo_fovt_import_module.owl"/>
+    <uri id="User Entered Import Resolution" name="https://raw.githubusercontent.com/futres/fovt/master/src/imports/oba_fovt_import_module.owl" uri="file:/Users/meghanabalk/GitHub/megbalk/fovt/imports/oba_fovt_import_module.owl"/>
     <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
-        <uri id="Automatically generated entry, Timestamp=1558499812198" name="https://raw.githubusercontent.com/futres/fovt/master/src/fovt-base.owl/" uri="fovt-raw.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1559339030847" name="https://raw.githubusercontent.com/futres/fovt/master/src/fovt-base.owl/" uri="fovt-raw.owl"/>
     </group>
 </catalog>
