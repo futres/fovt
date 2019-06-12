@@ -13,12 +13,12 @@
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:dc="http://purl.org/dc/elements/1.1/">
-    <owl:Ontology rdf:about="https://raw.githubusercontent.com/futres/fovt/master/src/ontology/fovt-raw.owl">
-        <owl:imports rdf:resource="https://raw.githubusercontent.com/futres/fovt/master/src/imports/bco_fovt_import_module.owl"/>
-        <owl:imports rdf:resource="https://raw.githubusercontent.com/futres/fovt/master/src/imports/oba_fovt_import_module.owl"/>
-        <owl:imports rdf:resource="https://raw.githubusercontent.com/futres/fovt/master/src/imports/bspo_fovt_import_module.owl"/>
-        <owl:imports rdf:resource="https://raw.githubusercontent.com/futres/fovt/master/src/imports/uberon_fovt_import_module.owl"/>
-        <owl:imports rdf:resource="https://raw.githubusercontent.com/futres/fovt/master/src/imports/bfo_fovt_import_module.owl"/>
+    <owl:Ontology rdf:about="https://raw.githubusercontent.com/futres/fovt/master/ontology/fovt-raw.owl">
+        <owl:imports rdf:resource="https://raw.githubusercontent.com/futres/fovt/master/imports/oba_fovt_import_module.owl"/>
+        <owl:imports rdf:resource="https://raw.githubusercontent.com/futres/fovt/master/imports/bco_fovt_import_module.owl"/>
+        <owl:imports rdf:resource="https://raw.githubusercontent.com/futres/fovt/master/imports/bspo_fovt_import_module.owl"/>
+        <owl:imports rdf:resource="https://raw.githubusercontent.com/futres/fovt/master/imports/bfo_fovt_import_module.owl"/>
+        <owl:imports rdf:resource="https://raw.githubusercontent.com/futres/fovt/master/imports/uberon_fovt_import_module.owl"/>
     </owl:Ontology>
     
 
@@ -61,14 +61,18 @@
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000122"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000021"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002387"/>
-                    </owl:Restriction>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000021"/>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002387"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
@@ -86,17 +90,21 @@
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000122"/>
                     <owl:Class>
-                        <owl:complementOf>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <owl:Class>
+                                <owl:complementOf>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000021"/>
+                                    </owl:Restriction>
+                                </owl:complementOf>
+                            </owl:Class>
                             <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000021"/>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002387"/>
                             </owl:Restriction>
-                        </owl:complementOf>
+                        </owl:intersectionOf>
                     </owl:Class>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002387"/>
-                    </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
@@ -122,56 +130,6 @@
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The length of a femur</obo:IAO_0000115>
         <rdfs:label xml:lang="en">femur length</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://raw.githubusercontent.com/futres/fovt/master/src/fovt-base.owl/FOVT_0000005 -->
-
-    <owl:Class rdf:about="https://raw.githubusercontent.com/futres/fovt/master/src/fovt-base.owl/FOVT_0000005">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000122"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0006767"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000981"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/futres/fovt/master/src/fovt-base.owl/FOVT_0000004"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The length of the femur where the anatomical position of the head of the femur is the tallest point</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">femur length to head</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://raw.githubusercontent.com/futres/fovt/master/src/fovt-base.owl/FOVT_0000006 -->
-
-    <owl:Class rdf:about="https://raw.githubusercontent.com/futres/fovt/master/src/fovt-base.owl/FOVT_0000006">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000122"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                        <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/futres/fovt/master/src/fovt-base.owl/FOVT_0000026"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000981"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/futres/fovt/master/src/fovt-base.owl/FOVT_0000004"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The length of the femur where the anatomical position of the head of the femur is not the tallest point and the trochanter major is the highest point</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">femur length to trochanter major</rdfs:label>
     </owl:Class>
     
 
@@ -322,106 +280,6 @@
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The length of the distal epiphysis of the tibia</obo:IAO_0000115>
         <rdfs:label xml:lang="en">distal epiphysis of tibia length</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://raw.githubusercontent.com/futres/fovt/master/src/fovt-base.owl/FOVT_0000014 -->
-
-    <owl:Class rdf:about="https://raw.githubusercontent.com/futres/fovt/master/src/fovt-base.owl/FOVT_0000014">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000122"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                        <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/futres/fovt/master/src/fovt-base.owl/FOVT_0000025"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000976"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0004350"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The length of the humerus where the caput is not the highest point and the pars cranialis is the highest point</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">humerus length to pars cranials</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://raw.githubusercontent.com/futres/fovt/master/src/fovt-base.owl/FOVT_0000015 -->
-
-    <owl:Class rdf:about="https://raw.githubusercontent.com/futres/fovt/master/src/fovt-base.owl/FOVT_0000015">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000122"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                        <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/futres/fovt/master/src/fovt-base.owl/FOVT_0000028"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000976"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0004350"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The length of the humerus where the caput is not the highest point and the lesser tubercle is the highest point</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">humerus length to lesser tubercle</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://raw.githubusercontent.com/futres/fovt/master/src/fovt-base.owl/FOVT_0000016 -->
-
-    <owl:Class rdf:about="https://raw.githubusercontent.com/futres/fovt/master/src/fovt-base.owl/FOVT_0000016">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000122"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                        <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/futres/fovt/master/src/fovt-base.owl/FOVT_0000027"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000976"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0004350"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The length of the humerus where the caput is not the highest point and the greater tubercle is the highest point</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">humerus length to greater tubercle</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://raw.githubusercontent.com/futres/fovt/master/src/fovt-base.owl/FOVT_0000017 -->
-
-    <owl:Class rdf:about="https://raw.githubusercontent.com/futres/fovt/master/src/fovt-base.owl/FOVT_0000017">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000122"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0006801"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000976"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0004350"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The length of a humerus where the caput is the highest point</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">humerus length from caput</rdfs:label>
     </owl:Class>
     
 
@@ -662,6 +520,304 @@
         </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">possibly one of the highest points of humerus</obo:IAO_0000115>
         <rdfs:label xml:lang="en">lesser tubercle</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/futres/fovt/master/src/fovt-base.owl/FOVT_0000029 -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/futres/fovt/master/src/fovt-base.owl/FOVT_0000029">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0006800"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002176"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000144"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002176"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0006801"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">line trochlea of humerus to caput of humerus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/futres/fovt/master/src/fovt-base.owl/FOVT_0000030 -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/futres/fovt/master/src/fovt-base.owl/FOVT_0000030">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0006800"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002176"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000144"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002176"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="https://raw.githubusercontent.com/futres/fovt/master/src/fovt-base.owl/FOVT_0000028"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000976"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">line trochlea of humerus to lesser tubercle</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/futres/fovt/master/src/fovt-base.owl/FOVT_0000031 -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/futres/fovt/master/src/fovt-base.owl/FOVT_0000031">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0006800"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002176"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000144"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002176"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="https://raw.githubusercontent.com/futres/fovt/master/src/fovt-base.owl/FOVT_0000027"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000976"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">line trochlea of humerus to greater tubercle</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/futres/fovt/master/src/fovt-base.owl/FOVT_0000032 -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/futres/fovt/master/src/fovt-base.owl/FOVT_0000032">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0006800"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002176"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000144"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002176"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="https://raw.githubusercontent.com/futres/fovt/master/src/fovt-base.owl/FOVT_0000028"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000976"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">line trochlea of humerus to pars cranialis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/futres/fovt/master/src/fovt-base.owl/FOVT_0000033 -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/futres/fovt/master/src/fovt-base.owl/FOVT_0000033">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000122"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                        <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/futres/fovt/master/src/fovt-base.owl/FOVT_0000029"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0004350"/>
+        <rdfs:label xml:lang="en">length line trochlea of humerus to caput of humerus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/futres/fovt/master/src/fovt-base.owl/FOVT_0000034 -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/futres/fovt/master/src/fovt-base.owl/FOVT_0000034">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000122"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                        <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/futres/fovt/master/src/fovt-base.owl/FOVT_0000030"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0004350"/>
+        <rdfs:label xml:lang="en">length line trochlea of humerus to lesser tubercle</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/futres/fovt/master/src/fovt-base.owl/FOVT_0000035 -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/futres/fovt/master/src/fovt-base.owl/FOVT_0000035">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000122"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                        <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/futres/fovt/master/src/fovt-base.owl/FOVT_0000031"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0004350"/>
+        <rdfs:label xml:lang="en">length line trochlea of humerus to greater tubercle</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/futres/fovt/master/src/fovt-base.owl/FOVT_0000036 -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/futres/fovt/master/src/fovt-base.owl/FOVT_0000036">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000122"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                        <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/futres/fovt/master/src/fovt-base.owl/FOVT_0000032"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0004350"/>
+        <rdfs:label xml:lang="en">length line trochlea of humerus to pars cranialis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/futres/fovt/master/src/fovt-base.owl/FOVT_0000037 -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/futres/fovt/master/src/fovt-base.owl/FOVT_0000037">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0006800"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002176"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0006767"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002176"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0009984"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">line of medial condyle of femur to head of femur</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/futres/fovt/master/src/fovt-base.owl/FOVT_0000038 -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/futres/fovt/master/src/fovt-base.owl/FOVT_0000038">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0006800"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002176"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0009984"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002176"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0002503"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000981"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">line of medial condyle of femur to greater trochanter</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/futres/fovt/master/src/fovt-base.owl/FOVT_0000039 -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/futres/fovt/master/src/fovt-base.owl/FOVT_0000039">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000122"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                        <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/futres/fovt/master/src/fovt-base.owl/FOVT_0000037"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/futres/fovt/master/src/fovt-base.owl/FOVT_0000004"/>
+        <rdfs:label xml:lang="en">length line of medial condyle of femur to head of femur</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/futres/fovt/master/src/fovt-base.owl/FOVT_0000040 -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/futres/fovt/master/src/fovt-base.owl/FOVT_0000040">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000122"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                        <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/futres/fovt/master/src/fovt-base.owl/FOVT_0000038"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/futres/fovt/master/src/fovt-base.owl/FOVT_0000004"/>
+        <rdfs:label xml:lang="en">length line of medial condyle of femur to greater trochanter</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 
