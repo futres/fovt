@@ -27,27 +27,15 @@ FOVT_0000025,Class,'pars cranialis',,possibly one of the highest points of humer
 FOVT_0000026,Class,'trochanter major',,possibly highest point of femur,,'proximal region' and ('part of' some 'femur'),,,
 FOVT_0000027,Class,'greater tubercle',,possibly one of the highest points of humerus,,'proximal region' and ('part of' some 'humerus'),,,
 FOVT_0000028,Class,'lesser tubercle',,possibly one of the highest points of humerus,,'proximal region' and ('part of' some 'humerus'),,,
-FOVT_0000029,Class,'line trochlea of humerus to caput of humerus',,,,'anatomical line'
-'connects' some 'trochlea of humerus'
-'connects' some 'proximal head of humerus',,,
-FOVT_0000030,Class,'line trochlea of humerus to lesser tubercle',,,,'anatomical line'
-'connects' some 'trochlea of humerus'
-'connects' some ('lesser tubercle' and ('part of' some 'humerus')),,,
-FOVT_0000031,Class,'line trochlea of humerus to greater tubercle',,,,'anatomical line'
-'connects' some 'trochlea of humerus'
-'connects' some ('greater tubercle' and ('part of' some 'humerus')),,,
-FOVT_0000032,Class,'line trochlea of humerus to par cranialis',,,,'anatomical line'
-'connects' some 'trochlea of humerus'
-'connects' some ('lesser tubercle' and ('part of' some 'humerus')),,,
+FOVT_0000029,Class,'line trochlea of humerus to caput of humerus',,,,'anatomical line' AND 'connects' some 'trochlea of humerus' AND 'connects' some 'proximal head of humerus',,,
+FOVT_0000030,Class,'line trochlea of humerus to lesser tubercle',,,,'anatomical line' AND 'connects' some 'trochlea of humerus' AND 'connects' some ('lesser tubercle' and ('part of' some 'humerus')),,,
+FOVT_0000031,Class,'line trochlea of humerus to greater tubercle',,,,'anatomical line' AND 'connects' some 'trochlea of humerus' AND 'connects' some ('greater tubercle' and ('part of' some 'humerus')),,,
+FOVT_0000032,Class,'line trochlea of humerus to par cranialis',,,,'anatomical line' AND 'connects' some 'trochlea of humerus' AND 'connects' some ('lesser tubercle' and ('part of' some 'humerus')),,,
 FOVT_0000033,Class,'length line trochlea of humerus to caput of humerus',,,,'humerus length','length' and ('inheres in' some 'line trochlea of humerus to caput of humerus'),,
 FOVT_0000034,Class,'length line trochlea of humerus to lesser tubercle',,,,'humerus length','length' and ('inheres in' some 'line trochlea of humerus to lesser tubercle'),,
 FOVT_0000035,Class,'length line trochlea of humerus to greater tubercle',,,,'humerus length','length' and ('inheres in' some 'line trochlea of humerus to greater tubercle'),,
 FOVT_0000036,Class,'length line trochlea of humerus to par cranialis',,,,'humerus length','length' and ('inheres in' some 'line trochlea of humerus to pars cranialis'),,
-FOVT_0000037,Class,'line of medial condyle of femur to head of femur',,,,'anatomical line'
-'connects' some 'medial condyle of femur'
-'connects' some 'head of femur',,,
-FOVT_0000038,Class,'line of medial condyle of femur to greater trochanter',,,,'anatomical line'
-'connects' some 'medial condyle of femur'
-'connects' some ('greater trochanter' and ('part of' some 'femur')),,,
+FOVT_0000037,Class,'line of medial condyle of femur to head of femur',,,,'anatomical line' AND 'connects' some 'medial condyle of femur' AND 'connects' some 'head of femur',,,
+FOVT_0000038,Class,'line of medial condyle of femur to greater trochanter',,,,'anatomical line' AND 'connects' some 'medial condyle of femur' AND 'connects' some ('greater trochanter' and ('part of' some 'femur')),,,
 FOVT_0000039,Class,'length line of medial condyle of femur to head of femur',,,,'femur length','length' and ('inheres in' some 'line of medial condyle of femur to head of femur'),,
 FOVT_0000040,Class,'length line of medial condyle of femur to greater trochanter',,,,'femur length','length' and ('inheres in' some 'line of medial condyle of femur to greater trochanter'),,
