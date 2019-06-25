@@ -819,6 +819,115 @@
         <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/futres/fovt/master/src/fovt-base.owl/FOVT_0000004"/>
         <rdfs:label xml:lang="en">length line of medial condyle of femur to greater trochanter</rdfs:label>
     </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/futres/fovt/master/src/fovt-base.owl/FOVT_0000041 -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/futres/fovt/master/src/fovt-base.owl/FOVT_0000041">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000122"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001690"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The length of an ear</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">ear length</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/futres/fovt/master/src/fovt-base.owl/FOVT_0000042 -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/futres/fovt/master/src/fovt-base.owl/FOVT_0000042">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0006800"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002176"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002488"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002176"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0036212"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">line from helix of outer ear to intertragus incisure</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/futres/fovt/master/src/fovt-base.owl/FOVT_0000043 -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/futres/fovt/master/src/fovt-base.owl/FOVT_0000043">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000122"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                        <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/futres/fovt/master/src/fovt-base.owl/FOVT_0000042"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/futres/fovt/master/src/fovt-base.owl/FOVT_0000041"/>
+        <rdfs:label xml:lang="en">length line from helix of outer ear to intertragus incisure</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/futres/fovt/master/src/fovt-base.owl/FOVT_0000044 -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/futres/fovt/master/src/fovt-base.owl/FOVT_0000044">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBA_VT0001256"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002415"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0001256"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The length of the body that includes the tail</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">full body length</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/futres/fovt/master/src/fovt-base.owl/FOVT_0000045 -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/futres/fovt/master/src/fovt-base.owl/FOVT_0000045">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBA_VT0001256"/>
+                    <owl:Class>
+                        <owl:complementOf>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002415"/>
+                            </owl:Restriction>
+                        </owl:complementOf>
+                    </owl:Class>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0001256"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The length of the body that includes the tail</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">body length without tail</rdfs:label>
+    </owl:Class>
 </rdf:RDF>
 
 
