@@ -6,7 +6,6 @@ FOVT_0000004,Class,'femur length',,The length of a femur,,,'length' and ('inhere
 FOVT_0000005,Class,'femur length to head',,The length of the femur where the anatomical position of the head of the femur is the tallest point,,'femur length','length' and ('inheres in' some 'femur' and ('has part' some 'head of femur')),,Y
 FOVT_0000006,Class,'femur length to trochanter major',,The length of the femur where the anatomical position of the head of the femur is not the tallest point and the trochanter major is the highest point,,'femur length','length' and ('inheres in' some 'femur' and ('has part' some 'trochanter major')),,Y
 FOVT_0000007,Class,'femur circumference',,The circumference of a femur,,,'circumference' and ('inheres in' some 'femur'),,
-FOVT_0000008,Class,'tibia length',,The length of a tibia,,,'length' and ('inheres in' some 'tibia'),,
 FOVT_0000009,Class,'tibia proximal breadth',,The width of the proximal region of the tibia,,,'width' and ('inheres in' some 'distal epiphysis of tibia'),,
 FOVT_0000010,Class,'tibia distal depth',,The depth of the distal region of the tibia,,,'depth' and ('inheres in' some ('distal region' and ('part of' some 'tibia'))),,
 FOVT_0000011,Class,'proximal epiphysis of tibia length',,The length of the proximal epiphysis of the tibia,,,'length' and ('inheres in' some 'proximal epiphysis of tibia'),,
@@ -18,7 +17,6 @@ FOVT_0000016,Class,'humerus length to greater tubercle',,The length of the humer
 FOVT_0000017,Class,'humerus length from caput',,The length of a humerus where the caput is the highest point,,'humerus length','length' and ('inheres in' some 'humerus' and ('has part' some 'proximal head of humerus')),,Y
 FOVT_0000018,Class,'humerus circumference',,The circumference of a humerus,,,'circumference' and ('inheres in' some 'humerus'),,
 FOVT_0000019,Class,'humerus tubercle width',,The width of the tubercle of the humerus,,,'width' and ('inheres in' some 'ventral tubercle of humerus'),,
-FOVT_0000020,Class,'radius length',,The length of a radius,,,'length' and ('inheres in' some 'radius bone'),,
 FOVT_0000021,Class,'distal radius breadth',,The width of the distal epiphyses of the radius,,,'width' and ('inheres in' some ('distal region' and ('part of' some 'radius bone'))),,
 FOVT_0000022,Class,'olecranon length',,The length of the olecranon,,,'length' and ('inheres in' some 'olecranon'),,
 FOVT_0000023,Class,'olecranon width',,The width of the olecranon,,,'width' and ('inheres in' some 'olecranon'),,
