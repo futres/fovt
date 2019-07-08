@@ -6,6 +6,7 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:core="http://purl.obolibrary.org/obo/core#"
+     xmlns:ncbitaxon="http://purl.obolibrary.org/obo/ncbitaxon#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
@@ -16,6 +17,7 @@
     <owl:Ontology rdf:about="https://raw.githubusercontent.com/futres/fovt/master/ontology/fovt-raw.owl">
         <owl:imports rdf:resource="https://raw.githubusercontent.com/futres/fovt/master/imports/oba_fovt_import_module.owl"/>
         <owl:imports rdf:resource="https://raw.githubusercontent.com/futres/fovt/master/imports/bco_fovt_import_module.owl"/>
+        <owl:imports rdf:resource="https://raw.githubusercontent.com/futres/fovt/master/imports/iao_fovt_import_module.owl"/>
         <owl:imports rdf:resource="https://raw.githubusercontent.com/futres/fovt/master/imports/bspo_fovt_import_module.owl"/>
         <owl:imports rdf:resource="https://raw.githubusercontent.com/futres/fovt/master/imports/bfo_fovt_import_module.owl"/>
         <owl:imports rdf:resource="https://raw.githubusercontent.com/futres/fovt/master/imports/uberon_fovt_import_module.owl"/>
@@ -927,6 +929,42 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0001256"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The length of the body that includes the tail</obo:IAO_0000115>
         <rdfs:label xml:lang="en">body length without tail</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/futres/fovt/master/src/fovt-base.owl/FOVT_0001000 -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/futres/fovt/master/src/fovt-base.owl/FOVT_0001000">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BCO_0000003"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                        <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/futres/fovt/master/src/fovt-base.owl/FOVT_0001001"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IAO_0000109"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BCO_0000003"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An observing process that measures a trait of a vertebrate organism. May measure an actual organism or an image of an organism.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">vertebrate trait observing process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/futres/fovt/master/src/fovt-base.owl/FOVT_0001001 -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/futres/fovt/master/src/fovt-base.owl/FOVT_0001001">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_33208"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An individual organism that belongs to the group Vertebrata.</obo:IAO_0000115>
+        <rdfs:comment xml:lang="en">to be replaced by term from NCBI_taxon</rdfs:comment>
+        <rdfs:label xml:lang="en">vertebrate organism</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 

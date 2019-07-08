@@ -1,7 +1,7 @@
 Name,IRI,Entities file,Ignore
 Basic Formal Ontology,http://purl.obolibrary.org/obo/bfo.owl,bfo_fovt_entities.csv,
 IAO Ontology Metadata,http://purl.obolibrary.org/obo/iao/ontology-metadata.owl,,Y
-Information Artifact Ontology,http://purl.obolibrary.org/obo/iao.owl,,Y
+Information Artifact Ontology,http://purl.obolibrary.org/obo/iao.owl,iao_fovt_entities.csv,
 Ontology for Biomedical Investigations,http://purl.obolibrary.org/obo/obi.owl,,Y
 Biocollections Ontology,http://purl.obolibrary.org/obo/bco.owl,bco_fovt_entities.csv,
 Population and Community Ontology,http://purl.obolibrary.org/obo/pco.owl,,Y

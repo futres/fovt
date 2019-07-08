@@ -44,3 +44,5 @@ FOVT_0000042,Class,'line from helix of outer ear to intertragus incisure',,,,'an
 FOVT_0000043,Class,'length line from helix of outer ear to intertragus incisure',,,,'ear length','length' and ('inheres in' some 'line from helix of outer ear to intertragus incisure'),,
 FOVT_0000044,Class,'full body length',,The length of the body that includes the tail,,'body length','body length' and ('has part' some 'tail'),,
 FOVT_0000045,Class,'body length without tail',,The length of the body that includes the tail,,'body length','body length' and (not('has part' some 'tail')),,
+FOVT_0001000,Class,'vertebrate trait observing process',BCO:0000003,An observing process that measures a trait of a vertebrate organism. May measure an actual organism or an image of an organism.,,,'observing process' and ('has_specified_input' some 'vertebrate organism') and ('has_specified_output' some 'measurement datum'),,
+FOVT_0001001,Class,'vertebrate organism',NCBITaxon:33208,An individual organism that belongs to the group Vertebrata.,to be replaced by term from NCBI_taxon,,,,

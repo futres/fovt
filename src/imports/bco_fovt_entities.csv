@@ -1,2 +1,5 @@
 label,ID,Exclude,Method,Related entities,Ignore
 observing process,BCO:0000003,,single,ancestors,
+Metazoa,NCBITaxon:33208,,single,ancestors,
+has_specified_input,OBI:0000293,,locality,ancestors,
+has_specified_output,OBI:0000299,,locality,ancestors,
