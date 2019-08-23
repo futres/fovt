@@ -45,4 +45,4 @@ FOVT_0000045,Class,'body length without tail',,The length of the body that inclu
 FOVT_0001000,Class,'vertebrate trait observing process',BCO:0000003,An observing process that measures a trait of a vertebrate organism. May measure an actual organism or an image of an organism.,,,'observing process' and ('has_specified_input' some 'vertebrate organism') and ('has_specified_output' some 'measurement datum'),,
 FOVT_0001001,Class,'vertebrate organism',NCBITaxon:33208,An individual organism that belongs to the group Vertebrata.,to be replaced by term from NCBI_taxon,,,,
 FOVT_0001002,Class,'secondary canine width',,Width of a canine tooth,,,'width' and ('inheres in' some 'secondary canine tooth'),,
-FOVT_0001003,Class, 'upper secondary canine width',,Width of the upper canine tooth,,,'width' and ('inheres in' some 'upper secondary canine tooth'),,
+FOVT_0001003,Class, 'upper secondary canine width',,Width of the upper canine tooth,,'secondary canine width','width' and ('inheres in' some 'upper secondary canine tooth'),,
