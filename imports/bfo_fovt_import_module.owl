@@ -9,7 +9,7 @@
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:dc="http://purl.org/dc/elements/1.1/">
     <owl:Ontology rdf:about="https://raw.githubusercontent.com/futres/fovt/master/imports/bfo_fovt_import_module.owl">
-        <dc:source rdf:resource="http://purl.obolibrary.org/obo/bfo/2019-02-21/bfo.owl"/>
+        <dc:source rdf:resource="http://purl.obolibrary.org/obo/bfo/2019-08-26/bfo.owl"/>
     </owl:Ontology>
     
 
