@@ -51,6 +51,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The length of a hind foot</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">Reference Test</obo:IAO_0000119>
         <rdfs:label xml:lang="en">hind foot length</rdfs:label>
     </owl:Class>
     
@@ -987,6 +988,14 @@
         <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/futres/fovt/master/src/fovt-base.owl/FOVT_0001002"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Width of the lower canine tooth</obo:IAO_0000115>
         <rdfs:label xml:lang="en">lower secondary canine width</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/futres/fovt/master/src/fovt-base.owl/FOVT_0001005 -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/futres/fovt/master/src/fovt-base.owl/FOVT_0001005">
+        <rdfs:label xml:lang="en">new&apos;</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 
