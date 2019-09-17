@@ -26,7 +26,7 @@ FOVT_0000026,Class,'trochanter major',,possibly highest point of femur,,'proxima
 FOVT_0000027,Class,'greater tubercle',,possibly one of the highest points of humerus,,'proximal region' and ('part of' some 'humerus'),,,,
 FOVT_0000028,Class,'lesser tubercle',,possibly one of the highest points of humerus,,'proximal region' and ('part of' some 'humerus'),,,,
 FOVT_0000029,Class,'line trochlea of humerus to caput of humerus',,,,'anatomical line';'connects' some 'trochlea of humerus';'connects' some 'proximal head of humerus',,,,
-FOVT_0000030,Class,'line trochlea of humerus to lesser tubercle',,,,'anatomical line';'connects' some 'trochlea of humerus';'connects' some ('lesser tubercle' and ('part of' some 'humerus')),,,,
+FOVT_0000030,Class,'line trochlea of humerus to lesser tubercle',,,,'anatomical line' AND 'connects' some 'trochlea of humerus';'connects' some ('lesser tubercle' and ('part of' some 'humerus')),,,,
 FOVT_0000031,Class,'line trochlea of humerus to greater tubercle',,,,'anatomical line';'connects' some 'trochlea of humerus';'connects' some ('greater tubercle' and ('part of' some 'humerus')),,,,
 FOVT_0000032,Class,'line trochlea of humerus to pars cranialis',,,,'anatomical line';'connects' some 'trochlea of humerus';'connects' some ('lesser tubercle' and ('part of' some 'humerus')),,,,
 FOVT_0000033,Class,'length line trochlea of humerus to caput of humerus',,,,'humerus length','length' and ('inheres in' some 'line trochlea of humerus to caput of humerus'),,,
