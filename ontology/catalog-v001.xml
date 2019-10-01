@@ -7,8 +7,8 @@
     <uri id="User Entered Import Resolution" name="https://raw.githubusercontent.com/futres/fovt/master/src/imports/bspo_fovt_import_module.owl" uri="file:/Users/meghanabalk/GitHub/megbalk/fovt/imports/bspo_fovt_import_module.owl"/>
     <uri id="User Entered Import Resolution" name="https://raw.githubusercontent.com/futres/fovt/master/src/imports/oba_fovt_import_module.owl" uri="file:/Users/meghanabalk/GitHub/megbalk/fovt/imports/oba_fovt_import_module.owl"/>
     <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
-        <uri id="Automatically generated entry, Timestamp=1569777708362" name="duplicate:https://raw.githubusercontent.com/futres/fovt/master/src/fovt-base.owl/" uri="fovt-merged-reasoned.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1569777708362" name="duplicate:https://raw.githubusercontent.com/futres/fovt/master/src/fovt-base.owl/" uri="fovt-merged.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1569777708362" name="duplicate:https://raw.githubusercontent.com/futres/fovt/master/src/fovt-base.owl/" uri="fovt-raw.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1569928226832" name="duplicate:https://raw.githubusercontent.com/futres/fovt/master/src/fovt-base.owl/" uri="fovt-merged-reasoned.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1569928226832" name="duplicate:https://raw.githubusercontent.com/futres/fovt/master/src/fovt-base.owl/" uri="fovt-merged.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1569928226832" name="duplicate:https://raw.githubusercontent.com/futres/fovt/master/src/fovt-base.owl/" uri="fovt-raw.owl"/>
     </group>
 </catalog>

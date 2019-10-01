@@ -51,7 +51,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The length of a hind foot</obo:IAO_0000115>
-        <obo:IAO_0000119 xml:lang="en">test ref</obo:IAO_0000119>
         <rdfs:label xml:lang="en">hind foot length</rdfs:label>
     </owl:Class>
     
@@ -80,6 +79,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The length of a hind foot that includes a cutaneous appendage</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">Ansell, W. F. H. (1965). Standardisation of Field Data on Mammals. Zoologica Africana, 1(1), 97‚Äì113. doi: 10.1080/00445096.1965.11447303</obo:IAO_0000119>
         <rdfs:label xml:lang="en">hind foot length with claw</rdfs:label>
     </owl:Class>
     
@@ -112,6 +112,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The length of a hind foot that does not include a cutaneous appendage</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">Ansell, W. F. H. (1965). Standardisation of Field Data on Mammals. Zoologica Africana, 1(1), 97‚Äì113. doi: 10.1080/00445096.1965.11447303</obo:IAO_0000119>
         <rdfs:label xml:lang="en">hind foot length without claw</rdfs:label>
     </owl:Class>
     
@@ -152,6 +153,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The circumference of a femur</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">Driesch Angela Von den. (1976). A guide to the measurement of animal bones from archaeological sites. Cambridge: Peabody Museum of Archaeology and Ethnology, Harvard University.</obo:IAO_0000119>
         <rdfs:label xml:lang="en">femur circumference</rdfs:label>
     </owl:Class>
     
@@ -172,6 +174,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The width of the proximal region of the tibia</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">Driesch Angela Von den. (1976). A guide to the measurement of animal bones from archaeological sites. Cambridge: Peabody Museum of Archaeology and Ethnology, Harvard University.</obo:IAO_0000119>
         <rdfs:label xml:lang="en">tibia proximal breadth</rdfs:label>
     </owl:Class>
     
@@ -202,6 +205,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The depth of the distal region of the tibia</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">Driesch Angela Von den. (1976). A guide to the measurement of animal bones from archaeological sites. Cambridge: Peabody Museum of Archaeology and Ethnology, Harvard University.</obo:IAO_0000119>
         <rdfs:label xml:lang="en">tibia distal depth</rdfs:label>
     </owl:Class>
     
@@ -222,6 +226,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The length of the proximal epiphysis of the tibia</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">Woodburne, M. O., Sondaar, P., &amp; Eisenmann Ve_ra. (1988). Studying fossil horses: collected papers after the &quot;New York International Hipparion Conference, 1981&quot;. Leiden: Brill.</obo:IAO_0000119>
         <rdfs:label xml:lang="en">proximal epiphysis of tibia length</rdfs:label>
     </owl:Class>
     
@@ -262,6 +267,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The length of the distal epiphysis of the tibia</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">Woodburne, M. O., Sondaar, P., &amp; Eisenmann Ve_ra. (1988). Studying fossil horses: collected papers after the &quot;New York International Hipparion Conference, 1981&quot;. Leiden: Brill.</obo:IAO_0000119>
         <rdfs:label xml:lang="en">distal epiphysis of tibia length</rdfs:label>
     </owl:Class>
     
@@ -302,6 +308,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The width of the tubercle of the humerus</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">Driesch Angela Von den. (1976). A guide to the measurement of animal bones from archaeological sites. Cambridge: Peabody Museum of Archaeology and Ethnology, Harvard University.</obo:IAO_0000119>
         <rdfs:label xml:lang="en">humerus tubercle width</rdfs:label>
     </owl:Class>
     
@@ -332,6 +339,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The width of the distal epiphyses of the radius</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">Driesch Angela Von den. (1976). A guide to the measurement of animal bones from archaeological sites. Cambridge: Peabody Museum of Archaeology and Ethnology, Harvard University.</obo:IAO_0000119>
         <rdfs:label xml:lang="en">distal radius breadth</rdfs:label>
     </owl:Class>
     
@@ -352,6 +360,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The length of the olecranon</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">Driesch Angela Von den. (1976). A guide to the measurement of animal bones from archaeological sites. Cambridge: Peabody Museum of Archaeology and Ethnology, Harvard University.</obo:IAO_0000119>
         <rdfs:label xml:lang="en">olecranon length</rdfs:label>
     </owl:Class>
     
@@ -372,6 +381,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The width of the olecranon</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">Driesch Angela Von den. (1976). A guide to the measurement of animal bones from archaeological sites. Cambridge: Peabody Museum of Archaeology and Ethnology, Harvard University.</obo:IAO_0000119>
         <rdfs:label xml:lang="en">olecranon width</rdfs:label>
     </owl:Class>
     
@@ -402,6 +412,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The breadth of the proximal metacarpal</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">Driesch Angela Von den. (1976). A guide to the measurement of animal bones from archaeological sites. Cambridge: Peabody Museum of Archaeology and Ethnology, Harvard University.</obo:IAO_0000119>
         <rdfs:label xml:lang="en">metacarpal proximal breadth</rdfs:label>
     </owl:Class>
     
@@ -490,19 +501,22 @@
     <!-- https://raw.githubusercontent.com/futres/fovt/master/src/fovt-base.owl/FOVT_0000029 -->
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/futres/fovt/master/src/fovt-base.owl/FOVT_0000029">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0006800"/>
         <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002176"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000144"/>
-            </owl:Restriction>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0006800"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002176"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000144"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002176"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0006801"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
         </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002176"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0006801"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
+        <obo:IAO_0000119 xml:lang="en">Driesch Angela Von den. (1976). A guide to the measurement of animal bones from archaeological sites. Cambridge: Peabody Museum of Archaeology and Ethnology, Harvard University.</obo:IAO_0000119>
         <rdfs:label xml:lang="en">line trochlea of humerus to caput of humerus</rdfs:label>
     </owl:Class>
     
@@ -511,28 +525,30 @@
     <!-- https://raw.githubusercontent.com/futres/fovt/master/src/fovt-base.owl/FOVT_0000030 -->
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/futres/fovt/master/src/fovt-base.owl/FOVT_0000030">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0006800"/>
         <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002176"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000144"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002176"/>
-                <owl:someValuesFrom>
-                    <owl:Class>
-                        <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="https://raw.githubusercontent.com/futres/fovt/master/src/fovt-base.owl/FOVT_0000028"/>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000976"/>
-                            </owl:Restriction>
-                        </owl:intersectionOf>
-                    </owl:Class>
-                </owl:someValuesFrom>
-            </owl:Restriction>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0006800"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002176"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000144"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002176"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="https://raw.githubusercontent.com/futres/fovt/master/src/fovt-base.owl/FOVT_0000028"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000976"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
         </rdfs:subClassOf>
         <rdfs:label xml:lang="en">line trochlea of humerus to lesser tubercle</rdfs:label>
     </owl:Class>
@@ -542,29 +558,32 @@
     <!-- https://raw.githubusercontent.com/futres/fovt/master/src/fovt-base.owl/FOVT_0000031 -->
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/futres/fovt/master/src/fovt-base.owl/FOVT_0000031">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0006800"/>
         <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002176"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000144"/>
-            </owl:Restriction>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0006800"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002176"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000144"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002176"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="https://raw.githubusercontent.com/futres/fovt/master/src/fovt-base.owl/FOVT_0000027"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000976"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
         </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002176"/>
-                <owl:someValuesFrom>
-                    <owl:Class>
-                        <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="https://raw.githubusercontent.com/futres/fovt/master/src/fovt-base.owl/FOVT_0000027"/>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000976"/>
-                            </owl:Restriction>
-                        </owl:intersectionOf>
-                    </owl:Class>
-                </owl:someValuesFrom>
-            </owl:Restriction>
-        </rdfs:subClassOf>
+        <obo:IAO_0000119 xml:lang="en">Driesch Angela Von den. (1976). A guide to the measurement of animal bones from archaeological sites. Cambridge: Peabody Museum of Archaeology and Ethnology, Harvard University.</obo:IAO_0000119>
         <rdfs:label xml:lang="en">line trochlea of humerus to greater tubercle</rdfs:label>
     </owl:Class>
     
@@ -573,29 +592,32 @@
     <!-- https://raw.githubusercontent.com/futres/fovt/master/src/fovt-base.owl/FOVT_0000032 -->
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/futres/fovt/master/src/fovt-base.owl/FOVT_0000032">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0006800"/>
         <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002176"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000144"/>
-            </owl:Restriction>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0006800"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002176"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000144"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002176"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="https://raw.githubusercontent.com/futres/fovt/master/src/fovt-base.owl/FOVT_0000028"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000976"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
         </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002176"/>
-                <owl:someValuesFrom>
-                    <owl:Class>
-                        <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="https://raw.githubusercontent.com/futres/fovt/master/src/fovt-base.owl/FOVT_0000028"/>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000976"/>
-                            </owl:Restriction>
-                        </owl:intersectionOf>
-                    </owl:Class>
-                </owl:someValuesFrom>
-            </owl:Restriction>
-        </rdfs:subClassOf>
+        <obo:IAO_0000119 xml:lang="en">Driesch Angela Von den. (1976). A guide to the measurement of animal bones from archaeological sites. Cambridge: Peabody Museum of Archaeology and Ethnology, Harvard University.</obo:IAO_0000119>
         <rdfs:label xml:lang="en">line trochlea of humerus to pars cranialis</rdfs:label>
     </owl:Class>
     
@@ -616,6 +638,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0004350"/>
+        <obo:IAO_0000119 xml:lang="en">Driesch Angela Von den. (1976). A guide to the measurement of animal bones from archaeological sites. Cambridge: Peabody Museum of Archaeology and Ethnology, Harvard University.</obo:IAO_0000119>
         <rdfs:label xml:lang="en">length line trochlea of humerus to caput of humerus</rdfs:label>
     </owl:Class>
     
@@ -656,6 +679,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0004350"/>
+        <obo:IAO_0000119 xml:lang="en">Driesch Angela Von den. (1976). A guide to the measurement of animal bones from archaeological sites. Cambridge: Peabody Museum of Archaeology and Ethnology, Harvard University.</obo:IAO_0000119>
         <rdfs:label xml:lang="en">length line trochlea of humerus to greater tubercle</rdfs:label>
     </owl:Class>
     
@@ -676,6 +700,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0004350"/>
+        <obo:IAO_0000119 xml:lang="en">Driesch Angela Von den. (1976). A guide to the measurement of animal bones from archaeological sites. Cambridge: Peabody Museum of Archaeology and Ethnology, Harvard University.</obo:IAO_0000119>
         <rdfs:label xml:lang="en">length line trochlea of humerus to pars cranialis</rdfs:label>
     </owl:Class>
     
@@ -684,19 +709,22 @@
     <!-- https://raw.githubusercontent.com/futres/fovt/master/src/fovt-base.owl/FOVT_0000037 -->
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/futres/fovt/master/src/fovt-base.owl/FOVT_0000037">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0006800"/>
         <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002176"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0006767"/>
-            </owl:Restriction>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0006800"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002176"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0006767"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002176"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0009984"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
         </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002176"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0009984"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
+        <obo:IAO_0000119 xml:lang="en">Driesch Angela Von den. (1976). A guide to the measurement of animal bones from archaeological sites. Cambridge: Peabody Museum of Archaeology and Ethnology, Harvard University.</obo:IAO_0000119>
         <rdfs:label xml:lang="en">line of medial condyle of femur to head of femur</rdfs:label>
     </owl:Class>
     
@@ -705,29 +733,32 @@
     <!-- https://raw.githubusercontent.com/futres/fovt/master/src/fovt-base.owl/FOVT_0000038 -->
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/futres/fovt/master/src/fovt-base.owl/FOVT_0000038">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0006800"/>
         <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002176"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0009984"/>
-            </owl:Restriction>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0006800"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002176"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0009984"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002176"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0002503"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000981"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
         </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002176"/>
-                <owl:someValuesFrom>
-                    <owl:Class>
-                        <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0002503"/>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000981"/>
-                            </owl:Restriction>
-                        </owl:intersectionOf>
-                    </owl:Class>
-                </owl:someValuesFrom>
-            </owl:Restriction>
-        </rdfs:subClassOf>
+        <obo:IAO_0000119 xml:lang="en">Driesch Angela Von den. (1976). A guide to the measurement of animal bones from archaeological sites. Cambridge: Peabody Museum of Archaeology and Ethnology, Harvard University.</obo:IAO_0000119>
         <rdfs:label xml:lang="en">line of medial condyle of femur to greater trochanter</rdfs:label>
     </owl:Class>
     
@@ -748,6 +779,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/futres/fovt/master/src/fovt-base.owl/FOVT_0000004"/>
+        <obo:IAO_0000119 xml:lang="en">Driesch Angela Von den. (1976). A guide to the measurement of animal bones from archaeological sites. Cambridge: Peabody Museum of Archaeology and Ethnology, Harvard University.</obo:IAO_0000119>
         <rdfs:label xml:lang="en">length line of medial condyle of femur to head of femur</rdfs:label>
     </owl:Class>
     
@@ -768,6 +800,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/futres/fovt/master/src/fovt-base.owl/FOVT_0000004"/>
+        <obo:IAO_0000119 xml:lang="en">Driesch Angela Von den. (1976). A guide to the measurement of animal bones from archaeological sites. Cambridge: Peabody Museum of Archaeology and Ethnology, Harvard University.</obo:IAO_0000119>
         <rdfs:label xml:lang="en">length line of medial condyle of femur to greater trochanter</rdfs:label>
     </owl:Class>
     
@@ -788,6 +821,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The length of an ear</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">Ansell, W. F. H. (1965). Standardisation of Field Data on Mammals. Zoologica Africana, 1(1), 97‚Äì113. doi: 10.1080/00445096.1965.11447303</obo:IAO_0000119>
         <rdfs:label xml:lang="en">ear length</rdfs:label>
     </owl:Class>
     
@@ -796,19 +830,22 @@
     <!-- https://raw.githubusercontent.com/futres/fovt/master/src/fovt-base.owl/FOVT_0000042 -->
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/futres/fovt/master/src/fovt-base.owl/FOVT_0000042">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0006800"/>
         <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002176"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002488"/>
-            </owl:Restriction>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0006800"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002176"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002488"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002176"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0036212"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
         </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002176"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0036212"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
+        <obo:IAO_0000119 xml:lang="en">Ansell, W. F. H. (1965). Standardisation of Field Data on Mammals. Zoologica Africana, 1(1), 97‚Äì113. doi: 10.1080/00445096.1965.11447303</obo:IAO_0000119>
         <rdfs:label xml:lang="en">line from helix of outer ear to intertragus incisure</rdfs:label>
     </owl:Class>
     
@@ -829,6 +866,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/futres/fovt/master/src/fovt-base.owl/FOVT_0000041"/>
+        <obo:IAO_0000119 xml:lang="en">Ansell, W. F. H. (1965). Standardisation of Field Data on Mammals. Zoologica Africana, 1(1), 97‚Äì113. doi: 10.1080/00445096.1965.11447303</obo:IAO_0000119>
         <rdfs:label xml:lang="en">length line from helix of outer ear to intertragus incisure</rdfs:label>
     </owl:Class>
     
@@ -850,6 +888,7 @@
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0001256"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The length of the body that includes the tail</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">Ansell, W. F. H. (1965). Standardisation of Field Data on Mammals. Zoologica Africana, 1(1), 97‚Äì113. doi: 10.1080/00445096.1965.11447303</obo:IAO_0000119>
         <rdfs:label xml:lang="en">full body length</rdfs:label>
     </owl:Class>
     
@@ -875,6 +914,7 @@
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0001256"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The length of the body that includes the tail</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">Ansell, W. F. H. (1965). Standardisation of Field Data on Mammals. Zoologica Africana, 1(1), 97‚Äì113. doi: 10.1080/00445096.1965.11447303</obo:IAO_0000119>
         <rdfs:label xml:lang="en">body length without tail</rdfs:label>
     </owl:Class>
     
@@ -952,6 +992,7 @@
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/futres/fovt/master/src/fovt-base.owl/FOVT_0001002"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Width of the upper canine tooth</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">Lillegraven, J. A. 1969. Latest Cretaceous mammals of the upper part of Edmonton Formation of Alberta, Canada, and review of marsupial-placental dichotomy in mammalian evolution. University of Kansas Paleontological Contributions 50:1-122.</obo:IAO_0000119>
         <rdfs:label xml:lang="en">upper secondary canine width</rdfs:label>
     </owl:Class>
     
@@ -973,6 +1014,7 @@
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/futres/fovt/master/src/fovt-base.owl/FOVT_0001002"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Width of the lower canine tooth</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">Lillegraven, J. A. 1969. Latest Cretaceous mammals of the upper part of Edmonton Formation of Alberta, Canada, and review of marsupial-placental dichotomy in mammalian evolution. University of Kansas Paleontological Contributions 50:1-122.</obo:IAO_0000119>
         <rdfs:label xml:lang="en">lower secondary canine width</rdfs:label>
     </owl:Class>
 </rdf:RDF>
