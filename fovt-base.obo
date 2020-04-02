@@ -1,0 +1,12 @@
+format-version: 1.2
+data-version: fovt/releases/2020-04-02/fovt-base.owl
+ontology: fovt/fovt-base
+property_value: http://purl.org/dc/elements/1.1/description "None" xsd:string
+property_value: http://purl.org/dc/elements/1.1/title "FuTRES Ontology of Vertebrate Traits" xsd:string
+property_value: http://purl.org/dc/elements/1.1/type http://purl.obolibrary.org/obo/IAO_8000001 xsd:string
+property_value: http://purl.org/dc/terms/license https://creativecommons.org/licenses/unspecified
+
+[Term]
+id: FOVT:00000000
+name: root node
+
