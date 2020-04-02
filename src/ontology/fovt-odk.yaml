@@ -1,0 +1,14 @@
+id: fovt
+title: FuTRES Ontology of Vertebrate Traits
+github_org: futres
+repo: fovt
+import_group:
+  products:
+    - id: ro
+    - id: bfo
+    - id: pato
+    - id: oba
+    - id: bspo
+    - id: iao
+    - id: bco
+    - id: uberon
