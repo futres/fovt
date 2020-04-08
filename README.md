@@ -1,9 +1,9 @@
 [![Build Status](https://travis-ci.org/futres/fovt.svg?branch=master)](https://travis-ci.org/futres/fovt)
 [![DOI](https://zenodo.org/badge/13996/futres/fovt.svg)](https://zenodo.org/badge/latestdoi/13996/futres/fovt)
 
-# FuTRES Ontology of Vertebrate Traits
+# FuTRES Ontology of Vertebrate Traits (FOVT)
 
-This ontology... YOUR DESCRIPTION HERE
+This ontology is to map measureable vertebrate traits. We leverage the BCO (http://www.obofoundry.org/ontology/bco.html) to link observations of individual specimens to their trait values.
 
 More information can be found at http://obofoundry.org/ontology/fovt
 
