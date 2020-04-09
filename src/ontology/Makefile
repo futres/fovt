@@ -70,7 +70,8 @@ all_main: $(MAIN_FILES)
 ## By default this is the cross-product of IMPORT_MODULES x FORMATS
 
 
-IMPORTS =  ro bfo pato oba bspo iao bco uberon
+#IMPORTS =  ro bfo pato oba bspo iao bco uberon
+IMPORTS =  oba bco 
 
 IMPORT_ROOTS = $(patsubst %, imports/%_import, $(IMPORTS))
 IMPORT_OWL_FILES = $(foreach n,$(IMPORT_ROOTS), $(n).owl)
@@ -243,32 +244,32 @@ MIR=true # Global parameter to bypass mirror generation
 
 ## ONTOLOGY: ro
 ## Copy of ro is re-downloaded whenever source changes
-mirror/ro.trigger: $(SRC)
+#mirror/ro.trigger: $(SRC)
 
-mirror/ro.owl: mirror/ro.trigger
-	@if [ $(MIR) = true ] && [ $(IMP) = true ]; then $(ROBOT) convert -I $(URIBASE)/ro.owl -o $@.tmp.owl && mv $@.tmp.owl $@; fi
+#mirror/ro.owl: mirror/ro.trigger
+#	@if [ $(MIR) = true ] && [ $(IMP) = true ]; then $(ROBOT) convert -I $(URIBASE)/ro.owl -o $@.tmp.owl && mv $@.tmp.owl $@; fi
 
-.PRECIOUS: mirror/%.owl
+#.PRECIOUS: mirror/%.owl
 
 
 ## ONTOLOGY: bfo
 ## Copy of bfo is re-downloaded whenever source changes
-mirror/bfo.trigger: $(SRC)
+#mirror/bfo.trigger: $(SRC)
 
-mirror/bfo.owl: mirror/bfo.trigger
-	@if [ $(MIR) = true ] && [ $(IMP) = true ]; then $(ROBOT) convert -I $(URIBASE)/bfo.owl -o $@.tmp.owl && mv $@.tmp.owl $@; fi
+#mirror/bfo.owl: mirror/bfo.trigger
+#	@if [ $(MIR) = true ] && [ $(IMP) = true ]; then $(ROBOT) convert -I $(URIBASE)/bfo.owl -o $@.tmp.owl && mv $@.tmp.owl $@; fi
 
-.PRECIOUS: mirror/%.owl
+#.PRECIOUS: mirror/%.owl
 
 
 ## ONTOLOGY: pato
 ## Copy of pato is re-downloaded whenever source changes
-mirror/pato.trigger: $(SRC)
+#mirror/pato.trigger: $(SRC)
 
-mirror/pato.owl: mirror/pato.trigger
-	@if [ $(MIR) = true ] && [ $(IMP) = true ]; then $(ROBOT) convert -I $(URIBASE)/pato.owl -o $@.tmp.owl && mv $@.tmp.owl $@; fi
+#mirror/pato.owl: mirror/pato.trigger
+#	@if [ $(MIR) = true ] && [ $(IMP) = true ]; then $(ROBOT) convert -I $(URIBASE)/pato.owl -o $@.tmp.owl && mv $@.tmp.owl $@; fi
 
-.PRECIOUS: mirror/%.owl
+#.PRECIOUS: mirror/%.owl
 
 
 ## ONTOLOGY: oba
@@ -283,22 +284,22 @@ mirror/oba.owl: mirror/oba.trigger
 
 ## ONTOLOGY: bspo
 ## Copy of bspo is re-downloaded whenever source changes
-mirror/bspo.trigger: $(SRC)
+#mirror/bspo.trigger: $(SRC)
 
-mirror/bspo.owl: mirror/bspo.trigger
-	@if [ $(MIR) = true ] && [ $(IMP) = true ]; then $(ROBOT) convert -I $(URIBASE)/bspo.owl -o $@.tmp.owl && mv $@.tmp.owl $@; fi
+#mirror/bspo.owl: mirror/bspo.trigger
+#	@if [ $(MIR) = true ] && [ $(IMP) = true ]; then $(ROBOT) convert -I $(URIBASE)/bspo.owl -o $@.tmp.owl && mv $@.tmp.owl $@; fi
 
-.PRECIOUS: mirror/%.owl
+#.PRECIOUS: mirror/%.owl
 
 
 ## ONTOLOGY: iao
 ## Copy of iao is re-downloaded whenever source changes
-mirror/iao.trigger: $(SRC)
+#mirror/iao.trigger: $(SRC)
 
-mirror/iao.owl: mirror/iao.trigger
-	@if [ $(MIR) = true ] && [ $(IMP) = true ]; then $(ROBOT) convert -I $(URIBASE)/iao.owl -o $@.tmp.owl && mv $@.tmp.owl $@; fi
+#mirror/iao.owl: mirror/iao.trigger
+#	@if [ $(MIR) = true ] && [ $(IMP) = true ]; then $(ROBOT) convert -I $(URIBASE)/iao.owl -o $@.tmp.owl && mv $@.tmp.owl $@; fi
 
-.PRECIOUS: mirror/%.owl
+#.PRECIOUS: mirror/%.owl
 
 
 ## ONTOLOGY: bco
@@ -313,12 +314,12 @@ mirror/bco.owl: mirror/bco.trigger
 
 ## ONTOLOGY: uberon
 ## Copy of uberon is re-downloaded whenever source changes
-mirror/uberon.trigger: $(SRC)
+#mirror/uberon.trigger: $(SRC)
 
-mirror/uberon.owl: mirror/uberon.trigger
-	@if [ $(MIR) = true ] && [ $(IMP) = true ]; then $(ROBOT) convert -I $(URIBASE)/uberon.owl -o $@.tmp.owl && mv $@.tmp.owl $@; fi
+#mirror/uberon.owl: mirror/uberon.trigger
+#	@if [ $(MIR) = true ] && [ $(IMP) = true ]; then $(ROBOT) convert -I $(URIBASE)/uberon.owl -o $@.tmp.owl && mv $@.tmp.owl $@; fi
 
-.PRECIOUS: mirror/%.owl
+#.PRECIOUS: mirror/%.owl
 
 
 
