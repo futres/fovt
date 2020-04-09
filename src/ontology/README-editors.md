@@ -56,21 +56,18 @@ For now, consult the [GO Tutorial on configuring Protege](http://go-protege-tuto
 
 ## Imports
 
-All import modules are in the [imports/](imports/) folder.
+All import modules ready for release are in the root [imports/](../../imports/) folder.
 
-There are two ways to include new classes in an import module
+Each ontology that you want to import from must be specified in the makefile. This is done automatically when you set up the repo with ODK, but if you want to import from a new ontology, you need to add it to the makefile in several places.
 
- 1. Reference an external ontology class in the edit ontology. In Protege: "add new entity", then paste in the PURL
- 2. Add to the imports/fovt_terms.txt file
+Terms to be imported from each ontology are in text files in the src directory under /fovt/src/ontology/imports, e.g., /fovt/src/ontology/imports/iao_terms.txt.
 
-After doing this, you can run
+Note: the $ontology_terms.txt files created by ODK may include 'starter' classes seeded from
+the ontology starter kit. These were removed and replaced with the terms BCO needs to import.
 
-`./run.sh make all_imports`
+Import files for edit version are stored under /bco/src/ontology/imports. To make the import files while editing, run `sh ./run.sh make all_imports` from within /fovt/src/ontology. This stores the new files in `/fovt/src/ontology/imports` with today's data in the release IRI.
 
-to regenerate imports.
-
-Note: the fovt_terms.txt file may include 'starter' classes seeded from
-the ontology starter kit. It is safe to remove these.
+To make import files for a release, run `sh run.sh make prepare_release`. This checks for newer versions of the import source ontologies and stores them locally, then creates new import files (unless you have specified otherwise in your makefile) which are stored at `/fovt/imports`.
 
 ## Design patterns
 
