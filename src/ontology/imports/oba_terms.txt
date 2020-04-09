@@ -1,4 +1,4 @@
-OBA:0000000
-OBA:0000001
-OBA:0000002
+OBA:0003439 #ear size
+OBA:1000048 #manus length
+OBA:1000049 #pes length
 
