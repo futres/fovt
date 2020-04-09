@@ -1,2 +1,2 @@
-http://purl.obolibrary.org/obo/BCO_0000081
+BCO:0000003 #observing process
 
