@@ -1,27 +1,13 @@
 OBA:0003439	#ear size
 OBA:1000048	#manus length
 OBA:1000049	#pes length
-UBERON:0000976	#humerus
-UBERON:0005813	#tubercle
-PATO:0000921	#width
-PATO:0001595	#depth
-PATO:0001648	#circumference
-http://purl.obolibrary.org/obo/OBA_VT0001256	#body length
-UBERON:0004411	#proximal epiphysis of humerus
+OBA:VT0001256	#body length
 OBA:0002716	#distal epiphysis of radius size
 OBA:0003298	#proximal epiphysis of tibia size
-UBERON:0004405	#distal epiphysis of tibia
-UBERON:0009678	#tooth row
-UBERON:0000021	#cutaneous appendage
-UBERON:0002374	#metacarpal bone
-UBERON:0006810	#olecranon
-UBERON:0001423	#radius bone
-http://purl.obolibrary.org/obo/OBA_VT0004350	#humerus length
-http://purl.obolibrary.org/obo/OBA_VT0001259	#body mass
-http://purl.obolibrary.org/obo/OBA_VT0002758	#tail length
+OBA:VT0004350	#humerus length
+OBA:VT0001259	#body mass
+OBA:VT0002758	#tail length
 OBA:0002017	#gonad size trait
 OBA:0002225	#diastema between upper entral incisors length
-http://purl.obolibrary.org/obo/OBA_VT0001253	#body height
-http://purl.obolibrary.org/obo/UBERON_0012128	#nose tip
-http://purl.obolibrary.org/obo/UBERON_0006077	#subdivision of vertebral column
-http://purl.obolibrary.org/obo/UBERON_0001449	#phalanx of pes
+OBA:VT0001253	#body height
+
