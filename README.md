@@ -3,7 +3,7 @@
 
 # FuTRES Ontology of Vertebrate Traits (FOVT)
 
-This ontology is to map measureable vertebrate traits. We leverage the BioCollections Ontology ([BCO](http://purl.obofoundry.org/ontology/bco.owl)) to link observations of individual specimens to their trait values. Traits are defined in the Ontology of Biological Attributes ([OBA](http://purl.obofoundry.org/ontology/oba.owl)).
+This ontology is to map measurable vertebrate traits. We leverage the BioCollections Ontology ([BCO](http://purl.obofoundry.org/ontology/bco.owl)) to link observations of individual specimens to their trait values. Traits are defined in the Ontology of Biological Attributes ([OBA](http://purl.obofoundry.org/ontology/oba.owl)).
 
 More information on the ontology can be found at http://obofoundry.org/ontology/fovt (once ontology is registered).
 
