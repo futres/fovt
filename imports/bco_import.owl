@@ -13,7 +13,7 @@
      xmlns:ncbitaxon="http://purl.obolibrary.org/obo/ncbitaxon#"
      xmlns:attributes="http://rs.tdwg.org/dwc/terms/attributes/">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/fovt/imports/bco_import.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/fovt/releases/2020-04-02/imports/bco_import.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/fovt/releases/2020-04-13/imports/bco_import.owl"/>
     </owl:Ontology>
     
 
@@ -26,6 +26,12 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BCO_0000057 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/BCO_0000057"/>
     
 
 
@@ -155,9 +161,50 @@
     
 
 
+    <!-- http://purl.org/dc/elements/1.1/creator -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/date -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/date"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/description -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/description">
+        <dc:description xml:lang="en-us">Description may include but is not limited to: an abstract,
+         table of contents, reference to a graphical representation
+         of content or a free-text account of the content.</dc:description>
+        <rdfs:comment xml:lang="en-us">An account of the content of the resource.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/elements/1.1/"/>
+        <rdfs:label>Description</rdfs:label>
+        <rdfs:label xml:lang="en-us">Description</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
     <!-- http://purl.org/dc/elements/1.1/source -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/source"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/title -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/title">
+        <dc:description xml:lang="en-us">
+        Typically, a Title will be a name by which the resource is
+         formally known.
+    </dc:description>
+        <rdfs:comment xml:lang="en-us">A name given to the resource.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/elements/1.1/"/>
+        <rdfs:label>Title</rdfs:label>
+        <rdfs:label xml:lang="en-us">Title</rdfs:label>
+    </owl:AnnotationProperty>
     
 
 
@@ -176,6 +223,15 @@
     <!-- http://purl.org/dc/terms/issued -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/issued"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/license -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license">
+        <obo:IAO_0000117>Mark Miller</obo:IAO_0000117>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-05-11T13:47:29Z</dc:date>
+    </owl:AnnotationProperty>
     
 
 
@@ -764,6 +820,68 @@ every c that is a concretization of g specifically denotes r</obo:IAO_0000116>
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BCO_0000003 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BCO_0000003">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:BCO_0000057 xml:lang="en">sighting</obo:BCO_0000057>
+        <obo:IAO_0000112>A trip camera capture of an image of a jaguar is an observation, because it is &quot;selected&quot; by the camera as worthy of obsevation simply by virtue of moving in front of the camera.</obo:IAO_0000112>
+        <obo:IAO_0000112>Observing and recording the presence or absence of butterflies during a transect walk.</obo:IAO_0000112>
+        <obo:IAO_0000112>Seeing three pelicans flying overhead on Christmas day and report them as part of the Christmas Bird Count.</obo:IAO_0000112>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
+        <obo:IAO_0000115>A process in which a person or machine sees or detects a material entity and selects it as worthy of observation, and which has as output an information content entity about the selected material entity.</obo:IAO_0000115>
+        <obo:IAO_0000116>This class replaces class bco_0000003, which was made obsolete because of identifier format.</obo:IAO_0000116>
+        <obo:IAO_0000116>We are having conversation with OBI developers about how this term relates to OBI:assay (). Is it equivalent, broader, narrower? What does it mean to be the input to an observation.</obo:IAO_0000116>
+        <dc:creator>Biocode Commons Ontology Hackathon</dc:creator>
+        <rdfs:comment xml:lang="en">An observing process is distinguished from a specimen collecting process in by having an information content entity as an output rather than a specimen. The information artifact may be written or recorded or just be stored in someone&apos;s head (specifically depenedent upon that person). In the context of a taxonomic inventory, an observing process may be called a sighting, which is an ad hoc reporting of, typically, a single taxon occurrence, usually motivated by rarity, individual interest in the taxon, or atypicality of circumstances.</rdfs:comment>
+        <rdfs:label xml:lang="en">observing process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BCO_0000046 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BCO_0000046">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000023"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000054"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BCO_0000003"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000054"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BCO_0000003"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000112 xml:lang="en">the role borne by a bird during a Christmas Bird Count</obo:IAO_0000112>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
+        <obo:IAO_0000115>A role that is borne by some material entity and is realized by the material entity being the input of an observing process.</obo:IAO_0000115>
+        <obo:IAO_0000116>This term replaced bco_0000046, which was made obsolete because of incorrect identifier format.</obo:IAO_0000116>
+        <dc:creator>Biocode Commons Ontology Hackathon</dc:creator>
+        <rdfs:label xml:lang="en">material target of observation role</rdfs:label>
+    </owl:Class>
     
 
 
