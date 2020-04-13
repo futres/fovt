@@ -1,35 +1,22 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
-<group id="Folder Repository, directory=, recursive=false, Auto-Update=false, version=2" prefer="public" xml:base="">
-
-  
-  <uri name="http://purl.obolibrary.org/obo/fovt/imports/ro_import.owl" uri="imports/ro_import.owl"/>
-  <uri name="http://purl.obolibrary.org/obo/fovt/imports/ro_import.obo" uri="imports/ro_import.obo"/>
-  
-  <uri name="http://purl.obolibrary.org/obo/fovt/imports/bfo_import.owl" uri="imports/bfo_import.owl"/>
-  <uri name="http://purl.obolibrary.org/obo/fovt/imports/bfo_import.obo" uri="imports/bfo_import.obo"/>
-  
-  <uri name="http://purl.obolibrary.org/obo/fovt/imports/pato_import.owl" uri="imports/pato_import.owl"/>
-  <uri name="http://purl.obolibrary.org/obo/fovt/imports/pato_import.obo" uri="imports/pato_import.obo"/>
-  
-  <uri name="http://purl.obolibrary.org/obo/fovt/imports/oba_import.owl" uri="imports/oba_import.owl"/>
-  <uri name="http://purl.obolibrary.org/obo/fovt/imports/oba_import.obo" uri="imports/oba_import.obo"/>
-  
-  <uri name="http://purl.obolibrary.org/obo/fovt/imports/bspo_import.owl" uri="imports/bspo_import.owl"/>
-  <uri name="http://purl.obolibrary.org/obo/fovt/imports/bspo_import.obo" uri="imports/bspo_import.obo"/>
-  
-  <uri name="http://purl.obolibrary.org/obo/fovt/imports/iao_import.owl" uri="imports/iao_import.owl"/>
-  <uri name="http://purl.obolibrary.org/obo/fovt/imports/iao_import.obo" uri="imports/iao_import.obo"/>
-  
-  <uri name="http://purl.obolibrary.org/obo/fovt/imports/bco_import.owl" uri="imports/bco_import.owl"/>
-  <uri name="http://purl.obolibrary.org/obo/fovt/imports/bco_import.obo" uri="imports/bco_import.obo"/>
-  
-  <uri name="http://purl.obolibrary.org/obo/fovt/imports/uberon_import.owl" uri="imports/uberon_import.owl"/>
-  <uri name="http://purl.obolibrary.org/obo/fovt/imports/uberon_import.obo" uri="imports/uberon_import.obo"/>
-  
-
-
-  
-
-</group>
+    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/iao/2019-08-26/ontology-metadata.owl" uri="http://purl.obolibrary.org/obo/iao/ontology-metadata.owl"/>
+    <group id="Folder Repository, directory=, recursive=false, Auto-Update=false, version=2" prefer="public" xml:base="">
+        <uri name="http://purl.obolibrary.org/obo/fovt/imports/ro_import.owl" uri="imports/ro_import.owl"/>
+        <uri name="http://purl.obolibrary.org/obo/fovt/imports/ro_import.obo" uri="imports/ro_import.obo"/>
+        <uri name="http://purl.obolibrary.org/obo/fovt/imports/bfo_import.owl" uri="imports/bfo_import.owl"/>
+        <uri name="http://purl.obolibrary.org/obo/fovt/imports/bfo_import.obo" uri="imports/bfo_import.obo"/>
+        <uri name="http://purl.obolibrary.org/obo/fovt/imports/pato_import.owl" uri="imports/pato_import.owl"/>
+        <uri name="http://purl.obolibrary.org/obo/fovt/imports/pato_import.obo" uri="imports/pato_import.obo"/>
+        <uri name="http://purl.obolibrary.org/obo/fovt/imports/oba_import.owl" uri="imports/oba_import.owl"/>
+        <uri name="http://purl.obolibrary.org/obo/fovt/imports/oba_import.obo" uri="imports/oba_import.obo"/>
+        <uri name="http://purl.obolibrary.org/obo/fovt/imports/bspo_import.owl" uri="imports/bspo_import.owl"/>
+        <uri name="http://purl.obolibrary.org/obo/fovt/imports/bspo_import.obo" uri="imports/bspo_import.obo"/>
+        <uri name="http://purl.obolibrary.org/obo/fovt/imports/iao_import.owl" uri="imports/iao_import.owl"/>
+        <uri name="http://purl.obolibrary.org/obo/fovt/imports/iao_import.obo" uri="imports/iao_import.obo"/>
+        <uri name="http://purl.obolibrary.org/obo/fovt/imports/bco_import.owl" uri="imports/bco_import.owl"/>
+        <uri name="http://purl.obolibrary.org/obo/fovt/imports/bco_import.obo" uri="imports/bco_import.obo"/>
+        <uri name="http://purl.obolibrary.org/obo/fovt/imports/uberon_import.owl" uri="imports/uberon_import.owl"/>
+        <uri name="http://purl.obolibrary.org/obo/fovt/imports/uberon_import.obo" uri="imports/uberon_import.obo"/>
+    </group>
 </catalog>
