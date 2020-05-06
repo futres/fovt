@@ -43,3 +43,5 @@ activity_status: active
 ---
 
 FuTRES Ontology of Vertebrate Traits is an application ontology used to convert vertebrate trait data in spreadsheet to triples. FOVT leverages the BioCollections Ontology (BCO) to link observations of individual specimens to their trait values. Traits are defined in the Ontology of Biological Attributes (OBA).
+
+For more details on FOVT, see https://futres.org/.
