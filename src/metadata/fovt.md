@@ -10,39 +10,35 @@ build:
   system: git
   path: "."
 contact:
-  email: 
-  label: 
-  github: 
-description: FuTRES Ontology of Vertebrate Traits is an ontology...
-domain: stuff
+  email: rlwalls2008@gmail.com
+  label: FuTRES Ontology of Vertebrate Traits
+  github: https://github.com/futres/fovt
+description: FuTRES Ontology of Vertebrate Traits is an application ontology used to convert vertebrate trait data in spreadsheet to triples. FOVT leverages the BioCollections Ontology (BCO) to link observations of individual specimens to their trait values. Traits are defined in the Ontology of Biological Attributes (OBA).
+domain: vertebrate traits
 homepage: https://github.com/futres/fovt
 products:
   - id: fovt.owl
     name: "FuTRES Ontology of Vertebrate Traits main release in OWL format"
   - id: fovt.obo
     name: "FuTRES Ontology of Vertebrate Traits additional release in OBO format"
-  - id: fovt.json
-    name: "FuTRES Ontology of Vertebrate Traits additional release in OBOJSon format"
   - id: fovt/fovt-base.owl
     name: "FuTRES Ontology of Vertebrate Traits main release in OWL format"
   - id: fovt/fovt-base.obo
     name: "FuTRES Ontology of Vertebrate Traits additional release in OBO format"
-  - id: fovt/fovt-base.json
-    name: "FuTRES Ontology of Vertebrate Traits additional release in OBOJSon format"
 dependencies:
+- id: bco
+- id: oba
 - id: ro
 - id: bfo
 - id: pato
-- id: oba
 - id: bspo
 - id: iao
-- id: bco
 - id: uberon
 
 tracker: https://github.com/futres/fovt/issues
 license:
-  url: http://creativecommons.org/licenses/by/3.0/
-  label: CC-BY
+  url: https://creativecommons.org/publicdomain/zero/1.0/
+  label: CC0
 activity_status: active
 ---
 
