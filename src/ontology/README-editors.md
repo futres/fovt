@@ -177,6 +177,16 @@ correct ontologies. Try it!
 
 For questions on this contact Chris Mungall or email obo-admin AT obofoundry.org
 
+# Requesting an OBO Foundry PURL
+
+This only needs to be done once, but you may need to edit the metadata or yaml files during the life of the ontology.
+
+Instructions for requesting the namespace and PURL are at https://github.com/futres/fovt/tree/master/src/metadata.
+
+# License
+
+The repo does not come with a license. To add one, in the home directory, create a new file called LICENSE. Once you have named the file, GitHub will automatically offer you the option to choose a license. We have chosen CC0. Be sure to update ../metadata/fovt.md with the correct license information.
+
 # Travis Continuous Integration System
 
 Check the build status here: [![Build Status](https://travis-ci.org/futres/fovt.svg?branch=master)](https://travis-ci.org/futres/fovt)
