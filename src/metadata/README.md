@@ -1,4 +1,6 @@
-Metadata files for the OBO Library
+Metadata files for the OBO Library.
+
+Be sure that these files contain the correct information before creating them in OBOFoundry.github.io.
 
  * [fovt.yml](fovt.yml)
      * Determines how your purl.obolibrary.org/obo/fovt/ redirects will be handled
