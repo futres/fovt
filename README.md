@@ -14,11 +14,13 @@ More information on FuTRES is available at https://futres.org/.
 1. Check if needed parts of term are in UBERON or OBA. 
 2. Add needed part of term to UBERON (7500000-7999999).
 3. Import and add terms to OBA.
-4. Import terms to FOVT, and link to <a href="https://geome-db.org/workbench/template"> GEOME</a>.
+4. Import terms to FOVT, and import to <a href="https://geome-db.org/workbench/template"> GEOME</a>.
 
 ### Term Requests
 
-New term requests can be made by creating an issue. Please provide anatomical feature, anatomical points and/or anatomical axis, and measurement (e.g., width, length, etc.). 
+New term requests can be made by creating an issue. 
+
+Please provide anatomical feature, anatomical points and/or anatomical axis, and measurement (e.g., width, length, etc.). 
 
 ## Versions
 
