@@ -16,11 +16,15 @@ More information on FuTRES is available at https://futres.org/.
 3. Import and add terms to OBA.
 4. Import terms to FOVT, and import to <a href="https://geome-db.org/workbench/template"> GEOME</a> see @JDeck88.
 
-### Term Requests
+## Term Requests
 
 New term requests can be made by creating an issue. 
 
-Please provide anatomical feature, anatomical points and/or anatomical axis, and measurement (e.g., width, length, etc.). 
+Please provide:
+1. anatomical feature
+2. anatomical points and/or anatomical axis
+3. measurement (e.g., width, length, etc.)
+4. reference for measurement
 
 ## Versions
 
