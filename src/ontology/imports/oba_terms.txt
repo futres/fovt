@@ -1,13 +1,17 @@
-OBA:0003439	#ear size
-OBA:1000048	#manus length
-OBA:1000049	#pes length
-OBA:VT0001256	#body length
-OBA:0002716	#distal epiphysis of radius size
-OBA:0003298	#proximal epiphysis of tibia size
-OBA:VT0004350	#humerus length
-OBA:VT0001259	#body mass
-OBA:VT0002758	#tail length
-OBA:0002017	#gonad size trait
-OBA:0002225	#diastema between upper entral incisors length
 OBA:VT0001253	#body height
-
+OBA:VT0001256	#body length
+OBA:VT0001259	#body mass
+OBA:0003439		#ear size
+OBA:0002225		#diastema between upper central incisors length
+OBA:VT0004350	#humerus length
+OBA:1000048		#manus length
+OBA:1000049		#pes length
+OBA:VT0002758	#tail length
+OBA:VT0004348	#femur length
+OBA:0003426		#external ear length
+OBA:VT0005110	#talus size trait
+OBA:0003330		#calcaneous size trait
+OBA:VT1000289	#tibia width
+OBA:VT0004357	#tibia length
+UBERON:0009678 	#tooth row
+PATO:0001595	#depth
