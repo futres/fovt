@@ -71,7 +71,7 @@ all_main: $(MAIN_FILES)
 
 
 #IMPORTS =  ro bfo pato oba bspo iao bco uberon
-IMPORTS =  oba bco 
+IMPORTS =  oba bco uberon
 
 IMPORT_ROOTS = $(patsubst %, imports/%_import, $(IMPORTS))
 IMPORT_OWL_FILES = $(foreach n,$(IMPORT_ROOTS), $(n).owl)
