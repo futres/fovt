@@ -1,1 +1,2 @@
 UBERON:4200181 #astragulus head
+UBERON:0009678 	#tooth row

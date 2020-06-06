@@ -71,7 +71,7 @@ all_main: $(MAIN_FILES)
 
 
 #IMPORTS =  ro bfo pato oba bspo iao bco uberon
-IMPORTS =  oba bco uberon
+IMPORTS =  uberon oba bco
 
 IMPORT_ROOTS = $(patsubst %, imports/%_import, $(IMPORTS))
 IMPORT_OWL_FILES = $(foreach n,$(IMPORT_ROOTS), $(n).owl)
@@ -314,10 +314,10 @@ mirror/bco.owl: mirror/bco.trigger
 
 ## ONTOLOGY: uberon
 ## Copy of uberon is re-downloaded whenever source changes
-#mirror/uberon.trigger: $(SRC)
+mirror/uberon.trigger: $(SRC)
 
-#mirror/uberon.owl: mirror/uberon.trigger
-#	@if [ $(MIR) = true ] && [ $(IMP) = true ]; then $(ROBOT) convert -I $(URIBASE)/uberon.owl -o $@.tmp.owl && mv $@.tmp.owl $@; fi
+mirror/uberon.owl: mirror/uberon.trigger
+	@if [ $(MIR) = true ] && [ $(IMP) = true ]; then $(ROBOT) convert -I $(URIBASE)/uberon.owl -o $@.tmp.owl && mv $@.tmp.owl $@; fi
 
 #.PRECIOUS: mirror/%.owl
 
