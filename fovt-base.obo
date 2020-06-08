@@ -1,12 +1,234 @@
 format-version: 1.2
-data-version: fovt/releases/2020-04-02/fovt-base.owl
+data-version: fovt/releases/2020-06-08/fovt-base.owl
 ontology: fovt/fovt-base
 property_value: http://purl.org/dc/elements/1.1/description "None" xsd:string
+property_value: http://purl.org/dc/elements/1.1/description "These are the terms that are improted for FOVT to describe vertebrate traits." xsd:string
 property_value: http://purl.org/dc/elements/1.1/title "FuTRES Ontology of Vertebrate Traits" xsd:string
 property_value: http://purl.org/dc/elements/1.1/type http://purl.obolibrary.org/obo/IAO_8000001 xsd:string
-property_value: http://purl.org/dc/terms/license https://creativecommons.org/licenses/unspecified
+property_value: http://purl.org/dc/terms/license http://creativecommons.org/publicdomain/zero/1.0/ 
 
 [Term]
-id: FOVT:00000000
-name: root node
+id: FOVT:0000001
+name: body length with tail
+def: "A length measurement of the body that includes the tail." []
+is_a: OBA:VT0001256
+property_value: IAO:0000114 IAO:0000423
+
+[Term]
+id: FOVT:0000002
+name: body length without tail
+def: "A length measurement of the body that does not include the tail." []
+is_a: OBA:VT0001256
+property_value: IAO:0000114 IAO:0000423
+
+[Term]
+id: FOVT:0000003
+name: hind foot length with claw
+def: "A length measurement of a hind foot that includes a cutaneous appendage." []
+synonym: "pes length with claw" EXACT []
+is_a: OBA:1000049
+property_value: IAO:0000114 IAO:0000423
+
+[Term]
+id: FOVT:0000004
+name: hind foot length without claw
+def: "A length measurement of a hind foot that excludes a cutaneous appendage." []
+synonym: "pes length without claw" EXACT []
+is_a: OBA:1000049
+property_value: IAO:0000114 IAO:0000423
+
+[Term]
+id: FOVT:0000005
+name: ear length to notch
+def: "The length of a line of an ear from a helix of the outer ear to an intertragus insicusure of an ear." []
+synonym: "ear length" BROAD []
+synonym: "ear notch" EXACT []
+is_a: OBA:0003426
+property_value: IAO:0000114 IAO:0000423
+
+[Term]
+id: FOVT:0000006
+name: femur length to greater trochanter
+def: "The length of a line of a femur from a medial condyle of a femur to a greater trochanter of a femur." []
+synonym: "femur length" BROAD []
+is_a: OBA:VT0004348
+property_value: IAO:0000114 IAO:0000423
+
+[Term]
+id: FOVT:0000007
+name: femur length to head of femur
+def: "The length of a line of a femur from a medial condyle of a femur to a head of a femur." []
+synonym: "femur length" BROAD []
+is_a: OBA:VT0004348
+property_value: IAO:0000114 IAO:0000423
+
+[Term]
+id: FOVT:0000008
+name: humerus length to caput of humerus
+def: "The length of a line of a trochlea of a humerus to a proximal head of a humerus." []
+synonym: "humerus length" BROAD []
+is_a: OBA:VT0004350
+property_value: IAO:0000114 IAO:0000423
+
+[Term]
+id: FOVT:0000009
+name: humerus length to ventral tubercle
+def: "The length of a line of a trochlea of a humerus to a ventral tubercle of a humerus." []
+synonym: "humerus length" BROAD []
+is_a: OBA:VT0004350
+property_value: IAO:0000114 IAO:0000423
+
+[Term]
+id: FOVT:0000010
+name: width of astragalus head
+def: "Medial-lateral width of the distal end of an astragalus." []
+synonym: "astragalus greatest breadth distal" EXACT []
+synonym: "talus head width" EXACT []
+is_a: PATO:0000921
+intersection_of: PATO:0000921
+intersection_of: RO:0000052 UBERON:4200181
+property_value: IAO:0000114 IAO:0000423
+
+[Term]
+id: FOVT:0000012
+name: width of the trochlea of talus
+def: "Length between the proximal-most points of the medial and lateral trochlear ridges of an astragalus." []
+synonym: "breadth of the trochlea" EXACT []
+synonym: "breadth of the trochlea of talus" EXACT []
+is_a: PATO:0000921
+property_value: IAO:0000114 IAO:0000423
+
+[Term]
+id: FOVT:0000013
+name: depth of the lateral side of talus
+def: "Depth of the lateral ridge of a trochlea of an astragalus." []
+is_a: PATO:0001595
+property_value: IAO:0000114 IAO:0000423
+
+[Term]
+id: FOVT:0000014
+name: depth of the medial side of talus
+def: "Depth of the medial ridge of a trochlea of an astragalus." []
+is_a: PATO:0001595
+property_value: IAO:0000114 IAO:0000423
+
+[Term]
+id: FOVT:0000015
+name: length of the lateral side of talus
+def: "Length of the lateral side of an astragalus." []
+is_a: PATO:0000122
+property_value: IAO:0000114 IAO:0000423
+
+[Term]
+id: FOVT:0000016
+name: length of the medial side of talus
+def: "Length of the medial side of an astragalus." []
+is_a: PATO:0000122
+property_value: IAO:0000114 IAO:0000423
+
+[Term]
+id: FOVT:0000017
+name: distal articular breadth
+def: "The length of a line between the medial-most point on the articular surface for the calcaneum on the astragalus to the lateral-most point of the trochleated head of an astragalus." []
+synonym: "length of line between the medial-most point of the articular surface for the calcaneum on the talus to the lateral-most point of the trochleated head on talus" EXACT []
+is_a: PATO:0000921
+property_value: IAO:0000114 IAO:0000423
+
+[Term]
+id: FOVT:0000018
+name: distal articular depth
+def: "Length of the distal end of an astragalus along the cranial-caudal axis." []
+synonym: "length of line connecting the posterior-most point ot the anterior-most point of the trochleated head on talus" EXACT []
+is_a: PATO:0001595
+property_value: IAO:0000114 IAO:0000423
+
+[Term]
+id: FOVT:0000020
+name: talus length
+def: "The length of a talus." []
+synonym: "astragulus width" EXACT []
+is_a: PATO:0000122
+intersection_of: PATO:0000122
+intersection_of: RO:0000052 UBERON:0002395
+property_value: IAO:0000114 IAO:0000423
+
+[Term]
+id: FOVT:0000021
+name: talus width
+def: "The width of a talus." []
+synonym: "astragalus width" EXACT []
+is_a: PATO:0000921
+intersection_of: PATO:0000921
+intersection_of: RO:0000052 UBERON:0002395
+property_value: IAO:0000114 IAO:0000423
+
+[Term]
+id: FOVT:0000022
+name: calcaneus length
+def: "The length of a calcaneus." []
+is_a: PATO:0000122
+intersection_of: PATO:0000122
+intersection_of: RO:0000052 UBERON:0001450
+property_value: IAO:0000114 IAO:0000423
+
+[Term]
+id: FOVT:0000023
+name: calcaneus width
+def: "The width of a caclcaneus." []
+is_a: PATO:0000921
+property_value: IAO:0000114 IAO:0000423
+
+[Term]
+id: FOVT:0000025
+name: length of the lateral side of tibia
+def: "The length of the lateral side of a tibia." []
+is_a: PATO:0000122
+property_value: IAO:0000114 IAO:0000423
+
+[Term]
+id: FOVT:0000026
+name: width of shaft of tibia
+def: "The width of shaft of a tibia." []
+synonym: "tibia width" BROAD []
+is_a: PATO:0000921
+property_value: IAO:0000114 IAO:0000423
+
+[Term]
+id: FOVT:0000027
+name: width of proximal end of tibia
+def: "The width of the proximal end of a tibia." []
+synonym: "breadth of proximal end of tibia" EXACT []
+is_a: PATO:0000921
+property_value: IAO:0000114 IAO:0000423
+
+[Term]
+id: FOVT:0000028
+name: width of distal end of tibia
+def: "The width of the distal end of a tibia." []
+synonym: "breadth of distal end of tibia" EXACT []
+is_a: PATO:0000921
+property_value: IAO:0000114 IAO:0000423
+
+[Term]
+id: FOVT:0000029
+name: depth of distal end of tibia
+def: "The depth of the distal end of a tibia." []
+is_a: PATO:0001595
+property_value: IAO:0000114 IAO:0000423
+
+[Term]
+id: FOVT:0000030
+name: tooth row length
+def: "The lenght of a tooth row." []
+is_a: PATO:0000122
+intersection_of: PATO:0000122
+intersection_of: RO:0000052 UBERON:0009678
+property_value: IAO:0000114 IAO:0000423
+
+[Term]
+id: FOVT:0000032
+name: snout-vent length
+def: "Body length measured from tip of nose to cloaca." []
+is_a: OBA:VT0001256
+property_value: IAO:0000114 IAO:0000423
 
