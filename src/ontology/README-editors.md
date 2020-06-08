@@ -122,11 +122,11 @@ first type
 to make sure you are on master
 
     cd src/ontology
-    ./build.sh
+    sh ./build.sh
 
 If this looks good type:
 
-    ./prepare_release.sh
+    sh ./prepare_release.sh
 
 This generates derived files such as fovt.owl and fovt.obo and places
 them in the top level (../..).
