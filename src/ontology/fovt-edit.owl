@@ -16,7 +16,7 @@ Import(<http://purl.obolibrary.org/obo/iao/2019-08-26/ontology-metadata.owl>)
 Annotation(dce:description "None")
 Annotation(dce:description "These are the terms that are improted for FOVT to describe vertebrate traits."@en)
 Annotation(dce:title "FuTRES Ontology of Vertebrate Traits")
-Annotation(dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/ >)
+Annotation(dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>)
 
 Declaration(Class(<https://purl.obolibrary.org/obo/FOVT_0000001>))
 Declaration(Class(<https://purl.obolibrary.org/obo/FOVT_0000002>))
