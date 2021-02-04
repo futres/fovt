@@ -104,36 +104,36 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(rdfs:label <https://purl.obolibrary.org/obo/FOVT_0000005> "ear length to notch"@en)
 SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0000005> <http://purl.obolibrary.org/obo/OBA_0003426>)
 
-# Class: <https://purl.obolibrary.org/obo/FOVT_0000006> (femur length to greater trochanter)
+# Class: <https://purl.obolibrary.org/obo/FOVT_0000006> (femur length from greater trochanter to medial condyle)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <https://purl.obolibrary.org/obo/FOVT_0000006> <http://purl.obolibrary.org/obo/IAO_0000423>)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.obolibrary.org/obo/FOVT_0000006> "The length of a line of a femur from a medial condyle of a femur to a greater trochanter of a femur.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <https://purl.obolibrary.org/obo/FOVT_0000006> "femur length")
-AnnotationAssertion(rdfs:label <https://purl.obolibrary.org/obo/FOVT_0000006> "femur length to greater trochanter"@en)
+AnnotationAssertion(rdfs:label <https://purl.obolibrary.org/obo/FOVT_0000006> "femur length from greater trochanter to medial condyle"@en)
 SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0000006> <http://purl.obolibrary.org/obo/OBA_VT0004348>)
 
-# Class: <https://purl.obolibrary.org/obo/FOVT_0000007> (femur length to head of femur)
+# Class: <https://purl.obolibrary.org/obo/FOVT_0000007> (femur length from caput to medial condyle)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <https://purl.obolibrary.org/obo/FOVT_0000007> <http://purl.obolibrary.org/obo/IAO_0000423>)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.obolibrary.org/obo/FOVT_0000007> "The length of a line of a femur from a medial condyle of a femur to a head of a femur.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <https://purl.obolibrary.org/obo/FOVT_0000007> "femur length")
-AnnotationAssertion(rdfs:label <https://purl.obolibrary.org/obo/FOVT_0000007> "femur length to head of femur"@en)
+AnnotationAssertion(rdfs:label <https://purl.obolibrary.org/obo/FOVT_0000007> "femur length from caput to medial condyle"@en)
 SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0000007> <http://purl.obolibrary.org/obo/OBA_VT0004348>)
 
-# Class: <https://purl.obolibrary.org/obo/FOVT_0000008> (humerus length to caput of humerus)
+# Class: <https://purl.obolibrary.org/obo/FOVT_0000008> (humerus length from trochlea to caput)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <https://purl.obolibrary.org/obo/FOVT_0000008> <http://purl.obolibrary.org/obo/IAO_0000423>)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.obolibrary.org/obo/FOVT_0000008> "The length of a line of a trochlea of a humerus to a proximal head of a humerus.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <https://purl.obolibrary.org/obo/FOVT_0000008> "humerus length")
-AnnotationAssertion(rdfs:label <https://purl.obolibrary.org/obo/FOVT_0000008> "humerus length to caput of humerus"@en)
+AnnotationAssertion(rdfs:label <https://purl.obolibrary.org/obo/FOVT_0000008> "humerus length from trochlea to caput"@en)
 SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0000008> <http://purl.obolibrary.org/obo/OBA_VT0004350>)
 
-# Class: <https://purl.obolibrary.org/obo/FOVT_0000009> (humerus length to ventral tubercle)
+# Class: <https://purl.obolibrary.org/obo/FOVT_0000009> (humerus length from trochlea to ventral tubercle)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <https://purl.obolibrary.org/obo/FOVT_0000009> <http://purl.obolibrary.org/obo/IAO_0000423>)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.obolibrary.org/obo/FOVT_0000009> "The length of a line of a trochlea of a humerus to a ventral tubercle of a humerus.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <https://purl.obolibrary.org/obo/FOVT_0000009> "humerus length")
-AnnotationAssertion(rdfs:label <https://purl.obolibrary.org/obo/FOVT_0000009> "humerus length to ventral tubercle"@en)
+AnnotationAssertion(rdfs:label <https://purl.obolibrary.org/obo/FOVT_0000009> "humerus length from trochlea to ventral tubercle"@en)
 SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0000009> <http://purl.obolibrary.org/obo/OBA_VT0004350>)
 
 # Class: <https://purl.obolibrary.org/obo/FOVT_0000010> (width of astragalus head)
@@ -155,48 +155,60 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(rdfs:label <https://purl.obolibrary.org/obo/FOVT_0000012> "width of the trochlea of talus"@en)
 SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0000012> <http://purl.obolibrary.org/obo/PATO_0000921>)
 
-# Class: <https://purl.obolibrary.org/obo/FOVT_0000013> (depth of the lateral side of talus)
+# Class: <https://purl.obolibrary.org/obo/FOVT_0000013> (talus length lateral)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <https://purl.obolibrary.org/obo/FOVT_0000013> <http://purl.obolibrary.org/obo/IAO_0000423>)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.obolibrary.org/obo/FOVT_0000013> "Depth of the lateral ridge of a trochlea of an astragalus.")
-AnnotationAssertion(rdfs:label <https://purl.obolibrary.org/obo/FOVT_0000013> "depth of the lateral side of talus"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <https://purl.obolibrary.org/obo/FOVT_0000013> "astragalus length lateral"@en)
+AnnotationAssertion(rdfs:label <https://purl.obolibrary.org/obo/FOVT_0000013> "talus length lateral"@en)
 SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0000013> <http://purl.obolibrary.org/obo/PATO_0001595>)
 
-# Class: <https://purl.obolibrary.org/obo/FOVT_0000014> (depth of the medial side of talus)
+# Class: <https://purl.obolibrary.org/obo/FOVT_0000014> (talus medial breadth)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <https://purl.obolibrary.org/obo/FOVT_0000014> <http://purl.obolibrary.org/obo/IAO_0000423>)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.obolibrary.org/obo/FOVT_0000014> "Depth of the medial ridge of a trochlea of an astragalus.")
-AnnotationAssertion(rdfs:label <https://purl.obolibrary.org/obo/FOVT_0000014> "depth of the medial side of talus"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <https://purl.obolibrary.org/obo/FOVT_0000014> "astragalus medial breadth"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <https://purl.obolibrary.org/obo/FOVT_0000014> "astragalus medial width ML"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <https://purl.obolibrary.org/obo/FOVT_0000014> "talus medial width ML"@en)
+AnnotationAssertion(rdfs:label <https://purl.obolibrary.org/obo/FOVT_0000014> "talus medial breadth"@en)
 SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0000014> <http://purl.obolibrary.org/obo/PATO_0001595>)
 
-# Class: <https://purl.obolibrary.org/obo/FOVT_0000015> (length of the lateral side of talus)
+# Class: <https://purl.obolibrary.org/obo/FOVT_0000015> (obsolete length of the lateral side of talus)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <https://purl.obolibrary.org/obo/FOVT_0000015> <http://purl.obolibrary.org/obo/IAO_0000423>)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.obolibrary.org/obo/FOVT_0000015> "Length of the lateral side of an astragalus.")
-AnnotationAssertion(rdfs:label <https://purl.obolibrary.org/obo/FOVT_0000015> "length of the lateral side of talus"@en)
-SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0000015> <http://purl.obolibrary.org/obo/PATO_0000122>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.obolibrary.org/obo/FOVT_0000015> "OBSOLETE Length of the lateral side of an astragalus.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <https://purl.obolibrary.org/obo/FOVT_0000015> <https://purl.obolibrary.org/obo/FOVT_0000013>)
+AnnotationAssertion(rdfs:comment <https://purl.obolibrary.org/obo/FOVT_0000015> "Redundant term"^^xsd:string)
+AnnotationAssertion(rdfs:label <https://purl.obolibrary.org/obo/FOVT_0000015> "obsolete length of the lateral side of talus"@en)
+AnnotationAssertion(owl:deprecated <https://purl.obolibrary.org/obo/FOVT_0000015> "true"^^xsd:boolean)
 
-# Class: <https://purl.obolibrary.org/obo/FOVT_0000016> (length of the medial side of talus)
+# Class: <https://purl.obolibrary.org/obo/FOVT_0000016> (talus length medial)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <https://purl.obolibrary.org/obo/FOVT_0000016> <http://purl.obolibrary.org/obo/IAO_0000423>)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.obolibrary.org/obo/FOVT_0000016> "Length of the medial side of an astragalus.")
-AnnotationAssertion(rdfs:label <https://purl.obolibrary.org/obo/FOVT_0000016> "length of the medial side of talus"@en)
+AnnotationAssertion(rdfs:label <https://purl.obolibrary.org/obo/FOVT_0000016> "talus length medial"@en)
 SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0000016> <http://purl.obolibrary.org/obo/PATO_0000122>)
 
-# Class: <https://purl.obolibrary.org/obo/FOVT_0000017> (distal articular breadth)
+# Class: <https://purl.obolibrary.org/obo/FOVT_0000017> (talus distal articular breadth)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <https://purl.obolibrary.org/obo/FOVT_0000017> <http://purl.obolibrary.org/obo/IAO_0000423>)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.obolibrary.org/obo/FOVT_0000017> "The length of a line between the medial-most point on the articular surface for the calcaneum on the astragalus to the lateral-most point of the trochleated head of an astragalus.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <https://purl.obolibrary.org/obo/FOVT_0000017> "astragalus distal articular breadth"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <https://purl.obolibrary.org/obo/FOVT_0000017> "astragalus distal articular width ML"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <https://purl.obolibrary.org/obo/FOVT_0000017> "length of line between the medial-most point of the articular surface for the calcaneum on the talus to the lateral-most point of the trochleated head on talus")
-AnnotationAssertion(rdfs:label <https://purl.obolibrary.org/obo/FOVT_0000017> "distal articular breadth"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <https://purl.obolibrary.org/obo/FOVT_0000017> "talus distal articular width ML"@en)
+AnnotationAssertion(rdfs:label <https://purl.obolibrary.org/obo/FOVT_0000017> "talus distal articular breadth"@en)
 SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0000017> <http://purl.obolibrary.org/obo/PATO_0000921>)
 
-# Class: <https://purl.obolibrary.org/obo/FOVT_0000018> (distal articular depth)
+# Class: <https://purl.obolibrary.org/obo/FOVT_0000018> (talus distal articular depth)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <https://purl.obolibrary.org/obo/FOVT_0000018> <http://purl.obolibrary.org/obo/IAO_0000423>)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.obolibrary.org/obo/FOVT_0000018> "Length of the distal end of an astragalus along the cranial-caudal axis.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <https://purl.obolibrary.org/obo/FOVT_0000018> "astragalus distal articular depth"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <https://purl.obolibrary.org/obo/FOVT_0000018> "astragalus distal articular width AP"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <https://purl.obolibrary.org/obo/FOVT_0000018> "length of line connecting the posterior-most point ot the anterior-most point of the trochleated head on talus")
-AnnotationAssertion(rdfs:label <https://purl.obolibrary.org/obo/FOVT_0000018> "distal articular depth"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <https://purl.obolibrary.org/obo/FOVT_0000018> "talus distal articular width AP"@en)
+AnnotationAssertion(rdfs:label <https://purl.obolibrary.org/obo/FOVT_0000018> "talus distal articular depth"@en)
 SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0000018> <http://purl.obolibrary.org/obo/PATO_0001595>)
 
 # Class: <https://purl.obolibrary.org/obo/FOVT_0000020> (talus length)
@@ -234,11 +246,11 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(rdfs:label <https://purl.obolibrary.org/obo/FOVT_0000023> "calcaneus breadth"@en)
 SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0000023> <http://purl.obolibrary.org/obo/PATO_0000921>)
 
-# Class: <https://purl.obolibrary.org/obo/FOVT_0000025> (length of the lateral side of tibia)
+# Class: <https://purl.obolibrary.org/obo/FOVT_0000025> (tibia length lateral)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <https://purl.obolibrary.org/obo/FOVT_0000025> <http://purl.obolibrary.org/obo/IAO_0000423>)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.obolibrary.org/obo/FOVT_0000025> "The length of the lateral side of a tibia.")
-AnnotationAssertion(rdfs:label <https://purl.obolibrary.org/obo/FOVT_0000025> "length of the lateral side of tibia"@en)
+AnnotationAssertion(rdfs:label <https://purl.obolibrary.org/obo/FOVT_0000025> "tibia length lateral"@en)
 SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0000025> <http://purl.obolibrary.org/obo/PATO_0000122>)
 
 # Class: <https://purl.obolibrary.org/obo/FOVT_0000026> (width of shaft of tibia)
@@ -265,11 +277,12 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(rdfs:label <https://purl.obolibrary.org/obo/FOVT_0000028> "width of distal end of tibia"@en)
 SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0000028> <http://purl.obolibrary.org/obo/PATO_0000921>)
 
-# Class: <https://purl.obolibrary.org/obo/FOVT_0000029> (depth of distal end of tibia)
+# Class: <https://purl.obolibrary.org/obo/FOVT_0000029> (tibia distal breadth)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <https://purl.obolibrary.org/obo/FOVT_0000029> <http://purl.obolibrary.org/obo/IAO_0000423>)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.obolibrary.org/obo/FOVT_0000029> "The depth of the distal end of a tibia.")
-AnnotationAssertion(rdfs:label <https://purl.obolibrary.org/obo/FOVT_0000029> "depth of distal end of tibia"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <https://purl.obolibrary.org/obo/FOVT_0000029> "tibia distal width ML")
+AnnotationAssertion(rdfs:label <https://purl.obolibrary.org/obo/FOVT_0000029> "tibia distal breadth"@en)
 SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0000029> <http://purl.obolibrary.org/obo/PATO_0001595>)
 
 # Class: <https://purl.obolibrary.org/obo/FOVT_0000030> (tooth row length)
