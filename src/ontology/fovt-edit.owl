@@ -170,16 +170,16 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <https://purl.o
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.obolibrary.org/obo/FOVT_0000013> "Depth of the lateral ridge of a trochlea of an astragalus.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <https://purl.obolibrary.org/obo/FOVT_0000013> "astragalus length lateral"@en)
 AnnotationAssertion(rdfs:label <https://purl.obolibrary.org/obo/FOVT_0000013> "talus lateral length"@en)
-SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0000013> <http://purl.obolibrary.org/obo/PATO_0001595>)
+SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0000013> <http://purl.obolibrary.org/obo/PATO_0000122>)
 
-# Class: <https://purl.obolibrary.org/obo/FOVT_0000014> (talus medial breadth)
+# Class: <https://purl.obolibrary.org/obo/FOVT_0000014> (talus medial depth)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <https://purl.obolibrary.org/obo/FOVT_0000014> <http://purl.obolibrary.org/obo/IAO_0000423>)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.obolibrary.org/obo/FOVT_0000014> "Depth of the medial ridge of a trochlea of an astragalus.")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <https://purl.obolibrary.org/obo/FOVT_0000014> "astragalus medial breadth"@en)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <https://purl.obolibrary.org/obo/FOVT_0000014> "astragalus medial width ML"@en)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <https://purl.obolibrary.org/obo/FOVT_0000014> "talus medial width ML"@en)
-AnnotationAssertion(rdfs:label <https://purl.obolibrary.org/obo/FOVT_0000014> "talus medial breadth"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.obolibrary.org/obo/FOVT_0000014> "The depth of the medial ridge of a trochlea of an astragalus along the anterior-posterior axis."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <https://purl.obolibrary.org/obo/FOVT_0000014> "astragalus medial depth"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <https://purl.obolibrary.org/obo/FOVT_0000014> "astragalus medial width AP"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <https://purl.obolibrary.org/obo/FOVT_0000014> "talus medial width AP"@en)
+AnnotationAssertion(rdfs:label <https://purl.obolibrary.org/obo/FOVT_0000014> "talus medial depth"@en)
 SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0000014> <http://purl.obolibrary.org/obo/PATO_0001595>)
 
 # Class: <https://purl.obolibrary.org/obo/FOVT_0000015> (obsolete length of the lateral side of talus)
