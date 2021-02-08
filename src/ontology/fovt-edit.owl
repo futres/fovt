@@ -79,7 +79,7 @@ SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0000001> <http://purl.obolibrar
 # Class: <https://purl.obolibrary.org/obo/FOVT_0000002> (body length without tail)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <https://purl.obolibrary.org/obo/FOVT_0000002> <http://purl.obolibrary.org/obo/IAO_0000423>)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.obolibrary.org/obo/FOVT_0000002> "A length measurement of the body that does not include the tail.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.obolibrary.org/obo/FOVT_0000002> "A length measurement of the body that excludes a tail, usually ending at the anus.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <https://purl.obolibrary.org/obo/FOVT_0000002> "snout-vent length")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <https://purl.obolibrary.org/obo/FOVT_0000002> "head-body length")
 AnnotationAssertion(rdfs:label <https://purl.obolibrary.org/obo/FOVT_0000002> "body length without tail"@en)
@@ -88,7 +88,7 @@ SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0000002> <http://purl.obolibrar
 # Class: <https://purl.obolibrary.org/obo/FOVT_0000003> (hind foot length with claw)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <https://purl.obolibrary.org/obo/FOVT_0000003> <http://purl.obolibrary.org/obo/IAO_0000423>)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.obolibrary.org/obo/FOVT_0000003> "A length measurement of a hind foot that includes a cutaneous appendage.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.obolibrary.org/obo/FOVT_0000003> "A length measurement of a hind foot that includes a nail.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <https://purl.obolibrary.org/obo/FOVT_0000003> "pes length with claw")
 AnnotationAssertion(rdfs:label <https://purl.obolibrary.org/obo/FOVT_0000003> "hind foot length with claw"@en)
 SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0000003> <http://purl.obolibrary.org/obo/OBA_1000049>)
@@ -96,7 +96,7 @@ SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0000003> <http://purl.obolibrar
 # Class: <https://purl.obolibrary.org/obo/FOVT_0000004> (hind foot length without claw)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <https://purl.obolibrary.org/obo/FOVT_0000004> <http://purl.obolibrary.org/obo/IAO_0000423>)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.obolibrary.org/obo/FOVT_0000004> "A length measurement of a hind foot that excludes a cutaneous appendage.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.obolibrary.org/obo/FOVT_0000004> "A length measurement of a hind foot that excludes a nail.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <https://purl.obolibrary.org/obo/FOVT_0000004> "pes length without claw")
 AnnotationAssertion(rdfs:label <https://purl.obolibrary.org/obo/FOVT_0000004> "hind foot length without claw"@en)
 SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0000004> <http://purl.obolibrary.org/obo/OBA_1000049>)
@@ -223,8 +223,8 @@ SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0000018> <http://purl.obolibrar
 # Class: <https://purl.obolibrary.org/obo/FOVT_0000020> (talus length)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <https://purl.obolibrary.org/obo/FOVT_0000020> <http://purl.obolibrary.org/obo/IAO_0000423>)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.obolibrary.org/obo/FOVT_0000020> "The length of a talus.")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <https://purl.obolibrary.org/obo/FOVT_0000020> "astragulus length"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.obolibrary.org/obo/FOVT_0000020> "The length of a talus along the distal-proximal axis.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <https://purl.obolibrary.org/obo/FOVT_0000020> "astragulus length lateral")
 AnnotationAssertion(rdfs:label <https://purl.obolibrary.org/obo/FOVT_0000020> "talus length"@en)
 EquivalentClasses(<https://purl.obolibrary.org/obo/FOVT_0000020> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000122> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0002395>)))
 SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0000020> <http://purl.obolibrary.org/obo/PATO_0000122>)
@@ -232,27 +232,27 @@ SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0000020> <http://purl.obolibrar
 # Class: <https://purl.obolibrary.org/obo/FOVT_0000021> (talus breadth)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <https://purl.obolibrary.org/obo/FOVT_0000021> <http://purl.obolibrary.org/obo/IAO_0000423>)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.obolibrary.org/obo/FOVT_0000021> "The width of a talus along the medial-lateral axis."@en)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <https://purl.obolibrary.org/obo/FOVT_0000021> "astragalus breadth"@en)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <https://purl.obolibrary.org/obo/FOVT_0000021> "astragalus width ML"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.obolibrary.org/obo/FOVT_0000021> "The width of a talus along the medial-lateral axis.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <https://purl.obolibrary.org/obo/FOVT_0000021> "astragalus breadth")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <https://purl.obolibrary.org/obo/FOVT_0000021> "astragalus width ML")
 AnnotationAssertion(rdfs:label <https://purl.obolibrary.org/obo/FOVT_0000021> "talus breadth"@en)
 EquivalentClasses(<https://purl.obolibrary.org/obo/FOVT_0000021> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000921> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0002395>)))
 SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0000021> <http://purl.obolibrary.org/obo/PATO_0000921>)
 
-# Class: <https://purl.obolibrary.org/obo/FOVT_0000022> (calcaneus length)
+# Class: <https://purl.obolibrary.org/obo/FOVT_0000022> (calcaneus greatest length)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <https://purl.obolibrary.org/obo/FOVT_0000022> <http://purl.obolibrary.org/obo/IAO_0000423>)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.obolibrary.org/obo/FOVT_0000022> "The length of a calcaneus.")
-AnnotationAssertion(rdfs:label <https://purl.obolibrary.org/obo/FOVT_0000022> "calcaneus length"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.obolibrary.org/obo/FOVT_0000022> "The maximal length of a calcaneus.")
+AnnotationAssertion(rdfs:label <https://purl.obolibrary.org/obo/FOVT_0000022> "calcaneus greatest length"@en)
 EquivalentClasses(<https://purl.obolibrary.org/obo/FOVT_0000022> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000122> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0001450>)))
 SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0000022> <http://purl.obolibrary.org/obo/PATO_0000122>)
 
-# Class: <https://purl.obolibrary.org/obo/FOVT_0000023> (calcaneus breadth)
+# Class: <https://purl.obolibrary.org/obo/FOVT_0000023> (calcaneus distal breadth)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <https://purl.obolibrary.org/obo/FOVT_0000023> <http://purl.obolibrary.org/obo/IAO_0000423>)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.obolibrary.org/obo/FOVT_0000023> "The width of a caclcaneus along the medial-lateral axis.")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <https://purl.obolibrary.org/obo/FOVT_0000023> "calcaneus width ML"@en)
-AnnotationAssertion(rdfs:label <https://purl.obolibrary.org/obo/FOVT_0000023> "calcaneus breadth"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.obolibrary.org/obo/FOVT_0000023> "The width of a caclcaneus along the medial-lateral axis of the distal end.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <https://purl.obolibrary.org/obo/FOVT_0000023> "calcaneus width ML")
+AnnotationAssertion(rdfs:label <https://purl.obolibrary.org/obo/FOVT_0000023> "calcaneus distal breadth"@en)
 SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0000023> <http://purl.obolibrary.org/obo/PATO_0000921>)
 
 # Class: <https://purl.obolibrary.org/obo/FOVT_0000025> (tibia lateral length)
@@ -297,7 +297,7 @@ SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0000029> <http://purl.obolibrar
 # Class: <https://purl.obolibrary.org/obo/FOVT_0000030> (tooth row length)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <https://purl.obolibrary.org/obo/FOVT_0000030> <http://purl.obolibrary.org/obo/IAO_0000423>)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.obolibrary.org/obo/FOVT_0000030> "The lenght of a tooth row.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.obolibrary.org/obo/FOVT_0000030> "The length of a tooth row.")
 AnnotationAssertion(rdfs:label <https://purl.obolibrary.org/obo/FOVT_0000030> "tooth row length"@en)
 EquivalentClasses(<https://purl.obolibrary.org/obo/FOVT_0000030> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000122> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0009678>)))
 SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0000030> <http://purl.obolibrary.org/obo/PATO_0000122>)
