@@ -254,7 +254,7 @@ SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0000023> <http://purl.obolibrar
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <https://purl.obolibrary.org/obo/FOVT_0000025> <http://purl.obolibrary.org/obo/IAO_0000423>)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.obolibrary.org/obo/FOVT_0000025> "The length of the lateral side of a tibia.")
 AnnotationAssertion(rdfs:label <https://purl.obolibrary.org/obo/FOVT_0000025> "length of the lateral side of tibia"@en)
-SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0000025> <http://purl.obolibrary.org/obo/PATO_0000122>)
+SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0000025> <http://purl.obolibrary.org/obo/OBA_VT0004357>)
 
 # Class: <https://purl.obolibrary.org/obo/FOVT_0000026> (width of shaft of tibia)
 
@@ -394,13 +394,15 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(rdfs:label <https://purl.obolibrary.org/obo/FOVT_0001018> "tibia distal depth"@en)
 SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0001018> <http://purl.obolibrary.org/obo/OBA_VT1000289>)
 
-# Class: <https://purl.obolibrary.org/obo/FOVT_0001019> (tibia lateral length)
+# Class: <https://purl.obolibrary.org/obo/FOVT_0001019> (obsolete tibia lateral length)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.obolibrary.org/obo/FOVT_0001019> "The length of a tibia on the lateral side along the proximal-distal axis."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.obolibrary.org/obo/FOVT_0001019> "OBSOLETE The length of a tibia on the lateral side along the proximal-distal axis."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <https://purl.obolibrary.org/obo/FOVT_0001019> <https://purl.obolibrary.org/obo/FOVT_0000025>)
 AnnotationAssertion(dce:creator <https://purl.obolibrary.org/obo/FOVT_0001019> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(dce:date <https://purl.obolibrary.org/obo/FOVT_0001019> "2021-02-09T19:50:40Z"^^xsd:dateTime)
-AnnotationAssertion(rdfs:label <https://purl.obolibrary.org/obo/FOVT_0001019> "tibia lateral length"@en)
-SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0001019> <http://purl.obolibrary.org/obo/OBA_VT0004357>)
+AnnotationAssertion(rdfs:comment <https://purl.obolibrary.org/obo/FOVT_0001019> "Term already exists."^^xsd:string)
+AnnotationAssertion(rdfs:label <https://purl.obolibrary.org/obo/FOVT_0001019> "obsolete tibia lateral length"@en)
+AnnotationAssertion(owl:deprecated <https://purl.obolibrary.org/obo/FOVT_0001019> "true"^^xsd:boolean)
 
 # Class: <https://purl.obolibrary.org/obo/FOVT_0001020> (tibia diaphysis circumference)
 
