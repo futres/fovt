@@ -48,6 +48,17 @@ Declaration(Class(<https://purl.obolibrary.org/obo/FOVT_0000029>))
 Declaration(Class(<https://purl.obolibrary.org/obo/FOVT_0000030>))
 Declaration(Class(<https://purl.obolibrary.org/obo/FOVT_0000032>))
 Declaration(Class(<https://purl.obolibrary.org/obo/FOVT_0001003>))
+Declaration(Class(<https://purl.obolibrary.org/obo/FOVT_0001010>))
+Declaration(Class(<https://purl.obolibrary.org/obo/FOVT_0001011>))
+Declaration(Class(<https://purl.obolibrary.org/obo/FOVT_0001012>))
+Declaration(Class(<https://purl.obolibrary.org/obo/FOVT_0001013>))
+Declaration(Class(<https://purl.obolibrary.org/obo/FOVT_0001014>))
+Declaration(Class(<https://purl.obolibrary.org/obo/FOVT_0001015>))
+Declaration(Class(<https://purl.obolibrary.org/obo/FOVT_0001016>))
+Declaration(Class(<https://purl.obolibrary.org/obo/FOVT_0001017>))
+Declaration(Class(<https://purl.obolibrary.org/obo/FOVT_0001018>))
+Declaration(Class(<https://purl.obolibrary.org/obo/FOVT_0001019>))
+Declaration(Class(<https://purl.obolibrary.org/obo/FOVT_0001020>))
 Declaration(AnnotationProperty(dce:description))
 Declaration(AnnotationProperty(dce:title))
 Declaration(AnnotationProperty(dcterms:license))
@@ -61,6 +72,10 @@ Declaration(AnnotationProperty(dcterms:license))
 # Class: <http://purl.obolibrary.org/obo/OBA_1000049> (pes length)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_1000049> "hindfoot length")
+
+# Class: <http://purl.obolibrary.org/obo/OBA_VT0004357> (tibia length)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <http://purl.obolibrary.org/obo/OBA_VT0004357> "tibia greatest length"@en)
 
 # Class: <https://purl.obolibrary.org/obo/FOVT_0000001> (body length with tail)
 
@@ -295,6 +310,105 @@ AnnotationAssertion(dce:creator <https://purl.obolibrary.org/obo/FOVT_0001003> <
 AnnotationAssertion(dce:date <https://purl.obolibrary.org/obo/FOVT_0001003> "2021-01-26T21:39:38Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <https://purl.obolibrary.org/obo/FOVT_0001003> "ear length to tragus"@en)
 SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0001003> <http://purl.obolibrary.org/obo/OBA_0003426>)
+
+# Class: <https://purl.obolibrary.org/obo/FOVT_0001010> (obsolete tibia length)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.obolibrary.org/obo/FOVT_0001010> "OBSOLETE The length of a tibia along the proximal-distal axis."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <https://purl.obolibrary.org/obo/FOVT_0001010> <http://purl.obolibrary.org/obo/OBA_VT0004357>)
+AnnotationAssertion(dce:creator <https://purl.obolibrary.org/obo/FOVT_0001010> <http://orcid.org/0000-0003-2699-3066>)
+AnnotationAssertion(dce:date <https://purl.obolibrary.org/obo/FOVT_0001010> "2021-02-09T19:37:01Z"^^xsd:dateTime)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <https://purl.obolibrary.org/obo/FOVT_0001010> "tibia greatest length"@en)
+AnnotationAssertion(rdfs:comment <https://purl.obolibrary.org/obo/FOVT_0001010> "Term already exists."^^xsd:string)
+AnnotationAssertion(rdfs:label <https://purl.obolibrary.org/obo/FOVT_0001010> "obsolete tibia length"@en)
+AnnotationAssertion(owl:deprecated <https://purl.obolibrary.org/obo/FOVT_0001010> "true"^^xsd:boolean)
+
+# Class: <https://purl.obolibrary.org/obo/FOVT_0001011> (tibia greatest length)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.obolibrary.org/obo/FOVT_0001011> "The greatest (longest) length of a tibia along the proximal-distal axis."@en)
+AnnotationAssertion(dce:creator <https://purl.obolibrary.org/obo/FOVT_0001011> <http://orcid.org/0000-0003-2699-3066>)
+AnnotationAssertion(dce:date <https://purl.obolibrary.org/obo/FOVT_0001011> "2021-02-09T19:39:20Z"^^xsd:dateTime)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <https://purl.obolibrary.org/obo/FOVT_0001011> "tibia length"@en)
+AnnotationAssertion(rdfs:label <https://purl.obolibrary.org/obo/FOVT_0001011> "tibia greatest length"@en)
+SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0001011> <http://purl.obolibrary.org/obo/OBA_VT0004357>)
+
+# Class: <https://purl.obolibrary.org/obo/FOVT_0001012> (tibia medial length)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.obolibrary.org/obo/FOVT_0001012> "The length of a tibia on the medial side along the proximal-distal axis."@en)
+AnnotationAssertion(dce:creator <https://purl.obolibrary.org/obo/FOVT_0001012> <http://orcid.org/0000-0003-2699-3066>)
+AnnotationAssertion(dce:date <https://purl.obolibrary.org/obo/FOVT_0001012> "2021-02-09T19:41:27Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <https://purl.obolibrary.org/obo/FOVT_0001012> "tibia medial length"@en)
+SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0001012> <http://purl.obolibrary.org/obo/OBA_VT0004357>)
+
+# Class: <https://purl.obolibrary.org/obo/FOVT_0001013> (tibia diaphysis breadth)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.obolibrary.org/obo/FOVT_0001013> "The width of the diaphysis of a tibia along the medial-lateral axis."@en)
+AnnotationAssertion(dce:creator <https://purl.obolibrary.org/obo/FOVT_0001013> <http://orcid.org/0000-0003-2699-3066>)
+AnnotationAssertion(dce:date <https://purl.obolibrary.org/obo/FOVT_0001013> "2021-02-09T19:42:40Z"^^xsd:dateTime)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <https://purl.obolibrary.org/obo/FOVT_0001013> "tibia diaphysis width ML"@en)
+AnnotationAssertion(rdfs:label <https://purl.obolibrary.org/obo/FOVT_0001013> "tibia diaphysis breadth"@en)
+SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0001013> <http://purl.obolibrary.org/obo/OBA_VT1000289>)
+SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0001013> <http://purl.obolibrary.org/obo/PATO_0000921>)
+
+# Class: <https://purl.obolibrary.org/obo/FOVT_0001014> (tibia diaphysis depth)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.obolibrary.org/obo/FOVT_0001014> "The width of the diaphysis of a tibia along the anterior-posterior axis."@en)
+AnnotationAssertion(dce:creator <https://purl.obolibrary.org/obo/FOVT_0001014> <http://orcid.org/0000-0003-2699-3066>)
+AnnotationAssertion(dce:date <https://purl.obolibrary.org/obo/FOVT_0001014> "2021-02-09T19:43:16Z"^^xsd:dateTime)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <https://purl.obolibrary.org/obo/FOVT_0001014> "tibia diaphysis width AP"@en)
+AnnotationAssertion(rdfs:label <https://purl.obolibrary.org/obo/FOVT_0001014> "tibia diaphysis depth"@en)
+SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0001014> <http://purl.obolibrary.org/obo/OBA_VT1000289>)
+
+# Class: <https://purl.obolibrary.org/obo/FOVT_0001015> (tibia proximal breadth)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.obolibrary.org/obo/FOVT_0001015> "The width of the proximal side of a tibia along the medial-lateral axis."@en)
+AnnotationAssertion(dce:creator <https://purl.obolibrary.org/obo/FOVT_0001015> <http://orcid.org/0000-0003-2699-3066>)
+AnnotationAssertion(dce:date <https://purl.obolibrary.org/obo/FOVT_0001015> "2021-02-09T19:43:45Z"^^xsd:dateTime)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <https://purl.obolibrary.org/obo/FOVT_0001015> "tibia proximal width ML"@en)
+AnnotationAssertion(rdfs:label <https://purl.obolibrary.org/obo/FOVT_0001015> "tibia proximal breadth"@en)
+SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0001015> <http://purl.obolibrary.org/obo/OBA_VT1000289>)
+
+# Class: <https://purl.obolibrary.org/obo/FOVT_0001016> (tibia proximal depth)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.obolibrary.org/obo/FOVT_0001016> "The width of the proximal end of a tibia along the anterior-posterior axis."@en)
+AnnotationAssertion(dce:creator <https://purl.obolibrary.org/obo/FOVT_0001016> <http://orcid.org/0000-0003-2699-3066>)
+AnnotationAssertion(dce:date <https://purl.obolibrary.org/obo/FOVT_0001016> "2021-02-09T19:47:53Z"^^xsd:dateTime)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <https://purl.obolibrary.org/obo/FOVT_0001016> "tibia proximal width AP"@en)
+AnnotationAssertion(rdfs:label <https://purl.obolibrary.org/obo/FOVT_0001016> "tibia proximal depth"@en)
+SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0001016> <http://purl.obolibrary.org/obo/OBA_VT1000289>)
+
+# Class: <https://purl.obolibrary.org/obo/FOVT_0001017> (tibia distal breadth)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.obolibrary.org/obo/FOVT_0001017> "The width of the distal end of a tibia along the medial-lateral axis."@en)
+AnnotationAssertion(dce:creator <https://purl.obolibrary.org/obo/FOVT_0001017> <http://orcid.org/0000-0003-2699-3066>)
+AnnotationAssertion(dce:date <https://purl.obolibrary.org/obo/FOVT_0001017> "2021-02-09T19:49:23Z"^^xsd:dateTime)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <https://purl.obolibrary.org/obo/FOVT_0001017> "tibia distal width ML"@en)
+AnnotationAssertion(rdfs:label <https://purl.obolibrary.org/obo/FOVT_0001017> "tibia distal breadth"@en)
+SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0001017> <http://purl.obolibrary.org/obo/OBA_VT1000289>)
+
+# Class: <https://purl.obolibrary.org/obo/FOVT_0001018> (tibia distal depth)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.obolibrary.org/obo/FOVT_0001018> "The width of the distal end of a tibia along the anterior-posterior axis."@en)
+AnnotationAssertion(dce:creator <https://purl.obolibrary.org/obo/FOVT_0001018> <http://orcid.org/0000-0003-2699-3066>)
+AnnotationAssertion(dce:date <https://purl.obolibrary.org/obo/FOVT_0001018> "2021-02-09T19:50:03Z"^^xsd:dateTime)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <https://purl.obolibrary.org/obo/FOVT_0001018> "tibia distal width AP"@en)
+AnnotationAssertion(rdfs:label <https://purl.obolibrary.org/obo/FOVT_0001018> "tibia distal depth"@en)
+SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0001018> <http://purl.obolibrary.org/obo/OBA_VT1000289>)
+
+# Class: <https://purl.obolibrary.org/obo/FOVT_0001019> (tibia lateral length)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.obolibrary.org/obo/FOVT_0001019> "The length of a tibia on the lateral side along the proximal-distal axis."@en)
+AnnotationAssertion(dce:creator <https://purl.obolibrary.org/obo/FOVT_0001019> <http://orcid.org/0000-0003-2699-3066>)
+AnnotationAssertion(dce:date <https://purl.obolibrary.org/obo/FOVT_0001019> "2021-02-09T19:50:40Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <https://purl.obolibrary.org/obo/FOVT_0001019> "tibia lateral length"@en)
+SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0001019> <http://purl.obolibrary.org/obo/OBA_VT0004357>)
+
+# Class: <https://purl.obolibrary.org/obo/FOVT_0001020> (tibia diaphysis circumference)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.obolibrary.org/obo/FOVT_0001020> "The circumference of the diaphysis of a tibia."@en)
+AnnotationAssertion(dce:creator <https://purl.obolibrary.org/obo/FOVT_0001020> <http://orcid.org/0000-0003-2699-3066>)
+AnnotationAssertion(dce:date <https://purl.obolibrary.org/obo/FOVT_0001020> "2021-02-09T19:51:28Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <https://purl.obolibrary.org/obo/FOVT_0001020> "tibia diaphysis circumference"@en)
+SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0001020> <http://purl.obolibrary.org/obo/OBA_VT0100001>)
 
 
 )
