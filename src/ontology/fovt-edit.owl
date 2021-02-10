@@ -80,6 +80,8 @@ Declaration(Class(<https://purl.obolibrary.org/obo/FOVT_0001043>))
 Declaration(Class(<https://purl.obolibrary.org/obo/FOVT_0001044>))
 Declaration(Class(<https://purl.obolibrary.org/obo/FOVT_0001045>))
 Declaration(Class(<https://purl.obolibrary.org/obo/FOVT_0001046>))
+Declaration(Class(<https://purl.obolibrary.org/obo/FOVT_0001047>))
+Declaration(Class(<https://purl.obolibrary.org/obo/FOVT_0001048>))
 Declaration(AnnotationProperty(dce:description))
 Declaration(AnnotationProperty(dce:title))
 Declaration(AnnotationProperty(dcterms:license))
@@ -648,6 +650,25 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <https://purl.obolibrary.org/obo/FOVT_0001046> "talus trochlea width ML"@en)
 AnnotationAssertion(rdfs:label <https://purl.obolibrary.org/obo/FOVT_0001046> "talus trochlea breadth"@en)
 SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0001046> <https://purl.obolibrary.org/obo/FOVT_0001041>)
+
+# Class: <https://purl.obolibrary.org/obo/FOVT_0001047> (calcaneus proximal length)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.obolibrary.org/obo/FOVT_0001047> "The length of the proximal end of a calcaneus along the proximal-distal axis."@en)
+AnnotationAssertion(dce:creator <https://purl.obolibrary.org/obo/FOVT_0001047> <http://orcid.org/0000-0003-2699-3066>)
+AnnotationAssertion(dce:date <https://purl.obolibrary.org/obo/FOVT_0001047> "2021-02-10T23:31:00Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <https://purl.obolibrary.org/obo/FOVT_0001047> "calcaneus proximal length"@en)
+SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0001047> <http://purl.obolibrary.org/obo/OBA_0003330>)
+SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0001047> <http://purl.obolibrary.org/obo/PATO_0000122>)
+
+# Class: <https://purl.obolibrary.org/obo/FOVT_0001048> (calcaneus distal depth)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.obolibrary.org/obo/FOVT_0001048> "The width of the distal end of a calcaneus along the anterior-posterior axis."@en)
+AnnotationAssertion(dce:creator <https://purl.obolibrary.org/obo/FOVT_0001048> <http://orcid.org/0000-0003-2699-3066>)
+AnnotationAssertion(dce:date <https://purl.obolibrary.org/obo/FOVT_0001048> "2021-02-10T23:32:25Z"^^xsd:dateTime)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <https://purl.obolibrary.org/obo/FOVT_0001048> "calcaneus distal width AP"@en)
+AnnotationAssertion(rdfs:label <https://purl.obolibrary.org/obo/FOVT_0001048> "calcaneus distal depth"@en)
+SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0001048> <http://purl.obolibrary.org/obo/OBA_0003330>)
+SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0001048> <http://purl.obolibrary.org/obo/PATO_0000921>)
 
 
 )
