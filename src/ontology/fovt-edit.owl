@@ -57,6 +57,15 @@ Declaration(Class(<https://purl.obolibrary.org/obo/FOVT_0001009>))
 Declaration(Class(<https://purl.obolibrary.org/obo/FOVT_0001021>))
 Declaration(Class(<https://purl.obolibrary.org/obo/FOVT_0001022>))
 Declaration(Class(<https://purl.obolibrary.org/obo/FOVT_0001023>))
+Declaration(Class(<https://purl.obolibrary.org/obo/FOVT_0001024>))
+Declaration(Class(<https://purl.obolibrary.org/obo/FOVT_0001025>))
+Declaration(Class(<https://purl.obolibrary.org/obo/FOVT_0001026>))
+Declaration(Class(<https://purl.obolibrary.org/obo/FOVT_0001027>))
+Declaration(Class(<https://purl.obolibrary.org/obo/FOVT_0001028>))
+Declaration(Class(<https://purl.obolibrary.org/obo/FOVT_0001029>))
+Declaration(Class(<https://purl.obolibrary.org/obo/FOVT_0001030>))
+Declaration(Class(<https://purl.obolibrary.org/obo/FOVT_0001031>))
+Declaration(Class(<https://purl.obolibrary.org/obo/FOVT_0001032>))
 Declaration(AnnotationProperty(dce:description))
 Declaration(AnnotationProperty(dce:title))
 Declaration(AnnotationProperty(dcterms:license))
@@ -117,6 +126,7 @@ SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0000005> <http://purl.obolibrar
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <https://purl.obolibrary.org/obo/FOVT_0000006> <http://purl.obolibrary.org/obo/IAO_0000423>)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.obolibrary.org/obo/FOVT_0000006> "The length of a line of a femur from a medial condyle of a femur to a greater trochanter of a femur.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <https://purl.obolibrary.org/obo/FOVT_0000006> "femur greatest length"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <https://purl.obolibrary.org/obo/FOVT_0000006> "femur length")
 AnnotationAssertion(rdfs:label <https://purl.obolibrary.org/obo/FOVT_0000006> "femur length from greater trochanter to medial condyle"@en)
 SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0000006> <http://purl.obolibrary.org/obo/OBA_VT0004348>)
@@ -261,7 +271,7 @@ SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0000023> <http://purl.obolibrar
 # Class: <https://purl.obolibrary.org/obo/FOVT_0000025> (tibia lateral length)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <https://purl.obolibrary.org/obo/FOVT_0000025> <http://purl.obolibrary.org/obo/IAO_0000423>)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.obolibrary.org/obo/FOVT_0000025> "The length of the lateral side of a tibia along the proximal-distal axis."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.obolibrary.org/obo/FOVT_0000025> "The length of a tibia on the lateral side of a tibia along the proximal-distal axis."@en)
 AnnotationAssertion(rdfs:label <https://purl.obolibrary.org/obo/FOVT_0000025> "tibia lateral length"@en)
 SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0000025> <http://purl.obolibrary.org/obo/OBA_VT0004357>)
 
@@ -398,6 +408,86 @@ AnnotationAssertion(dce:creator <https://purl.obolibrary.org/obo/FOVT_0001023> <
 AnnotationAssertion(dce:date <https://purl.obolibrary.org/obo/FOVT_0001023> "2021-02-10T21:58:04Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <https://purl.obolibrary.org/obo/FOVT_0001023> "tibia diaphysis circumference"@en)
 SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0001023> <http://purl.obolibrary.org/obo/OBA_VT0100001>)
+
+# Class: <https://purl.obolibrary.org/obo/FOVT_0001024> (femur proximal breadth)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.obolibrary.org/obo/FOVT_0001024> "The width of the proximal end of a femur along the medial-lateral axis."@en)
+AnnotationAssertion(dce:creator <https://purl.obolibrary.org/obo/FOVT_0001024> <http://orcid.org/0000-0003-2699-3066>)
+AnnotationAssertion(dce:date <https://purl.obolibrary.org/obo/FOVT_0001024> "2021-02-10T22:28:39Z"^^xsd:dateTime)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <https://purl.obolibrary.org/obo/FOVT_0001024> "femur proximal width ML"@en)
+AnnotationAssertion(rdfs:label <https://purl.obolibrary.org/obo/FOVT_0001024> "femur proximal breadth"@en)
+SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0001024> <http://purl.obolibrary.org/obo/OBA_VT1000666>)
+
+# Class: <https://purl.obolibrary.org/obo/FOVT_0001025> (femur trochanter breadth)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.obolibrary.org/obo/FOVT_0001025> "The width of the trochanter of a femur along the medial-lateral axis."@en)
+AnnotationAssertion(dce:creator <https://purl.obolibrary.org/obo/FOVT_0001025> <http://orcid.org/0000-0003-2699-3066>)
+AnnotationAssertion(dce:date <https://purl.obolibrary.org/obo/FOVT_0001025> "2021-02-10T22:32:15Z"^^xsd:dateTime)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <https://purl.obolibrary.org/obo/FOVT_0001025> "femur trochanter width ML"@en)
+AnnotationAssertion(rdfs:label <https://purl.obolibrary.org/obo/FOVT_0001025> "femur trochanter breadth"@en)
+SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0001025> <http://purl.obolibrary.org/obo/OBA_VT1000666>)
+
+# Class: <https://purl.obolibrary.org/obo/FOVT_0001026> (femur caput depth)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.obolibrary.org/obo/FOVT_0001026> "The width of the caput of a femur along the anterior-posterior axis."@en)
+AnnotationAssertion(dce:creator <https://purl.obolibrary.org/obo/FOVT_0001026> <http://orcid.org/0000-0003-2699-3066>)
+AnnotationAssertion(dce:date <https://purl.obolibrary.org/obo/FOVT_0001026> "2021-02-10T22:33:22Z"^^xsd:dateTime)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <https://purl.obolibrary.org/obo/FOVT_0001026> "femur caput width AP"@en)
+AnnotationAssertion(rdfs:label <https://purl.obolibrary.org/obo/FOVT_0001026> "femur caput depth"@en)
+SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0001026> <http://purl.obolibrary.org/obo/OBA_VT1000666>)
+
+# Class: <https://purl.obolibrary.org/obo/FOVT_0001027> (femur diaphysis breadth)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.obolibrary.org/obo/FOVT_0001027> "The width of the diaphysis of a femur along the medial-lateral axis."@en)
+AnnotationAssertion(dce:creator <https://purl.obolibrary.org/obo/FOVT_0001027> <http://orcid.org/0000-0003-2699-3066>)
+AnnotationAssertion(dce:date <https://purl.obolibrary.org/obo/FOVT_0001027> "2021-02-10T22:35:17Z"^^xsd:dateTime)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <https://purl.obolibrary.org/obo/FOVT_0001027> "femur diaphysis width ML"@en)
+AnnotationAssertion(rdfs:label <https://purl.obolibrary.org/obo/FOVT_0001027> "femur diaphysis breadth"@en)
+SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0001027> <http://purl.obolibrary.org/obo/OBA_VT1000666>)
+
+# Class: <https://purl.obolibrary.org/obo/FOVT_0001028> (femus diaphysis circumference)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.obolibrary.org/obo/FOVT_0001028> "The circumference of the diaphysis of a femur."@en)
+AnnotationAssertion(dce:creator <https://purl.obolibrary.org/obo/FOVT_0001028> <http://orcid.org/0000-0003-2699-3066>)
+AnnotationAssertion(dce:date <https://purl.obolibrary.org/obo/FOVT_0001028> "2021-02-10T22:36:50Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <https://purl.obolibrary.org/obo/FOVT_0001028> "femus diaphysis circumference"@en)
+SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0001028> <http://purl.obolibrary.org/obo/OBA_VT1000369>)
+
+# Class: <https://purl.obolibrary.org/obo/FOVT_0001029> (femur distal breadth)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.obolibrary.org/obo/FOVT_0001029> "The width of the distal end of a femur along the medial-lateral axis."@en)
+AnnotationAssertion(dce:creator <https://purl.obolibrary.org/obo/FOVT_0001029> <http://orcid.org/0000-0003-2699-3066>)
+AnnotationAssertion(dce:date <https://purl.obolibrary.org/obo/FOVT_0001029> "2021-02-10T22:37:49Z"^^xsd:dateTime)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <https://purl.obolibrary.org/obo/FOVT_0001029> "femur distal width ML"@en)
+AnnotationAssertion(rdfs:label <https://purl.obolibrary.org/obo/FOVT_0001029> "femur distal breadth"@en)
+SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0001029> <http://purl.obolibrary.org/obo/OBA_VT1000666>)
+
+# Class: <https://purl.obolibrary.org/obo/FOVT_0001030> (femur proximal depth)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.obolibrary.org/obo/FOVT_0001030> "The width of the proximal end of a femur along the anterior-posterior axis."@en)
+AnnotationAssertion(dce:creator <https://purl.obolibrary.org/obo/FOVT_0001030> <http://orcid.org/0000-0003-2699-3066>)
+AnnotationAssertion(dce:date <https://purl.obolibrary.org/obo/FOVT_0001030> "2021-02-10T22:44:52Z"^^xsd:dateTime)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <https://purl.obolibrary.org/obo/FOVT_0001030> "femur proximal width AP"@en)
+AnnotationAssertion(rdfs:label <https://purl.obolibrary.org/obo/FOVT_0001030> "femur proximal depth"@en)
+SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0001030> <http://purl.obolibrary.org/obo/OBA_VT1000666>)
+
+# Class: <https://purl.obolibrary.org/obo/FOVT_0001031> (femur distal depth)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.obolibrary.org/obo/FOVT_0001031> "The width of the distal end of a femur along the anterior-posterior axis."@en)
+AnnotationAssertion(dce:creator <https://purl.obolibrary.org/obo/FOVT_0001031> <http://orcid.org/0000-0003-2699-3066>)
+AnnotationAssertion(dce:date <https://purl.obolibrary.org/obo/FOVT_0001031> "2021-02-10T22:46:33Z"^^xsd:dateTime)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <https://purl.obolibrary.org/obo/FOVT_0001031> "femur distal width AP"@en)
+AnnotationAssertion(rdfs:label <https://purl.obolibrary.org/obo/FOVT_0001031> "femur distal depth"@en)
+SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0001031> <http://purl.obolibrary.org/obo/OBA_VT1000666>)
+
+# Class: <https://purl.obolibrary.org/obo/FOVT_0001032> (femur trochlea breadth)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.obolibrary.org/obo/FOVT_0001032> "The width of the trochlea of a femur along the medial-lateral axis."@en)
+AnnotationAssertion(dce:creator <https://purl.obolibrary.org/obo/FOVT_0001032> <http://orcid.org/0000-0003-2699-3066>)
+AnnotationAssertion(dce:date <https://purl.obolibrary.org/obo/FOVT_0001032> "2021-02-10T22:47:31Z"^^xsd:dateTime)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <https://purl.obolibrary.org/obo/FOVT_0001032> "femur trochlea width ML"@en)
+AnnotationAssertion(rdfs:label <https://purl.obolibrary.org/obo/FOVT_0001032> "femur trochlea breadth"@en)
+SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0001032> <http://purl.obolibrary.org/obo/OBA_VT1000666>)
 
 
 )
