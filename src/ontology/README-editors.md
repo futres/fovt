@@ -88,7 +88,7 @@ _Error 1_
 * Click on "owl:Thing" to get to "owl:Nothing"
 * On the bar "Description: owl:Nothing" click the "?" square
 * Run and stop after it finds 1 error
-* Look at the error message and fix
+* Look at the disjoint axiom and explanation
 * Save to edit.owl in Protégé
 
 ## Design patterns
