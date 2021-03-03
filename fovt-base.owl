@@ -11,12 +11,12 @@
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/fovt/fovt-base.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/fovt/releases/2020-06-08/fovt-base.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/fovt/releases/2021-03-03/fovt-base.owl"/>
         <dc:description>None</dc:description>
         <dc:description xml:lang="en">These are the terms that are improted for FOVT to describe vertebrate traits.</dc:description>
         <dc:title>FuTRES Ontology of Vertebrate Traits</dc:title>
         <dc:type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/IAO_8000001</dc:type>
-        <terms:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/ "/>
+        <terms:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
     </owl:Ontology>
     
 
@@ -41,6 +41,24 @@
     <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0100001 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0100001"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/creator -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/date -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/date"/>
     
 
 
@@ -102,6 +120,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OBA_0003330 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0003330"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OBA_0003426 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0003426"/>
@@ -110,7 +134,9 @@
 
     <!-- http://purl.obolibrary.org/obo/OBA_1000049 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_1000049"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_1000049">
+        <oboInOwl:hasExactSynonym>hindfoot length</oboInOwl:hasExactSynonym>
+    </owl:Class>
     
 
 
@@ -132,6 +158,48 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OBA_VT0004357 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_VT0004357"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBA_VT0005110 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_VT0005110"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBA_VT0100001 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_VT0100001"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBA_VT1000280 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_VT1000280"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBA_VT1000289 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_VT1000289"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBA_VT1000369 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_VT1000369"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBA_VT1000666 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_VT1000666"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/PATO_0000122 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000122"/>
@@ -140,7 +208,9 @@
 
     <!-- http://purl.obolibrary.org/obo/PATO_0000921 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000921"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000921">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0005110"/>
+    </owl:Class>
     
 
 
@@ -180,6 +250,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0001256"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000423"/>
         <obo:IAO_0000115>A length measurement of the body that includes the tail.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>total length</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">body length with tail</rdfs:label>
     </owl:Class>
     
@@ -190,7 +261,9 @@
     <owl:Class rdf:about="https://purl.obolibrary.org/obo/FOVT_0000002">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0001256"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000423"/>
-        <obo:IAO_0000115>A length measurement of the body that does not include the tail.</obo:IAO_0000115>
+        <obo:IAO_0000115>A length measurement of the body that excludes a tail, usually ending at the anus.</obo:IAO_0000115>
+        <oboInOwl:hasBroadSynonym>snout-vent length</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasExactSynonym>head-body length</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">body length without tail</rdfs:label>
     </owl:Class>
     
@@ -201,7 +274,7 @@
     <owl:Class rdf:about="https://purl.obolibrary.org/obo/FOVT_0000003">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_1000049"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000423"/>
-        <obo:IAO_0000115>A length measurement of a hind foot that includes a cutaneous appendage.</obo:IAO_0000115>
+        <obo:IAO_0000115>A length measurement of a hind foot that includes a nail.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>pes length with claw</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">hind foot length with claw</rdfs:label>
     </owl:Class>
@@ -213,7 +286,7 @@
     <owl:Class rdf:about="https://purl.obolibrary.org/obo/FOVT_0000004">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_1000049"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000423"/>
-        <obo:IAO_0000115>A length measurement of a hind foot that excludes a cutaneous appendage.</obo:IAO_0000115>
+        <obo:IAO_0000115>A length measurement of a hind foot that excludes a nail.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>pes length without claw</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">hind foot length without claw</rdfs:label>
     </owl:Class>
@@ -239,8 +312,9 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0004348"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000423"/>
         <obo:IAO_0000115>The length of a line of a femur from a medial condyle of a femur to a greater trochanter of a femur.</obo:IAO_0000115>
+        <oboInOwl:hasBroadSynonym xml:lang="en">femur greatest length</oboInOwl:hasBroadSynonym>
         <oboInOwl:hasBroadSynonym>femur length</oboInOwl:hasBroadSynonym>
-        <rdfs:label xml:lang="en">femur length to greater trochanter</rdfs:label>
+        <rdfs:label xml:lang="en">femur length from greater trochanter to medial condyle</rdfs:label>
     </owl:Class>
     
 
@@ -252,7 +326,7 @@
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000423"/>
         <obo:IAO_0000115>The length of a line of a femur from a medial condyle of a femur to a head of a femur.</obo:IAO_0000115>
         <oboInOwl:hasBroadSynonym>femur length</oboInOwl:hasBroadSynonym>
-        <rdfs:label xml:lang="en">femur length to head of femur</rdfs:label>
+        <rdfs:label xml:lang="en">femur length from caput to medial condyle</rdfs:label>
     </owl:Class>
     
 
@@ -264,7 +338,8 @@
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000423"/>
         <obo:IAO_0000115>The length of a line of a trochlea of a humerus to a proximal head of a humerus.</obo:IAO_0000115>
         <oboInOwl:hasBroadSynonym>humerus length</oboInOwl:hasBroadSynonym>
-        <rdfs:label xml:lang="en">humerus length to caput of humerus</rdfs:label>
+        <oboInOwl:hasBroadSynonym xml:lang="en">humerus length to caput</oboInOwl:hasBroadSynonym>
+        <rdfs:label xml:lang="en">humerus length from trochlea to caput</rdfs:label>
     </owl:Class>
     
 
@@ -275,8 +350,10 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0004350"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000423"/>
         <obo:IAO_0000115>The length of a line of a trochlea of a humerus to a ventral tubercle of a humerus.</obo:IAO_0000115>
+        <oboInOwl:hasBroadSynonym xml:lang="en">humerus greatest length</oboInOwl:hasBroadSynonym>
         <oboInOwl:hasBroadSynonym>humerus length</oboInOwl:hasBroadSynonym>
-        <rdfs:label xml:lang="en">humerus length to ventral tubercle</rdfs:label>
+        <oboInOwl:hasExactSynonym xml:lang="en">humerus length from trochlea to greater tubercle</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">humerus length from trochlea to ventral tubercle</rdfs:label>
     </owl:Class>
     
 
@@ -284,23 +361,16 @@
     <!-- https://purl.obolibrary.org/obo/FOVT_0000010 -->
 
     <owl:Class rdf:about="https://purl.obolibrary.org/obo/FOVT_0000010">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000921"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_4200181"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000921"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000423"/>
-        <obo:IAO_0000115>Medial-lateral width of the distal end of an astragalus.</obo:IAO_0000115>
+        <obo:IAO_0000115>OBSOLETE Medial-lateral width of the distal end of an astragalus.</obo:IAO_0000115>
+        <obo:IAO_0100001 rdf:resource="https://purl.obolibrary.org/obo/FOVT_0000017"/>
         <oboInOwl:hasExactSynonym>astragalus greatest breadth distal</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>talus distal width ML</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>talus head width</oboInOwl:hasExactSynonym>
-        <rdfs:label xml:lang="en">width of astragalus head</rdfs:label>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Redundant with FOVT:0000017</rdfs:comment>
+        <rdfs:comment>astragalus head breadth</rdfs:comment>
+        <rdfs:label xml:lang="en">obsolete talus distal articular breadth</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -308,12 +378,13 @@
     <!-- https://purl.obolibrary.org/obo/FOVT_0000012 -->
 
     <owl:Class rdf:about="https://purl.obolibrary.org/obo/FOVT_0000012">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000921"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000423"/>
-        <obo:IAO_0000115>Length between the proximal-most points of the medial and lateral trochlear ridges of an astragalus.</obo:IAO_0000115>
+        <obo:IAO_0000115>OBSOLETE Length between the proximal-most points of the medial and lateral trochlear ridges of an astragalus.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>breadth of the trochlea</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>breadth of the trochlea of talus</oboInOwl:hasExactSynonym>
-        <rdfs:label xml:lang="en">width of the trochlea of talus</rdfs:label>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This is not a measurement FOVT has a need for.</rdfs:comment>
+        <rdfs:label xml:lang="en">obsolete width of the trochlea of talus</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -321,10 +392,11 @@
     <!-- https://purl.obolibrary.org/obo/FOVT_0000013 -->
 
     <owl:Class rdf:about="https://purl.obolibrary.org/obo/FOVT_0000013">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001595"/>
+        <rdfs:subClassOf rdf:resource="https://purl.obolibrary.org/obo/FOVT_0000020"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000423"/>
-        <obo:IAO_0000115>Depth of the lateral ridge of a trochlea of an astragalus.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">depth of the lateral side of talus</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">The length of the lateral side of a talus along the proximal-distal axis.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym xml:lang="en">astragalus length lateral</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">talus lateral length</rdfs:label>
     </owl:Class>
     
 
@@ -334,8 +406,11 @@
     <owl:Class rdf:about="https://purl.obolibrary.org/obo/FOVT_0000014">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001595"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000423"/>
-        <obo:IAO_0000115>Depth of the medial ridge of a trochlea of an astragalus.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">depth of the medial side of talus</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">The depth of the medial ridge of a trochlea of an astragalus along the anterior-posterior axis.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym xml:lang="en">astragalus medial depth</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">astragalus medial width AP</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">talus medial width AP</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">talus medial depth</rdfs:label>
     </owl:Class>
     
 
@@ -343,10 +418,12 @@
     <!-- https://purl.obolibrary.org/obo/FOVT_0000015 -->
 
     <owl:Class rdf:about="https://purl.obolibrary.org/obo/FOVT_0000015">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000122"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000423"/>
-        <obo:IAO_0000115>Length of the lateral side of an astragalus.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">length of the lateral side of talus</rdfs:label>
+        <obo:IAO_0000115>OBSOLETE Length of the lateral side of an astragalus.</obo:IAO_0000115>
+        <obo:IAO_0100001 rdf:resource="https://purl.obolibrary.org/obo/FOVT_0000013"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Redundant term</rdfs:comment>
+        <rdfs:label xml:lang="en">obsolete length of the lateral side of talus</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -354,10 +431,11 @@
     <!-- https://purl.obolibrary.org/obo/FOVT_0000016 -->
 
     <owl:Class rdf:about="https://purl.obolibrary.org/obo/FOVT_0000016">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000122"/>
+        <rdfs:subClassOf rdf:resource="https://purl.obolibrary.org/obo/FOVT_0000020"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000423"/>
-        <obo:IAO_0000115>Length of the medial side of an astragalus.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">length of the medial side of talus</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">The length of the medial side of a talus along the proximal-distal axis.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym xml:lang="en">astragalus medial length</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">talus medial length</rdfs:label>
     </owl:Class>
     
 
@@ -365,11 +443,14 @@
     <!-- https://purl.obolibrary.org/obo/FOVT_0000017 -->
 
     <owl:Class rdf:about="https://purl.obolibrary.org/obo/FOVT_0000017">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000921"/>
+        <rdfs:subClassOf rdf:resource="https://purl.obolibrary.org/obo/FOVT_0001041"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000423"/>
         <obo:IAO_0000115>The length of a line between the medial-most point on the articular surface for the calcaneum on the astragalus to the lateral-most point of the trochleated head of an astragalus.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym xml:lang="en">astragalus distal articular breadth</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">astragalus distal articular width ML</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>length of line between the medial-most point of the articular surface for the calcaneum on the talus to the lateral-most point of the trochleated head on talus</oboInOwl:hasExactSynonym>
-        <rdfs:label xml:lang="en">distal articular breadth</rdfs:label>
+        <oboInOwl:hasExactSynonym xml:lang="en">talus distal articular width ML</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">talus distal articular breadth</rdfs:label>
     </owl:Class>
     
 
@@ -380,8 +461,11 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001595"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000423"/>
         <obo:IAO_0000115>Length of the distal end of an astragalus along the cranial-caudal axis.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym xml:lang="en">astragalus distal articular depth</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">astragalus distal articular width AP</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>length of line connecting the posterior-most point ot the anterior-most point of the trochleated head on talus</oboInOwl:hasExactSynonym>
-        <rdfs:label xml:lang="en">distal articular depth</rdfs:label>
+        <oboInOwl:hasExactSynonym xml:lang="en">talus distal articular width AP</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">talus distal articular depth</rdfs:label>
     </owl:Class>
     
 
@@ -400,10 +484,11 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0005110"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000122"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000423"/>
-        <obo:IAO_0000115>The length of a talus.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym>astragulus width</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000115>The length of a talus along the distal-proximal axis.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym xml:lang="en">astragulus length</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">talus length</rdfs:label>
     </owl:Class>
     
@@ -412,22 +497,13 @@
     <!-- https://purl.obolibrary.org/obo/FOVT_0000021 -->
 
     <owl:Class rdf:about="https://purl.obolibrary.org/obo/FOVT_0000021">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000921"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002395"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000921"/>
+        <rdfs:subClassOf rdf:resource="https://purl.obolibrary.org/obo/FOVT_0001041"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000423"/>
-        <obo:IAO_0000115>The width of a talus.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym>astragalus width</oboInOwl:hasExactSynonym>
-        <rdfs:label xml:lang="en">talus width</rdfs:label>
+        <obo:IAO_0000115>The width of a talus along the medial-lateral axis.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>astragalus breadth</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>astragalus width ML</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">talus width ML</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">talus breadth</rdfs:label>
     </owl:Class>
     
 
@@ -448,8 +524,8 @@
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000122"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000423"/>
-        <obo:IAO_0000115>The length of a calcaneus.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">calcaneus length</rdfs:label>
+        <obo:IAO_0000115>The maximal length of a calcaneus.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">calcaneus greatest length</rdfs:label>
     </owl:Class>
     
 
@@ -459,8 +535,9 @@
     <owl:Class rdf:about="https://purl.obolibrary.org/obo/FOVT_0000023">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000921"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000423"/>
-        <obo:IAO_0000115>The width of a caclcaneus.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">calcaneus width</rdfs:label>
+        <obo:IAO_0000115>The width of a caclcaneus along the medial-lateral axis of the distal end.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>calcaneus width ML</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">calcaneus distal breadth</rdfs:label>
     </owl:Class>
     
 
@@ -468,10 +545,10 @@
     <!-- https://purl.obolibrary.org/obo/FOVT_0000025 -->
 
     <owl:Class rdf:about="https://purl.obolibrary.org/obo/FOVT_0000025">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000122"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0004357"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000423"/>
-        <obo:IAO_0000115>The length of the lateral side of a tibia.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">length of the lateral side of tibia</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">The length of a tibia on the lateral side of a tibia along the proximal-distal axis.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">tibia lateral length</rdfs:label>
     </owl:Class>
     
 
@@ -479,11 +556,11 @@
     <!-- https://purl.obolibrary.org/obo/FOVT_0000026 -->
 
     <owl:Class rdf:about="https://purl.obolibrary.org/obo/FOVT_0000026">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000921"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_VT1000289"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000423"/>
-        <obo:IAO_0000115>The width of shaft of a tibia.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">The width of shaft or diaphysis of a tibia.</obo:IAO_0000115>
         <oboInOwl:hasBroadSynonym>tibia width</oboInOwl:hasBroadSynonym>
-        <rdfs:label xml:lang="en">width of shaft of tibia</rdfs:label>
+        <rdfs:label xml:lang="en">tibia diaphysis width</rdfs:label>
     </owl:Class>
     
 
@@ -491,11 +568,11 @@
     <!-- https://purl.obolibrary.org/obo/FOVT_0000027 -->
 
     <owl:Class rdf:about="https://purl.obolibrary.org/obo/FOVT_0000027">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000921"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_VT1000289"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000423"/>
         <obo:IAO_0000115>The width of the proximal end of a tibia.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>breadth of proximal end of tibia</oboInOwl:hasExactSynonym>
-        <rdfs:label xml:lang="en">width of proximal end of tibia</rdfs:label>
+        <rdfs:label xml:lang="en">tibia proximal width</rdfs:label>
     </owl:Class>
     
 
@@ -503,11 +580,11 @@
     <!-- https://purl.obolibrary.org/obo/FOVT_0000028 -->
 
     <owl:Class rdf:about="https://purl.obolibrary.org/obo/FOVT_0000028">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000921"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_VT1000289"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000423"/>
         <obo:IAO_0000115>The width of the distal end of a tibia.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>breadth of distal end of tibia</oboInOwl:hasExactSynonym>
-        <rdfs:label xml:lang="en">width of distal end of tibia</rdfs:label>
+        <rdfs:label xml:lang="en">tibia distal width</rdfs:label>
     </owl:Class>
     
 
@@ -518,7 +595,8 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001595"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000423"/>
         <obo:IAO_0000115>The depth of the distal end of a tibia.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">depth of distal end of tibia</rdfs:label>
+        <oboInOwl:hasExactSynonym>tibia distal width ML</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">tibia distal breadth</rdfs:label>
     </owl:Class>
     
 
@@ -539,7 +617,7 @@
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000122"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000423"/>
-        <obo:IAO_0000115>The lenght of a tooth row.</obo:IAO_0000115>
+        <obo:IAO_0000115>The length of a tooth row.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">tooth row length</rdfs:label>
     </owl:Class>
     
@@ -551,7 +629,479 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0001256"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000423"/>
         <obo:IAO_0000115>Body length measured from tip of nose to cloaca.</obo:IAO_0000115>
+        <oboInOwl:hasBroadSynonym>head-body length</oboInOwl:hasBroadSynonym>
         <rdfs:label xml:lang="en">snout-vent length</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.obolibrary.org/obo/FOVT_0001003 -->
+
+    <owl:Class rdf:about="https://purl.obolibrary.org/obo/FOVT_0001003">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0003426"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The length of a line of an ear from a helix of the outer ear to a tragus of an ear. This measurement is often taken in bats.</obo:IAO_0000115>
+        <dc:creator rdf:resource="http://orcid.org/0000-0003-2699-3066"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-26T21:39:38Z</dc:date>
+        <rdfs:label xml:lang="en">ear length to tragus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.obolibrary.org/obo/FOVT_0001004 -->
+
+    <owl:Class rdf:about="https://purl.obolibrary.org/obo/FOVT_0001004">
+        <rdfs:subClassOf rdf:resource="https://purl.obolibrary.org/obo/FOVT_0000028"/>
+        <obo:IAO_0000115 xml:lang="en">The width of a tibia at the distal end along the medial-lateral axis.</obo:IAO_0000115>
+        <dc:creator rdf:resource="http://orcid.org/0000-0003-2699-3066"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-02-05T00:08:49Z</dc:date>
+        <oboInOwl:hasExactSynonym xml:lang="en">tibia distal width ML</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">tibia distal breadth</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.obolibrary.org/obo/FOVT_0001005 -->
+
+    <owl:Class rdf:about="https://purl.obolibrary.org/obo/FOVT_0001005">
+        <rdfs:subClassOf rdf:resource="https://purl.obolibrary.org/obo/FOVT_0000028"/>
+        <obo:IAO_0000115 xml:lang="en">The width of a tibia at the distal end along the anterior-posterior axis.</obo:IAO_0000115>
+        <dc:creator rdf:resource="http://orcid.org/0000-0003-2699-3066"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-02-05T00:09:47Z</dc:date>
+        <oboInOwl:hasExactSynonym xml:lang="en">tibia distal width AP</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">tibia distal depth</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.obolibrary.org/obo/FOVT_0001006 -->
+
+    <owl:Class rdf:about="https://purl.obolibrary.org/obo/FOVT_0001006">
+        <rdfs:subClassOf rdf:resource="https://purl.obolibrary.org/obo/FOVT_0000027"/>
+        <obo:IAO_0000115 xml:lang="en">The width of a tibia at the proximal end along the medial-lateral axis.</obo:IAO_0000115>
+        <dc:creator rdf:resource="http://orcid.org/0000-0003-2699-3066"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-02-05T00:10:13Z</dc:date>
+        <oboInOwl:hasExactSynonym xml:lang="en">tibia proximal width ML</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">tibia proximal breadth</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.obolibrary.org/obo/FOVT_0001007 -->
+
+    <owl:Class rdf:about="https://purl.obolibrary.org/obo/FOVT_0001007">
+        <rdfs:subClassOf rdf:resource="https://purl.obolibrary.org/obo/FOVT_0000027"/>
+        <obo:IAO_0000115 xml:lang="en">The width of a tibia at the proximal end along the anterior-posterior axis.</obo:IAO_0000115>
+        <dc:creator rdf:resource="http://orcid.org/0000-0003-2699-3066"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-02-05T00:10:31Z</dc:date>
+        <oboInOwl:hasExactSynonym xml:lang="en">tibia proximal width AP</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">tibia proximal depth</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.obolibrary.org/obo/FOVT_0001008 -->
+
+    <owl:Class rdf:about="https://purl.obolibrary.org/obo/FOVT_0001008">
+        <rdfs:subClassOf rdf:resource="https://purl.obolibrary.org/obo/FOVT_0000026"/>
+        <obo:IAO_0000115 xml:lang="en">The width of a shaft or diaphysis of a tibia along the medial-lateral axis.</obo:IAO_0000115>
+        <dc:creator rdf:resource="http://orcid.org/0000-0003-2699-3066"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-02-05T00:16:17Z</dc:date>
+        <oboInOwl:hasExactSynonym xml:lang="en">tibia diaphysis width ML</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">tibia diaphysis breadth</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.obolibrary.org/obo/FOVT_0001009 -->
+
+    <owl:Class rdf:about="https://purl.obolibrary.org/obo/FOVT_0001009">
+        <rdfs:subClassOf rdf:resource="https://purl.obolibrary.org/obo/FOVT_0000026"/>
+        <obo:IAO_0000115 xml:lang="en">The width of a shaft or diaphysis of a tibia along the anterior-posterior axis.</obo:IAO_0000115>
+        <dc:creator rdf:resource="http://orcid.org/0000-0003-2699-3066"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-02-05T00:16:59Z</dc:date>
+        <oboInOwl:hasExactSynonym xml:lang="en">tibia diaphysis width AP</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">tibia diaphysis depth</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.obolibrary.org/obo/FOVT_0001021 -->
+
+    <owl:Class rdf:about="https://purl.obolibrary.org/obo/FOVT_0001021">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0004357"/>
+        <obo:IAO_0000115 xml:lang="en">The length of a tibia on the medial side along the proximal-distal axis.</obo:IAO_0000115>
+        <dc:creator rdf:resource="http://orcid.org/0000-0003-2699-3066"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-02-10T21:45:47Z</dc:date>
+        <rdfs:label xml:lang="en">tibia medial length</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.obolibrary.org/obo/FOVT_0001022 -->
+
+    <owl:Class rdf:about="https://purl.obolibrary.org/obo/FOVT_0001022">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0004357"/>
+        <obo:IAO_0000115 xml:lang="en">The greatest length of a tibia from the proximal-most point of a tibia to the distal-most point of a tibia.</obo:IAO_0000115>
+        <dc:creator rdf:resource="http://orcid.org/0000-0003-2699-3066"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-02-10T21:53:59Z</dc:date>
+        <rdfs:label xml:lang="en">tibia greatest length</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.obolibrary.org/obo/FOVT_0001023 -->
+
+    <owl:Class rdf:about="https://purl.obolibrary.org/obo/FOVT_0001023">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0100001"/>
+        <obo:IAO_0000115 xml:lang="en">The circumference of the diaphysis of a tibia.</obo:IAO_0000115>
+        <dc:creator rdf:resource="http://orcid.org/0000-0003-2699-3066"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-02-10T21:58:04Z</dc:date>
+        <rdfs:label xml:lang="en">tibia diaphysis circumference</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.obolibrary.org/obo/FOVT_0001024 -->
+
+    <owl:Class rdf:about="https://purl.obolibrary.org/obo/FOVT_0001024">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_VT1000666"/>
+        <obo:IAO_0000115 xml:lang="en">The width of the proximal end of a femur along the medial-lateral axis.</obo:IAO_0000115>
+        <dc:creator rdf:resource="http://orcid.org/0000-0003-2699-3066"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-02-10T22:28:39Z</dc:date>
+        <oboInOwl:hasExactSynonym xml:lang="en">femur proximal width ML</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">femur proximal breadth</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.obolibrary.org/obo/FOVT_0001025 -->
+
+    <owl:Class rdf:about="https://purl.obolibrary.org/obo/FOVT_0001025">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_VT1000666"/>
+        <obo:IAO_0000115 xml:lang="en">The width of the trochanter of a femur along the medial-lateral axis.</obo:IAO_0000115>
+        <dc:creator rdf:resource="http://orcid.org/0000-0003-2699-3066"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-02-10T22:32:15Z</dc:date>
+        <oboInOwl:hasExactSynonym xml:lang="en">femur trochanter width ML</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">femur trochanter breadth</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.obolibrary.org/obo/FOVT_0001026 -->
+
+    <owl:Class rdf:about="https://purl.obolibrary.org/obo/FOVT_0001026">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_VT1000666"/>
+        <obo:IAO_0000115 xml:lang="en">The width of the caput of a femur along the anterior-posterior axis.</obo:IAO_0000115>
+        <dc:creator rdf:resource="http://orcid.org/0000-0003-2699-3066"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-02-10T22:33:22Z</dc:date>
+        <oboInOwl:hasExactSynonym xml:lang="en">femur caput width AP</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">femur caput depth</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.obolibrary.org/obo/FOVT_0001027 -->
+
+    <owl:Class rdf:about="https://purl.obolibrary.org/obo/FOVT_0001027">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_VT1000666"/>
+        <obo:IAO_0000115 xml:lang="en">The width of the diaphysis of a femur along the medial-lateral axis.</obo:IAO_0000115>
+        <dc:creator rdf:resource="http://orcid.org/0000-0003-2699-3066"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-02-10T22:35:17Z</dc:date>
+        <oboInOwl:hasExactSynonym xml:lang="en">femur diaphysis width ML</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">femur diaphysis breadth</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.obolibrary.org/obo/FOVT_0001028 -->
+
+    <owl:Class rdf:about="https://purl.obolibrary.org/obo/FOVT_0001028">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_VT1000369"/>
+        <obo:IAO_0000115 xml:lang="en">The circumference of the diaphysis of a femur.</obo:IAO_0000115>
+        <dc:creator rdf:resource="http://orcid.org/0000-0003-2699-3066"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-02-10T22:36:50Z</dc:date>
+        <rdfs:label xml:lang="en">femus diaphysis circumference</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.obolibrary.org/obo/FOVT_0001029 -->
+
+    <owl:Class rdf:about="https://purl.obolibrary.org/obo/FOVT_0001029">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_VT1000666"/>
+        <obo:IAO_0000115 xml:lang="en">The width of the distal end of a femur along the medial-lateral axis.</obo:IAO_0000115>
+        <dc:creator rdf:resource="http://orcid.org/0000-0003-2699-3066"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-02-10T22:37:49Z</dc:date>
+        <oboInOwl:hasExactSynonym xml:lang="en">femur distal width ML</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">femur distal breadth</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.obolibrary.org/obo/FOVT_0001030 -->
+
+    <owl:Class rdf:about="https://purl.obolibrary.org/obo/FOVT_0001030">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_VT1000666"/>
+        <obo:IAO_0000115 xml:lang="en">The width of the proximal end of a femur along the anterior-posterior axis.</obo:IAO_0000115>
+        <dc:creator rdf:resource="http://orcid.org/0000-0003-2699-3066"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-02-10T22:44:52Z</dc:date>
+        <oboInOwl:hasExactSynonym xml:lang="en">femur proximal width AP</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">femur proximal depth</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.obolibrary.org/obo/FOVT_0001031 -->
+
+    <owl:Class rdf:about="https://purl.obolibrary.org/obo/FOVT_0001031">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_VT1000666"/>
+        <obo:IAO_0000115 xml:lang="en">The width of the distal end of a femur along the anterior-posterior axis.</obo:IAO_0000115>
+        <dc:creator rdf:resource="http://orcid.org/0000-0003-2699-3066"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-02-10T22:46:33Z</dc:date>
+        <oboInOwl:hasExactSynonym xml:lang="en">femur distal width AP</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">femur distal depth</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.obolibrary.org/obo/FOVT_0001032 -->
+
+    <owl:Class rdf:about="https://purl.obolibrary.org/obo/FOVT_0001032">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_VT1000666"/>
+        <obo:IAO_0000115 xml:lang="en">The width of the trochlea of a femur along the medial-lateral axis.</obo:IAO_0000115>
+        <dc:creator rdf:resource="http://orcid.org/0000-0003-2699-3066"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-02-10T22:47:31Z</dc:date>
+        <oboInOwl:hasExactSynonym xml:lang="en">femur trochlea width ML</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">femur trochlea breadth</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.obolibrary.org/obo/FOVT_0001033 -->
+
+    <owl:Class rdf:about="https://purl.obolibrary.org/obo/FOVT_0001033">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_VT1000666"/>
+        <obo:IAO_0000115 xml:lang="en">The width of the diaphysis of a femur along the anterior-posterior axis.</obo:IAO_0000115>
+        <dc:creator rdf:resource="http://orcid.org/0000-0003-2699-3066"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-02-10T22:52:48Z</dc:date>
+        <oboInOwl:hasExactSynonym xml:lang="en">femur diaphysis width AP</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">femur diaphysis depth</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.obolibrary.org/obo/FOVT_0001034 -->
+
+    <owl:Class rdf:about="https://purl.obolibrary.org/obo/FOVT_0001034">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_VT1000280"/>
+        <obo:IAO_0000115 xml:lang="en">The width of the diaphysis of a humerus along the medial-lateral axis.</obo:IAO_0000115>
+        <dc:creator rdf:resource="http://orcid.org/0000-0003-2699-3066"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-02-10T22:56:30Z</dc:date>
+        <oboInOwl:hasExactSynonym xml:lang="en">humerus diaphysis width ML</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">humerus diaphysis breadth</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.obolibrary.org/obo/FOVT_0001035 -->
+
+    <owl:Class rdf:about="https://purl.obolibrary.org/obo/FOVT_0001035">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_VT1000280"/>
+        <obo:IAO_0000115 xml:lang="en">The width of the proximal end of a humerus along the medial-lateral axis.</obo:IAO_0000115>
+        <dc:creator rdf:resource="http://orcid.org/0000-0003-2699-3066"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-02-10T22:57:22Z</dc:date>
+        <oboInOwl:hasExactSynonym xml:lang="en">humerus proximal width ML</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">humerus proximal breadth</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.obolibrary.org/obo/FOVT_0001036 -->
+
+    <owl:Class rdf:about="https://purl.obolibrary.org/obo/FOVT_0001036">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_VT1000280"/>
+        <obo:IAO_0000115 xml:lang="en">The width of the trochlea of a humerus along the medial-lateral axis.</obo:IAO_0000115>
+        <dc:creator rdf:resource="http://orcid.org/0000-0003-2699-3066"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-02-10T23:01:47Z</dc:date>
+        <oboInOwl:hasExactSynonym xml:lang="en">humerus trochlea width ML</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">humerus trochlea breadth</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.obolibrary.org/obo/FOVT_0001037 -->
+
+    <owl:Class rdf:about="https://purl.obolibrary.org/obo/FOVT_0001037">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_VT1000280"/>
+        <obo:IAO_0000115 xml:lang="en">The width of the distal end of a humerus along the anterior-posterior axis.</obo:IAO_0000115>
+        <dc:creator rdf:resource="http://orcid.org/0000-0003-2699-3066"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-02-10T23:02:42Z</dc:date>
+        <oboInOwl:hasExactSynonym xml:lang="en">humerus distal width AP</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">humerus distal depth</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.obolibrary.org/obo/FOVT_0001038 -->
+
+    <owl:Class rdf:about="https://purl.obolibrary.org/obo/FOVT_0001038">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_VT1000280"/>
+        <obo:IAO_0000115 xml:lang="en">The width of the proximal end of a humerus along the anterior-posterior axis.</obo:IAO_0000115>
+        <dc:creator rdf:resource="http://orcid.org/0000-0003-2699-3066"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-02-10T23:04:06Z</dc:date>
+        <oboInOwl:hasExactSynonym xml:lang="en">humerus proximal width AP</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">humerus proximal depth</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.obolibrary.org/obo/FOVT_0001039 -->
+
+    <owl:Class rdf:about="https://purl.obolibrary.org/obo/FOVT_0001039">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_VT1000280"/>
+        <obo:IAO_0000115 xml:lang="en">The width of the distal end of a humerus along the medial-lateral axis.</obo:IAO_0000115>
+        <dc:creator rdf:resource="http://orcid.org/0000-0003-2699-3066"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-02-10T23:05:13Z</dc:date>
+        <oboInOwl:hasExactSynonym xml:lang="en">humerus distal width ML</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">humerus distal breadth</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.obolibrary.org/obo/FOVT_0001040 -->
+
+    <owl:Class rdf:about="https://purl.obolibrary.org/obo/FOVT_0001040">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_VT1000280"/>
+        <obo:IAO_0000115 xml:lang="en">The width of the diaphysis of a humerus along the anterior-posterior axis.</obo:IAO_0000115>
+        <dc:creator rdf:resource="http://orcid.org/0000-0003-2699-3066"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-02-10T23:06:16Z</dc:date>
+        <oboInOwl:hasExactSynonym xml:lang="en">humerus diaphysis width AP</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">humerus diaphysis depth</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.obolibrary.org/obo/FOVT_0001041 -->
+
+    <owl:Class rdf:about="https://purl.obolibrary.org/obo/FOVT_0001041">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000921"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002395"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0005110"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000921"/>
+        <obo:IAO_0000115 xml:lang="en">The width of a talus.</obo:IAO_0000115>
+        <dc:creator rdf:resource="http://orcid.org/0000-0003-2699-3066"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-02-10T23:12:24Z</dc:date>
+        <oboInOwl:hasExactSynonym xml:lang="en">astragalus width</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">talus width</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.obolibrary.org/obo/FOVT_0001042 -->
+
+    <owl:Class rdf:about="https://purl.obolibrary.org/obo/FOVT_0001042">
+        <rdfs:subClassOf rdf:resource="https://purl.obolibrary.org/obo/FOVT_0001041"/>
+        <obo:IAO_0000115 xml:lang="en">The width of the lateral side of a talus along the anterior-posterior axis.</obo:IAO_0000115>
+        <dc:creator rdf:resource="http://orcid.org/0000-0003-2699-3066"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-02-10T23:16:34Z</dc:date>
+        <oboInOwl:hasExactSynonym xml:lang="en">astragalus lateral depth</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">astragalus lateral width AP</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">talus lateral width AP</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">talus lateral depth</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.obolibrary.org/obo/FOVT_0001043 -->
+
+    <owl:Class rdf:about="https://purl.obolibrary.org/obo/FOVT_0001043">
+        <rdfs:subClassOf rdf:resource="https://purl.obolibrary.org/obo/FOVT_0001041"/>
+        <obo:IAO_0000115 xml:lang="en">The width of the medial side of a talus along the anterior-posterior axis.</obo:IAO_0000115>
+        <dc:creator rdf:resource="http://orcid.org/0000-0003-2699-3066"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-02-10T23:17:22Z</dc:date>
+        <oboInOwl:hasExactSynonym xml:lang="en">astragalus medial depth</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">astragalus medial width AP</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">talus medial width AP</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">talus medial depth</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.obolibrary.org/obo/FOVT_0001044 -->
+
+    <owl:Class rdf:about="https://purl.obolibrary.org/obo/FOVT_0001044">
+        <rdfs:subClassOf rdf:resource="https://purl.obolibrary.org/obo/FOVT_0001041"/>
+        <obo:IAO_0000115 xml:lang="en">The width of the distal end of a talus along the medial-lateral axis.</obo:IAO_0000115>
+        <dc:creator rdf:resource="http://orcid.org/0000-0003-2699-3066"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-02-10T23:20:39Z</dc:date>
+        <oboInOwl:hasExactSynonym xml:lang="en">astragalus distal width ML</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">astralagalus distal breadth</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">talus distal width ML</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">talus distal breadth</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.obolibrary.org/obo/FOVT_0001045 -->
+
+    <owl:Class rdf:about="https://purl.obolibrary.org/obo/FOVT_0001045">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0005110"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000122"/>
+        <obo:IAO_0000115 xml:lang="en">The length of the trochlea tali of a talus along the proximal-distal axis.</obo:IAO_0000115>
+        <dc:creator rdf:resource="http://orcid.org/0000-0003-2699-3066"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-02-10T23:25:15Z</dc:date>
+        <rdfs:label xml:lang="en">trochlea tali length</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.obolibrary.org/obo/FOVT_0001046 -->
+
+    <owl:Class rdf:about="https://purl.obolibrary.org/obo/FOVT_0001046">
+        <rdfs:subClassOf rdf:resource="https://purl.obolibrary.org/obo/FOVT_0001041"/>
+        <obo:IAO_0000115 xml:lang="en">The width of the trochlea of a talus along the medial-lateral axis.</obo:IAO_0000115>
+        <dc:creator rdf:resource="http://orcid.org/0000-0003-2699-3066"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-02-10T23:28:01Z</dc:date>
+        <oboInOwl:hasExactSynonym xml:lang="en">astragalus trochlea breadth</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">astragalus trochlea width ML</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">talus trochlea width ML</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">talus trochlea breadth</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.obolibrary.org/obo/FOVT_0001047 -->
+
+    <owl:Class rdf:about="https://purl.obolibrary.org/obo/FOVT_0001047">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0003330"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000122"/>
+        <obo:IAO_0000115 xml:lang="en">The length of the proximal end of a calcaneus along the proximal-distal axis.</obo:IAO_0000115>
+        <dc:creator rdf:resource="http://orcid.org/0000-0003-2699-3066"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-02-10T23:31:00Z</dc:date>
+        <rdfs:label xml:lang="en">calcaneus proximal length</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.obolibrary.org/obo/FOVT_0001048 -->
+
+    <owl:Class rdf:about="https://purl.obolibrary.org/obo/FOVT_0001048">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0003330"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000921"/>
+        <obo:IAO_0000115 xml:lang="en">The width of the distal end of a calcaneus along the anterior-posterior axis.</obo:IAO_0000115>
+        <dc:creator rdf:resource="http://orcid.org/0000-0003-2699-3066"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-02-10T23:32:25Z</dc:date>
+        <oboInOwl:hasExactSynonym xml:lang="en">calcaneus distal width AP</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">calcaneus distal depth</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 
