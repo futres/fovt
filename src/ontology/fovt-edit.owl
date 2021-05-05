@@ -82,6 +82,9 @@ Declaration(Class(<https://purl.obolibrary.org/obo/FOVT_0001045>))
 Declaration(Class(<https://purl.obolibrary.org/obo/FOVT_0001046>))
 Declaration(Class(<https://purl.obolibrary.org/obo/FOVT_0001047>))
 Declaration(Class(<https://purl.obolibrary.org/obo/FOVT_0001048>))
+Declaration(Class(<https://purl.obolibrary.org/obo/FOVT_0001049>))
+Declaration(Class(<https://purl.obolibrary.org/obo/FOVT_0001050>))
+Declaration(Class(<https://purl.obolibrary.org/obo/FOVT_0001051>))
 Declaration(AnnotationProperty(dce:description))
 Declaration(AnnotationProperty(dce:title))
 Declaration(AnnotationProperty(dcterms:license))
@@ -669,6 +672,31 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(rdfs:label <https://purl.obolibrary.org/obo/FOVT_0001048> "calcaneus distal depth"@en)
 SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0001048> <http://purl.obolibrary.org/obo/OBA_0003330>)
 SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0001048> <http://purl.obolibrary.org/obo/PATO_0000921>)
+
+# Class: <https://purl.obolibrary.org/obo/FOVT_0001049> (gutted body mass)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.obolibrary.org/obo/FOVT_0001049> "Mass of an individual organism after being gutted."@en)
+AnnotationAssertion(dce:creator <https://purl.obolibrary.org/obo/FOVT_0001049> <http://orcid.org/0000-0003-2699-3066>)
+AnnotationAssertion(dce:date <https://purl.obolibrary.org/obo/FOVT_0001049> "2021-05-04T23:55:48Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <https://purl.obolibrary.org/obo/FOVT_0001049> "gutted body mass"@en)
+SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0001049> <http://purl.obolibrary.org/obo/OBA_VT0001259>)
+
+# Class: <https://purl.obolibrary.org/obo/FOVT_0001050> (skinned body mass)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.obolibrary.org/obo/FOVT_0001050> "Mass of an individual organism after it has been skinned."@en)
+AnnotationAssertion(dce:creator <https://purl.obolibrary.org/obo/FOVT_0001050> <http://orcid.org/0000-0003-2699-3066>)
+AnnotationAssertion(dce:date <https://purl.obolibrary.org/obo/FOVT_0001050> "2021-05-04T23:56:21Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <https://purl.obolibrary.org/obo/FOVT_0001050> "skinned body mass"@en)
+SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0001050> <http://purl.obolibrary.org/obo/OBA_VT0001259>)
+
+# Class: <https://purl.obolibrary.org/obo/FOVT_0001051> (skeletal mass)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.obolibrary.org/obo/FOVT_0001051> "Mass of the skeletal elements (bones) of an individual organism."@en)
+AnnotationAssertion(dce:creator <https://purl.obolibrary.org/obo/FOVT_0001051> <http://orcid.org/0000-0003-2699-3066>)
+AnnotationAssertion(dce:date <https://purl.obolibrary.org/obo/FOVT_0001051> "2021-05-04T23:57:16Z"^^xsd:dateTime)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <https://purl.obolibrary.org/obo/FOVT_0001051> "'bone mass'"@en)
+AnnotationAssertion(rdfs:label <https://purl.obolibrary.org/obo/FOVT_0001051> "skeletal mass"@en)
+SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0001051> <http://purl.obolibrary.org/obo/OBA_VT0001259>)
 
 
 )
