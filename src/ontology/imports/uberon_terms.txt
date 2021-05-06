@@ -21,6 +21,7 @@ UBERON:0002504 #lesser trochanter
 UBERON:0011187 #ventral tubercle of humerus
 UBERON:0006333 #snout
 UBERON:1000016 #tip of snout
+UBERON:0012128 #nose tip
 UBERON:0001705 #nail
 UBERON:4100008 #pedal claws
 UBERON:0009567 #nail of pedal digit
@@ -129,3 +130,6 @@ UBERON:0018646 #premolar tooth 5
 UBERON:0018375 #deciduous premolar 5
 UBERON:0018281 #lower deciduous premolar 5
 UBERON:0018301 #upper deciduous premolar 5
+UBERON:0009678 #tooth row
+UBERON:0003675 #tooth crown
+UBERON:0003955 #molar crown

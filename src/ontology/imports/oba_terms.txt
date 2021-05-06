@@ -13,5 +13,21 @@ OBA:VT0005110	#talus size trait
 OBA:0003330		#calcaneous size trait
 OBA:VT1000289	#tibia width
 OBA:VT0004357	#tibia length
-UBERON:0009678 	#tooth row
-PATO:0001595	#depth
+OBA:1000112 	#tooth size
+OBA:1000113  	#incisor size
+OBA:0004257  	#molar tooth size
+OBA:0002710 	#premolar tooth size
+OBA:0004075 	#incisor tooth length
+OBA:0003047 	#metacarpal bone length
+OBA:0003043 	#metacarpal bone of digit 1 length
+OBA:0002676		#metacarpal bone of digit 2 length
+OBA:0003044		#metacarpal bone of digit 3 length
+OBA:0003045		#metacarpal bone of digit 4 length
+OBA:0003046		#metacarpal bone of digit 5 length
+OBA:VT1000361	#canon bone circumference
+OBA:0004033 	#metatarsal bone length
+OBA:0003066		#metatarsal bone of digit 1 length
+OBA:0003272		#metatarsal bone of digit 2 length
+OBA:0002565		#metatarsal bone of digit 3 length
+OBA:0002567		#metatarsal bone of digit 4 length
+OBA:0002569		#metatarsal bone of digit 5 length
