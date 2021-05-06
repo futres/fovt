@@ -1,2 +1,16 @@
-
-
+BSPO:0000010 #anatomical axis
+BSPO:0001001 #medial-lateral axis
+BSPO:0000015 #proxima-distal axis
+BSPO:0000417 #sagittal plane
+BSPO:0000016 #dorsal-ventral axis
+BSPO:0000013 #anterior-posterior axis
+CARO:0000008 #anatomical line
+BSPO:0001108 #distalmost part of
+BSPO:0001106 #proximalmost part of
+BSPO:0000382 #lateral surface
+BSPO:0000378 #distal surface
+BSPO:0000377 #proximal surface
+BSPO:0000383 #medial surface
+BSPO:0000372 #posterior surface
+BSPO:0000384 #ventral surface
+BSPO:0000371 #anterior surface

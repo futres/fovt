@@ -1,2 +1,131 @@
 UBERON:4200181 #astragulus head
-UBERON:0009678 	#tooth row
+UBERON:0009678 #tooth row
+UBERON:0002395 #talus
+UBERON:0001450 #calcaneus
+UBERON:0015180 #neck of talus
+UBERON:0010724 #lateral tubercle of talus
+UBERON:0000976 #humerus
+UBERON:0004652 #humerus diaphysis
+UBERON:0009988 #condyle of humerus
+UBERON:4200174 #distal condyle of humerus
+UBERON:0000144 #trochlea of humerus
+UBERON:0006801 #proximal head of humerus; caput
+UBERON:0000981 #femur
+UBERON:0006767 #head of femur
+UBERON:0006862 #diaphysis of femur
+UBERON:0009985 #lateral condyle of femur
+UBERON:0009984 #medial condyle of femur
+UBERON:0002503 #greater trochanter
+UBERON:0000979 #tibia
+UBERON:0002504 #lesser trochanter
+UBERON:0011187 #ventral tubercle of humerus
+UBERON:0006333 #snout
+UBERON:1000016 #tip of snout
+UBERON:0001705 #nail
+UBERON:4100008 #pedal claws
+UBERON:0009567 #nail of pedal digit
+UBERON:0011278 #nail of pedal digit 1
+UBERON:0011279 #nail of pedal digit 2
+UBERON:0011280 #nail of pedal digit 3
+UBERON:0011281 #nail of pedal digit 4
+UBERON:0011282 #nail of pedal digit 5
+UBERON:0001690 #ear
+UBERON:0035295 #left ear
+UBERON:0035174 #right ear
+UBERON:0010887 #tragus
+UBERON:0002488 #helix of outer ear
+UBERON:0036212 #intertragic incisure; notch
+UBERON:0000033 #head
+UBERON:0010162 #post-anal tail tip
+UBERON:0003645 #metacarpal bone of digit 1
+UBERON:0003646 #metacarpal bone of digit 2
+UBERON:0003647 #metacarpal bone of digit 3
+UBERON:0003648 #metacarpal bone of digit 4
+UBERON:0003649 #metacarpal bone of digit 5
+UBERON:0013587 #fused metacarpal bones 3 and 4
+UBERON:0014763 #fused metatarsal bones 2-4
+UBERON:0013588 #fused metatarsal bones 3 and 4
+UBERON:0003650 #metatarsal bone of digit 1
+UBERON:0003651 #metatarsal bone of digit 2
+UBERON:0003652 #metatarsal bone of digit 3
+UBERON:0003653 #metatarsal bone of digit 4
+UBERON:0003654 #metatarsal bone of digit 5
+UBERON:0014762 #fused metapodial bones 2-4
+UBERON:0013586 #fused metapodial bones 3 and 4
+UBERON:0013581 #metapodium bone 1
+UBERON:0013582 #metapodium bone 2
+UBERON:0013583 #metapodium bone 3
+UBERON:0013584 #metapodium bone 4
+UBERON:0013585 #metapodium bone 5
+UBERON:0001098 #incisor tooth
+UBERON:0018551 #central incisor tooth
+UBERON:0018552 #lateral incisor tooth
+UBERON:0003451 #lower jaw incisor
+UBERON:0001710 #lower jaw region
+UBERON:0001709 #upper jaw region
+UBERON:0003450 #upper jaw incisor
+UBERON:0018602 #lower lateral incisor tooth
+UBERON:0018601 #lower central incisor tooth
+UBERON:0019253 #primary incisor tooth
+UBERON:0018603 $upper central incisor tooth
+UBERON:0016454 #upper central secondary incisor tooth
+UBERON:0018604 #upper lateral incisor tooth
+UBERON:0016455 #upper lateral secondary incisor tooth
+upper secondary incisor tooth
+UBERON:0018550 #secondary incisor tooth
+UBERON:0003674 #cuspid
+UBERON:0018622 #lower canine tooth
+UBERON:0018583 #primary canine tooth
+UBERON:0018584 #secondary canine tooth
+UBERON:0018621 #upper canine tooth
+UBERON:0018598 #lower primary canine tooth
+UBERON:0018562 #lower secondary canine tooth
+UBERON:0018597 #upper primary canine tooth
+UBERON:0018561 #upper secondary canine tooth
+UBERON:0018300 #upper canine 1
+UBERON:0003655 #molar tooth
+UBERON:0003667 #lower jaw molar
+UBERON:0003666 #upper jaw molar
+UBERON:0018376 #molar tooth 1
+UBERON:0018644 #deciduous molar tooth 1
+UBERON:0018589 #lower first primary molar tooth
+UBERON:0018588 #upper first primary molar tooth
+UBERON:0018608 #permanent molar tooth 1
+UBERON:0018578 #lower first secondary molar tooth
+UBERON:0018575 #upper first secondary molar tooth
+UBERON:0018302 #upper molar 1
+UBERON:0018606 #molar tooth 2
+UBERON:0018643 #deciduous molar tooth 2
+UBERON:0018600 #lower second primary molar tooth
+UBERON:0018599 #upper second primary molar tooth
+UBERON:0018607 #permanent molar tooth 2
+UBERON:0018579 #lower second secondary molar tooth
+UBERON:0018576 #upper second secondary molar tooth
+UBERON:0018377 #molar tooth 3
+UBERON:0018282 #lower molar 3
+UBERON:0018580 #lower third secondary molar tooth
+UBERON:0018577 #upper third secondary molar tooth
+UBERON:7500055 #molar tooth 4
+UBERON:0013616 #primary molar tooth
+UBERON:0013618 #secondary molar tooth
+UBERON:0007120 #premolar tooth
+UBERON:0016943 #lower premolar tooth
+UBERON:0016944 #upper premolar tooth
+UBERON:0017270 #secondary premolar tooth
+UBERON:0017269 #primary premolar tooth
+UBERON:0018294 #premolar 1
+UBERON:0018573 #lower first secondary premolar tooth
+UBERON:0018571 #upper first secondary premolar tooth
+UBERON:0018284 #lower premolar 1
+UBERON:0018640 #premolar 2
+UBERON:0018285 #lower premolar 2
+UBERON:0018574 #lower second secondary premolar tooth
+UBERON:0018572 #upper second secondary premolar tooth
+UBERON:7500056 #premolar 3
+UBERON:0018647 #premolar 4
+UBERON:7500053 #lower fourth secondary premolar tooth
+UBERON:0018648 #upper premolar tooth
+UBERON:0018646 #premolar tooth 5
+UBERON:0018375 #deciduous premolar 5
+UBERON:0018281 #lower deciduous premolar 5
+UBERON:0018301 #upper deciduous premolar 5
