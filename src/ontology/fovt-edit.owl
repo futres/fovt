@@ -86,6 +86,10 @@ Declaration(Class(<https://purl.obolibrary.org/obo/FOVT_0001053>))
 Declaration(Class(<https://purl.obolibrary.org/obo/FOVT_0001054>))
 Declaration(Class(<https://purl.obolibrary.org/obo/FOVT_0001055>))
 Declaration(Class(<https://purl.obolibrary.org/obo/FOVT_0001056>))
+Declaration(Class(<https://purl.obolibrary.org/obo/FOVT_0001057>))
+Declaration(Class(<https://purl.obolibrary.org/obo/FOVT_0001058>))
+Declaration(Class(<https://purl.obolibrary.org/obo/FOVT_0001059>))
+Declaration(Class(<https://purl.obolibrary.org/obo/FOVT_0001060>))
 Declaration(AnnotationProperty(dce:description))
 Declaration(AnnotationProperty(dce:title))
 Declaration(AnnotationProperty(dcterms:license))
@@ -707,6 +711,38 @@ AnnotationAssertion(dce:creator <https://purl.obolibrary.org/obo/FOVT_0001056> <
 AnnotationAssertion(dce:date <https://purl.obolibrary.org/obo/FOVT_0001056> "2021-05-10T22:53:18Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <https://purl.obolibrary.org/obo/FOVT_0001056> "gutted and skinned body mass"@en)
 SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0001056> <http://purl.obolibrary.org/obo/OBA_VT0001259>)
+
+# Class: <https://purl.obolibrary.org/obo/FOVT_0001057> (testis length)
+
+AnnotationAssertion(dce:creator <https://purl.obolibrary.org/obo/FOVT_0001057> <http://orcid.org/0000-0003-2699-3066>)
+AnnotationAssertion(dce:date <https://purl.obolibrary.org/obo/FOVT_0001057> "2021-05-10T23:15:37Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:comment <https://purl.obolibrary.org/obo/FOVT_0001057> "The length of a testis."@en)
+AnnotationAssertion(rdfs:label <https://purl.obolibrary.org/obo/FOVT_0001057> "testis length"@en)
+SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0001057> <http://purl.obolibrary.org/obo/OBA_0002017>)
+
+# Class: <https://purl.obolibrary.org/obo/FOVT_0001058> (right testis length)
+
+AnnotationAssertion(dce:creator <https://purl.obolibrary.org/obo/FOVT_0001058> <http://orcid.org/0000-0003-2699-3066>)
+AnnotationAssertion(dce:date <https://purl.obolibrary.org/obo/FOVT_0001058> "2021-05-10T23:16:25Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:comment <https://purl.obolibrary.org/obo/FOVT_0001058> "The length of the right testis."@en)
+AnnotationAssertion(rdfs:label <https://purl.obolibrary.org/obo/FOVT_0001058> "right testis length"@en)
+SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0001058> <https://purl.obolibrary.org/obo/FOVT_0001057>)
+
+# Class: <https://purl.obolibrary.org/obo/FOVT_0001059> (left testis length)
+
+AnnotationAssertion(dce:creator <https://purl.obolibrary.org/obo/FOVT_0001059> <http://orcid.org/0000-0003-2699-3066>)
+AnnotationAssertion(dce:date <https://purl.obolibrary.org/obo/FOVT_0001059> "2021-05-10T23:18:15Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:comment <https://purl.obolibrary.org/obo/FOVT_0001059> "The length of the left testis."@en)
+AnnotationAssertion(rdfs:label <https://purl.obolibrary.org/obo/FOVT_0001059> "left testis length"@en)
+SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0001059> <https://purl.obolibrary.org/obo/FOVT_0001057>)
+
+# Class: <https://purl.obolibrary.org/obo/FOVT_0001060> (gonad length)
+
+AnnotationAssertion(dce:creator <https://purl.obolibrary.org/obo/FOVT_0001060> <http://orcid.org/0000-0003-2699-3066>)
+AnnotationAssertion(dce:date <https://purl.obolibrary.org/obo/FOVT_0001060> "2021-05-10T23:18:51Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:comment <https://purl.obolibrary.org/obo/FOVT_0001060> "The length of a gonad."@en)
+AnnotationAssertion(rdfs:label <https://purl.obolibrary.org/obo/FOVT_0001060> "gonad length"@en)
+SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0001060> <http://purl.obolibrary.org/obo/OBA_0002017>)
 
 
 )
