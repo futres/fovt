@@ -82,6 +82,10 @@ Declaration(Class(<https://purl.obolibrary.org/obo/FOVT_0001045>))
 Declaration(Class(<https://purl.obolibrary.org/obo/FOVT_0001046>))
 Declaration(Class(<https://purl.obolibrary.org/obo/FOVT_0001047>))
 Declaration(Class(<https://purl.obolibrary.org/obo/FOVT_0001048>))
+Declaration(Class(<https://purl.obolibrary.org/obo/FOVT_0001053>))
+Declaration(Class(<https://purl.obolibrary.org/obo/FOVT_0001054>))
+Declaration(Class(<https://purl.obolibrary.org/obo/FOVT_0001055>))
+Declaration(Class(<https://purl.obolibrary.org/obo/FOVT_0001056>))
 Declaration(AnnotationProperty(dce:description))
 Declaration(AnnotationProperty(dce:title))
 Declaration(AnnotationProperty(dcterms:license))
@@ -117,20 +121,20 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(rdfs:label <https://purl.obolibrary.org/obo/FOVT_0000002> "body length without tail"@en)
 SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0000002> <http://purl.obolibrary.org/obo/OBA_VT0001256>)
 
-# Class: <https://purl.obolibrary.org/obo/FOVT_0000003> (hind foot length with claw)
+# Class: <https://purl.obolibrary.org/obo/FOVT_0000003> (hind foot length with nail)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <https://purl.obolibrary.org/obo/FOVT_0000003> <http://purl.obolibrary.org/obo/IAO_0000423>)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.obolibrary.org/obo/FOVT_0000003> "A length measurement of a hind foot that includes a nail.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <https://purl.obolibrary.org/obo/FOVT_0000003> "pes length with claw")
-AnnotationAssertion(rdfs:label <https://purl.obolibrary.org/obo/FOVT_0000003> "hind foot length with claw"@en)
+AnnotationAssertion(rdfs:label <https://purl.obolibrary.org/obo/FOVT_0000003> "hind foot length with nail"@en)
 SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0000003> <http://purl.obolibrary.org/obo/OBA_1000049>)
 
-# Class: <https://purl.obolibrary.org/obo/FOVT_0000004> (hind foot length without claw)
+# Class: <https://purl.obolibrary.org/obo/FOVT_0000004> (hind foot length without nail)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <https://purl.obolibrary.org/obo/FOVT_0000004> <http://purl.obolibrary.org/obo/IAO_0000423>)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.obolibrary.org/obo/FOVT_0000004> "A length measurement of a hind foot that excludes a nail.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <https://purl.obolibrary.org/obo/FOVT_0000004> "pes length without claw")
-AnnotationAssertion(rdfs:label <https://purl.obolibrary.org/obo/FOVT_0000004> "hind foot length without claw"@en)
+AnnotationAssertion(rdfs:label <https://purl.obolibrary.org/obo/FOVT_0000004> "hind foot length without nail"@en)
 SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0000004> <http://purl.obolibrary.org/obo/OBA_1000049>)
 
 # Class: <https://purl.obolibrary.org/obo/FOVT_0000005> (ear length to notch)
@@ -669,6 +673,40 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(rdfs:label <https://purl.obolibrary.org/obo/FOVT_0001048> "calcaneus distal depth"@en)
 SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0001048> <http://purl.obolibrary.org/obo/OBA_0003330>)
 SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0001048> <http://purl.obolibrary.org/obo/PATO_0000921>)
+
+# Class: <https://purl.obolibrary.org/obo/FOVT_0001053> (gutted body mass)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.obolibrary.org/obo/FOVT_0001053> "The mass of a multicellur organism after removing internal organs."@en)
+AnnotationAssertion(dce:creator <https://purl.obolibrary.org/obo/FOVT_0001053> <http://orcid.org/0000-0003-2699-3066>)
+AnnotationAssertion(dce:date <https://purl.obolibrary.org/obo/FOVT_0001053> "2021-05-10T22:50:17Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <https://purl.obolibrary.org/obo/FOVT_0001053> "gutted body mass"@en)
+SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0001053> <http://purl.obolibrary.org/obo/OBA_VT0001259>)
+
+# Class: <https://purl.obolibrary.org/obo/FOVT_0001054> (skinned body mass)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.obolibrary.org/obo/FOVT_0001054> "The mass of a multicellular organism after being skinned."@en)
+AnnotationAssertion(dce:creator <https://purl.obolibrary.org/obo/FOVT_0001054> <http://orcid.org/0000-0003-2699-3066>)
+AnnotationAssertion(dce:date <https://purl.obolibrary.org/obo/FOVT_0001054> "2021-05-10T22:52:04Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <https://purl.obolibrary.org/obo/FOVT_0001054> "skinned body mass"@en)
+SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0001054> <http://purl.obolibrary.org/obo/OBA_VT0001259>)
+
+# Class: <https://purl.obolibrary.org/obo/FOVT_0001055> (skeletal mass)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.obolibrary.org/obo/FOVT_0001055> "The mass of a multicellur organism bones without skin, internal organs, or other soft tissue."@en)
+AnnotationAssertion(dce:creator <https://purl.obolibrary.org/obo/FOVT_0001055> <http://orcid.org/0000-0003-2699-3066>)
+AnnotationAssertion(dce:date <https://purl.obolibrary.org/obo/FOVT_0001055> "2021-05-10T22:52:36Z"^^xsd:dateTime)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <https://purl.obolibrary.org/obo/FOVT_0001055> "'bone mass'"@en)
+AnnotationAssertion(rdfs:label <https://purl.obolibrary.org/obo/FOVT_0001055> "skeletal mass"@en)
+SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0001055> <http://purl.obolibrary.org/obo/OBA_VT0001259>)
+SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0001055> <http://purl.obolibrary.org/obo/OBA_VT1000111>)
+
+# Class: <https://purl.obolibrary.org/obo/FOVT_0001056> (gutted and skinned mass)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.obolibrary.org/obo/FOVT_0001056> "The mass of a mutlicellular organism after being both gutted (i.e., internal organs removed) and skinned."@en)
+AnnotationAssertion(dce:creator <https://purl.obolibrary.org/obo/FOVT_0001056> <http://orcid.org/0000-0003-2699-3066>)
+AnnotationAssertion(dce:date <https://purl.obolibrary.org/obo/FOVT_0001056> "2021-05-10T22:53:18Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <https://purl.obolibrary.org/obo/FOVT_0001056> "gutted and skinned mass"@en)
+SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0001056> <http://purl.obolibrary.org/obo/OBA_VT0001259>)
 
 
 )
