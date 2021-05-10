@@ -360,6 +360,7 @@ SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0000032> <http://purl.obolibrar
 
 # Class: <https://purl.obolibrary.org/obo/FOVT_0001003> (ear length to tragus)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <https://purl.obolibrary.org/obo/FOVT_0001003> <http://purl.obolibrary.org/obo/IAO_0000423>)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.obolibrary.org/obo/FOVT_0001003> "The length of a line of an ear from a helix of the outer ear to a tragus of an ear. This measurement is often taken in bats."^^xsd:string)
 AnnotationAssertion(dce:creator <https://purl.obolibrary.org/obo/FOVT_0001003> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(dce:date <https://purl.obolibrary.org/obo/FOVT_0001003> "2021-01-26T21:39:38Z"^^xsd:dateTime)
@@ -368,6 +369,7 @@ SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0001003> <http://purl.obolibrar
 
 # Class: <https://purl.obolibrary.org/obo/FOVT_0001004> (tibia distal breadth)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <https://purl.obolibrary.org/obo/FOVT_0001004> <http://purl.obolibrary.org/obo/IAO_0000423>)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.obolibrary.org/obo/FOVT_0001004> "The width of a tibia at the distal end along the medial-lateral axis."@en)
 AnnotationAssertion(dce:creator <https://purl.obolibrary.org/obo/FOVT_0001004> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(dce:date <https://purl.obolibrary.org/obo/FOVT_0001004> "2021-02-05T00:08:49Z"^^xsd:dateTime)
@@ -377,6 +379,7 @@ SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0001004> <https://purl.obolibra
 
 # Class: <https://purl.obolibrary.org/obo/FOVT_0001005> (tibia distal depth)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <https://purl.obolibrary.org/obo/FOVT_0001005> <http://purl.obolibrary.org/obo/IAO_0000423>)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.obolibrary.org/obo/FOVT_0001005> "The width of a tibia at the distal end along the anterior-posterior axis."@en)
 AnnotationAssertion(dce:creator <https://purl.obolibrary.org/obo/FOVT_0001005> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(dce:date <https://purl.obolibrary.org/obo/FOVT_0001005> "2021-02-05T00:09:47Z"^^xsd:dateTime)
@@ -386,6 +389,7 @@ SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0001005> <https://purl.obolibra
 
 # Class: <https://purl.obolibrary.org/obo/FOVT_0001006> (tibia proximal breadth)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <https://purl.obolibrary.org/obo/FOVT_0001006> <http://purl.obolibrary.org/obo/IAO_0000423>)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.obolibrary.org/obo/FOVT_0001006> "The width of a tibia at the proximal end along the medial-lateral axis."@en)
 AnnotationAssertion(dce:creator <https://purl.obolibrary.org/obo/FOVT_0001006> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(dce:date <https://purl.obolibrary.org/obo/FOVT_0001006> "2021-02-05T00:10:13Z"^^xsd:dateTime)
@@ -395,6 +399,7 @@ SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0001006> <https://purl.obolibra
 
 # Class: <https://purl.obolibrary.org/obo/FOVT_0001007> (tibia proximal depth)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <https://purl.obolibrary.org/obo/FOVT_0001007> <http://purl.obolibrary.org/obo/IAO_0000423>)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.obolibrary.org/obo/FOVT_0001007> "The width of a tibia at the proximal end along the anterior-posterior axis."@en)
 AnnotationAssertion(dce:creator <https://purl.obolibrary.org/obo/FOVT_0001007> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(dce:date <https://purl.obolibrary.org/obo/FOVT_0001007> "2021-02-05T00:10:31Z"^^xsd:dateTime)
@@ -404,6 +409,7 @@ SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0001007> <https://purl.obolibra
 
 # Class: <https://purl.obolibrary.org/obo/FOVT_0001008> (tibia diaphysis breadth)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <https://purl.obolibrary.org/obo/FOVT_0001008> <http://purl.obolibrary.org/obo/IAO_0000423>)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.obolibrary.org/obo/FOVT_0001008> "The width of a shaft or diaphysis of a tibia along the medial-lateral axis."@en)
 AnnotationAssertion(dce:creator <https://purl.obolibrary.org/obo/FOVT_0001008> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(dce:date <https://purl.obolibrary.org/obo/FOVT_0001008> "2021-02-05T00:16:17Z"^^xsd:dateTime)
@@ -413,6 +419,7 @@ SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0001008> <https://purl.obolibra
 
 # Class: <https://purl.obolibrary.org/obo/FOVT_0001009> (tibia diaphysis depth)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <https://purl.obolibrary.org/obo/FOVT_0001009> <http://purl.obolibrary.org/obo/IAO_0000423>)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.obolibrary.org/obo/FOVT_0001009> "The width of a shaft or diaphysis of a tibia along the anterior-posterior axis."@en)
 AnnotationAssertion(dce:creator <https://purl.obolibrary.org/obo/FOVT_0001009> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(dce:date <https://purl.obolibrary.org/obo/FOVT_0001009> "2021-02-05T00:16:59Z"^^xsd:dateTime)
@@ -422,6 +429,7 @@ SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0001009> <https://purl.obolibra
 
 # Class: <https://purl.obolibrary.org/obo/FOVT_0001021> (tibia medial length)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <https://purl.obolibrary.org/obo/FOVT_0001021> <http://purl.obolibrary.org/obo/IAO_0000423>)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.obolibrary.org/obo/FOVT_0001021> "The length of a tibia on the medial side along the proximal-distal axis."@en)
 AnnotationAssertion(dce:creator <https://purl.obolibrary.org/obo/FOVT_0001021> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(dce:date <https://purl.obolibrary.org/obo/FOVT_0001021> "2021-02-10T21:45:47Z"^^xsd:dateTime)
@@ -430,6 +438,7 @@ SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0001021> <http://purl.obolibrar
 
 # Class: <https://purl.obolibrary.org/obo/FOVT_0001022> (tibia greatest length)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <https://purl.obolibrary.org/obo/FOVT_0001022> <http://purl.obolibrary.org/obo/IAO_0000423>)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.obolibrary.org/obo/FOVT_0001022> "The greatest length of a tibia from the proximal-most point of a tibia to the distal-most point of a tibia."@en)
 AnnotationAssertion(dce:creator <https://purl.obolibrary.org/obo/FOVT_0001022> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(dce:date <https://purl.obolibrary.org/obo/FOVT_0001022> "2021-02-10T21:53:59Z"^^xsd:dateTime)
@@ -438,6 +447,7 @@ SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0001022> <http://purl.obolibrar
 
 # Class: <https://purl.obolibrary.org/obo/FOVT_0001023> (tibia diaphysis circumference)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <https://purl.obolibrary.org/obo/FOVT_0001023> <http://purl.obolibrary.org/obo/IAO_0000423>)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.obolibrary.org/obo/FOVT_0001023> "The circumference of the diaphysis of a tibia."@en)
 AnnotationAssertion(dce:creator <https://purl.obolibrary.org/obo/FOVT_0001023> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(dce:date <https://purl.obolibrary.org/obo/FOVT_0001023> "2021-02-10T21:58:04Z"^^xsd:dateTime)
@@ -446,6 +456,7 @@ SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0001023> <http://purl.obolibrar
 
 # Class: <https://purl.obolibrary.org/obo/FOVT_0001024> (femur proximal breadth)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <https://purl.obolibrary.org/obo/FOVT_0001024> <http://purl.obolibrary.org/obo/IAO_0000423>)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.obolibrary.org/obo/FOVT_0001024> "The width of the proximal end of a femur along the medial-lateral axis."@en)
 AnnotationAssertion(dce:creator <https://purl.obolibrary.org/obo/FOVT_0001024> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(dce:date <https://purl.obolibrary.org/obo/FOVT_0001024> "2021-02-10T22:28:39Z"^^xsd:dateTime)
@@ -455,6 +466,7 @@ SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0001024> <http://purl.obolibrar
 
 # Class: <https://purl.obolibrary.org/obo/FOVT_0001025> (femur trochanter breadth)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <https://purl.obolibrary.org/obo/FOVT_0001025> <http://purl.obolibrary.org/obo/IAO_0000423>)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.obolibrary.org/obo/FOVT_0001025> "The width of the trochanter of a femur along the medial-lateral axis."@en)
 AnnotationAssertion(dce:creator <https://purl.obolibrary.org/obo/FOVT_0001025> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(dce:date <https://purl.obolibrary.org/obo/FOVT_0001025> "2021-02-10T22:32:15Z"^^xsd:dateTime)
@@ -464,6 +476,7 @@ SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0001025> <http://purl.obolibrar
 
 # Class: <https://purl.obolibrary.org/obo/FOVT_0001026> (femur caput depth)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <https://purl.obolibrary.org/obo/FOVT_0001026> <http://purl.obolibrary.org/obo/IAO_0000423>)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.obolibrary.org/obo/FOVT_0001026> "The width of the caput of a femur along the anterior-posterior axis."@en)
 AnnotationAssertion(dce:creator <https://purl.obolibrary.org/obo/FOVT_0001026> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(dce:date <https://purl.obolibrary.org/obo/FOVT_0001026> "2021-02-10T22:33:22Z"^^xsd:dateTime)
@@ -473,6 +486,7 @@ SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0001026> <http://purl.obolibrar
 
 # Class: <https://purl.obolibrary.org/obo/FOVT_0001027> (femur diaphysis breadth)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <https://purl.obolibrary.org/obo/FOVT_0001027> <http://purl.obolibrary.org/obo/IAO_0000423>)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.obolibrary.org/obo/FOVT_0001027> "The width of the diaphysis of a femur along the medial-lateral axis."@en)
 AnnotationAssertion(dce:creator <https://purl.obolibrary.org/obo/FOVT_0001027> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(dce:date <https://purl.obolibrary.org/obo/FOVT_0001027> "2021-02-10T22:35:17Z"^^xsd:dateTime)
@@ -482,6 +496,7 @@ SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0001027> <http://purl.obolibrar
 
 # Class: <https://purl.obolibrary.org/obo/FOVT_0001028> (femus diaphysis circumference)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <https://purl.obolibrary.org/obo/FOVT_0001028> <http://purl.obolibrary.org/obo/IAO_0000423>)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.obolibrary.org/obo/FOVT_0001028> "The circumference of the diaphysis of a femur."@en)
 AnnotationAssertion(dce:creator <https://purl.obolibrary.org/obo/FOVT_0001028> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(dce:date <https://purl.obolibrary.org/obo/FOVT_0001028> "2021-02-10T22:36:50Z"^^xsd:dateTime)
@@ -490,6 +505,7 @@ SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0001028> <http://purl.obolibrar
 
 # Class: <https://purl.obolibrary.org/obo/FOVT_0001029> (femur distal breadth)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <https://purl.obolibrary.org/obo/FOVT_0001029> <http://purl.obolibrary.org/obo/IAO_0000423>)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.obolibrary.org/obo/FOVT_0001029> "The width of the distal end of a femur along the medial-lateral axis."@en)
 AnnotationAssertion(dce:creator <https://purl.obolibrary.org/obo/FOVT_0001029> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(dce:date <https://purl.obolibrary.org/obo/FOVT_0001029> "2021-02-10T22:37:49Z"^^xsd:dateTime)
@@ -499,6 +515,7 @@ SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0001029> <http://purl.obolibrar
 
 # Class: <https://purl.obolibrary.org/obo/FOVT_0001030> (femur proximal depth)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <https://purl.obolibrary.org/obo/FOVT_0001030> <http://purl.obolibrary.org/obo/IAO_0000423>)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.obolibrary.org/obo/FOVT_0001030> "The width of the proximal end of a femur along the anterior-posterior axis."@en)
 AnnotationAssertion(dce:creator <https://purl.obolibrary.org/obo/FOVT_0001030> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(dce:date <https://purl.obolibrary.org/obo/FOVT_0001030> "2021-02-10T22:44:52Z"^^xsd:dateTime)
@@ -508,6 +525,7 @@ SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0001030> <http://purl.obolibrar
 
 # Class: <https://purl.obolibrary.org/obo/FOVT_0001031> (femur distal depth)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <https://purl.obolibrary.org/obo/FOVT_0001031> <http://purl.obolibrary.org/obo/IAO_0000423>)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.obolibrary.org/obo/FOVT_0001031> "The width of the distal end of a femur along the anterior-posterior axis."@en)
 AnnotationAssertion(dce:creator <https://purl.obolibrary.org/obo/FOVT_0001031> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(dce:date <https://purl.obolibrary.org/obo/FOVT_0001031> "2021-02-10T22:46:33Z"^^xsd:dateTime)
@@ -517,6 +535,7 @@ SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0001031> <http://purl.obolibrar
 
 # Class: <https://purl.obolibrary.org/obo/FOVT_0001032> (femur trochlea breadth)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <https://purl.obolibrary.org/obo/FOVT_0001032> <http://purl.obolibrary.org/obo/IAO_0000423>)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.obolibrary.org/obo/FOVT_0001032> "The width of the trochlea of a femur along the medial-lateral axis."@en)
 AnnotationAssertion(dce:creator <https://purl.obolibrary.org/obo/FOVT_0001032> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(dce:date <https://purl.obolibrary.org/obo/FOVT_0001032> "2021-02-10T22:47:31Z"^^xsd:dateTime)
@@ -526,6 +545,7 @@ SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0001032> <http://purl.obolibrar
 
 # Class: <https://purl.obolibrary.org/obo/FOVT_0001033> (femur diaphysis depth)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <https://purl.obolibrary.org/obo/FOVT_0001033> <http://purl.obolibrary.org/obo/IAO_0000423>)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.obolibrary.org/obo/FOVT_0001033> "The width of the diaphysis of a femur along the anterior-posterior axis."@en)
 AnnotationAssertion(dce:creator <https://purl.obolibrary.org/obo/FOVT_0001033> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(dce:date <https://purl.obolibrary.org/obo/FOVT_0001033> "2021-02-10T22:52:48Z"^^xsd:dateTime)
@@ -535,6 +555,7 @@ SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0001033> <http://purl.obolibrar
 
 # Class: <https://purl.obolibrary.org/obo/FOVT_0001034> (humerus diaphysis breadth)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <https://purl.obolibrary.org/obo/FOVT_0001034> <http://purl.obolibrary.org/obo/IAO_0000423>)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.obolibrary.org/obo/FOVT_0001034> "The width of the diaphysis of a humerus along the medial-lateral axis."@en)
 AnnotationAssertion(dce:creator <https://purl.obolibrary.org/obo/FOVT_0001034> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(dce:date <https://purl.obolibrary.org/obo/FOVT_0001034> "2021-02-10T22:56:30Z"^^xsd:dateTime)
@@ -544,6 +565,7 @@ SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0001034> <http://purl.obolibrar
 
 # Class: <https://purl.obolibrary.org/obo/FOVT_0001035> (humerus proximal breadth)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <https://purl.obolibrary.org/obo/FOVT_0001035> <http://purl.obolibrary.org/obo/IAO_0000423>)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.obolibrary.org/obo/FOVT_0001035> "The width of the proximal end of a humerus along the medial-lateral axis."@en)
 AnnotationAssertion(dce:creator <https://purl.obolibrary.org/obo/FOVT_0001035> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(dce:date <https://purl.obolibrary.org/obo/FOVT_0001035> "2021-02-10T22:57:22Z"^^xsd:dateTime)
@@ -553,6 +575,7 @@ SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0001035> <http://purl.obolibrar
 
 # Class: <https://purl.obolibrary.org/obo/FOVT_0001036> (humerus trochlea breadth)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <https://purl.obolibrary.org/obo/FOVT_0001036> <http://purl.obolibrary.org/obo/IAO_0000423>)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.obolibrary.org/obo/FOVT_0001036> "The width of the trochlea of a humerus along the medial-lateral axis."@en)
 AnnotationAssertion(dce:creator <https://purl.obolibrary.org/obo/FOVT_0001036> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(dce:date <https://purl.obolibrary.org/obo/FOVT_0001036> "2021-02-10T23:01:47Z"^^xsd:dateTime)
@@ -562,6 +585,7 @@ SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0001036> <http://purl.obolibrar
 
 # Class: <https://purl.obolibrary.org/obo/FOVT_0001037> (humerus distal depth)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <https://purl.obolibrary.org/obo/FOVT_0001037> <http://purl.obolibrary.org/obo/IAO_0000423>)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.obolibrary.org/obo/FOVT_0001037> "The width of the distal end of a humerus along the anterior-posterior axis."@en)
 AnnotationAssertion(dce:creator <https://purl.obolibrary.org/obo/FOVT_0001037> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(dce:date <https://purl.obolibrary.org/obo/FOVT_0001037> "2021-02-10T23:02:42Z"^^xsd:dateTime)
@@ -571,6 +595,7 @@ SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0001037> <http://purl.obolibrar
 
 # Class: <https://purl.obolibrary.org/obo/FOVT_0001038> (humerus proximal depth)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <https://purl.obolibrary.org/obo/FOVT_0001038> <http://purl.obolibrary.org/obo/IAO_0000423>)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.obolibrary.org/obo/FOVT_0001038> "The width of the proximal end of a humerus along the anterior-posterior axis."@en)
 AnnotationAssertion(dce:creator <https://purl.obolibrary.org/obo/FOVT_0001038> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(dce:date <https://purl.obolibrary.org/obo/FOVT_0001038> "2021-02-10T23:04:06Z"^^xsd:dateTime)
@@ -580,6 +605,7 @@ SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0001038> <http://purl.obolibrar
 
 # Class: <https://purl.obolibrary.org/obo/FOVT_0001039> (humerus distal breadth)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <https://purl.obolibrary.org/obo/FOVT_0001039> <http://purl.obolibrary.org/obo/IAO_0000423>)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.obolibrary.org/obo/FOVT_0001039> "The width of the distal end of a humerus along the medial-lateral axis."@en)
 AnnotationAssertion(dce:creator <https://purl.obolibrary.org/obo/FOVT_0001039> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(dce:date <https://purl.obolibrary.org/obo/FOVT_0001039> "2021-02-10T23:05:13Z"^^xsd:dateTime)
@@ -589,6 +615,7 @@ SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0001039> <http://purl.obolibrar
 
 # Class: <https://purl.obolibrary.org/obo/FOVT_0001040> (humerus diaphysis depth)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <https://purl.obolibrary.org/obo/FOVT_0001040> <http://purl.obolibrary.org/obo/IAO_0000423>)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.obolibrary.org/obo/FOVT_0001040> "The width of the diaphysis of a humerus along the anterior-posterior axis."@en)
 AnnotationAssertion(dce:creator <https://purl.obolibrary.org/obo/FOVT_0001040> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(dce:date <https://purl.obolibrary.org/obo/FOVT_0001040> "2021-02-10T23:06:16Z"^^xsd:dateTime)
@@ -598,6 +625,7 @@ SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0001040> <http://purl.obolibrar
 
 # Class: <https://purl.obolibrary.org/obo/FOVT_0001041> (talus width)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <https://purl.obolibrary.org/obo/FOVT_0001041> <http://purl.obolibrary.org/obo/IAO_0000423>)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.obolibrary.org/obo/FOVT_0001041> "The width of a talus."@en)
 AnnotationAssertion(dce:creator <https://purl.obolibrary.org/obo/FOVT_0001041> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(dce:date <https://purl.obolibrary.org/obo/FOVT_0001041> "2021-02-10T23:12:24Z"^^xsd:dateTime)
@@ -609,6 +637,7 @@ SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0001041> <http://purl.obolibrar
 
 # Class: <https://purl.obolibrary.org/obo/FOVT_0001042> (talus lateral depth)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <https://purl.obolibrary.org/obo/FOVT_0001042> <http://purl.obolibrary.org/obo/IAO_0000423>)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.obolibrary.org/obo/FOVT_0001042> "The width of the lateral side of a talus along the anterior-posterior axis."@en)
 AnnotationAssertion(dce:creator <https://purl.obolibrary.org/obo/FOVT_0001042> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(dce:date <https://purl.obolibrary.org/obo/FOVT_0001042> "2021-02-10T23:16:34Z"^^xsd:dateTime)
@@ -620,6 +649,7 @@ SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0001042> <https://purl.obolibra
 
 # Class: <https://purl.obolibrary.org/obo/FOVT_0001043> (talus medial depth)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <https://purl.obolibrary.org/obo/FOVT_0001043> <http://purl.obolibrary.org/obo/IAO_0000423>)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.obolibrary.org/obo/FOVT_0001043> "The width of the medial side of a talus along the anterior-posterior axis."@en)
 AnnotationAssertion(dce:creator <https://purl.obolibrary.org/obo/FOVT_0001043> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(dce:date <https://purl.obolibrary.org/obo/FOVT_0001043> "2021-02-10T23:17:22Z"^^xsd:dateTime)
@@ -631,6 +661,7 @@ SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0001043> <https://purl.obolibra
 
 # Class: <https://purl.obolibrary.org/obo/FOVT_0001044> (talus distal breadth)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <https://purl.obolibrary.org/obo/FOVT_0001044> <http://purl.obolibrary.org/obo/IAO_0000423>)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.obolibrary.org/obo/FOVT_0001044> "The width of the distal end of a talus along the medial-lateral axis."@en)
 AnnotationAssertion(dce:creator <https://purl.obolibrary.org/obo/FOVT_0001044> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(dce:date <https://purl.obolibrary.org/obo/FOVT_0001044> "2021-02-10T23:20:39Z"^^xsd:dateTime)
@@ -642,6 +673,7 @@ SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0001044> <https://purl.obolibra
 
 # Class: <https://purl.obolibrary.org/obo/FOVT_0001045> (trochlea tali length)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <https://purl.obolibrary.org/obo/FOVT_0001045> <http://purl.obolibrary.org/obo/IAO_0000423>)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.obolibrary.org/obo/FOVT_0001045> "The length of the trochlea tali of a talus along the proximal-distal axis."@en)
 AnnotationAssertion(dce:creator <https://purl.obolibrary.org/obo/FOVT_0001045> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(dce:date <https://purl.obolibrary.org/obo/FOVT_0001045> "2021-02-10T23:25:15Z"^^xsd:dateTime)
@@ -651,6 +683,7 @@ SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0001045> <http://purl.obolibrar
 
 # Class: <https://purl.obolibrary.org/obo/FOVT_0001046> (talus trochlea breadth)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <https://purl.obolibrary.org/obo/FOVT_0001046> <http://purl.obolibrary.org/obo/IAO_0000423>)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.obolibrary.org/obo/FOVT_0001046> "The width of the trochlea of a talus along the medial-lateral axis."@en)
 AnnotationAssertion(dce:creator <https://purl.obolibrary.org/obo/FOVT_0001046> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(dce:date <https://purl.obolibrary.org/obo/FOVT_0001046> "2021-02-10T23:28:01Z"^^xsd:dateTime)
@@ -662,6 +695,7 @@ SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0001046> <https://purl.obolibra
 
 # Class: <https://purl.obolibrary.org/obo/FOVT_0001047> (calcaneus proximal length)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <https://purl.obolibrary.org/obo/FOVT_0001047> <http://purl.obolibrary.org/obo/IAO_0000423>)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.obolibrary.org/obo/FOVT_0001047> "The length of the proximal end of a calcaneus along the proximal-distal axis."@en)
 AnnotationAssertion(dce:creator <https://purl.obolibrary.org/obo/FOVT_0001047> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(dce:date <https://purl.obolibrary.org/obo/FOVT_0001047> "2021-02-10T23:31:00Z"^^xsd:dateTime)
@@ -671,6 +705,7 @@ SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0001047> <http://purl.obolibrar
 
 # Class: <https://purl.obolibrary.org/obo/FOVT_0001048> (calcaneus distal depth)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <https://purl.obolibrary.org/obo/FOVT_0001048> <http://purl.obolibrary.org/obo/IAO_0000423>)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.obolibrary.org/obo/FOVT_0001048> "The width of the distal end of a calcaneus along the anterior-posterior axis."@en)
 AnnotationAssertion(dce:creator <https://purl.obolibrary.org/obo/FOVT_0001048> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(dce:date <https://purl.obolibrary.org/obo/FOVT_0001048> "2021-02-10T23:32:25Z"^^xsd:dateTime)
@@ -681,6 +716,7 @@ SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0001048> <http://purl.obolibrar
 
 # Class: <https://purl.obolibrary.org/obo/FOVT_0001053> (gutted body mass)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <https://purl.obolibrary.org/obo/FOVT_0001053> <http://purl.obolibrary.org/obo/IAO_0000423>)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.obolibrary.org/obo/FOVT_0001053> "The mass of a multicellur organism after removing internal organs."@en)
 AnnotationAssertion(dce:creator <https://purl.obolibrary.org/obo/FOVT_0001053> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(dce:date <https://purl.obolibrary.org/obo/FOVT_0001053> "2021-05-10T22:50:17Z"^^xsd:dateTime)
@@ -689,6 +725,7 @@ SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0001053> <http://purl.obolibrar
 
 # Class: <https://purl.obolibrary.org/obo/FOVT_0001054> (skinned body mass)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <https://purl.obolibrary.org/obo/FOVT_0001054> <http://purl.obolibrary.org/obo/IAO_0000423>)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.obolibrary.org/obo/FOVT_0001054> "The mass of a multicellular organism after being skinned."@en)
 AnnotationAssertion(dce:creator <https://purl.obolibrary.org/obo/FOVT_0001054> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(dce:date <https://purl.obolibrary.org/obo/FOVT_0001054> "2021-05-10T22:52:04Z"^^xsd:dateTime)
@@ -697,6 +734,7 @@ SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0001054> <http://purl.obolibrar
 
 # Class: <https://purl.obolibrary.org/obo/FOVT_0001055> (skeletal body mass)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <https://purl.obolibrary.org/obo/FOVT_0001055> <http://purl.obolibrary.org/obo/IAO_0000423>)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.obolibrary.org/obo/FOVT_0001055> "The mass of a multicellur organism skeletal elements (i.e., bones) without skin, internal organs, or other soft tissue."@en)
 AnnotationAssertion(dce:creator <https://purl.obolibrary.org/obo/FOVT_0001055> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(dce:date <https://purl.obolibrary.org/obo/FOVT_0001055> "2021-05-10T22:52:36Z"^^xsd:dateTime)
@@ -707,6 +745,7 @@ SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0001055> <http://purl.obolibrar
 
 # Class: <https://purl.obolibrary.org/obo/FOVT_0001056> (gutted and skinned body mass)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <https://purl.obolibrary.org/obo/FOVT_0001056> <http://purl.obolibrary.org/obo/IAO_0000423>)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.obolibrary.org/obo/FOVT_0001056> "The mass of a mutlicellular organism after being both gutted (i.e., internal organs removed) and skinned."@en)
 AnnotationAssertion(dce:creator <https://purl.obolibrary.org/obo/FOVT_0001056> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(dce:date <https://purl.obolibrary.org/obo/FOVT_0001056> "2021-05-10T22:53:18Z"^^xsd:dateTime)
@@ -715,6 +754,7 @@ SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0001056> <http://purl.obolibrar
 
 # Class: <https://purl.obolibrary.org/obo/FOVT_0001057> (testis length)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <https://purl.obolibrary.org/obo/FOVT_0001057> <http://purl.obolibrary.org/obo/IAO_0000423>)
 AnnotationAssertion(dce:creator <https://purl.obolibrary.org/obo/FOVT_0001057> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(dce:date <https://purl.obolibrary.org/obo/FOVT_0001057> "2021-05-10T23:15:37Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:comment <https://purl.obolibrary.org/obo/FOVT_0001057> "The length of a testis."@en)
@@ -723,6 +763,7 @@ SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0001057> <http://purl.obolibrar
 
 # Class: <https://purl.obolibrary.org/obo/FOVT_0001058> (right testis length)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <https://purl.obolibrary.org/obo/FOVT_0001058> <http://purl.obolibrary.org/obo/IAO_0000423>)
 AnnotationAssertion(dce:creator <https://purl.obolibrary.org/obo/FOVT_0001058> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(dce:date <https://purl.obolibrary.org/obo/FOVT_0001058> "2021-05-10T23:16:25Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:comment <https://purl.obolibrary.org/obo/FOVT_0001058> "The length of the right testis."@en)
@@ -731,6 +772,7 @@ SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0001058> <https://purl.obolibra
 
 # Class: <https://purl.obolibrary.org/obo/FOVT_0001059> (left testis length)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <https://purl.obolibrary.org/obo/FOVT_0001059> <http://purl.obolibrary.org/obo/IAO_0000423>)
 AnnotationAssertion(dce:creator <https://purl.obolibrary.org/obo/FOVT_0001059> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(dce:date <https://purl.obolibrary.org/obo/FOVT_0001059> "2021-05-10T23:18:15Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:comment <https://purl.obolibrary.org/obo/FOVT_0001059> "The length of the left testis."@en)
@@ -739,6 +781,7 @@ SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0001059> <https://purl.obolibra
 
 # Class: <https://purl.obolibrary.org/obo/FOVT_0001060> (gonad length)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <https://purl.obolibrary.org/obo/FOVT_0001060> <http://purl.obolibrary.org/obo/IAO_0000423>)
 AnnotationAssertion(dce:creator <https://purl.obolibrary.org/obo/FOVT_0001060> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(dce:date <https://purl.obolibrary.org/obo/FOVT_0001060> "2021-05-10T23:18:51Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:comment <https://purl.obolibrary.org/obo/FOVT_0001060> "The length of a gonad."@en)
