@@ -373,7 +373,10 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <!-- http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym -->
 
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym">
+        <rdfs:isDefinedBy rdf:resource="http://www.geneontology.org/formats/oboinowl.owl"/>
+        <rdfs:label>has_related_synonym</rdfs:label>
+    </owl:AnnotationProperty>
     
 
 
