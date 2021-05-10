@@ -133,3 +133,10 @@ UBERON:0018301 #upper deciduous premolar 5
 UBERON:0009678 #tooth row
 UBERON:0003675 #tooth crown
 UBERON:0003955 #molar crown
+UBERON:0000991 #gonad
+UBERON:0000992 #ovary
+UBERON:0002119 #left ovary
+UBERON:0002118 #right ovary
+UBERON:0000473 #testis
+UBERON:0004533 #left testis
+UBERON:0004534 #right testis

@@ -31,3 +31,7 @@ OBA:0003272		#metatarsal bone of digit 2 length
 OBA:0002565		#metatarsal bone of digit 3 length
 OBA:0002567		#metatarsal bone of digit 4 length
 OBA:0002569		#metatarsal bone of digit 5 length
+OBA:0002017		#gonad size
+OBA_VT0001148	#testes size trait
+OBA_VT0001127	#ovary size trait
+OBA_VT0010375	#ovary diameter
