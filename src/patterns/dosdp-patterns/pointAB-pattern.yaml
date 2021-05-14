@@ -1,0 +1,32 @@
+pattern_name: pointAB-pattern
+#pattern_iri: http://purl.obolibrary.org/obo/odk/example.yaml
+description: "This is defines a line connecting two points."
+
+classes:
+  Anatomical line: CARO:0000008
+  Thing: owl:Thing
+
+relations:
+  connects: RO:0002176
+
+vars:
+  pointA: 'Thing'
+  pointB: 'Thing'
+
+name:
+  text: "Line that connects %s to %s"
+  vars:
+   - pointA
+   - pointB
+
+def:
+  text: "A line along an anatomical structure that connects %s and %s"
+  vars:
+    - pointA
+    - pointB
+    
+equivalentTo:
+  text: "'anatomical line' and ('connects' some %s) and ('connects' some %s)"
+  vars:
+    - pointA
+    - pointB

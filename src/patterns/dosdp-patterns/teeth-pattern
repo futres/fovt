@@ -1,0 +1,39 @@
+
+Naming pattern: primary/secondary side # tooth
+
+General:
+Vars: tooth type; number
+Vars: bone; number; tooth type
+Vars: primary/secondary; number; tooth type
+
+Subclass tooth type; def: Tooth type phylogenetically in position number.
+Axiom: tooth type and (‘part of’ some ‘bone’)
+Axiom: tooth type and ‘primary/secondary dentition’
+syn: deciduous/permanent
+
+
+Specific:
+Vars: secondar/primary; tooth type; number
+Vars: bone; tooth type; number
+
+Axiom: tooth type # and ‘primary/secondary dentition'
+syn: deciduous/permanent
+Axiom: tooth type # and (‘part of’ some ‘bone’)
+
+Even More Specific:
+Vars: lower/upper; secondary primary; tooth type; number
+e.g., lower deciduous molar 1
+
+Axiom: tooth type # and ‘primary/secondary dentition’ and (‘part of’ some ‘bone’)
+syn: deciduous/permanent
+
+The Most Specific:
+Vars: bone; secondary primary; side; tooth type; number
+
+Axiom: tooth type # and ‘primary/secondary dentition’ and 'side' and(‘part of’ some ‘bone’)
+syn: deciduous/permanent
+
+upper = premaxilla and maxilla; lower = mandible or dentary
+
+#insicors get premaxilla and mandible
+#canines, molars, and premolars get maxilla and mandible
