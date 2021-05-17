@@ -91,7 +91,11 @@ Declaration(Class(<https://purl.obolibrary.org/obo/FOVT_0001058>))
 Declaration(Class(<https://purl.obolibrary.org/obo/FOVT_0001059>))
 Declaration(Class(<https://purl.obolibrary.org/obo/FOVT_0001060>))
 Declaration(Class(<https://purl.obolibrary.org/obo/FOVT_0001061>))
+Declaration(Class(<https://purl.obolibrary.org/obo/FOVT_0001062>))
+Declaration(Class(<https://purl.obolibrary.org/obo/FOVT_0001063>))
+Declaration(Class(<https://purl.obolibrary.org/obo/FOVT_0001064>))
 Declaration(AnnotationProperty(dce:description))
+Declaration(AnnotationProperty(dce:term_editor))
 Declaration(AnnotationProperty(dce:title))
 Declaration(AnnotationProperty(dcterms:license))
 
@@ -823,6 +827,33 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <https://purl.o
 AnnotationAssertion(dce:date <https://purl.obolibrary.org/obo/FOVT_0001061> "2021-05-10T23:37:19Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <https://purl.obolibrary.org/obo/FOVT_0001061> "humerus lateral length"@en)
 SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0001061> <http://purl.obolibrary.org/obo/UBERON_0000976>)
+
+# Class: <https://purl.obolibrary.org/obo/FOVT_0001062> (ovary length)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <https://purl.obolibrary.org/obo/FOVT_0001062> <http://purl.obolibrary.org/obo/IAO_0000423>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.obolibrary.org/obo/FOVT_0001062> "The length of an ovary."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <https://purl.obolibrary.org/obo/FOVT_0001062> <http://orcid.org/0000-0003-2699-3066>)
+AnnotationAssertion(dce:date <https://purl.obolibrary.org/obo/FOVT_0001062> "2021-05-17T20:08:12Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <https://purl.obolibrary.org/obo/FOVT_0001062> "ovary length"@en)
+SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0001062> <https://purl.obolibrary.org/obo/FOVT_0001060>)
+
+# Class: <https://purl.obolibrary.org/obo/FOVT_0001063> (right ovary length)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <https://purl.obolibrary.org/obo/FOVT_0001063> <http://purl.obolibrary.org/obo/IAO_0000423>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.obolibrary.org/obo/FOVT_0001063> "The length of an ovary on the right side."@en)
+AnnotationAssertion(dce:date <https://purl.obolibrary.org/obo/FOVT_0001063> "2021-05-17T20:10:16Z"^^xsd:dateTime)
+AnnotationAssertion(dce:term_editor <https://purl.obolibrary.org/obo/FOVT_0001063> <http://orcid.org/0000-0003-2699-3066>)
+AnnotationAssertion(rdfs:label <https://purl.obolibrary.org/obo/FOVT_0001063> "right ovary length"@en)
+SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0001063> <https://purl.obolibrary.org/obo/FOVT_0001062>)
+
+# Class: <https://purl.obolibrary.org/obo/FOVT_0001064> (left ovary length)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <https://purl.obolibrary.org/obo/FOVT_0001064> <http://purl.obolibrary.org/obo/IAO_0000423>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.obolibrary.org/obo/FOVT_0001064> "The length of an ovary on the left side."@en)
+AnnotationAssertion(dce:date <https://purl.obolibrary.org/obo/FOVT_0001064> "2021-05-17T20:10:46Z"^^xsd:dateTime)
+AnnotationAssertion(dce:term_editor <https://purl.obolibrary.org/obo/FOVT_0001064> <http://orcid.org/0000-0003-2699-3066>)
+AnnotationAssertion(rdfs:label <https://purl.obolibrary.org/obo/FOVT_0001064> "left ovary length"@en)
+SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0001064> <https://purl.obolibrary.org/obo/FOVT_0001062>)
 
 
 )
