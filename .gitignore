@@ -38,3 +38,5 @@ src/patterns/pattern_owl_seed.txt
 src/patterns/all_pattern_terms.txt
 .DS_Store
 ~$Terms.xlsx
+terms/~$teethTerms.xlsx
+terms/~$skullTerms.xlsx
