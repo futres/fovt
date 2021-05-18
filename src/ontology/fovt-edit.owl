@@ -94,6 +94,11 @@ Declaration(Class(<https://purl.obolibrary.org/obo/FOVT_0001061>))
 Declaration(Class(<https://purl.obolibrary.org/obo/FOVT_0001062>))
 Declaration(Class(<https://purl.obolibrary.org/obo/FOVT_0001063>))
 Declaration(Class(<https://purl.obolibrary.org/obo/FOVT_0001064>))
+Declaration(Class(<https://purl.obolibrary.org/obo/FOVT_0001065>))
+Declaration(Class(<https://purl.obolibrary.org/obo/FOVT_0001066>))
+Declaration(Class(<https://purl.obolibrary.org/obo/FOVT_0001067>))
+Declaration(Class(<https://purl.obolibrary.org/obo/FOVT_0001068>))
+Declaration(Class(<https://purl.obolibrary.org/obo/FOVT_0001069>))
 Declaration(AnnotationProperty(dce:description))
 Declaration(AnnotationProperty(dce:term_editor))
 Declaration(AnnotationProperty(dce:title))
@@ -854,6 +859,52 @@ AnnotationAssertion(dce:date <https://purl.obolibrary.org/obo/FOVT_0001064> "202
 AnnotationAssertion(dce:term_editor <https://purl.obolibrary.org/obo/FOVT_0001064> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(rdfs:label <https://purl.obolibrary.org/obo/FOVT_0001064> "left ovary length"@en)
 SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0001064> <https://purl.obolibrary.org/obo/FOVT_0001062>)
+
+# Class: <https://purl.obolibrary.org/obo/FOVT_0001065> (anterior tibial tuberosity length)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <https://purl.obolibrary.org/obo/FOVT_0001065> <http://purl.obolibrary.org/obo/IAO_0000423>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.obolibrary.org/obo/FOVT_0001065> "The length along the anterior-posterior axis of the anterior tibial tuberosity (fossa digitalis)."@en)
+AnnotationAssertion(dce:date <https://purl.obolibrary.org/obo/FOVT_0001065> "2021-05-17T20:18:01Z"^^xsd:dateTime)
+AnnotationAssertion(dce:term_editor <https://purl.obolibrary.org/obo/FOVT_0001065> <http://orcid.org/0000-0003-2699-3066>)
+AnnotationAssertion(rdfs:label <https://purl.obolibrary.org/obo/FOVT_0001065> "anterior tibial tuberosity length"@en)
+SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0001065> <http://purl.obolibrary.org/obo/UBERON_0000979>)
+
+# Class: <https://purl.obolibrary.org/obo/FOVT_0001066> (humerus proximal depth at median tubercle)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <https://purl.obolibrary.org/obo/FOVT_0001066> <http://purl.obolibrary.org/obo/IAO_0000423>)
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988."@en) <http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.obolibrary.org/obo/FOVT_0001066> "The length along the medial-lateral axis of the caput of the humerus."@en)
+AnnotationAssertion(dce:date <https://purl.obolibrary.org/obo/FOVT_0001066> "2021-05-18T19:52:02Z"^^xsd:dateTime)
+AnnotationAssertion(dce:term_editor <https://purl.obolibrary.org/obo/FOVT_0001066> <http://orcid.org/0000-0003-2699-3066>)
+AnnotationAssertion(rdfs:label <https://purl.obolibrary.org/obo/FOVT_0001066> "humerus proximal depth at median tubercle"@en)
+SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0001066> <http://purl.obolibrary.org/obo/OBA_VT1000280>)
+
+# Class: <https://purl.obolibrary.org/obo/FOVT_0001067> (humerus trochlear sulcus height)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <https://purl.obolibrary.org/obo/FOVT_0001067> <http://purl.obolibrary.org/obo/IAO_0000423>)
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988."@en) <http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.obolibrary.org/obo/FOVT_0001067> "Length along the proximal-distal axis of the trochlear sulcus of a humerus."@en)
+AnnotationAssertion(dce:date <https://purl.obolibrary.org/obo/FOVT_0001067> "2021-05-18T19:55:10Z"^^xsd:dateTime)
+AnnotationAssertion(dce:term_editor <https://purl.obolibrary.org/obo/FOVT_0001067> <http://orcid.org/0000-0003-2699-3066>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <https://purl.obolibrary.org/obo/FOVT_0001067> "minimal humerus trochlear height"@en)
+AnnotationAssertion(rdfs:label <https://purl.obolibrary.org/obo/FOVT_0001067> "humerus trochlear sulcus height"@en)
+SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0001067> <http://purl.obolibrary.org/obo/OBA_VT0004350>)
+
+# Class: <https://purl.obolibrary.org/obo/FOVT_0001068> (medial humerus trochlear height)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988."@en) <http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.obolibrary.org/obo/FOVT_0001068> "Length along the proximal-distal axis of the distal medial trochlea of a humerus."@en)
+AnnotationAssertion(dce:date <https://purl.obolibrary.org/obo/FOVT_0001068> "2021-05-18T19:56:56Z"^^xsd:dateTime)
+AnnotationAssertion(dce:term_editor <https://purl.obolibrary.org/obo/FOVT_0001068> <http://orcid.org/0000-0003-2699-3066>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <https://purl.obolibrary.org/obo/FOVT_0001068> "maximal humerus trochlear height"@en)
+AnnotationAssertion(rdfs:label <https://purl.obolibrary.org/obo/FOVT_0001068> "medial humerus trochlear height"@en)
+SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0001068> <http://purl.obolibrary.org/obo/OBA_VT0004350>)
+
+# Class: <https://purl.obolibrary.org/obo/FOVT_0001069> (humerus trochlear height at sagittal crest)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <https://purl.obolibrary.org/obo/FOVT_0001069> <http://purl.obolibrary.org/obo/IAO_0000423>)
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988."@en) <http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.obolibrary.org/obo/FOVT_0001069> "Length along the proximal-distal axis of the sagittal crest of a trochlea of a humerus."@en)
+AnnotationAssertion(dce:date <https://purl.obolibrary.org/obo/FOVT_0001069> "2021-05-18T20:00:02Z"^^xsd:dateTime)
+AnnotationAssertion(dce:term_editor <https://purl.obolibrary.org/obo/FOVT_0001069> <http://orcid.org/0000-0003-2699-3066>)
+AnnotationAssertion(rdfs:label <https://purl.obolibrary.org/obo/FOVT_0001069> "humerus trochlear height at sagittal crest"@en)
+SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0001069> <http://purl.obolibrary.org/obo/OBA_VT0004350>)
 
 
 )
