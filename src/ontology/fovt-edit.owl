@@ -888,13 +888,13 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(rdfs:label <https://purl.obolibrary.org/obo/FOVT_0001067> "humerus trochlear sulcus height"@en)
 SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0001067> <http://purl.obolibrary.org/obo/OBA_VT0004350>)
 
-# Class: <https://purl.obolibrary.org/obo/FOVT_0001068> (medial humerus trochlear height)
+# Class: <https://purl.obolibrary.org/obo/FOVT_0001068> (humerus medial trochlear height)
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988."@en) <http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.obolibrary.org/obo/FOVT_0001068> "Length along the proximal-distal axis of the distal medial trochlea of a humerus."@en)
 AnnotationAssertion(dce:date <https://purl.obolibrary.org/obo/FOVT_0001068> "2021-05-18T19:56:56Z"^^xsd:dateTime)
 AnnotationAssertion(dce:term_editor <https://purl.obolibrary.org/obo/FOVT_0001068> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <https://purl.obolibrary.org/obo/FOVT_0001068> "maximal humerus trochlear height"@en)
-AnnotationAssertion(rdfs:label <https://purl.obolibrary.org/obo/FOVT_0001068> "medial humerus trochlear height"@en)
+AnnotationAssertion(rdfs:label <https://purl.obolibrary.org/obo/FOVT_0001068> "humerus medial trochlear height"@en)
 SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0001068> <http://purl.obolibrary.org/obo/OBA_VT0004350>)
 
 # Class: <https://purl.obolibrary.org/obo/FOVT_0001069> (humerus trochlear height at sagittal crest)
