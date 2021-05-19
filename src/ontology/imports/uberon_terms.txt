@@ -140,3 +140,15 @@ UBERON:0002118 #right ovary
 UBERON:0000473 #testis
 UBERON:0004533 #left testis
 UBERON:0004534 #right testis
+UBERON:4200204 #humeral facet on radius
+UBERON:4200203 #humeral facet on ulna
+UBERON:0001423 #radius bone
+UBERON:0001012 #head of radius
+UBERON:0000199 #neck of radius
+UBERON:3000840 #capitulum of radius
+UBERON:0001028 #diaphysis of radius
+UBERON:0004385 #epiphysis of radius
+UBERON:0004407 #distal epiphysis of radius
+UBERON:0004413 #proximal epiphysis of radius
+UBERON:0001424 #ulna
+UBERON:3000784 #ulnar condyle
