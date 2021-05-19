@@ -99,6 +99,7 @@ Declaration(Class(<https://purl.obolibrary.org/obo/FOVT_0001066>))
 Declaration(Class(<https://purl.obolibrary.org/obo/FOVT_0001067>))
 Declaration(Class(<https://purl.obolibrary.org/obo/FOVT_0001068>))
 Declaration(Class(<https://purl.obolibrary.org/obo/FOVT_0001069>))
+Declaration(Class(<https://purl.obolibrary.org/obo/FOVT_0001070>))
 Declaration(AnnotationProperty(dce:description))
 Declaration(AnnotationProperty(dce:term_editor))
 Declaration(AnnotationProperty(dce:title))
@@ -905,6 +906,15 @@ AnnotationAssertion(dce:date <https://purl.obolibrary.org/obo/FOVT_0001069> "202
 AnnotationAssertion(dce:term_editor <https://purl.obolibrary.org/obo/FOVT_0001069> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(rdfs:label <https://purl.obolibrary.org/obo/FOVT_0001069> "humerus trochlear height at sagittal crest"@en)
 SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0001069> <http://purl.obolibrary.org/obo/OBA_VT0004350>)
+
+# Class: <https://purl.obolibrary.org/obo/FOVT_0001070> (femur length from caput to lateral condyle)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <https://purl.obolibrary.org/obo/FOVT_0001070> <http://purl.obolibrary.org/obo/IAO_0000423>)
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988."@en) <http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.obolibrary.org/obo/FOVT_0001070> "The length along the anterior-posterior axis of a femur connecting the caput of a femur to the lateral condyle of a femur."@en)
+AnnotationAssertion(dce:date <https://purl.obolibrary.org/obo/FOVT_0001070> "2021-05-19T01:36:28Z"^^xsd:dateTime)
+AnnotationAssertion(dce:term_editor <https://purl.obolibrary.org/obo/FOVT_0001070> <http://orcid.org/0000-0003-2699-3066>)
+AnnotationAssertion(rdfs:label <https://purl.obolibrary.org/obo/FOVT_0001070> "femur length from caput to lateral condyle"@en)
+SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0001070> <http://purl.obolibrary.org/obo/OBA_VT0004348>)
 
 
 )
