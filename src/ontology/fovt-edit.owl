@@ -100,6 +100,7 @@ Declaration(Class(<https://purl.obolibrary.org/obo/FOVT_0001067>))
 Declaration(Class(<https://purl.obolibrary.org/obo/FOVT_0001068>))
 Declaration(Class(<https://purl.obolibrary.org/obo/FOVT_0001069>))
 Declaration(Class(<https://purl.obolibrary.org/obo/FOVT_0001070>))
+Declaration(Class(<https://purl.obolibrary.org/obo/FOVT_0001071>))
 Declaration(AnnotationProperty(dce:description))
 Declaration(AnnotationProperty(dce:term_editor))
 Declaration(AnnotationProperty(dce:title))
@@ -473,14 +474,16 @@ AnnotationAssertion(dce:date <https://purl.obolibrary.org/obo/FOVT_0001021> "202
 AnnotationAssertion(rdfs:label <https://purl.obolibrary.org/obo/FOVT_0001021> "tibia medial length"@en)
 SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0001021> <http://purl.obolibrary.org/obo/OBA_VT0004357>)
 
-# Class: <https://purl.obolibrary.org/obo/FOVT_0001022> (tibia greatest length)
+# Class: <https://purl.obolibrary.org/obo/FOVT_0001022> (obsolete tibia greatest length)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <https://purl.obolibrary.org/obo/FOVT_0001022> <http://purl.obolibrary.org/obo/IAO_0000423>)
-AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988."@en) Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "von den Driesch, Angela. A guide to the measurement of animal bones from archaeological sites: as developed by the Institut für Palaeoanatomie, Domestikationsforschung und Geschichte der Tiermedizin of the University of Munich . Vol. 1. Peabody Museum Press, 1976."@en) <http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.obolibrary.org/obo/FOVT_0001022> "The greatest length of a tibia from the proximal-most point of a tibia to the distal-most point of a tibia."@en)
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988."@en) Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "von den Driesch, Angela. A guide to the measurement of animal bones from archaeological sites: as developed by the Institut für Palaeoanatomie, Domestikationsforschung und Geschichte der Tiermedizin of the University of Munich . Vol. 1. Peabody Museum Press, 1976."@en) <http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.obolibrary.org/obo/FOVT_0001022> "OBSOLETE The greatest length of a tibia from the proximal-most point of a tibia to the distal-most point of a tibia."@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <https://purl.obolibrary.org/obo/FOVT_0001022> <http://orcid.org/0000-0003-2699-3066>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <https://purl.obolibrary.org/obo/FOVT_0001022> <http://purl.obolibrary.org/obo/OBA_VT0004357>)
 AnnotationAssertion(dce:date <https://purl.obolibrary.org/obo/FOVT_0001022> "2021-02-10T21:53:59Z"^^xsd:dateTime)
-AnnotationAssertion(rdfs:label <https://purl.obolibrary.org/obo/FOVT_0001022> "tibia greatest length"@en)
-SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0001022> <http://purl.obolibrary.org/obo/OBA_VT0004357>)
+AnnotationAssertion(rdfs:comment <https://purl.obolibrary.org/obo/FOVT_0001022> "duplicate of a term in OBA"^^xsd:string)
+AnnotationAssertion(rdfs:label <https://purl.obolibrary.org/obo/FOVT_0001022> "obsolete tibia greatest length"@en)
+AnnotationAssertion(owl:deprecated <https://purl.obolibrary.org/obo/FOVT_0001022> "true"^^xsd:boolean)
 
 # Class: <https://purl.obolibrary.org/obo/FOVT_0001023> (tibia diaphysis circumference)
 
@@ -915,6 +918,14 @@ AnnotationAssertion(dce:date <https://purl.obolibrary.org/obo/FOVT_0001070> "202
 AnnotationAssertion(dce:term_editor <https://purl.obolibrary.org/obo/FOVT_0001070> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(rdfs:label <https://purl.obolibrary.org/obo/FOVT_0001070> "femur length from caput to lateral condyle"@en)
 SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0001070> <http://purl.obolibrary.org/obo/OBA_VT0004348>)
+
+# Class: <https://purl.obolibrary.org/obo/FOVT_0001071> (length of olecranon)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <https://purl.obolibrary.org/obo/FOVT_0001071> <http://purl.obolibrary.org/obo/IAO_0000423>)
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988."@en) Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "von den Driesch, Angela. A guide to the measurement of animal bones from archaeological sites: as developed by the Institut für Palaeoanatomie, Domestikationsforschung und Geschichte der Tiermedizin of the University of Munich . Vol. 1. Peabody Museum Press, 1976."@en) <http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.obolibrary.org/obo/FOVT_0001071> "The length along the proximal-distal axis of an olecranon of an ulna."@en)
+AnnotationAssertion(dce:date <https://purl.obolibrary.org/obo/FOVT_0001071> "2021-05-19T23:33:50Z"^^xsd:dateTime)
+AnnotationAssertion(dce:term_editor <https://purl.obolibrary.org/obo/FOVT_0001071> <http://orcid.org/0000-0003-2699-3066>)
+AnnotationAssertion(rdfs:label <https://purl.obolibrary.org/obo/FOVT_0001071> "length of olecranon"@en)
 
 
 )

@@ -1,39 +1,344 @@
 
-Naming pattern: primary/secondary side # tooth
-
-General:
-Vars: tooth type; number
-Vars: bone; number; tooth type
-Vars: primary/secondary; number; tooth type
-
-Subclass tooth type; def: Tooth type phylogenetically in position number.
-Axiom: tooth type and (‘part of’ some ‘bone’)
-Axiom: tooth type and ‘primary/secondary dentition’
-syn: deciduous/permanent
-
-
-Specific:
-Vars: secondar/primary; tooth type; number
-Vars: bone; tooth type; number
-
-Axiom: tooth type # and ‘primary/secondary dentition'
-syn: deciduous/permanent
-Axiom: tooth type # and (‘part of’ some ‘bone’)
-
-Even More Specific:
-Vars: lower/upper; secondary primary; tooth type; number
-e.g., lower deciduous molar 1
-
-Axiom: tooth type # and ‘primary/secondary dentition’ and (‘part of’ some ‘bone’)
-syn: deciduous/permanent
-
-The Most Specific:
-Vars: bone; secondary primary; side; tooth type; number
-
-Axiom: tooth type # and ‘primary/secondary dentition’ and 'side' and(‘part of’ some ‘bone’)
-syn: deciduous/permanent
-
-upper = premaxilla and maxilla; lower = mandible or dentary
+Naming pattern: primary/secondary side number tooth
 
 #insicors get premaxilla and mandible
 #canines, molars, and premolars get maxilla and mandible
+
+#create upper and lower tooth with subclasses: 'calcareous tooth' and 'part of' some 'dentition'
+#create upper secondary tooth and upper primary tooth with subclass 'upper 'tooth''
+#create right and left upper inscisor with subclass 'upper incisor'
+#create right and left primary and secondary upper incisor with subclass 'primary upper incisor' and 'secondary upper incisor'
+
+#upper teeth
+pattern_name: upper_incisor_teeth
+Description: "This defines upper incisor teeth."
+
+classes:
+    Number: numerical #1-6
+    Thing: owl:Thing
+
+relations:
+    part_of: BFO:0000050
+
+vars:
+    bone: 'Thing'
+      #premaxilla UBERON_0002244 
+      #maxilla UBERON:0002397
+    tooth: 'Thing'
+      #incisor UBERON_0001098
+      #canine UBERON:0003674
+      #molar UBERON:0003655
+      #premolar UBERON:0007120
+    number: 'numerical'
+
+name:
+    text: "Upper %s %s"
+    vars:
+      - number
+      - tooth
+
+def:
+    text: "Upper %s phylogenetically in position %s"
+    vars:
+      - tooth
+      - number
+
+equivalentTo:
+  text: "%s and (part_of some %s)"
+  vars:
+    - tooth
+    - bone
+
+Subclass:
+  'upper %s'
+  vars:
+    - tooth
+
+#lower teeth
+pattern_name: lower_incisor_teeth
+Description: "This defines lower teeth."
+
+classes:
+    Thing: owl:Thing
+    Number: numerical #1-6
+
+relations:
+    part_of: BFO:0000050
+
+vars:
+    bone: 'Thing'
+      #mandible UBERON:0001684
+    tooth: 'Thing'
+      #incisor UBERON_0001098
+      #canine UBERON:0003674
+      #molar UBERON:0003655
+      #premolar UBERON:0007120
+    number: 'numerical'
+
+name:
+    text: "Lower %s %s"
+    vars:
+      - number
+      - tooth
+
+def:
+    text: "Lower %s phylogenetically in position %s"
+    vars:
+      - tooth
+      - number
+
+equivalentTo:
+  text: "%s and (part_of some %s)"
+  vars:
+    - tooth
+    - bone
+
+Subclass:
+  'lower %s'
+  vars:
+    - tooth
+
+#adding dentition
+##upper teeth
+pattern_name: upper_incisor_teeth_dentition
+Description: "This defines upper incisor teeth dentition."
+
+classes:
+    Number: numerical #1-6
+    Thing: owl:Thing
+
+relations:
+    part_of: BFO:0000050
+
+vars:
+    bone: 'Thing'
+      #premaxilla UBERON_0002244 
+      #maxilla UBERON:0002397
+    tooth: 'Thing'
+      #incisor UBERON_0001098
+      #canine UBERON:0003674
+      #molar UBERON:0003655
+      #premolar UBERON:0007120
+    dentition: 'Thing'
+      #primary UBERON:0007116
+      #secondary UBERON:0007774
+    number: 'numerical'
+
+name:
+    text: "Upper %s %s %s"
+    vars:
+      - dentition
+      - number
+      - tooth
+
+def:
+    text: "Upper %s %s phylogenetically in position %s"
+    vars:
+      - dentition
+      - tooth
+      - number
+
+equivalentTo:
+  text: "%s and %s and (part_of some %s)"
+  vars:
+    - tooth
+    - dentition
+    - bone
+
+Subclass:
+  'upper %s %s'
+  vars:
+    - dentition
+    - tooth
+Subclass:
+  'upper %s %s'
+  vars:
+    - tooth
+    - number
+
+##lower teeth  
+pattern_name: lower_incisor_teeth_dentition
+Description: "This defines lower incisor teeth dentition."
+
+classes:
+    Number: numerical #1-6
+    Thing: owl:Thing
+
+relations:
+    part_of: BFO:0000050
+
+vars:
+    bone: 'Thing'
+      #mandible UBERON:0001684
+    tooth: 'Thing'
+      #incisor UBERON_0001098
+      #canine UBERON:0003674
+      #molar UBERON:0003655
+      #premolar UBERON:0007120
+    dentition: 'Thing'
+      #primary UBERON:0007116
+      #secondary UBERON:0007774
+    number: 'numerical'
+
+name:
+    text: "Lower %s %s %s"
+    vars:
+      - dentition
+      - number
+      - tooth
+
+def:
+    text: "Lower %s %s phylogenetically in position %s"
+    vars:
+      - dentition
+      - tooth
+      - number
+
+equivalentTo:
+  text: "%s and %s and (part_of some %s)"
+  vars:
+    - tooth
+    - dentition
+    - bone
+
+Subclass:
+  'lower %s %s'
+  vars:
+    - dentition
+    - tooth
+Subclass:
+  'lower %s %s'
+  vars:
+    - tooth
+    - number
+
+#adding side
+##upper
+pattern_name: upper_incisor_teeth_side
+Description: "This defines upper incisor teeth side."
+
+classes:
+    Number: numerical #1-6
+    Thing: owl:Thing
+
+relations:
+    part_of: BFO:0000050
+
+vars:
+    bone: 'Thing'
+      #premaxilla UBERON_0002244 
+      #maxilla UBERON:0002397
+    tooth: 'Thing'
+      #incisor UBERON_0001098
+      #canine UBERON:0003674
+      #molar UBERON:0003655
+      #premolar UBERON:0007120
+    dentition: 'Thing'
+      #primary UBERON:0007116
+      #secondary UBERON:0007774
+    side: 'Thing'
+      #right side BSPO:0000007
+      #left side BSPO:0000000
+    number: 'numerical'
+
+name:
+    text: "Upper %s %s %s %s"
+    vars:
+      - dentition
+      - side
+      - number
+      - tooth
+
+def:
+    text: "Upper %s %s %s phylogenetically in position %s"
+    vars:
+      - side
+      - dentition
+      - tooth
+      - number
+
+equivalentTo:
+  text: "%s and %s and %s and (part_of some %s)"
+  vars:
+    - tooth
+    - dentition
+    - sde
+    - bone
+
+Subclass:
+  'upper %s %s %s'
+  vars:
+    - dentition
+    - side
+    - tooth
+Subclass:
+  'upper %s %s %s'
+  vars:
+    - side
+    - tooth
+    - number
+
+##lower
+pattern_name: lower_incisor_teeth_side
+Description: "This defines lower incisor teeth side."
+
+classes:
+    Number: numerical #1-6
+    Thing: owl:Thing
+
+relations:
+    part_of: BFO:0000050
+
+vars:
+    bone: 'Thing'
+      #mandible UBERON:0001684 
+    tooth: 'Thing'
+      #incisor UBERON_0001098
+      #canine UBERON:0003674
+      #molar UBERON:0003655
+      #premolar UBERON:0007120
+    dentition: 'Thing'
+      #primary UBERON:0007116
+      #secondary UBERON:0007774
+    side: 'Thing'
+      #right side BSPO:0000007
+      #left side BSPO:0000000
+    number: 'numerical'
+
+name:
+    text: "Lower %s %s %s %s"
+    vars:
+      - dentition
+      - side
+      - number
+      - tooth
+
+def:
+    text: "Lower %s %s %s phylogenetically in position %s"
+    vars:
+      - side
+      - dentition
+      - tooth
+      - number
+
+equivalentTo:
+  text: "%s and %s and %s and (part_of some %s)"
+  vars:
+    - tooth
+    - dentition
+    - sde
+    - bone
+
+Subclass:
+  'lower %s %s %s'
+  vars:
+    - dentition
+    - side
+    - tooth
+Subclass:
+  'lower %s %s %s'
+  vars:
+    - side
+    - tooth
+    - number
+

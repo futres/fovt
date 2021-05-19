@@ -1,6 +1,6 @@
 pattern_name: pointAB-pattern
 #pattern_iri: http://purl.obolibrary.org/obo/odk/example.yaml
-description: "This is defines a line connecting two points."
+description: "This defines a line connecting two points."
 
 classes:
   Anatomical line: CARO:0000008
