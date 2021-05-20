@@ -152,3 +152,4 @@ UBERON:0004407 #distal epiphysis of radius
 UBERON:0004413 #proximal epiphysis of radius
 UBERON:0001424 #ulna
 UBERON:3000784 #ulnar condyle
+UBERON:0011968 #radio-carpal joint
