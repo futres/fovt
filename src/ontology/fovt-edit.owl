@@ -106,6 +106,7 @@ Declaration(Class(<https://purl.obolibrary.org/obo/FOVT_0001073>))
 Declaration(Class(<https://purl.obolibrary.org/obo/FOVT_0001074>))
 Declaration(Class(<https://purl.obolibrary.org/obo/FOVT_0001075>))
 Declaration(Class(<https://purl.obolibrary.org/obo/FOVT_0001076>))
+Declaration(Class(<https://purl.obolibrary.org/obo/FOVT_0001077>))
 Declaration(AnnotationProperty(dce:description))
 Declaration(AnnotationProperty(dce:term_editor))
 Declaration(AnnotationProperty(dce:title))
@@ -981,6 +982,14 @@ AnnotationAssertion(dce:term_editor <https://purl.obolibrary.org/obo/FOVT_000107
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <https://purl.obolibrary.org/obo/FOVT_0001076> "ulna width AP across the process anaconaeus"@en)
 AnnotationAssertion(rdfs:label <https://purl.obolibrary.org/obo/FOVT_0001076> "ulna depth across the process anaconaeus"@en)
 SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0001076> <https://purl.obolibrary.org/obo/FOVT_0001073>)
+
+# Class: <https://purl.obolibrary.org/obo/FOVT_0001077> (length of talus along the midline)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <https://purl.obolibrary.org/obo/FOVT_0001077> <http://purl.obolibrary.org/obo/IAO_0000423>)
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "Wolverton, S., Kennedy, J. H., & Cornelius, J. D. 2007. A paleozoological perspective on white-tailed deer (Odocoileus virginianus texana) population density and body size in central Texas. Environmental Management, 39(4), 545-552."@en) <http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.obolibrary.org/obo/FOVT_0001077> "The length along the midline of a talus along the proximal-distal axis (in animals) or anterior-posterior axis (in humans) from the groove for a flexor hallucis longus tendon of a talus to a head of a talus."@en)
+AnnotationAssertion(dce:date <https://purl.obolibrary.org/obo/FOVT_0001077> "2021-05-24T20:26:44Z"^^xsd:dateTime)
+AnnotationAssertion(dce:term_editor <https://purl.obolibrary.org/obo/FOVT_0001077> <http://orcid.org/0000-0003-2699-3066>)
+AnnotationAssertion(rdfs:label <https://purl.obolibrary.org/obo/FOVT_0001077> "length of talus along the midline"@en)
 
 
 )
