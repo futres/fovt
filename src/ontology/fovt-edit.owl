@@ -107,6 +107,11 @@ Declaration(Class(<https://purl.obolibrary.org/obo/FOVT_0001074>))
 Declaration(Class(<https://purl.obolibrary.org/obo/FOVT_0001075>))
 Declaration(Class(<https://purl.obolibrary.org/obo/FOVT_0001076>))
 Declaration(Class(<https://purl.obolibrary.org/obo/FOVT_0001077>))
+Declaration(Class(<https://purl.obolibrary.org/obo/FOVT_0001078>))
+Declaration(Class(<https://purl.obolibrary.org/obo/FOVT_0001079>))
+Declaration(Class(<https://purl.obolibrary.org/obo/FOVT_0001080>))
+Declaration(Class(<https://purl.obolibrary.org/obo/FOVT_0001081>))
+Declaration(Class(<https://purl.obolibrary.org/obo/FOVT_0001082>))
 Declaration(AnnotationProperty(dce:description))
 Declaration(AnnotationProperty(dce:term_editor))
 Declaration(AnnotationProperty(dce:title))
@@ -325,12 +330,12 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(rdfs:label <https://purl.obolibrary.org/obo/FOVT_0000021> "talus breadth"@en)
 SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0000021> <https://purl.obolibrary.org/obo/FOVT_0001041>)
 
-# Class: <https://purl.obolibrary.org/obo/FOVT_0000022> (calcaneus greatest length)
+# Class: <https://purl.obolibrary.org/obo/FOVT_0000022> (calcaneus length)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <https://purl.obolibrary.org/obo/FOVT_0000022> <http://purl.obolibrary.org/obo/IAO_0000423>)
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988."@en) Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "von den Driesch, Angela. A guide to the measurement of animal bones from archaeological sites: as developed by the Institut für Palaeoanatomie, Domestikationsforschung und Geschichte der Tiermedizin of the University of Munich . Vol. 1. Peabody Museum Press, 1976."@en) <http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.obolibrary.org/obo/FOVT_0000022> "The maximal length of a calcaneus along the proximal-distal axis (non-plantigrade) or anterior-posterior axis (plantigrade)."@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <https://purl.obolibrary.org/obo/FOVT_0000022> <http://orcid.org/0000-0003-2699-3066>)
-AnnotationAssertion(rdfs:label <https://purl.obolibrary.org/obo/FOVT_0000022> "calcaneus greatest length"@en)
+AnnotationAssertion(rdfs:label <https://purl.obolibrary.org/obo/FOVT_0000022> "calcaneus length"@en)
 EquivalentClasses(<https://purl.obolibrary.org/obo/FOVT_0000022> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000122> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0001450>)))
 
 # Class: <https://purl.obolibrary.org/obo/FOVT_0000023> (calcaneus distal breadth (non-plantigrade))
@@ -342,8 +347,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <https://purl.obolibrary.org/obo/FOVT_0000023> "calcaneus anterior width ML (plantigrade)"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <https://purl.obolibrary.org/obo/FOVT_0000023> "calcaneus distal width ML (non-plantigrade)"@en)
 AnnotationAssertion(rdfs:label <https://purl.obolibrary.org/obo/FOVT_0000023> "calcaneus distal breadth (non-plantigrade)"@en)
-SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0000023> <http://purl.obolibrary.org/obo/OBA_0003330>)
-SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0000023> <http://purl.obolibrary.org/obo/PATO_0000921>)
+SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0000023> <https://purl.obolibrary.org/obo/FOVT_0001079>)
 
 # Class: <https://purl.obolibrary.org/obo/FOVT_0000025> (tibia lateral length)
 
@@ -757,8 +761,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <https://purl.o
 AnnotationAssertion(dce:date <https://purl.obolibrary.org/obo/FOVT_0001047> "2021-02-10T23:31:00Z"^^xsd:dateTime)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <https://purl.obolibrary.org/obo/FOVT_0001047> "calcaneus posterior length (plantigrade)"@en)
 AnnotationAssertion(rdfs:label <https://purl.obolibrary.org/obo/FOVT_0001047> "calcaneus proximal length (non-plantigrade)"@en)
-SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0001047> <http://purl.obolibrary.org/obo/OBA_0003330>)
-SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0001047> <http://purl.obolibrary.org/obo/PATO_0000122>)
+SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0001047> <https://purl.obolibrary.org/obo/FOVT_0000022>)
 
 # Class: <https://purl.obolibrary.org/obo/FOVT_0001048> (calcaneus distal depth (non-plantigrade))
 
@@ -770,8 +773,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <https://purl.obolibrary.org/obo/FOVT_0001048> "calcaneus anterior width PD (plantigrade)"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <https://purl.obolibrary.org/obo/FOVT_0001048> "calcaneus distal width AP (non-plantigrade)"@en)
 AnnotationAssertion(rdfs:label <https://purl.obolibrary.org/obo/FOVT_0001048> "calcaneus distal depth (non-plantigrade)"@en)
-SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0001048> <http://purl.obolibrary.org/obo/OBA_0003330>)
-SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0001048> <http://purl.obolibrary.org/obo/PATO_0000921>)
+SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0001048> <https://purl.obolibrary.org/obo/FOVT_0001079>)
 
 # Class: <https://purl.obolibrary.org/obo/FOVT_0001053> (gutted body mass)
 
@@ -1004,6 +1006,61 @@ AnnotationAssertion(dce:date <https://purl.obolibrary.org/obo/FOVT_0001077> "202
 AnnotationAssertion(dce:term_editor <https://purl.obolibrary.org/obo/FOVT_0001077> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <https://purl.obolibrary.org/obo/FOVT_0001077> "length of astragalus along the midline"@en)
 AnnotationAssertion(rdfs:label <https://purl.obolibrary.org/obo/FOVT_0001077> "length of talus along the midline"@en)
+SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0001077> <https://purl.obolibrary.org/obo/FOVT_0000020>)
+
+# Class: <https://purl.obolibrary.org/obo/FOVT_0001078> (breadth of calcaneal body)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <https://purl.obolibrary.org/obo/FOVT_0001078> <http://purl.obolibrary.org/obo/IAO_0000423>)
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "Cantryll-Stewart, R. (2018). A Discernment of Prey Selection by the Ancient Maya."@en) Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988."@en) <http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.obolibrary.org/obo/FOVT_0001078> "The width of a calcaneal body along the medial-lateral axis."@en)
+AnnotationAssertion(dce:date <https://purl.obolibrary.org/obo/FOVT_0001078> "2021-05-24T21:22:09Z"^^xsd:dateTime)
+AnnotationAssertion(dce:term_editor <https://purl.obolibrary.org/obo/FOVT_0001078> <http://orcid.org/0000-0003-2699-3066>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <https://purl.obolibrary.org/obo/FOVT_0001078> "width ML of calcaneal body"@en)
+AnnotationAssertion(rdfs:label <https://purl.obolibrary.org/obo/FOVT_0001078> "breadth of calcaneal body"@en)
+SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0001078> <https://purl.obolibrary.org/obo/FOVT_0001079>)
+
+# Class: <https://purl.obolibrary.org/obo/FOVT_0001079> (calcaneus width)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <https://purl.obolibrary.org/obo/FOVT_0001079> <http://purl.obolibrary.org/obo/IAO_0000423>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.obolibrary.org/obo/FOVT_0001079> "The width of a calcaneus."@en)
+AnnotationAssertion(dce:date <https://purl.obolibrary.org/obo/FOVT_0001079> "2021-05-24T21:26:12Z"^^xsd:dateTime)
+AnnotationAssertion(dce:term_editor <https://purl.obolibrary.org/obo/FOVT_0001079> <http://orcid.org/0000-0003-2699-3066>)
+AnnotationAssertion(rdfs:label <https://purl.obolibrary.org/obo/FOVT_0001079> "calcaneus width"@en)
+SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0001079> <http://purl.obolibrary.org/obo/OBA_0003330>)
+SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0001079> <http://purl.obolibrary.org/obo/PATO_0000921>)
+
+# Class: <https://purl.obolibrary.org/obo/FOVT_0001080> (calcaneus proximal breadth (non-plantigrade))
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <https://purl.obolibrary.org/obo/FOVT_0001080> <http://purl.obolibrary.org/obo/IAO_0000423>)
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988."@en) <http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.obolibrary.org/obo/FOVT_0001080> "The width along the medial-lateral axis of the distal (non-plantigrade) or posterior (plantigrade) end of a calcaneus."@en)
+AnnotationAssertion(dce:date <https://purl.obolibrary.org/obo/FOVT_0001080> "2021-05-24T21:29:06Z"^^xsd:dateTime)
+AnnotationAssertion(dce:term_editor <https://purl.obolibrary.org/obo/FOVT_0001080> <http://orcid.org/0000-0003-2699-3066>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <https://purl.obolibrary.org/obo/FOVT_0001080> "calcaneus posterior breadth (plantigrade)"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <https://purl.obolibrary.org/obo/FOVT_0001080> "calcaneus posterior width ML (plantigrade)"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <https://purl.obolibrary.org/obo/FOVT_0001080> "calcaneus proximal width ML (non-plantigrade)"@en)
+AnnotationAssertion(rdfs:label <https://purl.obolibrary.org/obo/FOVT_0001080> "calcaneus proximal breadth (non-plantigrade)"@en)
+SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0001080> <https://purl.obolibrary.org/obo/FOVT_0001079>)
+
+# Class: <https://purl.obolibrary.org/obo/FOVT_0001081> (calcaneus proximal depth (non-plantigrade))
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <https://purl.obolibrary.org/obo/FOVT_0001081> <http://purl.obolibrary.org/obo/IAO_0000423>)
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988."@en) <http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.obolibrary.org/obo/FOVT_0001081> "The with of the proximal end of a calcaneus along the anterior-posterior axis (non-plantigrade) or of the posterior end of a calcaneus along the proximal-distal axis (plantigrade)."@en)
+AnnotationAssertion(dce:date <https://purl.obolibrary.org/obo/FOVT_0001081> "2021-05-24T21:32:39Z"^^xsd:dateTime)
+AnnotationAssertion(dce:term_editor <https://purl.obolibrary.org/obo/FOVT_0001081> <http://orcid.org/0000-0003-2699-3066>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <https://purl.obolibrary.org/obo/FOVT_0001081> "calcaneus posterior depth (plantigrade)"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <https://purl.obolibrary.org/obo/FOVT_0001081> "calcaneus posterior with PD (plantigrade)"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <https://purl.obolibrary.org/obo/FOVT_0001081> "calcaneus proximal width AP (non-plantigrade)"@en)
+AnnotationAssertion(rdfs:label <https://purl.obolibrary.org/obo/FOVT_0001081> "calcaneus proximal depth (non-plantigrade)"@en)
+SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0001081> <https://purl.obolibrary.org/obo/FOVT_0001079>)
+
+# Class: <https://purl.obolibrary.org/obo/FOVT_0001082> (depth of calcaneal body)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "Cantryll-Stewart, R. (2018). A Discernment of Prey Selection by the Ancient Maya."@en) Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988."@en) <http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.obolibrary.org/obo/FOVT_0001082> "The width along the anterior-posterior axis (non-plantigrade) or proximal-distal axis (plantigrade) of a calcaneal body."@en)
+AnnotationAssertion(dce:date <https://purl.obolibrary.org/obo/FOVT_0001082> "2021-05-24T21:35:37Z"^^xsd:dateTime)
+AnnotationAssertion(dce:term_editor <https://purl.obolibrary.org/obo/FOVT_0001082> <http://orcid.org/0000-0003-2699-3066>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <https://purl.obolibrary.org/obo/FOVT_0001082> "width AP of calcaneal body (non-plantigrade)"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <https://purl.obolibrary.org/obo/FOVT_0001082> "width PD of calcanedal body (plantigrade)"@en)
+AnnotationAssertion(rdfs:label <https://purl.obolibrary.org/obo/FOVT_0001082> "depth of calcaneal body"@en)
+SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0001082> <https://purl.obolibrary.org/obo/FOVT_0001079>)
 
 
 )
