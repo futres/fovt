@@ -9,7 +9,7 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/fovt/imports/bspo_import.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/fovt/releases/2021-05-20/imports/bspo_import.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/fovt/releases/2021-05-28/imports/bspo_import.owl"/>
     </owl:Ontology>
     
 
@@ -269,6 +269,47 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/BSPO_0000110 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BSPO_0000110">
+        <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/BSPO_0000111"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <obo:IAO_0000115>Closer to the left side of the organism. Example: The dorsal fin is right of the left pectoral fin, but is left of the right eye. On the type level: X left of Y &lt;=&gt; every instance x of X is left of some instance y of Y, and there exists some organism o such that x part of o and y part of o.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>BSPO:0000110</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>spatial</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>left_of</oboInOwl:id>
+        <oboInOwl:shorthand>left_of</oboInOwl:shorthand>
+        <rdfs:label>left of</rdfs:label>
+    </owl:ObjectProperty>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BSPO_0000110"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Closer to the left side of the organism. Example: The dorsal fin is right of the left pectoral fin, but is left of the right eye. On the type level: X left of Y &lt;=&gt; every instance x of X is left of some instance y of Y, and there exists some organism o such that x part of o and y part of o.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BSPO:cjm</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSPO_0000111 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BSPO_0000111">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <obo:IAO_0000115>Closer to the right side of the organism. Example: The dorsal fin is right of the left pectoral fin, but is left of the right eye. On the type level: X left of Y &lt;=&gt; every instance x of X is right of some instance y of Y, and there exists some organism o such that x part of o and y part of o.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>BSPO:0000111</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>spatial</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>right_of</oboInOwl:id>
+        <oboInOwl:shorthand>right_of</oboInOwl:shorthand>
+        <rdfs:label>right of</rdfs:label>
+    </owl:ObjectProperty>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BSPO_0000111"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Closer to the right side of the organism. Example: The dorsal fin is right of the left pectoral fin, but is left of the right eye. On the type level: X left of Y &lt;=&gt; every instance x of X is right of some instance y of Y, and there exists some organism o such that x part of o and y part of o.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BSPO:cjm</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/BSPO_0000113 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BSPO_0000113">
@@ -481,6 +522,37 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/BSPO_0000000 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSPO_0000000">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSPO_0000054"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BSPO_0000110"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BSPO_0000007"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BSPO_0015007"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BSPO_0000017"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>The side of an organism that is left of the sagittal plane.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>left</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>spatial</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>BSPO:0000000</oboInOwl:id>
+        <rdfs:label>left side</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BSPO_0000000"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The side of an organism that is left of the sagittal plane.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BSPO:cjm</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/BSPO_0000005 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSPO_0000005">
@@ -498,6 +570,32 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A 2D surface of an anatomical continuant.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BSPO:cjm</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSPO_0000007 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSPO_0000007">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSPO_0000054"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BSPO_0015001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BSPO_0000017"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>The side of an organism that is right of the sagittal plane.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>right</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>spatial</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>BSPO:0000007</oboInOwl:id>
+        <rdfs:label>right side</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BSPO_0000007"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The side of an organism that is right of the sagittal plane.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BSPO:cjm</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BSPO:wd</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 

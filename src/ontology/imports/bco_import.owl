@@ -13,7 +13,7 @@
      xmlns:ncbitaxon="http://purl.obolibrary.org/obo/ncbitaxon#"
      xmlns:attributes="http://rs.tdwg.org/dwc/terms/attributes/">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/fovt/imports/bco_import.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/fovt/releases/2021-05-20/imports/bco_import.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/fovt/releases/2021-05-28/imports/bco_import.owl"/>
     </owl:Ontology>
     
 
