@@ -128,6 +128,10 @@ Declaration(Class(<https://purl.obolibrary.org/obo/FOVT_0001095>))
 Declaration(Class(<https://purl.obolibrary.org/obo/FOVT_0001096>))
 Declaration(Class(<https://purl.obolibrary.org/obo/FOVT_0001097>))
 Declaration(Class(<https://purl.obolibrary.org/obo/FOVT_0001098>))
+Declaration(Class(<https://purl.obolibrary.org/obo/FOVT_0001099>))
+Declaration(Class(<https://purl.obolibrary.org/obo/FOVT_0001100>))
+Declaration(Class(<https://purl.obolibrary.org/obo/FOVT_0001101>))
+Declaration(Class(<https://purl.obolibrary.org/obo/FOVT_0001102>))
 Declaration(AnnotationProperty(dce:description))
 Declaration(AnnotationProperty(dce:term_editor))
 Declaration(AnnotationProperty(dce:title))
@@ -1221,6 +1225,42 @@ AnnotationAssertion(dce:date <https://purl.obolibrary.org/obo/FOVT_0001098> "202
 AnnotationAssertion(dce:term_editor <https://purl.obolibrary.org/obo/FOVT_0001098> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(rdfs:label <https://purl.obolibrary.org/obo/FOVT_0001098> "left ear length to tragus"@en)
 SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0001098> <https://purl.obolibrary.org/obo/FOVT_0001003>)
+
+# Class: <https://purl.obolibrary.org/obo/FOVT_0001099> (right side calcaneus length)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <https://purl.obolibrary.org/obo/FOVT_0001099> <http://purl.obolibrary.org/obo/IAO_0000423>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.obolibrary.org/obo/FOVT_0001099> "Calcaneus length on the anatomical right side of an organism."@en)
+AnnotationAssertion(dce:date <https://purl.obolibrary.org/obo/FOVT_0001099> "2021-05-28T17:55:25Z"^^xsd:dateTime)
+AnnotationAssertion(dce:term_editor <https://purl.obolibrary.org/obo/FOVT_0001099> <http://orcid.org/0000-0003-2699-3066>)
+AnnotationAssertion(rdfs:label <https://purl.obolibrary.org/obo/FOVT_0001099> "right side calcaneus length"@en)
+SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0001099> <https://purl.obolibrary.org/obo/FOVT_0000022>)
+
+# Class: <https://purl.obolibrary.org/obo/FOVT_0001100> (left side calcaneus length)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <https://purl.obolibrary.org/obo/FOVT_0001100> <http://purl.obolibrary.org/obo/IAO_0000423>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.obolibrary.org/obo/FOVT_0001100> "Calcaneus length on the anatomical left side of an organism."@en)
+AnnotationAssertion(dce:date <https://purl.obolibrary.org/obo/FOVT_0001100> "2021-05-28T17:56:30Z"^^xsd:dateTime)
+AnnotationAssertion(dce:term_editor <https://purl.obolibrary.org/obo/FOVT_0001100> <http://orcid.org/0000-0003-2699-3066>)
+AnnotationAssertion(rdfs:label <https://purl.obolibrary.org/obo/FOVT_0001100> "left side calcaneus length"@en)
+SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0001100> <https://purl.obolibrary.org/obo/FOVT_0000022>)
+
+# Class: <https://purl.obolibrary.org/obo/FOVT_0001101> (right calcaneus proximal length)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <https://purl.obolibrary.org/obo/FOVT_0001101> <http://purl.obolibrary.org/obo/IAO_0000423>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.obolibrary.org/obo/FOVT_0001101> "Calcaneus proximal length on the anatomical right side of an organism."@en)
+AnnotationAssertion(dce:date <https://purl.obolibrary.org/obo/FOVT_0001101> "2021-05-28T17:57:02Z"^^xsd:dateTime)
+AnnotationAssertion(dce:term_editor <https://purl.obolibrary.org/obo/FOVT_0001101> <http://orcid.org/0000-0003-2699-3066>)
+AnnotationAssertion(rdfs:label <https://purl.obolibrary.org/obo/FOVT_0001101> "right calcaneus proximal length"@en)
+SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0001101> <https://purl.obolibrary.org/obo/FOVT_0001047>)
+
+# Class: <https://purl.obolibrary.org/obo/FOVT_0001102> (left calcaneus proximal length)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <https://purl.obolibrary.org/obo/FOVT_0001102> <http://purl.obolibrary.org/obo/IAO_0000423>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.obolibrary.org/obo/FOVT_0001102> "Calcaneus proximal length on the anatomical left side of an organism."@en)
+AnnotationAssertion(dce:date <https://purl.obolibrary.org/obo/FOVT_0001102> "2021-05-28T17:57:48Z"^^xsd:dateTime)
+AnnotationAssertion(dce:term_editor <https://purl.obolibrary.org/obo/FOVT_0001102> <http://orcid.org/0000-0003-2699-3066>)
+AnnotationAssertion(rdfs:label <https://purl.obolibrary.org/obo/FOVT_0001102> "left calcaneus proximal length"@en)
+SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0001102> <https://purl.obolibrary.org/obo/FOVT_0001047>)
 
 
 )
