@@ -112,6 +112,22 @@ Declaration(Class(<https://purl.obolibrary.org/obo/FOVT_0001079>))
 Declaration(Class(<https://purl.obolibrary.org/obo/FOVT_0001080>))
 Declaration(Class(<https://purl.obolibrary.org/obo/FOVT_0001081>))
 Declaration(Class(<https://purl.obolibrary.org/obo/FOVT_0001082>))
+Declaration(Class(<https://purl.obolibrary.org/obo/FOVT_0001083>))
+Declaration(Class(<https://purl.obolibrary.org/obo/FOVT_0001084>))
+Declaration(Class(<https://purl.obolibrary.org/obo/FOVT_0001085>))
+Declaration(Class(<https://purl.obolibrary.org/obo/FOVT_0001086>))
+Declaration(Class(<https://purl.obolibrary.org/obo/FOVT_0001087>))
+Declaration(Class(<https://purl.obolibrary.org/obo/FOVT_0001088>))
+Declaration(Class(<https://purl.obolibrary.org/obo/FOVT_0001089>))
+Declaration(Class(<https://purl.obolibrary.org/obo/FOVT_0001090>))
+Declaration(Class(<https://purl.obolibrary.org/obo/FOVT_0001091>))
+Declaration(Class(<https://purl.obolibrary.org/obo/FOVT_0001092>))
+Declaration(Class(<https://purl.obolibrary.org/obo/FOVT_0001093>))
+Declaration(Class(<https://purl.obolibrary.org/obo/FOVT_0001094>))
+Declaration(Class(<https://purl.obolibrary.org/obo/FOVT_0001095>))
+Declaration(Class(<https://purl.obolibrary.org/obo/FOVT_0001096>))
+Declaration(Class(<https://purl.obolibrary.org/obo/FOVT_0001097>))
+Declaration(Class(<https://purl.obolibrary.org/obo/FOVT_0001098>))
 Declaration(AnnotationProperty(dce:description))
 Declaration(AnnotationProperty(dce:term_editor))
 Declaration(AnnotationProperty(dce:title))
@@ -1061,6 +1077,150 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <https://purl.obolibrary.org/obo/FOVT_0001082> "width PD of calcanedal body (plantigrade)"@en)
 AnnotationAssertion(rdfs:label <https://purl.obolibrary.org/obo/FOVT_0001082> "depth of calcaneal body"@en)
 SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0001082> <https://purl.obolibrary.org/obo/FOVT_0001079>)
+
+# Class: <https://purl.obolibrary.org/obo/FOVT_0001083> (right calcaneus distal breadth)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <https://purl.obolibrary.org/obo/FOVT_0001083> <http://purl.obolibrary.org/obo/IAO_0000423>)
+AnnotationAssertion(dce:date <https://purl.obolibrary.org/obo/FOVT_0001083> "2021-05-28T17:22:10Z"^^xsd:dateTime)
+AnnotationAssertion(dce:term_editor <https://purl.obolibrary.org/obo/FOVT_0001083> <http://orcid.org/0000-0003-2699-3066>)
+AnnotationAssertion(rdfs:comment <https://purl.obolibrary.org/obo/FOVT_0001083> "Calcaneus distal breadth on the anatomical right side of an organism."@en)
+AnnotationAssertion(rdfs:label <https://purl.obolibrary.org/obo/FOVT_0001083> "right calcaneus distal breadth"@en)
+SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0001083> <https://purl.obolibrary.org/obo/FOVT_0000023>)
+
+# Class: <https://purl.obolibrary.org/obo/FOVT_0001084> (left calcaneus distal breadth)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <https://purl.obolibrary.org/obo/FOVT_0001084> <http://purl.obolibrary.org/obo/IAO_0000423>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.obolibrary.org/obo/FOVT_0001084> "Calcaneus distal breadth on the anatomical left side of an organism."@en)
+AnnotationAssertion(dce:date <https://purl.obolibrary.org/obo/FOVT_0001084> "2021-05-28T17:24:00Z"^^xsd:dateTime)
+AnnotationAssertion(dce:term_editor <https://purl.obolibrary.org/obo/FOVT_0001084> <http://orcid.org/0000-0003-2699-3066>)
+AnnotationAssertion(rdfs:label <https://purl.obolibrary.org/obo/FOVT_0001084> "left calcaneus distal breadth"@en)
+SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0001084> <https://purl.obolibrary.org/obo/FOVT_0000023>)
+
+# Class: <https://purl.obolibrary.org/obo/FOVT_0001085> (right calcaneus distal depth)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <https://purl.obolibrary.org/obo/FOVT_0001085> <http://purl.obolibrary.org/obo/IAO_0000423>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.obolibrary.org/obo/FOVT_0001085> "Calcaneus distal depth on the anatomical right side of an organism."@en)
+AnnotationAssertion(dce:date <https://purl.obolibrary.org/obo/FOVT_0001085> "2021-05-28T17:25:00Z"^^xsd:dateTime)
+AnnotationAssertion(dce:term_editor <https://purl.obolibrary.org/obo/FOVT_0001085> <http://orcid.org/0000-0003-2699-3066>)
+AnnotationAssertion(rdfs:label <https://purl.obolibrary.org/obo/FOVT_0001085> "right calcaneus distal depth"@en)
+SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0001085> <https://purl.obolibrary.org/obo/FOVT_0001048>)
+
+# Class: <https://purl.obolibrary.org/obo/FOVT_0001086> (left calcaneus distal depth)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <https://purl.obolibrary.org/obo/FOVT_0001086> <http://purl.obolibrary.org/obo/IAO_0000423>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.obolibrary.org/obo/FOVT_0001086> "Calcaneus distal depth on the anatomical left side."@en)
+AnnotationAssertion(dce:date <https://purl.obolibrary.org/obo/FOVT_0001086> "2021-05-28T17:25:36Z"^^xsd:dateTime)
+AnnotationAssertion(dce:term_editor <https://purl.obolibrary.org/obo/FOVT_0001086> <http://orcid.org/0000-0003-2699-3066>)
+AnnotationAssertion(rdfs:label <https://purl.obolibrary.org/obo/FOVT_0001086> "left calcaneus distal depth"@en)
+SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0001086> <https://purl.obolibrary.org/obo/FOVT_0001048>)
+
+# Class: <https://purl.obolibrary.org/obo/FOVT_0001087> (beadth of right side calcaneal body)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <https://purl.obolibrary.org/obo/FOVT_0001087> <http://purl.obolibrary.org/obo/IAO_0000423>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.obolibrary.org/obo/FOVT_0001087> "Breadth of calcaneal body on the antaomical right side of an organism."@en)
+AnnotationAssertion(dce:date <https://purl.obolibrary.org/obo/FOVT_0001087> "2021-05-28T17:26:33Z"^^xsd:dateTime)
+AnnotationAssertion(dce:term_editor <https://purl.obolibrary.org/obo/FOVT_0001087> <http://orcid.org/0000-0003-2699-3066>)
+AnnotationAssertion(rdfs:label <https://purl.obolibrary.org/obo/FOVT_0001087> "beadth of right side calcaneal body"@en)
+SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0001087> <https://purl.obolibrary.org/obo/FOVT_0001078>)
+
+# Class: <https://purl.obolibrary.org/obo/FOVT_0001088> (breadth of left side calcaneal body)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <https://purl.obolibrary.org/obo/FOVT_0001088> <http://purl.obolibrary.org/obo/IAO_0000423>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.obolibrary.org/obo/FOVT_0001088> "Breadth of calcenal body on the anatomical left side of an organism."@en)
+AnnotationAssertion(dce:date <https://purl.obolibrary.org/obo/FOVT_0001088> "2021-05-28T17:27:10Z"^^xsd:dateTime)
+AnnotationAssertion(dce:term_editor <https://purl.obolibrary.org/obo/FOVT_0001088> <http://orcid.org/0000-0003-2699-3066>)
+AnnotationAssertion(rdfs:label <https://purl.obolibrary.org/obo/FOVT_0001088> "breadth of left side calcaneal body"@en)
+SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0001088> <https://purl.obolibrary.org/obo/FOVT_0001078>)
+
+# Class: <https://purl.obolibrary.org/obo/FOVT_0001089> (right calcaneus proximal breadth)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <https://purl.obolibrary.org/obo/FOVT_0001089> <http://purl.obolibrary.org/obo/IAO_0000423>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.obolibrary.org/obo/FOVT_0001089> "Calcaneus proximal breadth on the anatomical right side of an organism."@en)
+AnnotationAssertion(dce:date <https://purl.obolibrary.org/obo/FOVT_0001089> "2021-05-28T17:27:46Z"^^xsd:dateTime)
+AnnotationAssertion(dce:term_editor <https://purl.obolibrary.org/obo/FOVT_0001089> <http://orcid.org/0000-0003-2699-3066>)
+AnnotationAssertion(rdfs:label <https://purl.obolibrary.org/obo/FOVT_0001089> "right calcaneus proximal breadth"@en)
+SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0001089> <https://purl.obolibrary.org/obo/FOVT_0001080>)
+
+# Class: <https://purl.obolibrary.org/obo/FOVT_0001090> (left calcaneus proximal breadth)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <https://purl.obolibrary.org/obo/FOVT_0001090> <http://purl.obolibrary.org/obo/IAO_0000423>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.obolibrary.org/obo/FOVT_0001090> "Calcaneus proximal breadth on the anatomical left side of an organism."@en)
+AnnotationAssertion(dce:date <https://purl.obolibrary.org/obo/FOVT_0001090> "2021-05-28T17:28:24Z"^^xsd:dateTime)
+AnnotationAssertion(dce:term_editor <https://purl.obolibrary.org/obo/FOVT_0001090> <http://orcid.org/0000-0003-2699-3066>)
+AnnotationAssertion(rdfs:label <https://purl.obolibrary.org/obo/FOVT_0001090> "left calcaneus proximal breadth"@en)
+SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0001090> <https://purl.obolibrary.org/obo/FOVT_0001080>)
+
+# Class: <https://purl.obolibrary.org/obo/FOVT_0001091> (right calcaneus proximal depth)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <https://purl.obolibrary.org/obo/FOVT_0001091> <http://purl.obolibrary.org/obo/IAO_0000423>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.obolibrary.org/obo/FOVT_0001091> "Calcaneus proximal depth on the anatomical right side of an organism."@en)
+AnnotationAssertion(dce:date <https://purl.obolibrary.org/obo/FOVT_0001091> "2021-05-28T17:29:02Z"^^xsd:dateTime)
+AnnotationAssertion(dce:term_editor <https://purl.obolibrary.org/obo/FOVT_0001091> <http://orcid.org/0000-0003-2699-3066>)
+AnnotationAssertion(rdfs:label <https://purl.obolibrary.org/obo/FOVT_0001091> "right calcaneus proximal depth"@en)
+SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0001091> <https://purl.obolibrary.org/obo/FOVT_0001081>)
+
+# Class: <https://purl.obolibrary.org/obo/FOVT_0001092> (left calcaneus proximal depth)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <https://purl.obolibrary.org/obo/FOVT_0001092> <http://purl.obolibrary.org/obo/IAO_0000423>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.obolibrary.org/obo/FOVT_0001092> "Calcaneus proximal depth on the anatomical left side of an organism."@en)
+AnnotationAssertion(dce:date <https://purl.obolibrary.org/obo/FOVT_0001092> "2021-05-28T17:29:36Z"^^xsd:dateTime)
+AnnotationAssertion(dce:term_editor <https://purl.obolibrary.org/obo/FOVT_0001092> <http://orcid.org/0000-0003-2699-3066>)
+AnnotationAssertion(rdfs:label <https://purl.obolibrary.org/obo/FOVT_0001092> "left calcaneus proximal depth"@en)
+SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0001092> <https://purl.obolibrary.org/obo/FOVT_0001081>)
+
+# Class: <https://purl.obolibrary.org/obo/FOVT_0001093> (depth of right side calcaneal body)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <https://purl.obolibrary.org/obo/FOVT_0001093> <http://purl.obolibrary.org/obo/IAO_0000423>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.obolibrary.org/obo/FOVT_0001093> "Depth of a calcaneal body on the anatomical right side of an organism."@en)
+AnnotationAssertion(dce:date <https://purl.obolibrary.org/obo/FOVT_0001093> "2021-05-28T17:30:18Z"^^xsd:dateTime)
+AnnotationAssertion(dce:term_editor <https://purl.obolibrary.org/obo/FOVT_0001093> <http://orcid.org/0000-0003-2699-3066>)
+AnnotationAssertion(rdfs:label <https://purl.obolibrary.org/obo/FOVT_0001093> "depth of right side calcaneal body"@en)
+SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0001093> <https://purl.obolibrary.org/obo/FOVT_0001082>)
+
+# Class: <https://purl.obolibrary.org/obo/FOVT_0001094> (depth of left side calcaneal body)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <https://purl.obolibrary.org/obo/FOVT_0001094> <http://purl.obolibrary.org/obo/IAO_0000423>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.obolibrary.org/obo/FOVT_0001094> "Depth of calcaneal body on the anatomical left side of an organism."@en)
+AnnotationAssertion(dce:date <https://purl.obolibrary.org/obo/FOVT_0001094> "2021-05-28T17:30:50Z"^^xsd:dateTime)
+AnnotationAssertion(dce:term_editor <https://purl.obolibrary.org/obo/FOVT_0001094> <http://orcid.org/0000-0003-2699-3066>)
+AnnotationAssertion(rdfs:label <https://purl.obolibrary.org/obo/FOVT_0001094> "depth of left side calcaneal body"@en)
+SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0001094> <https://purl.obolibrary.org/obo/FOVT_0001082>)
+
+# Class: <https://purl.obolibrary.org/obo/FOVT_0001095> (right ear length to notch)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <https://purl.obolibrary.org/obo/FOVT_0001095> <http://purl.obolibrary.org/obo/IAO_0000423>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.obolibrary.org/obo/FOVT_0001095> "Ear length to notch on the anatomical right side of an organism."@en)
+AnnotationAssertion(dce:date <https://purl.obolibrary.org/obo/FOVT_0001095> "2021-05-28T17:32:28Z"^^xsd:dateTime)
+AnnotationAssertion(dce:term_editor <https://purl.obolibrary.org/obo/FOVT_0001095> <http://orcid.org/0000-0003-2699-3066>)
+AnnotationAssertion(rdfs:label <https://purl.obolibrary.org/obo/FOVT_0001095> "right ear length to notch"@en)
+SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0001095> <https://purl.obolibrary.org/obo/FOVT_0000005>)
+
+# Class: <https://purl.obolibrary.org/obo/FOVT_0001096> (left ear length to notch)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <https://purl.obolibrary.org/obo/FOVT_0001096> <http://purl.obolibrary.org/obo/IAO_0000423>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.obolibrary.org/obo/FOVT_0001096> "Ear length to notch on the anatomical left side of an organism."@en)
+AnnotationAssertion(dce:date <https://purl.obolibrary.org/obo/FOVT_0001096> "2021-05-28T17:32:55Z"^^xsd:dateTime)
+AnnotationAssertion(dce:term_editor <https://purl.obolibrary.org/obo/FOVT_0001096> <http://orcid.org/0000-0003-2699-3066>)
+AnnotationAssertion(rdfs:label <https://purl.obolibrary.org/obo/FOVT_0001096> "left ear length to notch"@en)
+SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0001096> <https://purl.obolibrary.org/obo/FOVT_0000005>)
+
+# Class: <https://purl.obolibrary.org/obo/FOVT_0001097> (right ear length to tragus)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <https://purl.obolibrary.org/obo/FOVT_0001097> <http://purl.obolibrary.org/obo/IAO_0000423>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.obolibrary.org/obo/FOVT_0001097> "Ear length to tragus on the anatomical right side of an organism."@en)
+AnnotationAssertion(dce:date <https://purl.obolibrary.org/obo/FOVT_0001097> "2021-05-28T17:33:27Z"^^xsd:dateTime)
+AnnotationAssertion(dce:term_editor <https://purl.obolibrary.org/obo/FOVT_0001097> <http://orcid.org/0000-0003-2699-3066>)
+AnnotationAssertion(rdfs:label <https://purl.obolibrary.org/obo/FOVT_0001097> "right ear length to tragus"@en)
+SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0001097> <https://purl.obolibrary.org/obo/FOVT_0001003>)
+
+# Class: <https://purl.obolibrary.org/obo/FOVT_0001098> (left ear length to tragus)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <https://purl.obolibrary.org/obo/FOVT_0001098> <http://purl.obolibrary.org/obo/IAO_0000423>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://purl.obolibrary.org/obo/FOVT_0001098> "Ear length to tragus on the anatomical left side of an organism."@en)
+AnnotationAssertion(dce:date <https://purl.obolibrary.org/obo/FOVT_0001098> "2021-05-28T17:34:10Z"^^xsd:dateTime)
+AnnotationAssertion(dce:term_editor <https://purl.obolibrary.org/obo/FOVT_0001098> <http://orcid.org/0000-0003-2699-3066>)
+AnnotationAssertion(rdfs:label <https://purl.obolibrary.org/obo/FOVT_0001098> "left ear length to tragus"@en)
+SubClassOf(<https://purl.obolibrary.org/obo/FOVT_0001098> <https://purl.obolibrary.org/obo/FOVT_0001003>)
 
 
 )
