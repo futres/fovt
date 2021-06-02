@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: fovt/releases/2021-03-03/fovt-base.owl
+data-version: fovt/releases/2021-06-02/fovt-base.owl
 ontology: fovt/fovt-base
 property_value: http://purl.org/dc/elements/1.1/description "None" xsd:string
 property_value: http://purl.org/dc/elements/1.1/description "These are the terms that are improted for FOVT to describe vertebrate traits." xsd:string
@@ -14,6 +14,7 @@ def: "A length measurement of the body that includes the tail." []
 synonym: "total length" EXACT []
 is_a: OBA:VT0001256
 property_value: IAO:0000114 IAO:0000423
+property_value: IAO:0000117 http://orcid.org/0000-0003-2699-3066
 
 [Term]
 id: FOVT:0000002
@@ -23,22 +24,25 @@ synonym: "head-body length" EXACT []
 synonym: "snout-vent length" BROAD []
 is_a: OBA:VT0001256
 property_value: IAO:0000114 IAO:0000423
+property_value: IAO:0000117 http://orcid.org/0000-0003-2699-3066
 
 [Term]
 id: FOVT:0000003
-name: hind foot length with claw
+name: hind foot length with nail
 def: "A length measurement of a hind foot that includes a nail." []
 synonym: "pes length with claw" EXACT []
 is_a: OBA:1000049
 property_value: IAO:0000114 IAO:0000423
+property_value: IAO:0000117 http://orcid.org/0000-0003-2699-3066
 
 [Term]
 id: FOVT:0000004
-name: hind foot length without claw
+name: hind foot length without nail
 def: "A length measurement of a hind foot that excludes a nail." []
 synonym: "pes length without claw" EXACT []
 is_a: OBA:1000049
 property_value: IAO:0000114 IAO:0000423
+property_value: IAO:0000117 http://orcid.org/0000-0003-2699-3066
 
 [Term]
 id: FOVT:0000005
@@ -48,6 +52,7 @@ synonym: "ear length" BROAD []
 synonym: "ear notch" EXACT []
 is_a: OBA:0003426
 property_value: IAO:0000114 IAO:0000423
+property_value: IAO:0000117 http://orcid.org/0000-0003-2699-3066
 
 [Term]
 id: FOVT:0000006
@@ -57,33 +62,37 @@ synonym: "femur greatest length" BROAD []
 synonym: "femur length" BROAD []
 is_a: OBA:VT0004348
 property_value: IAO:0000114 IAO:0000423
+property_value: IAO:0000117 http://orcid.org/0000-0003-2699-3066
 
 [Term]
 id: FOVT:0000007
 name: femur length from caput to medial condyle
-def: "The length of a line of a femur from a medial condyle of a femur to a head of a femur." []
+def: "The length of a line of a femur from a medial condyle of a femur to a head of a femur." [] {http://purl.obolibrary.org/obo/IAO_0000119="von den Driesch, Angela. A guide to the measurement of animal bones from archaeological sites: as developed by the Institut für Palaeoanatomie, Domestikationsforschung und Geschichte der Tiermedizin of the University of Munich . Vol. 1. Peabody Museum Press, 1976."}
 synonym: "femur length" BROAD []
 is_a: OBA:VT0004348
 property_value: IAO:0000114 IAO:0000423
+property_value: IAO:0000117 http://orcid.org/0000-0003-2699-3066
 
 [Term]
 id: FOVT:0000008
 name: humerus length from trochlea to caput
-def: "The length of a line of a trochlea of a humerus to a proximal head of a humerus." []
+def: "The length of a line of a trochlea of a humerus to a proximal head of a humerus." [] {http://purl.obolibrary.org/obo/IAO_0000119="Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988.", http://purl.obolibrary.org/obo/IAO_0000119="von den Driesch, Angela. A guide to the measurement of animal bones from archaeological sites: as developed by the Institut für Palaeoanatomie, Domestikationsforschung und Geschichte der Tiermedizin of the University of Munich . Vol. 1. Peabody Museum Press, 1976."}
 synonym: "humerus length" BROAD []
 synonym: "humerus length to caput" BROAD []
 is_a: OBA:VT0004350
 property_value: IAO:0000114 IAO:0000423
+property_value: IAO:0000117 http://orcid.org/0000-0003-2699-3066
 
 [Term]
 id: FOVT:0000009
 name: humerus length from trochlea to ventral tubercle
-def: "The length of a line of a trochlea of a humerus to a ventral tubercle of a humerus." []
+def: "The length of a line of a trochlea of a humerus to a ventral tubercle of a humerus." [] {http://purl.obolibrary.org/obo/IAO_0000119="Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988.", http://purl.obolibrary.org/obo/IAO_0000119="von den Driesch, Angela. A guide to the measurement of animal bones from archaeological sites: as developed by the Institut für Palaeoanatomie, Domestikationsforschung und Geschichte der Tiermedizin of the University of Munich . Vol. 1. Peabody Museum Press, 1976."}
 synonym: "humerus greatest length" BROAD []
 synonym: "humerus length" BROAD []
 synonym: "humerus length from trochlea to greater tubercle" EXACT []
 is_a: OBA:VT0004350
 property_value: IAO:0000114 IAO:0000423
+property_value: IAO:0000117 http://orcid.org/0000-0003-2699-3066
 
 [Term]
 id: FOVT:0000010
@@ -111,20 +120,23 @@ is_obsolete: true
 [Term]
 id: FOVT:0000013
 name: talus lateral length
-def: "The length of the lateral side of a talus along the proximal-distal axis." []
+def: "The length of the lateral side of a talus along the proximal-distal axis (in animals) or anterior-posterior axis (in humans)." [] {http://purl.obolibrary.org/obo/IAO_0000119="von den Driesch, Angela. A guide to the measurement of animal bones from archaeological sites: as developed by the Institut für Palaeoanatomie, Domestikationsforschung und Geschichte der Tiermedizin of the University of Munich . Vol. 1. Peabody Museum Press, 1976."}
 synonym: "astragalus length lateral" EXACT []
 is_a: FOVT:0000020 ! talus length
 property_value: IAO:0000114 IAO:0000423
+property_value: IAO:0000117 http://orcid.org/0000-0003-2699-3066
 
 [Term]
 id: FOVT:0000014
-name: talus medial depth
-def: "The depth of the medial ridge of a trochlea of an astragalus along the anterior-posterior axis." []
+name: obsolete talus medial depth
+def: "OBSOLETE The depth of the medial ridge of a trochlea of an astragalus along the anterior-posterior axis." []
+comment: duplicate term
 synonym: "astragalus medial depth" EXACT []
 synonym: "astragalus medial width AP" EXACT []
 synonym: "talus medial width AP" EXACT []
-is_a: PATO:0001595
 property_value: IAO:0000114 IAO:0000423
+is_obsolete: true
+replaced_by: FOVT:0001043
 
 [Term]
 id: FOVT:0000015
@@ -138,77 +150,90 @@ replaced_by: FOVT:0000013
 [Term]
 id: FOVT:0000016
 name: talus medial length
-def: "The length of the medial side of a talus along the proximal-distal axis." []
+def: "The length of the medial side of a talus along the proximal-distal axis (non-plantigrade) or anterior-posterior axis (plantigrade)." []
 synonym: "astragalus medial length" EXACT []
 is_a: FOVT:0000020 ! talus length
 property_value: IAO:0000114 IAO:0000423
+property_value: IAO:0000117 http://orcid.org/0000-0003-2699-3066
 
 [Term]
 id: FOVT:0000017
-name: talus distal articular breadth
-def: "The length of a line between the medial-most point on the articular surface for the calcaneum on the astragalus to the lateral-most point of the trochleated head of an astragalus." []
-synonym: "astragalus distal articular breadth" EXACT []
-synonym: "astragalus distal articular width ML" EXACT []
+name: talus distal articular breadth (non-plantigrade)
+def: "The length of a line between the medial-most point on the articular surface for the calcaneum on the astragalus to the lateral-most point of the trochleated head of an astragalus." [] {http://purl.obolibrary.org/obo/IAO_0000119="Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988.", http://purl.obolibrary.org/obo/IAO_0000119="von den Driesch, Angela. A guide to the measurement of animal bones from archaeological sites: as developed by the Institut für Palaeoanatomie, Domestikationsforschung und Geschichte der Tiermedizin of the University of Munich . Vol. 1. Peabody Museum Press, 1976."}
+synonym: "astragalus distal articular breadth (non-plantigrade)" EXACT []
+synonym: "astragalus distal articular width ML (non-plantigrade)" EXACT []
 synonym: "length of line between the medial-most point of the articular surface for the calcaneum on the talus to the lateral-most point of the trochleated head on talus" EXACT []
-synonym: "talus distal articular width ML" EXACT []
+synonym: "talus anterior articular breadth (plantigrade)" EXACT []
+synonym: "talus anterior articular width ML (plantigrade)" EXACT []
+synonym: "talus distal articular width ML (non-plantigrade)" EXACT []
 is_a: FOVT:0001041 ! talus width
 property_value: IAO:0000114 IAO:0000423
+property_value: IAO:0000117 http://orcid.org/0000-0003-2699-3066
 
 [Term]
 id: FOVT:0000018
-name: talus distal articular depth
-def: "Length of the distal end of an astragalus along the cranial-caudal axis." []
-synonym: "astragalus distal articular depth" EXACT []
-synonym: "astragalus distal articular width AP" EXACT []
+name: talus distal articular depth (non-plantigrade)
+def: "Length of the distal end of an astragalus along the anterior-posterior axis (non-plantigrade) or proximal-distal axis (plantigrade)." [] {http://purl.obolibrary.org/obo/IAO_0000119="Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988."}
+synonym: "astragalus distal articular depth (non-plantigrade)" EXACT []
+synonym: "astragalus distal articular width AP (non-plantigrade)" EXACT []
 synonym: "length of line connecting the posterior-most point ot the anterior-most point of the trochleated head on talus" EXACT []
-synonym: "talus distal articular width AP" EXACT []
-is_a: PATO:0001595
+synonym: "talus anterior articular depth (plantigrade)" EXACT []
+synonym: "talus anterior articular width PD (plantigrade)" EXACT []
+synonym: "talus distal articular width AP (non-plantigrade)" EXACT []
+is_a: FOVT:0001041 ! talus width
 property_value: IAO:0000114 IAO:0000423
+property_value: IAO:0000117 http://orcid.org/0000-0003-2699-3066
 
 [Term]
 id: FOVT:0000020
 name: talus length
-def: "The length of a talus along the distal-proximal axis." []
+def: "The length of a talus along the proximal-distal axis (non-plantigrade) or anterior-posterior axis (plantigrade)." [] {http://purl.obolibrary.org/obo/IAO_0000119="von den Driesch, Angela. A guide to the measurement of animal bones from archaeological sites: as developed by the Institut für Palaeoanatomie, Domestikationsforschung und Geschichte der Tiermedizin of the University of Munich . Vol. 1. Peabody Museum Press, 1976."}
 synonym: "astragulus length" EXACT []
 is_a: OBA:VT0005110
 is_a: PATO:0000122
 intersection_of: PATO:0000122
 intersection_of: RO:0000052 UBERON:0002395
 property_value: IAO:0000114 IAO:0000423
+property_value: IAO:0000117 http://orcid.org/0000-0003-2699-3066
 
 [Term]
 id: FOVT:0000021
 name: talus breadth
-def: "The width of a talus along the medial-lateral axis." []
+def: "The width of a talus along the medial-lateral axis." [] {http://purl.obolibrary.org/obo/IAO_0000119="Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988.", http://purl.obolibrary.org/obo/IAO_0000119="von den Driesch, Angela. A guide to the measurement of animal bones from archaeological sites: as developed by the Institut für Palaeoanatomie, Domestikationsforschung und Geschichte der Tiermedizin of the University of Munich . Vol. 1. Peabody Museum Press, 1976."}
 synonym: "astragalus breadth" EXACT []
 synonym: "astragalus width ML" EXACT []
 synonym: "talus width ML" EXACT []
 is_a: FOVT:0001041 ! talus width
 property_value: IAO:0000114 IAO:0000423
+property_value: IAO:0000117 http://orcid.org/0000-0003-2699-3066
 
 [Term]
 id: FOVT:0000022
-name: calcaneus greatest length
-def: "The maximal length of a calcaneus." []
-is_a: PATO:0000122
+name: calcaneus length
+def: "The maximal length of a calcaneus along the proximal-distal axis (non-plantigrade) or anterior-posterior axis (plantigrade)." [] {http://purl.obolibrary.org/obo/IAO_0000119="Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988.", http://purl.obolibrary.org/obo/IAO_0000119="von den Driesch, Angela. A guide to the measurement of animal bones from archaeological sites: as developed by the Institut für Palaeoanatomie, Domestikationsforschung und Geschichte der Tiermedizin of the University of Munich . Vol. 1. Peabody Museum Press, 1976."}
 intersection_of: PATO:0000122
 intersection_of: RO:0000052 UBERON:0001450
 property_value: IAO:0000114 IAO:0000423
+property_value: IAO:0000117 http://orcid.org/0000-0003-2699-3066
 
 [Term]
 id: FOVT:0000023
-name: calcaneus distal breadth
-def: "The width of a caclcaneus along the medial-lateral axis of the distal end." []
-synonym: "calcaneus width ML" EXACT []
-is_a: PATO:0000921
+name: calcaneus distal breadth (non-plantigrade)
+def: "The width of a caclcaneus along the medial-lateral axis of the distal end (non-plantigrade) or anterior end (plantigrade)." [] {http://purl.obolibrary.org/obo/IAO_0000119="Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988."}
+synonym: "calcaneus anterior breadth (plantigrade)" EXACT []
+synonym: "calcaneus anterior width ML (plantigrade)" EXACT []
+synonym: "calcaneus distal width ML (non-plantigrade)" EXACT []
+is_a: FOVT:0001079 ! calcaneus width
 property_value: IAO:0000114 IAO:0000423
+property_value: IAO:0000117 http://orcid.org/0000-0003-2699-3066
 
 [Term]
 id: FOVT:0000025
 name: tibia lateral length
-def: "The length of a tibia on the lateral side of a tibia along the proximal-distal axis." []
+def: "The length of a tibia on the lateral side of a tibia along the proximal-distal axis (in animals) or anterior-posterior axis (in humans)." [] {http://purl.obolibrary.org/obo/IAO_0000119="von den Driesch, Angela. A guide to the measurement of animal bones from archaeological sites: as developed by the Institut für Palaeoanatomie, Domestikationsforschung und Geschichte der Tiermedizin of the University of Munich . Vol. 1. Peabody Museum Press, 1976."}
 is_a: OBA:VT0004357
 property_value: IAO:0000114 IAO:0000423
+property_value: IAO:0000117 http://orcid.org/0000-0003-2699-3066
 
 [Term]
 id: FOVT:0000026
@@ -217,6 +242,7 @@ def: "The width of shaft or diaphysis of a tibia." []
 synonym: "tibia width" BROAD []
 is_a: OBA:VT1000289
 property_value: IAO:0000114 IAO:0000423
+property_value: IAO:0000117 http://orcid.org/0000-0003-2699-3066
 
 [Term]
 id: FOVT:0000027
@@ -225,6 +251,7 @@ def: "The width of the proximal end of a tibia." []
 synonym: "breadth of proximal end of tibia" EXACT []
 is_a: OBA:VT1000289
 property_value: IAO:0000114 IAO:0000423
+property_value: IAO:0000117 http://orcid.org/0000-0003-2699-3066
 
 [Term]
 id: FOVT:0000028
@@ -233,14 +260,17 @@ def: "The width of the distal end of a tibia." []
 synonym: "breadth of distal end of tibia" EXACT []
 is_a: OBA:VT1000289
 property_value: IAO:0000114 IAO:0000423
+property_value: IAO:0000117 http://orcid.org/0000-0003-2699-3066
 
 [Term]
 id: FOVT:0000029
-name: tibia distal breadth
-def: "The depth of the distal end of a tibia." []
+name: obsolete tibia distal breadth
+def: "OBSOLETE The depth of the distal end of a tibia." []
+comment: duplicate term
 synonym: "tibia distal width ML" EXACT []
-is_a: PATO:0001595
 property_value: IAO:0000114 IAO:0000423
+is_obsolete: true
+replaced_by: FOVT:0001004
 
 [Term]
 id: FOVT:0000030
@@ -250,6 +280,7 @@ is_a: PATO:0000122
 intersection_of: PATO:0000122
 intersection_of: RO:0000052 UBERON:0009678
 property_value: IAO:0000114 IAO:0000423
+property_value: IAO:0000117 http://orcid.org/0000-0003-2699-3066
 
 [Term]
 id: FOVT:0000032
@@ -258,172 +289,194 @@ def: "Body length measured from tip of nose to cloaca." []
 synonym: "head-body length" BROAD []
 is_a: OBA:VT0001256
 property_value: IAO:0000114 IAO:0000423
+property_value: IAO:0000117 http://orcid.org/0000-0003-2699-3066
 
 [Term]
 id: FOVT:0001003
 name: ear length to tragus
 def: "The length of a line of an ear from a helix of the outer ear to a tragus of an ear. This measurement is often taken in bats." []
 is_a: OBA:0003426
-property_value: http://purl.org/dc/elements/1.1/creator http://orcid.org/0000-0003-2699-3066
 property_value: http://purl.org/dc/elements/1.1/date 2021-01-26T21:39:38Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: IAO:0000117 http://orcid.org/0000-0003-2699-3066
 
 [Term]
 id: FOVT:0001004
 name: tibia distal breadth
-def: "The width of a tibia at the distal end along the medial-lateral axis." []
+def: "The width of a tibia at the distal end along the medial-lateral axis." [] {http://purl.obolibrary.org/obo/IAO_0000119="Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988.", http://purl.obolibrary.org/obo/IAO_0000119="von den Driesch, Angela. A guide to the measurement of animal bones from archaeological sites: as developed by the Institut für Palaeoanatomie, Domestikationsforschung und Geschichte der Tiermedizin of the University of Munich . Vol. 1. Peabody Museum Press, 1976."}
 synonym: "tibia distal width ML" EXACT []
 is_a: FOVT:0000028 ! tibia distal width
-property_value: http://purl.org/dc/elements/1.1/creator http://orcid.org/0000-0003-2699-3066
 property_value: http://purl.org/dc/elements/1.1/date 2021-02-05T00:08:49Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: IAO:0000117 http://orcid.org/0000-0003-2699-3066
 
 [Term]
 id: FOVT:0001005
 name: tibia distal depth
-def: "The width of a tibia at the distal end along the anterior-posterior axis." []
+def: "The width of a tibia at the distal end along the anterior-posterior axis (in animals) or proximal-distal axis (in humans)." [] {http://purl.obolibrary.org/obo/IAO_0000119="Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988.", http://purl.obolibrary.org/obo/IAO_0000119="von den Driesch, Angela. A guide to the measurement of animal bones from archaeological sites: as developed by the Institut für Palaeoanatomie, Domestikationsforschung und Geschichte der Tiermedizin of the University of Munich . Vol. 1. Peabody Museum Press, 1976."}
 synonym: "tibia distal width AP" EXACT []
 is_a: FOVT:0000028 ! tibia distal width
-property_value: http://purl.org/dc/elements/1.1/creator http://orcid.org/0000-0003-2699-3066
 property_value: http://purl.org/dc/elements/1.1/date 2021-02-05T00:09:47Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: IAO:0000117 http://orcid.org/0000-0003-2699-3066
 
 [Term]
 id: FOVT:0001006
 name: tibia proximal breadth
-def: "The width of a tibia at the proximal end along the medial-lateral axis." []
+def: "The width of a tibia at the proximal end along the medial-lateral axis." [] {http://purl.obolibrary.org/obo/IAO_0000119="Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988.", http://purl.obolibrary.org/obo/IAO_0000119="von den Driesch, Angela. A guide to the measurement of animal bones from archaeological sites: as developed by the Institut für Palaeoanatomie, Domestikationsforschung und Geschichte der Tiermedizin of the University of Munich . Vol. 1. Peabody Museum Press, 1976."}
 synonym: "tibia proximal width ML" EXACT []
 is_a: FOVT:0000027 ! tibia proximal width
-property_value: http://purl.org/dc/elements/1.1/creator http://orcid.org/0000-0003-2699-3066
 property_value: http://purl.org/dc/elements/1.1/date 2021-02-05T00:10:13Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: IAO:0000117 http://orcid.org/0000-0003-2699-3066
 
 [Term]
 id: FOVT:0001007
 name: tibia proximal depth
-def: "The width of a tibia at the proximal end along the anterior-posterior axis." []
+def: "The width of a tibia at the proximal end along the anterior-posterior axis (in animals) or proximal-distal axis (in humans)." [] {http://purl.obolibrary.org/obo/IAO_0000119="Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988.", http://purl.obolibrary.org/obo/IAO_0000119="Cantryll-Stewart, R. 2018. A Discernment of Prey Selection by the Ancient Maya."}
 synonym: "tibia proximal width AP" EXACT []
 is_a: FOVT:0000027 ! tibia proximal width
-property_value: http://purl.org/dc/elements/1.1/creator http://orcid.org/0000-0003-2699-3066
 property_value: http://purl.org/dc/elements/1.1/date 2021-02-05T00:10:31Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: IAO:0000117 http://orcid.org/0000-0003-2699-3066
 
 [Term]
 id: FOVT:0001008
 name: tibia diaphysis breadth
-def: "The width of a shaft or diaphysis of a tibia along the medial-lateral axis." []
+def: "The width of a shaft or diaphysis of a tibia along the medial-lateral axis." [] {http://purl.obolibrary.org/obo/IAO_0000119="Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988.", http://purl.obolibrary.org/obo/IAO_0000119="von den Driesch, Angela. A guide to the measurement of animal bones from archaeological sites: as developed by the Institut für Palaeoanatomie, Domestikationsforschung und Geschichte der Tiermedizin of the University of Munich . Vol. 1. Peabody Museum Press, 1976."}
 synonym: "tibia diaphysis width ML" EXACT []
 is_a: FOVT:0000026 ! tibia diaphysis width
-property_value: http://purl.org/dc/elements/1.1/creator http://orcid.org/0000-0003-2699-3066
 property_value: http://purl.org/dc/elements/1.1/date 2021-02-05T00:16:17Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: IAO:0000117 http://orcid.org/0000-0003-2699-3066
 
 [Term]
 id: FOVT:0001009
 name: tibia diaphysis depth
-def: "The width of a shaft or diaphysis of a tibia along the anterior-posterior axis." []
+def: "The width of a shaft or diaphysis of a tibia along the anterior-posterior axis (in animals) or proximal-distal axis (in humans)." [] {http://purl.obolibrary.org/obo/IAO_0000119="Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988."}
 synonym: "tibia diaphysis width AP" EXACT []
 is_a: FOVT:0000026 ! tibia diaphysis width
-property_value: http://purl.org/dc/elements/1.1/creator http://orcid.org/0000-0003-2699-3066
 property_value: http://purl.org/dc/elements/1.1/date 2021-02-05T00:16:59Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: IAO:0000117 http://orcid.org/0000-0003-2699-3066
 
 [Term]
 id: FOVT:0001021
 name: tibia medial length
-def: "The length of a tibia on the medial side along the proximal-distal axis." []
+def: "The length of a tibia on the medial side along the proximal-distal axis (in animals) or anterior-posterior axis (in humans)." [] {http://purl.obolibrary.org/obo/IAO_0000119="Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988."}
 is_a: OBA:VT0004357
-property_value: http://purl.org/dc/elements/1.1/creator http://orcid.org/0000-0003-2699-3066
 property_value: http://purl.org/dc/elements/1.1/date 2021-02-10T21:45:47Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: IAO:0000117 http://orcid.org/0000-0003-2699-3066
 
 [Term]
 id: FOVT:0001022
-name: tibia greatest length
-def: "The greatest length of a tibia from the proximal-most point of a tibia to the distal-most point of a tibia." []
-is_a: OBA:VT0004357
-property_value: http://purl.org/dc/elements/1.1/creator http://orcid.org/0000-0003-2699-3066
+name: obsolete tibia greatest length
+def: "OBSOLETE The greatest length of a tibia from the proximal-most point of a tibia to the distal-most point of a tibia." [] {http://purl.obolibrary.org/obo/IAO_0000119="Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988.", http://purl.obolibrary.org/obo/IAO_0000119="von den Driesch, Angela. A guide to the measurement of animal bones from archaeological sites: as developed by the Institut für Palaeoanatomie, Domestikationsforschung und Geschichte der Tiermedizin of the University of Munich . Vol. 1. Peabody Museum Press, 1976."}
+comment: duplicate of a term in OBA
 property_value: http://purl.org/dc/elements/1.1/date 2021-02-10T21:53:59Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: IAO:0000117 http://orcid.org/0000-0003-2699-3066
+is_obsolete: true
+replaced_by: OBA:VT0004357
 
 [Term]
 id: FOVT:0001023
 name: tibia diaphysis circumference
-def: "The circumference of the diaphysis of a tibia." []
+def: "The circumference of the diaphysis of a tibia." [] {http://purl.obolibrary.org/obo/IAO_0000119="von den Driesch, Angela. A guide to the measurement of animal bones from archaeological sites: as developed by the Institut für Palaeoanatomie, Domestikationsforschung und Geschichte der Tiermedizin of the University of Munich . Vol. 1. Peabody Museum Press, 1976."}
 is_a: OBA:VT0100001
-property_value: http://purl.org/dc/elements/1.1/creator http://orcid.org/0000-0003-2699-3066
 property_value: http://purl.org/dc/elements/1.1/date 2021-02-10T21:58:04Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: IAO:0000117 http://orcid.org/0000-0003-2699-3066
 
 [Term]
 id: FOVT:0001024
 name: femur proximal breadth
-def: "The width of the proximal end of a femur along the medial-lateral axis." []
+def: "The width of the proximal end of a femur along the medial-lateral axis." [] {http://purl.obolibrary.org/obo/IAO_0000119="Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988.", http://purl.obolibrary.org/obo/IAO_0000119="von den Driesch, Angela. A guide to the measurement of animal bones from archaeological sites: as developed by the Institut für Palaeoanatomie, Domestikationsforschung und Geschichte der Tiermedizin of the University of Munich . Vol. 1. Peabody Museum Press, 1976."}
 synonym: "femur proximal width ML" EXACT []
 is_a: OBA:VT1000666
-property_value: http://purl.org/dc/elements/1.1/creator http://orcid.org/0000-0003-2699-3066
 property_value: http://purl.org/dc/elements/1.1/date 2021-02-10T22:28:39Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: IAO:0000117 http://orcid.org/0000-0003-2699-3066
 
 [Term]
 id: FOVT:0001025
 name: femur trochanter breadth
-def: "The width of the trochanter of a femur along the medial-lateral axis." []
+def: "The width of the trochanter of a femur along the medial-lateral axis." [] {http://purl.obolibrary.org/obo/IAO_0000119="von den Driesch, Angela. A guide to the measurement of animal bones from archaeological sites: as developed by the Institut für Palaeoanatomie, Domestikationsforschung und Geschichte der Tiermedizin of the University of Munich . Vol. 1. Peabody Museum Press, 1976."}
 synonym: "femur trochanter width ML" EXACT []
 is_a: OBA:VT1000666
-property_value: http://purl.org/dc/elements/1.1/creator http://orcid.org/0000-0003-2699-3066
 property_value: http://purl.org/dc/elements/1.1/date 2021-02-10T22:32:15Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: IAO:0000117 http://orcid.org/0000-0003-2699-3066
 
 [Term]
 id: FOVT:0001026
 name: femur caput depth
-def: "The width of the caput of a femur along the anterior-posterior axis." []
+def: "The width of the caput of a femur along the anterior-posterior axis." [] {http://purl.obolibrary.org/obo/IAO_0000119="Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988.", http://purl.obolibrary.org/obo/IAO_0000119="von den Driesch, Angela. A guide to the measurement of animal bones from archaeological sites: as developed by the Institut für Palaeoanatomie, Domestikationsforschung und Geschichte der Tiermedizin of the University of Munich . Vol. 1. Peabody Museum Press, 1976."}
 synonym: "femur caput width AP" EXACT []
 is_a: OBA:VT1000666
-property_value: http://purl.org/dc/elements/1.1/creator http://orcid.org/0000-0003-2699-3066
 property_value: http://purl.org/dc/elements/1.1/date 2021-02-10T22:33:22Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: IAO:0000117 http://orcid.org/0000-0003-2699-3066
 
 [Term]
 id: FOVT:0001027
 name: femur diaphysis breadth
-def: "The width of the diaphysis of a femur along the medial-lateral axis." []
+def: "The width of the diaphysis of a femur along the medial-lateral axis." [] {http://purl.obolibrary.org/obo/IAO_0000119="Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988.", http://purl.obolibrary.org/obo/IAO_0000119="von den Driesch, Angela. A guide to the measurement of animal bones from archaeological sites: as developed by the Institut für Palaeoanatomie, Domestikationsforschung und Geschichte der Tiermedizin of the University of Munich . Vol. 1. Peabody Museum Press, 1976."}
 synonym: "femur diaphysis width ML" EXACT []
 is_a: OBA:VT1000666
-property_value: http://purl.org/dc/elements/1.1/creator http://orcid.org/0000-0003-2699-3066
 property_value: http://purl.org/dc/elements/1.1/date 2021-02-10T22:35:17Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: IAO:0000117 http://orcid.org/0000-0003-2699-3066
 
 [Term]
 id: FOVT:0001028
-name: femus diaphysis circumference
-def: "The circumference of the diaphysis of a femur." []
+name: femur diaphysis circumference
+def: "The circumference of the diaphysis of a femur." [] {http://purl.obolibrary.org/obo/IAO_0000119="von den Driesch, Angela. A guide to the measurement of animal bones from archaeological sites: as developed by the Institut für Palaeoanatomie, Domestikationsforschung und Geschichte der Tiermedizin of the University of Munich . Vol. 1. Peabody Museum Press, 1976."}
 is_a: OBA:VT1000369
-property_value: http://purl.org/dc/elements/1.1/creator http://orcid.org/0000-0003-2699-3066
 property_value: http://purl.org/dc/elements/1.1/date 2021-02-10T22:36:50Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: IAO:0000117 http://orcid.org/0000-0003-2699-3066
 
 [Term]
 id: FOVT:0001029
 name: femur distal breadth
-def: "The width of the distal end of a femur along the medial-lateral axis." []
+def: "The width of the distal end of a femur along the medial-lateral axis." [] {http://purl.obolibrary.org/obo/IAO_0000119="Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988.", http://purl.obolibrary.org/obo/IAO_0000119="von den Driesch, Angela. A guide to the measurement of animal bones from archaeological sites: as developed by the Institut für Palaeoanatomie, Domestikationsforschung und Geschichte der Tiermedizin of the University of Munich . Vol. 1. Peabody Museum Press, 1976."}
 synonym: "femur distal width ML" EXACT []
 is_a: OBA:VT1000666
-property_value: http://purl.org/dc/elements/1.1/creator http://orcid.org/0000-0003-2699-3066
 property_value: http://purl.org/dc/elements/1.1/date 2021-02-10T22:37:49Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: IAO:0000117 http://orcid.org/0000-0003-2699-3066
 
 [Term]
 id: FOVT:0001030
 name: femur proximal depth
-def: "The width of the proximal end of a femur along the anterior-posterior axis." []
+def: "The width of the proximal end of a femur along the anterior-posterior axis." [] {http://purl.obolibrary.org/obo/IAO_0000119="Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988."}
 synonym: "femur proximal width AP" EXACT []
 is_a: OBA:VT1000666
-property_value: http://purl.org/dc/elements/1.1/creator http://orcid.org/0000-0003-2699-3066
 property_value: http://purl.org/dc/elements/1.1/date 2021-02-10T22:44:52Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: IAO:0000117 http://orcid.org/0000-0003-2699-3066
 
 [Term]
 id: FOVT:0001031
 name: femur distal depth
 def: "The width of the distal end of a femur along the anterior-posterior axis." []
-synonym: "femur distal width AP" EXACT []
+synonym: "femur distal width AP" EXACT [] {http://purl.obolibrary.org/obo/IAO_0000119="Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988."}
 is_a: OBA:VT1000666
-property_value: http://purl.org/dc/elements/1.1/creator http://orcid.org/0000-0003-2699-3066
 property_value: http://purl.org/dc/elements/1.1/date 2021-02-10T22:46:33Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: IAO:0000117 http://orcid.org/0000-0003-2699-3066
 
 [Term]
 id: FOVT:0001032
 name: femur trochlea breadth
-def: "The width of the trochlea of a femur along the medial-lateral axis." []
+def: "The width of the trochlea of a femur along the medial-lateral axis." [] {http://purl.obolibrary.org/obo/IAO_0000119="Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988."}
 synonym: "femur trochlea width ML" EXACT []
 is_a: OBA:VT1000666
-property_value: http://purl.org/dc/elements/1.1/creator http://orcid.org/0000-0003-2699-3066
 property_value: http://purl.org/dc/elements/1.1/date 2021-02-10T22:47:31Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: IAO:0000117 http://orcid.org/0000-0003-2699-3066
 
 [Term]
 id: FOVT:0001033
@@ -431,71 +484,79 @@ name: femur diaphysis depth
 def: "The width of the diaphysis of a femur along the anterior-posterior axis." []
 synonym: "femur diaphysis width AP" EXACT []
 is_a: OBA:VT1000666
-property_value: http://purl.org/dc/elements/1.1/creator http://orcid.org/0000-0003-2699-3066
 property_value: http://purl.org/dc/elements/1.1/date 2021-02-10T22:52:48Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: IAO:0000117 http://orcid.org/0000-0003-2699-3066
 
 [Term]
 id: FOVT:0001034
 name: humerus diaphysis breadth
-def: "The width of the diaphysis of a humerus along the medial-lateral axis." []
+def: "The width of the diaphysis of a humerus along the medial-lateral axis." [] {http://purl.obolibrary.org/obo/IAO_0000119="Scott, Kathleen Marie. Allometric trends and locomotor adaptations in the Bovidae. Bulletin of the AMNH. Vol. 179, Article 2, 1985.", http://purl.obolibrary.org/obo/IAO_0000119="Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988.", http://purl.obolibrary.org/obo/IAO_0000119="von den Driesch, Angela. A guide to the measurement of animal bones from archaeological sites: as developed by the Institut für Palaeoanatomie, Domestikationsforschung und Geschichte der Tiermedizin of the University of Munich . Vol. 1. Peabody Museum Press, 1976."}
 synonym: "humerus diaphysis width ML" EXACT []
 is_a: OBA:VT1000280
-property_value: http://purl.org/dc/elements/1.1/creator http://orcid.org/0000-0003-2699-3066
 property_value: http://purl.org/dc/elements/1.1/date 2021-02-10T22:56:30Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: IAO:0000117 http://orcid.org/0000-0003-2699-3066
 
 [Term]
 id: FOVT:0001035
 name: humerus proximal breadth
-def: "The width of the proximal end of a humerus along the medial-lateral axis." []
+def: "The width of the proximal end of a humerus along the medial-lateral axis." [] {http://purl.obolibrary.org/obo/IAO_0000119="Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988.", http://purl.obolibrary.org/obo/IAO_0000119="von den Driesch, Angela. A guide to the measurement of animal bones from archaeological sites: as developed by the Institut für Palaeoanatomie, Domestikationsforschung und Geschichte der Tiermedizin of the University of Munich . Vol. 1. Peabody Museum Press, 1976."}
 synonym: "humerus proximal width ML" EXACT []
 is_a: OBA:VT1000280
-property_value: http://purl.org/dc/elements/1.1/creator http://orcid.org/0000-0003-2699-3066
 property_value: http://purl.org/dc/elements/1.1/date 2021-02-10T22:57:22Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: IAO:0000117 http://orcid.org/0000-0003-2699-3066
 
 [Term]
 id: FOVT:0001036
 name: humerus trochlea breadth
-def: "The width of the trochlea of a humerus along the medial-lateral axis." []
+def: "The width of the trochlea of a humerus along the medial-lateral axis." [] {http://purl.obolibrary.org/obo/IAO_0000119="Scott, Kathleen Marie. Allometric trends and locomotor adaptations in the Bovidae. Bulletin of the AMNH. Vol. 179, Article 2, 1985.", http://purl.obolibrary.org/obo/IAO_0000119="Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988.", http://purl.obolibrary.org/obo/IAO_0000119="von den Driesch, Angela. A guide to the measurement of animal bones from archaeological sites: as developed by the Institut für Palaeoanatomie, Domestikationsforschung und Geschichte der Tiermedizin of the University of Munich . Vol. 1. Peabody Museum Press, 1976."}
 synonym: "humerus trochlea width ML" EXACT []
 is_a: OBA:VT1000280
-property_value: http://purl.org/dc/elements/1.1/creator http://orcid.org/0000-0003-2699-3066
 property_value: http://purl.org/dc/elements/1.1/date 2021-02-10T23:01:47Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: IAO:0000117 http://orcid.org/0000-0003-2699-3066
 
 [Term]
 id: FOVT:0001037
 name: humerus distal depth
-def: "The width of the distal end of a humerus along the anterior-posterior axis." []
+def: "The width of the distal end of a humerus along the anterior-posterior axis." [] {http://purl.obolibrary.org/obo/IAO_0000119="Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988."}
 synonym: "humerus distal width AP" EXACT []
 is_a: OBA:VT1000280
-property_value: http://purl.org/dc/elements/1.1/creator http://orcid.org/0000-0003-2699-3066
 property_value: http://purl.org/dc/elements/1.1/date 2021-02-10T23:02:42Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: IAO:0000117 http://orcid.org/0000-0003-2699-3066
 
 [Term]
 id: FOVT:0001038
 name: humerus proximal depth
-def: "The width of the proximal end of a humerus along the anterior-posterior axis." []
+def: "The width of the proximal end of a humerus along the anterior-posterior axis." [] {http://purl.obolibrary.org/obo/IAO_0000119="von den Driesch, Angela. A guide to the measurement of animal bones from archaeological sites: as developed by the Institut für Palaeoanatomie, Domestikationsforschung und Geschichte der Tiermedizin of the University of Munich . Vol. 1. Peabody Museum Press, 1976."}
 synonym: "humerus proximal width AP" EXACT []
 is_a: OBA:VT1000280
-property_value: http://purl.org/dc/elements/1.1/creator http://orcid.org/0000-0003-2699-3066
 property_value: http://purl.org/dc/elements/1.1/date 2021-02-10T23:04:06Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: IAO:0000117 http://orcid.org/0000-0003-2699-3066
 
 [Term]
 id: FOVT:0001039
 name: humerus distal breadth
-def: "The width of the distal end of a humerus along the medial-lateral axis." []
+def: "The width of the distal end of a humerus along the medial-lateral axis." [] {http://purl.obolibrary.org/obo/IAO_0000119="von den Driesch, Angela. A guide to the measurement of animal bones from archaeological sites: as developed by the Institut für Palaeoanatomie, Domestikationsforschung und Geschichte der Tiermedizin of the University of Munich . Vol. 1. Peabody Museum Press, 1976."}
 synonym: "humerus distal width ML" EXACT []
 is_a: OBA:VT1000280
-property_value: http://purl.org/dc/elements/1.1/creator http://orcid.org/0000-0003-2699-3066
 property_value: http://purl.org/dc/elements/1.1/date 2021-02-10T23:05:13Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: IAO:0000117 http://orcid.org/0000-0003-2699-3066
 
 [Term]
 id: FOVT:0001040
 name: humerus diaphysis depth
-def: "The width of the diaphysis of a humerus along the anterior-posterior axis." []
+def: "The width of the diaphysis of a humerus along the anterior-posterior axis." [] {http://purl.obolibrary.org/obo/IAO_0000119="Scott, Kathleen Marie. Allometric trends and locomotor adaptations in the Bovidae. Bulletin of the AMNH. Vol. 179, Article 2, 1985."}
 synonym: "humerus diaphysis width AP" EXACT []
 is_a: OBA:VT1000280
-property_value: http://purl.org/dc/elements/1.1/creator http://orcid.org/0000-0003-2699-3066
 property_value: http://purl.org/dc/elements/1.1/date 2021-02-10T23:06:16Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: IAO:0000117 http://orcid.org/0000-0003-2699-3066
 
 [Term]
 id: FOVT:0001041
@@ -506,80 +567,381 @@ is_a: OBA:VT0005110
 is_a: PATO:0000921
 intersection_of: PATO:0000921
 intersection_of: RO:0000052 UBERON:0002395
-property_value: http://purl.org/dc/elements/1.1/creator http://orcid.org/0000-0003-2699-3066
 property_value: http://purl.org/dc/elements/1.1/date 2021-02-10T23:12:24Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: IAO:0000117 http://orcid.org/0000-0003-2699-3066
 
 [Term]
 id: FOVT:0001042
 name: talus lateral depth
-def: "The width of the lateral side of a talus along the anterior-posterior axis." []
+def: "The width of the lateral side of a talus along the anterior-posterior axis ( non-plantigrade) or proximal-distal axis (plantigrade)." [] {http://purl.obolibrary.org/obo/IAO_0000119="von den Driesch, Angela. A guide to the measurement of animal bones from archaeological sites: as developed by the Institut für Palaeoanatomie, Domestikationsforschung und Geschichte der Tiermedizin of the University of Munich . Vol. 1. Peabody Museum Press, 1976."}
 synonym: "astragalus lateral depth" EXACT []
-synonym: "astragalus lateral width AP" EXACT []
-synonym: "talus lateral width AP" EXACT []
+synonym: "astragalus lateral width AP (non-plantigrade)" EXACT []
+synonym: "talus lateral width AP (non-plantigrade)" EXACT []
+synonym: "talus lateral width PD (plantigrade)" EXACT []
 is_a: FOVT:0001041 ! talus width
-property_value: http://purl.org/dc/elements/1.1/creator http://orcid.org/0000-0003-2699-3066
 property_value: http://purl.org/dc/elements/1.1/date 2021-02-10T23:16:34Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: IAO:0000117 http://orcid.org/0000-0003-2699-3066
 
 [Term]
 id: FOVT:0001043
 name: talus medial depth
-def: "The width of the medial side of a talus along the anterior-posterior axis." []
+def: "The width of the medial side of a talus along the anterior-posterior axis (non-plantigrade) or proximal-distal axis (plantigrade)." [] {http://purl.obolibrary.org/obo/IAO_0000119="Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988.", http://purl.obolibrary.org/obo/IAO_0000119="von den Driesch, Angela. A guide to the measurement of animal bones from archaeological sites: as developed by the Institut für Palaeoanatomie, Domestikationsforschung und Geschichte der Tiermedizin of the University of Munich . Vol. 1. Peabody Museum Press, 1976."}
 synonym: "astragalus medial depth" EXACT []
-synonym: "astragalus medial width AP" EXACT []
-synonym: "talus medial width AP" EXACT []
+synonym: "astragalus medial width AP (non-plantigrade)" EXACT []
+synonym: "talus medial width AP (non-plantigrade)" EXACT []
+synonym: "talus medial width PD (plantigrade)" EXACT []
 is_a: FOVT:0001041 ! talus width
-property_value: http://purl.org/dc/elements/1.1/creator http://orcid.org/0000-0003-2699-3066
 property_value: http://purl.org/dc/elements/1.1/date 2021-02-10T23:17:22Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: IAO:0000117 http://orcid.org/0000-0003-2699-3066
 
 [Term]
 id: FOVT:0001044
-name: talus distal breadth
-def: "The width of the distal end of a talus along the medial-lateral axis." []
-synonym: "astragalus distal width ML" EXACT []
-synonym: "astralagalus distal breadth" EXACT []
-synonym: "talus distal width ML" EXACT []
+name: talus distal breadth (non-plantigrade)
+def: "The width of the distal end (non-plantigrade) or anterior end (plantigrade) of a talus along the medial-lateral axis." [] {http://purl.obolibrary.org/obo/IAO_0000119="von den Driesch, Angela. A guide to the measurement of animal bones from archaeological sites: as developed by the Institut für Palaeoanatomie, Domestikationsforschung und Geschichte der Tiermedizin of the University of Munich . Vol. 1. Peabody Museum Press, 1976."}
+synonym: "astragalus distal width ML (non-plantigrade)" EXACT []
+synonym: "astralagalus distal breadth (non-plantigrade)" EXACT []
+synonym: "talus anterior breadth (plantigrade)" EXACT []
+synonym: "talus anterior width ML (plantigrade)" EXACT []
+synonym: "talus distal width ML (non-plantigrade)" EXACT []
 is_a: FOVT:0001041 ! talus width
-property_value: http://purl.org/dc/elements/1.1/creator http://orcid.org/0000-0003-2699-3066
 property_value: http://purl.org/dc/elements/1.1/date 2021-02-10T23:20:39Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: IAO:0000117 http://orcid.org/0000-0003-2699-3066
 
 [Term]
 id: FOVT:0001045
 name: trochlea tali length
-def: "The length of the trochlea tali of a talus along the proximal-distal axis." []
+def: "The length of the trochlea tali of a talus along the proximal-distal axis (in animals) or anterior-posterior axis (in humans)." [] {http://purl.obolibrary.org/obo/IAO_0000119="Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988.", http://purl.obolibrary.org/obo/IAO_0000119="von den Driesch, Angela. A guide to the measurement of animal bones from archaeological sites: as developed by the Institut für Palaeoanatomie, Domestikationsforschung und Geschichte der Tiermedizin of the University of Munich . Vol. 1. Peabody Museum Press, 1976."}
 is_a: OBA:VT0005110
 is_a: PATO:0000122
-property_value: http://purl.org/dc/elements/1.1/creator http://orcid.org/0000-0003-2699-3066
 property_value: http://purl.org/dc/elements/1.1/date 2021-02-10T23:25:15Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: IAO:0000117 http://orcid.org/0000-0003-2699-3066
 
 [Term]
 id: FOVT:0001046
 name: talus trochlea breadth
 def: "The width of the trochlea of a talus along the medial-lateral axis." []
-synonym: "astragalus trochlea breadth" EXACT []
+synonym: "astragalus trochlea breadth" EXACT [] {http://purl.obolibrary.org/obo/IAO_0000119="Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988."}
 synonym: "astragalus trochlea width ML" EXACT []
 synonym: "talus trochlea width ML" EXACT []
 is_a: FOVT:0001041 ! talus width
-property_value: http://purl.org/dc/elements/1.1/creator http://orcid.org/0000-0003-2699-3066
 property_value: http://purl.org/dc/elements/1.1/date 2021-02-10T23:28:01Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: IAO:0000117 http://orcid.org/0000-0003-2699-3066
 
 [Term]
 id: FOVT:0001047
-name: calcaneus proximal length
-def: "The length of the proximal end of a calcaneus along the proximal-distal axis." []
-is_a: OBA:0003330
-is_a: PATO:0000122
-property_value: http://purl.org/dc/elements/1.1/creator http://orcid.org/0000-0003-2699-3066
+name: calcaneus proximal length (non-plantigrade)
+def: "The length of the proximal end of a calcaneus along the proximal-distal axis (non-plantigrade) or posterior end of a calcaneus along the anterior-posterior axis (plantigrade)." [] {http://purl.obolibrary.org/obo/IAO_0000119="Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988."}
+synonym: "calcaneus posterior length (plantigrade)" EXACT []
+is_a: FOVT:0000022 ! calcaneus length
 property_value: http://purl.org/dc/elements/1.1/date 2021-02-10T23:31:00Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: IAO:0000117 http://orcid.org/0000-0003-2699-3066
 
 [Term]
 id: FOVT:0001048
-name: calcaneus distal depth
-def: "The width of the distal end of a calcaneus along the anterior-posterior axis." []
-synonym: "calcaneus distal width AP" EXACT []
+name: calcaneus distal depth (non-plantigrade)
+def: "The width of the distal end  of a calcaneus along the anterior-posterior axis (non-plantigrade) or anterior end along the proximal-distal axis (plantigrade)" [] {http://purl.obolibrary.org/obo/IAO_0000119="Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988."}
+synonym: "calcaneus anterior depth (plantigrade)" EXACT []
+synonym: "calcaneus anterior width PD (plantigrade)" EXACT []
+synonym: "calcaneus distal width AP (non-plantigrade)" EXACT []
+is_a: FOVT:0001079 ! calcaneus width
+property_value: http://purl.org/dc/elements/1.1/date 2021-02-10T23:32:25Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: IAO:0000117 http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001053
+name: gutted body mass
+def: "The mass of a multicellur organism after removing internal organs." []
+is_a: OBA:VT0001259
+property_value: http://purl.org/dc/elements/1.1/date 2021-05-10T22:50:17Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: IAO:0000117 http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001054
+name: skinned body mass
+def: "The mass of a multicellular organism after being skinned." []
+is_a: OBA:VT0001259
+property_value: http://purl.org/dc/elements/1.1/date 2021-05-10T22:52:04Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: IAO:0000117 http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001055
+name: skeletal body mass
+def: "The mass of a multicellur organism skeletal elements (i.e., bones) without skin, internal organs, or other soft tissue." []
+synonym: "'bone mass'" RELATED []
+is_a: OBA:VT0001259
+is_a: OBA:VT1000111
+property_value: http://purl.org/dc/elements/1.1/date 2021-05-10T22:52:36Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: IAO:0000117 http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001056
+name: gutted and skinned body mass
+def: "The mass of a mutlicellular organism after being both gutted (i.e., internal organs removed) and skinned." []
+is_a: OBA:VT0001259
+property_value: http://purl.org/dc/elements/1.1/date 2021-05-10T22:53:18Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: IAO:0000117 http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001057
+name: testis length
+comment: The length of a testis.
+is_a: FOVT:0001060 ! gonad length
+property_value: http://purl.org/dc/elements/1.1/date 2021-05-10T23:15:37Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: IAO:0000117 http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001058
+name: right testis length
+comment: The length of the right testis.
+is_a: FOVT:0001057 ! testis length
+property_value: http://purl.org/dc/elements/1.1/date 2021-05-10T23:16:25Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: IAO:0000117 http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001059
+name: left testis length
+comment: The length of the left testis.
+is_a: FOVT:0001057 ! testis length
+property_value: http://purl.org/dc/elements/1.1/date 2021-05-10T23:18:15Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: IAO:0000117 http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001060
+name: gonad length
+comment: The length of a gonad.
+is_a: OBA:0002017
+intersection_of: PATO:0000122
+intersection_of: RO:0000052 UBERON:0000991
+property_value: http://purl.org/dc/elements/1.1/date 2021-05-10T23:18:51Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: IAO:0000117 http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001061
+name: humerus lateral length
+def: "Length of the lateral side of a humerus from lateral tuberosity to lateral border of the trochlea." [] {http://purl.obolibrary.org/obo/IAO_0000119="von den Driesch, Angela. A guide to the measurement of animal bones from archaeological sites: as developed by the Institut für Palaeoanatomie, Domestikationsforschung und Geschichte der Tiermedizin of the University of Munich . Vol. 1. Peabody Museum Press, 1976."}
+is_a: UBERON:0000976
+property_value: http://purl.org/dc/elements/1.1/date 2021-05-10T23:37:19Z xsd:dateTime
+property_value: IAO:0000117 http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001062
+name: ovary length
+def: "The length of an ovary." []
+is_a: FOVT:0001060 ! gonad length
+property_value: http://purl.org/dc/elements/1.1/date 2021-05-17T20:08:12Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: IAO:0000117 http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001063
+name: right ovary length
+def: "The length of an ovary on the right side." []
+is_a: FOVT:0001062 ! ovary length
+property_value: http://purl.org/dc/elements/1.1/date 2021-05-17T20:10:16Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001064
+name: left ovary length
+def: "The length of an ovary on the left side." []
+is_a: FOVT:0001062 ! ovary length
+property_value: http://purl.org/dc/elements/1.1/date 2021-05-17T20:10:46Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001065
+name: anterior tibial tuberosity length
+def: "The length along the anterior-posterior axis of the anterior tibial tuberosity (fossa digitalis)." []
+is_a: UBERON:0000979
+property_value: http://purl.org/dc/elements/1.1/date 2021-05-17T20:18:01Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001066
+name: humerus proximal depth at median tubercle
+def: "The length along the medial-lateral axis of the caput of the humerus." [] {http://purl.obolibrary.org/obo/IAO_0000119="Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988."}
+is_a: OBA:VT1000280
+property_value: http://purl.org/dc/elements/1.1/date 2021-05-18T19:52:02Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001067
+name: humerus trochlear sulcus height
+def: "Length along the proximal-distal axis of the trochlear sulcus of a humerus." [] {http://purl.obolibrary.org/obo/IAO_0000119="Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988."}
+synonym: "minimal humerus trochlear height" EXACT []
+is_a: OBA:VT0004350
+property_value: http://purl.org/dc/elements/1.1/date 2021-05-18T19:55:10Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001068
+name: humerus medial trochlear height
+def: "Length along the proximal-distal axis of the distal medial trochlea of a humerus." [] {http://purl.obolibrary.org/obo/IAO_0000119="Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988."}
+synonym: "maximal humerus trochlear height" EXACT []
+is_a: OBA:VT0004350
+property_value: http://purl.org/dc/elements/1.1/date 2021-05-18T19:56:56Z xsd:dateTime
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001069
+name: humerus trochlear height at sagittal crest
+def: "Length along the proximal-distal axis of the sagittal crest of a trochlea of a humerus." [] {http://purl.obolibrary.org/obo/IAO_0000119="Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988."}
+is_a: OBA:VT0004350
+property_value: http://purl.org/dc/elements/1.1/date 2021-05-18T20:00:02Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001070
+name: femur length from caput to lateral condyle
+def: "The length along the anterior-posterior axis of a femur connecting the caput of a femur to the lateral condyle of a femur." [] {http://purl.obolibrary.org/obo/IAO_0000119="Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988."}
+is_a: OBA:VT0004348
+property_value: http://purl.org/dc/elements/1.1/date 2021-05-19T01:36:28Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001071
+name: olecranon length
+def: "The length along the proximal-distal axis of an olecranon of an ulna." [] {http://purl.obolibrary.org/obo/IAO_0000119="Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988.", http://purl.obolibrary.org/obo/IAO_0000119="von den Driesch, Angela. A guide to the measurement of animal bones from archaeological sites: as developed by the Institut für Palaeoanatomie, Domestikationsforschung und Geschichte der Tiermedizin of the University of Munich . Vol. 1. Peabody Museum Press, 1976."}
+is_a: OBA:VT0004370
+property_value: http://purl.org/dc/elements/1.1/date 2021-05-19T23:33:50Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001072
+name: ulna proximal articular breadth {http://purl.obolibrary.org/obo/IAO_0000119="Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988.", http://purl.obolibrary.org/obo/IAO_0000119="von den Driesch, Angela. A guide to the measurement of animal bones from archaeological sites: as developed by the Institut für Palaeoanatomie, Domestikationsforschung und Geschichte der Tiermedizin of the University of Munich . Vol. 1. Peabody Museum Press, 1976."}
+def: "The width of the facet for the humeral head of a radius along the medial-lateral axis." []
+synonym: "ulna coronoid process breadth" EXACT []
+synonym: "ulna coronoid process width ML" EXACT []
+synonym: "ulna proximal articula width ML" EXACT []
+is_a: FOVT:0001073 ! ulna width
+property_value: http://purl.org/dc/elements/1.1/date 2021-05-19T23:57:14Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001073
+name: ulna width
+is_a: OBA:0002379
+property_value: http://purl.org/dc/elements/1.1/date 2021-05-20T00:00:24Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001074
+name: olecranon depth
+def: "The width of an olecranon of a radius along the anterior-posterior axis." [] {http://purl.obolibrary.org/obo/IAO_0000119="Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988.", http://purl.obolibrary.org/obo/IAO_0000119="von den Driesch, Angela. A guide to the measurement of animal bones from archaeological sites: as developed by the Institut für Palaeoanatomie, Domestikationsforschung und Geschichte der Tiermedizin of the University of Munich . Vol. 1. Peabody Museum Press, 1976."}
+synonym: "olecranon width AP" EXACT []
+is_a: FOVT:0001073 ! ulna width
+property_value: http://purl.org/dc/elements/1.1/date 2021-05-20T00:02:15Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001075
+name: ulna lateral length
+def: "The length along the proximal-distal axis on the lateral side of an ulna." [] {http://purl.obolibrary.org/obo/IAO_0000119="Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988.", http://purl.obolibrary.org/obo/IAO_0000119="von den Driesch, Angela. A guide to the measurement of animal bones from archaeological sites: as developed by the Institut für Palaeoanatomie, Domestikationsforschung und Geschichte der Tiermedizin of the University of Munich . Vol. 1. Peabody Museum Press, 1976."}
+is_a: OBA:VT0004370
+property_value: http://purl.org/dc/elements/1.1/date 2021-05-20T00:04:26Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001076
+name: ulna depth across the process anaconaeus
+def: "The width along the anterior-posterior axis of the proximal-most part of the facet that articulates with the humeral head on an ulna." [] {http://purl.obolibrary.org/obo/IAO_0000119="Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988.", http://purl.obolibrary.org/obo/IAO_0000119="von den Driesch, Angela. A guide to the measurement of animal bones from archaeological sites: as developed by the Institut für Palaeoanatomie, Domestikationsforschung und Geschichte der Tiermedizin of the University of Munich . Vol. 1. Peabody Museum Press, 1976."}
+synonym: "ulna width AP across the process anaconaeus" EXACT []
+is_a: FOVT:0001073 ! ulna width
+property_value: http://purl.org/dc/elements/1.1/date 2021-05-20T00:05:42Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001077
+name: length of talus along the midline
+def: "The length along the midline of a talus along the proximal-distal axis (non-plantigrade) or anterior-posterior axis (plantigrade) from the groove for a flexor hallucis longus tendon of a talus to a head of a talus." [] {http://purl.obolibrary.org/obo/IAO_0000119="Wolverton, S., Kennedy, J. H., & Cornelius, J. D. 2007. A paleozoological perspective on white-tailed deer (Odocoileus virginianus texana) population density and body size in central Texas. Environmental Management, 39(4), 545-552."}
+synonym: "length of astragalus along the midline" EXACT []
+is_a: FOVT:0000020 ! talus length
+property_value: http://purl.org/dc/elements/1.1/date 2021-05-24T20:26:44Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001078
+name: breadth of calcaneal body
+def: "The width of a calcaneal body along the medial-lateral axis." [] {http://purl.obolibrary.org/obo/IAO_0000119="Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988.", http://purl.obolibrary.org/obo/IAO_0000119="Cantryll-Stewart, R. 2018. A Discernment of Prey Selection by the Ancient Maya."}
+synonym: "width ML of calcaneal body" EXACT []
+is_a: FOVT:0001079 ! calcaneus width
+property_value: http://purl.org/dc/elements/1.1/date 2021-05-24T21:22:09Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001079
+name: calcaneus width
+def: "The width of a calcaneus." []
 is_a: OBA:0003330
 is_a: PATO:0000921
-property_value: http://purl.org/dc/elements/1.1/creator http://orcid.org/0000-0003-2699-3066
-property_value: http://purl.org/dc/elements/1.1/date 2021-02-10T23:32:25Z xsd:dateTime
+property_value: http://purl.org/dc/elements/1.1/date 2021-05-24T21:26:12Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001080
+name: calcaneus proximal breadth (non-plantigrade)
+def: "The width along the medial-lateral axis of the distal (non-plantigrade) or posterior (plantigrade) end of a calcaneus." [] {http://purl.obolibrary.org/obo/IAO_0000119="Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988."}
+synonym: "calcaneus posterior breadth (plantigrade)" EXACT []
+synonym: "calcaneus posterior width ML (plantigrade)" EXACT []
+synonym: "calcaneus proximal width ML (non-plantigrade)" EXACT []
+is_a: FOVT:0001079 ! calcaneus width
+property_value: http://purl.org/dc/elements/1.1/date 2021-05-24T21:29:06Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001081
+name: calcaneus proximal depth (non-plantigrade)
+def: "The with of the proximal end of a calcaneus along the anterior-posterior axis (non-plantigrade) or of the posterior end of a calcaneus along the proximal-distal axis (plantigrade)." [] {http://purl.obolibrary.org/obo/IAO_0000119="Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988."}
+synonym: "calcaneus posterior depth (plantigrade)" EXACT []
+synonym: "calcaneus posterior with PD (plantigrade)" EXACT []
+synonym: "calcaneus proximal width AP (non-plantigrade)" EXACT []
+is_a: FOVT:0001079 ! calcaneus width
+property_value: http://purl.org/dc/elements/1.1/date 2021-05-24T21:32:39Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001082
+name: depth of calcaneal body
+def: "The width along the anterior-posterior axis (non-plantigrade) or proximal-distal axis (plantigrade) of a calcaneal body." [] {http://purl.obolibrary.org/obo/IAO_0000119="Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988.", http://purl.obolibrary.org/obo/IAO_0000119="Cantryll-Stewart, R. 2018. A Discernment of Prey Selection by the Ancient Maya."}
+synonym: "width AP of calcaneal body (non-plantigrade)" EXACT []
+synonym: "width PD of calcanedal body (plantigrade)" EXACT []
+is_a: FOVT:0001079 ! calcaneus width
+property_value: http://purl.org/dc/elements/1.1/date 2021-05-24T21:35:37Z xsd:dateTime
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
 
 [Term]
 id: OBA:1000049
