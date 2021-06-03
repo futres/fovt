@@ -1,0 +1,31 @@
+pattern_name: axis-pattern
+#pattern_iri: http://purl.obolibrary.org/obo/odk/example.yaml
+description: "This defines a line along an axis of a structure."
+
+classes:
+  Thing: owl:Thing
+
+relations:
+  follows_axis: BSPO:0015002
+
+vars:
+  axis: 'Thing'
+  structure: 'Thing'
+
+name:
+  text: "Line along %s of %s"
+  vars:
+   - axis
+   - structure
+
+def:
+  text: "A line along the %s of %s"
+  vars:
+    - axis
+    - structure
+    
+equivalentTo:
+  text: "%s ('follows axis' some %s)"
+  vars:
+    - structure
+    - axis
