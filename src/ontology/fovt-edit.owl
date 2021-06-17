@@ -703,7 +703,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.ob
 AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/FOVT_0001041> "2021-02-10T23:12:24Z"^^xsd:dateTime)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001041> "astragalus width"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001041> "talus width"@en)
-EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0001041> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000921> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0002395>)))
+EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0001041> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000921> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002395>)))
 SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001041> <http://purl.obolibrary.org/obo/OBA_VT0005110>)
 SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001041> <http://purl.obolibrary.org/obo/PATO_0000921>)
 
@@ -1319,10 +1319,6 @@ SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001146> <http://purl.obolibrary
 # Class: <http://purl.obolibrary.org/obo/OBA_1000049> (pes length)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_1000049> "hindfoot length")
-
-# Class: <http://purl.obolibrary.org/obo/PATO_0000921> (width)
-
-SubClassOf(<http://purl.obolibrary.org/obo/PATO_0000921> <http://purl.obolibrary.org/obo/OBA_VT0005110>)
 
 
 )
