@@ -71,7 +71,7 @@ all_main: $(MAIN_FILES)
 
 
 #IMPORTS =  ro bfo pato oba bspo iao bco uberon
-IMPORTS =  uberon oba bco bspo pato
+IMPORTS =  uberon oba bco bspo pato ro
 
 IMPORT_ROOTS = $(patsubst %, imports/%_import, $(IMPORTS))
 IMPORT_OWL_FILES = $(foreach n,$(IMPORT_ROOTS), $(n).owl)
@@ -244,12 +244,12 @@ MIR=true # Global parameter to bypass mirror generation
 
 ## ONTOLOGY: ro
 ## Copy of ro is re-downloaded whenever source changes
-#mirror/ro.trigger: $(SRC)
+mirror/ro.trigger: $(SRC)
 
-#mirror/ro.owl: mirror/ro.trigger
-#	@if [ $(MIR) = true ] && [ $(IMP) = true ]; then $(ROBOT) convert -I $(URIBASE)/ro.owl -o $@.tmp.owl && mv $@.tmp.owl $@; fi
+mirror/ro.owl: mirror/ro.trigger
+	@if [ $(MIR) = true ] && [ $(IMP) = true ]; then $(ROBOT) convert -I $(URIBASE)/ro.owl -o $@.tmp.owl && mv $@.tmp.owl $@; fi
 
-#.PRECIOUS: mirror/%.owl
+.PRECIOUS: mirror/%.owl
 
 
 ## ONTOLOGY: bfo
