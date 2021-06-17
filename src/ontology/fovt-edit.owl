@@ -135,6 +135,10 @@ Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_0001143>))
 Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_0001144>))
 Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_0001145>))
 Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_0001146>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_0001147>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_0001148>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_0001149>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_0001150>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_4200181>))
 Declaration(AnnotationProperty(dce:description))
 Declaration(AnnotationProperty(dce:term_editor))
@@ -380,7 +384,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/FOVT_0000026> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <http://purl.obolibrary.org/obo/FOVT_0000026> "tibia width")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0000026> "tibia diaphysis width"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0000026> <http://purl.obolibrary.org/obo/OBA_VT1000289>)
+EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0000026> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000921> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0013280>)))
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_0000027> (tibia proximal width)
 
@@ -389,7 +393,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/FOVT_0000027> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0000027> "breadth of proximal end of tibia")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0000027> "tibia proximal width"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0000027> <http://purl.obolibrary.org/obo/OBA_VT1000289>)
+EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0000027> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000921> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0008772>)))
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_0000028> (tibia distal width)
 
@@ -398,7 +402,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/FOVT_0000028> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0000028> "breadth of distal end of tibia")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0000028> "tibia distal width"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0000028> <http://purl.obolibrary.org/obo/OBA_VT1000289>)
+EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0000028> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000921> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0004405>)))
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_0000029> (obsolete tibia distal breadth)
 
@@ -704,8 +708,6 @@ AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/FOVT_0001041> "2021
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001041> "astragalus width"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001041> "talus width"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0001041> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000921> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002395>)))
-SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001041> <http://purl.obolibrary.org/obo/OBA_VT0005110>)
-SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001041> <http://purl.obolibrary.org/obo/PATO_0000921>)
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001042> (talus lateral depth)
 
@@ -983,7 +985,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.ob
 AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/FOVT_0001073> "2021-05-20T00:00:24Z"^^xsd:dateTime)
 AnnotationAssertion(dce:term_editor <http://purl.obolibrary.org/obo/FOVT_0001073> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001073> "ulna width"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001073> <http://purl.obolibrary.org/obo/OBA_0002379>)
+EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0001073> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000921> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001424>)))
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001074> (olecranon depth)
 
@@ -1041,8 +1043,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/FOVT_0001079> "2021-05-24T21:26:12Z"^^xsd:dateTime)
 AnnotationAssertion(dce:term_editor <http://purl.obolibrary.org/obo/FOVT_0001079> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001079> "calcaneus width"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001079> <http://purl.obolibrary.org/obo/OBA_0003330>)
-SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001079> <http://purl.obolibrary.org/obo/PATO_0000921>)
+EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0001079> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000921> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001450>)))
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001080> (calcaneus proximal breadth (non-plantigrade))
 
@@ -1123,8 +1124,7 @@ AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "Eis
 AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/FOVT_0001127> "2021-06-02T23:40:22Z"^^xsd:dateTime)
 AnnotationAssertion(dce:term_editor <http://purl.obolibrary.org/obo/FOVT_0001127> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001127> "radius proximal articular breadth"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001127> <http://purl.obolibrary.org/obo/PATO_0000921>)
-SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001127> <http://purl.obolibrary.org/obo/UBERON_4200204>)
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001127> <http://purl.obolibrary.org/obo/FOVT_0001150>)
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001128> (radius proximal articular depth)
 
@@ -1133,8 +1133,7 @@ AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "Eis
 AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/FOVT_0001128> "2021-06-02T23:42:36Z"^^xsd:dateTime)
 AnnotationAssertion(dce:term_editor <http://purl.obolibrary.org/obo/FOVT_0001128> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001128> "radius proximal articular depth"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001128> <http://purl.obolibrary.org/obo/PATO_0000921>)
-SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001128> <http://purl.obolibrary.org/obo/UBERON_4200204>)
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001128> <http://purl.obolibrary.org/obo/FOVT_0001150>)
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001129> (radius proximal breadth)
 
@@ -1143,8 +1142,7 @@ AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "Eis
 AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/FOVT_0001129> "2021-06-02T23:43:56Z"^^xsd:dateTime)
 AnnotationAssertion(dce:term_editor <http://purl.obolibrary.org/obo/FOVT_0001129> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001129> "radius proximal breadth"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001129> <http://purl.obolibrary.org/obo/PATO_0000921>)
-SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001129> <http://purl.obolibrary.org/obo/UBERON_0004413>)
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001129> <http://purl.obolibrary.org/obo/FOVT_0001149>)
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001130> (radius distal articular breadth)
 
@@ -1153,8 +1151,7 @@ AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000115> "Eis
 AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/FOVT_0001130> "2021-06-02T23:45:18Z"^^xsd:dateTime)
 AnnotationAssertion(dce:term_editor <http://purl.obolibrary.org/obo/FOVT_0001130> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001130> "radius distal articular breadth"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001130> <http://purl.obolibrary.org/obo/PATO_0000921>)
-SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001130> <http://purl.obolibrary.org/obo/UBERON_0004407>)
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001130> <http://purl.obolibrary.org/obo/FOVT_0001148>)
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001131> (radius distal articular depth)
 
@@ -1163,8 +1160,7 @@ AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "Eis
 AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/FOVT_0001131> "2021-06-02T23:48:26Z"^^xsd:dateTime)
 AnnotationAssertion(dce:term_editor <http://purl.obolibrary.org/obo/FOVT_0001131> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001131> "radius distal articular depth"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001131> <http://purl.obolibrary.org/obo/PATO_0000921>)
-SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001131> <http://purl.obolibrary.org/obo/UBERON_0004407>)
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001131> <http://purl.obolibrary.org/obo/FOVT_0001148>)
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001132> (radius distal breadth)
 
@@ -1173,8 +1169,7 @@ AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "Eis
 AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/FOVT_0001132> "2021-06-02T23:50:24Z"^^xsd:dateTime)
 AnnotationAssertion(dce:term_editor <http://purl.obolibrary.org/obo/FOVT_0001132> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001132> "radius distal breadth"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001132> <http://purl.obolibrary.org/obo/PATO_0000921>)
-SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001132> <http://purl.obolibrary.org/obo/UBERON_0004407>)
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001132> <http://purl.obolibrary.org/obo/FOVT_0001148>)
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001133> (radius length from the proximal articular surface to the distal articular surface)
 
@@ -1315,6 +1310,45 @@ AnnotationAssertion(dce:term_editor <http://purl.obolibrary.org/obo/FOVT_0001146
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001146> "length of metapodial bone of digit 3."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001146> "metapodial bone of digit 3 length"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001146> <http://purl.obolibrary.org/obo/FOVT_0001141>)
+
+# Class: <http://purl.obolibrary.org/obo/FOVT_0001147> (radius width)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0001147> <http://purl.obolibrary.org/obo/IAO_0000423>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001147> "The width of a radius."@en)
+AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/FOVT_0001147> "2021-06-17T00:51:35Z"^^xsd:dateTime)
+AnnotationAssertion(dce:term_editor <http://purl.obolibrary.org/obo/FOVT_0001147> <http://orcid.org/0000-0003-2699-3066>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001147> "Width of radius bone."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001147> "radius width"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0001147> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000921> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001423>)))
+
+# Class: <http://purl.obolibrary.org/obo/FOVT_0001148> (radius distal width)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0001148> <http://purl.obolibrary.org/obo/IAO_0000423>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001148> "The width of the distal end of a radius."@en)
+AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/FOVT_0001148> "2021-06-17T00:53:05Z"^^xsd:dateTime)
+AnnotationAssertion(dce:term_editor <http://purl.obolibrary.org/obo/FOVT_0001148> <http://orcid.org/0000-0003-2699-3066>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001148> "radius distal width"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0001148> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000921> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0004407>)))
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001148> <http://purl.obolibrary.org/obo/FOVT_0001147>)
+
+# Class: <http://purl.obolibrary.org/obo/FOVT_0001149> (radius proximal width)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0001149> <http://purl.obolibrary.org/obo/IAO_0000423>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001149> "The width of the proximal end of a radius."@en)
+AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/FOVT_0001149> "2021-06-17T00:54:08Z"^^xsd:dateTime)
+AnnotationAssertion(dce:term_editor <http://purl.obolibrary.org/obo/FOVT_0001149> <http://orcid.org/0000-0003-2699-3066>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001149> "radius proximal width"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0001149> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000921> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0004413>)))
+
+# Class: <http://purl.obolibrary.org/obo/FOVT_0001150> (radius proximal articular width)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0001150> <http://purl.obolibrary.org/obo/IAO_0000423>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001150> "The width of the arcitular surface that articulates with the humerus located on the proximal end of a radius."@en)
+AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/FOVT_0001150> "2021-06-17T00:57:18Z"^^xsd:dateTime)
+AnnotationAssertion(dce:term_editor <http://purl.obolibrary.org/obo/FOVT_0001150> <http://orcid.org/0000-0003-2699-3066>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001150> "radius proximal articular width"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0001150> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000921> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_4200204>)))
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001150> <http://purl.obolibrary.org/obo/FOVT_0001149>)
 
 # Class: <http://purl.obolibrary.org/obo/OBA_1000049> (pes length)
 
