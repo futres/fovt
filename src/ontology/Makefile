@@ -249,7 +249,7 @@ mirror/ro.trigger: $(SRC)
 mirror/ro.owl: mirror/ro.trigger
 	@if [ $(MIR) = true ] && [ $(IMP) = true ]; then $(ROBOT) convert -I $(URIBASE)/ro.owl -o $@.tmp.owl && mv $@.tmp.owl $@; fi
 
-#.PRECIOUS: mirror/%.owl
+.PRECIOUS: mirror/%.owl
 
 
 ## ONTOLOGY: bfo
