@@ -12,7 +12,9 @@ Ontology(<http://purl.obolibrary.org/obo/fovt.owl>
 Import(<http://purl.obolibrary.org/obo/fovt/imports/bco_import.owl>)
 Import(<http://purl.obolibrary.org/obo/fovt/imports/oba_import.owl>)
 Import(<http://purl.obolibrary.org/obo/fovt/imports/uberon_import.owl>)
+Import(<http://purl.obolibrary.org/obo/fovt/releases/2020-04-02/imports/ro_import.owl>)
 Import(<http://purl.obolibrary.org/obo/iao/2019-08-26/ontology-metadata.owl>)
+Import(<http://purl.obolibrary.org/obo/your_ontology/external/VO_import.owl>)
 Annotation(dce:description "None")
 Annotation(dce:description "These are the terms that are improted for FOVT to describe vertebrate traits."@en)
 Annotation(dce:title "FuTRES Ontology of Vertebrate Traits")
@@ -646,6 +648,8 @@ SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001034> <http://purl.obolibrary
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0001035> <http://purl.obolibrary.org/obo/IAO_0000423>)
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988."@en) Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "von den Driesch, Angela. A guide to the measurement of animal bones from archaeological sites: as developed by the Institut für Palaeoanatomie, Domestikationsforschung und Geschichte der Tiermedizin of the University of Munich . Vol. 1. Peabody Museum Press, 1976."@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001035> "The width of the proximal end of a humerus along the medial-lateral axis."@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/FOVT_0001035> <http://orcid.org/0000-0003-2699-3066>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/RO_0002161> <http://purl.obolibrary.org/obo/FOVT_0001035> "Canidae"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/RO_0002161> <http://purl.obolibrary.org/obo/FOVT_0001035> "Lagomorpha"@en)
 AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/FOVT_0001035> "2021-02-10T22:57:22Z"^^xsd:dateTime)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001035> "humerus proximal width ML"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001035> "humerus proximal breadth"@en)
@@ -962,6 +966,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.ob
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988."@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001070> "The length along the anterior-posterior axis of a femur connecting the caput of a femur to the lateral condyle of a femur."@en)
 AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/FOVT_0001070> "2021-05-19T01:36:28Z"^^xsd:dateTime)
 AnnotationAssertion(dce:term_editor <http://purl.obolibrary.org/obo/FOVT_0001070> <http://orcid.org/0000-0003-2699-3066>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001070> "femur lateral length"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001070> "femur length from caput to lateral condyle"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001070> <http://purl.obolibrary.org/obo/OBA_VT0004348>)
 
@@ -973,6 +978,7 @@ AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/FOVT_0001071> "2021
 AnnotationAssertion(dce:term_editor <http://purl.obolibrary.org/obo/FOVT_0001071> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001071> "olecranon length"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001071> <http://purl.obolibrary.org/obo/OBA_VT0004370>)
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001071> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002160> <http://purl.obolibrary.org/obo/NCBITaxon_9845>))
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001072> (ulna proximal articular breadth)
 
@@ -1132,6 +1138,8 @@ AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/FOVT_0001127> "2021
 AnnotationAssertion(dce:term_editor <http://purl.obolibrary.org/obo/FOVT_0001127> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001127> "radius proximal articular breadth"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001127> <http://purl.obolibrary.org/obo/FOVT_0001150>)
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001127> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_9788>))
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001127> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_9845>))
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001128> (radius proximal articular depth)
 
@@ -1159,6 +1167,8 @@ AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/FOVT_0001130> "2021
 AnnotationAssertion(dce:term_editor <http://purl.obolibrary.org/obo/FOVT_0001130> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001130> "radius distal articular breadth"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001130> <http://purl.obolibrary.org/obo/FOVT_0001148>)
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001130> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_9788>))
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001130> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_9845>))
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001131> (radius distal articular depth)
 
