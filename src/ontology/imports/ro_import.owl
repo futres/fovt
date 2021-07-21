@@ -150,6 +150,19 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/RO_0002504 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002504">
+        <obo:IAO_0000112>brain always_present_in_taxon &apos;Vertebrata&apos;</obo:IAO_0000112>
+        <obo:IAO_0000112>forelimb always_present_in_taxon Euarchontoglires</obo:IAO_0000112>
+        <obo:IAO_0000115>S always_present_in_taxon T if every fully formed member of taxon T has part some S, or is an instance of S</obo:IAO_0000115>
+        <obo:IAO_0000116>This is a very strong relation. Often we will not have enough evidence to know for sure that there are no species within a lineage that lack the structure - loss is common in evolution. However, there are some statements we can make with confidence - no vertebrate lineage could persist without a brain or a heart. All primates are limbed. </obo:IAO_0000116>
+        <obo:IAO_0000118>never lost in</obo:IAO_0000118>
+        <rdfs:label>always present in taxon</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/RO_0002575 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002575"/>
