@@ -424,6 +424,19 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/BSPO_0015002 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BSPO_0015002">
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BSPO_0000010"/>
+        <oboInOwl:hasDbXref>BSPO:0015002</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>spatial</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>follows_axis</oboInOwl:id>
+        <oboInOwl:shorthand>follows_axis</oboInOwl:shorthand>
+        <rdfs:label>follows axis</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/BSPO_0015005 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BSPO_0015005">
