@@ -9,7 +9,7 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/fovt/imports/oba_import.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/fovt/releases/2021-07-21/imports/oba_import.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/fovt/releases/2021-07-22/imports/oba_import.owl"/>
     </owl:Ontology>
     
 
@@ -1396,6 +1396,88 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OBA_0002384 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0002384">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000117"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001446"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0002651"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0002187"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBA_0003150"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>The size of a fibula.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>size of fibula</oboInOwl:hasExactSynonym>
+        <rdfs:label>fibula size</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OBA_0002384"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The size of a fibula.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>AUTO:patterns/patterns/entity_attribute</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OBA_0002384"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>size of fibula</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>AUTO:patterns/patterns/entity_attribute</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBA_0002386 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0002386">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000117"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002446"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_1000138"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0005353"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBA_0003150"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>The size of a patella.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>size of patella</oboInOwl:hasExactSynonym>
+        <rdfs:label>patella size</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OBA_0002386"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The size of a patella.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>AUTO:patterns/patterns/entity_attribute</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OBA_0002386"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>size of patella</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>AUTO:patterns/patterns/entity_attribute</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OBA_0002389 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0002389">
@@ -1483,6 +1565,54 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OBA_0002407"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>size of external genitalia</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>AUTO:patterns/patterns/entity_attribute</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBA_0002438 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0002438">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000122"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002100"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0000015"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0100003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000122"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0001256"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002100"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>The length of a trunk.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>length of trunk</oboInOwl:hasExactSynonym>
+        <rdfs:label>trunk length</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OBA_0002438"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The length of a trunk.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>AUTO:patterns/patterns/entity_attribute</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OBA_0002438"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>length of trunk</owl:annotatedTarget>
         <oboInOwl:hasDbXref>AUTO:patterns/patterns/entity_attribute</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -1902,6 +2032,47 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OBA_0002587"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>size of diaphysis</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>AUTO:patterns/patterns/entity_attribute</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBA_0002590 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0002590">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000117"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0008775"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0003163"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_1000560"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBA_0002384"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>The size of a proximal epiphysis of fibula.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>size of proximal epiphysis of fibula</oboInOwl:hasExactSynonym>
+        <rdfs:label>proximal epiphysis of fibula size</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OBA_0002590"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The size of a proximal epiphysis of fibula.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>AUTO:patterns/patterns/entity_attribute</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OBA_0002590"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>size of proximal epiphysis of fibula</owl:annotatedTarget>
         <oboInOwl:hasDbXref>AUTO:patterns/patterns/entity_attribute</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -2399,6 +2570,53 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OBA_0002845"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>morphology of external ear</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>AUTO:patterns/patterns/entity_attribute</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBA_0002872 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0002872">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000117"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002355"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0000015"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0100003"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0100005"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002355"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>The size of a pelvic region of trunk.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>size of pelvic region of trunk</oboInOwl:hasExactSynonym>
+        <rdfs:label>pelvic region of trunk size</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OBA_0002872"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The size of a pelvic region of trunk.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>AUTO:patterns/patterns/entity_attribute</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OBA_0002872"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>size of pelvic region of trunk</owl:annotatedTarget>
         <oboInOwl:hasDbXref>AUTO:patterns/patterns/entity_attribute</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -6073,14 +6291,14 @@
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OBA_1000148"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>quality of proximal epiphysis of tibia</owl:annotatedTarget>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The quality of a proximal epiphysis of tibia.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>AUTO:patterns/patterns/entity_attribute</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OBA_1000148"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>The quality of a proximal epiphysis of tibia.</owl:annotatedTarget>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>quality of proximal epiphysis of tibia</owl:annotatedTarget>
         <oboInOwl:hasDbXref>AUTO:patterns/patterns/entity_attribute</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -6633,6 +6851,52 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OBA_1000331 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_1000331">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000001"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004388"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0100003"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBA_1000572"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004388"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>The quality of a epiphysis of fibula.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>quality of epiphysis of fibula</oboInOwl:hasExactSynonym>
+        <rdfs:label>epiphysis of fibula quality</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OBA_1000331"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The quality of a epiphysis of fibula.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>AUTO:patterns/patterns/entity_attribute</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OBA_1000331"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>quality of epiphysis of fibula</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>AUTO:patterns/patterns/entity_attribute</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OBA_1000340 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_1000340">
@@ -6812,6 +7076,46 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OBA_1000394"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>quality of proximal epiphysis of humerus</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>AUTO:patterns/patterns/entity_attribute</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBA_1000399 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_1000399">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000001"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004410"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_1000331"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004410"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>The quality of a distal epiphysis of fibula.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>quality of distal epiphysis of fibula</oboInOwl:hasExactSynonym>
+        <rdfs:label>distal epiphysis of fibula quality</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OBA_1000399"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The quality of a distal epiphysis of fibula.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>AUTO:patterns/patterns/entity_attribute</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OBA_1000399"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>quality of distal epiphysis of fibula</owl:annotatedTarget>
         <oboInOwl:hasDbXref>AUTO:patterns/patterns/entity_attribute</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -7484,6 +7788,46 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OBA_1000560 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_1000560">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000001"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0008775"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_1000331"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0008775"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>The quality of a proximal epiphysis of fibula.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>quality of proximal epiphysis of fibula</oboInOwl:hasExactSynonym>
+        <rdfs:label>proximal epiphysis of fibula quality</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OBA_1000560"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The quality of a proximal epiphysis of fibula.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>AUTO:patterns/patterns/entity_attribute</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OBA_1000560"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>quality of proximal epiphysis of fibula</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>AUTO:patterns/patterns/entity_attribute</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OBA_1000568 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_1000568">
@@ -7525,6 +7869,52 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OBA_1000568"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>quality of distal epiphysis of humerus</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>AUTO:patterns/patterns/entity_attribute</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBA_1000572 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_1000572">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000001"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001446"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_1000067"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBA_1000375"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001446"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>The quality of a fibula.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>quality of fibula</oboInOwl:hasExactSynonym>
+        <rdfs:label>fibula quality</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OBA_1000572"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The quality of a fibula.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>AUTO:patterns/patterns/entity_attribute</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OBA_1000572"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>quality of fibula</owl:annotatedTarget>
         <oboInOwl:hasDbXref>AUTO:patterns/patterns/entity_attribute</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -8500,6 +8890,53 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OBA_VT0000149 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_VT0000149">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000051"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0006849"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0003695"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_1000066"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0010089"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0006849"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>The morphology of a scapula.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>morphology of scapula</oboInOwl:hasExactSynonym>
+        <rdfs:label>scapula morphology trait</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0000149"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The morphology of a scapula.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>AUTO:patterns/patterns/entity_attribute</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0000149"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>morphology of scapula</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>AUTO:patterns/patterns/entity_attribute</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OBA_VT0000432 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_VT0000432">
@@ -8765,6 +9202,53 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0000474"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>morphology of foregut</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>AUTO:patterns/patterns/entity_attribute</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBA_VT0000482 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_VT0000482">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000122"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001446"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0002381"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0002384"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBA_0002720"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0010024"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The length of a fibula along the proximal-distal axis.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>length of fibula</oboInOwl:hasExactSynonym>
+        <rdfs:label>fibula length</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0000482"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The length of a fibula along the proximal-distal axis.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>AUTO:patterns/patterns/entity_attribute</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0000482"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>length of fibula</owl:annotatedTarget>
         <oboInOwl:hasDbXref>AUTO:patterns/patterns/entity_attribute</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -9894,6 +10378,47 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OBA_VT0002187 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_VT0002187">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000051"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001446"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_1000572"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0010105"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0003857"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>The morphology of a fibula.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>morphology of fibula</oboInOwl:hasExactSynonym>
+        <rdfs:label>fibula morphology trait</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0002187"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The morphology of a fibula.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>AUTO:patterns/patterns/entity_attribute</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0002187"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>morphology of fibula</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>AUTO:patterns/patterns/entity_attribute</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OBA_VT0002277 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_VT0002277">
@@ -10164,6 +10689,47 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0003104"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>size of skull</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>AUTO:patterns/patterns/entity_attribute</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBA_VT0003385 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_VT0003385">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000051"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000309"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0100003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000051"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000309"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>The morphology of a body wall.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>morphology of body wall</oboInOwl:hasExactSynonym>
+        <rdfs:label>body wall morphology trait</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0003385"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The morphology of a body wall.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>AUTO:patterns/patterns/entity_attribute</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0003385"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>morphology of body wall</owl:annotatedTarget>
         <oboInOwl:hasDbXref>AUTO:patterns/patterns/entity_attribute</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -10691,6 +11257,88 @@
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>autopod region morphology</owl:annotatedTarget>
         <oboInOwl:hasDbXref>AUTO:patterns/patterns/attribute_location</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBA_VT0004340 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_VT0004340">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000122"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0006849"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0004343"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000122"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0001256"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>The length of a scapula.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>length of scapula</oboInOwl:hasExactSynonym>
+        <rdfs:label>scapula length</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0004340"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The length of a scapula.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>AUTO:patterns/patterns/entity_attribute</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0004340"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>length of scapula</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>AUTO:patterns/patterns/entity_attribute</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBA_VT0004343 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_VT0004343">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000117"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0006849"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_1000138"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0000149"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBA_0003148"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>The size of a scapula.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>size of scapula</oboInOwl:hasExactSynonym>
+        <rdfs:label>scapula size trait</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0004343"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The size of a scapula.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>AUTO:patterns/patterns/entity_attribute</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0004343"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>size of scapula</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>AUTO:patterns/patterns/entity_attribute</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -11244,6 +11892,53 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OBA_VT0005353 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_VT0005353">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000051"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002446"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0003695"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_1000066"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0000556"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002446"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>The morphology of a patella.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>morphology of patella</oboInOwl:hasExactSynonym>
+        <rdfs:label>patella morphology trait</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0005353"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The morphology of a patella.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>AUTO:patterns/patterns/entity_attribute</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0005353"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>morphology of patella</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>AUTO:patterns/patterns/entity_attribute</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OBA_VT0005358 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_VT0005358">
@@ -11745,6 +12440,88 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0010024"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>length of hindlimb</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>AUTO:patterns/patterns/entity_attribute</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBA_VT0010089 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_VT0010089">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000051"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001421"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0100003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000051"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001421"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>The morphology of a pectoral girdle region.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>morphology of pectoral girdle region</oboInOwl:hasExactSynonym>
+        <rdfs:label>shoulder girdle morphology trait</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0010089"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The morphology of a pectoral girdle region.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>AUTO:patterns/patterns/entity_attribute</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0010089"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>morphology of pectoral girdle region</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>AUTO:patterns/patterns/entity_attribute</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBA_VT0010090 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_VT0010090">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000051"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001271"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0100003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000051"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001271"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>The morphology of a pelvic girdle region.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>morphology of pelvic girdle region</oboInOwl:hasExactSynonym>
+        <rdfs:label>pelvic girdle morphology trait</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0010090"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The morphology of a pelvic girdle region.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>AUTO:patterns/patterns/entity_attribute</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0010090"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>morphology of pelvic girdle region</owl:annotatedTarget>
         <oboInOwl:hasDbXref>AUTO:patterns/patterns/entity_attribute</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -13584,6 +14361,19 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UBERON_0000309 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000309">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000475"/>
+        <obo:IAO_0000115>The external portion of an animal body derived from ectoderm and mesoderm layers that encloses the body cavity.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>wall fo trunk</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasNarrowSynonym>trunk wall</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>wall of trunk</oboInOwl:hasNarrowSynonym>
+        <rdfs:label>body wall</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UBERON_0000328 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000328">
@@ -14595,6 +15385,78 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UBERON_0001271 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001271">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0007823"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0010709"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0007823"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0015212"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002355"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0010709"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>The organism subdivision that includes the pelvic girdle skeleton and associated soft tissue. Note that this includes both the skeletal elements and associated tissues (integument, muscle, etc). Examples: There are only two instances in an organism, right and left pectoral girdle regions.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym>girdle - pelvic</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>pelvic girdle</oboInOwl:hasRelatedSynonym>
+        <rdfs:label>pelvic girdle region</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0001421 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001421">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0007823"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0010708"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0007823"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0015212"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0010708"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/UBERON_0007831"/>
+        <obo:IAO_0000115>An organism subdivision that includes the pectoral girdle skeleton and associated soft tissue. Note that this includes both the skeletal elements and associated tissues (integument, muscle, etc). Examples: There are only two instances in an organism, right and left pectoral girdle regions.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>cingulum membri superioris</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>girdle - pectoral</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasNarrowSynonym>cingulum membri superioris</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>shoulder girdle</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>upper limb girdle</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasRelatedSynonym>pectoral girdle</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>pectoral region</oboInOwl:hasRelatedSynonym>
+        <rdfs:label>pectoral girdle region</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UBERON_0001423 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001423">
@@ -14881,6 +15743,30 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UBERON_0001446 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001446">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0003608"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004251"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0015013"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0010720"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002202"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0010851"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>The major postaxial endochondral bone in the posterior zeugopod[Phenoscape].</obo:IAO_0000115>
+        <rdfs:label>fibula</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UBERON_0001447 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001447">
@@ -15027,6 +15913,23 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UBERON_0001465 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001465">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0008784"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000978"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A segment of the hindlimb that corresponds to the joint connecting a hindlimb stylopod and zeugopod.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>knee region</oboInOwl:hasExactSynonym>
+        <rdfs:label>knee</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UBERON_0001474 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001474">
@@ -15044,6 +15947,19 @@
         <oboInOwl:hasRelatedSynonym>bone</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>bones</oboInOwl:hasRelatedSynonym>
         <rdfs:label>bone element</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0001479 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001479">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001474"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0013631"/>
+        <obo:IAO_0000115>A sesamoid element that is composed of bone tissue.</obo:IAO_0000115>
+        <oboInOwl:hasBroadSynonym>sesamoid</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasExactSynonym>ossa sesamoidea</oboInOwl:hasExactSynonym>
+        <rdfs:label>sesamoid bone</rdfs:label>
     </owl:Class>
     
 
@@ -15325,6 +16241,26 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UBERON_0002100 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002100">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0011676"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0013702"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Organism subdivision which is the part of the body posterior to the cervical region (or head, when cervical region not present) and anterior to the caudal region. Includes the sacrum when present.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>thoracolumbar region</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>torso</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>trunk region</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym>Rumpf</oboInOwl:hasRelatedSynonym>
+        <rdfs:label>trunk</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UBERON_0002101 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002101">
@@ -15560,6 +16496,27 @@
         <oboInOwl:hasRelatedSynonym>presumptive central nervous system</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>ventral neurogenic region</oboInOwl:hasRelatedSynonym>
         <rdfs:label>neurectoderm</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0002355 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002355">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000475"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002417"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>The lower segment of the trunk, inferioposterior to the abdomen proper, in the transition area between the trunk and the lower limbs.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>lesser pelvis</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>pelvic region</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>pelvis</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>pelvis region</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>true pelvis</oboInOwl:hasExactSynonym>
+        <rdfs:label>pelvic region of trunk</rdfs:label>
     </owl:Class>
     
 
@@ -15821,6 +16778,21 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UBERON_0002417 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002417">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0009569"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0011676"/>
+        <obo:IAO_0000115>The abdominal segment of the torso.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym>abdomen/pelvis/perineum</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>lower body</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>lower trunk</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>lumbar region</oboInOwl:hasRelatedSynonym>
+        <rdfs:label>abdominal segment of trunk</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UBERON_0002424 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002424">
@@ -15893,6 +16865,33 @@
         <oboInOwl:hasExactSynonym>bone of limb</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>free limb bone</oboInOwl:hasExactSynonym>
         <rdfs:label>limb bone</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0002446 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002446">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001479"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005893"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0011141"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001441"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001465"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A large sesamoid bone found in the distal femur/proximal tibial region of the hindlimb of tetrapods. The patella is the attachment site for proximal hindlimb tendons.[PHENOSCAPE:ad]</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym>knee bone</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>knee cap</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>patella</oboInOwl:hasRelatedSynonym>
+        <rdfs:label>patella</rdfs:label>
     </owl:Class>
     
 
@@ -16509,6 +17508,42 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UBERON_0003232 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0003232">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0000483"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001465"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0010371"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001465"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002202"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0003371"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>An epithelium that is part of a knee [Automatically generated definition].</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>epithelial tissue of knee</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>knee epithelial tissue</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>knee epithelium</oboInOwl:hasExactSynonym>
+        <rdfs:label>epithelium of knee</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UBERON_0003235 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0003235">
@@ -16807,6 +17842,34 @@
         <oboInOwl:hasExactSynonym>mesenchyme of wrist</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>wrist mesenchyme</oboInOwl:hasExactSynonym>
         <rdfs:label>mesenchyme of carpal region</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0003321 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0003321">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0003104"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001465"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0003860"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001465"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Mesenchyme that is part of a developing knee [Automatically generated definition].</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>knee mesenchyme</oboInOwl:hasExactSynonym>
+        <rdfs:label>mesenchyme of knee</rdfs:label>
     </owl:Class>
     
 
@@ -17349,6 +18412,41 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UBERON_0003463 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0003463">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001474"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002100"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001474"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005177"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002100"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A bone that is part of a trunk [Automatically generated definition].</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>bone of torso</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>bone of trunk</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>bone organ of torso</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>bone organ of trunk</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>torso bone</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>torso bone organ</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>trunk bone organ</oboInOwl:hasExactSynonym>
+        <rdfs:label>trunk bone</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UBERON_0003464 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0003464">
@@ -17684,6 +18782,73 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UBERON_0003577 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0003577">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0002384"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001465"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0003569"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001465"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A portion of connective tissue that is part of a knee [Automatically generated definition].</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>connective tissue of knee</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>knee portion of connective tissue</oboInOwl:hasExactSynonym>
+        <rdfs:label>knee connective tissue</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0003586 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0003586">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0002384"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002100"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002384"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002100"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A portion of connective tissue that is part of a trunk [Automatically generated definition].</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>connective tissue of torso</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>connective tissue of trunk</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>portion of connective tissue of torso</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>portion of connective tissue of trunk</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>textus connectivus of torso</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>textus connectivus of trunk</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>torso connective tissue</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>torso portion of connective tissue</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>torso textus connectivus</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>trunk portion of connective tissue</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>trunk textus connectivus</oboInOwl:hasExactSynonym>
+        <rdfs:label>trunk connective tissue</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UBERON_0003587 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0003587">
@@ -17777,6 +18942,38 @@
         <oboInOwl:hasExactSynonym>connective tissue of lower extremity</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>hind limb connective tissue</oboInOwl:hasExactSynonym>
         <rdfs:label>hindlimb connective tissue</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0003594 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0003594">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0002384"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002355"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0003838"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002355"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A portion of connective tissue that is part of a pelvis [Automatically generated definition].</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>connective tissue of pelvis</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>pelvis portion of connective tissue</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>pelvis textus connectivus</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>portion of connective tissue of pelvis</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>textus connectivus of pelvis</oboInOwl:hasExactSynonym>
+        <rdfs:label>pelvis connective tissue</rdfs:label>
     </owl:Class>
     
 
@@ -18653,6 +19850,71 @@
         <obo:IAO_0000115>A bone that is part of a hindlimb stylopod [Automatically generated definition].</obo:IAO_0000115>
         <oboInOwl:hasRelatedSynonym>femur</oboInOwl:hasRelatedSynonym>
         <rdfs:label>upper leg bone</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0003828 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0003828">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001474"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002417"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0003463"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005173"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002417"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A bone that is part of an abdominal segment of trunk [Automatically generated definition].</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abdominal segment of trunk bone</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>abdominal segment of trunk bone organ</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>bone of abdominal segment of trunk</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>bone organ of abdominal segment of trunk</oboInOwl:hasExactSynonym>
+        <rdfs:label>abdominal segment bone</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0003838 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0003838">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0002384"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002417"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0003586"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002417"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A portion of connective tissue that is part of an abdominal segment of trunk [Automatically generated definition].</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abdominal segment of trunk connective tissue</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>abdominal segment of trunk portion of connective tissue</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>abdominal segment of trunk textus connectivus</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>connective tissue of abdominal segment of trunk</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>portion of connective tissue of abdominal segment of trunk</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>textus connectivus of abdominal segment of trunk</oboInOwl:hasExactSynonym>
+        <rdfs:label>abdominal segment connective tissue</rdfs:label>
     </owl:Class>
     
 
@@ -19670,6 +20932,35 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UBERON_0004388 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0004388">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001437"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001446"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001437"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004120"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001446"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>An epiphysis that is part of a fibula [Automatically generated definition].</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>fibula epiphysis</oboInOwl:hasExactSynonym>
+        <rdfs:label>epiphysis of fibula</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UBERON_0004389 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0004389">
@@ -20139,6 +21430,36 @@
         <oboInOwl:hasExactSynonym>distal end of ulna</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>lower end of ulna</oboInOwl:hasExactSynonym>
         <rdfs:label>distal epiphysis of ulna</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0004410 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0004410">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0004379"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001446"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004379"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004388"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001446"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A distal epiphysis that is part of a fibula [Automatically generated definition].</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>distal end of fibula</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>lower end of fibula</oboInOwl:hasExactSynonym>
+        <rdfs:label>distal epiphysis of fibula</rdfs:label>
     </owl:Class>
     
 
@@ -20901,6 +22222,26 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UBERON_0004753 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0004753">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004765"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0007831"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Skeletal element that consists of the scapula and the coracoid[VSAO, modified].</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>scapulocoracoideum</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasNarrowSynonym>coraco-scapular cartilage</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>scapulo-coracoid cartilage</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>scapulocoracoid cartilage</oboInOwl:hasNarrowSynonym>
+        <rdfs:label>scapulocoracoid</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UBERON_0004765 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0004765">
@@ -21466,6 +22807,34 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UBERON_0005173 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0005173">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0000062"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002417"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005177"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002417"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>An organ or element that is part of the adbominal segment of the organism. This region can be further subdivided into the abdominal cavity and the pelvic region.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abdominal segment organ</oboInOwl:hasExactSynonym>
+        <rdfs:label>abdominal segment element</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UBERON_0005176 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0005176">
@@ -21490,6 +22859,64 @@
         <oboInOwl:hasRelatedSynonym>odontogenic organ</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>organum enameleum</oboInOwl:hasRelatedSynonym>
         <rdfs:label>tooth enamel organ</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0005177 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0005177">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0000062"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002100"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000062"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002100"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>An organ or element that part of the trunk region. The trunk region can be further subdividied into thoracic (including chest and thoracic cavity) and abdominal (including abdomen and pelbis) regions.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>trunk organ</oboInOwl:hasExactSynonym>
+        <rdfs:label>trunk region element</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0005179 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0005179">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0000062"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002355"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005173"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002355"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>An organ or element that is part of the pelvic region. Examples: reproductive organs (in some organisms), urinary bladder, bones of the pelvis.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>pelvic element</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>pelvis organ</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>pelvis region organ</oboInOwl:hasExactSynonym>
+        <rdfs:label>pelvic region element</rdfs:label>
     </owl:Class>
     
 
@@ -21653,6 +23080,51 @@
         </rdfs:subClassOf>
         <obo:IAO_0000115>Mesenchyme that is part of a developing hindlimb stylopod [Automatically generated definition].</obo:IAO_0000115>
         <rdfs:label>upper leg mesenchyme</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0005256 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0005256">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0003104"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000922"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002100"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0003104"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005291"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000922"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002100"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0009142"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Mesenchyme that is part of a developing trunk.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym>trunk and cervical mesenchyme</oboInOwl:hasRelatedSynonym>
+        <rdfs:label>trunk mesenchyme</rdfs:label>
     </owl:Class>
     
 
@@ -22332,6 +23804,21 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UBERON_0006210 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0006210">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0003104"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000309"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>body-wall mesenchyme</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UBERON_0006211 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0006211">
@@ -22546,6 +24033,59 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UBERON_0006290 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0006290">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002050"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0006598"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0007844"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0015057"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000922"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0007831"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002202"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0006291"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A scapula endochondral element that is composed primarily of a cartilage tissue.</obo:IAO_0000115>
+        <rdfs:label>scapula cartilage element</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0006291 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0006291">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0015057"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0007831"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002202"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0006210"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A scapula endochondral element that is composed primarily of a pre-cartilage condensation.</obo:IAO_0000115>
+        <rdfs:label>scapula pre-cartilage condensation</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UBERON_0006306 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0006306">
@@ -22697,6 +24237,43 @@
         <oboInOwl:hasExactSynonym>upper end of ulna</oboInOwl:hasExactSynonym>
         <oboInOwl:hasRelatedSynonym>caput ulnae</oboInOwl:hasRelatedSynonym>
         <rdfs:label>proximal epiphysis of ulna</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0006849 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0006849">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002513"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0007829"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0015057"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0007831"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002202"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004753"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002202"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0006290"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Endochondral bone that is dorsoventrally compressed and provides attachment site for muscles of the pectoral appendage.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>hypercoracocïde@fr</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>hypercoracocïdeum@fr</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>scapula@fr</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>scapulae</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasNarrowSynonym>shoulder blade</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasRelatedSynonym>scapula bone</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>scapulas</oboInOwl:hasRelatedSynonym>
+        <rdfs:label>scapula</rdfs:label>
     </owl:Class>
     
 
@@ -23069,6 +24646,130 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UBERON_0007823 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0007823">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000475"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0010707"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>An organism subdivision that encompasses the region containing the pectoral or pelvic girdle. Note that this includes both the skeletal elements and associated tissues (integument, muscle, etc).</obo:IAO_0000115>
+        <oboInOwl:hasBroadSynonym>girdle</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasBroadSynonym>girdle region</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasRelatedSynonym>fin girdle</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>fin girdle region</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>limb girdle</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>limb girdle region</oboInOwl:hasRelatedSynonym>
+        <rdfs:label>appendage girdle region</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0007828 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0007828">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001474"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0007823"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0010740"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0007823"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0010719"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A bone that is part of a appendage girdle region.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>girdle bone</oboInOwl:hasExactSynonym>
+        <rdfs:label>girdle bone/zone</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0007829 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0007829">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001474"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001421"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0007828"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0010741"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001421"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0007831"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A bone that is part of a pectoral girdle region.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>bone of pectoral girdle</oboInOwl:hasExactSynonym>
+        <rdfs:label>pectoral girdle bone</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0007831 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0007831">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0010719"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001421"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002091"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0012475"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A subdivision of a limb or fin skeleton consisting of bones which connects the upper limb or fin to the axial skeleton on each side. It consists of the clavicle and scapula in humans and, in those species with three bones in the pectoral girdle, the coracoid. Some mammalian species (e.g. the dog and the horse) have only the scapula. In humans, the only joints between the shoulder girdle and axial skeleton are the sternoclavicular joints on each side. No joint exists between each scapula and the rib cage; instead the muscular connection between the two permits relatively great mobility of the shoulder girdle in relation to the pelvic girdle. In those species having only the scapula, no joint exists between the forelimb and the thorax, the only attachment being muscular[WP]. Examples: There are only two instances, right and left pectoral girdle skeletons.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>skeletal parts of pectoral girdle</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>skeleton of pectoral girdle</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym>cingulum pectorale</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>pectoral girdle</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>scapular girdle</oboInOwl:hasRelatedSynonym>
+        <rdfs:label>pectoral girdle skeleton</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UBERON_0007844 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0007844">
@@ -23118,6 +24819,78 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UBERON_0007997 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0007997">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001479"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002398"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001479"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005897"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0011141"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001442"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002398"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A sesamoid bone that is part of a manus.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>sesamoid bone of hand</oboInOwl:hasExactSynonym>
+        <rdfs:label>sesamoid bone of manus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0008000 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0008000">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001479"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002387"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001479"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005899"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0011141"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001445"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002387"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A sesamoid bone that is part of a pes.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>sesamoid bone of foot</oboInOwl:hasExactSynonym>
+        <rdfs:label>sesamoid bone of pes</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UBERON_0008202 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0008202">
@@ -23155,6 +24928,39 @@
         <oboInOwl:hasExactSynonym>proximal tibial epiphysis</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>upper end of tibia</oboInOwl:hasExactSynonym>
         <rdfs:label>proximal epiphysis of tibia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0008775 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0008775">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0004380"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001446"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004380"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004388"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001446"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A proximal epiphysis that is part of a fibula.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>caput fibulae</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>head of fibula</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>proximal end of fibula</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>upper end of fibula</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym>fibular head</oboInOwl:hasRelatedSynonym>
+        <rdfs:label>proximal epiphysis of fibula</rdfs:label>
     </owl:Class>
     
 
@@ -23537,6 +25343,23 @@
         <oboInOwl:hasExactSynonym>mesenchyme of maxillary process</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>mesenchyme of maxillary prominence</oboInOwl:hasExactSynonym>
         <rdfs:label>maxillary process mesenchyme</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0009569 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0009569">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000475"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002100"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:hasExactSynonym>region of trunk</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>trunk subdivision</oboInOwl:hasExactSynonym>
+        <rdfs:label>subdivision of trunk</rdfs:label>
     </owl:Class>
     
 
@@ -25374,6 +27197,29 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UBERON_0010719 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0010719">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0010912"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002091"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0007823"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>The subdivision of the skeleton of either the pectoral or pelvic girdle.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>skeleton of girdle</oboInOwl:hasExactSynonym>
+        <rdfs:label>girdle skeleton</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UBERON_0010720 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0010720">
@@ -25716,6 +27562,65 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UBERON_0010851 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0010851">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0010881"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0010885"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0015013"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001441"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005259"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002202"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0010852"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A cartilaginous condensation that has the potential to develop into a fibula.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>fibulal cartilage condensation</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>fibular cartilage condensation</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym>fibulra cartilage condensation</oboInOwl:hasRelatedSynonym>
+        <rdfs:label>fibula cartilage element</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0010852 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0010852">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005259"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005866"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0015013"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001441"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005259"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A pre-cartilage condensation that has the potential to develop into a fibula.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>fibulal pre-cartilage condensation</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>fibular pre-cartilage condensation</oboInOwl:hasExactSynonym>
+        <rdfs:label>fibula pre-cartilage condensation</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UBERON_0010881 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0010881">
@@ -25803,6 +27708,16 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UBERON_0010911 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0010911">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004765"/>
+        <obo:IAO_0000115>Skeletal element that is often isolated, small, and variable in composition.</obo:IAO_0000115>
+        <rdfs:label>ossicle</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UBERON_0010912 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0010912">
@@ -25862,6 +27777,34 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000075"/>
         <obo:IAO_0000115>Subdivision of the skeletal system which consists of the axial skeleton plus associated joints.</obo:IAO_0000115>
         <rdfs:label>axial skeletal system</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0011141 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0011141">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0010911"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002091"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0010911"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002091"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Ossicle that is part of the appendicular skeleton.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>ossicle of appendicular skeleton</oboInOwl:hasExactSynonym>
+        <rdfs:label>appendicular ossicle</rdfs:label>
     </owl:Class>
     
 
@@ -26740,6 +28683,38 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UBERON_0013279 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0013279">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0004769"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001446"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004120"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004769"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001446"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A diaphysis that is part of a fibula[Automatically generated definition].</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>body of fibula</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>corpus fibulae</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>fibula diaphysis</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>shaft of fibula</oboInOwl:hasExactSynonym>
+        <rdfs:label>diaphysis of fibula</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UBERON_0013280 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0013280">
@@ -26933,6 +28908,17 @@
         <oboInOwl:hasExactSynonym>metapodium 5</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>metapodium V</oboInOwl:hasExactSynonym>
         <rdfs:label>metapodium bone 5</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0013631 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0013631">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0010911"/>
+        <obo:IAO_0000115>Ossicle that develops within bands of dense, regular connective tissue (e.g., tendons and ligaments). Sesamoids are generally located proximate to a bony prominence, over which the dense regular connective tissue wraps, and/or a joint or articulation.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>sesamoid</oboInOwl:hasExactSynonym>
+        <rdfs:label>sesamoid element</rdfs:label>
     </owl:Class>
     
 
@@ -27304,6 +29290,34 @@
         <oboInOwl:hasBroadSynonym>tibia skeletal element</oboInOwl:hasBroadSynonym>
         <oboInOwl:hasExactSynonym>tibia element</oboInOwl:hasExactSynonym>
         <rdfs:label>tibia endochondral element</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0015013 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0015013">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001446"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0010851"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0010852"/>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0015022"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0015061"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0010720"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>The major postaxial endochondral element in the posterior zeugopod[Phenoscape].</obo:IAO_0000115>
+        <oboInOwl:hasBroadSynonym>fibula skeletal element</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasExactSynonym>fibula element</oboInOwl:hasExactSynonym>
+        <rdfs:label>fibula endochondral element</rdfs:label>
     </owl:Class>
     
 
@@ -28059,6 +30073,33 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UBERON_0015057 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0015057">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0006290"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0006291"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0006849"/>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0010363"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0007831"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A scapula bone or its cartilage or pre-cartilage precursor.</obo:IAO_0000115>
+        <oboInOwl:hasBroadSynonym>scapula skeletal element</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasExactSynonym>scapula element</oboInOwl:hasExactSynonym>
+        <rdfs:label>scapula endochondral element</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UBERON_0015061 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0015061">
@@ -28564,6 +30605,36 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UBERON_0017261 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0017261">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0013631"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0009879"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0011141"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0013631"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0015022"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0009879"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A sesamoid element that is part of a tarsal skeleton.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym>tarsal sesamoid</oboInOwl:hasRelatedSynonym>
+        <rdfs:label>intertarsal sesamoid</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UBERON_0017650 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0017650">
@@ -28948,6 +31019,33 @@
         </rdfs:subClassOf>
         <obo:IAO_0000115>Dermal, epidermal, glandular and pigment structures of the external head integument.</obo:IAO_0000115>
         <rdfs:label>head external integument structure</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_3000977 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_3000977">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_3000961"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002100"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_3000961"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002100"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Dermal, epidermal, glandular and pigment structures of the body integument.</obo:IAO_0000115>
+        <rdfs:label>body external integument structure</rdfs:label>
     </owl:Class>
     
 
@@ -30464,6 +32562,36 @@
                 <owl:someValuesFrom>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001446"/>
+                    </owl:Restriction>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:intersectionOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000001"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001446"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000001"/>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                <owl:someValuesFrom>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001447"/>
                     </owl:Restriction>
                 </owl:someValuesFrom>
@@ -31034,6 +33162,36 @@
                 <owl:someValuesFrom>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004388"/>
+                    </owl:Restriction>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:intersectionOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000001"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004388"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000001"/>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                <owl:someValuesFrom>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004389"/>
                     </owl:Restriction>
                 </owl:someValuesFrom>
@@ -31244,6 +33402,36 @@
                 <owl:someValuesFrom>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004410"/>
+                    </owl:Restriction>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:intersectionOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000001"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004410"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000001"/>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                <owl:someValuesFrom>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004411"/>
                     </owl:Restriction>
                 </owl:someValuesFrom>
@@ -31409,6 +33597,36 @@
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
                                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0008772"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000001"/>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                <owl:someValuesFrom>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0008775"/>
+                    </owl:Restriction>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:intersectionOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000001"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0008775"/>
                             </owl:Restriction>
                         </owl:intersectionOf>
                     </owl:Class>
@@ -31619,6 +33837,36 @@
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
                                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000165"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000051"/>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                <owl:someValuesFrom>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000309"/>
+                    </owl:Restriction>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:intersectionOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000051"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000309"/>
                             </owl:Restriction>
                         </owl:intersectionOf>
                     </owl:Class>
@@ -32174,6 +34422,66 @@
                 <owl:someValuesFrom>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001271"/>
+                    </owl:Restriction>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:intersectionOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000051"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001271"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000051"/>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                <owl:someValuesFrom>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001421"/>
+                    </owl:Restriction>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:intersectionOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000051"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001421"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000051"/>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                <owl:someValuesFrom>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001423"/>
                     </owl:Restriction>
                 </owl:someValuesFrom>
@@ -32309,6 +34617,36 @@
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
                                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001437"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000051"/>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                <owl:someValuesFrom>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001446"/>
+                    </owl:Restriction>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:intersectionOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000051"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001446"/>
                             </owl:Restriction>
                         </owl:intersectionOf>
                     </owl:Class>
@@ -32939,6 +35277,36 @@
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
                                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002416"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000051"/>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                <owl:someValuesFrom>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002446"/>
+                    </owl:Restriction>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:intersectionOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000051"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002446"/>
                             </owl:Restriction>
                         </owl:intersectionOf>
                     </owl:Class>
@@ -34244,6 +36612,36 @@
                 <owl:someValuesFrom>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0006849"/>
+                    </owl:Restriction>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:intersectionOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000051"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0006849"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000051"/>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                <owl:someValuesFrom>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0006871"/>
                     </owl:Restriction>
                 </owl:someValuesFrom>
@@ -35204,6 +37602,36 @@
                 <owl:someValuesFrom>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001446"/>
+                    </owl:Restriction>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:intersectionOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000117"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001446"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000117"/>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                <owl:someValuesFrom>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001447"/>
                     </owl:Restriction>
                 </owl:someValuesFrom>
@@ -35504,6 +37932,36 @@
                 <owl:someValuesFrom>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002355"/>
+                    </owl:Restriction>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:intersectionOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000117"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002355"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000117"/>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                <owl:someValuesFrom>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002374"/>
                     </owl:Restriction>
                 </owl:someValuesFrom>
@@ -35639,6 +38097,36 @@
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
                                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002415"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000117"/>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                <owl:someValuesFrom>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002446"/>
+                    </owl:Restriction>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:intersectionOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000117"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002446"/>
                             </owl:Restriction>
                         </owl:intersectionOf>
                     </owl:Class>
@@ -36494,6 +38982,36 @@
                 <owl:someValuesFrom>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0006849"/>
+                    </owl:Restriction>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:intersectionOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000117"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0006849"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000117"/>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                <owl:someValuesFrom>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0007120"/>
                     </owl:Restriction>
                 </owl:someValuesFrom>
@@ -36539,6 +39057,36 @@
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
                                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0008772"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000117"/>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                <owl:someValuesFrom>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0008775"/>
+                    </owl:Restriction>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:intersectionOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000117"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0008775"/>
                             </owl:Restriction>
                         </owl:intersectionOf>
                     </owl:Class>
@@ -37004,6 +39552,36 @@
                 <owl:someValuesFrom>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001446"/>
+                    </owl:Restriction>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:intersectionOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000122"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001446"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000122"/>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                <owl:someValuesFrom>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001448"/>
                     </owl:Restriction>
                 </owl:someValuesFrom>
@@ -37079,6 +39657,36 @@
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
                                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001691"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000122"/>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                <owl:someValuesFrom>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002100"/>
+                    </owl:Restriction>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:intersectionOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000122"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002100"/>
                             </owl:Restriction>
                         </owl:intersectionOf>
                     </owl:Class>
@@ -37769,6 +40377,36 @@
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
                                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004769"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000122"/>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                <owl:someValuesFrom>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0006849"/>
+                    </owl:Restriction>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:intersectionOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000122"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0006849"/>
                             </owl:Restriction>
                         </owl:intersectionOf>
                     </owl:Class>
@@ -38651,5 +41289,5 @@
 
 
 
-<!-- Generated by the OWL API (version 4.5.6) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
 
