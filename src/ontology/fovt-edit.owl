@@ -141,6 +141,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_0001149>))
 Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_0001150>))
 Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_0001151>))
 Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_0001152>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_0001153>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_91561>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_9788>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_9845>))
@@ -1396,12 +1397,25 @@ AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/FOVT_0001151> "
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001151> "obsolete fibula length"@en)
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/FOVT_0001151> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/FOVT_0001152> (scpula dorsal length)
+# Class: <http://purl.obolibrary.org/obo/FOVT_0001152> (scapula dorsal length)
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "von den Driesch, Angela. A guide to the measurement of animal bones from archaeological sites: as developed by the Institut für Palaeoanatomie, Domestikationsforschung und Geschichte der Tiermedizin of the University of Munich . Vol. 1. Peabody Museum Press, 1976."@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001152> "The length of the dorsal side of a scapula along the proximal-distal axis."@en)
 AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/FOVT_0001152> "2021-07-23T18:37:56Z"^^xsd:dateTime)
 AnnotationAssertion(dce:term_editor <http://purl.obolibrary.org/obo/FOVT_0001152> <http://orcid.org/0000-0003-2699-3066>)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001152> "scpula dorsal length"@en)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/FOVT_0001152> <http://purl.obolibrary.org/obo/IAO_0000423>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001152> "scapula dorsal length"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0001152> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000122> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BSPO_0000122> <http://purl.obolibrary.org/obo/UBERON_0006849>))))
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001152> <http://purl.obolibrary.org/obo/OBA_VT0004343>)
+
+# Class: <http://purl.obolibrary.org/obo/FOVT_0001153> (scapula spine length)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "von den Driesch, Angela. A guide to the measurement of animal bones from archaeological sites: as developed by the Institut für Palaeoanatomie, Domestikationsforschung und Geschichte der Tiermedizin of the University of Munich . Vol. 1. Peabody Museum Press, 1976."@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001153> "Length of a scpular spine along the proximal-distal axis."@en)
+AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/FOVT_0001153> "2021-07-23T19:17:25Z"^^xsd:dateTime)
+AnnotationAssertion(dce:term_editor <http://purl.obolibrary.org/obo/FOVT_0001153> <http://orcid.org/0000-0003-2699-3066>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001153> "length of scapular spine"@en)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/FOVT_0001153> <http://purl.obolibrary.org/obo/IAO_0000423>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001153> "scapula spine length"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001153> <http://purl.obolibrary.org/obo/OBA_VT0004343>)
 
 # Class: <http://purl.obolibrary.org/obo/OBA_1000049> (pes length)
 

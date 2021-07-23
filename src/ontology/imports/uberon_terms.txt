@@ -158,5 +158,6 @@ UBERON:0002446 #patella
 UBERON:0006849 #scapula
 UBERON:0018667 #neck of scapula
 UBERON:0006657 #glenoid cavity
+UBERON:0004651 #scapula spine
 
 
