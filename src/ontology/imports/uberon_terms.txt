@@ -156,5 +156,7 @@ UBERON:0011968 #radio-carpal joint
 UBERON:0001446 #fibula
 UBERON:0002446 #patella
 UBERON:0006849 #scapula
+UBERON:0018667 #neck of scapula
+UBERON:0006657 #glenoid cavity
 
 
