@@ -1146,8 +1146,7 @@ AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "Eis
 AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/FOVT_0001125> "2021-06-02T23:36:38Z"^^xsd:dateTime)
 AnnotationAssertion(dce:term_editor <http://purl.obolibrary.org/obo/FOVT_0001125> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001125> "radius diaphysis breadth"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001125> <http://purl.obolibrary.org/obo/PATO_0000921>)
-SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001125> <http://purl.obolibrary.org/obo/UBERON_0001028>)
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001125> <http://purl.obolibrary.org/obo/FOVT_0001158>)
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001126> (radius diaphysis depth)
 
@@ -1156,8 +1155,7 @@ AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "Eis
 AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/FOVT_0001126> "2021-06-02T23:39:12Z"^^xsd:dateTime)
 AnnotationAssertion(dce:term_editor <http://purl.obolibrary.org/obo/FOVT_0001126> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001126> "radius diaphysis depth"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001126> <http://purl.obolibrary.org/obo/PATO_0000921>)
-SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001126> <http://purl.obolibrary.org/obo/UBERON_0001028>)
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001126> <http://purl.obolibrary.org/obo/FOVT_0001158>)
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001127> (radius proximal articular breadth)
 
@@ -1475,11 +1473,12 @@ SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001157> <http://purl.obolibrary
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001158> (radius diaphysis width)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001158> "The width of the diaphysis of a radius."@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ORCID: 0000-0003-2699-3066"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001158> "The width of the diaphysis of a radius."@en)
 AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/FOVT_0001158> "2021-07-27T23:38:42Z"^^xsd:dateTime)
 AnnotationAssertion(dce:term_editor <http://purl.obolibrary.org/obo/FOVT_0001158> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001158> <http://purl.obolibrary.org/obo/IAO_0000423>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001158> "radius diaphysis width"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0001158> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000921> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0001028>)))
 
 # Class: <http://purl.obolibrary.org/obo/OBA_1000049> (pes length)
 
