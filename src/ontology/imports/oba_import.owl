@@ -3006,6 +3006,64 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OBA_0002847 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0002847">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000117"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001848"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0000015"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0000017"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0002177"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0003737"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001848"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>The size of a auricular cartilage.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>size of auricular cartilage</oboInOwl:hasExactSynonym>
+        <rdfs:label>auricular cartilage size</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OBA_0002847"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The size of a auricular cartilage.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>AUTO:patterns/patterns/entity_attribute</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OBA_0002847"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>size of auricular cartilage</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>AUTO:patterns/patterns/entity_attribute</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OBA_0002860 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0002860">
@@ -4102,6 +4160,47 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OBA_0003518"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>morphology of carpal bone</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>AUTO:patterns/patterns/entity_attribute</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBA_0003618 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0003618">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000117"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000014"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0000015"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0002096"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBA_0002168"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>The size of a zone of skin.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>size of zone of skin</oboInOwl:hasExactSynonym>
+        <rdfs:label>zone of skin size</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OBA_0003618"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The size of a zone of skin.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>AUTO:patterns/patterns/entity_attribute</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OBA_0003618"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>size of zone of skin</owl:annotatedTarget>
         <oboInOwl:hasDbXref>AUTO:patterns/patterns/entity_attribute</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -10649,6 +10748,59 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OBA_VT0002096 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_VT0002096">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000051"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000014"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0100003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000051"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBA_1000459"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0015066"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000014"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>The morphology of a zone of skin.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>morphology of zone of skin</oboInOwl:hasExactSynonym>
+        <rdfs:label>skin morphology trait</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0002096"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The morphology of a zone of skin.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>AUTO:patterns/patterns/entity_attribute</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0002096"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>morphology of zone of skin</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>AUTO:patterns/patterns/entity_attribute</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OBA_VT0002100 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_VT0002100">
@@ -10937,6 +11089,53 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0002160"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>morphology of reproductive system</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>AUTO:patterns/patterns/entity_attribute</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBA_VT0002177 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_VT0002177">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000051"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001757"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0100003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000051"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBA_0002845"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001757"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>The morphology of a pinna.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>morphology of pinna</oboInOwl:hasExactSynonym>
+        <rdfs:label>outer ear morphology trait</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0002177"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The morphology of a pinna.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>AUTO:patterns/patterns/entity_attribute</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0002177"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>morphology of pinna</owl:annotatedTarget>
         <oboInOwl:hasDbXref>AUTO:patterns/patterns/entity_attribute</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -14027,6 +14226,59 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OBA_VT1000425 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_VT1000425">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000128"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000014"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0100003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000128"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBA_1000459"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0001259"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000014"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>The weight of a zone of skin.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>weight of zone of skin</oboInOwl:hasExactSynonym>
+        <rdfs:label>skin mass</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OBA_VT1000425"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The weight of a zone of skin.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>AUTO:patterns/patterns/entity_attribute</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OBA_VT1000425"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>weight of zone of skin</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>AUTO:patterns/patterns/entity_attribute</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OBA_VT1000641 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_VT1000641">
@@ -14515,6 +14767,28 @@
         <oboInOwl:hasRelatedSynonym>tela submucosa</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>tunica submucosa</oboInOwl:hasRelatedSynonym>
         <rdfs:label>submucosa</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0000014 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000014">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004121"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0034944"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002097"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Any portion of the organ that covers that body and consists of a layer of epidermis and a layer of dermis.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>portion of skin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>region of skin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>skin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>skin region</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>skin zone</oboInOwl:hasExactSynonym>
+        <rdfs:label>zone of skin</rdfs:label>
     </owl:Class>
     
 
@@ -15992,6 +16266,70 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UBERON_0001084 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001084">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0000014"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000033"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0012180"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000033"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A zone of skin that is part of a head [Automatically generated definition].</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>adult head zone of skin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>head skin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>head zone of skin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>zone of skin of adult head</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>zone of skin of head</oboInOwl:hasExactSynonym>
+        <rdfs:label>skin of head</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0001085 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001085">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0000014"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002100"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000014"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002100"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A zone of skin that is part of a trunk [Automatically generated definition].</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>torso zone of skin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>trunk skin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>trunk zone of skin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>zone of skin of torso</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>zone of skin of trunk</oboInOwl:hasExactSynonym>
+        <rdfs:label>skin of trunk</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UBERON_0001091 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001091">
@@ -16065,6 +16403,67 @@
         <oboInOwl:hasRelatedSynonym>girdle - pelvic</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>pelvic girdle</oboInOwl:hasRelatedSynonym>
         <rdfs:label>pelvic girdle region</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0001415 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001415">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0000014"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002355"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0003836"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002355"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A zone of skin that is part of a pelvis [Automatically generated definition].</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>pelvic skin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>pelvis skin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>pelvis zone of skin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>zone of skin of pelvis</oboInOwl:hasExactSynonym>
+        <rdfs:label>skin of pelvis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0001419 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001419">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0000014"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002101"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000014"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002101"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A zone of skin that is part of a limb [Automatically generated definition].</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>limb skin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>limb zone of skin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>zone of skin of limb</oboInOwl:hasExactSynonym>
+        <rdfs:label>skin of limb</rdfs:label>
     </owl:Class>
     
 
@@ -16561,6 +16960,50 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UBERON_0001459 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001459">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0000014"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001691"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001084"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0010314"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001691"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001757"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A zone of skin that is part of a external ear [Automatically generated definition].</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>auricular region of head zone of skin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>auricular region zone of skin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>ear skin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>external ear skin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>external ear zone of skin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>outer ear zone of skin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>zone of skin of auricular region</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>zone of skin of auricular region of head</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>zone of skin of external ear</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>zone of skin of outer ear</oboInOwl:hasExactSynonym>
+        <rdfs:label>skin of external ear</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UBERON_0001460 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001460">
@@ -16627,6 +17070,228 @@
         <oboInOwl:hasBroadSynonym>sesamoid</oboInOwl:hasBroadSynonym>
         <oboInOwl:hasExactSynonym>ossa sesamoidea</oboInOwl:hasExactSynonym>
         <rdfs:label>sesamoid bone</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0001510 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001510">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0000014"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001465"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001511"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001465"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A zone of skin that is part of a knee [Automatically generated definition].</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>knee skin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>knee zone of skin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>zone of skin of knee</oboInOwl:hasExactSynonym>
+        <rdfs:label>skin of knee</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0001511 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001511">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0000014"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000978"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0003532"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000978"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A zone of skin that is part of a leg [Automatically generated definition].</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>leg skin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>leg zone of skin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>zone of skin of leg</oboInOwl:hasExactSynonym>
+        <rdfs:label>skin of leg</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0001512 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001512">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0000014"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004454"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001513"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004454"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A zone of skin that is part of an ankle [Automatically generated definition].</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>ankle skin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>ankle zone of skin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>tarsal region skin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>zone of skin of ankle</oboInOwl:hasExactSynonym>
+        <rdfs:label>skin of ankle</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0001513 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001513">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0000014"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002387"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0003532"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0015790"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002387"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A zone of skin that is part of a pes [Automatically generated definition].</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>autopod of hind limb zone of skin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>autopod of hindlimb zone of skin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>autopod of inferior member zone of skin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>autopod of lower extremity zone of skin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>distal free limb segment of hind limb zone of skin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>distal free limb segment of hindlimb zone of skin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>distal free limb segment of inferior member zone of skin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>distal free limb segment of lower extremity zone of skin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>foot skin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>foot zone of skin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>hind limb autopod zone of skin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>hind limb distal free limb segment zone of skin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>hindlimb autopod zone of skin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>hindlimb distal free limb segment zone of skin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>inferior member autopod zone of skin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>inferior member distal free limb segment zone of skin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>lower extremity autopod zone of skin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>lower extremity distal free limb segment zone of skin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>skin of foot</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>terminal segment of free lower limb zone of skin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>zone of skin of autopod of hind limb</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>zone of skin of autopod of hindlimb</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>zone of skin of autopod of inferior member</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>zone of skin of autopod of lower extremity</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>zone of skin of distal free limb segment of hind limb</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>zone of skin of distal free limb segment of hindlimb</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>zone of skin of distal free limb segment of inferior member</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>zone of skin of distal free limb segment of lower extremity</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>zone of skin of foot</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>zone of skin of hind limb autopod</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>zone of skin of hind limb distal free limb segment</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>zone of skin of hindlimb autopod</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>zone of skin of hindlimb distal free limb segment</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>zone of skin of inferior member autopod</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>zone of skin of inferior member distal free limb segment</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>zone of skin of lower extremity autopod</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>zone of skin of lower extremity distal free limb segment</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>zone of skin of terminal segment of free lower limb</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasNarrowSynonym>skin of hind-paw</oboInOwl:hasNarrowSynonym>
+        <rdfs:label>skin of pes</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0001518 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001518">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0000014"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004452"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001519"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004452"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A zone of skin that is part of a wrist [Automatically generated definition].</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>carpal region zone of skin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>wrist skin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>wrist zone of skin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>zone of skin of carpal region</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>zone of skin of wrist</oboInOwl:hasExactSynonym>
+        <rdfs:label>skin of wrist</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0001519 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001519">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0000014"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002398"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0003531"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0015790"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002398"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A zone of skin that is part of a manus [Automatically generated definition].</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>hand skin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>manus skin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>skin of hand</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasNarrowSynonym>skin of fore-paw</oboInOwl:hasNarrowSynonym>
+        <rdfs:label>skin of manus</rdfs:label>
     </owl:Class>
     
 
@@ -16776,6 +17441,76 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UBERON_0001757 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001757">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001444"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0010314"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001691"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002202"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0006208"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>The part of the ear that projects from the head, connecting to the external acoustic meatus.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>auricle</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>auricle of ear</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>auricle of external ear</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>auricula</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>auricula (auris externa)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>pinna of ear</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym>pinnae</oboInOwl:hasRelatedSynonym>
+        <rdfs:label>pinna</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0001848 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001848">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0034944"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001757"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001867"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0010314"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0034944"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001757"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001867"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>cartilage of the pinna and much of the external ear canal.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>cartilage of pinna</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>pinna cartilage</oboInOwl:hasExactSynonym>
+        <rdfs:label>auricular cartilage</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UBERON_0001867 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001867">
@@ -16864,6 +17599,28 @@
         <oboInOwl:hasRelatedSynonym>superficial fascia</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>tela subcutanea</oboInOwl:hasRelatedSynonym>
         <rdfs:label>hypodermis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0002075 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002075">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005177"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002100"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>An organ that is located within the body cavity (or in its extension, in the scrotum); it consists of organ parts that are embryologically derived from endoderm, splanchnic mesoderm or intermediate mesoderm; together with other organs, the viscus constitutes the respiratory, gastrointestinal, urinary, reproductive and immune systems, or is the central organ of the cardiovascular system. Examples: heart, lung, esophagus, kidney, ovary, spleen.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>visceral organ</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>visceral organ system</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym>Organsystem@ge</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>splanchnic tissue</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>viscera</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>visceral tissue</oboInOwl:hasRelatedSynonym>
+        <rdfs:label>viscus</rdfs:label>
     </owl:Class>
     
 
@@ -17498,6 +18255,38 @@
         <oboInOwl:hasExactSynonym>epithelium of mucosa of mouth</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>epithelium of oral mucosa</oboInOwl:hasExactSynonym>
         <rdfs:label>oral epithelium</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0002427 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002427">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0000014"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001460"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0003531"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001460"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A zone of skin that is part of an arm [Automatically generated definition].</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>brachial region skin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>proximal segment of free upper limb skin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>skin of arm</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>skin of brachial region</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>skin of proximal segment of free upper limb</oboInOwl:hasExactSynonym>
+        <rdfs:label>arm skin</rdfs:label>
     </owl:Class>
     
 
@@ -18600,6 +19389,47 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UBERON_0003325 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0003325">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0003104"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001757"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005253"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0010314"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001757"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Mesenchyme that is part of a developing pinna [Automatically generated definition].</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>auricle mesenchyme</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>auricle of ear mesenchyme</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>auricle of external ear mesenchyme</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>auricula (auris externa) mesenchyme</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>auricula mesenchyme</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>mesenchyme of auricle</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>mesenchyme of auricle of ear</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>mesenchyme of auricle of external ear</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>mesenchyme of auricula</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>mesenchyme of auricula (auris externa)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>mesenchyme of pinna of ear</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>pinna mesenchyme</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>pinna of ear mesenchyme</oboInOwl:hasExactSynonym>
+        <rdfs:label>mesenchyme of pinna</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UBERON_0003327 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0003327">
@@ -18820,6 +19650,66 @@
         </rdfs:subClassOf>
         <obo:IAO_0000115>An ectoderm that is part of a footplate.</obo:IAO_0000115>
         <rdfs:label>ectoderm of footplate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0003403 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0003403">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0000014"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002386"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002427"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002386"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A zone of skin that is part of a lower arm [Automatically generated definition].</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>antebrachial region skin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>arm middle limb segment skin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>arm zeugopod skin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>brachial region middle limb segment skin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>brachial region zeugopod skin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>forearm skin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>intermediate segment of free upper limb skin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>lower arm skin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>lower segment of arm skin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>middle limb segment of arm skin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>middle limb segment of brachial region skin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>middle limb segment of proximal segment of free upper limb skin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>proximal segment of free upper limb middle limb segment skin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>proximal segment of free upper limb zeugopod skin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>skin of antebrachial region</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>skin of arm middle limb segment</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>skin of arm zeugopod</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>skin of brachial region middle limb segment</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>skin of brachial region zeugopod</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>skin of intermediate segment of free upper limb</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>skin of lower arm</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>skin of lower segment of arm</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>skin of middle limb segment of arm</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>skin of middle limb segment of brachial region</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>skin of middle limb segment of proximal segment of free upper limb</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>skin of proximal segment of free upper limb middle limb segment</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>skin of proximal segment of free upper limb zeugopod</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>skin of zeugopod of arm</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>skin of zeugopod of brachial region</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>skin of zeugopod of proximal segment of free upper limb</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>zeugopod of arm skin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>zeugopod of brachial region skin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>zeugopod of proximal segment of free upper limb skin</oboInOwl:hasExactSynonym>
+        <rdfs:label>skin of forearm</rdfs:label>
     </owl:Class>
     
 
@@ -19284,6 +20174,81 @@
         <oboInOwl:hasExactSynonym>zeugopod of proximal segment of free upper limb bone organ</oboInOwl:hasExactSynonym>
         <oboInOwl:hasNarrowSynonym>wing zeugopod bone</oboInOwl:hasNarrowSynonym>
         <rdfs:label>forelimb zeugopod bone</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0003531 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0003531">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0000014"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002102"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001419"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002102"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A zone of skin that is part of a forelimb [Automatically generated definition].</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>anteriormost limb skin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>fore limb skin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>skin of anteriormost limb</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>skin of fore limb</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>skin of forelimb</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>skin of superior member</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>skin of upper extremity</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>skin of upper limb</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>superior member skin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>upper extremity skin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>upper limb skin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasNarrowSynonym>wing skin</oboInOwl:hasNarrowSynonym>
+        <rdfs:label>forelimb skin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0003532 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0003532">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0000014"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002103"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001419"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002103"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A zone of skin that is part of a hindlimb [Automatically generated definition].</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>hind limb skin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>inferior member skin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>lower extremity skin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>lower limb skin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>skin of hind limb</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>skin of hindlimb</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>skin of inferior member</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>skin of lower extremity</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>skin of lower limb</oboInOwl:hasExactSynonym>
+        <rdfs:label>hindlimb skin</rdfs:label>
     </owl:Class>
     
 
@@ -20574,6 +21539,35 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UBERON_0003836 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0003836">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0000014"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002417"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001085"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002417"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A skin of body that is part of an abdominal segment of trunk [Automatically generated definition].</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>abdominal segment of trunk skin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>skin of abdominal segment of trunk</oboInOwl:hasExactSynonym>
+        <rdfs:label>abdominal segment skin</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UBERON_0003838 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0003838">
@@ -21212,6 +22206,162 @@
         <oboInOwl:hasExactSynonym>zeugopod of lower extremity bone</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>zeugopod of lower extremity bone organ</oboInOwl:hasExactSynonym>
         <rdfs:label>hindlimb zeugopod bone</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0004262 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0004262">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0000014"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000376"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001511"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000376"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A zone of skin that is part of a hindlimb stylopod [Automatically generated definition].</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Proximal segment of free lower limb skin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>hind limb stylopod skin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>hindlimb stylopod skin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>inferior member stylopod skin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>lower extremity stylopod skin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>skin of Proximal segment of free lower limb</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>skin of hind limb stylopod</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>skin of hindlimb stylopod</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>skin of inferior member stylopod</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>skin of lower extremity stylopod</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>skin of stylopod of hind limb</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>skin of stylopod of hindlimb</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>skin of stylopod of inferior member</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>skin of stylopod of lower extremity</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>skin of stylopod of lower limb</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>skin of thigh</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>skin of upper leg</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>stylopod of hind limb skin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>stylopod of hindlimb skin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>stylopod of inferior member skin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>stylopod of lower extremity skin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>stylopod of lower limb skin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>thigh skin</oboInOwl:hasExactSynonym>
+        <rdfs:label>upper leg skin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0004263 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0004263">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0000014"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0003822"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002427"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0003822"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A zone of skin that is part of a forelimb stylopod [Automatically generated definition].</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Proximal segment of free upper limb skin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>arm stylopod skin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>brachial region stylopod skin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>proximal segment of free upper limb stylopod skin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>skin of Proximal segment of free upper limb</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>skin of arm stylopod</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>skin of brachial region stylopod</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>skin of proximal segment of free upper limb stylopod</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>skin of stylopod of arm</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>skin of stylopod of brachial region</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>skin of stylopod of proximal segment of free upper limb</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>skin of upper arm</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>stylopod of arm skin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>stylopod of brachial region skin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>stylopod of proximal segment of free upper limb skin</oboInOwl:hasExactSynonym>
+        <rdfs:label>upper arm skin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0004264 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0004264">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0000014"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0003823"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001511"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0003823"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A zone of skin that is part of a lower leg [Automatically generated definition].</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>hind limb middle limb segment skin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>hind limb zeugopod skin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>hindlimb middle limb segment skin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>hindlimb zeugopod skin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>inferior member middle limb segment skin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>inferior member zeugopod skin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>intermediate segment of free lower limb skin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>lower extremity middle limb segment skin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>lower extremity zeugopod skin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>middle limb segment of hind limb skin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>middle limb segment of hindlimb skin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>middle limb segment of inferior member skin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>middle limb segment of lower extremity skin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>skin of hind limb middle limb segment</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>skin of hind limb zeugopod</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>skin of hindlimb middle limb segment</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>skin of hindlimb zeugopod</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>skin of inferior member middle limb segment</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>skin of inferior member zeugopod</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>skin of intermediate segment of free lower limb</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>skin of lower extremity middle limb segment</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>skin of lower extremity zeugopod</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>skin of lower leg</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>skin of middle limb segment of hind limb</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>skin of middle limb segment of hindlimb</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>skin of middle limb segment of inferior member</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>skin of middle limb segment of lower extremity</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>skin of zeugopod of hind limb</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>skin of zeugopod of hindlimb</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>skin of zeugopod of inferior member</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>skin of zeugopod of leg</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>skin of zeugopod of lower extremity</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>zeugopod of hind limb skin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>zeugopod of hindlimb skin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>zeugopod of inferior member skin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>zeugopod of leg skin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>zeugopod of lower extremity skin</oboInOwl:hasExactSynonym>
+        <rdfs:label>lower leg skin</rdfs:label>
     </owl:Class>
     
 
@@ -24545,6 +25695,32 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UBERON_0006208 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0006208">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000477"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000922"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001691"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A collection of protruberances derived from pharyngeal arches 1 and 2 that develop into the folds of the pinna and gradually shift upwards and backwards to their final position on the head.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>auditory hillock of Hiss</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym>auditory tubercles</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>auricular hillock</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>hillock of Hiss</oboInOwl:hasRelatedSynonym>
+        <rdfs:label>auditory hillocks</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UBERON_0006210 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0006210">
@@ -25218,6 +26394,34 @@
         <oboInOwl:hasRelatedSynonym>cranial mesoderm</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>head mesoderm</oboInOwl:hasRelatedSynonym>
         <rdfs:label>head mesenchyme from mesoderm</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0006938 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0006938">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0000483"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001757"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0010314"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0015814"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001757"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>An epithelium that is part of a pinna.</obo:IAO_0000115>
+        <rdfs:label>pinna surface epithelium</rdfs:label>
     </owl:Class>
     
 
@@ -29307,6 +30511,33 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UBERON_0012180 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0012180">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0000014"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0007811"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000014"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0007811"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A zone of skin that is part of a craniocervical region.</obo:IAO_0000115>
+        <rdfs:label>head or neck skin</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UBERON_0012274 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0012274">
@@ -31394,6 +32625,34 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UBERON_0015790 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0015790">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0000014"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002470"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001419"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002470"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A zone of skin that is part of a autopod region.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym>paw skin</oboInOwl:hasRelatedSynonym>
+        <rdfs:label>autopod skin</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UBERON_0015807 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0015807">
@@ -31592,6 +32851,43 @@
         </rdfs:subClassOf>
         <obo:IAO_0000115>A odontogenic mesenchyme that is part of a incisor tooth.</obo:IAO_0000115>
         <rdfs:label>incisor mesenchyme</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0016611 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0016611">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0000477"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0006208"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002202"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004362"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000477"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0006208"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002202"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004362"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A collection of protruberances derived from pharyngeal arch 1 that develop into the tragus, crus of the helix, and helix.</obo:IAO_0000115>
+        <rdfs:label>auditory hillocks, pharyngeal arch 1 derived</rdfs:label>
     </owl:Class>
     
 
@@ -31914,6 +33210,33 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UBERON_0019204 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0019204">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0000483"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000014"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0010371"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000014"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Any region of epithelium that is part of a skin region.</obo:IAO_0000115>
+        <rdfs:label>skin epithelium</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UBERON_0019304 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0019304">
@@ -32129,6 +33452,35 @@
         <oboInOwl:hasExactSynonym>primitive mouth</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>primordial mouth</oboInOwl:hasExactSynonym>
         <rdfs:label>future mouth</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_1000021 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_1000021">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0000014"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001456"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001084"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001456"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A zone of skin that is part of the face.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>face skin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym>facial skin</oboInOwl:hasRelatedSynonym>
+        <rdfs:label>skin of face</rdfs:label>
     </owl:Class>
     
 
@@ -34920,6 +36272,36 @@
                 <owl:someValuesFrom>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000014"/>
+                    </owl:Restriction>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:intersectionOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000051"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000014"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000051"/>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                <owl:someValuesFrom>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000026"/>
                     </owl:Restriction>
                 </owl:someValuesFrom>
@@ -36165,6 +37547,36 @@
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
                                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001708"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000051"/>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                <owl:someValuesFrom>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001757"/>
+                    </owl:Restriction>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:intersectionOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000051"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001757"/>
                             </owl:Restriction>
                         </owl:intersectionOf>
                     </owl:Class>
@@ -38250,6 +39662,36 @@
                 <owl:someValuesFrom>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000014"/>
+                    </owl:Restriction>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:intersectionOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000117"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000014"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000117"/>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                <owl:someValuesFrom>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000025"/>
                     </owl:Restriction>
                 </owl:someValuesFrom>
@@ -39195,6 +40637,36 @@
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
                                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001708"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000117"/>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                <owl:someValuesFrom>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001848"/>
+                    </owl:Restriction>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:intersectionOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000117"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001848"/>
                             </owl:Restriction>
                         </owl:intersectionOf>
                     </owl:Class>
@@ -42105,6 +43577,36 @@
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
                                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0035116"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000128"/>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                <owl:someValuesFrom>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000014"/>
+                    </owl:Restriction>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:intersectionOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000128"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000014"/>
                             </owl:Restriction>
                         </owl:intersectionOf>
                     </owl:Class>
