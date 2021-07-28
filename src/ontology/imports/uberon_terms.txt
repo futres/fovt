@@ -160,4 +160,4 @@ UBERON:0018667 #neck of scapula
 UBERON:0006657 #glenoid cavity
 UBERON:0004651 #scapula spine
 UBERON:0002097 #skin of body
-
+UBERON:0006810 #olecranon
