@@ -1489,16 +1489,16 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001159> "vi
 EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0001159> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000128> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002075>)))
 SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001159> <http://purl.obolibrary.org/obo/OBA_VT0001259>)
 
-# Class: <http://purl.obolibrary.org/obo/FOVT_0001160> (skin mass)
+# Class: <http://purl.obolibrary.org/obo/FOVT_0001160> (obsolete skin mass)
 
-AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "ORCID: 0000-0003-2699-3066"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001160> "The mass of the skin of an organism."@en)
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "ORCID: 0000-0003-2699-3066"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001160> "OBSOLETE The mass of the skin of an organism."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/FOVT_0001160> <http://purl.obolibrary.org/obo/OBA_VT1000425>)
 AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/FOVT_0001160> "2021-07-27T23:59:50Z"^^xsd:dateTime)
 AnnotationAssertion(dce:term_editor <http://purl.obolibrary.org/obo/FOVT_0001160> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/FOVT_0001160> <http://purl.obolibrary.org/obo/IAO_0000423>)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001160> "skin mass"@en)
-EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0001160> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000128> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002097>)))
-SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001160> <http://purl.obolibrary.org/obo/OBA_0002168>)
-SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001160> <http://purl.obolibrary.org/obo/OBA_VT0001259>)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/FOVT_0001160> "Term already exists."^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001160> "obsolete skin mass"@en)
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/FOVT_0001160> "true"^^xsd:boolean)
 
 # Class: <http://purl.obolibrary.org/obo/OBA_1000049> (pes length)
 

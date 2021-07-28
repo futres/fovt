@@ -45,3 +45,4 @@ OBA:VT0000149	#scapula morphology trait
 OBA:VT0004343	#scapula size trait
 OBA:VT0004340	#scapula length
 OBA:VT1000425	#skin mass
+OBA:VT1000062	#chest circumference
