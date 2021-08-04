@@ -221,7 +221,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0000005> <http://purl.obolibrary
 # Class: <http://purl.obolibrary.org/obo/FOVT_0000006> (femur length from greater trochanter to medial condyle)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0000006> <http://purl.obolibrary.org/obo/IAO_0000423>)
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "von den Driesch, Angela. A guide to the measurement of animal bones from archaeological sites: as developed by the Institut für Palaeoanatomie, Domestikationsforschung und Geschichte der Tiermedizin of the University of Munich . Vol. 1. Peabody Museum Press, 1976."@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0000006> "The length of a line of a femur from a medial condyle of a femur to a greater trochanter of a femur.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9004086161, 9789004086166"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0000006> "The length of a line of a femur from a medial condyle of a femur to a greater trochanter of a femur.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/FOVT_0000006> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <http://purl.obolibrary.org/obo/FOVT_0000006> "femur greatest length"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <http://purl.obolibrary.org/obo/FOVT_0000006> "femur length")
@@ -231,7 +231,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0000006> <http://purl.obolibrary
 # Class: <http://purl.obolibrary.org/obo/FOVT_0000007> (femur length from caput to medial condyle)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0000007> <http://purl.obolibrary.org/obo/IAO_0000423>)
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "von den Driesch, Angela. A guide to the measurement of animal bones from archaeological sites: as developed by the Institut für Palaeoanatomie, Domestikationsforschung und Geschichte der Tiermedizin of the University of Munich . Vol. 1. Peabody Museum Press, 1976."@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0000007> "The length of a line of a femur from a medial condyle of a femur to a head of a femur.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9004086161, 9789004086166"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0000007> "The length of a line of a femur from a medial condyle of a femur to a head of a femur.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/FOVT_0000007> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <http://purl.obolibrary.org/obo/FOVT_0000007> "femur length")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0000007> "femur length from caput to medial condyle"@en)
@@ -240,7 +240,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0000007> <http://purl.obolibrary
 # Class: <http://purl.obolibrary.org/obo/FOVT_0000008> (humerus length from trochlea to caput)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0000008> <http://purl.obolibrary.org/obo/IAO_0000423>)
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988."@en) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "von den Driesch, Angela. A guide to the measurement of animal bones from archaeological sites: as developed by the Institut für Palaeoanatomie, Domestikationsforschung und Geschichte der Tiermedizin of the University of Munich . Vol. 1. Peabody Museum Press, 1976."@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0000008> "The length of a line of a trochlea of a humerus to a proximal head of a humerus.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9004086161, 9789004086166"@en) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9780873659505"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0000008> "The length of a line of a trochlea of a humerus to a proximal head of a humerus.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/FOVT_0000008> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <http://purl.obolibrary.org/obo/FOVT_0000008> "humerus length")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <http://purl.obolibrary.org/obo/FOVT_0000008> "humerus length to caput"@en)
@@ -250,7 +250,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0000008> <http://purl.obolibrary
 # Class: <http://purl.obolibrary.org/obo/FOVT_0000009> (humerus length from trochlea to ventral tubercle)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0000009> <http://purl.obolibrary.org/obo/IAO_0000423>)
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988."@en) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "von den Driesch, Angela. A guide to the measurement of animal bones from archaeological sites: as developed by the Institut für Palaeoanatomie, Domestikationsforschung und Geschichte der Tiermedizin of the University of Munich . Vol. 1. Peabody Museum Press, 1976."@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0000009> "The length of a line of a trochlea of a humerus to a ventral tubercle of a humerus.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9004086161, 9789004086166"@en) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9780873659505"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0000009> "The length of a line of a trochlea of a humerus to a ventral tubercle of a humerus.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/FOVT_0000009> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <http://purl.obolibrary.org/obo/FOVT_0000009> "humerus greatest length"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <http://purl.obolibrary.org/obo/FOVT_0000009> "humerus length")
@@ -284,7 +284,7 @@ AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/FOVT_0000012>
 # Class: <http://purl.obolibrary.org/obo/FOVT_0000013> (talus lateral length)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0000013> <http://purl.obolibrary.org/obo/IAO_0000423>)
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "von den Driesch, Angela. A guide to the measurement of animal bones from archaeological sites: as developed by the Institut für Palaeoanatomie, Domestikationsforschung und Geschichte der Tiermedizin of the University of Munich . Vol. 1. Peabody Museum Press, 1976."@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0000013> "The length of the lateral side of a talus along the proximal-distal axis (in animals) or anterior-posterior axis (in humans)."@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9780873659505"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0000013> "The length of the lateral side of a talus along the proximal-distal axis (in animals) or anterior-posterior axis (in humans)."@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/FOVT_0000013> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0000013> "astragalus length lateral"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0000013> "talus lateral length"@en)
@@ -314,7 +314,7 @@ AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/FOVT_0000015>
 # Class: <http://purl.obolibrary.org/obo/FOVT_0000016> (talus medial length)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0000016> <http://purl.obolibrary.org/obo/IAO_0000423>)
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "von den Driesch, Angela. A guide to the measurement of animal bones from archaeological sites: as developed by the Institut für Palaeoanatomie, Domestikationsforschung und Geschichte der Tiermedizin of the University of Munich . Vol. 1. Peabody Museum Press, 1976."@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0000016> "The length of the medial side of a talus along the proximal-distal axis (non-plantigrade) or anterior-posterior axis (plantigrade)."@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9780873659505"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0000016> "The length of the medial side of a talus along the proximal-distal axis (non-plantigrade) or anterior-posterior axis (plantigrade)."@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/FOVT_0000016> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0000016> "astragalus medial length"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0000016> "talus medial length"@en)
@@ -324,7 +324,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0000016> ObjectSomeValuesFrom(<h
 # Class: <http://purl.obolibrary.org/obo/FOVT_0000017> (talus distal articular breadth (non-plantigrade))
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0000017> <http://purl.obolibrary.org/obo/IAO_0000423>)
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988."@en) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "von den Driesch, Angela. A guide to the measurement of animal bones from archaeological sites: as developed by the Institut für Palaeoanatomie, Domestikationsforschung und Geschichte der Tiermedizin of the University of Munich . Vol. 1. Peabody Museum Press, 1976."@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0000017> "The length of a line between the medial-most point on the articular surface for the calcaneum on the astragalus to the lateral-most point of the trochleated head of an astragalus."@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9004086161, 9789004086166"@en) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9780873659505"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0000017> "The length of a line between the medial-most point on the articular surface for the calcaneum on the astragalus to the lateral-most point of the trochleated head of an astragalus."@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/FOVT_0000017> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0000017> "astragalus distal articular breadth (non-plantigrade)"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0000017> "astragalus distal articular width ML (non-plantigrade)"@en)
@@ -339,7 +339,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0000017> ObjectSomeValuesFrom(<h
 # Class: <http://purl.obolibrary.org/obo/FOVT_0000018> (talus distal articular depth (non-plantigrade))
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0000018> <http://purl.obolibrary.org/obo/IAO_0000423>)
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988."@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0000018> "Length of the distal end of an astragalus along the anterior-posterior axis (non-plantigrade) or proximal-distal axis (plantigrade)."@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9004086161, 9789004086166"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0000018> "Length of the distal end of an astragalus along the anterior-posterior axis (non-plantigrade) or proximal-distal axis (plantigrade)."@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/FOVT_0000018> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0000018> "astragalus distal articular depth (non-plantigrade)"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0000018> "astragalus distal articular width AP (non-plantigrade)"@en)
@@ -353,7 +353,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0000018> <http://purl.obolibrary
 # Class: <http://purl.obolibrary.org/obo/FOVT_0000020> (talus length)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0000020> <http://purl.obolibrary.org/obo/IAO_0000423>)
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "von den Driesch, Angela. A guide to the measurement of animal bones from archaeological sites: as developed by the Institut für Palaeoanatomie, Domestikationsforschung und Geschichte der Tiermedizin of the University of Munich . Vol. 1. Peabody Museum Press, 1976."@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0000020> "The length of a talus along the proximal-distal axis (non-plantigrade) or anterior-posterior axis (plantigrade)."@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9780873659505"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0000020> "The length of a talus along the proximal-distal axis (non-plantigrade) or anterior-posterior axis (plantigrade)."@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/FOVT_0000020> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0000020> "astragulus length"@en)
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#reference> "von den Driesch, Angela. A guide to the measurement of animal bones from archaeological sites: as developed by the Institut für Palaeoanatomie, Domestikationsforschung und Geschichte der Tiermedizin of the University of Munich . Vol. 1. Peabody Museum Press, 1976."@en) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0000020> "talus height"@en)
@@ -366,7 +366,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0000020> ObjectSomeValuesFrom(<h
 # Class: <http://purl.obolibrary.org/obo/FOVT_0000021> (talus breadth)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0000021> <http://purl.obolibrary.org/obo/IAO_0000423>)
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988."@en) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "von den Driesch, Angela. A guide to the measurement of animal bones from archaeological sites: as developed by the Institut für Palaeoanatomie, Domestikationsforschung und Geschichte der Tiermedizin of the University of Munich . Vol. 1. Peabody Museum Press, 1976."@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0000021> "The width of a talus along the medial-lateral axis.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9004086161, 9789004086166"@en) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9780873659505"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0000021> "The width of a talus along the medial-lateral axis.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/FOVT_0000021> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0000021> "astragalus breadth")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0000021> "astragalus width ML")
@@ -378,7 +378,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0000021> ObjectSomeValuesFrom(<h
 # Class: <http://purl.obolibrary.org/obo/FOVT_0000022> (calcaneus length)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0000022> <http://purl.obolibrary.org/obo/IAO_0000423>)
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988."@en) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "von den Driesch, Angela. A guide to the measurement of animal bones from archaeological sites: as developed by the Institut für Palaeoanatomie, Domestikationsforschung und Geschichte der Tiermedizin of the University of Munich . Vol. 1. Peabody Museum Press, 1976."@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0000022> "The maximal length of a calcaneus along the proximal-distal axis (non-plantigrade) or anterior-posterior axis (plantigrade)."@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9004086161, 9789004086166"@en) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9780873659505"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0000022> "The maximal length of a calcaneus along the proximal-distal axis (non-plantigrade) or anterior-posterior axis (plantigrade)."@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/FOVT_0000022> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0000022> "calcaneus length"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0000022> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000122> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0001450>)))
@@ -386,7 +386,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0000022> ObjectIntersecti
 # Class: <http://purl.obolibrary.org/obo/FOVT_0000023> (calcaneus distal breadth (non-plantigrade))
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0000023> <http://purl.obolibrary.org/obo/IAO_0000423>)
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988."@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0000023> "The width of a caclcaneus along the medial-lateral axis of the distal end (non-plantigrade) or anterior end (plantigrade)."@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9004086161, 9789004086166"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0000023> "The width of a caclcaneus along the medial-lateral axis of the distal end (non-plantigrade) or anterior end (plantigrade)."@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/FOVT_0000023> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0000023> "calcaneus anterior breadth (plantigrade)"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0000023> "calcaneus anterior width ML (plantigrade)"@en)
@@ -397,7 +397,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0000023> <http://purl.obolibrary
 # Class: <http://purl.obolibrary.org/obo/FOVT_0000025> (tibia lateral length)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0000025> <http://purl.obolibrary.org/obo/IAO_0000423>)
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "von den Driesch, Angela. A guide to the measurement of animal bones from archaeological sites: as developed by the Institut für Palaeoanatomie, Domestikationsforschung und Geschichte der Tiermedizin of the University of Munich . Vol. 1. Peabody Museum Press, 1976."@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0000025> "The length of a tibia on the lateral side of a tibia along the proximal-distal axis (in animals) or anterior-posterior axis (in humans)."@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9780873659505"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0000025> "The length of a tibia on the lateral side of a tibia along the proximal-distal axis (in animals) or anterior-posterior axis (in humans)."@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/FOVT_0000025> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0000025> "tibia lateral length"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0000025> <http://purl.obolibrary.org/obo/OBA_VT0004357>)
@@ -470,7 +470,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001003> <http://purl.obolibrary
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001004> (tibia distal breadth)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0001004> <http://purl.obolibrary.org/obo/IAO_0000423>)
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988."@en) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "von den Driesch, Angela. A guide to the measurement of animal bones from archaeological sites: as developed by the Institut für Palaeoanatomie, Domestikationsforschung und Geschichte der Tiermedizin of the University of Munich . Vol. 1. Peabody Museum Press, 1976."@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001004> "The width of a tibia at the distal end along the medial-lateral axis."@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9004086161, 9789004086166"@en) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9780873659505"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001004> "The width of a tibia at the distal end along the medial-lateral axis."@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/FOVT_0001004> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/FOVT_0001004> "2021-02-05T00:08:49Z"^^xsd:dateTime)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001004> "tibia distal width ML"@en)
@@ -480,7 +480,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001004> <http://purl.obolibrary
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001005> (tibia distal depth)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0001005> <http://purl.obolibrary.org/obo/IAO_0000423>)
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988."@en) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "von den Driesch, Angela. A guide to the measurement of animal bones from archaeological sites: as developed by the Institut für Palaeoanatomie, Domestikationsforschung und Geschichte der Tiermedizin of the University of Munich . Vol. 1. Peabody Museum Press, 1976."@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001005> "The width of a tibia at the distal end along the anterior-posterior axis (in animals) or proximal-distal axis (in humans)."@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9004086161, 9789004086166"@en) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9780873659505"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001005> "The width of a tibia at the distal end along the anterior-posterior axis (in animals) or proximal-distal axis (in humans)."@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/FOVT_0001005> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/FOVT_0001005> "2021-02-05T00:09:47Z"^^xsd:dateTime)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001005> "tibia distal width AP"@en)
@@ -492,7 +492,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001005> ObjectSomeValuesFrom(<h
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001006> (tibia proximal breadth)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0001006> <http://purl.obolibrary.org/obo/IAO_0000423>)
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988."@en) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "von den Driesch, Angela. A guide to the measurement of animal bones from archaeological sites: as developed by the Institut für Palaeoanatomie, Domestikationsforschung und Geschichte der Tiermedizin of the University of Munich . Vol. 1. Peabody Museum Press, 1976."@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001006> "The width of a tibia at the proximal end along the medial-lateral axis."@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9004086161, 9789004086166"@en) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9780873659505"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001006> "The width of a tibia at the proximal end along the medial-lateral axis."@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/FOVT_0001006> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/FOVT_0001006> "2021-02-05T00:10:13Z"^^xsd:dateTime)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001006> "tibia proximal width ML"@en)
@@ -502,7 +502,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001006> <http://purl.obolibrary
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001007> (tibia proximal depth)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0001007> <http://purl.obolibrary.org/obo/IAO_0000423>)
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "Cantryll-Stewart, R. 2018. A Discernment of Prey Selection by the Ancient Maya."@en) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988."@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001007> "The width of a tibia at the proximal end along the anterior-posterior axis (in animals) or proximal-distal axis (in humans)."@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9004086161, 9789004086166"@en) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://eprints.nottingham.ac.uk/50198/"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001007> "The width of a tibia at the proximal end along the anterior-posterior axis (in animals) or proximal-distal axis (in humans)."@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/FOVT_0001007> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/FOVT_0001007> "2021-02-05T00:10:31Z"^^xsd:dateTime)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001007> "tibia proximal width AP"@en)
@@ -512,7 +512,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001007> <http://purl.obolibrary
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001008> (tibia diaphysis breadth)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0001008> <http://purl.obolibrary.org/obo/IAO_0000423>)
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988."@en) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "von den Driesch, Angela. A guide to the measurement of animal bones from archaeological sites: as developed by the Institut für Palaeoanatomie, Domestikationsforschung und Geschichte der Tiermedizin of the University of Munich . Vol. 1. Peabody Museum Press, 1976."@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001008> "The width of a shaft or diaphysis of a tibia along the medial-lateral axis."@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9004086161, 9789004086166"@en) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9780873659505"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001008> "The width of a shaft or diaphysis of a tibia along the medial-lateral axis."@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/FOVT_0001008> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/FOVT_0001008> "2021-02-05T00:16:17Z"^^xsd:dateTime)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001008> "tibia diaphysis width ML"@en)
@@ -522,7 +522,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001008> <http://purl.obolibrary
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001009> (tibia diaphysis depth)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0001009> <http://purl.obolibrary.org/obo/IAO_0000423>)
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988."@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001009> "The width of a shaft or diaphysis of a tibia along the anterior-posterior axis (in animals) or proximal-distal axis (in humans)."@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9004086161, 9789004086166"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001009> "The width of a shaft or diaphysis of a tibia along the anterior-posterior axis (in animals) or proximal-distal axis (in humans)."@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/FOVT_0001009> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/FOVT_0001009> "2021-02-05T00:16:59Z"^^xsd:dateTime)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001009> "tibia diaphysis width AP"@en)
@@ -532,7 +532,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001009> <http://purl.obolibrary
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001021> (tibia medial length)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0001021> <http://purl.obolibrary.org/obo/IAO_0000423>)
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988."@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001021> "The length of a tibia on the medial side along the proximal-distal axis (in animals) or anterior-posterior axis (in humans)."@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9004086161, 9789004086166"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001021> "The length of a tibia on the medial side along the proximal-distal axis (in animals) or anterior-posterior axis (in humans)."@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/FOVT_0001021> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/FOVT_0001021> "2021-02-10T21:45:47Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001021> "tibia medial length"@en)
@@ -552,7 +552,7 @@ AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/FOVT_0001022>
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001023> (tibia diaphysis circumference)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0001023> <http://purl.obolibrary.org/obo/IAO_0000423>)
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "von den Driesch, Angela. A guide to the measurement of animal bones from archaeological sites: as developed by the Institut für Palaeoanatomie, Domestikationsforschung und Geschichte der Tiermedizin of the University of Munich . Vol. 1. Peabody Museum Press, 1976."@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001023> "The circumference of the diaphysis of a tibia."@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9780873659505"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001023> "The circumference of the diaphysis of a tibia."@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/FOVT_0001023> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/FOVT_0001023> "2021-02-10T21:58:04Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001023> "tibia diaphysis circumference"@en)
@@ -561,7 +561,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001023> <http://purl.obolibrary
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001024> (femur proximal breadth)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0001024> <http://purl.obolibrary.org/obo/IAO_0000423>)
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988."@en) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "von den Driesch, Angela. A guide to the measurement of animal bones from archaeological sites: as developed by the Institut für Palaeoanatomie, Domestikationsforschung und Geschichte der Tiermedizin of the University of Munich . Vol. 1. Peabody Museum Press, 1976."@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001024> "The width of the proximal end of a femur along the medial-lateral axis."@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9004086161, 9789004086166"@en) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9780873659505"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001024> "The width of the proximal end of a femur along the medial-lateral axis."@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/FOVT_0001024> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/FOVT_0001024> "2021-02-10T22:28:39Z"^^xsd:dateTime)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001024> "femur proximal width ML"@en)
@@ -571,7 +571,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001024> <http://purl.obolibrary
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001025> (femur trochanter breadth)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0001025> <http://purl.obolibrary.org/obo/IAO_0000423>)
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "von den Driesch, Angela. A guide to the measurement of animal bones from archaeological sites: as developed by the Institut für Palaeoanatomie, Domestikationsforschung und Geschichte der Tiermedizin of the University of Munich . Vol. 1. Peabody Museum Press, 1976."@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001025> "The width of the trochanter of a femur along the medial-lateral axis."@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9780873659505"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001025> "The width of the trochanter of a femur along the medial-lateral axis."@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/FOVT_0001025> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/FOVT_0001025> "2021-02-10T22:32:15Z"^^xsd:dateTime)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001025> "femur trochanter width ML"@en)
@@ -581,7 +581,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001025> <http://purl.obolibrary
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001026> (femur caput depth)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0001026> <http://purl.obolibrary.org/obo/IAO_0000423>)
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988."@en) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "von den Driesch, Angela. A guide to the measurement of animal bones from archaeological sites: as developed by the Institut für Palaeoanatomie, Domestikationsforschung und Geschichte der Tiermedizin of the University of Munich . Vol. 1. Peabody Museum Press, 1976."@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001026> "The width of the caput of a femur along the anterior-posterior axis."@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9004086161, 9789004086166"@en) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9780873659505"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001026> "The width of the caput of a femur along the anterior-posterior axis."@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/FOVT_0001026> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/FOVT_0001026> "2021-02-10T22:33:22Z"^^xsd:dateTime)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001026> "femur caput width AP"@en)
@@ -591,7 +591,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001026> <http://purl.obolibrary
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001027> (femur diaphysis breadth)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0001027> <http://purl.obolibrary.org/obo/IAO_0000423>)
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988."@en) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "von den Driesch, Angela. A guide to the measurement of animal bones from archaeological sites: as developed by the Institut für Palaeoanatomie, Domestikationsforschung und Geschichte der Tiermedizin of the University of Munich . Vol. 1. Peabody Museum Press, 1976."@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001027> "The width of the diaphysis of a femur along the medial-lateral axis."@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9004086161, 9789004086166"@en) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9780873659505"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001027> "The width of the diaphysis of a femur along the medial-lateral axis."@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/FOVT_0001027> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/FOVT_0001027> "2021-02-10T22:35:17Z"^^xsd:dateTime)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001027> "femur diaphysis width ML"@en)
@@ -601,7 +601,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001027> <http://purl.obolibrary
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001028> (femur diaphysis circumference)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0001028> <http://purl.obolibrary.org/obo/IAO_0000423>)
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "von den Driesch, Angela. A guide to the measurement of animal bones from archaeological sites: as developed by the Institut für Palaeoanatomie, Domestikationsforschung und Geschichte der Tiermedizin of the University of Munich . Vol. 1. Peabody Museum Press, 1976."@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001028> "The circumference of the diaphysis of a femur."@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9780873659505"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001028> "The circumference of the diaphysis of a femur."@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/FOVT_0001028> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/FOVT_0001028> "2021-02-10T22:36:50Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001028> "femur diaphysis circumference"@en)
@@ -610,7 +610,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001028> <http://purl.obolibrary
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001029> (femur distal breadth)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0001029> <http://purl.obolibrary.org/obo/IAO_0000423>)
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988."@en) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "von den Driesch, Angela. A guide to the measurement of animal bones from archaeological sites: as developed by the Institut für Palaeoanatomie, Domestikationsforschung und Geschichte der Tiermedizin of the University of Munich . Vol. 1. Peabody Museum Press, 1976."@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001029> "The width of the distal end of a femur along the medial-lateral axis."@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9004086161, 9789004086166"@en) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9780873659505"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001029> "The width of the distal end of a femur along the medial-lateral axis."@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/FOVT_0001029> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/FOVT_0001029> "2021-02-10T22:37:49Z"^^xsd:dateTime)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001029> "femur distal width ML"@en)
@@ -620,7 +620,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001029> <http://purl.obolibrary
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001030> (femur proximal depth)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0001030> <http://purl.obolibrary.org/obo/IAO_0000423>)
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988.") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001030> "The width of the proximal end of a femur along the anterior-posterior axis."@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9004086161, 9789004086166"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001030> "The width of the proximal end of a femur along the anterior-posterior axis."@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/FOVT_0001030> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/FOVT_0001030> "2021-02-10T22:44:52Z"^^xsd:dateTime)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001030> "femur proximal width AP"@en)
@@ -630,7 +630,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001030> <http://purl.obolibrary
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001031> (femur distal depth)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0001031> <http://purl.obolibrary.org/obo/IAO_0000423>)
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988."@en) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "von den Driesch, Angela. A guide to the measurement of animal bones from archaeological sites: as developed by the Institut für Palaeoanatomie, Domestikationsforschung und Geschichte der Tiermedizin of the University of Munich . Vol. 1. Peabody Museum Press, 1976."@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001031> "The width of the distal end of a femur along the anterior-posterior axis."@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9004086161, 9789004086166"@en) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9780873659505"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001031> "The width of the distal end of a femur along the anterior-posterior axis."@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/FOVT_0001031> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/FOVT_0001031> "2021-02-10T22:46:33Z"^^xsd:dateTime)
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988."@en) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001031> "femur distal width AP"@en)
@@ -640,7 +640,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001031> <http://purl.obolibrary
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001032> (femur trochlea breadth)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0001032> <http://purl.obolibrary.org/obo/IAO_0000423>)
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988."@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001032> "The width of the trochlea of a femur along the medial-lateral axis."@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9004086161, 9789004086166"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001032> "The width of the trochlea of a femur along the medial-lateral axis."@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/FOVT_0001032> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/FOVT_0001032> "2021-02-10T22:47:31Z"^^xsd:dateTime)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001032> "femur trochlea width ML"@en)
@@ -650,7 +650,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001032> <http://purl.obolibrary
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001033> (femur diaphysis depth)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0001033> <http://purl.obolibrary.org/obo/IAO_0000423>)
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988."@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001033> "The width of the diaphysis of a femur along the anterior-posterior axis."@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9004086161, 9789004086166"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001033> "The width of the diaphysis of a femur along the anterior-posterior axis."@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/FOVT_0001033> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/FOVT_0001033> "2021-02-10T22:52:48Z"^^xsd:dateTime)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001033> "femur diaphysis width AP"@en)
@@ -660,7 +660,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001033> <http://purl.obolibrary
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001034> (humerus diaphysis breadth)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0001034> <http://purl.obolibrary.org/obo/IAO_0000423>)
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988."@en) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "Scott, Kathleen Marie. Allometric trends and locomotor adaptations in the Bovidae. Bulletin of the AMNH. Vol. 179, Article 2, 1985."@en) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "von den Driesch, Angela. A guide to the measurement of animal bones from archaeological sites: as developed by the Institut für Palaeoanatomie, Domestikationsforschung und Geschichte der Tiermedizin of the University of Munich . Vol. 1. Peabody Museum Press, 1976."@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001034> "The width of the diaphysis of a humerus along the medial-lateral axis."@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9004086161, 9789004086166"@en) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9780873659505"@en) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "URI: http://hdl.handle.net/2246/1005"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001034> "The width of the diaphysis of a humerus along the medial-lateral axis."@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/FOVT_0001034> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/FOVT_0001034> "2021-02-10T22:56:30Z"^^xsd:dateTime)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001034> "humerus diaphysis width ML"@en)
@@ -670,7 +670,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001034> <http://purl.obolibrary
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001035> (humerus proximal breadth)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0001035> <http://purl.obolibrary.org/obo/IAO_0000423>)
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988."@en) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "von den Driesch, Angela. A guide to the measurement of animal bones from archaeological sites: as developed by the Institut für Palaeoanatomie, Domestikationsforschung und Geschichte der Tiermedizin of the University of Munich . Vol. 1. Peabody Museum Press, 1976."@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001035> "The width of the proximal end of a humerus along the medial-lateral axis."@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9004086161, 9789004086166"@en) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9780873659505"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001035> "The width of the proximal end of a humerus along the medial-lateral axis."@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/FOVT_0001035> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/RO_0002161> <http://purl.obolibrary.org/obo/FOVT_0001035> "Canidae"@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/RO_0002161> <http://purl.obolibrary.org/obo/FOVT_0001035> "Lagomorpha"@en)
@@ -682,7 +682,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001035> <http://purl.obolibrary
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001036> (humerus trochlea breadth)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0001036> <http://purl.obolibrary.org/obo/IAO_0000423>)
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988."@en) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "Scott, Kathleen Marie. Allometric trends and locomotor adaptations in the Bovidae. Bulletin of the AMNH. Vol. 179, Article 2, 1985."@en) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "von den Driesch, Angela. A guide to the measurement of animal bones from archaeological sites: as developed by the Institut für Palaeoanatomie, Domestikationsforschung und Geschichte der Tiermedizin of the University of Munich . Vol. 1. Peabody Museum Press, 1976."@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001036> "The width of the trochlea of a humerus along the medial-lateral axis."@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9004086161, 9789004086166"@en) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9780873659505"@en) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "URI: http://hdl.handle.net/2246/1005"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001036> "The width of the trochlea of a humerus along the medial-lateral axis."@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/FOVT_0001036> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/FOVT_0001036> "2021-02-10T23:01:47Z"^^xsd:dateTime)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001036> "humerus trochlea width ML"@en)
@@ -694,7 +694,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001036> <http://purl.obolibrary
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001037> (humerus distal depth)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0001037> <http://purl.obolibrary.org/obo/IAO_0000423>)
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988."@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001037> "The width of the distal end of a humerus along the anterior-posterior axis."@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9004086161, 9789004086166"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001037> "The width of the distal end of a humerus along the anterior-posterior axis."@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/FOVT_0001037> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/FOVT_0001037> "2021-02-10T23:02:42Z"^^xsd:dateTime)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001037> "humerus distal width AP"@en)
@@ -704,7 +704,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001037> <http://purl.obolibrary
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001038> (humerus proximal depth)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0001038> <http://purl.obolibrary.org/obo/IAO_0000423>)
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "von den Driesch, Angela. A guide to the measurement of animal bones from archaeological sites: as developed by the Institut für Palaeoanatomie, Domestikationsforschung und Geschichte der Tiermedizin of the University of Munich . Vol. 1. Peabody Museum Press, 1976."@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001038> "The width of the proximal end of a humerus along the anterior-posterior axis."@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9780873659505"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001038> "The width of the proximal end of a humerus along the anterior-posterior axis."@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/FOVT_0001038> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/FOVT_0001038> "2021-02-10T23:04:06Z"^^xsd:dateTime)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001038> "humerus proximal width AP"@en)
@@ -716,7 +716,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001038> <http://purl.obolibrary
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001039> (humerus distal breadth)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0001039> <http://purl.obolibrary.org/obo/IAO_0000423>)
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "von den Driesch, Angela. A guide to the measurement of animal bones from archaeological sites: as developed by the Institut für Palaeoanatomie, Domestikationsforschung und Geschichte der Tiermedizin of the University of Munich . Vol. 1. Peabody Museum Press, 1976."@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001039> "The width of the distal end of a humerus along the medial-lateral axis."@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9780873659505"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001039> "The width of the distal end of a humerus along the medial-lateral axis."@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/FOVT_0001039> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/FOVT_0001039> "2021-02-10T23:05:13Z"^^xsd:dateTime)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001039> "humerus distal width ML"@en)
@@ -726,7 +726,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001039> <http://purl.obolibrary
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001040> (humerus diaphysis depth)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0001040> <http://purl.obolibrary.org/obo/IAO_0000423>)
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "Scott, Kathleen Marie. Allometric trends and locomotor adaptations in the Bovidae. Bulletin of the AMNH. Vol. 179, Article 2, 1985."@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001040> "The width of the diaphysis of a humerus along the anterior-posterior axis."@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "URI: http://hdl.handle.net/2246/1005"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001040> "The width of the diaphysis of a humerus along the anterior-posterior axis."@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/FOVT_0001040> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/FOVT_0001040> "2021-02-10T23:06:16Z"^^xsd:dateTime)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001040> "humerus diaphysis width AP"@en)
@@ -746,7 +746,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0001041> ObjectIntersecti
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001042> (talus lateral depth)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0001042> <http://purl.obolibrary.org/obo/IAO_0000423>)
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "von den Driesch, Angela. A guide to the measurement of animal bones from archaeological sites: as developed by the Institut für Palaeoanatomie, Domestikationsforschung und Geschichte der Tiermedizin of the University of Munich . Vol. 1. Peabody Museum Press, 1976."@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001042> "The width of the lateral side of a talus along the anterior-posterior axis ( non-plantigrade) or proximal-distal axis (plantigrade)."@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9780873659505"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001042> "The width of the lateral side of a talus along the anterior-posterior axis ( non-plantigrade) or proximal-distal axis (plantigrade)."@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/FOVT_0001042> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/FOVT_0001042> "2021-02-10T23:16:34Z"^^xsd:dateTime)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001042> "astragalus lateral depth"@en)
@@ -760,7 +760,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001042> ObjectSomeValuesFrom(<h
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001043> (talus medial depth)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0001043> <http://purl.obolibrary.org/obo/IAO_0000423>)
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988."@en) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "von den Driesch, Angela. A guide to the measurement of animal bones from archaeological sites: as developed by the Institut für Palaeoanatomie, Domestikationsforschung und Geschichte der Tiermedizin of the University of Munich . Vol. 1. Peabody Museum Press, 1976."@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001043> "The width of the medial side of a talus along the anterior-posterior axis (non-plantigrade) or proximal-distal axis (plantigrade)."@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9004086161, 9789004086166"@en) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9780873659505"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001043> "The width of the medial side of a talus along the anterior-posterior axis (non-plantigrade) or proximal-distal axis (plantigrade)."@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/FOVT_0001043> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/FOVT_0001043> "2021-02-10T23:17:22Z"^^xsd:dateTime)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001043> "astragalus medial depth"@en)
@@ -774,7 +774,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001043> ObjectSomeValuesFrom(<h
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001044> (talus distal breadth (non-plantigrade))
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0001044> <http://purl.obolibrary.org/obo/IAO_0000423>)
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "von den Driesch, Angela. A guide to the measurement of animal bones from archaeological sites: as developed by the Institut für Palaeoanatomie, Domestikationsforschung und Geschichte der Tiermedizin of the University of Munich . Vol. 1. Peabody Museum Press, 1976."@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001044> "The width of the distal end (non-plantigrade) or anterior end (plantigrade) of a talus along the medial-lateral axis."@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9780873659505"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001044> "The width of the distal end (non-plantigrade) or anterior end (plantigrade) of a talus along the medial-lateral axis."@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/FOVT_0001044> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/FOVT_0001044> "2021-02-10T23:20:39Z"^^xsd:dateTime)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001044> "astragalus distal width ML (non-plantigrade)"@en)
@@ -789,7 +789,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001044> ObjectSomeValuesFrom(<h
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001045> (trochlea tali length)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0001045> <http://purl.obolibrary.org/obo/IAO_0000423>)
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988."@en) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "von den Driesch, Angela. A guide to the measurement of animal bones from archaeological sites: as developed by the Institut für Palaeoanatomie, Domestikationsforschung und Geschichte der Tiermedizin of the University of Munich . Vol. 1. Peabody Museum Press, 1976."@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001045> "The length of the trochlea tali of a talus along the proximal-distal axis (in animals) or anterior-posterior axis (in humans)."@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9004086161, 9789004086166"@en) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9780873659505"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001045> "The length of the trochlea tali of a talus along the proximal-distal axis (in animals) or anterior-posterior axis (in humans)."@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/FOVT_0001045> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/FOVT_0001045> "2021-02-10T23:25:15Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001045> "trochlea tali length"@en)
@@ -800,7 +800,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001045> ObjectSomeValuesFrom(<h
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001046> (talus trochlea breadth)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0001046> <http://purl.obolibrary.org/obo/IAO_0000423>)
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988."@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001046> "The width of the trochlea of a talus along the medial-lateral axis."@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9004086161, 9789004086166"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001046> "The width of the trochlea of a talus along the medial-lateral axis."@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/FOVT_0001046> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/FOVT_0001046> "2021-02-10T23:28:01Z"^^xsd:dateTime)
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988."@en) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001046> "astragalus trochlea breadth"@en)
@@ -812,7 +812,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001046> <http://purl.obolibrary
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001047> (calcaneus proximal length (non-plantigrade))
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0001047> <http://purl.obolibrary.org/obo/IAO_0000423>)
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988."@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001047> "The length of the proximal end of a calcaneus along the proximal-distal axis (non-plantigrade) or posterior end of a calcaneus along the anterior-posterior axis (plantigrade)."@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9004086161, 9789004086166"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001047> "The length of the proximal end of a calcaneus along the proximal-distal axis (non-plantigrade) or posterior end of a calcaneus along the anterior-posterior axis (plantigrade)."@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/FOVT_0001047> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/FOVT_0001047> "2021-02-10T23:31:00Z"^^xsd:dateTime)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001047> "calcaneus posterior length (plantigrade)"@en)
@@ -822,7 +822,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001047> <http://purl.obolibrary
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001048> (calcaneus distal depth (non-plantigrade))
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0001048> <http://purl.obolibrary.org/obo/IAO_0000423>)
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988."@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001048> "The width of the distal end  of a calcaneus along the anterior-posterior axis (non-plantigrade) or anterior end along the proximal-distal axis (plantigrade)"@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9004086161, 9789004086166"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001048> "The width of the distal end  of a calcaneus along the anterior-posterior axis (non-plantigrade) or anterior end along the proximal-distal axis (plantigrade)"@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/FOVT_0001048> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/FOVT_0001048> "2021-02-10T23:32:25Z"^^xsd:dateTime)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001048> "calcaneus anterior depth (plantigrade)"@en)
@@ -908,7 +908,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001060> <http://purl.obolibrary
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001061> (humerus lateral length)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "von den Driesch, Angela. A guide to the measurement of animal bones from archaeological sites: as developed by the Institut für Palaeoanatomie, Domestikationsforschung und Geschichte der Tiermedizin of the University of Munich . Vol. 1. Peabody Museum Press, 1976."@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001061> "Length of the lateral side of a humerus from lateral tuberosity to lateral border of the trochlea."@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9780873659505"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001061> "Length of the lateral side of a humerus from lateral tuberosity to lateral border of the trochlea."@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/FOVT_0001061> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/FOVT_0001061> "2021-05-10T23:37:19Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001061> "humerus lateral length"@en)
@@ -945,7 +945,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001064> <http://purl.obolibrary
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001065> (anterior tibial tuberosity length)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0001065> <http://purl.obolibrary.org/obo/IAO_0000423>)
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988."@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001065> "The length along the anterior-posterior axis of the anterior tibial tuberosity (fossa digitalis)."@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9004086161, 9789004086166"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001065> "The length along the anterior-posterior axis of the anterior tibial tuberosity (fossa digitalis)."@en)
 AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/FOVT_0001065> "2021-05-17T20:18:01Z"^^xsd:dateTime)
 AnnotationAssertion(dce:term_editor <http://purl.obolibrary.org/obo/FOVT_0001065> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001065> "fossa digitalis length"@en)
@@ -955,7 +955,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001065> <http://purl.obolibrary
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001066> (humerus proximal depth at median tubercle)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0001066> <http://purl.obolibrary.org/obo/IAO_0000423>)
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988."@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001066> "The length along the medial-lateral axis of the caput of the humerus."@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9004086161, 9789004086166"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001066> "The length along the medial-lateral axis of the caput of the humerus."@en)
 AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/FOVT_0001066> "2021-05-18T19:52:02Z"^^xsd:dateTime)
 AnnotationAssertion(dce:term_editor <http://purl.obolibrary.org/obo/FOVT_0001066> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001066> "humerus proximal depth at median tubercle"@en)
@@ -964,7 +964,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001066> <http://purl.obolibrary
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001067> (humerus trochlear sulcus height)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0001067> <http://purl.obolibrary.org/obo/IAO_0000423>)
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988."@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001067> "Length along the proximal-distal axis of the trochlear sulcus of a humerus."@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9004086161, 9789004086166"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001067> "Length along the proximal-distal axis of the trochlear sulcus of a humerus."@en)
 AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/FOVT_0001067> "2021-05-18T19:55:10Z"^^xsd:dateTime)
 AnnotationAssertion(dce:term_editor <http://purl.obolibrary.org/obo/FOVT_0001067> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001067> "minimal humerus trochlear height"@en)
@@ -973,7 +973,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001067> <http://purl.obolibrary
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001068> (humerus medial trochlear height)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988."@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001068> "Length along the proximal-distal axis of the distal medial trochlea of a humerus."@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9004086161, 9789004086166"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001068> "Length along the proximal-distal axis of the distal medial trochlea of a humerus."@en)
 AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/FOVT_0001068> "2021-05-18T19:56:56Z"^^xsd:dateTime)
 AnnotationAssertion(dce:term_editor <http://purl.obolibrary.org/obo/FOVT_0001068> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001068> "maximal humerus trochlear height"@en)
@@ -983,7 +983,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001068> <http://purl.obolibrary
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001069> (humerus trochlear height at sagittal crest)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0001069> <http://purl.obolibrary.org/obo/IAO_0000423>)
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988."@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001069> "Length along the proximal-distal axis of the sagittal crest of a trochlea of a humerus."@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9004086161, 9789004086166"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001069> "Length along the proximal-distal axis of the sagittal crest of a trochlea of a humerus."@en)
 AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/FOVT_0001069> "2021-05-18T20:00:02Z"^^xsd:dateTime)
 AnnotationAssertion(dce:term_editor <http://purl.obolibrary.org/obo/FOVT_0001069> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001069> "humerus trochlear height at sagittal crest"@en)
@@ -992,7 +992,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001069> <http://purl.obolibrary
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001070> (femur length from caput to lateral condyle)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0001070> <http://purl.obolibrary.org/obo/IAO_0000423>)
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988."@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001070> "The length along the anterior-posterior axis of a femur connecting the caput of a femur to the lateral condyle of a femur."@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9004086161, 9789004086166"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001070> "The length along the anterior-posterior axis of a femur connecting the caput of a femur to the lateral condyle of a femur."@en)
 AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/FOVT_0001070> "2021-05-19T01:36:28Z"^^xsd:dateTime)
 AnnotationAssertion(dce:term_editor <http://purl.obolibrary.org/obo/FOVT_0001070> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001070> "femur lateral length"@en)
@@ -1002,7 +1002,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001070> <http://purl.obolibrary
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001071> (olecranon length)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0001071> <http://purl.obolibrary.org/obo/IAO_0000423>)
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988."@en) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "von den Driesch, Angela. A guide to the measurement of animal bones from archaeological sites: as developed by the Institut für Palaeoanatomie, Domestikationsforschung und Geschichte der Tiermedizin of the University of Munich . Vol. 1. Peabody Museum Press, 1976."@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001071> "The length along the proximal-distal axis of an olecranon of an ulna."@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9004086161, 9789004086166"@en) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9780873659505"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001071> "The length along the proximal-distal axis of an olecranon of an ulna."@en)
 AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/FOVT_0001071> "2021-05-19T23:33:50Z"^^xsd:dateTime)
 AnnotationAssertion(dce:term_editor <http://purl.obolibrary.org/obo/FOVT_0001071> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001071> "olecranon length"@en)
@@ -1012,7 +1012,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001071> ObjectSomeValuesFrom(<h
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001072> (ulna proximal articular breadth)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0001072> <http://purl.obolibrary.org/obo/IAO_0000423>)
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988."@en) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "von den Driesch, Angela. A guide to the measurement of animal bones from archaeological sites: as developed by the Institut für Palaeoanatomie, Domestikationsforschung und Geschichte der Tiermedizin of the University of Munich . Vol. 1. Peabody Museum Press, 1976."@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001072> "The width of the facet for the humeral head of a radius along the medial-lateral axis."@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9004086161, 9789004086166"@en) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9780873659505"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001072> "The width of the facet for the humeral head of a radius along the medial-lateral axis."@en)
 AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/FOVT_0001072> "2021-05-19T23:57:14Z"^^xsd:dateTime)
 AnnotationAssertion(dce:term_editor <http://purl.obolibrary.org/obo/FOVT_0001072> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001072> "ulna  facies articularis proximalis breadth"@en)
@@ -1033,7 +1033,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0001073> ObjectIntersecti
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001074> (olecranon depth)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0001074> <http://purl.obolibrary.org/obo/IAO_0000423>)
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988."@en) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "von den Driesch, Angela. A guide to the measurement of animal bones from archaeological sites: as developed by the Institut für Palaeoanatomie, Domestikationsforschung und Geschichte der Tiermedizin of the University of Munich . Vol. 1. Peabody Museum Press, 1976."@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001074> "The width of an olecranon of a radius along the anterior-posterior axis."@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9004086161, 9789004086166"@en) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9780873659505"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001074> "The width of an olecranon of a radius along the anterior-posterior axis."@en)
 AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/FOVT_0001074> "2021-05-20T00:02:15Z"^^xsd:dateTime)
 AnnotationAssertion(dce:term_editor <http://purl.obolibrary.org/obo/FOVT_0001074> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001074> "olecranon width AP"@en)
@@ -1043,7 +1043,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001074> <http://purl.obolibrary
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001075> (ulna lateral length)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0001075> <http://purl.obolibrary.org/obo/IAO_0000423>)
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988."@en) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "von den Driesch, Angela. A guide to the measurement of animal bones from archaeological sites: as developed by the Institut für Palaeoanatomie, Domestikationsforschung und Geschichte der Tiermedizin of the University of Munich . Vol. 1. Peabody Museum Press, 1976."@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001075> "The length along the proximal-distal axis on the lateral side of an ulna."@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9004086161, 9789004086166"@en) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9780873659505"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001075> "The length along the proximal-distal axis on the lateral side of an ulna."@en)
 AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/FOVT_0001075> "2021-05-20T00:04:26Z"^^xsd:dateTime)
 AnnotationAssertion(dce:term_editor <http://purl.obolibrary.org/obo/FOVT_0001075> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001075> "ulna lateral length"@en)
@@ -1052,7 +1052,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001075> <http://purl.obolibrary
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001076> (ulna depth across the process anaconaeus)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0001076> <http://purl.obolibrary.org/obo/IAO_0000423>)
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988."@en) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "von den Driesch, Angela. A guide to the measurement of animal bones from archaeological sites: as developed by the Institut für Palaeoanatomie, Domestikationsforschung und Geschichte der Tiermedizin of the University of Munich . Vol. 1. Peabody Museum Press, 1976."@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001076> "The width along the anterior-posterior axis of the proximal-most part of the facet that articulates with the humeral head on an ulna."@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9004086161, 9789004086166"@en) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9780873659505"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001076> "The width along the anterior-posterior axis of the proximal-most part of the facet that articulates with the humeral head on an ulna."@en)
 AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/FOVT_0001076> "2021-05-20T00:05:42Z"^^xsd:dateTime)
 AnnotationAssertion(dce:term_editor <http://purl.obolibrary.org/obo/FOVT_0001076> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001076> "ulna width AP across the process anaconaeus"@en)
@@ -1062,7 +1062,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001076> <http://purl.obolibrary
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001077> (length of talus along the midline)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0001077> <http://purl.obolibrary.org/obo/IAO_0000423>)
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "Wolverton, S., Kennedy, J. H., & Cornelius, J. D. 2007. A paleozoological perspective on white-tailed deer (Odocoileus virginianus texana) population density and body size in central Texas. Environmental Management, 39(4), 545-552."@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001077> "The length along the midline of a talus along the proximal-distal axis (non-plantigrade) or anterior-posterior axis (plantigrade) from the groove for a flexor hallucis longus tendon of a talus to a head of a talus."@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "DOI: 10.1007/s00267-006-0240-8"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001077> "The length along the midline of a talus along the proximal-distal axis (non-plantigrade) or anterior-posterior axis (plantigrade) from the groove for a flexor hallucis longus tendon of a talus to a head of a talus."@en)
 AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/FOVT_0001077> "2021-05-24T20:26:44Z"^^xsd:dateTime)
 AnnotationAssertion(dce:term_editor <http://purl.obolibrary.org/obo/FOVT_0001077> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001077> "length of astragalus along the midline"@en)
@@ -1072,7 +1072,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001077> <http://purl.obolibrary
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001078> (breadth of calcaneal body)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0001078> <http://purl.obolibrary.org/obo/IAO_0000423>)
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "Cantryll-Stewart, R. 2018. A Discernment of Prey Selection by the Ancient Maya."@en) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988."@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001078> "The width of a calcaneal body along the medial-lateral axis."@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9004086161, 9789004086166"@en) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://eprints.nottingham.ac.uk/50198/"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001078> "The width of a calcaneal body along the medial-lateral axis."@en)
 AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/FOVT_0001078> "2021-05-24T21:22:09Z"^^xsd:dateTime)
 AnnotationAssertion(dce:term_editor <http://purl.obolibrary.org/obo/FOVT_0001078> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988."@en) <http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <http://purl.obolibrary.org/obo/FOVT_0001078> "calcaneus minimal breadth"@en)
@@ -1092,7 +1092,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0001079> ObjectIntersecti
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001080> (calcaneus proximal breadth (non-plantigrade))
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0001080> <http://purl.obolibrary.org/obo/IAO_0000423>)
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988."@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001080> "The width along the medial-lateral axis of the distal (non-plantigrade) or posterior (plantigrade) end of a calcaneus."@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9004086161, 9789004086166"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001080> "The width along the medial-lateral axis of the distal (non-plantigrade) or posterior (plantigrade) end of a calcaneus."@en)
 AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/FOVT_0001080> "2021-05-24T21:29:06Z"^^xsd:dateTime)
 AnnotationAssertion(dce:term_editor <http://purl.obolibrary.org/obo/FOVT_0001080> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988."@en) <http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <http://purl.obolibrary.org/obo/FOVT_0001080> "calcaneus maximal breadth"@en)
@@ -1105,7 +1105,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001080> <http://purl.obolibrary
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001081> (calcaneus proximal depth (non-plantigrade))
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0001081> <http://purl.obolibrary.org/obo/IAO_0000423>)
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988."@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001081> "The with of the proximal end of a calcaneus along the anterior-posterior axis (non-plantigrade) or of the posterior end of a calcaneus along the proximal-distal axis (plantigrade)."@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9004086161, 9789004086166"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001081> "The with of the proximal end of a calcaneus along the anterior-posterior axis (non-plantigrade) or of the posterior end of a calcaneus along the proximal-distal axis (plantigrade)."@en)
 AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/FOVT_0001081> "2021-05-24T21:32:39Z"^^xsd:dateTime)
 AnnotationAssertion(dce:term_editor <http://purl.obolibrary.org/obo/FOVT_0001081> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988."@en) <http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <http://purl.obolibrary.org/obo/FOVT_0001081> "calcaneus maximal depth"@en)
@@ -1117,7 +1117,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001081> <http://purl.obolibrary
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001082> (depth of calcaneal body)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "Cantryll-Stewart, R. 2018. A Discernment of Prey Selection by the Ancient Maya."@en) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988."@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001082> "The width along the anterior-posterior axis (non-plantigrade) or proximal-distal axis (plantigrade) of a calcaneal body."@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9004086161, 9789004086166"@en) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://eprints.nottingham.ac.uk/50198/"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001082> "The width along the anterior-posterior axis (non-plantigrade) or proximal-distal axis (plantigrade) of a calcaneal body."@en)
 AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/FOVT_0001082> "2021-05-24T21:35:37Z"^^xsd:dateTime)
 AnnotationAssertion(dce:term_editor <http://purl.obolibrary.org/obo/FOVT_0001082> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001082> "width AP of calcaneal body (non-plantigrade)"@en)
@@ -1128,7 +1128,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001082> <http://purl.obolibrary
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001123> (radius medial length)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0001123> <http://purl.obolibrary.org/obo/IAO_0000423>)
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988."@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001123> "The length of the medial side of a radius along the proximal-distal axis."@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9004086161, 9789004086166"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001123> "The length of the medial side of a radius along the proximal-distal axis."@en)
 AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/FOVT_0001123> "2021-06-02T23:33:11Z"^^xsd:dateTime)
 AnnotationAssertion(dce:term_editor <http://purl.obolibrary.org/obo/FOVT_0001123> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001123> "radius medial length"@en)
@@ -1137,7 +1137,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001123> <http://purl.obolibrary
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001124> (radius lateral length)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0001124> <http://purl.obolibrary.org/obo/IAO_0000423>)
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "von den Driesch, Angela. A guide to the measurement of animal bones from archaeological sites: as developed by the Institut für Palaeoanatomie, Domestikationsforschung und Geschichte der Tiermedizin of the University of Munich . Vol. 1. Peabody Museum Press, 1976."@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001124> "The length of the lateral side of a radius."@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9780873659505"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001124> "The length of the lateral side of a radius."@en)
 AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/FOVT_0001124> "2021-06-02T23:34:54Z"^^xsd:dateTime)
 AnnotationAssertion(dce:term_editor <http://purl.obolibrary.org/obo/FOVT_0001124> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001124> "radius lateral length"@en)
@@ -1146,7 +1146,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001124> <http://purl.obolibrary
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001125> (radius diaphysis breadth)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0001125> <http://purl.obolibrary.org/obo/IAO_0000423>)
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988."@en) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "von den Driesch, Angela. A guide to the measurement of animal bones from archaeological sites: as developed by the Institut für Palaeoanatomie, Domestikationsforschung und Geschichte der Tiermedizin of the University of Munich . Vol. 1. Peabody Museum Press, 1976."@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001125> "The width along the medial-lateral axis of the diaphysis of a radius."@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9004086161, 9789004086166"@en) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9780873659505"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001125> "The width along the medial-lateral axis of the diaphysis of a radius."@en)
 AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/FOVT_0001125> "2021-06-02T23:36:38Z"^^xsd:dateTime)
 AnnotationAssertion(dce:term_editor <http://purl.obolibrary.org/obo/FOVT_0001125> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001125> "radius diaphysis breadth"@en)
@@ -1155,7 +1155,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001125> <http://purl.obolibrary
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001126> (radius diaphysis depth)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0001126> <http://purl.obolibrary.org/obo/IAO_0000423>)
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988."@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001126> "The width along the anterior-posterior axis of the diaphysis of a radius."@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9004086161, 9789004086166"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001126> "The width along the anterior-posterior axis of the diaphysis of a radius."@en)
 AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/FOVT_0001126> "2021-06-02T23:39:12Z"^^xsd:dateTime)
 AnnotationAssertion(dce:term_editor <http://purl.obolibrary.org/obo/FOVT_0001126> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001126> "radius diaphysis depth"@en)
@@ -1164,7 +1164,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001126> <http://purl.obolibrary
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001127> (radius proximal articular breadth)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0001127> <http://purl.obolibrary.org/obo/IAO_0000423>)
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988."@en) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "von den Driesch, Angela. A guide to the measurement of animal bones from archaeological sites: as developed by the Institut für Palaeoanatomie, Domestikationsforschung und Geschichte der Tiermedizin of the University of Munich . Vol. 1. Peabody Museum Press, 1976."@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001127> "The width along the medial-lateral axis of the articular surface on the proximal end of a radius that interacts with the humerus."@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9004086161, 9789004086166"@en) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9780873659505"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001127> "The width along the medial-lateral axis of the articular surface on the proximal end of a radius that interacts with the humerus."@en)
 AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/FOVT_0001127> "2021-06-02T23:40:22Z"^^xsd:dateTime)
 AnnotationAssertion(dce:term_editor <http://purl.obolibrary.org/obo/FOVT_0001127> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001127> "radius facies articularis proximalis breadth"@en)
@@ -1176,7 +1176,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001127> ObjectSomeValuesFrom(<h
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001128> (radius proximal articular depth)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0001128> <http://purl.obolibrary.org/obo/IAO_0000423>)
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988."@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001128> "The width along the anterior-posterior axis of the articular surface on the proximal end of a radius that interacts with a humerus."@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9004086161, 9789004086166"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001128> "The width along the anterior-posterior axis of the articular surface on the proximal end of a radius that interacts with a humerus."@en)
 AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/FOVT_0001128> "2021-06-02T23:42:36Z"^^xsd:dateTime)
 AnnotationAssertion(dce:term_editor <http://purl.obolibrary.org/obo/FOVT_0001128> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001128> "radius proximal articular depth"@en)
@@ -1185,7 +1185,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001128> <http://purl.obolibrary
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001129> (radius proximal breadth)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0001129> <http://purl.obolibrary.org/obo/IAO_0000423>)
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988."@en) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "von den Driesch, Angela. A guide to the measurement of animal bones from archaeological sites: as developed by the Institut für Palaeoanatomie, Domestikationsforschung und Geschichte der Tiermedizin of the University of Munich . Vol. 1. Peabody Museum Press, 1976."@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001129> "The width along the medial-lateral axis of the proximal end of a radius."@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9004086161, 9789004086166"@en) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9780873659505"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001129> "The width along the medial-lateral axis of the proximal end of a radius."@en)
 AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/FOVT_0001129> "2021-06-02T23:43:56Z"^^xsd:dateTime)
 AnnotationAssertion(dce:term_editor <http://purl.obolibrary.org/obo/FOVT_0001129> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001129> "radius proximal breadth"@en)
@@ -1194,7 +1194,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001129> <http://purl.obolibrary
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001130> (radius distal articular breadth)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0001130> <http://purl.obolibrary.org/obo/IAO_0000423>)
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988."@en) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "von den Driesch, Angela. A guide to the measurement of animal bones from archaeological sites: as developed by the Institut für Palaeoanatomie, Domestikationsforschung und Geschichte der Tiermedizin of the University of Munich . Vol. 1. Peabody Museum Press, 1976."@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001130> "The width along the medial-lateral axis of the distal end of a radius."@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9004086161, 9789004086166"@en) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9780873659505"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001130> "The width along the medial-lateral axis of the distal end of a radius."@en)
 AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/FOVT_0001130> "2021-06-02T23:45:18Z"^^xsd:dateTime)
 AnnotationAssertion(dce:term_editor <http://purl.obolibrary.org/obo/FOVT_0001130> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001130> "radius facies articularis distalis breadth"@en)
@@ -1206,7 +1206,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001130> ObjectSomeValuesFrom(<h
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001131> (radius distal articular depth)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0001131> <http://purl.obolibrary.org/obo/IAO_0000423>)
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988."@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001131> "The width along the anterior-posterior axis of the articular surface on the distal end of a radius that interacts with the carpals."@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9004086161, 9789004086166"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001131> "The width along the anterior-posterior axis of the articular surface on the distal end of a radius that interacts with the carpals."@en)
 AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/FOVT_0001131> "2021-06-02T23:48:26Z"^^xsd:dateTime)
 AnnotationAssertion(dce:term_editor <http://purl.obolibrary.org/obo/FOVT_0001131> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001131> "radius distal articular depth"@en)
@@ -1215,7 +1215,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001131> <http://purl.obolibrary
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001132> (radius distal breadth)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0001132> <http://purl.obolibrary.org/obo/IAO_0000423>)
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988."@en) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "von den Driesch, Angela. A guide to the measurement of animal bones from archaeological sites: as developed by the Institut für Palaeoanatomie, Domestikationsforschung und Geschichte der Tiermedizin of the University of Munich . Vol. 1. Peabody Museum Press, 1976."@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001132> "The width along the medial-lateral axis of the distal end of a radius."@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9004086161, 9789004086166"@en) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9780873659505"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001132> "The width along the medial-lateral axis of the distal end of a radius."@en)
 AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/FOVT_0001132> "2021-06-02T23:50:24Z"^^xsd:dateTime)
 AnnotationAssertion(dce:term_editor <http://purl.obolibrary.org/obo/FOVT_0001132> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001132> "radius distal breadth"@en)
@@ -1224,7 +1224,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001132> <http://purl.obolibrary
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001133> (radius length from the proximal articular surface to the distal articular surface)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0001133> <http://purl.obolibrary.org/obo/IAO_0000423>)
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "von den Driesch, Angela. A guide to the measurement of animal bones from archaeological sites: as developed by the Institut für Palaeoanatomie, Domestikationsforschung und Geschichte der Tiermedizin of the University of Munich . Vol. 1. Peabody Museum Press, 1976."@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001133> "The length from the proximal articular surface to the distal articular surface of a radius."@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9780873659505"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001133> "The length from the proximal articular surface to the distal articular surface of a radius."@en)
 AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/FOVT_0001133> "2021-06-02T23:52:19Z"^^xsd:dateTime)
 AnnotationAssertion(dce:term_editor <http://purl.obolibrary.org/obo/FOVT_0001133> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001133> "radius length from the proximal articular surface to the distal articular surface"@en)
@@ -1233,7 +1233,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001133> <http://purl.obolibrary
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001134> (radius diaphysis circumference)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0001134> <http://purl.obolibrary.org/obo/IAO_0000423>)
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "von den Driesch, Angela. A guide to the measurement of animal bones from archaeological sites: as developed by the Institut für Palaeoanatomie, Domestikationsforschung und Geschichte der Tiermedizin of the University of Munich . Vol. 1. Peabody Museum Press, 1976."@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001134> "The circumference of the diaphysis of a radius."@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9780873659505"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001134> "The circumference of the diaphysis of a radius."@en)
 AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/FOVT_0001134> "2021-06-02T23:53:37Z"^^xsd:dateTime)
 AnnotationAssertion(dce:term_editor <http://purl.obolibrary.org/obo/FOVT_0001134> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001134> "radius diaphysis circumference"@en)
@@ -1294,27 +1294,27 @@ AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/FOVT_0001139>
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001140> (fused metatarsal bones 3 and 4 length)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0001140> <http://purl.obolibrary.org/obo/IAO_0000423>)
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "von den Driesch, Angela. A guide to the measurement of animal bones from archaeological sites: as developed by the Institut für Palaeoanatomie, Domestikationsforschung und Geschichte der Tiermedizin of the University of Munich . Vol. 1. Peabody Museum Press, 1976."@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001140> "The length of a fused metatarsal bones 3 and 4 along the proximal-distal axis."@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9780873659505"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001140> "The length of a fused metatarsal bones 3 and 4 along the proximal-distal axis."@en)
 AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/FOVT_0001140> "2021-06-03T23:03:13Z"^^xsd:dateTime)
 AnnotationAssertion(dce:term_editor <http://purl.obolibrary.org/obo/FOVT_0001140> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001140> "fused metatarsal bones 3 and 4 length"@en)
-EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0001140> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000122> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0013587>)))
+EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0001140> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000122> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0013587>)))
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001141> (metapodial bone length)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0001141> <http://purl.obolibrary.org/obo/IAO_0000423>)
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988."@en) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "von den Driesch, Angela. A guide to the measurement of animal bones from archaeological sites: as developed by the Institut für Palaeoanatomie, Domestikationsforschung und Geschichte der Tiermedizin of the University of Munich . Vol. 1. Peabody Museum Press, 1976."@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001141> "The length of a metapodial bone."@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9004086161, 9789004086166"@en) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9780873659505"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001141> "The length of a metapodial bone."@en)
 AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/FOVT_0001141> "2021-06-09T23:21:07Z"^^xsd:dateTime)
 AnnotationAssertion(dce:term_editor <http://purl.obolibrary.org/obo/FOVT_0001141> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001141> "length of metapodial bone"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001141> "metapodial bone length"@en)
-EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0001141> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000122> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0003821>)))
+EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0001141> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000122> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0003821>)))
 SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001141> <http://purl.obolibrary.org/obo/PATO_0000122>)
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001142> (metapodial bone of digit 2 length)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0001142> <http://purl.obolibrary.org/obo/IAO_0000423>)
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988."@en) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "von den Driesch, Angela. A guide to the measurement of animal bones from archaeological sites: as developed by the Institut für Palaeoanatomie, Domestikationsforschung und Geschichte der Tiermedizin of the University of Munich . Vol. 1. Peabody Museum Press, 1976."@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001142> "The length of a metapodial bone of digit 2."@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9004086161, 9789004086166"@en) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9780873659505"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001142> "The length of a metapodial bone of digit 2."@en)
 AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/FOVT_0001142> "2021-06-09T23:23:45Z"^^xsd:dateTime)
 AnnotationAssertion(dce:term_editor <http://purl.obolibrary.org/obo/FOVT_0001142> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001142> "length of metapodial bone of digit 2"@en)
@@ -1324,17 +1324,17 @@ SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001142> <http://purl.obolibrary
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001143> (fused metapodial bones 3 and 4 length)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0001143> <http://purl.obolibrary.org/obo/IAO_0000423>)
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988."@en) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "von den Driesch, Angela. A guide to the measurement of animal bones from archaeological sites: as developed by the Institut für Palaeoanatomie, Domestikationsforschung und Geschichte der Tiermedizin of the University of Munich . Vol. 1. Peabody Museum Press, 1976."@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001143> "The length of fused metapodial bones 3 and 4."@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9004086161, 9789004086166"@en) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9780873659505"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001143> "The length of fused metapodial bones 3 and 4."@en)
 AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/FOVT_0001143> "2021-06-09T23:39:00Z"^^xsd:dateTime)
 AnnotationAssertion(dce:term_editor <http://purl.obolibrary.org/obo/FOVT_0001143> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001143> "length of fused metapodial bones 3 and 4"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001143> "fused metapodial bones 3 and 4 length"@en)
-EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0001143> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000122> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0013587>)))
+EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0001143> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000122> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0013587>)))
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001144> (metapodial bone of digit 4 length)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0001144> <http://purl.obolibrary.org/obo/IAO_0000423>)
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988."@en) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "von den Driesch, Angela. A guide to the measurement of animal bones from archaeological sites: as developed by the Institut für Palaeoanatomie, Domestikationsforschung und Geschichte der Tiermedizin of the University of Munich . Vol. 1. Peabody Museum Press, 1976."@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001144> "The length of a metapodial bone of digit 4."@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9004086161, 9789004086166"@en) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9780873659505"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001144> "The length of a metapodial bone of digit 4."@en)
 AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/FOVT_0001144> "2021-06-09T23:42:17Z"^^xsd:dateTime)
 AnnotationAssertion(dce:term_editor <http://purl.obolibrary.org/obo/FOVT_0001144> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001144> "length of metapodial bone of digit 4"@en)
@@ -1344,7 +1344,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001144> <http://purl.obolibrary
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001145> (metapodial bone of digit 5 length)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0001145> <http://purl.obolibrary.org/obo/IAO_0000423>)
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988."@en) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "von den Driesch, Angela. A guide to the measurement of animal bones from archaeological sites: as developed by the Institut für Palaeoanatomie, Domestikationsforschung und Geschichte der Tiermedizin of the University of Munich . Vol. 1. Peabody Museum Press, 1976."@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001145> "The length of a metapodial bone of digit 5."@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9004086161, 9789004086166"@en) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9780873659505"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001145> "The length of a metapodial bone of digit 5."@en)
 AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/FOVT_0001145> "2021-06-09T23:45:03Z"^^xsd:dateTime)
 AnnotationAssertion(dce:term_editor <http://purl.obolibrary.org/obo/FOVT_0001145> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001145> "length of metapodial bone of digit 5"@en)
@@ -1354,7 +1354,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001145> <http://purl.obolibrary
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001146> (metapodial bone of digit 3 length)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0001146> <http://purl.obolibrary.org/obo/IAO_0000423>)
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988."@en) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "von den Driesch, Angela. A guide to the measurement of animal bones from archaeological sites: as developed by the Institut für Palaeoanatomie, Domestikationsforschung und Geschichte der Tiermedizin of the University of Munich . Vol. 1. Peabody Museum Press, 1976."@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001146> "The length of a metapodial bone of digit 3."@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9004086161, 9789004086166"@en) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9780873659505"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001146> "The length of a metapodial bone of digit 3."@en)
 AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/FOVT_0001146> "2021-06-09T23:47:16Z"^^xsd:dateTime)
 AnnotationAssertion(dce:term_editor <http://purl.obolibrary.org/obo/FOVT_0001146> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001146> "length of metapodial bone of digit 3."@en)
@@ -1413,7 +1413,7 @@ AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/FOVT_0001151>
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001152> (scapula dorsal length)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "von den Driesch, Angela. A guide to the measurement of animal bones from archaeological sites: as developed by the Institut für Palaeoanatomie, Domestikationsforschung und Geschichte der Tiermedizin of the University of Munich . Vol. 1. Peabody Museum Press, 1976."@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001152> "The length of the dorsal side of a scapula along the proximal-distal axis."@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9780873659505"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001152> "The length of the dorsal side of a scapula along the proximal-distal axis."@en)
 AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/FOVT_0001152> "2021-07-23T18:37:56Z"^^xsd:dateTime)
 AnnotationAssertion(dce:term_editor <http://purl.obolibrary.org/obo/FOVT_0001152> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/FOVT_0001152> <http://purl.obolibrary.org/obo/IAO_0000423>)
@@ -1423,7 +1423,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001152> <http://purl.obolibrary
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001153> (scapula spine length)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "von den Driesch, Angela. A guide to the measurement of animal bones from archaeological sites: as developed by the Institut für Palaeoanatomie, Domestikationsforschung und Geschichte der Tiermedizin of the University of Munich . Vol. 1. Peabody Museum Press, 1976."@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001153> "Length of a scpular spine along the proximal-distal axis."@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9780873659505"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001153> "Length of a scpular spine along the proximal-distal axis."@en)
 AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/FOVT_0001153> "2021-07-23T19:17:25Z"^^xsd:dateTime)
 AnnotationAssertion(dce:term_editor <http://purl.obolibrary.org/obo/FOVT_0001153> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001153> "length of scapular spine"@en)
@@ -1434,7 +1434,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001153> <http://purl.obolibrary
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001154> (scapula neck breadth)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988."@en) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "von den Driesch, Angela. A guide to the measurement of animal bones from archaeological sites: as developed by the Institut für Palaeoanatomie, Domestikationsforschung und Geschichte der Tiermedizin of the University of Munich . Vol. 1. Peabody Museum Press, 1976."@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001154> "The width of a scapular neck along the medial-lateral axis."@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9004086161, 9789004086166"@en) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9780873659505"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001154> "The width of a scapular neck along the medial-lateral axis."@en)
 AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/FOVT_0001154> "2021-07-23T19:28:14Z"^^xsd:dateTime)
 AnnotationAssertion(dce:term_editor <http://purl.obolibrary.org/obo/FOVT_0001154> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001154> <http://purl.obolibrary.org/obo/IAO_0000423>)
@@ -1446,7 +1446,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001154> <http://purl.obolibrary
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001155> (glenoid cavity length)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988."@en) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "von den Driesch, Angela. A guide to the measurement of animal bones from archaeological sites: as developed by the Institut für Palaeoanatomie, Domestikationsforschung und Geschichte der Tiermedizin of the University of Munich . Vol. 1. Peabody Museum Press, 1976."@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001155> "The length of the glenoid cavity (glenoid fossa) along the anterior-posterior axis."@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9004086161, 9789004086166"@en) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9780873659505"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001155> "The length of the glenoid cavity (glenoid fossa) along the anterior-posterior axis."@en)
 AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/FOVT_0001155> "2021-07-23T21:33:08Z"^^xsd:dateTime)
 AnnotationAssertion(dce:term_editor <http://purl.obolibrary.org/obo/FOVT_0001155> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001155> <http://purl.obolibrary.org/obo/IAO_0000423>)
@@ -1457,7 +1457,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001155> <http://purl.obolibrary
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001156> (glenoid cavity breadth)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988."@en) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "von den Driesch, Angela. A guide to the measurement of animal bones from archaeological sites: as developed by the Institut für Palaeoanatomie, Domestikationsforschung und Geschichte der Tiermedizin of the University of Munich . Vol. 1. Peabody Museum Press, 1976."@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001156> "The width of the glenoid cavity (glenoid fossa) along the medial-lateral axis."@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9004086161, 9789004086166"@en) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9780873659505"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001156> "The width of the glenoid cavity (glenoid fossa) along the medial-lateral axis."@en)
 AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/FOVT_0001156> "2021-07-23T21:36:30Z"^^xsd:dateTime)
 AnnotationAssertion(dce:term_editor <http://purl.obolibrary.org/obo/FOVT_0001156> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001156> <http://purl.obolibrary.org/obo/IAO_0000423>)
@@ -1468,7 +1468,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001156> <http://purl.obolibrary
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001157> (scapula depth)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988."@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001157> "The depth of a scapula along the anterior-posterior axis."@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9004086161, 9789004086166"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001157> "The depth of a scapula along the anterior-posterior axis."@en)
 AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/FOVT_0001157> "2021-07-23T21:40:46Z"^^xsd:dateTime)
 AnnotationAssertion(dce:term_editor <http://purl.obolibrary.org/obo/FOVT_0001157> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001157> <http://purl.obolibrary.org/obo/IAO_0000423>)
