@@ -876,7 +876,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.ob
 AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/FOVT_0001057> "2021-05-10T23:15:37Z"^^xsd:dateTime)
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://orcid.org/0000-0003-2699-3066"@en) rdfs:comment <http://purl.obolibrary.org/obo/FOVT_0001057> "The length of a testis."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001057> "testis length"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001057> <http://purl.obolibrary.org/obo/FOVT_0001060>)
+EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0001057> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000122> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0000473>)))
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001058> (right testis length)
 
@@ -885,7 +885,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.ob
 AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/FOVT_0001058> "2021-05-10T23:16:25Z"^^xsd:dateTime)
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://orcid.org/0000-0003-2699-3066"@en) rdfs:comment <http://purl.obolibrary.org/obo/FOVT_0001058> "The length of the right testis."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001058> "right testis length"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001058> <http://purl.obolibrary.org/obo/FOVT_0001057>)
+EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0001058> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000122> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0004534>)))
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001059> (left testis length)
 
@@ -894,6 +894,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.ob
 AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/FOVT_0001059> "2021-05-10T23:18:15Z"^^xsd:dateTime)
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://orcid.org/0000-0003-2699-3066"@en) rdfs:comment <http://purl.obolibrary.org/obo/FOVT_0001059> "The length of the left testis."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001059> "left testis length"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0001059> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000122> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0004533>)))
 SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001059> <http://purl.obolibrary.org/obo/FOVT_0001057>)
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001060> (gonad length)
@@ -904,7 +905,6 @@ AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/FOVT_0001060> "2021
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://orcid.org/0000-0003-2699-3066"@en) rdfs:comment <http://purl.obolibrary.org/obo/FOVT_0001060> "The length of a gonad."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001060> "gonad length"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0001060> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000122> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0000991>)))
-SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001060> <http://purl.obolibrary.org/obo/OBA_0002017>)
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001061> (humerus lateral length)
 
@@ -922,7 +922,7 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/FOVT_0001062> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/FOVT_0001062> "2021-05-17T20:08:12Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001062> "ovary length"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001062> <http://purl.obolibrary.org/obo/FOVT_0001060>)
+EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0001062> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000122> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0000992>)))
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001063> (right ovary length)
 
@@ -931,7 +931,7 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/FOVT_0001063> "2021-05-17T20:10:16Z"^^xsd:dateTime)
 AnnotationAssertion(dce:term_editor <http://purl.obolibrary.org/obo/FOVT_0001063> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001063> "right ovary length"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001063> <http://purl.obolibrary.org/obo/FOVT_0001062>)
+EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0001063> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000122> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0002118>)))
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001064> (left ovary length)
 
@@ -940,7 +940,7 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/FOVT_0001064> "2021-05-17T20:10:46Z"^^xsd:dateTime)
 AnnotationAssertion(dce:term_editor <http://purl.obolibrary.org/obo/FOVT_0001064> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001064> "left ovary length"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001064> <http://purl.obolibrary.org/obo/FOVT_0001062>)
+EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0001064> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000122> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0002119>)))
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001065> (anterior tibial tuberosity length)
 
