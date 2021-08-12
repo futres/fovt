@@ -153,6 +153,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_0001161>))
 Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_0001162>))
 Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_0001163>))
 Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_0001164>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_0001165>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_91561>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_9788>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_9845>))
@@ -1544,6 +1545,15 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/FOVT_0001164> <http://purl.obolibrary.org/obo/IAO_0000423>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001164> "patella breadth"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0001164> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000921> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0002446>)))
+
+# Class: <http://purl.obolibrary.org/obo/FOVT_0001165> (scapula lateral depth)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9004086161, 9789004086166"@en) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9780873659505"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001165> "The length along the anterior-posterior axis on the lateral edge of a scapula."@en)
+AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/FOVT_0001165> "2021-08-12T16:57:17Z"^^xsd:dateTime)
+AnnotationAssertion(dce:term_editor <http://purl.obolibrary.org/obo/FOVT_0001165> <http://orcid.org/0000-0003-2699-3066>)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/FOVT_0001165> <http://purl.obolibrary.org/obo/IAO_0000423>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001165> "scapula lateral depth"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001165> <http://purl.obolibrary.org/obo/OBA_VT0004343>)
 
 # Class: <http://purl.obolibrary.org/obo/OBA_1000049> (pes length)
 
