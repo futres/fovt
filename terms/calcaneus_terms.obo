@@ -1,0 +1,65 @@
+[Term]
+id: UBERON:7500089
+name: posterior articular facet for talus of calcaneus
+def: "Posterior-most facet on the proximal surface of the calcaneus for the articulation of the talus bone." [https://orcid.org/0000-0003-2699-3066]
+synonym: "proximal facet of calcaneum" EXACT []
+is_a: UBERON:4300038 ! facet
+relationship: part_of UBERON:0001450 ! calcaneus
+property_value: http://purl.org/dc/elements/1.1/date 2021-08-04T00:14:22Z xsd:dateTime
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: UBERON:7500091
+name: middle articular facet for talus of calcaneus
+def: "Middle facet on the proximal surface of the calcaneus for the articulation of the talus bone." [https://orcid.org/0000-0003-2699-3066]
+is_a: UBERON:4300038 ! facet
+relationship: part_of UBERON:0001450 ! calcaneus
+property_value: http://purl.org/dc/elements/1.1/date 2021-08-04T00:19:10Z xsd:dateTime
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: UBERON:7500092
+name: anterior articular facet for talus of calcaneus
+def: "Anterior-most facet on the proximal surface of the calcaneus for the articulation of the talus bone." [https://orcid.org/0000-0003-2699-3066]
+synonym: "distal facet of calcaneum" EXACT []
+is_a: UBERON:4300038 ! facet
+relationship: part_of UBERON:0001450 ! calcaneus
+property_value: http://purl.org/dc/elements/1.1/date 2021-08-04T00:21:34Z xsd:dateTime
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: UBERON:7500093
+name: calcaneal body
+def: "The calcaneus body is the part of the bone not used for articulation with other bones." [https://orcid.org/0000-0003-2699-3066]
+synonym: "corpus calcanei" EXACT []
+is_a: UBERON:0005913 ! zone of bone organ
+relationship: part_of UBERON:0001450 ! calcaneus
+property_value: http://purl.org/dc/elements/1.1/date 2021-08-04T00:23:29Z xsd:dateTime
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: UBERON:7500094
+name: tubercle of calcaneus
+def: "A raised projection on the calcaneus." [https://orcid.org/0000-0003-2699-3066]
+synonym: "calcaneal tubercle" EXACT []
+synonym: "trochlear process of calcaneus" EXACT []
+intersection_of: UBERON:0005813 ! tubercle
+intersection_of: part_of UBERON:0001450 ! calcaneus
+property_value: http://purl.org/dc/elements/1.1/date 2021-08-04T00:25:01Z xsd:dateTime
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: UBERON:7500095
+name: lateral tubercle of calcaneus
+def: "A raised projection on the lateral side of a calcaneus." [https://orcid.org/0000-0003-2699-3066]
+is_a: UBERON:7500094 ! tubercle of calcaneus
+property_value: http://purl.org/dc/elements/1.1/date 2021-08-04T00:26:41Z xsd:dateTime
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: UBERON:7500096
+name: medial tubercle of calcaneus
+def: "A raised projection on the medial side of a calcaneus." [https://orcid.org/0000-0003-2699-3066]
+is_a: UBERON:7500094 ! tubercle of calcaneus
+property_value: http://purl.org/dc/elements/1.1/date 2021-08-04T00:27:56Z xsd:dateTime
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
