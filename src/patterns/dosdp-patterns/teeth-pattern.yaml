@@ -1,5 +1,5 @@
 
-Naming pattern: primary/secondary side number tooth
+Naming pattern: upper/lower primary/secondary side tooth number
 
 #insicors get premaxilla and mandible
 #canines, molars, and premolars get maxilla and mandible
@@ -10,11 +10,11 @@ Naming pattern: primary/secondary side number tooth
 #create right and left primary and secondary upper incisor with subclass 'primary upper incisor' and 'secondary upper incisor'
 
 #upper teeth
-pattern_name: upper_incisor_teeth
-Description: "This defines upper incisor teeth."
+pattern_name: upper_teeth
+Description: "This defines upper teeth."
 
 classes:
-    Number: numerical #1-6
+    Number: numerical 
     Thing: owl:Thing
 
 relations:
@@ -24,34 +24,45 @@ vars:
     bone: 'Thing'
       #premaxilla UBERON_0002244 
       #maxilla UBERON:0002397
+    dentition: 'Thing'
+      #primary UBERON:0007116
+      #secondary UBERON:0007774
     tooth: 'Thing'
       #incisor UBERON_0001098
       #canine UBERON:0003674
       #molar UBERON:0003655
       #premolar UBERON:0007120
+    side: 'Thing'
+      #in_right_side_of BSPO:0000121
+      #in_left_side_of BSPO:0000120
     number: 'numerical'
+      #1-6
 
 name:
-    text: "Upper %s %s"
+    text: "Upper %s %s %s"
     vars:
-      - number
+      - dentition
       - tooth
+      - number
 
 def:
-    text: "Upper %s phylogenetically in position %s"
+    text: "Upper %s %s phylogenetically in position %s"
     vars:
+      - dentition
       - tooth
       - number
 
 equivalentTo:
-  text: "%s and (part_of some %s)"
+  text: "%s and (part_of some %s) and (part_of some %s)
   vars:
     - tooth
     - bone
+    - dentition
 
 Subclass:
-  'upper %s'
+  'upper %s %s'
   vars:
+    - dentition
     - tooth
 
 #lower teeth
