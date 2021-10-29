@@ -1,11 +1,187 @@
 Level	Rule Name	Subject	Property	Value
+ERROR	duplicate_definition	FOVT:0001130	IAO:0000115	The width along the medial-lateral axis of the distal end of a radius.@en
+ERROR	duplicate_definition	FOVT:0001132	IAO:0000115	The width along the medial-lateral axis of the distal end of a radius.@en
+ERROR	duplicate_definition	FOVT:0001246	IAO:0000115	The length of the occlusal surface of an upper primary premolar tooth 3 along the medial-lateral axis.@en
+ERROR	duplicate_definition	FOVT:0001253	IAO:0000115	The length of the occlusal surface of an upper primary premolar tooth 3 along the medial-lateral axis.@en
+ERROR	duplicate_definition	FOVT:0001282	IAO:0000115	The length of the occlusal surface of a lower primary premolar tooth 5 along the anterior-posterior axis.@en
+ERROR	duplicate_definition	FOVT:0001283	IAO:0000115	The length of the occlusal surface of a lower primary premolar tooth 5 along the anterior-posterior axis.@en
+ERROR	duplicate_definition	FOVT:0001284	IAO:0000115	The length of an upper tooth row along the anterior-posterior axis.@en
+ERROR	duplicate_definition	FOVT:0001300	IAO:0000115	The length of an upper tooth row along the anterior-posterior axis.@en
 ERROR	missing_label	OBA:1000049	rdfs:label	
-ERROR	missing_label	PATO:0000921	rdfs:label	
+WARN	duplicate_exact_synonym	FOVT:0001183	oboInOwl:hasExactSynonym	upper secondary molar tooth 2 occlusal surface length ML@en
+WARN	duplicate_exact_synonym	FOVT:0001184	oboInOwl:hasExactSynonym	upper secondary molar tooth 2 occlusal surface length ML@en
+WARN	duplicate_exact_synonym	FOVT:0001302	oboInOwl:hasExactSynonym	upper canine tooth diameter AP@en
+WARN	duplicate_exact_synonym	FOVT:0001309	oboInOwl:hasExactSynonym	upper canine tooth diameter AP@en
+WARN	duplicate_exact_synonym	FOVT:0001154	oboInOwl:hasExactSynonym	<http://purl.obolibrary.org/obo/IAO_0000423>
+WARN	duplicate_exact_synonym	FOVT:0001155	oboInOwl:hasExactSynonym	<http://purl.obolibrary.org/obo/IAO_0000423>
+WARN	duplicate_exact_synonym	FOVT:0001156	oboInOwl:hasExactSynonym	<http://purl.obolibrary.org/obo/IAO_0000423>
+WARN	duplicate_exact_synonym	FOVT:0001157	oboInOwl:hasExactSynonym	<http://purl.obolibrary.org/obo/IAO_0000423>
+WARN	duplicate_exact_synonym	FOVT:0001158	oboInOwl:hasExactSynonym	<http://purl.obolibrary.org/obo/IAO_0000423>
+WARN	duplicate_exact_synonym	FOVT:0001308	oboInOwl:hasExactSynonym	cuspid diameter ML@en
+WARN	duplicate_exact_synonym	FOVT:0001309	oboInOwl:hasExactSynonym	cuspid diameter ML@en
+WARN	missing_definition	FOVT:0001057	IAO:0000115	
+WARN	missing_definition	FOVT:0001058	IAO:0000115	
+WARN	missing_definition	FOVT:0001059	IAO:0000115	
+WARN	missing_definition	FOVT:0001060	IAO:0000115	
+WARN	missing_definition	FOVT:0001073	IAO:0000115	
+WARN	missing_definition	FOVT:0001166	IAO:0000115	
 WARN	missing_definition	OBA:1000049	IAO:0000115	
-WARN	missing_definition	PATO:0000921	IAO:0000115	
-WARN	missing_definition	https://purl.obolibrary.org/obo/FOVT_0001057	IAO:0000115	
-WARN	missing_definition	https://purl.obolibrary.org/obo/FOVT_0001058	IAO:0000115	
-WARN	missing_definition	https://purl.obolibrary.org/obo/FOVT_0001059	IAO:0000115	
-WARN	missing_definition	https://purl.obolibrary.org/obo/FOVT_0001060	IAO:0000115	
-WARN	missing_definition	https://purl.obolibrary.org/obo/FOVT_0001073	IAO:0000115	
-INFO	missing_superclass	https://purl.obolibrary.org/obo/FOVT_0000022	rdfs:subClassOf	
+WARN	missing_obsolete_label	FOVT:0001135	rdfs:label	DEPRECATED metatarsal bone length@en
+WARN	missing_obsolete_label	FOVT:0001198	rdfs:label	DEPRECATED upper primary molar tooth 3 occlusal surface width@en
+INFO	missing_superclass	FOVT:0000022	rdfs:subClassOf	
+INFO	missing_superclass	FOVT:0000026	rdfs:subClassOf	
+INFO	missing_superclass	FOVT:0000027	rdfs:subClassOf	
+INFO	missing_superclass	FOVT:0000028	rdfs:subClassOf	
+INFO	missing_superclass	FOVT:0001041	rdfs:subClassOf	
+INFO	missing_superclass	FOVT:0001057	rdfs:subClassOf	
+INFO	missing_superclass	FOVT:0001058	rdfs:subClassOf	
+INFO	missing_superclass	FOVT:0001060	rdfs:subClassOf	
+INFO	missing_superclass	FOVT:0001062	rdfs:subClassOf	
+INFO	missing_superclass	FOVT:0001063	rdfs:subClassOf	
+INFO	missing_superclass	FOVT:0001064	rdfs:subClassOf	
+INFO	missing_superclass	FOVT:0001073	rdfs:subClassOf	
+INFO	missing_superclass	FOVT:0001079	rdfs:subClassOf	
+INFO	missing_superclass	FOVT:0001134	rdfs:subClassOf	
+INFO	missing_superclass	FOVT:0001140	rdfs:subClassOf	
+INFO	missing_superclass	FOVT:0001143	rdfs:subClassOf	
+INFO	missing_superclass	FOVT:0001147	rdfs:subClassOf	
+INFO	missing_superclass	FOVT:0001149	rdfs:subClassOf	
+INFO	missing_superclass	FOVT:0001158	rdfs:subClassOf	
+INFO	missing_superclass	FOVT:0001163	rdfs:subClassOf	
+INFO	missing_superclass	FOVT:0001164	rdfs:subClassOf	
+INFO	missing_superclass	FOVT:0001166	rdfs:subClassOf	
+INFO	missing_superclass	FOVT:0001167	rdfs:subClassOf	
+INFO	missing_superclass	FOVT:0001168	rdfs:subClassOf	
+INFO	missing_superclass	FOVT:0001169	rdfs:subClassOf	
+INFO	missing_superclass	FOVT:0001170	rdfs:subClassOf	
+INFO	missing_superclass	FOVT:0001171	rdfs:subClassOf	
+INFO	missing_superclass	FOVT:0001172	rdfs:subClassOf	
+INFO	missing_superclass	FOVT:0001173	rdfs:subClassOf	
+INFO	missing_superclass	FOVT:0001174	rdfs:subClassOf	
+INFO	missing_superclass	FOVT:0001175	rdfs:subClassOf	
+INFO	missing_superclass	FOVT:0001176	rdfs:subClassOf	
+INFO	missing_superclass	FOVT:0001177	rdfs:subClassOf	
+INFO	missing_superclass	FOVT:0001178	rdfs:subClassOf	
+INFO	missing_superclass	FOVT:0001179	rdfs:subClassOf	
+INFO	missing_superclass	FOVT:0001180	rdfs:subClassOf	
+INFO	missing_superclass	FOVT:0001181	rdfs:subClassOf	
+INFO	missing_superclass	FOVT:0001182	rdfs:subClassOf	
+INFO	missing_superclass	FOVT:0001183	rdfs:subClassOf	
+INFO	missing_superclass	FOVT:0001184	rdfs:subClassOf	
+INFO	missing_superclass	FOVT:0001185	rdfs:subClassOf	
+INFO	missing_superclass	FOVT:0001186	rdfs:subClassOf	
+INFO	missing_superclass	FOVT:0001187	rdfs:subClassOf	
+INFO	missing_superclass	FOVT:0001188	rdfs:subClassOf	
+INFO	missing_superclass	FOVT:0001189	rdfs:subClassOf	
+INFO	missing_superclass	FOVT:0001190	rdfs:subClassOf	
+INFO	missing_superclass	FOVT:0001191	rdfs:subClassOf	
+INFO	missing_superclass	FOVT:0001192	rdfs:subClassOf	
+INFO	missing_superclass	FOVT:0001193	rdfs:subClassOf	
+INFO	missing_superclass	FOVT:0001194	rdfs:subClassOf	
+INFO	missing_superclass	FOVT:0001195	rdfs:subClassOf	
+INFO	missing_superclass	FOVT:0001196	rdfs:subClassOf	
+INFO	missing_superclass	FOVT:0001197	rdfs:subClassOf	
+INFO	missing_superclass	FOVT:0001199	rdfs:subClassOf	
+INFO	missing_superclass	FOVT:0001200	rdfs:subClassOf	
+INFO	missing_superclass	FOVT:0001201	rdfs:subClassOf	
+INFO	missing_superclass	FOVT:0001202	rdfs:subClassOf	
+INFO	missing_superclass	FOVT:0001203	rdfs:subClassOf	
+INFO	missing_superclass	FOVT:0001204	rdfs:subClassOf	
+INFO	missing_superclass	FOVT:0001205	rdfs:subClassOf	
+INFO	missing_superclass	FOVT:0001206	rdfs:subClassOf	
+INFO	missing_superclass	FOVT:0001207	rdfs:subClassOf	
+INFO	missing_superclass	FOVT:0001208	rdfs:subClassOf	
+INFO	missing_superclass	FOVT:0001209	rdfs:subClassOf	
+INFO	missing_superclass	FOVT:0001210	rdfs:subClassOf	
+INFO	missing_superclass	FOVT:0001211	rdfs:subClassOf	
+INFO	missing_superclass	FOVT:0001212	rdfs:subClassOf	
+INFO	missing_superclass	FOVT:0001213	rdfs:subClassOf	
+INFO	missing_superclass	FOVT:0001214	rdfs:subClassOf	
+INFO	missing_superclass	FOVT:0001215	rdfs:subClassOf	
+INFO	missing_superclass	FOVT:0001216	rdfs:subClassOf	
+INFO	missing_superclass	FOVT:0001217	rdfs:subClassOf	
+INFO	missing_superclass	FOVT:0001218	rdfs:subClassOf	
+INFO	missing_superclass	FOVT:0001219	rdfs:subClassOf	
+INFO	missing_superclass	FOVT:0001220	rdfs:subClassOf	
+INFO	missing_superclass	FOVT:0001221	rdfs:subClassOf	
+INFO	missing_superclass	FOVT:0001222	rdfs:subClassOf	
+INFO	missing_superclass	FOVT:0001223	rdfs:subClassOf	
+INFO	missing_superclass	FOVT:0001224	rdfs:subClassOf	
+INFO	missing_superclass	FOVT:0001225	rdfs:subClassOf	
+INFO	missing_superclass	FOVT:0001226	rdfs:subClassOf	
+INFO	missing_superclass	FOVT:0001227	rdfs:subClassOf	
+INFO	missing_superclass	FOVT:0001228	rdfs:subClassOf	
+INFO	missing_superclass	FOVT:0001229	rdfs:subClassOf	
+INFO	missing_superclass	FOVT:0001230	rdfs:subClassOf	
+INFO	missing_superclass	FOVT:0001231	rdfs:subClassOf	
+INFO	missing_superclass	FOVT:0001232	rdfs:subClassOf	
+INFO	missing_superclass	FOVT:0001233	rdfs:subClassOf	
+INFO	missing_superclass	FOVT:0001234	rdfs:subClassOf	
+INFO	missing_superclass	FOVT:0001235	rdfs:subClassOf	
+INFO	missing_superclass	FOVT:0001236	rdfs:subClassOf	
+INFO	missing_superclass	FOVT:0001237	rdfs:subClassOf	
+INFO	missing_superclass	FOVT:0001238	rdfs:subClassOf	
+INFO	missing_superclass	FOVT:0001239	rdfs:subClassOf	
+INFO	missing_superclass	FOVT:0001240	rdfs:subClassOf	
+INFO	missing_superclass	FOVT:0001241	rdfs:subClassOf	
+INFO	missing_superclass	FOVT:0001242	rdfs:subClassOf	
+INFO	missing_superclass	FOVT:0001243	rdfs:subClassOf	
+INFO	missing_superclass	FOVT:0001244	rdfs:subClassOf	
+INFO	missing_superclass	FOVT:0001245	rdfs:subClassOf	
+INFO	missing_superclass	FOVT:0001246	rdfs:subClassOf	
+INFO	missing_superclass	FOVT:0001247	rdfs:subClassOf	
+INFO	missing_superclass	FOVT:0001248	rdfs:subClassOf	
+INFO	missing_superclass	FOVT:0001249	rdfs:subClassOf	
+INFO	missing_superclass	FOVT:0001250	rdfs:subClassOf	
+INFO	missing_superclass	FOVT:0001251	rdfs:subClassOf	
+INFO	missing_superclass	FOVT:0001252	rdfs:subClassOf	
+INFO	missing_superclass	FOVT:0001253	rdfs:subClassOf	
+INFO	missing_superclass	FOVT:0001254	rdfs:subClassOf	
+INFO	missing_superclass	FOVT:0001255	rdfs:subClassOf	
+INFO	missing_superclass	FOVT:0001256	rdfs:subClassOf	
+INFO	missing_superclass	FOVT:0001257	rdfs:subClassOf	
+INFO	missing_superclass	FOVT:0001258	rdfs:subClassOf	
+INFO	missing_superclass	FOVT:0001259	rdfs:subClassOf	
+INFO	missing_superclass	FOVT:0001260	rdfs:subClassOf	
+INFO	missing_superclass	FOVT:0001261	rdfs:subClassOf	
+INFO	missing_superclass	FOVT:0001262	rdfs:subClassOf	
+INFO	missing_superclass	FOVT:0001263	rdfs:subClassOf	
+INFO	missing_superclass	FOVT:0001264	rdfs:subClassOf	
+INFO	missing_superclass	FOVT:0001265	rdfs:subClassOf	
+INFO	missing_superclass	FOVT:0001266	rdfs:subClassOf	
+INFO	missing_superclass	FOVT:0001267	rdfs:subClassOf	
+INFO	missing_superclass	FOVT:0001268	rdfs:subClassOf	
+INFO	missing_superclass	FOVT:0001269	rdfs:subClassOf	
+INFO	missing_superclass	FOVT:0001270	rdfs:subClassOf	
+INFO	missing_superclass	FOVT:0001271	rdfs:subClassOf	
+INFO	missing_superclass	FOVT:0001272	rdfs:subClassOf	
+INFO	missing_superclass	FOVT:0001273	rdfs:subClassOf	
+INFO	missing_superclass	FOVT:0001274	rdfs:subClassOf	
+INFO	missing_superclass	FOVT:0001275	rdfs:subClassOf	
+INFO	missing_superclass	FOVT:0001276	rdfs:subClassOf	
+INFO	missing_superclass	FOVT:0001277	rdfs:subClassOf	
+INFO	missing_superclass	FOVT:0001278	rdfs:subClassOf	
+INFO	missing_superclass	FOVT:0001279	rdfs:subClassOf	
+INFO	missing_superclass	FOVT:0001280	rdfs:subClassOf	
+INFO	missing_superclass	FOVT:0001281	rdfs:subClassOf	
+INFO	missing_superclass	FOVT:0001282	rdfs:subClassOf	
+INFO	missing_superclass	FOVT:0001283	rdfs:subClassOf	
+INFO	missing_superclass	FOVT:0001284	rdfs:subClassOf	
+INFO	missing_superclass	FOVT:0001285	rdfs:subClassOf	
+INFO	missing_superclass	FOVT:0001286	rdfs:subClassOf	
+INFO	missing_superclass	FOVT:0001287	rdfs:subClassOf	
+INFO	missing_superclass	FOVT:0001288	rdfs:subClassOf	
+INFO	missing_superclass	FOVT:0001289	rdfs:subClassOf	
+INFO	missing_superclass	FOVT:0001290	rdfs:subClassOf	
+INFO	missing_superclass	FOVT:0001291	rdfs:subClassOf	
+INFO	missing_superclass	FOVT:0001292	rdfs:subClassOf	
+INFO	missing_superclass	FOVT:0001293	rdfs:subClassOf	
+INFO	missing_superclass	FOVT:0001294	rdfs:subClassOf	
+INFO	missing_superclass	FOVT:0001297	rdfs:subClassOf	
+INFO	missing_superclass	FOVT:0001300	rdfs:subClassOf	
+INFO	missing_superclass	FOVT:0001325	rdfs:subClassOf	
+INFO	missing_superclass	FOVT:0001331	rdfs:subClassOf	
+INFO	missing_superclass	FOVT:0001344	rdfs:subClassOf	
+INFO	missing_superclass	FOVT:0001345	rdfs:subClassOf	
+INFO	missing_superclass	FOVT:0001346	rdfs:subClassOf	
+INFO	missing_superclass	FOVT:0001347	rdfs:subClassOf	

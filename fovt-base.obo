@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: fovt/releases/2021-06-02/fovt-base.owl
+data-version: fovt/releases/2021-10-29/fovt-base.owl
 ontology: fovt/fovt-base
 property_value: http://purl.org/dc/elements/1.1/description "None" xsd:string
 property_value: http://purl.org/dc/elements/1.1/description "These are the terms that are improted for FOVT to describe vertebrate traits." xsd:string
@@ -10,7 +10,7 @@ property_value: http://purl.org/dc/terms/license http://creativecommons.org/publ
 [Term]
 id: FOVT:0000001
 name: body length with tail
-def: "A length measurement of the body that includes the tail." []
+def: "A length measurement of the body that includes the tail." [https://orcid.org/0000-0003-2699-3066]
 synonym: "total length" EXACT []
 is_a: OBA:VT0001256
 property_value: IAO:0000114 IAO:0000423
@@ -19,7 +19,7 @@ property_value: IAO:0000117 http://orcid.org/0000-0003-2699-3066
 [Term]
 id: FOVT:0000002
 name: body length without tail
-def: "A length measurement of the body that excludes a tail, usually ending at the anus." []
+def: "A length measurement of the body that excludes a tail, usually ending at the anus." [https://orcid.org/0000-0003-2699-3066]
 synonym: "head-body length" EXACT []
 synonym: "snout-vent length" BROAD []
 is_a: OBA:VT0001256
@@ -29,7 +29,7 @@ property_value: IAO:0000117 http://orcid.org/0000-0003-2699-3066
 [Term]
 id: FOVT:0000003
 name: hind foot length with nail
-def: "A length measurement of a hind foot that includes a nail." []
+def: "A length measurement of a hind foot that includes a nail." [https://orcid.org/0000-0003-2699-3066]
 synonym: "pes length with claw" EXACT []
 is_a: OBA:1000049
 property_value: IAO:0000114 IAO:0000423
@@ -38,7 +38,7 @@ property_value: IAO:0000117 http://orcid.org/0000-0003-2699-3066
 [Term]
 id: FOVT:0000004
 name: hind foot length without nail
-def: "A length measurement of a hind foot that excludes a nail." []
+def: "A length measurement of a hind foot that excludes a nail." [https://orcid.org/0000-0003-2699-3066]
 synonym: "pes length without claw" EXACT []
 is_a: OBA:1000049
 property_value: IAO:0000114 IAO:0000423
@@ -47,7 +47,7 @@ property_value: IAO:0000117 http://orcid.org/0000-0003-2699-3066
 [Term]
 id: FOVT:0000005
 name: ear length to notch
-def: "The length of a line of an ear from a helix of the outer ear to an intertragus insicusure of an ear." []
+def: "The length of a line of an ear from a helix of the outer ear to an intertragus insicusure of an ear." [https://orcid.org/0000-0003-2699-3066]
 synonym: "ear length" BROAD []
 synonym: "ear notch" EXACT []
 is_a: OBA:0003426
@@ -57,7 +57,7 @@ property_value: IAO:0000117 http://orcid.org/0000-0003-2699-3066
 [Term]
 id: FOVT:0000006
 name: femur length from greater trochanter to medial condyle
-def: "The length of a line of a femur from a medial condyle of a femur to a greater trochanter of a femur." []
+def: "The length of a line of a femur from a medial condyle of a femur to a greater trochanter of a femur." [ISBN: 9004086161\, 9789004086166]
 synonym: "femur greatest length" BROAD []
 synonym: "femur length" BROAD []
 is_a: OBA:VT0004348
@@ -67,7 +67,7 @@ property_value: IAO:0000117 http://orcid.org/0000-0003-2699-3066
 [Term]
 id: FOVT:0000007
 name: femur length from caput to medial condyle
-def: "The length of a line of a femur from a medial condyle of a femur to a head of a femur." [] {http://purl.obolibrary.org/obo/IAO_0000119="von den Driesch, Angela. A guide to the measurement of animal bones from archaeological sites: as developed by the Institut für Palaeoanatomie, Domestikationsforschung und Geschichte der Tiermedizin of the University of Munich . Vol. 1. Peabody Museum Press, 1976."}
+def: "The length of a line of a femur from a medial condyle of a femur to a head of a femur." [ISBN: 9004086161\, 9789004086166]
 synonym: "femur length" BROAD []
 is_a: OBA:VT0004348
 property_value: IAO:0000114 IAO:0000423
@@ -76,7 +76,7 @@ property_value: IAO:0000117 http://orcid.org/0000-0003-2699-3066
 [Term]
 id: FOVT:0000008
 name: humerus length from trochlea to caput
-def: "The length of a line of a trochlea of a humerus to a proximal head of a humerus." [] {http://purl.obolibrary.org/obo/IAO_0000119="Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988.", http://purl.obolibrary.org/obo/IAO_0000119="von den Driesch, Angela. A guide to the measurement of animal bones from archaeological sites: as developed by the Institut für Palaeoanatomie, Domestikationsforschung und Geschichte der Tiermedizin of the University of Munich . Vol. 1. Peabody Museum Press, 1976."}
+def: "The length of a line of a trochlea of a humerus to a proximal head of a humerus." [ISBN: 9004086161\, 9789004086166, ISBN: 9780873659505]
 synonym: "humerus length" BROAD []
 synonym: "humerus length to caput" BROAD []
 is_a: OBA:VT0004350
@@ -86,7 +86,7 @@ property_value: IAO:0000117 http://orcid.org/0000-0003-2699-3066
 [Term]
 id: FOVT:0000009
 name: humerus length from trochlea to ventral tubercle
-def: "The length of a line of a trochlea of a humerus to a ventral tubercle of a humerus." [] {http://purl.obolibrary.org/obo/IAO_0000119="Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988.", http://purl.obolibrary.org/obo/IAO_0000119="von den Driesch, Angela. A guide to the measurement of animal bones from archaeological sites: as developed by the Institut für Palaeoanatomie, Domestikationsforschung und Geschichte der Tiermedizin of the University of Munich . Vol. 1. Peabody Museum Press, 1976."}
+def: "The length of a line of a trochlea of a humerus to a ventral tubercle of a humerus." [ISBN: 9004086161\, 9789004086166, ISBN: 9780873659505]
 synonym: "humerus greatest length" BROAD []
 synonym: "humerus length" BROAD []
 synonym: "humerus length from trochlea to greater tubercle" EXACT []
@@ -120,7 +120,7 @@ is_obsolete: true
 [Term]
 id: FOVT:0000013
 name: talus lateral length
-def: "The length of the lateral side of a talus along the proximal-distal axis (in animals) or anterior-posterior axis (in humans)." [] {http://purl.obolibrary.org/obo/IAO_0000119="von den Driesch, Angela. A guide to the measurement of animal bones from archaeological sites: as developed by the Institut für Palaeoanatomie, Domestikationsforschung und Geschichte der Tiermedizin of the University of Munich . Vol. 1. Peabody Museum Press, 1976."}
+def: "The length of the lateral side of a talus along the proximal-distal axis (in animals) or anterior-posterior axis (in humans)." [ISBN: 9780873659505]
 synonym: "astragalus length lateral" EXACT []
 is_a: FOVT:0000020 ! talus length
 property_value: IAO:0000114 IAO:0000423
@@ -150,16 +150,17 @@ replaced_by: FOVT:0000013
 [Term]
 id: FOVT:0000016
 name: talus medial length
-def: "The length of the medial side of a talus along the proximal-distal axis (non-plantigrade) or anterior-posterior axis (plantigrade)." []
+def: "The length of the medial side of a talus along the proximal-distal axis (non-plantigrade) or anterior-posterior axis (plantigrade)." [ISBN: 9780873659505]
 synonym: "astragalus medial length" EXACT []
 is_a: FOVT:0000020 ! talus length
+relationship: RO:0002160 NCBITaxon:91561
 property_value: IAO:0000114 IAO:0000423
 property_value: IAO:0000117 http://orcid.org/0000-0003-2699-3066
 
 [Term]
 id: FOVT:0000017
 name: talus distal articular breadth (non-plantigrade)
-def: "The length of a line between the medial-most point on the articular surface for the calcaneum on the astragalus to the lateral-most point of the trochleated head of an astragalus." [] {http://purl.obolibrary.org/obo/IAO_0000119="Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988.", http://purl.obolibrary.org/obo/IAO_0000119="von den Driesch, Angela. A guide to the measurement of animal bones from archaeological sites: as developed by the Institut für Palaeoanatomie, Domestikationsforschung und Geschichte der Tiermedizin of the University of Munich . Vol. 1. Peabody Museum Press, 1976."}
+def: "The length of a line between the medial-most point on the articular surface for the calcaneum on the astragalus to the lateral-most point of the trochleated head of an astragalus." [ISBN: 9004086161\, 9789004086166, ISBN: 9780873659505]
 synonym: "astragalus distal articular breadth (non-plantigrade)" EXACT []
 synonym: "astragalus distal articular width ML (non-plantigrade)" EXACT []
 synonym: "length of line between the medial-most point of the articular surface for the calcaneum on the talus to the lateral-most point of the trochleated head on talus" EXACT []
@@ -167,13 +168,14 @@ synonym: "talus anterior articular breadth (plantigrade)" EXACT []
 synonym: "talus anterior articular width ML (plantigrade)" EXACT []
 synonym: "talus distal articular width ML (non-plantigrade)" EXACT []
 is_a: FOVT:0001041 ! talus width
+relationship: RO:0002160 NCBITaxon:9788
 property_value: IAO:0000114 IAO:0000423
 property_value: IAO:0000117 http://orcid.org/0000-0003-2699-3066
 
 [Term]
 id: FOVT:0000018
 name: talus distal articular depth (non-plantigrade)
-def: "Length of the distal end of an astragalus along the anterior-posterior axis (non-plantigrade) or proximal-distal axis (plantigrade)." [] {http://purl.obolibrary.org/obo/IAO_0000119="Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988."}
+def: "Length of the distal end of an astragalus along the anterior-posterior axis (non-plantigrade) or proximal-distal axis (plantigrade)." [ISBN: 9004086161\, 9789004086166]
 synonym: "astragalus distal articular depth (non-plantigrade)" EXACT []
 synonym: "astragalus distal articular width AP (non-plantigrade)" EXACT []
 synonym: "length of line connecting the posterior-most point ot the anterior-most point of the trochleated head on talus" EXACT []
@@ -187,30 +189,33 @@ property_value: IAO:0000117 http://orcid.org/0000-0003-2699-3066
 [Term]
 id: FOVT:0000020
 name: talus length
-def: "The length of a talus along the proximal-distal axis (non-plantigrade) or anterior-posterior axis (plantigrade)." [] {http://purl.obolibrary.org/obo/IAO_0000119="von den Driesch, Angela. A guide to the measurement of animal bones from archaeological sites: as developed by the Institut für Palaeoanatomie, Domestikationsforschung und Geschichte der Tiermedizin of the University of Munich . Vol. 1. Peabody Museum Press, 1976."}
+def: "The length of a talus along the proximal-distal axis (non-plantigrade) or anterior-posterior axis (plantigrade)." [ISBN: 9780873659505]
 synonym: "astragulus length" EXACT []
+synonym: "talus height" EXACT [] {reference="von den Driesch, Angela. A guide to the measurement of animal bones from archaeological sites: as developed by the Institut für Palaeoanatomie, Domestikationsforschung und Geschichte der Tiermedizin of the University of Munich . Vol. 1. Peabody Museum Press, 1976."}
 is_a: OBA:VT0005110
 is_a: PATO:0000122
 intersection_of: PATO:0000122
 intersection_of: RO:0000052 UBERON:0002395
 property_value: IAO:0000114 IAO:0000423
 property_value: IAO:0000117 http://orcid.org/0000-0003-2699-3066
+property_value: taxon "some 'Artiodactyla'" xsd:string
 
 [Term]
 id: FOVT:0000021
 name: talus breadth
-def: "The width of a talus along the medial-lateral axis." [] {http://purl.obolibrary.org/obo/IAO_0000119="Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988.", http://purl.obolibrary.org/obo/IAO_0000119="von den Driesch, Angela. A guide to the measurement of animal bones from archaeological sites: as developed by the Institut für Palaeoanatomie, Domestikationsforschung und Geschichte der Tiermedizin of the University of Munich . Vol. 1. Peabody Museum Press, 1976."}
+def: "The width of a talus along the medial-lateral axis." [ISBN: 9004086161\, 9789004086166, ISBN: 9780873659505]
 synonym: "astragalus breadth" EXACT []
 synonym: "astragalus width ML" EXACT []
 synonym: "talus width ML" EXACT []
 is_a: FOVT:0001041 ! talus width
+relationship: RO:0002160 NCBITaxon:9788
 property_value: IAO:0000114 IAO:0000423
 property_value: IAO:0000117 http://orcid.org/0000-0003-2699-3066
 
 [Term]
 id: FOVT:0000022
 name: calcaneus length
-def: "The maximal length of a calcaneus along the proximal-distal axis (non-plantigrade) or anterior-posterior axis (plantigrade)." [] {http://purl.obolibrary.org/obo/IAO_0000119="Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988.", http://purl.obolibrary.org/obo/IAO_0000119="von den Driesch, Angela. A guide to the measurement of animal bones from archaeological sites: as developed by the Institut für Palaeoanatomie, Domestikationsforschung und Geschichte der Tiermedizin of the University of Munich . Vol. 1. Peabody Museum Press, 1976."}
+def: "The maximal length of a calcaneus along the proximal-distal axis (non-plantigrade) or anterior-posterior axis (plantigrade)." [ISBN: 9004086161\, 9789004086166, ISBN: 9780873659505]
 intersection_of: PATO:0000122
 intersection_of: RO:0000052 UBERON:0001450
 property_value: IAO:0000114 IAO:0000423
@@ -219,7 +224,7 @@ property_value: IAO:0000117 http://orcid.org/0000-0003-2699-3066
 [Term]
 id: FOVT:0000023
 name: calcaneus distal breadth (non-plantigrade)
-def: "The width of a caclcaneus along the medial-lateral axis of the distal end (non-plantigrade) or anterior end (plantigrade)." [] {http://purl.obolibrary.org/obo/IAO_0000119="Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988."}
+def: "The width of a caclcaneus along the medial-lateral axis of the distal end (non-plantigrade) or anterior end (plantigrade)." [ISBN: 9004086161\, 9789004086166]
 synonym: "calcaneus anterior breadth (plantigrade)" EXACT []
 synonym: "calcaneus anterior width ML (plantigrade)" EXACT []
 synonym: "calcaneus distal width ML (non-plantigrade)" EXACT []
@@ -230,35 +235,39 @@ property_value: IAO:0000117 http://orcid.org/0000-0003-2699-3066
 [Term]
 id: FOVT:0000025
 name: tibia lateral length
-def: "The length of a tibia on the lateral side of a tibia along the proximal-distal axis (in animals) or anterior-posterior axis (in humans)." [] {http://purl.obolibrary.org/obo/IAO_0000119="von den Driesch, Angela. A guide to the measurement of animal bones from archaeological sites: as developed by the Institut für Palaeoanatomie, Domestikationsforschung und Geschichte der Tiermedizin of the University of Munich . Vol. 1. Peabody Museum Press, 1976."}
+def: "The length of a tibia on the lateral side of a tibia along the proximal-distal axis (in animals) or anterior-posterior axis (in humans)." [ISBN: 9780873659505]
 is_a: OBA:VT0004357
+relationship: RO:0002160 NCBITaxon:9788
 property_value: IAO:0000114 IAO:0000423
 property_value: IAO:0000117 http://orcid.org/0000-0003-2699-3066
 
 [Term]
 id: FOVT:0000026
 name: tibia diaphysis width
-def: "The width of shaft or diaphysis of a tibia." []
+def: "The width of shaft or diaphysis of a tibia." [https://orcid.org/0000-0003-2699-3066]
 synonym: "tibia width" BROAD []
-is_a: OBA:VT1000289
+intersection_of: PATO:0000921
+intersection_of: RO:0000052 UBERON:0013280
 property_value: IAO:0000114 IAO:0000423
 property_value: IAO:0000117 http://orcid.org/0000-0003-2699-3066
 
 [Term]
 id: FOVT:0000027
 name: tibia proximal width
-def: "The width of the proximal end of a tibia." []
+def: "The width of the proximal end of a tibia." [https://orcid.org/0000-0003-2699-3066]
 synonym: "breadth of proximal end of tibia" EXACT []
-is_a: OBA:VT1000289
+intersection_of: PATO:0000921
+intersection_of: RO:0000052 UBERON:0008772
 property_value: IAO:0000114 IAO:0000423
 property_value: IAO:0000117 http://orcid.org/0000-0003-2699-3066
 
 [Term]
 id: FOVT:0000028
 name: tibia distal width
-def: "The width of the distal end of a tibia." []
+def: "The width of the distal end of a tibia." [https://orcid.org/0000-0003-2699-3066]
 synonym: "breadth of distal end of tibia" EXACT []
-is_a: OBA:VT1000289
+intersection_of: PATO:0000921
+intersection_of: RO:0000052 UBERON:0004405
 property_value: IAO:0000114 IAO:0000423
 property_value: IAO:0000117 http://orcid.org/0000-0003-2699-3066
 
@@ -275,7 +284,7 @@ replaced_by: FOVT:0001004
 [Term]
 id: FOVT:0000030
 name: tooth row length
-def: "The length of a tooth row." []
+def: "The length of a tooth row." [https://orcid.org/0000-0003-2699-3066]
 is_a: PATO:0000122
 intersection_of: PATO:0000122
 intersection_of: RO:0000052 UBERON:0009678
@@ -285,7 +294,7 @@ property_value: IAO:0000117 http://orcid.org/0000-0003-2699-3066
 [Term]
 id: FOVT:0000032
 name: snout-vent length
-def: "Body length measured from tip of nose to cloaca." []
+def: "Body length measured from tip of nose to cloaca." [https://orcid.org/0000-0003-2699-3066]
 synonym: "head-body length" BROAD []
 is_a: OBA:VT0001256
 property_value: IAO:0000114 IAO:0000423
@@ -294,7 +303,7 @@ property_value: IAO:0000117 http://orcid.org/0000-0003-2699-3066
 [Term]
 id: FOVT:0001003
 name: ear length to tragus
-def: "The length of a line of an ear from a helix of the outer ear to a tragus of an ear. This measurement is often taken in bats." []
+def: "The length of a line of an ear from a helix of the outer ear to a tragus of an ear. This measurement is often taken in bats." [https://orcid.org/0000-0003-2699-3066]
 is_a: OBA:0003426
 property_value: http://purl.org/dc/elements/1.1/date 2021-01-26T21:39:38Z xsd:dateTime
 property_value: IAO:0000114 IAO:0000423
@@ -303,7 +312,7 @@ property_value: IAO:0000117 http://orcid.org/0000-0003-2699-3066
 [Term]
 id: FOVT:0001004
 name: tibia distal breadth
-def: "The width of a tibia at the distal end along the medial-lateral axis." [] {http://purl.obolibrary.org/obo/IAO_0000119="Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988.", http://purl.obolibrary.org/obo/IAO_0000119="von den Driesch, Angela. A guide to the measurement of animal bones from archaeological sites: as developed by the Institut für Palaeoanatomie, Domestikationsforschung und Geschichte der Tiermedizin of the University of Munich . Vol. 1. Peabody Museum Press, 1976."}
+def: "The width of a tibia at the distal end along the medial-lateral axis." [ISBN: 9004086161\, 9789004086166, ISBN: 9780873659505]
 synonym: "tibia distal width ML" EXACT []
 is_a: FOVT:0000028 ! tibia distal width
 property_value: http://purl.org/dc/elements/1.1/date 2021-02-05T00:08:49Z xsd:dateTime
@@ -313,17 +322,19 @@ property_value: IAO:0000117 http://orcid.org/0000-0003-2699-3066
 [Term]
 id: FOVT:0001005
 name: tibia distal depth
-def: "The width of a tibia at the distal end along the anterior-posterior axis (in animals) or proximal-distal axis (in humans)." [] {http://purl.obolibrary.org/obo/IAO_0000119="Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988.", http://purl.obolibrary.org/obo/IAO_0000119="von den Driesch, Angela. A guide to the measurement of animal bones from archaeological sites: as developed by the Institut für Palaeoanatomie, Domestikationsforschung und Geschichte der Tiermedizin of the University of Munich . Vol. 1. Peabody Museum Press, 1976."}
+def: "The width of a tibia at the distal end along the anterior-posterior axis (in animals) or proximal-distal axis (in humans)." [ISBN: 9004086161\, 9789004086166, ISBN: 9780873659505]
 synonym: "tibia distal width AP" EXACT []
 is_a: FOVT:0000028 ! tibia distal width
 property_value: http://purl.org/dc/elements/1.1/date 2021-02-05T00:09:47Z xsd:dateTime
 property_value: IAO:0000114 IAO:0000423
 property_value: IAO:0000117 http://orcid.org/0000-0003-2699-3066
+property_value: taxon "some 'Equide'" xsd:string
+property_value: taxon "some 'Lagomorpha'" xsd:string
 
 [Term]
 id: FOVT:0001006
 name: tibia proximal breadth
-def: "The width of a tibia at the proximal end along the medial-lateral axis." [] {http://purl.obolibrary.org/obo/IAO_0000119="Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988.", http://purl.obolibrary.org/obo/IAO_0000119="von den Driesch, Angela. A guide to the measurement of animal bones from archaeological sites: as developed by the Institut für Palaeoanatomie, Domestikationsforschung und Geschichte der Tiermedizin of the University of Munich . Vol. 1. Peabody Museum Press, 1976."}
+def: "The width of a tibia at the proximal end along the medial-lateral axis." [ISBN: 9004086161\, 9789004086166, ISBN: 9780873659505]
 synonym: "tibia proximal width ML" EXACT []
 is_a: FOVT:0000027 ! tibia proximal width
 property_value: http://purl.org/dc/elements/1.1/date 2021-02-05T00:10:13Z xsd:dateTime
@@ -333,7 +344,7 @@ property_value: IAO:0000117 http://orcid.org/0000-0003-2699-3066
 [Term]
 id: FOVT:0001007
 name: tibia proximal depth
-def: "The width of a tibia at the proximal end along the anterior-posterior axis (in animals) or proximal-distal axis (in humans)." [] {http://purl.obolibrary.org/obo/IAO_0000119="Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988.", http://purl.obolibrary.org/obo/IAO_0000119="Cantryll-Stewart, R. 2018. A Discernment of Prey Selection by the Ancient Maya."}
+def: "The width of a tibia at the proximal end along the anterior-posterior axis (in animals) or proximal-distal axis (in humans)." [https://eprints.nottingham.ac.uk/50198/, ISBN: 9004086161\, 9789004086166]
 synonym: "tibia proximal width AP" EXACT []
 is_a: FOVT:0000027 ! tibia proximal width
 property_value: http://purl.org/dc/elements/1.1/date 2021-02-05T00:10:31Z xsd:dateTime
@@ -343,7 +354,7 @@ property_value: IAO:0000117 http://orcid.org/0000-0003-2699-3066
 [Term]
 id: FOVT:0001008
 name: tibia diaphysis breadth
-def: "The width of a shaft or diaphysis of a tibia along the medial-lateral axis." [] {http://purl.obolibrary.org/obo/IAO_0000119="Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988.", http://purl.obolibrary.org/obo/IAO_0000119="von den Driesch, Angela. A guide to the measurement of animal bones from archaeological sites: as developed by the Institut für Palaeoanatomie, Domestikationsforschung und Geschichte der Tiermedizin of the University of Munich . Vol. 1. Peabody Museum Press, 1976."}
+def: "The width of a shaft or diaphysis of a tibia along the medial-lateral axis." [ISBN: 9004086161\, 9789004086166, ISBN: 9780873659505]
 synonym: "tibia diaphysis width ML" EXACT []
 is_a: FOVT:0000026 ! tibia diaphysis width
 property_value: http://purl.org/dc/elements/1.1/date 2021-02-05T00:16:17Z xsd:dateTime
@@ -353,7 +364,7 @@ property_value: IAO:0000117 http://orcid.org/0000-0003-2699-3066
 [Term]
 id: FOVT:0001009
 name: tibia diaphysis depth
-def: "The width of a shaft or diaphysis of a tibia along the anterior-posterior axis (in animals) or proximal-distal axis (in humans)." [] {http://purl.obolibrary.org/obo/IAO_0000119="Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988."}
+def: "The width of a shaft or diaphysis of a tibia along the anterior-posterior axis (in animals) or proximal-distal axis (in humans)." [ISBN: 9004086161\, 9789004086166]
 synonym: "tibia diaphysis width AP" EXACT []
 is_a: FOVT:0000026 ! tibia diaphysis width
 property_value: http://purl.org/dc/elements/1.1/date 2021-02-05T00:16:59Z xsd:dateTime
@@ -363,7 +374,7 @@ property_value: IAO:0000117 http://orcid.org/0000-0003-2699-3066
 [Term]
 id: FOVT:0001021
 name: tibia medial length
-def: "The length of a tibia on the medial side along the proximal-distal axis (in animals) or anterior-posterior axis (in humans)." [] {http://purl.obolibrary.org/obo/IAO_0000119="Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988."}
+def: "The length of a tibia on the medial side along the proximal-distal axis (in animals) or anterior-posterior axis (in humans)." [ISBN: 9004086161\, 9789004086166]
 is_a: OBA:VT0004357
 property_value: http://purl.org/dc/elements/1.1/date 2021-02-10T21:45:47Z xsd:dateTime
 property_value: IAO:0000114 IAO:0000423
@@ -383,7 +394,7 @@ replaced_by: OBA:VT0004357
 [Term]
 id: FOVT:0001023
 name: tibia diaphysis circumference
-def: "The circumference of the diaphysis of a tibia." [] {http://purl.obolibrary.org/obo/IAO_0000119="von den Driesch, Angela. A guide to the measurement of animal bones from archaeological sites: as developed by the Institut für Palaeoanatomie, Domestikationsforschung und Geschichte der Tiermedizin of the University of Munich . Vol. 1. Peabody Museum Press, 1976."}
+def: "The circumference of the diaphysis of a tibia." [ISBN: 9780873659505]
 is_a: OBA:VT0100001
 property_value: http://purl.org/dc/elements/1.1/date 2021-02-10T21:58:04Z xsd:dateTime
 property_value: IAO:0000114 IAO:0000423
@@ -392,7 +403,7 @@ property_value: IAO:0000117 http://orcid.org/0000-0003-2699-3066
 [Term]
 id: FOVT:0001024
 name: femur proximal breadth
-def: "The width of the proximal end of a femur along the medial-lateral axis." [] {http://purl.obolibrary.org/obo/IAO_0000119="Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988.", http://purl.obolibrary.org/obo/IAO_0000119="von den Driesch, Angela. A guide to the measurement of animal bones from archaeological sites: as developed by the Institut für Palaeoanatomie, Domestikationsforschung und Geschichte der Tiermedizin of the University of Munich . Vol. 1. Peabody Museum Press, 1976."}
+def: "The width of the proximal end of a femur along the medial-lateral axis." [ISBN: 9004086161\, 9789004086166, ISBN: 9780873659505]
 synonym: "femur proximal width ML" EXACT []
 is_a: OBA:VT1000666
 property_value: http://purl.org/dc/elements/1.1/date 2021-02-10T22:28:39Z xsd:dateTime
@@ -402,7 +413,7 @@ property_value: IAO:0000117 http://orcid.org/0000-0003-2699-3066
 [Term]
 id: FOVT:0001025
 name: femur trochanter breadth
-def: "The width of the trochanter of a femur along the medial-lateral axis." [] {http://purl.obolibrary.org/obo/IAO_0000119="von den Driesch, Angela. A guide to the measurement of animal bones from archaeological sites: as developed by the Institut für Palaeoanatomie, Domestikationsforschung und Geschichte der Tiermedizin of the University of Munich . Vol. 1. Peabody Museum Press, 1976."}
+def: "The width of the trochanter of a femur along the medial-lateral axis." [ISBN: 9780873659505]
 synonym: "femur trochanter width ML" EXACT []
 is_a: OBA:VT1000666
 property_value: http://purl.org/dc/elements/1.1/date 2021-02-10T22:32:15Z xsd:dateTime
@@ -412,7 +423,7 @@ property_value: IAO:0000117 http://orcid.org/0000-0003-2699-3066
 [Term]
 id: FOVT:0001026
 name: femur caput depth
-def: "The width of the caput of a femur along the anterior-posterior axis." [] {http://purl.obolibrary.org/obo/IAO_0000119="Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988.", http://purl.obolibrary.org/obo/IAO_0000119="von den Driesch, Angela. A guide to the measurement of animal bones from archaeological sites: as developed by the Institut für Palaeoanatomie, Domestikationsforschung und Geschichte der Tiermedizin of the University of Munich . Vol. 1. Peabody Museum Press, 1976."}
+def: "The width of the caput of a femur along the anterior-posterior axis." [ISBN: 9004086161\, 9789004086166, ISBN: 9780873659505]
 synonym: "femur caput width AP" EXACT []
 is_a: OBA:VT1000666
 property_value: http://purl.org/dc/elements/1.1/date 2021-02-10T22:33:22Z xsd:dateTime
@@ -422,7 +433,7 @@ property_value: IAO:0000117 http://orcid.org/0000-0003-2699-3066
 [Term]
 id: FOVT:0001027
 name: femur diaphysis breadth
-def: "The width of the diaphysis of a femur along the medial-lateral axis." [] {http://purl.obolibrary.org/obo/IAO_0000119="Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988.", http://purl.obolibrary.org/obo/IAO_0000119="von den Driesch, Angela. A guide to the measurement of animal bones from archaeological sites: as developed by the Institut für Palaeoanatomie, Domestikationsforschung und Geschichte der Tiermedizin of the University of Munich . Vol. 1. Peabody Museum Press, 1976."}
+def: "The width of the diaphysis of a femur along the medial-lateral axis." [ISBN: 9004086161\, 9789004086166, ISBN: 9780873659505]
 synonym: "femur diaphysis width ML" EXACT []
 is_a: OBA:VT1000666
 property_value: http://purl.org/dc/elements/1.1/date 2021-02-10T22:35:17Z xsd:dateTime
@@ -432,7 +443,7 @@ property_value: IAO:0000117 http://orcid.org/0000-0003-2699-3066
 [Term]
 id: FOVT:0001028
 name: femur diaphysis circumference
-def: "The circumference of the diaphysis of a femur." [] {http://purl.obolibrary.org/obo/IAO_0000119="von den Driesch, Angela. A guide to the measurement of animal bones from archaeological sites: as developed by the Institut für Palaeoanatomie, Domestikationsforschung und Geschichte der Tiermedizin of the University of Munich . Vol. 1. Peabody Museum Press, 1976."}
+def: "The circumference of the diaphysis of a femur." [ISBN: 9780873659505]
 is_a: OBA:VT1000369
 property_value: http://purl.org/dc/elements/1.1/date 2021-02-10T22:36:50Z xsd:dateTime
 property_value: IAO:0000114 IAO:0000423
@@ -441,7 +452,7 @@ property_value: IAO:0000117 http://orcid.org/0000-0003-2699-3066
 [Term]
 id: FOVT:0001029
 name: femur distal breadth
-def: "The width of the distal end of a femur along the medial-lateral axis." [] {http://purl.obolibrary.org/obo/IAO_0000119="Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988.", http://purl.obolibrary.org/obo/IAO_0000119="von den Driesch, Angela. A guide to the measurement of animal bones from archaeological sites: as developed by the Institut für Palaeoanatomie, Domestikationsforschung und Geschichte der Tiermedizin of the University of Munich . Vol. 1. Peabody Museum Press, 1976."}
+def: "The width of the distal end of a femur along the medial-lateral axis." [ISBN: 9004086161\, 9789004086166, ISBN: 9780873659505]
 synonym: "femur distal width ML" EXACT []
 is_a: OBA:VT1000666
 property_value: http://purl.org/dc/elements/1.1/date 2021-02-10T22:37:49Z xsd:dateTime
@@ -451,7 +462,7 @@ property_value: IAO:0000117 http://orcid.org/0000-0003-2699-3066
 [Term]
 id: FOVT:0001030
 name: femur proximal depth
-def: "The width of the proximal end of a femur along the anterior-posterior axis." [] {http://purl.obolibrary.org/obo/IAO_0000119="Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988."}
+def: "The width of the proximal end of a femur along the anterior-posterior axis." [ISBN: 9004086161\, 9789004086166]
 synonym: "femur proximal width AP" EXACT []
 is_a: OBA:VT1000666
 property_value: http://purl.org/dc/elements/1.1/date 2021-02-10T22:44:52Z xsd:dateTime
@@ -461,7 +472,7 @@ property_value: IAO:0000117 http://orcid.org/0000-0003-2699-3066
 [Term]
 id: FOVT:0001031
 name: femur distal depth
-def: "The width of the distal end of a femur along the anterior-posterior axis." []
+def: "The width of the distal end of a femur along the anterior-posterior axis." [ISBN: 9004086161\, 9789004086166, ISBN: 9780873659505]
 synonym: "femur distal width AP" EXACT [] {http://purl.obolibrary.org/obo/IAO_0000119="Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988."}
 is_a: OBA:VT1000666
 property_value: http://purl.org/dc/elements/1.1/date 2021-02-10T22:46:33Z xsd:dateTime
@@ -471,7 +482,7 @@ property_value: IAO:0000117 http://orcid.org/0000-0003-2699-3066
 [Term]
 id: FOVT:0001032
 name: femur trochlea breadth
-def: "The width of the trochlea of a femur along the medial-lateral axis." [] {http://purl.obolibrary.org/obo/IAO_0000119="Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988."}
+def: "The width of the trochlea of a femur along the medial-lateral axis." [ISBN: 9004086161\, 9789004086166]
 synonym: "femur trochlea width ML" EXACT []
 is_a: OBA:VT1000666
 property_value: http://purl.org/dc/elements/1.1/date 2021-02-10T22:47:31Z xsd:dateTime
@@ -481,7 +492,7 @@ property_value: IAO:0000117 http://orcid.org/0000-0003-2699-3066
 [Term]
 id: FOVT:0001033
 name: femur diaphysis depth
-def: "The width of the diaphysis of a femur along the anterior-posterior axis." []
+def: "The width of the diaphysis of a femur along the anterior-posterior axis." [ISBN: 9004086161\, 9789004086166]
 synonym: "femur diaphysis width AP" EXACT []
 is_a: OBA:VT1000666
 property_value: http://purl.org/dc/elements/1.1/date 2021-02-10T22:52:48Z xsd:dateTime
@@ -491,7 +502,7 @@ property_value: IAO:0000117 http://orcid.org/0000-0003-2699-3066
 [Term]
 id: FOVT:0001034
 name: humerus diaphysis breadth
-def: "The width of the diaphysis of a humerus along the medial-lateral axis." [] {http://purl.obolibrary.org/obo/IAO_0000119="Scott, Kathleen Marie. Allometric trends and locomotor adaptations in the Bovidae. Bulletin of the AMNH. Vol. 179, Article 2, 1985.", http://purl.obolibrary.org/obo/IAO_0000119="Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988.", http://purl.obolibrary.org/obo/IAO_0000119="von den Driesch, Angela. A guide to the measurement of animal bones from archaeological sites: as developed by the Institut für Palaeoanatomie, Domestikationsforschung und Geschichte der Tiermedizin of the University of Munich . Vol. 1. Peabody Museum Press, 1976."}
+def: "The width of the diaphysis of a humerus along the medial-lateral axis." [https://doi.org/10.1111/j.1096-3642.1983.tb00098.x, ISBN: 9004086161\, 9789004086166, ISBN: 9780873659505]
 synonym: "humerus diaphysis width ML" EXACT []
 is_a: OBA:VT1000280
 property_value: http://purl.org/dc/elements/1.1/date 2021-02-10T22:56:30Z xsd:dateTime
@@ -501,27 +512,31 @@ property_value: IAO:0000117 http://orcid.org/0000-0003-2699-3066
 [Term]
 id: FOVT:0001035
 name: humerus proximal breadth
-def: "The width of the proximal end of a humerus along the medial-lateral axis." [] {http://purl.obolibrary.org/obo/IAO_0000119="Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988.", http://purl.obolibrary.org/obo/IAO_0000119="von den Driesch, Angela. A guide to the measurement of animal bones from archaeological sites: as developed by the Institut für Palaeoanatomie, Domestikationsforschung und Geschichte der Tiermedizin of the University of Munich . Vol. 1. Peabody Museum Press, 1976."}
+def: "The width of the proximal end of a humerus along the medial-lateral axis." [ISBN: 9004086161\, 9789004086166, ISBN: 9780873659505]
 synonym: "humerus proximal width ML" EXACT []
 is_a: OBA:VT1000280
 property_value: http://purl.org/dc/elements/1.1/date 2021-02-10T22:57:22Z xsd:dateTime
 property_value: IAO:0000114 IAO:0000423
 property_value: IAO:0000117 http://orcid.org/0000-0003-2699-3066
+property_value: RO:0002161 "Canidae" xsd:string
+property_value: RO:0002161 "Lagomorpha" xsd:string
 
 [Term]
 id: FOVT:0001036
 name: humerus trochlea breadth
-def: "The width of the trochlea of a humerus along the medial-lateral axis." [] {http://purl.obolibrary.org/obo/IAO_0000119="Scott, Kathleen Marie. Allometric trends and locomotor adaptations in the Bovidae. Bulletin of the AMNH. Vol. 179, Article 2, 1985.", http://purl.obolibrary.org/obo/IAO_0000119="Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988.", http://purl.obolibrary.org/obo/IAO_0000119="von den Driesch, Angela. A guide to the measurement of animal bones from archaeological sites: as developed by the Institut für Palaeoanatomie, Domestikationsforschung und Geschichte der Tiermedizin of the University of Munich . Vol. 1. Peabody Museum Press, 1976."}
+def: "The width of the trochlea of a humerus along the medial-lateral axis." [https://doi.org/10.1111/j.1096-3642.1983.tb00098.x, ISBN: 9004086161\, 9789004086166, ISBN: 9780873659505]
 synonym: "humerus trochlea width ML" EXACT []
 is_a: OBA:VT1000280
 property_value: http://purl.org/dc/elements/1.1/date 2021-02-10T23:01:47Z xsd:dateTime
 property_value: IAO:0000114 IAO:0000423
 property_value: IAO:0000117 http://orcid.org/0000-0003-2699-3066
+property_value: taxon "Equidae" xsd:string
+property_value: taxon "Ruminantia" xsd:string
 
 [Term]
 id: FOVT:0001037
 name: humerus distal depth
-def: "The width of the distal end of a humerus along the anterior-posterior axis." [] {http://purl.obolibrary.org/obo/IAO_0000119="Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988."}
+def: "The width of the distal end of a humerus along the anterior-posterior axis." [ISBN: 9004086161\, 9789004086166]
 synonym: "humerus distal width AP" EXACT []
 is_a: OBA:VT1000280
 property_value: http://purl.org/dc/elements/1.1/date 2021-02-10T23:02:42Z xsd:dateTime
@@ -531,17 +546,19 @@ property_value: IAO:0000117 http://orcid.org/0000-0003-2699-3066
 [Term]
 id: FOVT:0001038
 name: humerus proximal depth
-def: "The width of the proximal end of a humerus along the anterior-posterior axis." [] {http://purl.obolibrary.org/obo/IAO_0000119="von den Driesch, Angela. A guide to the measurement of animal bones from archaeological sites: as developed by the Institut für Palaeoanatomie, Domestikationsforschung und Geschichte der Tiermedizin of the University of Munich . Vol. 1. Peabody Museum Press, 1976."}
+def: "The width of the proximal end of a humerus along the anterior-posterior axis." [ISBN: 9780873659505]
 synonym: "humerus proximal width AP" EXACT []
 is_a: OBA:VT1000280
 property_value: http://purl.org/dc/elements/1.1/date 2021-02-10T23:04:06Z xsd:dateTime
 property_value: IAO:0000114 IAO:0000423
 property_value: IAO:0000117 http://orcid.org/0000-0003-2699-3066
+property_value: taxon "Canidae" xsd:string
+property_value: taxon "Lagomorpha" xsd:string
 
 [Term]
 id: FOVT:0001039
 name: humerus distal breadth
-def: "The width of the distal end of a humerus along the medial-lateral axis." [] {http://purl.obolibrary.org/obo/IAO_0000119="von den Driesch, Angela. A guide to the measurement of animal bones from archaeological sites: as developed by the Institut für Palaeoanatomie, Domestikationsforschung und Geschichte der Tiermedizin of the University of Munich . Vol. 1. Peabody Museum Press, 1976."}
+def: "The width of the distal end of a humerus along the medial-lateral axis." [ISBN: 9780873659505]
 synonym: "humerus distal width ML" EXACT []
 is_a: OBA:VT1000280
 property_value: http://purl.org/dc/elements/1.1/date 2021-02-10T23:05:13Z xsd:dateTime
@@ -551,7 +568,7 @@ property_value: IAO:0000117 http://orcid.org/0000-0003-2699-3066
 [Term]
 id: FOVT:0001040
 name: humerus diaphysis depth
-def: "The width of the diaphysis of a humerus along the anterior-posterior axis." [] {http://purl.obolibrary.org/obo/IAO_0000119="Scott, Kathleen Marie. Allometric trends and locomotor adaptations in the Bovidae. Bulletin of the AMNH. Vol. 179, Article 2, 1985."}
+def: "The width of the diaphysis of a humerus along the anterior-posterior axis." [https://doi.org/10.1111/j.1096-3642.1983.tb00098.x]
 synonym: "humerus diaphysis width AP" EXACT []
 is_a: OBA:VT1000280
 property_value: http://purl.org/dc/elements/1.1/date 2021-02-10T23:06:16Z xsd:dateTime
@@ -561,10 +578,8 @@ property_value: IAO:0000117 http://orcid.org/0000-0003-2699-3066
 [Term]
 id: FOVT:0001041
 name: talus width
-def: "The width of a talus." []
+def: "The width of a talus." [https://orcid.org/0000-0003-2699-3066]
 synonym: "astragalus width" EXACT []
-is_a: OBA:VT0005110
-is_a: PATO:0000921
 intersection_of: PATO:0000921
 intersection_of: RO:0000052 UBERON:0002395
 property_value: http://purl.org/dc/elements/1.1/date 2021-02-10T23:12:24Z xsd:dateTime
@@ -574,12 +589,13 @@ property_value: IAO:0000117 http://orcid.org/0000-0003-2699-3066
 [Term]
 id: FOVT:0001042
 name: talus lateral depth
-def: "The width of the lateral side of a talus along the anterior-posterior axis ( non-plantigrade) or proximal-distal axis (plantigrade)." [] {http://purl.obolibrary.org/obo/IAO_0000119="von den Driesch, Angela. A guide to the measurement of animal bones from archaeological sites: as developed by the Institut für Palaeoanatomie, Domestikationsforschung und Geschichte der Tiermedizin of the University of Munich . Vol. 1. Peabody Museum Press, 1976."}
+def: "The width of the lateral side of a talus along the anterior-posterior axis ( non-plantigrade) or proximal-distal axis (plantigrade)." [ISBN: 9780873659505]
 synonym: "astragalus lateral depth" EXACT []
 synonym: "astragalus lateral width AP (non-plantigrade)" EXACT []
 synonym: "talus lateral width AP (non-plantigrade)" EXACT []
 synonym: "talus lateral width PD (plantigrade)" EXACT []
 is_a: FOVT:0001041 ! talus width
+relationship: RO:0002160 NCBITaxon:91561
 property_value: http://purl.org/dc/elements/1.1/date 2021-02-10T23:16:34Z xsd:dateTime
 property_value: IAO:0000114 IAO:0000423
 property_value: IAO:0000117 http://orcid.org/0000-0003-2699-3066
@@ -587,12 +603,13 @@ property_value: IAO:0000117 http://orcid.org/0000-0003-2699-3066
 [Term]
 id: FOVT:0001043
 name: talus medial depth
-def: "The width of the medial side of a talus along the anterior-posterior axis (non-plantigrade) or proximal-distal axis (plantigrade)." [] {http://purl.obolibrary.org/obo/IAO_0000119="Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988.", http://purl.obolibrary.org/obo/IAO_0000119="von den Driesch, Angela. A guide to the measurement of animal bones from archaeological sites: as developed by the Institut für Palaeoanatomie, Domestikationsforschung und Geschichte der Tiermedizin of the University of Munich . Vol. 1. Peabody Museum Press, 1976."}
+def: "The width of the medial side of a talus along the anterior-posterior axis (non-plantigrade) or proximal-distal axis (plantigrade)." [ISBN: 9004086161\, 9789004086166, ISBN: 9780873659505]
 synonym: "astragalus medial depth" EXACT []
 synonym: "astragalus medial width AP (non-plantigrade)" EXACT []
 synonym: "talus medial width AP (non-plantigrade)" EXACT []
 synonym: "talus medial width PD (plantigrade)" EXACT []
 is_a: FOVT:0001041 ! talus width
+relationship: RO:0002160 NCBITaxon:91561
 property_value: http://purl.org/dc/elements/1.1/date 2021-02-10T23:17:22Z xsd:dateTime
 property_value: IAO:0000114 IAO:0000423
 property_value: IAO:0000117 http://orcid.org/0000-0003-2699-3066
@@ -600,13 +617,14 @@ property_value: IAO:0000117 http://orcid.org/0000-0003-2699-3066
 [Term]
 id: FOVT:0001044
 name: talus distal breadth (non-plantigrade)
-def: "The width of the distal end (non-plantigrade) or anterior end (plantigrade) of a talus along the medial-lateral axis." [] {http://purl.obolibrary.org/obo/IAO_0000119="von den Driesch, Angela. A guide to the measurement of animal bones from archaeological sites: as developed by the Institut für Palaeoanatomie, Domestikationsforschung und Geschichte der Tiermedizin of the University of Munich . Vol. 1. Peabody Museum Press, 1976."}
+def: "The width of the distal end (non-plantigrade) or anterior end (plantigrade) of a talus along the medial-lateral axis." [ISBN: 9780873659505]
 synonym: "astragalus distal width ML (non-plantigrade)" EXACT []
 synonym: "astralagalus distal breadth (non-plantigrade)" EXACT []
 synonym: "talus anterior breadth (plantigrade)" EXACT []
 synonym: "talus anterior width ML (plantigrade)" EXACT []
 synonym: "talus distal width ML (non-plantigrade)" EXACT []
 is_a: FOVT:0001041 ! talus width
+relationship: RO:0002160 NCBITaxon:91561
 property_value: http://purl.org/dc/elements/1.1/date 2021-02-10T23:20:39Z xsd:dateTime
 property_value: IAO:0000114 IAO:0000423
 property_value: IAO:0000117 http://orcid.org/0000-0003-2699-3066
@@ -614,9 +632,10 @@ property_value: IAO:0000117 http://orcid.org/0000-0003-2699-3066
 [Term]
 id: FOVT:0001045
 name: trochlea tali length
-def: "The length of the trochlea tali of a talus along the proximal-distal axis (in animals) or anterior-posterior axis (in humans)." [] {http://purl.obolibrary.org/obo/IAO_0000119="Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988.", http://purl.obolibrary.org/obo/IAO_0000119="von den Driesch, Angela. A guide to the measurement of animal bones from archaeological sites: as developed by the Institut für Palaeoanatomie, Domestikationsforschung und Geschichte der Tiermedizin of the University of Munich . Vol. 1. Peabody Museum Press, 1976."}
+def: "The length of the trochlea tali of a talus along the proximal-distal axis (in animals) or anterior-posterior axis (in humans)." [ISBN: 9004086161\, 9789004086166, ISBN: 9780873659505]
 is_a: OBA:VT0005110
 is_a: PATO:0000122
+relationship: RO:0002160 NCBITaxon:9788
 property_value: http://purl.org/dc/elements/1.1/date 2021-02-10T23:25:15Z xsd:dateTime
 property_value: IAO:0000114 IAO:0000423
 property_value: IAO:0000117 http://orcid.org/0000-0003-2699-3066
@@ -624,7 +643,7 @@ property_value: IAO:0000117 http://orcid.org/0000-0003-2699-3066
 [Term]
 id: FOVT:0001046
 name: talus trochlea breadth
-def: "The width of the trochlea of a talus along the medial-lateral axis." []
+def: "The width of the trochlea of a talus along the medial-lateral axis." [ISBN: 9004086161\, 9789004086166]
 synonym: "astragalus trochlea breadth" EXACT [] {http://purl.obolibrary.org/obo/IAO_0000119="Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988."}
 synonym: "astragalus trochlea width ML" EXACT []
 synonym: "talus trochlea width ML" EXACT []
@@ -636,7 +655,7 @@ property_value: IAO:0000117 http://orcid.org/0000-0003-2699-3066
 [Term]
 id: FOVT:0001047
 name: calcaneus proximal length (non-plantigrade)
-def: "The length of the proximal end of a calcaneus along the proximal-distal axis (non-plantigrade) or posterior end of a calcaneus along the anterior-posterior axis (plantigrade)." [] {http://purl.obolibrary.org/obo/IAO_0000119="Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988."}
+def: "The length of the proximal end of a calcaneus along the proximal-distal axis (non-plantigrade) or posterior end of a calcaneus along the anterior-posterior axis (plantigrade)." [ISBN: 9004086161\, 9789004086166]
 synonym: "calcaneus posterior length (plantigrade)" EXACT []
 is_a: FOVT:0000022 ! calcaneus length
 property_value: http://purl.org/dc/elements/1.1/date 2021-02-10T23:31:00Z xsd:dateTime
@@ -646,7 +665,7 @@ property_value: IAO:0000117 http://orcid.org/0000-0003-2699-3066
 [Term]
 id: FOVT:0001048
 name: calcaneus distal depth (non-plantigrade)
-def: "The width of the distal end  of a calcaneus along the anterior-posterior axis (non-plantigrade) or anterior end along the proximal-distal axis (plantigrade)" [] {http://purl.obolibrary.org/obo/IAO_0000119="Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988."}
+def: "The width of the distal end  of a calcaneus along the anterior-posterior axis (non-plantigrade) or anterior end along the proximal-distal axis (plantigrade)" [ISBN: 9004086161\, 9789004086166]
 synonym: "calcaneus anterior depth (plantigrade)" EXACT []
 synonym: "calcaneus anterior width PD (plantigrade)" EXACT []
 synonym: "calcaneus distal width AP (non-plantigrade)" EXACT []
@@ -658,7 +677,7 @@ property_value: IAO:0000117 http://orcid.org/0000-0003-2699-3066
 [Term]
 id: FOVT:0001053
 name: gutted body mass
-def: "The mass of a multicellur organism after removing internal organs." []
+def: "The mass of a multicellur organism after removing internal organs." [https://orcid.org/0000-0003-2699-3066]
 is_a: OBA:VT0001259
 property_value: http://purl.org/dc/elements/1.1/date 2021-05-10T22:50:17Z xsd:dateTime
 property_value: IAO:0000114 IAO:0000423
@@ -667,7 +686,7 @@ property_value: IAO:0000117 http://orcid.org/0000-0003-2699-3066
 [Term]
 id: FOVT:0001054
 name: skinned body mass
-def: "The mass of a multicellular organism after being skinned." []
+def: "The mass of a multicellular organism after being skinned." [https://orcid.org/0000-0003-2699-3066]
 is_a: OBA:VT0001259
 property_value: http://purl.org/dc/elements/1.1/date 2021-05-10T22:52:04Z xsd:dateTime
 property_value: IAO:0000114 IAO:0000423
@@ -676,7 +695,7 @@ property_value: IAO:0000117 http://orcid.org/0000-0003-2699-3066
 [Term]
 id: FOVT:0001055
 name: skeletal body mass
-def: "The mass of a multicellur organism skeletal elements (i.e., bones) without skin, internal organs, or other soft tissue." []
+def: "The mass of a multicellur organism skeletal elements (i.e., bones) without skin, internal organs, or other soft tissue." [https://orcid.org/0000-0003-2699-3066]
 synonym: "'bone mass'" RELATED []
 is_a: OBA:VT0001259
 is_a: OBA:VT1000111
@@ -687,7 +706,7 @@ property_value: IAO:0000117 http://orcid.org/0000-0003-2699-3066
 [Term]
 id: FOVT:0001056
 name: gutted and skinned body mass
-def: "The mass of a mutlicellular organism after being both gutted (i.e., internal organs removed) and skinned." []
+def: "The mass of a mutlicellular organism after being both gutted (i.e., internal organs removed) and skinned." [https://orcid.org/0000-0003-2699-3066]
 is_a: OBA:VT0001259
 property_value: http://purl.org/dc/elements/1.1/date 2021-05-10T22:53:18Z xsd:dateTime
 property_value: IAO:0000114 IAO:0000423
@@ -696,8 +715,9 @@ property_value: IAO:0000117 http://orcid.org/0000-0003-2699-3066
 [Term]
 id: FOVT:0001057
 name: testis length
-comment: The length of a testis.
-is_a: FOVT:0001060 ! gonad length
+comment: The length of a testis. {xref="https://orcid.org/0000-0003-2699-3066"}
+intersection_of: PATO:0000122
+intersection_of: RO:0000052 UBERON:0000473
 property_value: http://purl.org/dc/elements/1.1/date 2021-05-10T23:15:37Z xsd:dateTime
 property_value: IAO:0000114 IAO:0000423
 property_value: IAO:0000117 http://orcid.org/0000-0003-2699-3066
@@ -705,8 +725,9 @@ property_value: IAO:0000117 http://orcid.org/0000-0003-2699-3066
 [Term]
 id: FOVT:0001058
 name: right testis length
-comment: The length of the right testis.
-is_a: FOVT:0001057 ! testis length
+comment: The length of the right testis. {xref="https://orcid.org/0000-0003-2699-3066"}
+intersection_of: PATO:0000122
+intersection_of: RO:0000052 UBERON:0004534
 property_value: http://purl.org/dc/elements/1.1/date 2021-05-10T23:16:25Z xsd:dateTime
 property_value: IAO:0000114 IAO:0000423
 property_value: IAO:0000117 http://orcid.org/0000-0003-2699-3066
@@ -714,8 +735,10 @@ property_value: IAO:0000117 http://orcid.org/0000-0003-2699-3066
 [Term]
 id: FOVT:0001059
 name: left testis length
-comment: The length of the left testis.
+comment: The length of the left testis. {xref="https://orcid.org/0000-0003-2699-3066"}
 is_a: FOVT:0001057 ! testis length
+intersection_of: PATO:0000122
+intersection_of: RO:0000052 UBERON:0004533
 property_value: http://purl.org/dc/elements/1.1/date 2021-05-10T23:18:15Z xsd:dateTime
 property_value: IAO:0000114 IAO:0000423
 property_value: IAO:0000117 http://orcid.org/0000-0003-2699-3066
@@ -723,8 +746,7 @@ property_value: IAO:0000117 http://orcid.org/0000-0003-2699-3066
 [Term]
 id: FOVT:0001060
 name: gonad length
-comment: The length of a gonad.
-is_a: OBA:0002017
+comment: The length of a gonad. {xref="https://orcid.org/0000-0003-2699-3066"}
 intersection_of: PATO:0000122
 intersection_of: RO:0000052 UBERON:0000991
 property_value: http://purl.org/dc/elements/1.1/date 2021-05-10T23:18:51Z xsd:dateTime
@@ -734,16 +756,18 @@ property_value: IAO:0000117 http://orcid.org/0000-0003-2699-3066
 [Term]
 id: FOVT:0001061
 name: humerus lateral length
-def: "Length of the lateral side of a humerus from lateral tuberosity to lateral border of the trochlea." [] {http://purl.obolibrary.org/obo/IAO_0000119="von den Driesch, Angela. A guide to the measurement of animal bones from archaeological sites: as developed by the Institut für Palaeoanatomie, Domestikationsforschung und Geschichte der Tiermedizin of the University of Munich . Vol. 1. Peabody Museum Press, 1976."}
-is_a: UBERON:0000976
+def: "Length of the lateral side of a humerus from lateral tuberosity to lateral border of the trochlea." [ISBN: 9780873659505]
+is_a: OBA:VT0004350
+relationship: RO:0002162 NCBITaxon:9788
 property_value: http://purl.org/dc/elements/1.1/date 2021-05-10T23:37:19Z xsd:dateTime
 property_value: IAO:0000117 http://orcid.org/0000-0003-2699-3066
 
 [Term]
 id: FOVT:0001062
 name: ovary length
-def: "The length of an ovary." []
-is_a: FOVT:0001060 ! gonad length
+def: "The length of an ovary." [https://orcid.org/0000-0003-2699-3066]
+intersection_of: PATO:0000122
+intersection_of: RO:0000052 UBERON:0000992
 property_value: http://purl.org/dc/elements/1.1/date 2021-05-17T20:08:12Z xsd:dateTime
 property_value: IAO:0000114 IAO:0000423
 property_value: IAO:0000117 http://orcid.org/0000-0003-2699-3066
@@ -751,8 +775,9 @@ property_value: IAO:0000117 http://orcid.org/0000-0003-2699-3066
 [Term]
 id: FOVT:0001063
 name: right ovary length
-def: "The length of an ovary on the right side." []
-is_a: FOVT:0001062 ! ovary length
+def: "The length of an ovary on the right side." [https://orcid.org/0000-0003-2699-3066]
+intersection_of: PATO:0000122
+intersection_of: RO:0000052 UBERON:0002118
 property_value: http://purl.org/dc/elements/1.1/date 2021-05-17T20:10:16Z xsd:dateTime
 property_value: IAO:0000114 IAO:0000423
 property_value: term:editor http://orcid.org/0000-0003-2699-3066
@@ -760,8 +785,9 @@ property_value: term:editor http://orcid.org/0000-0003-2699-3066
 [Term]
 id: FOVT:0001064
 name: left ovary length
-def: "The length of an ovary on the left side." []
-is_a: FOVT:0001062 ! ovary length
+def: "The length of an ovary on the left side." [https://orcid.org/0000-0003-2699-3066]
+intersection_of: PATO:0000122
+intersection_of: RO:0000052 UBERON:0002119
 property_value: http://purl.org/dc/elements/1.1/date 2021-05-17T20:10:46Z xsd:dateTime
 property_value: IAO:0000114 IAO:0000423
 property_value: term:editor http://orcid.org/0000-0003-2699-3066
@@ -769,8 +795,9 @@ property_value: term:editor http://orcid.org/0000-0003-2699-3066
 [Term]
 id: FOVT:0001065
 name: anterior tibial tuberosity length
-def: "The length along the anterior-posterior axis of the anterior tibial tuberosity (fossa digitalis)." []
-is_a: UBERON:0000979
+def: "The length along the anterior-posterior axis of the anterior tibial tuberosity (fossa digitalis)." [ISBN: 9004086161\, 9789004086166]
+synonym: "fossa digitalis length" EXACT []
+is_a: OBA:VT0004357
 property_value: http://purl.org/dc/elements/1.1/date 2021-05-17T20:18:01Z xsd:dateTime
 property_value: IAO:0000114 IAO:0000423
 property_value: term:editor http://orcid.org/0000-0003-2699-3066
@@ -778,7 +805,7 @@ property_value: term:editor http://orcid.org/0000-0003-2699-3066
 [Term]
 id: FOVT:0001066
 name: humerus proximal depth at median tubercle
-def: "The length along the medial-lateral axis of the caput of the humerus." [] {http://purl.obolibrary.org/obo/IAO_0000119="Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988."}
+def: "The length along the medial-lateral axis of the caput of the humerus." [ISBN: 9004086161\, 9789004086166]
 is_a: OBA:VT1000280
 property_value: http://purl.org/dc/elements/1.1/date 2021-05-18T19:52:02Z xsd:dateTime
 property_value: IAO:0000114 IAO:0000423
@@ -787,7 +814,7 @@ property_value: term:editor http://orcid.org/0000-0003-2699-3066
 [Term]
 id: FOVT:0001067
 name: humerus trochlear sulcus height
-def: "Length along the proximal-distal axis of the trochlear sulcus of a humerus." [] {http://purl.obolibrary.org/obo/IAO_0000119="Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988."}
+def: "Length along the proximal-distal axis of the trochlear sulcus of a humerus." [ISBN: 9004086161\, 9789004086166]
 synonym: "minimal humerus trochlear height" EXACT []
 is_a: OBA:VT0004350
 property_value: http://purl.org/dc/elements/1.1/date 2021-05-18T19:55:10Z xsd:dateTime
@@ -797,7 +824,7 @@ property_value: term:editor http://orcid.org/0000-0003-2699-3066
 [Term]
 id: FOVT:0001068
 name: humerus medial trochlear height
-def: "Length along the proximal-distal axis of the distal medial trochlea of a humerus." [] {http://purl.obolibrary.org/obo/IAO_0000119="Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988."}
+def: "Length along the proximal-distal axis of the distal medial trochlea of a humerus." [ISBN: 9004086161\, 9789004086166]
 synonym: "maximal humerus trochlear height" EXACT []
 is_a: OBA:VT0004350
 property_value: http://purl.org/dc/elements/1.1/date 2021-05-18T19:56:56Z xsd:dateTime
@@ -806,7 +833,7 @@ property_value: term:editor http://orcid.org/0000-0003-2699-3066
 [Term]
 id: FOVT:0001069
 name: humerus trochlear height at sagittal crest
-def: "Length along the proximal-distal axis of the sagittal crest of a trochlea of a humerus." [] {http://purl.obolibrary.org/obo/IAO_0000119="Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988."}
+def: "Length along the proximal-distal axis of the sagittal crest of a trochlea of a humerus." [ISBN: 9004086161\, 9789004086166]
 is_a: OBA:VT0004350
 property_value: http://purl.org/dc/elements/1.1/date 2021-05-18T20:00:02Z xsd:dateTime
 property_value: IAO:0000114 IAO:0000423
@@ -815,7 +842,8 @@ property_value: term:editor http://orcid.org/0000-0003-2699-3066
 [Term]
 id: FOVT:0001070
 name: femur length from caput to lateral condyle
-def: "The length along the anterior-posterior axis of a femur connecting the caput of a femur to the lateral condyle of a femur." [] {http://purl.obolibrary.org/obo/IAO_0000119="Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988."}
+def: "The length along the anterior-posterior axis of a femur connecting the caput of a femur to the lateral condyle of a femur." [ISBN: 9004086161\, 9789004086166]
+synonym: "femur lateral length" EXACT []
 is_a: OBA:VT0004348
 property_value: http://purl.org/dc/elements/1.1/date 2021-05-19T01:36:28Z xsd:dateTime
 property_value: IAO:0000114 IAO:0000423
@@ -824,16 +852,18 @@ property_value: term:editor http://orcid.org/0000-0003-2699-3066
 [Term]
 id: FOVT:0001071
 name: olecranon length
-def: "The length along the proximal-distal axis of an olecranon of an ulna." [] {http://purl.obolibrary.org/obo/IAO_0000119="Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988.", http://purl.obolibrary.org/obo/IAO_0000119="von den Driesch, Angela. A guide to the measurement of animal bones from archaeological sites: as developed by the Institut für Palaeoanatomie, Domestikationsforschung und Geschichte der Tiermedizin of the University of Munich . Vol. 1. Peabody Museum Press, 1976."}
+def: "The length along the proximal-distal axis of an olecranon of an ulna." [ISBN: 9004086161\, 9789004086166, ISBN: 9780873659505]
 is_a: OBA:VT0004370
+relationship: RO:0002160 NCBITaxon:9845
 property_value: http://purl.org/dc/elements/1.1/date 2021-05-19T23:33:50Z xsd:dateTime
 property_value: IAO:0000114 IAO:0000423
 property_value: term:editor http://orcid.org/0000-0003-2699-3066
 
 [Term]
 id: FOVT:0001072
-name: ulna proximal articular breadth {http://purl.obolibrary.org/obo/IAO_0000119="Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988.", http://purl.obolibrary.org/obo/IAO_0000119="von den Driesch, Angela. A guide to the measurement of animal bones from archaeological sites: as developed by the Institut für Palaeoanatomie, Domestikationsforschung und Geschichte der Tiermedizin of the University of Munich . Vol. 1. Peabody Museum Press, 1976."}
-def: "The width of the facet for the humeral head of a radius along the medial-lateral axis." []
+name: ulna proximal articular breadth
+def: "The width of the facet for the humeral head of a radius along the medial-lateral axis." [ISBN: 9004086161\, 9789004086166, ISBN: 9780873659505]
+synonym: "ulna  facies articularis proximalis breadth" EXACT []
 synonym: "ulna coronoid process breadth" EXACT []
 synonym: "ulna coronoid process width ML" EXACT []
 synonym: "ulna proximal articula width ML" EXACT []
@@ -844,8 +874,9 @@ property_value: term:editor http://orcid.org/0000-0003-2699-3066
 
 [Term]
 id: FOVT:0001073
-name: ulna width
-is_a: OBA:0002379
+name: ulna width {xref="https://orcid.org/0000-0003-2699-3066"}
+intersection_of: PATO:0000921
+intersection_of: RO:0000052 UBERON:0001424
 property_value: http://purl.org/dc/elements/1.1/date 2021-05-20T00:00:24Z xsd:dateTime
 property_value: IAO:0000114 IAO:0000423
 property_value: term:editor http://orcid.org/0000-0003-2699-3066
@@ -853,7 +884,7 @@ property_value: term:editor http://orcid.org/0000-0003-2699-3066
 [Term]
 id: FOVT:0001074
 name: olecranon depth
-def: "The width of an olecranon of a radius along the anterior-posterior axis." [] {http://purl.obolibrary.org/obo/IAO_0000119="Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988.", http://purl.obolibrary.org/obo/IAO_0000119="von den Driesch, Angela. A guide to the measurement of animal bones from archaeological sites: as developed by the Institut für Palaeoanatomie, Domestikationsforschung und Geschichte der Tiermedizin of the University of Munich . Vol. 1. Peabody Museum Press, 1976."}
+def: "The width of an olecranon of a radius along the anterior-posterior axis." [ISBN: 9004086161\, 9789004086166, ISBN: 9780873659505]
 synonym: "olecranon width AP" EXACT []
 is_a: FOVT:0001073 ! ulna width
 property_value: http://purl.org/dc/elements/1.1/date 2021-05-20T00:02:15Z xsd:dateTime
@@ -863,7 +894,7 @@ property_value: term:editor http://orcid.org/0000-0003-2699-3066
 [Term]
 id: FOVT:0001075
 name: ulna lateral length
-def: "The length along the proximal-distal axis on the lateral side of an ulna." [] {http://purl.obolibrary.org/obo/IAO_0000119="Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988.", http://purl.obolibrary.org/obo/IAO_0000119="von den Driesch, Angela. A guide to the measurement of animal bones from archaeological sites: as developed by the Institut für Palaeoanatomie, Domestikationsforschung und Geschichte der Tiermedizin of the University of Munich . Vol. 1. Peabody Museum Press, 1976."}
+def: "The length along the proximal-distal axis on the lateral side of an ulna." [ISBN: 9004086161\, 9789004086166, ISBN: 9780873659505]
 is_a: OBA:VT0004370
 property_value: http://purl.org/dc/elements/1.1/date 2021-05-20T00:04:26Z xsd:dateTime
 property_value: IAO:0000114 IAO:0000423
@@ -872,7 +903,7 @@ property_value: term:editor http://orcid.org/0000-0003-2699-3066
 [Term]
 id: FOVT:0001076
 name: ulna depth across the process anaconaeus
-def: "The width along the anterior-posterior axis of the proximal-most part of the facet that articulates with the humeral head on an ulna." [] {http://purl.obolibrary.org/obo/IAO_0000119="Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988.", http://purl.obolibrary.org/obo/IAO_0000119="von den Driesch, Angela. A guide to the measurement of animal bones from archaeological sites: as developed by the Institut für Palaeoanatomie, Domestikationsforschung und Geschichte der Tiermedizin of the University of Munich . Vol. 1. Peabody Museum Press, 1976."}
+def: "The width along the anterior-posterior axis of the proximal-most part of the facet that articulates with the humeral head on an ulna." [ISBN: 9004086161\, 9789004086166, ISBN: 9780873659505]
 synonym: "ulna width AP across the process anaconaeus" EXACT []
 is_a: FOVT:0001073 ! ulna width
 property_value: http://purl.org/dc/elements/1.1/date 2021-05-20T00:05:42Z xsd:dateTime
@@ -882,7 +913,7 @@ property_value: term:editor http://orcid.org/0000-0003-2699-3066
 [Term]
 id: FOVT:0001077
 name: length of talus along the midline
-def: "The length along the midline of a talus along the proximal-distal axis (non-plantigrade) or anterior-posterior axis (plantigrade) from the groove for a flexor hallucis longus tendon of a talus to a head of a talus." [] {http://purl.obolibrary.org/obo/IAO_0000119="Wolverton, S., Kennedy, J. H., & Cornelius, J. D. 2007. A paleozoological perspective on white-tailed deer (Odocoileus virginianus texana) population density and body size in central Texas. Environmental Management, 39(4), 545-552."}
+def: "The length along the midline of a talus along the proximal-distal axis (non-plantigrade) or anterior-posterior axis (plantigrade) from the groove for a flexor hallucis longus tendon of a talus to a head of a talus." [DOI: 10.1007/s00267-006-0240-8]
 synonym: "length of astragalus along the midline" EXACT []
 is_a: FOVT:0000020 ! talus length
 property_value: http://purl.org/dc/elements/1.1/date 2021-05-24T20:26:44Z xsd:dateTime
@@ -892,7 +923,8 @@ property_value: term:editor http://orcid.org/0000-0003-2699-3066
 [Term]
 id: FOVT:0001078
 name: breadth of calcaneal body
-def: "The width of a calcaneal body along the medial-lateral axis." [] {http://purl.obolibrary.org/obo/IAO_0000119="Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988.", http://purl.obolibrary.org/obo/IAO_0000119="Cantryll-Stewart, R. 2018. A Discernment of Prey Selection by the Ancient Maya."}
+def: "The width of a calcaneal body along the medial-lateral axis." [https://eprints.nottingham.ac.uk/50198/, ISBN: 9004086161\, 9789004086166]
+synonym: "calcaneus minimal breadth" BROAD [ISBN: 9004086161\, 9789004086166]
 synonym: "width ML of calcaneal body" EXACT []
 is_a: FOVT:0001079 ! calcaneus width
 property_value: http://purl.org/dc/elements/1.1/date 2021-05-24T21:22:09Z xsd:dateTime
@@ -902,9 +934,9 @@ property_value: term:editor http://orcid.org/0000-0003-2699-3066
 [Term]
 id: FOVT:0001079
 name: calcaneus width
-def: "The width of a calcaneus." []
-is_a: OBA:0003330
-is_a: PATO:0000921
+def: "The width of a calcaneus." [https://orcid.org/0000-0003-2699-3066]
+intersection_of: PATO:0000921
+intersection_of: RO:0000052 UBERON:0001450
 property_value: http://purl.org/dc/elements/1.1/date 2021-05-24T21:26:12Z xsd:dateTime
 property_value: IAO:0000114 IAO:0000423
 property_value: term:editor http://orcid.org/0000-0003-2699-3066
@@ -912,7 +944,8 @@ property_value: term:editor http://orcid.org/0000-0003-2699-3066
 [Term]
 id: FOVT:0001080
 name: calcaneus proximal breadth (non-plantigrade)
-def: "The width along the medial-lateral axis of the distal (non-plantigrade) or posterior (plantigrade) end of a calcaneus." [] {http://purl.obolibrary.org/obo/IAO_0000119="Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988."}
+def: "The width along the medial-lateral axis of the distal (non-plantigrade) or posterior (plantigrade) end of a calcaneus." [ISBN: 9004086161\, 9789004086166]
+synonym: "calcaneus maximal breadth" BROAD [] {http://purl.obolibrary.org/obo/IAO_0000119="ISBN: 9004086161, 9789004086166"}
 synonym: "calcaneus posterior breadth (plantigrade)" EXACT []
 synonym: "calcaneus posterior width ML (plantigrade)" EXACT []
 synonym: "calcaneus proximal width ML (non-plantigrade)" EXACT []
@@ -924,7 +957,8 @@ property_value: term:editor http://orcid.org/0000-0003-2699-3066
 [Term]
 id: FOVT:0001081
 name: calcaneus proximal depth (non-plantigrade)
-def: "The with of the proximal end of a calcaneus along the anterior-posterior axis (non-plantigrade) or of the posterior end of a calcaneus along the proximal-distal axis (plantigrade)." [] {http://purl.obolibrary.org/obo/IAO_0000119="Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988."}
+def: "The with of the proximal end of a calcaneus along the anterior-posterior axis (non-plantigrade) or of the posterior end of a calcaneus along the proximal-distal axis (plantigrade)." [ISBN: 9004086161\, 9789004086166]
+synonym: "calcaneus maximal depth" BROAD [] {http://purl.obolibrary.org/obo/IAO_0000119="Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988."}
 synonym: "calcaneus posterior depth (plantigrade)" EXACT []
 synonym: "calcaneus posterior with PD (plantigrade)" EXACT []
 synonym: "calcaneus proximal width AP (non-plantigrade)" EXACT []
@@ -936,7 +970,7 @@ property_value: term:editor http://orcid.org/0000-0003-2699-3066
 [Term]
 id: FOVT:0001082
 name: depth of calcaneal body
-def: "The width along the anterior-posterior axis (non-plantigrade) or proximal-distal axis (plantigrade) of a calcaneal body." [] {http://purl.obolibrary.org/obo/IAO_0000119="Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988.", http://purl.obolibrary.org/obo/IAO_0000119="Cantryll-Stewart, R. 2018. A Discernment of Prey Selection by the Ancient Maya."}
+def: "The width along the anterior-posterior axis (non-plantigrade) or proximal-distal axis (plantigrade) of a calcaneal body." [https://eprints.nottingham.ac.uk/50198/, ISBN: 9004086161\, 9789004086166]
 synonym: "width AP of calcaneal body (non-plantigrade)" EXACT []
 synonym: "width PD of calcanedal body (plantigrade)" EXACT []
 is_a: FOVT:0001079 ! calcaneus width
@@ -944,10 +978,2347 @@ property_value: http://purl.org/dc/elements/1.1/date 2021-05-24T21:35:37Z xsd:da
 property_value: term:editor http://orcid.org/0000-0003-2699-3066
 
 [Term]
+id: FOVT:0001123
+name: radius medial length
+def: "The length of the medial side of a radius along the proximal-distal axis." [ISBN: 9004086161\, 9789004086166]
+is_a: OBA:VT0004355
+property_value: http://purl.org/dc/elements/1.1/date 2021-06-02T23:33:11Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001124
+name: radius lateral length
+def: "The length of the lateral side of a radius." [ISBN: 9780873659505]
+is_a: OBA:VT0004355
+property_value: http://purl.org/dc/elements/1.1/date 2021-06-02T23:34:54Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001125
+name: radius diaphysis breadth
+def: "The width along the medial-lateral axis of the diaphysis of a radius." [ISBN: 9004086161\, 9789004086166, ISBN: 9780873659505]
+is_a: FOVT:0001158 ! radius diaphysis width
+property_value: http://purl.org/dc/elements/1.1/date 2021-06-02T23:36:38Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001126
+name: radius diaphysis depth
+def: "The width along the anterior-posterior axis of the diaphysis of a radius." [ISBN: 9004086161\, 9789004086166]
+is_a: FOVT:0001158 ! radius diaphysis width
+property_value: http://purl.org/dc/elements/1.1/date 2021-06-02T23:39:12Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001127
+name: radius proximal articular breadth
+def: "The width along the medial-lateral axis of the articular surface on the proximal end of a radius that interacts with the humerus." [ISBN: 9004086161\, 9789004086166, ISBN: 9780873659505]
+synonym: "radius facies articularis proximalis breadth" EXACT []
+is_a: FOVT:0001150 ! radius proximal articular width
+property_value: http://purl.org/dc/elements/1.1/date 2021-06-02T23:40:22Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: taxon "some 'Equidae'" xsd:string
+property_value: taxon "some 'Ruminantia'" xsd:string
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001128
+name: radius proximal articular depth
+def: "The width along the anterior-posterior axis of the articular surface on the proximal end of a radius that interacts with a humerus." [ISBN: 9004086161\, 9789004086166]
+is_a: FOVT:0001150 ! radius proximal articular width
+property_value: http://purl.org/dc/elements/1.1/date 2021-06-02T23:42:36Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001129
+name: radius proximal breadth
+def: "The width along the medial-lateral axis of the proximal end of a radius." [ISBN: 9004086161\, 9789004086166, ISBN: 9780873659505]
+is_a: FOVT:0001149 ! radius proximal width
+property_value: http://purl.org/dc/elements/1.1/date 2021-06-02T23:43:56Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001130
+name: radius distal articular breadth
+def: "The width along the medial-lateral axis of the distal end of a radius." [ISBN: 9004086161\, 9789004086166, ISBN: 9780873659505]
+synonym: "radius facies articularis distalis breadth" EXACT []
+is_a: FOVT:0001148 ! radius distal width
+property_value: http://purl.org/dc/elements/1.1/date 2021-06-02T23:45:18Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: taxon "some 'Equidae'" xsd:string
+property_value: taxon "some 'Ruminantia'" xsd:string
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001131
+name: radius distal articular depth
+def: "The width along the anterior-posterior axis of the articular surface on the distal end of a radius that interacts with the carpals." [ISBN: 9004086161\, 9789004086166]
+is_a: FOVT:0001148 ! radius distal width
+property_value: http://purl.org/dc/elements/1.1/date 2021-06-02T23:48:26Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001132
+name: radius distal breadth
+def: "The width along the medial-lateral axis of the distal end of a radius." [ISBN: 9004086161\, 9789004086166, ISBN: 9780873659505]
+is_a: FOVT:0001148 ! radius distal width
+property_value: http://purl.org/dc/elements/1.1/date 2021-06-02T23:50:24Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001133
+name: radius length from the proximal articular surface to the distal articular surface
+def: "The length from the proximal articular surface to the distal articular surface of a radius." [ISBN: 9780873659505]
+is_a: OBA:VT0004355
+property_value: http://purl.org/dc/elements/1.1/date 2021-06-02T23:52:19Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001134
+name: radius diaphysis circumference
+def: "The circumference of the diaphysis of a radius." [ISBN: 9780873659505]
+intersection_of: PATO:0001648
+intersection_of: RO:0000052 UBERON:0001028
+property_value: http://purl.org/dc/elements/1.1/date 2021-06-02T23:53:37Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001135
+name: DEPRECATED metatarsal bone length
+comment: already in OBA
+property_value: seeAlso OBA:0004033
+is_obsolete: true
+
+[Term]
+id: FOVT:0001136
+name: obsolete metatarsal bone of digit 2 length
+def: "OBSOLETE The length of the metatarsal bone of digit 2 along the proximal-distal axis." [] {http://purl.obolibrary.org/obo/IAO_0000119="Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988.", http://purl.obolibrary.org/obo/IAO_0000119="von den Driesch, Angela. A guide to the measurement of animal bones from archaeological sites: as developed by the Institut für Palaeoanatomie, Domestikationsforschung und Geschichte der Tiermedizin of the University of Munich . Vol. 1. Peabody Museum Press, 1976."}
+comment: already exists
+property_value: http://purl.org/dc/elements/1.1/date 2021-06-03T22:41:34Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+is_obsolete: true
+replaced_by: OBA:0003272
+
+[Term]
+id: FOVT:0001137
+name: obsolete metatarsal bone of digit 3 length
+def: "OBSOLETE The length of a metatarsal bone of digit 3 along the proximal-distal axis." [] {http://purl.obolibrary.org/obo/IAO_0000119="Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988.", http://purl.obolibrary.org/obo/IAO_0000119="von den Driesch, Angela. A guide to the measurement of animal bones from archaeological sites: as developed by the Institut für Palaeoanatomie, Domestikationsforschung und Geschichte der Tiermedizin of the University of Munich . Vol. 1. Peabody Museum Press, 1976."}
+comment: class already exists
+property_value: http://purl.org/dc/elements/1.1/date 2021-06-03T22:44:56Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+is_obsolete: true
+replaced_by: OBA:0002565
+
+[Term]
+id: FOVT:0001138
+name: obsolete metatarsal bone of digit 4 length
+def: "OBSOLETE The length of the metatarsal bone of digit 4 along the proximal-distal axis." [] {http://purl.obolibrary.org/obo/IAO_0000119="Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988.", http://purl.obolibrary.org/obo/IAO_0000119="von den Driesch, Angela. A guide to the measurement of animal bones from archaeological sites: as developed by the Institut für Palaeoanatomie, Domestikationsforschung und Geschichte der Tiermedizin of the University of Munich . Vol. 1. Peabody Museum Press, 1976."}
+comment: class already exists
+property_value: http://purl.org/dc/elements/1.1/date 2021-06-03T22:46:16Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+is_obsolete: true
+replaced_by: OBA:0002567
+
+[Term]
+id: FOVT:0001139
+name: obsolete metatarsal bone of digit 5 length
+def: "OBSOLETE The length of a metatarsal bone of digit 5 along the proximal-distal axis." [] {http://purl.obolibrary.org/obo/IAO_0000119="von den Driesch, Angela. A guide to the measurement of animal bones from archaeological sites: as developed by the Institut für Palaeoanatomie, Domestikationsforschung und Geschichte der Tiermedizin of the University of Munich . Vol. 1. Peabody Museum Press, 1976."}
+comment: class already exists
+property_value: http://purl.org/dc/elements/1.1/date 2021-06-03T22:50:27Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+is_obsolete: true
+replaced_by: OBA:0002569
+
+[Term]
+id: FOVT:0001140
+name: fused metatarsal bones 3 and 4 length
+def: "The length of a fused metatarsal bones 3 and 4 along the proximal-distal axis." [ISBN: 9780873659505]
+intersection_of: PATO:0000122
+intersection_of: RO:0000052 UBERON:0013587
+property_value: http://purl.org/dc/elements/1.1/date 2021-06-03T23:03:13Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001141
+name: metapodial bone length
+def: "The length of a metapodial bone." [ISBN: 9004086161\, 9789004086166, ISBN: 9780873659505]
+synonym: "length of metapodial bone" EXACT []
+is_a: PATO:0000122
+intersection_of: PATO:0000122
+intersection_of: RO:0000052 UBERON:0003821
+property_value: http://purl.org/dc/elements/1.1/date 2021-06-09T23:21:07Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001142
+name: metapodial bone of digit 2 length
+def: "The length of a metapodial bone of digit 2." [ISBN: 9004086161\, 9789004086166, ISBN: 9780873659505]
+synonym: "length of metapodial bone of digit 2" EXACT []
+is_a: FOVT:0001141 ! metapodial bone length
+property_value: http://purl.org/dc/elements/1.1/date 2021-06-09T23:23:45Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001143
+name: fused metapodial bones 3 and 4 length
+def: "The length of fused metapodial bones 3 and 4." [ISBN: 9004086161\, 9789004086166, ISBN: 9780873659505]
+synonym: "length of fused metapodial bones 3 and 4" EXACT []
+intersection_of: PATO:0000122
+intersection_of: RO:0000052 UBERON:0013587
+property_value: http://purl.org/dc/elements/1.1/date 2021-06-09T23:39:00Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001144
+name: metapodial bone of digit 4 length
+def: "The length of a metapodial bone of digit 4." [ISBN: 9004086161\, 9789004086166, ISBN: 9780873659505]
+synonym: "length of metapodial bone of digit 4" EXACT []
+is_a: FOVT:0001141 ! metapodial bone length
+property_value: http://purl.org/dc/elements/1.1/date 2021-06-09T23:42:17Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001145
+name: metapodial bone of digit 5 length
+def: "The length of a metapodial bone of digit 5." [ISBN: 9004086161\, 9789004086166, ISBN: 9780873659505]
+synonym: "length of metapodial bone of digit 5" EXACT []
+is_a: FOVT:0001141 ! metapodial bone length
+property_value: http://purl.org/dc/elements/1.1/date 2021-06-09T23:45:03Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001146
+name: metapodial bone of digit 3 length
+def: "The length of a metapodial bone of digit 3." [ISBN: 9004086161\, 9789004086166, ISBN: 9780873659505]
+synonym: "length of metapodial bone of digit 3." EXACT []
+is_a: FOVT:0001141 ! metapodial bone length
+property_value: http://purl.org/dc/elements/1.1/date 2021-06-09T23:47:16Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001147
+name: radius width
+def: "The width of a radius." [https://orcid.org/0000-0003-2699-3066]
+synonym: "Width of radius bone." EXACT []
+intersection_of: PATO:0000921
+intersection_of: RO:0000052 UBERON:0001423
+property_value: http://purl.org/dc/elements/1.1/date 2021-06-17T00:51:35Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001148
+name: radius distal width
+def: "The width of the distal end of a radius." [https://orcid.org/0000-0003-2699-3066]
+is_a: FOVT:0001147 ! radius width
+intersection_of: PATO:0000921
+intersection_of: RO:0000052 UBERON:0004407
+property_value: http://purl.org/dc/elements/1.1/date 2021-06-17T00:53:05Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001149
+name: radius proximal width
+def: "The width of the proximal end of a radius." [https://orcid.org/0000-0003-2699-3066]
+intersection_of: PATO:0000921
+intersection_of: RO:0000052 UBERON:0004413
+property_value: http://purl.org/dc/elements/1.1/date 2021-06-17T00:54:08Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001150
+name: radius proximal articular width
+def: "The width of the arcitular surface that articulates with the humerus located on the proximal end of a radius." [https://orcid.org/0000-0003-2699-3066]
+is_a: FOVT:0001149 ! radius proximal width
+intersection_of: PATO:0000921
+intersection_of: RO:0000052 UBERON:4200204
+property_value: http://purl.org/dc/elements/1.1/date 2021-06-17T00:57:18Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001151
+name: obsolete fibula length
+def: "OBSOLETE The length of a fibula along the proximal-distal axis." [] {http://purl.obolibrary.org/obo/IAO_0000119="von den Driesch, Angela. A guide to the measurement of animal bones from archaeological sites: as developed by the Institut für Palaeoanatomie, Domestikationsforschung und Geschichte der Tiermedizin of the University of Munich . Vol. 1. Peabody Museum Press, 1976."}
+comment: Already exists in OBA.
+synonym: "length of fibula" EXACT []
+property_value: http://purl.org/dc/elements/1.1/date 2021-07-22T21:20:50Z xsd:dateTime
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+is_obsolete: true
+replaced_by: OBA:VT0000482
+
+[Term]
+id: FOVT:0001152
+name: scapula dorsal length
+def: "The length of the dorsal side of a scapula along the proximal-distal axis." [ISBN: 9780873659505]
+comment: IAO:0000423
+is_a: OBA:VT0004343
+property_value: http://purl.org/dc/elements/1.1/date 2021-07-23T18:37:56Z xsd:dateTime
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001153
+name: scapula spine length
+def: "Length of a scpular spine along the proximal-distal axis." [ISBN: 9780873659505]
+comment: IAO:0000423
+synonym: "length of scapular spine" EXACT []
+is_a: OBA:VT0004343
+intersection_of: PATO:0000122
+intersection_of: RO:0000052 UBERON:0004651
+property_value: http://purl.org/dc/elements/1.1/date 2021-07-23T19:17:25Z xsd:dateTime
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001154
+name: scapula neck breadth
+def: "The width of a scapular neck along the medial-lateral axis." [ISBN: 9004086161\, 9789004086166, ISBN: 9780873659505]
+synonym: "breadth of scapula neck" EXACT []
+synonym: "IAO:0000423" EXACT []
+synonym: "scapula neck width ML" EXACT []
+is_a: OBA:VT0004343
+intersection_of: PATO:0000921
+intersection_of: RO:0000052 UBERON:0018667
+property_value: http://purl.org/dc/elements/1.1/date 2021-07-23T19:28:14Z xsd:dateTime
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001155
+name: glenoid cavity length
+def: "The length of the glenoid cavity (glenoid fossa) along the anterior-posterior axis." [ISBN: 9004086161\, 9789004086166, ISBN: 9780873659505]
+synonym: "IAO:0000423" EXACT []
+synonym: "length of glenoid process" EXACT []
+is_a: OBA:VT0004343
+intersection_of: PATO:0000122
+intersection_of: RO:0000052 UBERON:0006657
+property_value: http://purl.org/dc/elements/1.1/date 2021-07-23T21:33:08Z xsd:dateTime
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001156
+name: glenoid cavity breadth
+def: "The width of the glenoid cavity (glenoid fossa) along the medial-lateral axis." [ISBN: 9004086161\, 9789004086166, ISBN: 9780873659505]
+synonym: "breadth of glenoid cavity" EXACT []
+synonym: "IAO:0000423" EXACT []
+is_a: OBA:VT0004343
+intersection_of: PATO:0000921
+intersection_of: RO:0000052 UBERON:0006657
+property_value: http://purl.org/dc/elements/1.1/date 2021-07-23T21:36:30Z xsd:dateTime
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001157
+name: scapula depth
+def: "The depth of a scapula along the anterior-posterior axis." [ISBN: 9004086161\, 9789004086166]
+synonym: "depth of scapula" EXACT []
+synonym: "IAO:0000423" EXACT []
+is_a: OBA:VT0004343
+intersection_of: PATO:0000921
+intersection_of: RO:0000052 UBERON:0006849
+property_value: http://purl.org/dc/elements/1.1/date 2021-07-23T21:40:46Z xsd:dateTime
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001158
+name: radius diaphysis width
+def: "The width of the diaphysis of a radius." [ORCID: 0000-0003-2699-3066]
+synonym: "IAO:0000423" EXACT []
+intersection_of: PATO:0000921
+intersection_of: RO:0000052 UBERON:0001028
+property_value: http://purl.org/dc/elements/1.1/date 2021-07-27T23:38:42Z xsd:dateTime
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001159
+name: viscera mass
+def: "Mass of the viscera (internal organs)." [ORCID: 0000-0003-2699-3066]
+comment: IAO:0000423
+is_a: OBA:VT0001259
+intersection_of: PATO:0000128
+intersection_of: RO:0000052 UBERON:0002075
+property_value: http://purl.org/dc/elements/1.1/date 2021-07-27T23:56:39Z xsd:dateTime
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001160
+name: obsolete skin mass
+def: "OBSOLETE The mass of the skin of an organism." [] {http://purl.obolibrary.org/obo/IAO_0000119="ORCID: 0000-0003-2699-3066"}
+comment: IAO:0000423
+comment: Term already exists.
+property_value: http://purl.org/dc/elements/1.1/date 2021-07-27T23:59:50Z xsd:dateTime
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+is_obsolete: true
+replaced_by: OBA:VT1000425
+
+[Term]
+id: FOVT:0001161
+name: radial condyle breadth
+def: "The width of the radial condyle (styloid notch) of a radius along the medial-lateral axis." [ISBN: 9004086161\, 9789004086166]
+comment: IAO:0000423
+is_a: FOVT:0001148 ! radius distal width
+property_value: http://purl.org/dc/elements/1.1/date 2021-08-03T20:33:02Z xsd:dateTime
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001162
+name: ulnar condyle breadth
+def: "The width of the ulnar codyle (ulnar notch) of a radius along the medial-lateral axis." [ISBN: 9004086161\, 9789004086166]
+comment: IAO:0000423
+is_a: FOVT:0001148 ! radius distal width
+property_value: http://purl.org/dc/elements/1.1/date 2021-08-03T20:36:43Z xsd:dateTime
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001163
+name: patella length
+def: "The length of a patella along the proximal-distal axis." [ISBN: 9780873659505]
+comment: IAO:0000423
+synonym: "length of patella" EXACT []
+intersection_of: PATO:0000122
+intersection_of: RO:0000052 UBERON:0002446
+property_value: http://purl.org/dc/elements/1.1/date 2021-08-04T00:39:28Z xsd:dateTime
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001164
+name: patella breadth
+def: "The width of a patella along th medial-lateral axis." [ISBN: 9780873659505]
+comment: IAO:0000423
+synonym: "patella width ML" EXACT []
+intersection_of: PATO:0000921
+intersection_of: RO:0000052 UBERON:0002446
+property_value: http://purl.org/dc/elements/1.1/date 2021-08-04T00:41:17Z xsd:dateTime
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001165
+name: scapula lateral depth
+def: "The length along the anterior-posterior axis on the lateral edge of a scapula." [ISBN: 9004086161\, 9789004086166, ISBN: 9780873659505]
+comment: IAO:0000423
+is_a: OBA:VT0004343
+property_value: http://purl.org/dc/elements/1.1/date 2021-08-12T16:57:17Z xsd:dateTime
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001166
+name: molar tooth 1 occlusal surface width
+synonym: "molar tooth 1 length ML" EXACT []
+intersection_of: PATO:0000921
+intersection_of: RO:0000052 UBERON:0018376
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-06T17:55:21Z xsd:dateTime
+property_value: http://purl.org/dc/elements/1.1/description "The length of the occlusal surface of a molar tooth 1 along the medial-lateral axis." xsd:string {xref="https://orcid.org/0000-0003-2699-3066"}
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001167
+name: upper molar tooth 1 occlusal surface width
+def: "The length of the occlusal surface of a upper molar tooth 1 along the medial-lateral axis." [https://orcid.org/0000-0003-2699-3066]
+synonym: "upper molar tooth 1 length ML" EXACT []
+intersection_of: FOVT:0001166 ! molar tooth 1 occlusal surface width
+intersection_of: RO:0000052 UBERON:0001709
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-06T17:58:27Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001168
+name: lower molar tooth 1 occlusal surface width
+def: "The length of the occlusal surface of a lower molar tooth 1 along the medial-lateral axis." [https://orcid.org/0000-0003-2699-3066]
+synonym: "lower molar tooth 1 length ML" EXACT []
+intersection_of: FOVT:0001166 ! molar tooth 1 occlusal surface width
+intersection_of: RO:0000052 UBERON:0001710
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-06T18:01:37Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001169
+name: upper secondary molar tooth 1 occlusal surface width
+def: "The length of the occlusal surface of an upper secondary molar tooth 1 along the medial-lateral axis." [https://orcid.org/0000-0003-2699-3066]
+synonym: "upper secondary molar tooth 1 length ML" EXACT []
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-06T18:03:06Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001170
+name: upper primary molar tooth 1 occlusal surface width
+def: "The length of the occlusal surface of an upper primary molar tooth 1 along the medial-lateral axis." [https://orcid.org/0000-0003-2699-3066]
+synonym: "upper primary molar tooth 1 length ML" EXACT []
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-06T18:04:52Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001171
+name: lower secondary molar tooth 1 occlusal surface width
+def: "The length of the occlusal surface of a lower secondary molar tooth 1 along the medial-lateral axis." [https://orcid.org/0000-0003-2699-3066]
+synonym: "lower secondary molar tooth 1 length ML" EXACT []
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-06T18:06:32Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001172
+name: lower primary molar tooth 1 occlusal surface width
+def: "The length of the occlusal surface of a lower primary molar tooth 1 along the medial-lateral axis." [https://orcid.org/0000-0003-2699-3066]
+synonym: "lower primary molar tooth 1 length ML" EXACT []
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-06T18:08:38Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001173
+name: molar tooth 1 occlusal surface length
+def: "The length of the occlusal surface of a molar tooth 1 along the anterior-posterior axis." [https://orcid.org/0000-0003-2699-3066]
+synonym: "molar tooth 1 occlusal surface length AP" EXACT []
+intersection_of: PATO:0000122
+intersection_of: RO:0000052 UBERON:0018376
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-06T18:09:53Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001174
+name: upper molar tooth 1 occlusal surface length
+def: "The length of the occlusal surface of an upper molar tooth 1 along the anterior-posterior axis." [https://orcid.org/0000-0003-2699-3066]
+synonym: "upper molar tooth 1 occlusal surface length AP" EXACT []
+intersection_of: FOVT:0001173 ! molar tooth 1 occlusal surface length
+intersection_of: RO:0000052 UBERON:0001709
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-06T18:17:47Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001175
+name: lower molar tooth 1 occlusal surface length
+def: "The length of the occlusal surface of lower molar tooth 1 along the anterior-posterior axis." [https://orcid.org/0000-0003-2699-3066]
+synonym: "lower molar tooth 1 occlusal surface length AP" EXACT []
+intersection_of: FOVT:0001173 ! molar tooth 1 occlusal surface length
+intersection_of: RO:0000052 UBERON:0001710
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-06T18:21:46Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001176
+name: upper secondary molar tooth 1 occlusal surface length
+def: "The length of the occlusal surface of an upper secondary molar tooth 1 along the anterior-posterior axis." [https://orcid.org/0000-0003-2699-3066]
+synonym: "upper secondary molar tooth 1 occlusal surface length AP" EXACT []
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-06T18:23:26Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001177
+name: upper primary molar tooth 1 occlusal surface length
+def: "The length of the occlusal surface of an upper primary molar tooth 1 along the anterior-posterior axis." [https://orcid.org/0000-0003-2699-3066]
+synonym: "upper primary molar tooth 1 occlusal surface length AP" EXACT []
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-06T18:24:48Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001178
+name: lower secondary molar tooth 1 occlusal surface length
+def: "The length of the occlusal surface of a lower secondary molar tooth 1 along the anterior-posterior axis." [https://orcid.org/0000-0003-2699-3066]
+synonym: "lower secondary molar tooth 1 occlusal surface length AP" EXACT []
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-06T18:26:08Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001179
+name: lower primary molar tooth 1 occlusal surface length
+def: "The length of the occlusal surface of a lower primary molar tooth 1 along the anterior-posterior axis." []
+synonym: "lower primary molar tooth 1 occlusal surface length AP" EXACT []
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-06T18:27:20Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001180
+name: molar tooth 2 occlusal surface width
+def: "The length of the occlusal surface of a molar tooth 2 along the medial-lateral axis." [https://orcid.org/0000-0003-2699-3066]
+synonym: "molar tooth 2 occlusal surface length ML" EXACT []
+intersection_of: PATO:0000921
+intersection_of: RO:0000052 UBERON:0018606
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-06T18:28:37Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001181
+name: upper molar tooth 2 occlusal surface width
+def: "The length of the occlusal surface of an upper molar tooth 2 along the medial-lateral axis." [https://orcid.org/0000-0003-2699-3066]
+synonym: "upper molar tooth 2 occlusal surface length ML" EXACT []
+intersection_of: FOVT:0001180 ! molar tooth 2 occlusal surface width
+intersection_of: RO:0000052 UBERON:0001709
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-06T18:30:15Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001182
+name: lower molar tooth 2 occlusal surface width
+def: "The length of the occlusal surface of a lower molar tooth 2 along the medial-lateral axis." [https://orcid.org/0000-0003-2699-3066]
+synonym: "lower molar tooth 2 occlusal surface length ML" EXACT []
+intersection_of: FOVT:0001180 ! molar tooth 2 occlusal surface width
+intersection_of: RO:0000052 UBERON:0001710
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-06T18:31:30Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001183
+name: upper secondary molar tooth 2 occlusal surface width
+def: "The length of the occlusal surface of an upper secondary molar tooth 2 along the medial-lateral axis." [https://orcid.org/0000-0003-2699-3066]
+synonym: "upper secondary molar tooth 2 occlusal surface length ML" EXACT []
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-06T18:32:57Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001184
+name: upper primary molar tooth 2 occlusal surface width
+def: "The length of the occlusal surface of an upper primary molar tooth 2 along the medial-lateral axis." [https://orcid.org/0000-0003-2699-3066]
+synonym: "upper secondary molar tooth 2 occlusal surface length ML" EXACT []
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-06T18:34:29Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001185
+name: lower secondary molar tooth 2 occlusal surface width
+def: "The length of the occlusal surface of a lower secondary molar tooth 2 along the medial-lateral axis." [https://orcid.org/0000-0003-2699-3066]
+synonym: "lower secondary molar tooth 2 occlusal surface length ML" EXACT []
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-06T18:35:47Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001186
+name: lower primary molar tooth 2 occlusal surface width
+def: "The length of the occlusal surface of a lower primary molar tooth 2 along the medial-lateral axis." [https://orcid.org/0000-0003-2699-3066]
+synonym: "lower primary molar tooth 2 occlusal surface length ML" EXACT []
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-06T18:37:05Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001187
+name: molar tooth 2 occlusal surface length
+def: "The length of the occlusal surface a molar tooth 2 along the anterior-posterior axis." [https://orcid.org/0000-0003-2699-3066]
+synonym: "molar tooth 2 occlusal surface length AP" EXACT []
+intersection_of: PATO:0000122
+intersection_of: RO:0000052 UBERON:0018606
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-06T18:38:13Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001188
+name: upper molar tooth 2 occlusal surface length
+def: "The length of the occlusal surface of an upper molar tooth 2 along the anterior-posterior axis." [https://orcid.org/0000-0003-2699-3066]
+synonym: "upper molar tooth 2 occlusal surface length AP" EXACT []
+intersection_of: FOVT:0001187 ! molar tooth 2 occlusal surface length
+intersection_of: RO:0000052 UBERON:0001709
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-06T18:39:27Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001189
+name: lower molar tooth 2 occlusal surface length
+def: "The length of the occlusal surface of a lower molar tooth 2 along the anterior-posterior axis." [https://orcid.org/0000-0003-2699-3066]
+synonym: "lower molar tooth 2 occlusal surface length AP" EXACT []
+intersection_of: FOVT:0001187 ! molar tooth 2 occlusal surface length
+intersection_of: RO:0000052 UBERON:0001710
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-06T18:40:48Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001190
+name: upper secondary molar tooth 2 occlusal surface length
+def: "The length of the occlusal surface of an upper secondary molar tooth 2 along the anterior-posterior axis." [https://orcid.org/0000-0003-2699-3066]
+synonym: "upper secondary molar tooth 2 occlusal surface length AP" EXACT []
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-06T18:42:05Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001191
+name: upper primary molar tooth 2 occlusal surface length
+def: "The length of the occlusal surface of an upper primary molar tooth 2 along the anterior-posterior axis." [https://orcid.org/0000-0003-2699-3066]
+synonym: "upper primary molar tooth 2 occlusal surface length AP" EXACT []
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-06T18:43:26Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001192
+name: lower secondary molar tooth 2 occlusal surface length
+def: "The length of the occlusal surface of a lower secondary molar tooth 2 along the anterior-posterior axis." [https://orcid.org/0000-0003-2699-3066]
+synonym: "lower secondary molar tooth 2 occlusal surface length AP" EXACT []
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-06T18:44:30Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001193
+name: lower primary molar tooth 2 occlusal surface length
+def: "The length of the occlusal surface of a lower primary molar tooth 2 along the anterior-posterior axis." [https://orcid.org/0000-0003-2699-3066]
+synonym: "lower primary molar tooth 2 occlusal surface length AP" EXACT []
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-06T18:45:41Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001194
+name: molar tooth 3 occlusal surface width
+def: "The length of the occlusal surface of molar tooth 3 along the medial-lateral axis." [https://orcid.org/0000-0003-2699-3066]
+synonym: "molar tooth 3 occlusal surface length ML" EXACT []
+intersection_of: PATO:0000921
+intersection_of: RO:0000052 UBERON:0018377
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-06T18:47:22Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001195
+name: upper molar tooth 3 occlusal surface width
+def: "The length of the occlusal surface of an upper molar tooth 3 along the  medial-lateral axis." [https://orcid.org/0000-0003-2699-3066]
+synonym: "upper molar tooth 3 occlusal surface length ML" EXACT []
+intersection_of: FOVT:0001194 ! molar tooth 3 occlusal surface width
+intersection_of: RO:0000052 UBERON:0001709
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-06T18:49:08Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001196
+name: lower molar tooth 3 occlusal surface width
+def: "The length of the occlusal surface of a lower molar tooth 3 along the medial-lateral axis." [https://orcid.org/0000-0003-2699-3066]
+synonym: "lower molar tooth 3 occlusal surface length ML" EXACT []
+intersection_of: FOVT:0001194 ! molar tooth 3 occlusal surface width
+intersection_of: RO:0000052 UBERON:0001710
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-06T18:50:18Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001197
+name: upper secondary molar tooth 3 occlusal surface width
+def: "The length of the occlusal surface of an upper secondary molar tooth 3 along the medial-lateral axis." [https://orcid.org/0000-0003-2699-3066]
+synonym: "upper secondary molar tooth 3 occlusal surface length ML" EXACT []
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-06T18:51:20Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001198
+name: DEPRECATED upper primary molar tooth 3 occlusal surface width
+comment: not a tooth
+is_obsolete: true
+
+[Term]
+id: FOVT:0001199
+name: lower secondary molar tooth 3 occlusal width
+def: "The length of the occlusal surface of a lower secondary molar tooth 3 along the medial-lateral axis." [https://orcid.org/0000-0003-2699-3066]
+synonym: "lower secondary molar tooth 3 occlusal length ML" EXACT []
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-06T18:55:14Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001200
+name: molar tooth 3 occlusal surface length
+def: "The length of the occlusal surface of a molar tooth 3 along the anterior-posterior axis." [https://orcid.org/0000-0003-2699-3066]
+synonym: "molar tooth 3 occlusal surface length AP" EXACT []
+intersection_of: PATO:0000122
+intersection_of: RO:0000052 UBERON:0018377
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-06T18:56:30Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001201
+name: upper molar tooth 3 occlusal surface length
+def: "The length of the occlusal surface of an upper molar tooth 3 along the anterior-posterior axis." [https://orcid.org/0000-0003-2699-3066]
+synonym: "upper molar tooth 3 occlusal surface length AP" EXACT []
+intersection_of: FOVT:0001200 ! molar tooth 3 occlusal surface length
+intersection_of: RO:0000052 UBERON:0001709
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-06T18:57:42Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001202
+name: lower molar tooth 3 occlusal surface length
+def: "The length of the occlusal surface of a lower molar tooth 3 along the anterior-posterior axis." [https://orcid.org/0000-0003-2699-3066]
+synonym: "lower molar tooth 3 occlusal surface length AP" EXACT []
+intersection_of: FOVT:0001200 ! molar tooth 3 occlusal surface length
+intersection_of: RO:0000052 UBERON:0001710
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-06T18:59:02Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001203
+name: upper secondary molar tooth 3 occlusal surface length
+def: "The length of the occlusal surface of an upper secondary molar tooth 3 along the anterior-posterior axis." [https://orcid.org/0000-0003-2699-3066]
+synonym: "upper secondary molar tooth 3 occlusal surface length AP" EXACT []
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-06T19:00:02Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001204
+name: lower secondary molar tooth 3 occlusal surface length
+def: "The length of the occlusal surface of a lower secondary molar tooth 3 along the anterior-posterior axis." [https://orcid.org/0000-0003-2699-3066]
+synonym: "lower secondary molar tooth 3 occlusal surface length AP" EXACT []
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-06T19:01:18Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001205
+name: molar tooth 4 occlusal surface width
+def: "The length of the occlusal surface of molar tooth 4 along the medial-lateral axis." [https://orcid.org/0000-0003-2699-3066]
+synonym: "molar tooth 4 occlusal surface length ML" EXACT []
+intersection_of: PATO:0000921
+intersection_of: RO:0000052 UBERON:7500055
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-06T19:03:20Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001206
+name: upper molar tooth 4 occlusal surface width
+def: "The length of the occlusal surface of an upper molar tooth 4 along the medial-lateral surface." [https://orcid.org/0000-0003-2699-3066]
+synonym: "upper molar tooth 4 occlusal surface length ML" EXACT []
+intersection_of: FOVT:0001205 ! molar tooth 4 occlusal surface width
+intersection_of: RO:0000052 UBERON:0001709
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-06T19:08:31Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001207
+name: lower molar tooth 4 occlusal surface width
+def: "The length of the occlusal surface of a lower molar tooth 4 along the medial-lateral axis." [https://orcid.org/0000-0003-2699-3066]
+synonym: "lower molar tooth 4 occlusal surface length ML" EXACT []
+intersection_of: FOVT:0001205 ! molar tooth 4 occlusal surface width
+intersection_of: RO:0000052 UBERON:0001710
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-06T19:10:10Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001208
+name: upper secondary molar tooth 4 occlusal surface width
+def: "The length of the occlusal surface of an upper secondary molar tooth 4 along the medial-lateral axis." []
+synonym: "upper secondary molar tooth 4 occlusal surface length ML" EXACT []
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-06T19:11:15Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001209
+name: lower secondary molar tooth 4 occlusal surface width
+def: "The length of the occlusal surface of a lower secondry molar tooth 4 along the medial-lateral axis." [https://orcid.org/0000-0003-2699-3066]
+synonym: "lower secondary molar tooth 4 occlusal surface length ML" EXACT []
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-06T19:12:12Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001210
+name: molar tooth 4 occlusal surface length
+def: "The length of the occlusal surface of a molar tooth 4 along the anterior-posterior axis." [https://orcid.org/0000-0003-2699-3066]
+synonym: "molar tooth 4 occlusal surface length AP" EXACT []
+intersection_of: PATO:0000122
+intersection_of: RO:0000052 UBERON:7500055
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-06T19:13:44Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001211
+name: upper molar tooth 4 occlusal surface length
+def: "The length of the occlusal surface of an upper molar tooth 4 along the anterior-posterior axis." [https://orcid.org/0000-0003-2699-3066]
+synonym: "upper molar tooth 4 occlusal surface length AP" EXACT []
+intersection_of: FOVT:0001210 ! molar tooth 4 occlusal surface length
+intersection_of: RO:0000052 UBERON:0001709
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-06T19:14:40Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001212
+name: lower molar tooth 4 occlusal surface length
+def: "The length of the occlusal surface of a lower molar tooth 4 along the anterior-posterior axis." [https://orcid.org/0000-0003-2699-3066]
+synonym: "lower molar tooth 4 occlusal surface length AP" EXACT []
+intersection_of: FOVT:0001210 ! molar tooth 4 occlusal surface length
+intersection_of: RO:0000052 UBERON:0001710
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-06T19:15:46Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001213
+name: upper secondary molar tooth 4 occlusal surface length
+def: "The length of the occlusal surface of an upper secondary molar tooth 4 along the anterior-posterior axis." [https://orcid.org/0000-0003-2699-3066]
+synonym: "upper secondary molar tooth 4 occlusal surface length AP" EXACT []
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-06T19:16:45Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001214
+name: lower secondary molar tooth 4 occlusal surface length
+def: "The length of the occlusal surface of a lower secondary molar tooth 4 along the anterior-posterior axis." [https://orcid.org/0000-0003-2699-3066]
+synonym: "lower secondary molar tooth 4 occlusal surface length AP" EXACT []
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-06T19:17:44Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001215
+name: premolar tooth 1 occlusal surface width
+def: "The length of the occlusal surface of a premolar tooth 1 along the medial-lateral axis." [https://orcid.org/0000-0003-2699-3066]
+synonym: "premolar tooth 1 occlusal surface length ML" EXACT []
+intersection_of: PATO:0000921
+intersection_of: RO:0000052 UBERON:0018294
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-06T19:23:45Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001216
+name: upper premolar tooth 1 occlusal surface width
+def: "The length of the occlusal surface of an upper premolar tooth 1 along the medial-lateral axis." [https://orcid.org/0000-0003-2699-3066]
+synonym: "upper premolar tooth 1 occlusal surface length ML" EXACT []
+intersection_of: FOVT:0001215 ! premolar tooth 1 occlusal surface width
+intersection_of: RO:0000052 UBERON:0001709
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-06T19:25:19Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001217
+name: lower premolar tooth 1 occlusal suface width
+def: "The length of the occlusal surface of a lower premolar tooth 1 along the medial-lateral axis." [https://orcid.org/0000-0003-2699-3066]
+synonym: "lower premolar tooth 1 occlusal surface length ML" EXACT []
+intersection_of: FOVT:0001215 ! premolar tooth 1 occlusal surface width
+intersection_of: RO:0000052 UBERON:0001710
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-06T19:26:31Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001218
+name: upper secondary premolar tooth 1 occlusal surface width
+def: "The length of the occlusal surface of an upper secondary premolar tooth 1 along the medial-lateral axis." [https://orcid.org/0000-0003-2699-3066]
+synonym: "upper secondary premolar tooth 1 occlusal surface length ML" EXACT []
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-06T19:28:11Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001219
+name: upper primary premolar tooth 1 occlusal surface width
+def: "The length of the occlusal surface or an upper primary premolar 1 along the medial-lateral axis." [https://orcid.org/0000-0003-2699-3066]
+synonym: "upper primary premolar tooth 1 occlusal surface length ML" EXACT []
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-06T19:29:34Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001220
+name: lower secondary premolar tooth 1 occlusal surface width
+def: "The length of the occlusal surface of a lower secondary premolar tooth 1 along the medial-lateral axis." [https://orcid.org/0000-0003-2699-3066]
+synonym: "lower secondary premolar tooth 1 occlusal surface length ML" EXACT []
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-07T22:12:42Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001221
+name: lower primary premolar tooth 1 occlusal surface width
+def: "The length of the occlusal surface of a lower primary premolar tooth 1 along the medial-lateral axis." [https://orcid.org/0000-0003-2699-3066]
+synonym: "lower primary premolar tooth 1 occlusal surface length ML" EXACT []
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-07T22:14:41Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001222
+name: premolar tooth 1 occlusal surface length
+def: "The length of the occlusal surface of a premolar tooth 1 along the anterior-posterior axis." [https://orcid.org/0000-0003-2699-3066]
+synonym: "premolar tooth 1 occlusal surface length AP" EXACT []
+intersection_of: PATO:0000122
+intersection_of: RO:0000052 UBERON:0018294
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-07T22:19:59Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001223
+name: upper premolar tooth 1 occlusal surface length
+def: "The length of the occlusal surface of an upper premolar tooth 1 along the anterior-posterior axis." [https://orcid.org/0000-0003-2699-3066]
+synonym: "upper premolar tooth 1 occlusal surface length AP" EXACT []
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-07T22:21:59Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001224
+name: lower premolar tooth 1 occlusal surface length
+def: "The length of the occlusal surface of a lower premolar tooth 1 along the anterior-posterior axis." [https://orcid.org/0000-0003-2699-3066]
+synonym: "lower premolar tooth 1 occlusal surface length AP" EXACT []
+intersection_of: FOVT:0001222 ! premolar tooth 1 occlusal surface length
+intersection_of: RO:0000052 UBERON:0001710
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-07T22:23:35Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001225
+name: upper secondary premolar tooth 1 occlusal surface length
+def: "The length of the occlusal surface of an upper secondary premolar tooth 1 along the anterior-posterior axis." [https://orcid.org/0000-0003-2699-3066]
+synonym: "upper secondary premolar tooth 1 occlusal surface length AP" EXACT []
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-07T22:27:43Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001226
+name: lower secondary premolar tooth 1 occlusal surface length
+def: "The length of the occlusal surface of a lower secondary premolar tooth 1 along the anterior-posterior axis." [https://orcid.org/0000-0003-2699-3066]
+synonym: "lower secondary premolar tooth 1 occlusal tooth length AP" EXACT []
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-07T22:31:35Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001227
+name: lower primary premolar tooth 1 occlusal surface length
+def: "The length of the occlusal surface of a lower primary premolar tooth 1 along the anterior-posterior axis." [https://orcid.org/0000-0003-2699-3066]
+synonym: "lower primary premolar tooth 1 occlusal surface length AP" EXACT []
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-07T22:33:30Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001228
+name: premolar tooth 2 occlusal surface width
+def: "The length of the occlusal surface of a premolar tooth 2 along the medial-lateral axis." [https://orcid.org/0000-0003-2699-3066]
+synonym: "premolar tooth 2 occlusal surface length ML" EXACT []
+intersection_of: PATO:0000921
+intersection_of: RO:0000052 UBERON:0018640
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-07T22:37:37Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001229
+name: upper premolar tooth 2 occlusal surface width
+def: "The length of the occlusal surface of an upper premolar tooth 2 along the medial-lateral axis." [https://orcid.org/0000-0003-2699-3066]
+synonym: "upper premolar tooth 2 occlusal surface length ML" EXACT []
+intersection_of: FOVT:0001228 ! premolar tooth 2 occlusal surface width
+intersection_of: RO:0000052 UBERON:0001709
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-07T22:38:49Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001230
+name: lower premolar tooth 2 occlusal surface width
+def: "The length of the occlusal surface of a lower premolar tooth 2 along the medial-lateral axis." [https://orcid.org/0000-0003-2699-3066]
+synonym: "lower premolar tooth 2 occlusal surface length ML" EXACT []
+intersection_of: FOVT:0001228 ! premolar tooth 2 occlusal surface width
+intersection_of: RO:0000052 UBERON:0001710
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-07T22:40:59Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001231
+name: upper secondary premolar tooth 2 occlusal surface width
+def: "The length of the occlusal surface of an upper secondary premolar tooth 2 along the medial-lateral axis." [https://orcid.org/0000-0003-2699-3066]
+synonym: "upper secondary premolar tooth 2 occlusal surface length ML" EXACT []
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-07T22:42:08Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001232
+name: upper primary premolar tooth 2 occlusal surface width
+def: "The length of the occlusal surface of an upper primary premolar tooth 2 along the medial-lateral axis." [https://orcid.org/0000-0003-2699-3066]
+synonym: "upper primary premolar tooth 2 occlusal surface length ML" EXACT []
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-07T22:44:29Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001233
+name: lower secondary premolar tooth 2 occlusal surface width
+def: "The length of the occlusal surface of a lower secondary premolar tooth 2 along the medial-lateral axis." [https://orcid.org/0000-0003-2699-3066]
+synonym: "lower secondary premolar tooth 2 occlusal surface length ML" EXACT []
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-07T22:46:27Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001234
+name: lower primary premolar tooth 2 occlusal surface width
+def: "The length of the occlusal surface of a lower primary premolar tooth 2 along the medial-lateral axis." [https://orcid.org/0000-0003-2699-3066]
+synonym: "lower primary premolar tooth 2 occlusal surface length ML" EXACT []
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-07T22:48:52Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001235
+name: premolar tooth 2 occlusal surface length
+def: "The length of the occlusal surface of a premolar tooth 2 along the anterior-posterior axis." [https://orcid.org/0000-0003-2699-3066]
+synonym: "premolar tooth 2 occlusal surface length AP" EXACT []
+intersection_of: PATO:0000122
+intersection_of: RO:0000052 UBERON:0018640
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-07T22:51:43Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001236
+name: upper premolar tooth 2 occlusal surface length
+def: "The length of the occlusal surface of an upper premolar tooth 2 along the anterior-posterior surface." [https://orcid.org/0000-0003-2699-3066]
+synonym: "upper premolar tooth 2 occlusal surface length AP" EXACT []
+intersection_of: FOVT:0001235 ! premolar tooth 2 occlusal surface length
+intersection_of: RO:0000052 UBERON:0001709
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-07T22:53:02Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001237
+name: lower premolar tooth 2 occlusal surface length
+def: "The length of the occlusal surface of a lower premolar tooth 2 along the anterior-posterior axis." [https://orcid.org/0000-0003-2699-3066]
+synonym: "lower premolar tooth 2 occlusal surface length AP" EXACT []
+intersection_of: FOVT:0001235 ! premolar tooth 2 occlusal surface length
+intersection_of: RO:0000052 UBERON:0001710
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-07T22:54:21Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001238
+name: upper secondary premolar tooth 2 occlusal surface length
+def: "The length of the occlusal surface of an upper secondary premolar tooth 2 along the anterior-posterior axis." [https://orcid.org/0000-0003-2699-3066]
+synonym: "upper secondary premolar tooth 2 occlusal surface length AP" EXACT []
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-07T22:55:32Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001239
+name: upper primary premolar tooth 2 occlusal surface length
+def: "The length of the occlusal surface of an upper primary premolar tooth 2 along the anterior-posterior surface." [https://orcid.org/0000-0003-2699-3066]
+synonym: "upper primary premolar tooth 2 occlusal surface length AP" EXACT []
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-07T22:56:59Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001240
+name: lower secondary premolar tooth 2 occlusal surface length
+def: "The length of the occlusal surface of a lower secondary premolar tooth 2 occlusal surface along the anterior-posterior axis." [https://orcid.org/0000-0003-2699-3066]
+synonym: "lower secondary premolar tooth 2 occlusal surface length AP" EXACT []
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-07T22:58:08Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001241
+name: lower primary premolar tooth 2 occlusal surface length
+def: "The length of the occlusal surface of a lower primary premolar tooth 2 along the anterior-posterior surface." [https://orcid.org/0000-0003-2699-3066]
+synonym: "lower primary premolar tooth 2 occlusal surface length AP" EXACT []
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-07T22:59:47Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001242
+name: premolar tooth 3 occlusal surface width
+def: "The length of the occlusal surface of a premolar tooth 3 along the medial-lateral axis." [https://orcid.org/0000-0003-2699-3066]
+synonym: "premolar tooth 3 occlusal surface length ML" EXACT []
+intersection_of: PATO:0000921
+intersection_of: RO:0000052 UBERON:7500056
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-07T23:01:08Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001243
+name: upper premolar tooth 3 occlusal surface width
+def: "The length of the occlusal surface of an upper premolar tooth 3 along the medial-lateral axis." [https://orcid.org/0000-0003-2699-3066]
+synonym: "upper premolar tooth 3 occlusal surface length ML" EXACT []
+intersection_of: FOVT:0001242 ! premolar tooth 3 occlusal surface width
+intersection_of: RO:0000052 UBERON:0001709
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-07T23:02:43Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001244
+name: lower premolar tooth 3 occlusal surface width
+def: "The length of the occlusal surface of a lower premolar tooth 3 along the medial-lateral axis." [https://orcid.org/0000-0003-2699-3066]
+synonym: "lower premolar tooth 3 occlusal surface length ML" EXACT []
+intersection_of: FOVT:0001242 ! premolar tooth 3 occlusal surface width
+intersection_of: RO:0000052 UBERON:0001710
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-07T23:04:11Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001245
+name: upper secondary premolar tooth 3 occlusal surface width
+def: "The length of the occlusal surface of an upper secondary premolar tooth 3 along the medial-lateral axis." [https://orcid.org/0000-0003-2699-3066]
+synonym: "upper secondary premolar tooth 3 occlusal surface length ML" EXACT []
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-07T23:06:36Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001246
+name: upper primary premolar tooth 3 occlusal surface width
+def: "The length of the occlusal surface of an upper primary premolar tooth 3 along the medial-lateral axis." [https://orcid.org/0000-0003-2699-3066]
+synonym: "upper primary premolar tooth 3 occlusal surface length ML" EXACT []
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-07T23:08:15Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001247
+name: lower secondary premolar tooth 3 occlusal surface width
+def: "The length of the occlusal surface of a lower secondary premolar tooth 3 along the medial-lateral axis." [https://orcid.org/0000-0003-2699-3066]
+synonym: "lower secondary premolar tooth 3 occlusal surface length ML" EXACT []
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-07T23:09:33Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001248
+name: lower primary premolar tooth 3 occlusal surface width
+def: "The length of the occlusal surface of a lower primary premolar tooth 3 along the medial-lateral axis." [https://orcid.org/0000-0003-2699-3066]
+synonym: "lower primary premolar tooth 3 occlusal surface length ML" EXACT []
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-07T23:11:26Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001249
+name: premolar tooth 3 occlusal surface length
+def: "The length of the occlusal surface of a premolar tooth 3 along the anterior-posterior axis." [https://orcid.org/0000-0003-2699-3066]
+synonym: "premolar tooth 3 occlusal surface length AP" EXACT []
+intersection_of: PATO:0000122
+intersection_of: RO:0000052 UBERON:7500056
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-07T23:21:20Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001250
+name: upper premolar tooth 3 occlusal surface length
+def: "The length of the occlusal surface of an upper premolar tooth 3 along the anterior-posterior axis." []
+synonym: "upper premolar tooth 3 occlusal surface length AP" EXACT []
+intersection_of: FOVT:0001249 ! premolar tooth 3 occlusal surface length
+intersection_of: RO:0000052 UBERON:0001709
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-07T23:22:42Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001251
+name: lower premolar tooth 3 occlusal surface length
+def: "The length of the occlusal surface of a lower premolar tooth 3 along the anterior-posterior axis." [https://orcid.org/0000-0003-2699-3066]
+synonym: "lower premolar tooth 3 occlusal surface length AP" EXACT []
+intersection_of: FOVT:0001249 ! premolar tooth 3 occlusal surface length
+intersection_of: RO:0000052 UBERON:0001710
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-07T23:23:45Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001252
+name: upper secondary premolar tooth 3 occlusal surface length
+def: "The length of the occlusal surface of an upper secondary premolar tooth 3 along the anterior-posterior axis." [https://orcid.org/0000-0003-2699-3066]
+synonym: "upper secondry premolar tooth 3 occlusal surface length AP" EXACT []
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-07T23:29:49Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001253
+name: upper primary premolar tooth 3 occlusal surface length
+def: "The length of the occlusal surface of an upper primary premolar tooth 3 along the medial-lateral axis." [https://orcid.org/0000-0003-2699-3066]
+synonym: "upper primary premolar tooth 3 occlusal surface length AP" EXACT []
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-07T23:31:36Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001254
+name: lower secondary premolar tooth 3 occlusal surface length
+def: "The length of the occlusal surface of a lower secondary premolar tooth 3 along the anterior-posterior axis." [https://orcid.org/0000-0003-2699-3066]
+synonym: "lower secondary premolar tooth 3 occlusal surface length AP" EXACT []
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-07T23:34:07Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001255
+name: lower primary premolar tooth 3 occlusal surface length
+def: "The length of the occlusal surface of a lower primary premolar tooth 3 along the anterior-posterior reference." [https://orcid.org/0000-0003-2699-3066]
+synonym: "lower primary premolar tooth 3 occlusal surface length AP" EXACT []
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-07T23:36:17Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001256
+name: premolar tooth 4 occlusal surface width
+def: "The length of the occlusal surface of premolar tooth 4 along the medial-lateral axis." [https://orcid.org/0000-0003-2699-3066]
+synonym: "premolar tooth 4 occlusal surface length ML" EXACT []
+intersection_of: PATO:0000921
+intersection_of: RO:0000052 UBERON:0018647
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-07T23:44:36Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001257
+name: upper premolar tooth 4 occlusal surface width
+def: "The length of the occlusal surface of an upper premolar tooth 4 along the medial-lateral axis." [https://orcid.org/0000-0003-2699-3066]
+synonym: "upper premolar tooth 4 occlusal surface length ML" EXACT []
+intersection_of: FOVT:0001256 ! premolar tooth 4 occlusal surface width
+intersection_of: RO:0000052 UBERON:0001709
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-07T23:46:01Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001258
+name: lower premolar tooth 4 occlusal surface width
+def: "The length of the occlusal surface of a lower premolar tooth 4 along the medial-lateral axis." [https://orcid.org/0000-0003-2699-3066]
+synonym: "lower premolar tooth 4 occlusal surface length ML" EXACT []
+intersection_of: FOVT:0001256 ! premolar tooth 4 occlusal surface width
+intersection_of: RO:0000052 UBERON:0001710
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-07T23:47:17Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001259
+name: upper secondary premolar tooth 4 occlusal surface width
+def: "The length of the occlusal surface of an upper secondary premolar tooth 4 along the medial-lateral axis." [https://orcid.org/0000-0003-2699-3066]
+synonym: "upper secondary premolar tooth 4 occlusal surface length ML" EXACT []
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-07T23:54:34Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001260
+name: upper primary premolar tooth 4 occlusal surface width
+def: "The length of the occlusal surfce of an upper primary premolar tooth 4 along the medial-lateral axis." [https://orcid.org/0000-0003-2699-3066]
+synonym: "upper primary premolar tooth 4 occlusal surface length ML" EXACT []
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-07T23:56:07Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001261
+name: lower secondary premolar tooth 4 occlusal surface width
+def: "The length of the occlusal surface of a lower secondary premolar tooth 4 along the medial-lateral axis." [https://orcid.org/0000-0003-2699-3066]
+synonym: "lower secondry premolar tooth 4 occlusal surface length ML" EXACT []
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-07T23:57:48Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001262
+name: lower primary premolar tooth 4 occlusal surface width
+def: "The length of the occlusal surface of a lower primary premolar tooth 4 along the medial-lateral axis." [https://orcid.org/0000-0003-2699-3066]
+synonym: "lower primary premolar tooth 4 occlusal surface length ML" EXACT []
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-07T23:59:20Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001263
+name: premolar tooth 4 occlusal surface length
+def: "The length of the occlusal surface of a premolar tooth 4 along the anterior-posterior surface." [https://orcid.org/0000-0003-2699-3066]
+synonym: "premolar tooth 4 occlusal surface length AP" EXACT []
+intersection_of: PATO:0000122
+intersection_of: RO:0000052 UBERON:0018646
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-08T00:01:26Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001264
+name: upper premolar tooth 4 occlusal surface length
+def: "The length of the occlusal surface of an upper premolar tooth 4 along the anterior-posterior axis." [https://orcid.org/0000-0003-2699-3066]
+synonym: "upper premolar tooth 4 occlusal surface length AP" EXACT []
+intersection_of: FOVT:0001263 ! premolar tooth 4 occlusal surface length
+intersection_of: RO:0000052 UBERON:0001709
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-08T01:27:33Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001265
+name: lower premolar tooth 4 occlusal surface length
+def: "The length of the occlusal surface of a lower premolar tooth 4 along the anterior-posterior axis." [https://orcid.org/0000-0003-2699-3066]
+synonym: "lower premolar tooth 4 occlusal surface length AP" EXACT []
+intersection_of: FOVT:0001263 ! premolar tooth 4 occlusal surface length
+intersection_of: RO:0000052 UBERON:0001710
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-08T01:29:17Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001266
+name: upper secondary premolar tooth 4 occlusal surface length
+def: "The length of the occlusal surface of an upper secondary premolar tooth 4 along the anterior-posterior axis." [https://orcid.org/0000-0003-2699-3066]
+synonym: "upper secondary premolar tooth 4 occlusal surface length AP" EXACT []
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-08T01:31:42Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001267
+name: upper primary premolar tooth 4 occlusal surface length
+def: "The length of the occlusal surface of an upper primary premolar tooth 4 along the anterior-posterior axis." [https://orcid.org/0000-0003-2699-3066]
+synonym: "upper primary premolar tooth 4 occlusal surface length AP" EXACT []
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-08T01:33:09Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001268
+name: lower secondary premolar tooth 4 occlusal surface length
+def: "The length of the occlusal surface of a lower secondary premolar tooth 4 along the anterior-posterior axis." [https://orcid.org/0000-0003-2699-3066]
+synonym: "lower secondary premolar tooth 4 occlusal surface length AP" EXACT []
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-08T01:34:47Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001269
+name: lower primary premolar tooth 4 occlusal surface length
+def: "The length of the occlusal surface of a lower primary premolar tooth 4 along the anterior-posterior axis." [https://orcid.org/0000-0003-2699-3066]
+synonym: "lower primary premolar tooth 4 occlusal surface length AP" EXACT []
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-08T01:36:07Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001270
+name: premolar tooth 5 occlusal surface width
+def: "The length of the occlusal surface of a premolar tooth 5 along the medial-lateral axis." [https://orcid.org/0000-0003-2699-3066]
+synonym: "premolar tooth 4 length ML" EXACT []
+intersection_of: PATO:0000921
+intersection_of: RO:0000052 UBERON:0018646
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-08T01:40:54Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001271
+name: upper premolar tooth 5 occlusal surface width
+def: "The length of the occlusal surface of an upper premolar tooth 5 along the medial-lateral axis." [https://orcid.org/0000-0003-2699-3066]
+synonym: "upper premolar tooth 5 occlusal surface length ML" EXACT []
+intersection_of: FOVT:0001270 ! premolar tooth 5 occlusal surface width
+intersection_of: RO:0000052 UBERON:0001709
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-08T01:42:31Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001272
+name: lower premolar tooth 5 occlusal surface width
+def: "The length of the occlusal surface of a lower premolar tooth 5 along the medial-lateral axis." [https://orcid.org/0000-0003-2699-3066]
+synonym: "lower premolar tooth 5 occlusal suface length ML" EXACT []
+intersection_of: FOVT:0001270 ! premolar tooth 5 occlusal surface width
+intersection_of: RO:0000052 UBERON:0001710
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-08T01:44:55Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001273
+name: upper secondary premolar tooth 5 occlusal surface width
+def: "The length of the occlusal surface of an upper secondary premolar tooth 5 along the medial-lateral axis." [https://orcid.org/0000-0003-2699-3066]
+synonym: "upper secondary premolar tooth 5 occlusal surface length ML" EXACT []
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-08T01:47:57Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001274
+name: upper primary premolar tooth 5 occlusal surface width
+def: "The length of the occlusal surface of an upper primary premolar tooth 5 along the medial-lateral axis." [https://orcid.org/0000-0003-2699-3066]
+synonym: "upper primary premolar tooth 5 occlusal surface length ML" EXACT []
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-08T01:49:21Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001275
+name: lower secondary premolar tooth 5 occlusal surface width
+def: "The length of the occlusal surface of a lower secondary premolar tooth 5 along the medial-lateral axis." [https://orcid.org/0000-0003-2699-3066]
+synonym: "lower secondary premolar tooth 5 occlusal surface length ML" EXACT []
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-08T01:50:59Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001276
+name: lower primary premolar tooth 5 occlusal surface width
+def: "The length of the occlusal surface of a lower primary premolar tooth 5 along the medial-lateral axis." [https://orcid.org/0000-0003-2699-3066]
+synonym: "lower primary premolar tooth 5 occlusal surface length ML" EXACT []
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-08T01:52:51Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001277
+name: premolar tooth 5 occlusal surface length
+def: "The length of the occlusal surface of a premolar tooth 5 along the anterior-posterior axis." [https://orcid.org/0000-0003-2699-3066]
+synonym: "premolar tooth 5 occlusal surfce length AP" EXACT []
+intersection_of: PATO:0000122
+intersection_of: RO:0000052 UBERON:0018646
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-08T01:54:15Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001278
+name: upper premolar tooth 5 occlusal surface length
+def: "The length of the occlusal surface of an upper premolar tooth 5 along the anterior-posterior axis." [https://orcid.org/0000-0003-2699-3066]
+synonym: "upper premolar tooth 5 occlusal surface length AP" EXACT []
+intersection_of: FOVT:0001277 ! premolar tooth 5 occlusal surface length
+intersection_of: RO:0000052 UBERON:0001709
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-08T01:56:01Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001279
+name: lower premolar tooth 5 occlusal surface length
+def: "The length of the occlusal surface of a lower premolar tooth 5 along the anterior-posterior axis." [https://orcid.org/0000-0003-2699-3066]
+synonym: "lower premolar tooth 5 occlusal surface length AP" EXACT []
+intersection_of: FOVT:0001277 ! premolar tooth 5 occlusal surface length
+intersection_of: RO:0000052 UBERON:0001710
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-08T01:57:13Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001280
+name: upper secondary premolar tooth 5 occlusal surface length
+def: "The length of the occlusal surface of an upper secondary premolar tooth 5 along the anterior-posterior axis." [https://orcid.org/0000-0003-2699-3066]
+synonym: "upper secondary premolar tooth 5 occlusal surface length AP" EXACT []
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-08T01:59:40Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001281
+name: upper primary premolar tooth 5 occlusal surface length
+def: "The length of the occlusal surface of an upper primary premolar tooth 5 along the anterior-posterior axis." [https://orcid.org/0000-0003-2699-3066]
+synonym: "upper primary premolar tooth 5 occlusal surface length AP" EXACT []
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-08T02:01:23Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001282
+name: lower secondary premolar tooth 5 occlusal surface length
+def: "The length of the occlusal surface of a lower primary premolar tooth 5 along the anterior-posterior axis." [https://orcid.org/0000-0003-2699-3066]
+synonym: "lower secondary premolar tooth 5 occlusal surface length AP" EXACT []
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-08T02:02:46Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001283
+name: lower primary premolar tooth 5 occlusal surface length
+def: "The length of the occlusal surface of a lower primary premolar tooth 5 along the anterior-posterior axis." [https://orcid.org/0000-0003-2699-3066]
+synonym: "lower primary premolar tooth 5 occlusal surface length AP" EXACT []
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-08T02:04:50Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001284
+name: upper tooth row length
+def: "The length of an upper tooth row along the anterior-posterior axis." [https://orcid.org/0000-0003-2699-3066]
+synonym: "upper tooth row length AP" EXACT []
+intersection_of: FOVT:0000030 ! tooth row length
+intersection_of: RO:0000052 UBERON:0001709
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-08T02:21:41Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001285
+name: lower tooth row length
+def: "The length of a lower tooth row along the anterior-posterior axis." [https://orcid.org/0000-0003-2699-3066]
+synonym: "lower tooth row length AP" EXACT []
+intersection_of: FOVT:0000030 ! tooth row length
+intersection_of: RO:0000052 UBERON:0001710
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-08T02:22:54Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001286
+name: canine tooth crown height
+def: "The height of a canine tooth crown along the superior-anterior axis." [https://orcid.org/0000-0003-2699-3066]
+synonym: "cuspid crown height" EXACT []
+intersection_of: PATO:0000119
+intersection_of: RO:0000052 UBERON:0003674
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-28T22:46:12Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001287
+name: lower canine tooth crown height
+def: "The height of a lower canine tooth crown along the superior-inferior axis." [https://orcid.org/0000-0003-2699-3066]
+synonym: "lower cuspid crown height" EXACT []
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-28T23:08:49Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001288
+name: upper canine tooth crown height
+def: "The height of an upper canine tooth crown along the superior-inferior axis." [https://orcid.org/0000-0003-2699-3066]
+synonym: "upper cuspid crown height" EXACT []
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-28T23:13:40Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001289
+name: upper secondary canine tooth cown height
+def: "The height of an upper secondary canine tooth crown along the superior-inferior axis." [https://orcid.org/0000-0003-2699-3066]
+synonym: "upper seconday cuspid crown height" EXACT []
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-28T23:18:06Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001290
+name: lower secondary canine tooth crown height
+def: "The height of a lower secondary canine tooth crown along the superior-inferior axis." [https://orcid.org/0000-0003-2699-3066]
+synonym: "lower secondary cuspid crown height" EXACT []
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-28T23:21:22Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001291
+name: upper primary canine tooth crown height
+def: "The height of an upper primary canine tooth crown along the superior-inferior axis." [https://orcid.org/0000-0003-2699-3066]
+synonym: "upper primary cuspid crown height" EXACT []
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-28T23:30:31Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001292
+name: lower primary canine tooth crown height
+def: "The height of a lower primary canine tooth crown along the superior-inferior axis." [https://orcid.org/0000-0003-2699-3066]
+synonym: "lower primary cuspid crown height" EXACT []
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-28T23:32:30Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001293
+name: secondary canine tooth crown height
+def: "The height of a secondary canine tooth crown along the superior-inferior axis." [https://orcid.org/0000-0003-2699-3066]
+synonym: "secondary cuspid crown height" EXACT []
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-28T23:33:40Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001294
+name: primary canine tooth crown height
+def: "The height of a primary canine tooth crown along the superior-inferior axis." [https://orcid.org/0000-0003-2699-3066]
+synonym: "primary cuspid crown height" EXACT []
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-28T23:34:58Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001295
+name: premolar tooth row length
+def: "The length of the occlusal surface of premolars along the anterior-posterior axis." [https://orcid.org/0000-0003-2699-3066]
+is_a: PATO:0000122
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-28T23:56:30Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001296
+name: molar tooth row length
+def: "The length of the occlusal surface of molars along the anterior-posterior axis." [https://orcid.org/0000-0003-2699-3066]
+is_a: PATO:0000122
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-29T00:05:52Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001297
+name: upper premolar tooth row length
+def: "The length of an upper premolar tooth row along the anterior-posterior length." [https://orcid.org/0000-0003-2699-3066]
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-29T00:13:52Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001298
+name: lower premolar tooth row length
+def: "The length of a lower premolar tooth row along the anterior-posterior axis." [https://orcid.org/0000-0003-2699-3066]
+is_a: FOVT:0001285 ! lower tooth row length
+relationship: RO:0000052 UBERON:0007120
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-29T00:18:21Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001299
+name: lower molar tooth row length
+def: "The length of a lower molar tooth row along the anterior-posterior axis." [https://orcid.org/0000-0003-2699-3066]
+is_a: FOVT:0001285 ! lower tooth row length
+relationship: RO:0000052 UBERON:0003655
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-29T00:28:31Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001300
+name: upper molar tooth row length
+def: "The length of an upper tooth row along the anterior-posterior axis." [https://orcid.org/0000-0003-2699-3066]
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-29T00:31:58Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001301
+name: canine tooth anterior-posterior diameter
+def: "The diameter at the base of a canine tooth along the anterior-posterior axis." [https://orcid.org/0000-0003-2699-3066]
+synonym: "canine tooth diameter AP" EXACT []
+synonym: "cuspid diameter AP" EXACT []
+synonym: "cuspid tooth anterior-posterior diameter" EXACT []
+is_a: PATO:0001334
+relationship: RO:0000052 UBERON:0003674
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-29T01:32:49Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001302
+name: upper canine tooth anterior-posterior diameter
+def: "The diameter at the base of an upper canine tooth along the anterior-posterior axis." [https://orcid.org/0000-0003-2699-3066]
+synonym: "upper canine tooth diameter AP" EXACT []
+synonym: "upper cuspid anterior-posterior diameter" EXACT []
+synonym: "upper cuspid diameter AP" EXACT []
+is_a: PATO:0001334
+relationship: RO:0000052 UBERON:0018621
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-29T01:36:34Z xsd:dateTime
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001303
+name: lower canine tooth anterior-posterior diameter
+def: "The diameter at the base of a lower canine tooth along the anterior-posterior axis." [https://orcid.org/0000-0003-2699-3066]
+synonym: "lower canine tooth diameter AP" EXACT []
+synonym: "lower cuspid anterior-posterior diameter" EXACT []
+synonym: "lower cuspid diameter AP" EXACT []
+is_a: PATO:0001334
+relationship: RO:0000052 UBERON:0018622
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-29T01:40:02Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001304
+name: upper secondary canine tooth anterior-posterior diameter
+def: "The diameter at the base of an upper secondary canine tooth along the anterior-posterior axis." [https://orcid.org/0000-0003-2699-3066]
+synonym: "upper secondary canine tooth diameter AP" EXACT []
+synonym: "upper secondary cuspid anterior-posterior diameter" EXACT []
+synonym: "upper secondary cuspid diameter AP" EXACT []
+is_a: PATO:0001334
+relationship: RO:0000052 UBERON:0018584
+relationship: RO:0000052 UBERON:0018621
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-29T01:42:59Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001305
+name: lower secondary canine anterior-posterior diameter
+def: "The diameter at the base of a lower secondary canine tooth along the anterior-posterior diameter." [https://orcid.org/0000-0003-2699-3066]
+synonym: "lower secondaray canine tooth diameter AP" EXACT []
+synonym: "lower secondry cuspid anterior-posterior diameter" EXACT []
+is_a: PATO:0001334
+relationship: RO:0000052 UBERON:0018584
+relationship: RO:0000052 UBERON:0018622
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-29T01:47:11Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001306
+name: upper primary canine anterior-posterior diameter
+def: "The diameter at the base of an upper primary canine tooth along the anterior-posterior diameter." [https://orcid.org/0000-0003-2699-3066]
+synonym: "upper primary canine tooth diameter AP" EXACT []
+synonym: "upper primary cuspid anterior-posterior diameter" EXACT []
+synonym: "upper primary cuspid diameter AP" EXACT []
+is_a: PATO:0001334
+relationship: RO:0000052 UBERON:0018583
+relationship: RO:0000052 UBERON:0018621
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-29T01:53:59Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001307
+name: lower primary canine tooth anterior-posterior diameter
+def: "The diameter at the base of a lower primary canine tooth along the anterior-posterior axis." [https://orcid.org/0000-0003-2699-3066]
+synonym: "lower primary canine tooth diameter AP" EXACT []
+synonym: "lower primary cuspid anterior-posterior diameter" EXACT []
+synonym: "lower primary cuspid diameter AP" EXACT []
+is_a: PATO:0001334
+relationship: RO:0000052 UBERON:0018583
+relationship: RO:0000052 UBERON:0018622
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-29T01:56:30Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001308
+name: canine tooth medial-lateral diameter
+def: "The diameter at the base of a canine tooth along the medial-lateral axis." [https://orcid.org/0000-0003-2699-3066]
+synonym: "canine tooth diameter ML" EXACT []
+synonym: "cuspid diameter ML" EXACT []
+synonym: "cuspid medial-lateral diameter" EXACT []
+is_a: PATO:0001334
+relationship: RO:0000052 UBERON:0003674
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-29T02:03:01Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001309
+name: upper canine tooth medial-lateral diameter
+def: "The diameter at a base of an upper canine tooth along the medial-lateral axis." [https://orcid.org/0000-0003-2699-3066]
+synonym: "cuspid diameter ML" EXACT []
+synonym: "upper canine tooth diameter AP" EXACT []
+synonym: "upper cuspid medial-lateral diameter" EXACT []
+is_a: PATO:0001334
+relationship: RO:0000052 UBERON:0018621
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-29T02:04:54Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001310
+name: lower canine tooth medial-lateral diameter
+def: "The diameter at the base of a lower canine tooth along the medial-lateral axis." [https://orcid.org/0000-0003-2699-3066]
+synonym: "lower canine tooth diameter ML" EXACT []
+synonym: "lower cuspid diameter ML" EXACT []
+synonym: "lower cuspid medial-lateral diameter" EXACT []
+is_a: PATO:0001334
+relationship: RO:0000052 UBERON:0018622
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-29T02:06:56Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001311
+name: upper secondary canine tooth medial-lateral diameter
+def: "The diameter at the base of an upper secondary canine tooth along the medial-lateral axis." [https://orcid.org/0000-0003-2699-3066]
+synonym: "upper secondary canine tooth diameter ML" EXACT []
+synonym: "upper secondary cuspid diameter ML" EXACT []
+synonym: "upper secondary cuspid medial-lateral diameter" EXACT []
+is_a: PATO:0001334
+relationship: RO:0000052 UBERON:0018584
+relationship: RO:0000052 UBERON:0018621
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-29T02:08:52Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001312
+name: lower secondary canine tooth medial-lateral diameter
+def: "The diameter at the base of a lower secondary canine tooth along the medial-lateral axis." [https://orcid.org/0000-0003-2699-3066]
+synonym: "lower secondary canine tooth diameter ML" EXACT []
+synonym: "lower secondary cuspid diameter ML" EXACT []
+synonym: "lower secondary cuspid medial-lateral diameter" EXACT []
+is_a: PATO:0001334
+relationship: RO:0000052 UBERON:0018584
+relationship: RO:0000052 UBERON:0018622
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-29T02:10:40Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001313
+name: upper primary canine tooth medial-lateral diameter
+def: "The diameter at the base of an upper primary canine tooth along the medial-lateral axis." [https://orcid.org/0000-0003-2699-3066]
+synonym: "upper primary canine tooth diameter ML" EXACT []
+synonym: "upper primary cuspid diameter ML" EXACT []
+synonym: "upper primary cuspid medial-lateral diameter" EXACT []
+is_a: PATO:0001334
+relationship: RO:0000052 UBERON:0018583
+relationship: RO:0000052 UBERON:0018621
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-29T02:12:37Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001314
+name: lower primary canine tooth medial-lateral diameter
+def: "The diameter at the base of a lower primary canine tooth along the medial-lateral axis." [https://orcid.org/0000-0003-2699-3066]
+synonym: "lower primary canine tooth diameter ML" EXACT []
+synonym: "lower primary cuspid diameter ML" EXACT []
+synonym: "lower primary cuspid medial-lateral diameter" EXACT []
+is_a: PATO:0001334
+relationship: RO:0000052 UBERON:0018583
+relationship: RO:0000052 UBERON:0018622
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-29T02:14:57Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001315
+name: upper left tooth row length
+def: "The length of a tooth row on the left side along the anterior-posterior axis." [https://orcid.org/0000-0003-2699-3066]
+synonym: "upper left tooth row length AP" EXACT []
+is_a: FOVT:0000030 ! tooth row length
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-29T02:16:46Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001316
+name: upper right tooth row length
+def: "The length of an upper tooth row on the right side along the anterior-posterior axis." [https://orcid.org/0000-0003-2699-3066]
+synonym: "upper right tooth row length AP" EXACT []
+is_a: FOVT:0001284 ! upper tooth row length
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-29T02:18:29Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001317
+name: molar tooth 1-2 length
+def: "The length of molar teeth 1-2 along the anterior-posterior axis." [https://orcid.org/0000-0003-2699-3066]
+synonym: "molar tooth 1-2 length AP" EXACT []
+is_a: FOVT:0000030 ! tooth row length
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-29T02:32:36Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001318
+name: molar tooth 1-3 length
+def: "The length of molar teeth 1-3 along the anterior-posterior axis." [https://orcid.org/0000-0003-2699-3066]
+synonym: "molar tooth 1-3 length AP" EXACT []
+is_a: FOVT:0000030 ! tooth row length
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-29T02:39:47Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001319
+name: molar tooth 1-4 length
+def: "The length of molar teeth 1-4 along the anterior-posterior axis." [https://orcid.org/0000-0003-2699-3066]
+synonym: "molar tooth 1-4 length AP" EXACT []
+is_a: FOVT:0000030 ! tooth row length
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-29T02:44:33Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001320
+name: upper molar tooth 1-2 length
+def: "The length of upper molar teeth 1-2 along the anterior-posterior axis." [https://orcid.org/0000-0003-2699-3066]
+synonym: "upper molar tooth 1-2 length AP" EXACT []
+is_a: FOVT:0001284 ! upper tooth row length
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-29T02:45:50Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001321
+name: lower molar tooth 1-2 length
+def: "The length of lower molar teeth 1-2 along the anterior-posterior axis." [https://orcid.org/0000-0003-2699-3066]
+synonym: "lower molar tooth 1-2 length AP" EXACT []
+is_a: FOVT:0001285 ! lower tooth row length
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-29T02:47:06Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001322
+name: upper secondary molar tooth 1-2 length
+def: "The length of upper secondary molar teeth 1-2 along the anterior-posterior axis." [https://orcid.org/0000-0003-2699-3066]
+synonym: "upper secondary molar tooth 1-2 length AP" EXACT []
+is_a: PATO:0000122
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-29T02:49:03Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001323
+name: lower secondary molar tooth 1-2 length
+def: "The length of lower secondary molar teeth 1-2 along the anterior-posterior axis." [https://orcid.org/0000-0003-2699-3066]
+synonym: "lower secondary molar tooth 1-2 length AP" EXACT []
+is_a: PATO:0000122
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-29T02:57:21Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001324
+name: upper primary molar tooth 1-2 length
+def: "The length of upper primary molar teeth 1-2 along the anterior-posterior axis." [https://orcid.org/0000-0003-2699-3066]
+synonym: "upper primary molar tooth 1-2 length AP" EXACT []
+is_a: PATO:0000122
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-29T02:59:22Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001325
+name: lower primary molar tooth 1-2 length
+def: "The length of lower primary molar teeth 1-2 along the anterior-posterior axis." [https://orcid.org/0000-0003-2699-3066]
+synonym: "lower primary molar tooth 1-2 length AP" EXACT []
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-29T03:01:10Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001326
+name: upper molar tooth 1-3 length
+def: "The length of upper molar teeth 1-3 along the anterior-posterior axis." [https://orcid.org/0000-0003-2699-3066]
+synonym: "upper molar tooth 1-3 length AP" EXACT []
+is_a: FOVT:0001284 ! upper tooth row length
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-29T03:03:12Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001327
+name: lower molar tooth 1-3 length
+def: "The length of lower molar teeth 1-3 along the anterior-posterior axis." [https://orcid.org/0000-0003-2699-3066]
+synonym: "lower molar tooth 1-3 length AP" EXACT []
+is_a: FOVT:0001285 ! lower tooth row length
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-29T03:04:41Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001328
+name: upper secondary molar tooth 1-3 length
+def: "The length of upper secondary molar teeth 1-3 along the anterior-posterior axis." [https://orcid.org/0000-0003-2699-3066]
+synonym: "upper secondary molar tooth 1-3 length AP" EXACT []
+is_a: PATO:0000122
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-29T03:06:40Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001329
+name: lower secondary molar tooth 1-3 length
+def: "The length of lower secondary molar teeth 1-3 along the anterior-posterior axis." [https://orcid.org/0000-0003-2699-3066]
+synonym: "lower secondary molar tooth 1-3 length AP" EXACT []
+is_a: PATO:0000122
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-29T03:10:11Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001330
+name: upper primary molar tooth 1-3 length
+def: "The length of upper primary molar teeth 1-3 along the anterior-posterior axis." [https://orcid.org/0000-0003-2699-3066]
+synonym: "upper primary molar tooth 1-3 length AP" EXACT []
+is_a: PATO:0000122
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-29T03:11:46Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001331
+name: lower primary molar tooth 1-3 length
+def: "The length of lower primary molar teeth 1-3 along the anterior-posterior axis." [https://orcid.org/0000-0003-2699-3066]
+synonym: "lower primary molar tooth 1-3 length AP" EXACT []
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-29T03:13:28Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001332
+name: upper molar tooth 1-4 length
+def: "The length of upper molar teeth 1-4 along the anterior-posterior axis." [https://orcid.org/0000-0003-2699-3066]
+synonym: "upper molar tooth 1-4 length AP" EXACT []
+is_a: FOVT:0001284 ! upper tooth row length
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-29T03:15:05Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001333
+name: lower molar tooth 1-4 length
+def: "The length of lower molar teeth 1-4 along the anterior-posterior axis." [https://orcid.org/0000-0003-2699-3066]
+synonym: "lower molar tooth 1-4 length AP" EXACT []
+is_a: FOVT:0001285 ! lower tooth row length
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-29T03:15:59Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001334
+name: premolar tooth 4 to molar tooth 3 length
+def: "The length of premolar tooth 4 to molar tooth 3 along the anterior-posterior axis." [https://orcid.org/0000-0003-2699-3066]
+synonym: "premolar 4 to molar 3 length AP" EXACT []
+is_a: FOVT:0000030 ! tooth row length
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-29T03:20:12Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001335
+name: upper premolar tooth 4 to molar tooth 3 length
+def: "The length of upper premolar tooth 4 to molar tooth 3 along the anterior-posterior axis." []
+synonym: "upper premolar tooth 4 to molar tooth 3 length AP" EXACT []
+is_a: FOVT:0001284 ! upper tooth row length
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-29T03:21:47Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001336
+name: lower premolar tooth 4 to molar tooth 3 length
+def: "The length of lower premolar tooth 4 to molar tooth 3 along the anterior-posterior axis." [https://orcid.org/0000-0003-2699-3066]
+synonym: "lower premolar tooth 4 to molar tooth 3 length AP" EXACT []
+is_a: FOVT:0001285 ! lower tooth row length
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-29T03:24:33Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001337
+name: upper secondary premolar tooth 4 to molar tooth 3 length
+def: "The length of upper secondary premolar tooth 4 to molar tooth 3 along the anterior-posterior axis." [https://orcid.org/0000-0003-2699-3066]
+synonym: "upper secondary premolar tooth 4 to molar tooth 3 length AP" EXACT []
+is_a: PATO:0000122
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-29T03:25:47Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001338
+name: upper primary premolar tooth 4 to molar tooth 3 length
+def: "The length of upper primary premolar tooth 4 to molar tooth 3 along the anterior-posterior axis." [https://orcid.org/0000-0003-2699-3066]
+synonym: "upper primary premolar tooth 4 to molar tooth 3 length AP" EXACT []
+is_a: PATO:0000122
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-29T03:28:39Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001339
+name: lower secondary premolar tooth 4 to molar tooth 3 length
+def: "The length of lower secondary premolar tooth 4 to molar tooth 3 along the anterior-posterior axis." [https://orcid.org/0000-0003-2699-3066]
+synonym: "lower secondary premolar tooth 4 to molar tooth 3 length AP" EXACT []
+is_a: PATO:0000122
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-29T03:31:13Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001340
+name: lower primary premolar tooth 4 to molar tooth 3 length
+def: "The length of lower primary premolar tooth 4 to molar tooth 3 along the anterior-posterior axis." [https://orcid.org/0000-0003-2699-3066]
+synonym: "lower primary premolar tooth 4 to molar tooth 3 length AP" EXACT []
+is_a: PATO:0000122
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-29T03:32:51Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001341
+name: canine tooth to premolar tooth 3 length
+def: "The length of canine tooth to premolar tooth 3 along the anterior-posterior axis." [https://orcid.org/0000-0003-2699-3066]
+synonym: "canine tooth to premolar tooth 3 length AP" EXACT []
+synonym: "cuspid to premolar tooth 3 length" EXACT []
+synonym: "cuspid to premolar tooth 3 length AP" EXACT []
+is_a: FOVT:0000030 ! tooth row length
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-29T03:37:59Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001342
+name: upper canine tooth to premolar tooth 3 length
+def: "The length of upper canine tooth to premolar tooth 3 along the anterior-posterior axis." [https://orcid.org/0000-0003-2699-3066]
+synonym: "upper canine tooth to premolar tooth 3 length AP" EXACT []
+synonym: "upper cuspid to premolar tooth 3 length" EXACT []
+synonym: "upper cuspid to premolar tooth 3 length AP" EXACT []
+is_a: FOVT:0001284 ! upper tooth row length
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-29T03:40:25Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001343
+name: lower canine tooth to premolar tooth 3 length
+def: "The length of lower canine tooth to premolar tooth 3 along the anterior-posterior axis." [https://orcid.org/0000-0003-2699-3066]
+synonym: "lower canine tooth to premolar tooth 3 length AP" EXACT []
+synonym: "lower cuspid to premolar tooth 3 length" EXACT []
+synonym: "lower cuspid to premolar tooth 3 length AP" EXACT []
+is_a: FOVT:0001285 ! lower tooth row length
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-29T03:42:24Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001344
+name: upper secondary canine tooth to premolar tooth 3 length
+def: "The length of upper secondary canine tooth to premolar tooth 3 along the anterior-posterior axis." [https://orcid.org/0000-0003-2699-3066]
+synonym: "upper secondary canine tooth to premolar tooth 3 length AP" EXACT []
+synonym: "upper secondary cuspid to premolar tooth 3 length AP" EXACT []
+synonym: "upper secondary cuspid tooth to premolar tooth 3 length" EXACT []
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-29T03:47:18Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001345
+name: lower secondary canine tooth to premolar tooth 3 length
+def: "The length of lower secondary canine tooth to premolar tooth 3 along the anterior-posterior axis." [https://orcid.org/0000-0003-2699-3066]
+synonym: "lower secondary canine tooth to premolar tooth 3 length AP" EXACT []
+synonym: "lower secondary cuspid to premolar tooth 3 length" EXACT []
+synonym: "lower secondary cuspid to premolar tooth 3 length AP" EXACT []
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-29T03:49:08Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001346
+name: diastema between central incisors length
+def: "The length of diastema between central incisors along the anterior-posterior axis." [https://orcid.org/0000-0003-2699-3066]
+intersection_of: PATO:0000122
+intersection_of: RO:0000052 UBERON:0035115
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-29T03:54:09Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001347
+name: diastema between lower central incisors length
+def: "The length of diastema between lower central incisors along the anterior-posterior axis." [https://orcid.org/0000-0003-2699-3066]
+intersection_of: FOVT:0001346 ! diastema between central incisors length
+intersection_of: RO:0000052 UBERON:0001710
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-29T03:56:30Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001348
+name: upper secondary premolar tooth 3 height
+def: "The height of an upper secondary premolar tooth 3 along the superior-inferior axis." [https://orcid.org/0000-0003-2699-3066]
+is_a: PATO:0000119
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-29T04:04:35Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001349
+name: upper secondary premolar tooth 4 height
+def: "The length of an upper secondary premolar tooth 4 along the superior-inferior axis." [https://orcid.org/0000-0003-2699-3066]
+is_a: PATO:0000119
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-29T04:09:28Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001350
+name: lower premolar tooth 3 anterior width
+def: "The length of the anterior side of a lower premolar tooth 3 along the medial-lateral axis." [https://orcid.org/0000-0003-2699-3066]
+synonym: "lower premolar tooth 3 anterior length ML" EXACT []
+is_a: PATO:0000921
+relationship: RO:0000052 UBERON:0007120
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-29T04:12:17Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001351
+name: lower premolar tooth 3 posterior width
+def: "The length of the posterior side of a lower premolar tooth 3 along the medial-lateral axis." [https://orcid.org/0000-0003-2699-3066]
+synonym: "lower premolar tooth 3 posterior length ML" EXACT []
+is_a: PATO:0000921
+relationship: RO:0000052 UBERON:0007120
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-29T04:14:11Z xsd:dateTime
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
 id: OBA:1000049
 synonym: "hindfoot length" EXACT []
 
 [Term]
-id: PATO:0000921
-is_a: OBA:VT0005110
+id: UBEORN:7500082
+name: obsolete tibia diaphysis width
+comment: Term already exists.
+synonym: "IAO:0000423" EXACT []
+property_value: http://purl.org/dc/elements/1.1/date 2021-07-27T23:35:45Z xsd:dateTime
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+is_obsolete: true
+replaced_by: FOVT:0000026
 
