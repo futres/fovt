@@ -1,3 +1,4 @@
 RO:0002160 #only_in_taxon
 RO:0002161 #never in taxon
 RO:0002504 #always in taxon
+RO:0000052 #inheres in

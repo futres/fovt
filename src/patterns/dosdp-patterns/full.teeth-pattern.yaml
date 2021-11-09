@@ -6,8 +6,6 @@ Naming pattern: upper/lower primary/secondary side tooth number
 
 #create upper and lower tooth with subclasses: 'calcareous tooth' and 'part of' some 'dentition'
 #create upper secondary tooth and upper primary tooth with subclass 'upper 'tooth''
-#create right and left upper inscisor with subclass 'upper incisor'
-#create right and left primary and secondary upper incisor with subclass 'primary upper incisor' and 'secondary upper incisor'
 
 #generate upper teeth in general
 patern_name: teeth_types
@@ -30,8 +28,20 @@ vars:
       #1-6
 
 name:
-    text: "inci"
+    text: "%s %s"
     vars:
+      - number
+
+def: "%s phylogenetically in position %s"
+    - tooth
+    - number
+
+equivalentTo:
+
+Subclass: UBERON:0001091 #calcareous tooth
+
+Subclass: part_of some %s
+    - tooth
 
 #upper teeth
 pattern_name: upper_teeth
@@ -56,8 +66,6 @@ vars:
       #canine UBERON:0003674
       #molar UBERON:0003655
       #premolar UBERON:0007120
-    number: 'numerical'
-      #1-6
 
 name:
     text: "Upper %s %s %s"
@@ -137,3 +145,13 @@ Subclass:
   vars:
     - dentition
     - tooth
+
+
+#seconary teeth
+dentition: 'Thing'
+      #primary UBERON:0007116
+      #secondary UBERON:0007774
+
+#primary teeth
+
+#combo dentition & jaw region
