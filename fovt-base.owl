@@ -11,7 +11,7 @@
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/fovt/fovt-base.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/fovt/releases/2021-10-29/fovt-base.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/fovt/releases/2021-11-10/fovt-base.owl"/>
         <dc:description>None</dc:description>
         <dc:description xml:lang="en">These are the terms that are improted for FOVT to describe vertebrate traits.</dc:description>
         <dc:title>FuTRES Ontology of Vertebrate Traits</dc:title>
@@ -4606,7 +4606,7 @@
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-10-06T18:55:14Z</dc:date>
         <dc:term_editor rdf:resource="http://orcid.org/0000-0003-2699-3066"/>
         <oboInOwl:hasExactSynonym xml:lang="en">lower secondary molar tooth 3 occlusal length ML</oboInOwl:hasExactSynonym>
-        <rdfs:label xml:lang="en">lower secondary molar tooth 3 occlusal width</rdfs:label>
+        <rdfs:label xml:lang="en">lower secondary molar tooth 3 occlusal surface width</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FOVT_0001199"/>
@@ -9942,6 +9942,155 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/FOVT_0001354 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOVT_0001354">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000921"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0013752"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0003647"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000423"/>
+        <obo:IAO_0000115>The length of the diaphysis of a metacarpal bone of digit 3 along the anterior-posterior axis</obo:IAO_0000115>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-11-10T22:06:31Z</dc:date>
+        <dc:term_editor rdf:resource="http://orcid.org/0000-0003-2699-3066"/>
+        <rdfs:label xml:lang="en">metacarpal bone of digit 3 depth</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FOVT_0001354"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The length of the diaphysis of a metacarpal bone of digit 3 along the anterior-posterior axis</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>ISBN: 9004086161, 9789004086166</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOVT_0001355 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOVT_0001355">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000921"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0013752"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0003647"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000423"/>
+        <obo:IAO_0000115>The length of the shaft of a metacarpal bone of digit 3 along the medial-lateral axis.</obo:IAO_0000115>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-11-10T22:12:00Z</dc:date>
+        <dc:term_editor rdf:resource="http://orcid.org/0000-0003-2699-3066"/>
+        <oboInOwl:hasBroadSynonym>metacarpal bone of digit 3 minimal breadth</oboInOwl:hasBroadSynonym>
+        <rdfs:label xml:lang="en">metacarpal bone of digit 3 breadth</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FOVT_0001355"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The length of the shaft of a metacarpal bone of digit 3 along the medial-lateral axis.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>ISBN: 9004086161, 9789004086166</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ISBN: 9780873659505</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOVT_0001356 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOVT_0001356">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000921"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0003647"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000423"/>
+        <obo:IAO_0000115>The length of the articular surface on the proximal end of a metacarpal bone of digit 3 along the medial-lateral axis.</obo:IAO_0000115>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-11-10T22:16:32Z</dc:date>
+        <dc:term_editor rdf:resource="http://orcid.org/0000-0003-2699-3066"/>
+        <rdfs:label xml:lang="en">metacarpal bone of digit 3 proximal articular breadth</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FOVT_0001356"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The length of the articular surface on the proximal end of a metacarpal bone of digit 3 along the medial-lateral axis.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>ISBN: 9004086161, 9789004086166</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ISBN: 9780873659505</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOVT_0001357 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOVT_0001357">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000921"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0003647"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000423"/>
+        <obo:IAO_0000115>The length of the articular surface on the distal end of a metacarpal bone of digit 3 along the medial-lateral axis.</obo:IAO_0000115>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-11-10T22:22:09Z</dc:date>
+        <dc:term_editor rdf:resource="http://orcid.org/0000-0003-2699-3066"/>
+        <rdfs:label xml:lang="en">metacarpal bone of digit 3 distal articular breadth</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FOVT_0001357"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The length of the articular surface on the distal end of a metacarpal bone of digit 3 along the medial-lateral axis.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>ISBN: 9004086161, 9789004086166</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOVT_0001358 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOVT_0001358">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000921"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0003647"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000423"/>
+        <obo:IAO_0000115>The length of the lateral condyle on the distal end of a metacarpal bone of digit 3 along the anterior-posterior axis.</obo:IAO_0000115>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-11-10T22:25:31Z</dc:date>
+        <dc:term_editor rdf:resource="http://orcid.org/0000-0003-2699-3066"/>
+        <oboInOwl:hasBroadSynonym>metacarpal bone of digit 3 distal minimum depth of lateral condyle</oboInOwl:hasBroadSynonym>
+        <rdfs:label xml:lang="en">metacarpal bone of digit 3 distal depth of lateral condyle</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FOVT_0001358"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The length of the lateral condyle on the distal end of a metacarpal bone of digit 3 along the anterior-posterior axis.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>ISBN: 9004086161, 9789004086166</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_91561 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_91561"/>
@@ -10198,6 +10347,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UBERON_0003647 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0003647"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UBERON_0003655 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0003655"/>
@@ -10309,6 +10464,12 @@
     <!-- http://purl.obolibrary.org/obo/UBERON_0013587 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0013587"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0013752 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0013752"/>
     
 
 

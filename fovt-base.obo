@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: fovt/releases/2021-10-29/fovt-base.owl
+data-version: fovt/releases/2021-11-10/fovt-base.owl
 ontology: fovt/fovt-base
 property_value: http://purl.org/dc/elements/1.1/description "None" xsd:string
 property_value: http://purl.org/dc/elements/1.1/description "These are the terms that are improted for FOVT to describe vertebrate traits." xsd:string
@@ -1747,7 +1747,7 @@ is_obsolete: true
 
 [Term]
 id: FOVT:0001199
-name: lower secondary molar tooth 3 occlusal width
+name: lower secondary molar tooth 3 occlusal surface width
 def: "The length of the occlusal surface of a lower secondary molar tooth 3 along the medial-lateral axis." [https://orcid.org/0000-0003-2699-3066]
 synonym: "lower secondary molar tooth 3 occlusal length ML" EXACT []
 property_value: http://purl.org/dc/elements/1.1/date 2021-10-06T18:55:14Z xsd:dateTime
@@ -3306,6 +3306,56 @@ synonym: "lower premolar tooth 3 posterior length ML" EXACT []
 is_a: PATO:0000921
 relationship: RO:0000052 UBERON:0007120
 property_value: http://purl.org/dc/elements/1.1/date 2021-10-29T04:14:11Z xsd:dateTime
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001354
+name: metacarpal bone of digit 3 depth
+def: "The length of the diaphysis of a metacarpal bone of digit 3 along the anterior-posterior axis" [ISBN: 9004086161\, 9789004086166]
+is_a: PATO:0000921
+property_value: http://purl.org/dc/elements/1.1/date 2021-11-10T22:06:31Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001355
+name: metacarpal bone of digit 3 breadth
+def: "The length of the shaft of a metacarpal bone of digit 3 along the medial-lateral axis." [ISBN: 9004086161\, 9789004086166, ISBN: 9780873659505]
+synonym: "metacarpal bone of digit 3 minimal breadth" BROAD []
+is_a: PATO:0000921
+property_value: http://purl.org/dc/elements/1.1/date 2021-11-10T22:12:00Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001356
+name: metacarpal bone of digit 3 proximal articular breadth
+def: "The length of the articular surface on the proximal end of a metacarpal bone of digit 3 along the medial-lateral axis." [ISBN: 9004086161\, 9789004086166, ISBN: 9780873659505]
+is_a: PATO:0000921
+relationship: RO:0000052 UBERON:0003647
+property_value: http://purl.org/dc/elements/1.1/date 2021-11-10T22:16:32Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001357
+name: metacarpal bone of digit 3 distal articular breadth
+def: "The length of the articular surface on the distal end of a metacarpal bone of digit 3 along the medial-lateral axis." [ISBN: 9004086161\, 9789004086166]
+is_a: PATO:0000921
+relationship: RO:0000052 UBERON:0003647
+property_value: http://purl.org/dc/elements/1.1/date 2021-11-10T22:22:09Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
+property_value: term:editor http://orcid.org/0000-0003-2699-3066
+
+[Term]
+id: FOVT:0001358
+name: metacarpal bone of digit 3 distal depth of lateral condyle
+def: "The length of the lateral condyle on the distal end of a metacarpal bone of digit 3 along the anterior-posterior axis." [ISBN: 9004086161\, 9789004086166]
+synonym: "metacarpal bone of digit 3 distal minimum depth of lateral condyle" BROAD []
+is_a: PATO:0000921
+relationship: RO:0000052 UBERON:0003647
+property_value: http://purl.org/dc/elements/1.1/date 2021-11-10T22:25:31Z xsd:dateTime
+property_value: IAO:0000114 IAO:0000423
 property_value: term:editor http://orcid.org/0000-0003-2699-3066
 
 [Term]
