@@ -15,40 +15,44 @@ Description: "This defines upper teeth."
 
 classes:
     Number: numerical 
-    Thing: owl:Thing
+    bone of jaw: UBERON:0012360 #Add ID for bone of jaw
+    dentition_type: UBERON:0002672
+    tooth: UBERON:0001091
+    in_lateral_side_of: BSPO:00000126
 
 relations:
     part_of: BFO:0000050
 
 vars:
-    bone: 'Thing'
+    bone: "'bone of jaw'" #it might be possible to be more specific: "'mandible' or 'premaxilla'" if dosdp_tools cane read teh OR. Check with Jim Balhoff
       #premaxilla UBERON_0002244 
       #maxilla UBERON:0002397
-    dentition: 'Thing'
+    dentition_type: "'dentition'"
       #primary UBERON:0007116
       #secondary UBERON:0007774
-    tooth: 'Thing'
+    tooth: "'calcareous tooth'"
       #incisor UBERON_0001098
       #canine UBERON:0003674
       #molar UBERON:0003655
       #premolar UBERON:0007120
-    side: 'Thing'
+    side: "'in_lateral_side_of'"
       #in_right_side_of BSPO:0000121
       #in_left_side_of BSPO:0000120
-    number: 'numerical'
+data_var:
+    number: xsd:integer
       #1-6
 
 name:
     text: "Upper %s %s %s"
     vars:
-      - dentition
+      - dentition_type
       - tooth
       - number
 
 def:
     text: "Upper %s %s phylogenetically in position %s"
     vars:
-      - dentition
+      - dentition_type
       - tooth
       - number
 
@@ -57,12 +61,12 @@ equivalentTo:
   vars:
     - tooth
     - bone
-    - dentition
+    - dentition_type
 
-Subclass:
+subClassOf:
   'upper %s %s'
   vars:
-    - dentition
+    - dentition_type
     - tooth
 
 #lower teeth
