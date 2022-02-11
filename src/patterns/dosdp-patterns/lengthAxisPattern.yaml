@@ -43,8 +43,6 @@ name:
    - bone
    - bone_part
    - length
-   - pointA
-   - pointB
 
 def:
 	text: "The %s of a %s along the %s"
@@ -58,7 +56,7 @@ SubClassOf:
   vars:
     - length
   text: "%s"
-  	- bone
+  	- bone_part
   text: "%s that %s some %s and (characterishtic_of some %s) "
   	- line
   	- follows
