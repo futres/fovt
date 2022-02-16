@@ -21,10 +21,18 @@ More information on FuTRES is available at https://futres.org/.
 New term requests can be made by creating an issue. 
 
 Please provide:
-1. anatomical feature
-2. anatomical points and/or anatomical axis
-3. measurement (e.g., width, length, etc.)
+1. anatomical feature (e.g., bone)
+2. anatomical points and/or anatomical axis (e.g., humerus caput to ventral trochlea or lateral side)
+3. measurement (e.g., length, diameter, circumference) and direction (e.g., medial-lateral, dorsal-ventral)
 4. reference for measurement
+5. any synonyms
+
+### Term Naming Conventions
+
+* avoid minimum and maximum lengths, unless both are used (e.g., minimum palatine length and minimum palatine length) <i>and</i> there are no definitive points
+* side-bone-measurement (e.g., left occipital length)
+* bone-anatomical position-measurement (e.g., humerus lateral length)
+* only use length and axis; avoid "breadth", "depth", and "width" (e.g., humerus length ML)
 
 ## Versions
 
