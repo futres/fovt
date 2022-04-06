@@ -25,7 +25,9 @@ Please provide:
 2. anatomical points and/or anatomical axis (e.g., humerus caput to ventral trochlea or lateral side)
 3. measurement (e.g., length, diameter, circumference) and direction (e.g., medial-lateral, dorsal-ventral)
 4. reference for measurement
-5. any synonyms
+5. any synonyms (e.g., length ML as a synonym for breadth, width as a synonym for breadth)
+
+You can also use this feature to request synonyms and references for existing terms.
 
 ### Term Naming Conventions
 
