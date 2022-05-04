@@ -416,9 +416,9 @@ SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0000005> <http://purl.obolibrary
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0000006> <http://purl.obolibrary.org/obo/IAO_0000423>)
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9004086161, 9789004086166"@en) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9780873659505") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0000006> "The length of a line of a femur from a lateral condyle of a femur to a greater trochanter of a femur.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/FOVT_0000006> <http://orcid.org/0000-0003-2699-3066>)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <http://purl.obolibrary.org/obo/FOVT_0000006> "femur greatest length"@en)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <http://purl.obolibrary.org/obo/FOVT_0000006> "femur maximal length"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0000006> "femur greatest length"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0000006> "femur lateral length"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0000006> "femur maximal length"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/FOVT_0000006> "femur length"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0000006> "femur length from greater trochanter to lateral condyle"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0000006> <http://purl.obolibrary.org/obo/OBA_VT0004348>)
@@ -438,7 +438,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0000007> <http://purl.obolibrary
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0000008> <http://purl.obolibrary.org/obo/IAO_0000423>)
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9004086161, 9789004086166"@en) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9780873659505"@en) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://doi.org/10.1111/j.1096-3642.1983.tb00098.x") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0000008> "The length of a line of a trochlea of a humerus to a proximal head of a humerus.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/FOVT_0000008> <http://orcid.org/0000-0003-2699-3066>)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <http://purl.obolibrary.org/obo/FOVT_0000008> "humerus length to caput"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0000008> "humerus length to caput"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/FOVT_0000008> "humerus length")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0000008> "humerus length from trochlea to caput"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0000008> <http://purl.obolibrary.org/obo/OBA_VT0004350>)
@@ -448,10 +448,9 @@ SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0000008> <http://purl.obolibrary
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0000009> <http://purl.obolibrary.org/obo/IAO_0000423>)
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9004086161, 9789004086166"@en) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9780873659505") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://doi.org/10.1111/j.1096-3642.1983.tb00098.x") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0000009> "The length of a line of a trochlea of a humerus to a ventral tubercle of a humerus.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/FOVT_0000009> <http://orcid.org/0000-0003-2699-3066>)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <http://purl.obolibrary.org/obo/FOVT_0000009> "humerus greatest length"@en)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <http://purl.obolibrary.org/obo/FOVT_0000009> "humerus maximal length"@en)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0000009> "humerus length from trochlea to greater tubercle"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0000009> "humerus greatest length"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0000009> "humerus length from trochlea to ventral tubercle"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0000009> "humerus maximal length"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/FOVT_0000009> "humerus length")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0000009> "humerus length from trochlea to greater tubercle"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0000009> <http://purl.obolibrary.org/obo/OBA_VT0004350>)
@@ -578,15 +577,16 @@ SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0000021> ObjectSomeValuesFrom(<h
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0000022> <http://purl.obolibrary.org/obo/IAO_0000423>)
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9004086161, 9789004086166"@en) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9780873659505"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0000022> "The maximal length of a calcaneus along the proximal-distal axis (non-plantigrade) or anterior-posterior axis (plantigrade)."@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/FOVT_0000022> <http://orcid.org/0000-0003-2699-3066>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0000022> "calcaneus greatest length"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0000022> "calcaneus maximal length"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0000022> "calcaneus length"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0000022> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000122> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0001450>)))
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_0000023> (calcaneus distal breadth)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0000023> <http://purl.obolibrary.org/obo/IAO_0000423>)
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9004086161, 9789004086166"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0000023> "The width of a caclcaneus along the medial-lateral axis of the distal end (non-plantigrade) or posterior end (plantigrade)."@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9004086161, 9789004086166"@en) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9780873659505") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0000023> "The width of a caclcaneus along the medial-lateral axis of the distal end (non-plantigrade) or posterior end (plantigrade)."@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/FOVT_0000023> <http://orcid.org/0000-0003-2699-3066>)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0000023> "calcaneus distal width ML"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0000023> "calcaneus distal breadth"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0000023> <http://purl.obolibrary.org/obo/FOVT_0001079>)
 
@@ -1016,10 +1016,9 @@ SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001047> <http://purl.obolibrary
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001048> (calcaneus distal depth)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0001048> <http://purl.obolibrary.org/obo/IAO_0000423>)
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9004086161, 9789004086166"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001048> "The width of the distal end  of a calcaneus along the anterior-posterior axis (non-plantigrade) or anterior end along the proximal-distal axis (plantigrade)."@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9004086161, 9789004086166"@en) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://eprints.nottingham.ac.uk/50198/") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001048> "The width of the distal end  of a calcaneus along the anterior-posterior axis (non-plantigrade) or anterior end along the proximal-distal axis (plantigrade)."@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/FOVT_0001048> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/FOVT_0001048> "2021-02-10T23:32:25Z"^^xsd:dateTime)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001048> "calcaneus distal width AP"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001048> "calcaneus distal depth"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001048> <http://purl.obolibrary.org/obo/FOVT_0001079>)
 
@@ -1172,7 +1171,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001067> <http://purl.obolibrary
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9004086161, 9789004086166"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001068> "Length along the proximal-distal axis of the distal medial trochlea of a humerus."@en)
 AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/FOVT_0001068> "2021-05-18T19:56:56Z"^^xsd:dateTime)
 AnnotationAssertion(dce:term_editor <http://purl.obolibrary.org/obo/FOVT_0001068> <http://orcid.org/0000-0003-2699-3066>)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <http://purl.obolibrary.org/obo/FOVT_0001068> "maximal humerus trochlear height"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001068> "maximal humerus trochlear height"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001068> "humerus medial trochlear height"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001068> <http://purl.obolibrary.org/obo/OBA_VT0004350>)
 
@@ -1274,8 +1273,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.ob
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9004086161, 9789004086166"@en) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://eprints.nottingham.ac.uk/50198/"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001078> "The width of a calcaneal body along the medial-lateral axis."@en)
 AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/FOVT_0001078> "2021-05-24T21:22:09Z"^^xsd:dateTime)
 AnnotationAssertion(dce:term_editor <http://purl.obolibrary.org/obo/FOVT_0001078> <http://orcid.org/0000-0003-2699-3066>)
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9004086161, 9789004086166"@en) <http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <http://purl.obolibrary.org/obo/FOVT_0001078> "calcaneus minimal breadth"@en)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001078> "width ML of calcaneal body"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001078> "calcaneus minimal breadth"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001078> "breadth of calcaneal body"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001078> <http://purl.obolibrary.org/obo/FOVT_0001079>)
 
@@ -1294,8 +1292,6 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.ob
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9004086161, 9789004086166"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001080> "The width along the medial-lateral axis of the distal (non-plantigrade) or snterior (plantigrade) end of a calcaneus."@en)
 AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/FOVT_0001080> "2021-05-24T21:29:06Z"^^xsd:dateTime)
 AnnotationAssertion(dce:term_editor <http://purl.obolibrary.org/obo/FOVT_0001080> <http://orcid.org/0000-0003-2699-3066>)
-AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "ISBN: 9004086161, 9789004086166"@en) <http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <http://purl.obolibrary.org/obo/FOVT_0001080> "calcaneus maximal breadth"@en)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001080> "calcaneus proximal width ML"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001080> "calcaneus proximal breadth"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001080> <http://purl.obolibrary.org/obo/FOVT_0001079>)
 
@@ -1305,18 +1301,14 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.ob
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9004086161, 9789004086166"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001081> "The with of the proximal end of a calcaneus along the anterior-posterior axis (non-plantigrade) or of the posterior end of a calcaneus along the proximal-distal axis (plantigrade)."@en)
 AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/FOVT_0001081> "2021-05-24T21:32:39Z"^^xsd:dateTime)
 AnnotationAssertion(dce:term_editor <http://purl.obolibrary.org/obo/FOVT_0001081> <http://orcid.org/0000-0003-2699-3066>)
-AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988."@en) <http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <http://purl.obolibrary.org/obo/FOVT_0001081> "calcaneus maximal depth"@en)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001081> "calcaneus proximal width AP"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001081> "calcaneus proximal depth"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001081> <http://purl.obolibrary.org/obo/FOVT_0001079>)
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001082> (depth of calcaneal body)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9004086161, 9789004086166"@en) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://eprints.nottingham.ac.uk/50198/"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001082> "The width along the anterior-posterior axis (non-plantigrade) or proximal-distal axis (plantigrade) of a calcaneal body."@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://eprints.nottingham.ac.uk/50198/"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001082> "The width along the anterior-posterior axis (non-plantigrade) or proximal-distal axis (plantigrade) of a calcaneal body."@en)
 AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/FOVT_0001082> "2021-05-24T21:35:37Z"^^xsd:dateTime)
 AnnotationAssertion(dce:term_editor <http://purl.obolibrary.org/obo/FOVT_0001082> <http://orcid.org/0000-0003-2699-3066>)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001082> "width AP of calcaneal body (non-plantigrade)"@en)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001082> "width PD of calcanedal body (plantigrade)"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001082> "depth of calcaneal body"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001082> <http://purl.obolibrary.org/obo/FOVT_0001079>)
 
@@ -3754,8 +3746,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 
 # Class: <http://purl.obolibrary.org/obo/OBA_VT0004355> (radius length)
 
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <http://purl.obolibrary.org/obo/OBA_VT0004355> "radius maximal length"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_VT0004355> "radius length PD"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_VT0004355> "radius maximal length"@en)
 
 # Class: <http://purl.obolibrary.org/obo/OBA_VT0004357> (tibia length)
 
@@ -3763,8 +3755,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 
 # Class: <http://purl.obolibrary.org/obo/OBA_VT0004370> (ulna length)
 
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <http://purl.obolibrary.org/obo/OBA_VT0004370> "ulna maximal length"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_VT0004370> "ulna length PD"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_VT0004370> "ulna maximal length"@en)
 
 # Class: <http://purl.obolibrary.org/obo/UBEORN_7500082> (obsolete tibia diaphysis width)
 
