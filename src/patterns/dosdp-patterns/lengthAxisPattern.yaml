@@ -1,0 +1,66 @@
+term editors:
+    - https://orcid.org/0000-0003-2699-3066
+
+pattern_name: lengthABPattern
+pattern_iri: http://purl.obolibrary.org/obo/odk/lengthABPattern.yaml
+description: "This defines the length of a line along a bone."
+
+classes:
+  anatomical_line: CARO:0000008
+  bone: CARO:0000000 #anatomical entity
+  length: PATO:0000122
+  anatomical_axis: 'BSPO:0000010'
+
+relations:
+  characterishtic_of: RO:0000052
+  follows_axis: 'BSPO:0015002'
+  #part_of: BFO:0000050
+
+vars:
+  bone: 'bone'
+  bone_part: 'bone'
+  axis: 'anatomical_axis'
+  follows: 'follows_axis'
+  line: 'anatomical_line'
+  length: 'length'
+
+data_list_vars:
+	xrefs: 'xsd:string'
+	
+only_in_taxon:
+	NCBI: 
+
+never_in_taxon:
+	NCBI:
+
+exact_synonym:
+	oboInOwl:hasExactSynonym
+  oboInOwl:hasBroadSynonym
+
+name:
+  text: "%s %s %s"
+  vars:
+   - bone
+   - bone_part
+   - length
+
+def:
+	text: "The %s of a %s along the %s"
+  vars:
+   - length
+   - bone_part
+   - axis
+
+SubClassOf:
+  text: "%s"
+  vars:
+    - length
+  text: "%s"
+  	- bone_part
+  text: "%s that %s some %s and (characterishtic_of some %s) "
+  	- line
+  	- follows
+  	- axis
+    - bone_part
+
+
