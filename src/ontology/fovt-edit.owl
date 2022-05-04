@@ -3777,4 +3777,5 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBEORN_7500082> "
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UBEORN_7500082> "true"^^xsd:boolean)
 
 
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_VT0000482> "fibula length PD"@en)
 )
