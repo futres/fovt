@@ -921,6 +921,7 @@ AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/FOVT_0001041> "2021
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001041> "astragalus width"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001041> "talus width"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0001041> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000921> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0002395>)))
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001041> <http://purl.obolibrary.org/obo/OBA_VT0005110>)
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001042> (talus lateral depth)
 
@@ -1234,7 +1235,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001076> <http://purl.obolibrary
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001077> (length of talus along the midline)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0001077> <http://purl.obolibrary.org/obo/IAO_0000423>)
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "DOI:10.1007/s00267-006-0240-8"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001077> "The length along the midline of a talus along the proximal-distal axis (non-plantigrade) or anterior-posterior axis (plantigrade) from the groove for a flexor hallucis longus tendon of a talus to a head of a talus."@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "DOI:10.1007/s00267-006-0240-8"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001077> "The length along the midline of an astragalus (talus)."@en)
 AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/FOVT_0001077> "2021-05-24T20:26:44Z"^^xsd:dateTime)
 AnnotationAssertion(dce:term_editor <http://purl.obolibrary.org/obo/FOVT_0001077> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001077> "length of astragalus along the midline"@en)
@@ -1709,20 +1710,23 @@ SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001162> <http://purl.obolibrary
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9780873659505"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001163> "The length of a patella along the proximal-distal axis."@en)
 AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/FOVT_0001163> "2021-08-04T00:39:28Z"^^xsd:dateTime)
 AnnotationAssertion(dce:term_editor <http://purl.obolibrary.org/obo/FOVT_0001163> <http://orcid.org/0000-0003-2699-3066>)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001163> "length of patella"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001163> "patella greatest length"@en)
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/FOVT_0001163> <http://purl.obolibrary.org/obo/IAO_0000423>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001163> "patella length"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0001163> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000122> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0002446>)))
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001163> <http://purl.obolibrary.org/obo/OBA_0002386>)
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001164> (patella breadth)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9780873659505"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001164> "The width of a patella along th medial-lateral axis."@en)
 AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/FOVT_0001164> "2021-08-04T00:41:17Z"^^xsd:dateTime)
 AnnotationAssertion(dce:term_editor <http://purl.obolibrary.org/obo/FOVT_0001164> <http://orcid.org/0000-0003-2699-3066>)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001164> "patella width ML"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001164> "patella greatest breadth"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001164> "patella length ML"@en)
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/FOVT_0001164> <http://purl.obolibrary.org/obo/IAO_0000423>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001164> "patella breadth"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0001164> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000921> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0002446>)))
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001164> <http://purl.obolibrary.org/obo/OBA_0002386>)
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001165> (scapula lateral depth)
 
@@ -3744,4 +3748,5 @@ AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UBEORN_750008
 
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_VT0000482> "fibula length PD"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_VT0004340> "scapula maximal length"@en)
 )
