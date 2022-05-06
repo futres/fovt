@@ -1637,7 +1637,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001153> <http://purl.obolibrary
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001154> (scapula neck breadth)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9004086161, 9789004086166"@en) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9780873659505"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001154> "The width of a scapular neck along the medial-lateral axis."@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9004086161, 9789004086166"@en) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9780873659505"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001154> "The length (breadth) of a neck of a scapula. In non-apes (not Hominoidea), this is measured along the medial-lateral axis; in Apes (Hominoidea) this is measured along the anterior-posterior axis."@en)
 AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/FOVT_0001154> "2021-07-23T19:28:14Z"^^xsd:dateTime)
 AnnotationAssertion(dce:term_editor <http://purl.obolibrary.org/obo/FOVT_0001154> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001154> <http://purl.obolibrary.org/obo/IAO_0000423>)
@@ -1649,7 +1649,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001154> <http://purl.obolibrary
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001155> (glenoid cavity length)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9004086161, 9789004086166"@en) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9780873659505"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001155> "The length of the glenoid cavity (glenoid fossa) along the anterior-posterior axis."@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9004086161, 9789004086166"@en) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9780873659505"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001155> "The length of a glenoid cavity. In non anatomical humans (not Homo), this is measured along the anterior-posterior axis; in anatomical humans (Homo) this is measured along the superior-inferior (upper-lower) axis."@en)
 AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/FOVT_0001155> "2021-07-23T21:33:08Z"^^xsd:dateTime)
 AnnotationAssertion(dce:term_editor <http://purl.obolibrary.org/obo/FOVT_0001155> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001155> <http://purl.obolibrary.org/obo/IAO_0000423>)
