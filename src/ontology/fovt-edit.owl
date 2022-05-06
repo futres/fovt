@@ -347,6 +347,11 @@ Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_0001357>))
 Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_0001358>))
 Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_0001365>))
 Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_0001366>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_0001367>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_0001368>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_0001369>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_0001370>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_0001371>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_91561>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_9788>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_9845>))
@@ -369,19 +374,21 @@ Declaration(AnnotationProperty(dcterms:license))
 # Class: <http://purl.obolibrary.org/obo/FOVT_0000001> (body length with tail)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0000001> <http://purl.obolibrary.org/obo/IAO_0000423>)
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://orcid.org/0000-0003-2699-3066"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0000001> "A length measurement of the body that includes the tail.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://orcid.org/0000-0003-2699-3066"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0000001> "The length of a body that includes the tail.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/FOVT_0000001> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0000001> "total length")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/FOVT_0000001> "body length"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0000001> "body length with tail"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0000001> <http://purl.obolibrary.org/obo/OBA_VT0001256>)
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_0000002> (body length without tail)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0000002> <http://purl.obolibrary.org/obo/IAO_0000423>)
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://orcid.org/0000-0003-2699-3066"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0000002> "A length measurement of the body that excludes a tail, usually ending at the anus.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://orcid.org/0000-0003-2699-3066"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0000002> "The length of a body that excludes a tail, usually ending at the anus.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/FOVT_0000002> <http://orcid.org/0000-0003-2699-3066>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <http://purl.obolibrary.org/obo/FOVT_0000002> "snout-vent length")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0000002> "head-body length")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/FOVT_0000002> "snout-vent length")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/FOVT_0000002> "body length"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0000002> "body length without tail"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0000002> <http://purl.obolibrary.org/obo/OBA_VT0001256>)
 
@@ -1010,8 +1017,10 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.ob
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://orcid.org/0000-0003-2699-3066"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001053> "The mass of a multicellur organism after removing internal organs."@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/FOVT_0001053> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/FOVT_0001053> "2021-05-10T22:50:17Z"^^xsd:dateTime)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <http://purl.obolibrary.org/obo/FOVT_0001053> "body mass"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001053> "gutted body mass"@en)
-EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0001053> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000128> ObjectIntersectionOf(ObjectComplementOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0017672>)) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0000468>))))
+EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0001053> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000125> ObjectIntersectionOf(ObjectComplementOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0017672>)) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0000468>))))
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001053> <http://purl.obolibrary.org/obo/OBA_VT0001259>)
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001054> (skinned body mass)
 
@@ -1019,18 +1028,22 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.ob
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://orcid.org/0000-0003-2699-3066"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001054> "The mass of a multicellular organism after being skinned."@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/FOVT_0001054> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/FOVT_0001054> "2021-05-10T22:52:04Z"^^xsd:dateTime)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <http://purl.obolibrary.org/obo/FOVT_0001054> "body mass"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001054> "skinned body mass"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0001054> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000125> ObjectIntersectionOf(ObjectComplementOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/OBA_VT1000425>)) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0000468>))))
 SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001054> <http://purl.obolibrary.org/obo/OBA_VT0001259>)
 
-# Class: <http://purl.obolibrary.org/obo/FOVT_0001055> (skeletal body mass)
+# Class: <http://purl.obolibrary.org/obo/FOVT_0001055> (mass of skeleton)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0001055> <http://purl.obolibrary.org/obo/IAO_0000423>)
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://orcid.org/0000-0003-2699-3066"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001055> "The mass of a multicellur organism skeletal elements (i.e., bones) without skin, internal organs, or other soft tissue."@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/FOVT_0001055> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/FOVT_0001055> "2021-05-10T22:52:36Z"^^xsd:dateTime)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/FOVT_0001055> "'bone mass'"@en)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001055> "skeletal body mass"@en)
-EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0001055> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000128> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0004288>)))
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <http://purl.obolibrary.org/obo/FOVT_0001055> "'bone mass'"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/FOVT_0001055> "body mass"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001055> "mass of skeleton"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0001055> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000125> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0004288>)))
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001055> <http://purl.obolibrary.org/obo/OBA_VT0001259>)
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001056> (gutted and skinned body mass)
 
@@ -1038,8 +1051,10 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.ob
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://orcid.org/0000-0003-2699-3066"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001056> "The mass of a mutlicellular organism after being both gutted (i.e., internal organs removed) and skinned."@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/FOVT_0001056> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/FOVT_0001056> "2021-05-10T22:53:18Z"^^xsd:dateTime)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <http://purl.obolibrary.org/obo/FOVT_0001056> "body mass"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001056> "gutted and skinned body mass"@en)
-EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0001056> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000128> ObjectIntersectionOf(ObjectComplementOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002097>)) ObjectComplementOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0017672>)) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0000468>))))
+EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0001056> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000125> ObjectIntersectionOf(ObjectComplementOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002097>)) ObjectComplementOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0017672>)) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0000468>))))
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001056> <http://purl.obolibrary.org/obo/OBA_VT0001259>)
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001057> (testis length)
 
@@ -1055,9 +1070,11 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0001057> ObjectIntersecti
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0001058> <http://purl.obolibrary.org/obo/IAO_0000423>)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/FOVT_0001058> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/FOVT_0001058> "2021-05-10T23:16:25Z"^^xsd:dateTime)
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://orcid.org/0000-0003-2699-3066"@en) rdfs:comment <http://purl.obolibrary.org/obo/FOVT_0001058> "The length of a testis on the right side along the proximal-distal axis."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/FOVT_0001058> "testis length"@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://orcid.org/0000-0003-2699-3066"@en) rdfs:comment <http://purl.obolibrary.org/obo/FOVT_0001058> "The length of a testis on the right side."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001058> "right testis length"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0001058> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000122> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0004534>)))
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001058> <http://purl.obolibrary.org/obo/FOVT_0001057>)
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001059> (left testis length)
 
@@ -1098,24 +1115,29 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.ob
 AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/FOVT_0001062> "2021-05-17T20:08:12Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001062> "ovary length"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0001062> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000122> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0000992>)))
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001062> <http://purl.obolibrary.org/obo/OBA_VT0001127>)
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001063> (right ovary length)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0001063> <http://purl.obolibrary.org/obo/IAO_0000423>)
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://orcid.org/0000-0003-2699-3066"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001063> "The length of an ovary on the right side along the proximal-distal axis."@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://orcid.org/0000-0003-2699-3066"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001063> "The length of an ovary on the right side."@en)
 AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/FOVT_0001063> "2021-05-17T20:10:16Z"^^xsd:dateTime)
 AnnotationAssertion(dce:term_editor <http://purl.obolibrary.org/obo/FOVT_0001063> <http://orcid.org/0000-0003-2699-3066>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/FOVT_0001063> "ovary length"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001063> "right ovary length"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0001063> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000122> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0002118>)))
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001063> <http://purl.obolibrary.org/obo/FOVT_0001062>)
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001064> (left ovary length)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0001064> <http://purl.obolibrary.org/obo/IAO_0000423>)
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://orcid.org/0000-0003-2699-3066"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001064> "The length of an ovary on the left side along the proximal-distal axis."@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://orcid.org/0000-0003-2699-3066"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001064> "The length of an ovary on the left side."@en)
 AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/FOVT_0001064> "2021-05-17T20:10:46Z"^^xsd:dateTime)
 AnnotationAssertion(dce:term_editor <http://purl.obolibrary.org/obo/FOVT_0001064> <http://orcid.org/0000-0003-2699-3066>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/FOVT_0001064> "ovary length"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001064> "left ovary length"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0001064> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000122> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0002119>)))
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001064> <http://purl.obolibrary.org/obo/FOVT_0001062>)
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001065> (anterior tibial tuberosity length)
 
@@ -1670,14 +1692,15 @@ AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/FOVT_0001158> "
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001158> "obsolete radius diaphysis width"@en)
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/FOVT_0001158> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/FOVT_0001159> (viscera mass)
+# Class: <http://purl.obolibrary.org/obo/FOVT_0001159> (mass of viscera)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ORCID: 0000-0003-2699-3066"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001159> "Mass of the viscera (internal organs)."@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ORCID: 0000-0003-2699-3066"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001159> "The mass of the viscera (internal organs)."@en)
 AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/FOVT_0001159> "2021-07-27T23:56:39Z"^^xsd:dateTime)
 AnnotationAssertion(dce:term_editor <http://purl.obolibrary.org/obo/FOVT_0001159> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/FOVT_0001159> <http://purl.obolibrary.org/obo/IAO_0000423>)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001159> "viscera mass"@en)
-EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0001159> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000128> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0017672>)))
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001159> "mass of viscera"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0001159> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000125> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0017672>)))
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001159> <http://purl.obolibrary.org/obo/OBA_VT0001259>)
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001160> (obsolete skin mass)
 
@@ -3727,14 +3750,63 @@ AnnotationAssertion(dce:term_editor <http://purl.obolibrary.org/obo/FOVT_0001365
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001365> "scapula lateral breadth"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001365> <http://purl.obolibrary.org/obo/OBA_VT0004343>)
 
-# Class: <http://purl.obolibrary.org/obo/FOVT_0001366> (right testis length)
+# Class: <http://purl.obolibrary.org/obo/FOVT_0001366> (obsolete right testis length)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://orcid.org/0000-0003-2699-3066") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001366> "The length of a testis on the right side."@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://orcid.org/0000-0003-2699-3066") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001366> "OBSOLETE The length of a testis on the right side."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/FOVT_0001366> <http://purl.obolibrary.org/obo/FOVT_0001058>)
 AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/FOVT_0001366> "2022-05-05T23:24:47Z"^^xsd:dateTime)
 AnnotationAssertion(dce:term_editor <http://purl.obolibrary.org/obo/FOVT_0001366> <http://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/FOVT_0001366> "testis length"@en)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001366> "right testis length"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001366> <http://purl.obolibrary.org/obo/FOVT_0001057>)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/FOVT_0001366> "made an error, made new term"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001366> "obsolete right testis length"@en)
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/FOVT_0001366> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/FOVT_0001367> (obsolete right testis length)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/FOVT_0001367> <http://purl.obolibrary.org/obo/FOVT_0001058>)
+AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/FOVT_0001367> "2022-05-05T23:27:11Z"^^xsd:dateTime)
+AnnotationAssertion(dce:term_editor <http://purl.obolibrary.org/obo/FOVT_0001367> <http://orcid.org/0000-0003-2699-3066>)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/FOVT_0001367> "made error, term already exists"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001367> "obsolete right testis length"@en)
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/FOVT_0001367> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/FOVT_0001368> (testis width)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://orcid.org/0000-0003-2699-3066") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001368> "The width of a testis."@en)
+AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/FOVT_0001368> "2022-05-05T23:30:18Z"^^xsd:dateTime)
+AnnotationAssertion(dce:term_editor <http://purl.obolibrary.org/obo/FOVT_0001368> <http://orcid.org/0000-0003-2699-3066>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001368> "testis width"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0001368> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000921> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0000473>)))
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001368> <http://purl.obolibrary.org/obo/OBA_VT0001148>)
+
+# Class: <http://purl.obolibrary.org/obo/FOVT_0001369> (gonad width)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://orcid.org/0000-0003-2699-3066") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001369> "The width of a gonad."@en)
+AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/FOVT_0001369> "2022-05-05T23:38:02Z"^^xsd:dateTime)
+AnnotationAssertion(dce:term_editor <http://purl.obolibrary.org/obo/FOVT_0001369> <http://orcid.org/0000-0003-2699-3066>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001369> "gonad width"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0001369> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000921> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0000991>)))
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001369> <http://purl.obolibrary.org/obo/OBA_0002017>)
+
+# Class: <http://purl.obolibrary.org/obo/FOVT_0001370> (obsolete right ovary length)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://orcid.org/0000-0003-2699-3066") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001370> "OBSOLETE The length of an ovary on the right side."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/FOVT_0001370> <http://purl.obolibrary.org/obo/FOVT_0001063>)
+AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/FOVT_0001370> "2022-05-05T23:45:43Z"^^xsd:dateTime)
+AnnotationAssertion(dce:term_editor <http://purl.obolibrary.org/obo/FOVT_0001370> <http://orcid.org/0000-0003-2699-3066>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/FOVT_0001370> "ovary length"@en)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/FOVT_0001370> "didn't realize the term already existed"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001370> "obsolete right ovary length"@en)
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/FOVT_0001370> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/FOVT_0001371> (ovary width)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://orcid.org/0000-0003-2699-3066") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001371> "The width of an ovary."@en)
+AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/FOVT_0001371> "2022-05-05T23:50:15Z"^^xsd:dateTime)
+AnnotationAssertion(dce:term_editor <http://purl.obolibrary.org/obo/FOVT_0001371> <http://orcid.org/0000-0003-2699-3066>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001371> "ovary width"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0001371> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000921> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0000992>)))
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001371> <http://purl.obolibrary.org/obo/OBA_VT0001127>)
 
 # Class: <http://purl.obolibrary.org/obo/OBA_1000049> (pes length)
 
