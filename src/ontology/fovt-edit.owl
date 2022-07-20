@@ -352,6 +352,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_0001368>))
 Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_0001369>))
 Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_0001370>))
 Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_0001371>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_2000000>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_91561>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_9788>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_9845>))
@@ -3811,6 +3812,12 @@ AnnotationAssertion(dce:term_editor <http://purl.obolibrary.org/obo/FOVT_0001371
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001371> "ovary width"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0001371> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000921> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0000992>)))
 SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001371> <http://purl.obolibrary.org/obo/OBA_VT0001127>)
+
+# Class: <http://purl.obolibrary.org/obo/FOVT_2000000> (choanal length)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9004086161, 9789004086166") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_2000000> "The length of a posterior nasal aperture of the interal naris (choana) along anterior posterior axis."@en)
+AnnotationAssertion(dce:contributor <http://purl.obolibrary.org/obo/FOVT_2000000> "https://orcid.org/0000-0001-8415-4848"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_2000000> "choanal length"@en)
 
 # Class: <http://purl.obolibrary.org/obo/OBA_1000049> (pes length)
 
