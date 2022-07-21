@@ -56,6 +56,6 @@ Please use this GitHub repository's [Issue tracker](https://github.com/futres/fo
 
 ## Acknowledgements
 
-FuTRES is funded by the National Science Foundation grant #
+FuTRES is funded by the National Science Foundation grant #1759808.
 
 This ontology repository was created using the [ontology starter kit](https://github.com/INCATools/ontology-starter-kit)
