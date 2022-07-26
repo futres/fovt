@@ -20,6 +20,9 @@ Annotation(dce:description "These are the terms that are improted for FOVT to de
 Annotation(dce:title "FuTRES Ontology of Vertebrate Traits")
 Annotation(dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>)
 
+Declaration(Class(<http://purl.obolibrary.org/obo/BSPO_0000013>))
+Declaration(Class(<http://purl.obolibrary.org/obo/BSPO_0000017>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CARO_0000008>))
 Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_0000001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_0000002>))
 Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_0000003>))
@@ -365,6 +368,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_9975>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0000128>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UBEORN_7500082>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_4200181>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BSPO_0015002>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002162>))
 Declaration(AnnotationProperty(dce:description))
 Declaration(AnnotationProperty(dce:term_editor))
@@ -3827,28 +3831,28 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_2000000> "ch
 SubClassOf(<http://purl.obolibrary.org/obo/FOVT_2000000> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000122> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CARO_0000008> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BSPO_0015002> <http://purl.obolibrary.org/obo/BSPO_0000013>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0004771>)))))
 SubClassOf(<http://purl.obolibrary.org/obo/FOVT_2000000> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000122> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0004771>))))
 
-# Class: <http://purl.obolibrary.org/obo/FOVT_2000001> (minimal breadth of choana)
+# Class: <http://purl.obolibrary.org/obo/FOVT_2000001> (choana minimal breadth)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9004086161, 9789004086166") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_2000001> "The length of the posterior portion of a posterior nasal aperture of the internal naris (choana) along left right axis."@en)
 AnnotationAssertion(dce:contributor <http://purl.obolibrary.org/obo/FOVT_2000001> "https://orcid.org/0000-0001-8415-4848"^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_2000001> "minimal breadth of choana"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_2000001> "choana minimal breadth"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/FOVT_2000001> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000921> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CARO_0000008> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BSPO_0015002> <http://purl.obolibrary.org/obo/BSPO_0000017>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BSPO_0000122> <http://purl.obolibrary.org/obo/UBERON_0004771>))))))
 SubClassOf(<http://purl.obolibrary.org/obo/FOVT_2000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000921> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0004771>))))
 
-# Class: <http://purl.obolibrary.org/obo/FOVT_2000002> (maximal breadth of choana)
+# Class: <http://purl.obolibrary.org/obo/FOVT_2000002> (choana maximal breadth)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9004086161, 9789004086166") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_2000002> "The length along the midline of a posterior nasal aperture of the internal naris (choana) along left right axis."@en)
 AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_2000002> <http://orcid.org/0000-0001-8415-4848>)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_2000002> "maximal breadth of choana"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_2000002> "choana maximal breadth"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/FOVT_2000002> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000921> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CARO_0000008> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BSPO_0015002> <http://purl.obolibrary.org/obo/BSPO_0000017>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BSPO_0005001> <http://purl.obolibrary.org/obo/UBERON_0004771>))))))
 SubClassOf(<http://purl.obolibrary.org/obo/FOVT_2000002> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000921> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0004771>))))
 
-# Class: <http://purl.obolibrary.org/obo/FOVT_2000003> (minimal muzzle breadth)
+# Class: <http://purl.obolibrary.org/obo/FOVT_2000003> (muzzle minimal breadth)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9004086161, 9789004086166") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9780873659505") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_2000003> "The length along the midline of a diastema along left right axis."@en)
 AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_2000003> <http://orcid.org/0000-0001-8415-4848>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_2000003> "minimal diastema breadth"@en)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_2000003> "minimal muzzle breadth"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_2000003> "muzzle minimal breadth"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/FOVT_2000003> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000921> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CARO_0000008> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BSPO_0015002> <http://purl.obolibrary.org/obo/BSPO_0000017>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BSPO_0005001> <http://purl.obolibrary.org/obo/UBERON_0012111>))))))
 SubClassOf(<http://purl.obolibrary.org/obo/FOVT_2000003> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000921> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0012111>))))
 
