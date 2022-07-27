@@ -48,3 +48,4 @@ OBA:VT1000425	#skin mass
 OBA:VT1000062	#chest circumference
 http://purl.obolibrary.org/obo/oba#not_measured_in_taxon #not_measured_in_taxon
 http://purl.obolibrary.org/obo/oba#measured_in_taxon #measured_in_taxon
+OBA:VT0000454 #jaw morphology trait
