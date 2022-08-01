@@ -162,3 +162,5 @@ UBERON:0004651 #scapula spine
 UBERON:0002097 #skin of body
 UBERON:0006810 #olecranon
 UBERON:0004771 #posterior nasal aperture
+UBERON:0002396 #vomer
+UBERON:0012074 #bony part of hard palate
