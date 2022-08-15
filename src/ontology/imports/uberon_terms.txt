@@ -72,7 +72,7 @@ UBERON:0018603 $upper central incisor tooth
 UBERON:0016454 #upper central secondary incisor tooth
 UBERON:0018604 #upper lateral incisor tooth
 UBERON:0016455 #upper lateral secondary incisor tooth
-upper secondary incisor tooth
+UBERON:0019253 #upper secondary incisor tooth
 UBERON:0018550 #secondary incisor tooth
 UBERON:0003674 #cuspid
 UBERON:0018622 #lower canine tooth
@@ -164,3 +164,4 @@ UBERON:0006810 #olecranon
 UBERON:0004771 #posterior nasal aperture
 UBERON:0002396 #vomer
 UBERON:0012074 #bony part of hard palate
+UBERON:0002517 #basicranium
