@@ -33,8 +33,8 @@ SPARQLDIR =                 ../sparql
 COMPONENTSDIR =             components
 REPORT_FAIL_ON =            None
 REPORT_LABEL =              -l true
-REPORT_PROFILE_OPTS =
-OBO_FORMAT_OPTIONS =
+REPORT_PROFILE_OPTS =       
+OBO_FORMAT_OPTIONS =        
 SPARQL_VALIDATION_CHECKS =   equivalent-classes owldef-self-reference
 SPARQL_EXPORTS =             basic-report class-count-by-prefix edges xrefs obsoletes synonyms
 ODK_VERSION_MAKEFILE =      v1.2.32
@@ -43,7 +43,7 @@ TODAY ?=                    $(shell date +%Y-%m-%d)
 OBODATE ?=                  $(shell date +'%d:%m:%Y %H:%M')
 VERSION=                    $(TODAY)
 ANNOTATE_ONTOLOGY_VERSION = annotate -V $(ONTBASE)/releases/$(VERSION)/$@ --annotation owl:versionInfo $(VERSION)
-OTHER_SRC =
+OTHER_SRC =                 
 ONTOLOGYTERMS =             $(TMPDIR)/ontologyterms.txt
 
 FORMATS = $(sort  owl obo owl)
@@ -76,7 +76,7 @@ $(TMPDIR) $(REPORTDIR) :
 ## By default this is the cross-product of {ont, ont-base} x FORMATS
 
 MAIN_PRODUCTS = $(sort $(foreach r,$(RELEASE_ARTEFACTS), $(r)) $(ONT))
-MAIN_GZIPPED =
+MAIN_GZIPPED = 
 MAIN_FILES = $(foreach n,$(MAIN_PRODUCTS), $(foreach f,$(FORMATS), $(n).$(f))) $(MAIN_GZIPPED)
 
 .PHONY: all_main
@@ -87,7 +87,7 @@ all_main: $(MAIN_FILES)
 ## By default this is the cross-product of IMPORT_MODULES x FORMATS
 
 
-IMPORTS =  ro bfo pato oba bspo iao bco uberon ncbitaxon
+IMPORTS =  ro bfo pato oba bspo iao bco uberon
 
 IMPORT_ROOTS = $(patsubst %, imports/%_import, $(IMPORTS))
 IMPORT_OWL_FILES = $(foreach n,$(IMPORT_ROOTS), $(n).owl)
@@ -103,7 +103,7 @@ all_imports: $(IMPORT_FILES)
 ## Note we also include TSV as a format
 
 
-SUBSETS =
+SUBSETS = 
 
 SUBSET_ROOTS = $(patsubst %, subsets/%, $(SUBSETS))
 SUBSET_FILES = $(foreach n,$(SUBSET_ROOTS), $(foreach f,$(FORMATS_INCL_TSV), $(n).$(f)))
@@ -175,7 +175,7 @@ prepare_initial_release: prepare_release
 # These live in the imports/ folder
 
 # ------------------------
-# Imports: Seeding system
+# Imports: Seeding system 
 # ------------------------
 
 # seed.txt contains all referenced entities
@@ -196,11 +196,11 @@ $(PRESEED): $(SRCMERGED)
 ALLSEED = $(PRESEED) \
 
 
-$(IMPORTSEED):  $(ALLSEED)
+$(IMPORTSEED):  $(ALLSEED) 
 	if [ $(IMP) = true ]; then cat $(ALLSEED) | sort | uniq > $@; fi
 
 
-ANNOTATION_PROPERTIES=rdfs:label IAO:0000115
+ANNOTATION_PROPERTIES=rdfs:label IAO:0000115 
 
 # -- Generate Import Modules --
 #
@@ -329,13 +329,6 @@ mirror/uberon.owl: mirror/uberon.trigger
 .PRECIOUS: mirror/uberon.owl
 
 
-## ONTOLOGY: ncbitaxon
-# Copy of ncbitaxon is re-downloaded whenever source changes
-mirror/ncbitaxon.trigger: $(SRC)
-
-mirror/ncbitaxon.owl: mirror/ncbitaxon.trigger
-	if [ $(MIR) = true ] && [ $(IMP) = true ]; then curl -L $(URIBASE)/ncbitaxon.owl --create-dirs -o mirror/ncbitaxon.owl --retry 4 --max-time 200 && $(ROBOT) convert -i mirror/ncbitaxon.owl -o $@.tmp.owl && mv $@.tmp.owl $@; fi
-.PRECIOUS: mirror/ncbitaxon.owl
 
 
 # ----------------------------------------
@@ -425,7 +418,7 @@ $(ONT).obo: $(ONT).owl
 # -----------------------------------------------------
 # Release artefacts: variants (base, full, simple, etc)
 # -----------------------------------------------------
-SHARED_ROBOT_COMMANDS =
+SHARED_ROBOT_COMMANDS = 
 
 $(ONTOLOGYTERMS): $(SRC) $(OTHER_SRC)
 	touch $(ONTOLOGYTERMS) && \
@@ -458,7 +451,7 @@ $(ONT)-full.owl: $(SRC) $(OTHER_SRC)
 # Debugging Tools
 # ----------------------------------------
 
-explain_unsat: $(SRC)
+explain_unsat: $(SRC) 
 	$(ROBOT) explain -i $(SRC) -M unsatisfiability --unsatisfiable random:10 --explanation $(TMPDIR)/$@.md
 
 
@@ -477,7 +470,7 @@ validate_idranges:
 .PHONY: update_repo
 update_repo:
 	sh $(SCRIPTSDIR)/update_repo.sh
-
+	
 
 
 include fovt.Makefile
