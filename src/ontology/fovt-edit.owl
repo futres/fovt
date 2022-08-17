@@ -361,6 +361,10 @@ Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_2000000>))
 Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_2000001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_2000002>))
 Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_2000003>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_2000004>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_2000005>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_2000006>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_2000007>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_91561>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_9788>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_9845>))
@@ -3944,6 +3948,35 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_2000003> "muzzle minimal breadth"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/FOVT_2000003> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000122> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0012111>)))
 SubClassOf(<http://purl.obolibrary.org/obo/FOVT_2000003> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000122> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CARO_0000008> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002176> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BSPO_0000120> <http://purl.obolibrary.org/obo/UBERON_0012111>)) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002176> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BSPO_0000121> <http://purl.obolibrary.org/obo/UBERON_0012111>))))))
+
+# Class: <http://purl.obolibrary.org/obo/FOVT_2000004> (supraoccipital crest length)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9004086161, 9789004086166") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_2000004> "The length of a supraoccipital crest along the left-right axis."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/oba#measured_in_taxon> <http://purl.obolibrary.org/obo/FOVT_2000004> <http://purl.obolibrary.org/obo/NCBITaxon_9788>)
+AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_2000004> <http://orcid.org/0000-0001-8415-4848>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_2000004> "supraoccipital crest length"@en)
+
+# Class: <http://purl.obolibrary.org/obo/FOVT_2000005> (foramen magnum breadth)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9004086161, 9789004086166") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_2000005> "The length of a foramen magnum along the left-right axis."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/oba#measured_in_taxon> <http://purl.obolibrary.org/obo/FOVT_2000005> <http://purl.obolibrary.org/obo/NCBITaxon_91561>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/oba#measured_in_taxon> <http://purl.obolibrary.org/obo/FOVT_2000005> <http://purl.obolibrary.org/obo/NCBITaxon_9788>)
+AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_2000005> <http://orcid.org/0000-0001-8415-4848>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_2000005> "foramen magnum breadth"@en)
+
+# Class: <http://purl.obolibrary.org/obo/FOVT_2000006> (foramen magnum height)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9004086161, 9789004086166") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_2000006> "The length of a foramen magnum along the midsagittal plane."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/oba#measured_in_taxon> <http://purl.obolibrary.org/obo/FOVT_2000006> <http://purl.obolibrary.org/obo/NCBITaxon_91561>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/oba#measured_in_taxon> <http://purl.obolibrary.org/obo/FOVT_2000006> <http://purl.obolibrary.org/obo/NCBITaxon_9788>)
+AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_2000006> <http://orcid.org/0000-0001-8415-4848>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_2000006> "foramen magnum height"@en)
+
+# Class: <http://purl.obolibrary.org/obo/FOVT_2000007> (occipital breadth)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_2000007> "The length of a line from the temporal fossa on the left side of the skull to the temporal fossa on the right side of the skull of an occipital region."@en)
+AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_2000007> <http://orcid.org/0000-0001-8415-4848>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_2000007> "occipital breadth"@en)
 
 # Class: <http://purl.obolibrary.org/obo/OBA_1000049> (pes length)
 
