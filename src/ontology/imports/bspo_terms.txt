@@ -18,7 +18,7 @@ BSPO:0000007 #right side
 BSPO:0000000 #left side
 BSPO:0015101 #in_dorsal_side_of
 BSPO:0015002 #follows axis
-#dorsalmost part of
-#anteriormost part of
-#lateralmost part of
-#medialmost part of
+BSPO:0030003 #dorsalmost part of
+BSPO:0030004 #anteriormost part of
+BSPO:0030005 #lateralmost part of
+BSPO:0030007 #medialmost part of
