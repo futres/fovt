@@ -3716,8 +3716,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0001345> ObjectIntersecti
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0001346> <http://purl.obolibrary.org/obo/IAO_0000423>)
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://orcid.org/0000-0003-2699-3066") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001346> "The length of diastema between central incisors along the anterior-posterior axis."@en)
-AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/FOVT_0001346> "2021-10-29T03:54:09Z"^^xsd:dateTime)
-AnnotationAssertion(dce:term_editor <http://purl.obolibrary.org/obo/FOVT_0001346> <http://orcid.org/0000-0003-2699-3066>)
+AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_0001346> <https://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001346> "diastema between central incisors length"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0001346> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000122> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0035115>)))
 
@@ -3725,8 +3724,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0001346> ObjectIntersecti
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0001347> <http://purl.obolibrary.org/obo/IAO_0000423>)
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://orcid.org/0000-0003-2699-3066") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001347> "The length of diastema between lower central incisors along the anterior-posterior axis."@en)
-AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/FOVT_0001347> "2021-10-29T03:56:30Z"^^xsd:dateTime)
-AnnotationAssertion(dce:term_editor <http://purl.obolibrary.org/obo/FOVT_0001347> <http://orcid.org/0000-0003-2699-3066>)
+AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_0001347> <https://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001347> "diastema between lower central incisors length"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0001347> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/FOVT_0001346> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0001710>)))
 
