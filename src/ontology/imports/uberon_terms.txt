@@ -191,6 +191,7 @@ UBERON:7500096 #medial tubercle of calcaneus; parent term tubercle of calcaneus
 UBERON:3000467 #preorbital process of the pars facialis of the maxilla
 
 #sagittal crest
+#basion
 #synsphenion
 #intersphenoid suture
 #cheek tooth
