@@ -3053,9 +3053,8 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0001285> ObjectIntersecti
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001286> (canine tooth crown height)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0001286> <http://purl.obolibrary.org/obo/IAO_0000423>)
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://orcid.org/0000-0003-2699-3066"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001286> "The height of a canine tooth crown along the superior-anterior axis."@en)
-AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/FOVT_0001286> "2021-10-28T22:46:12Z"^^xsd:dateTime)
-AnnotationAssertion(dce:term_editor <http://purl.obolibrary.org/obo/FOVT_0001286> <http://orcid.org/0000-0003-2699-3066>)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://orcid.org/0000-0003-2699-3066") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001286> "The height of a canine tooth crown along the superior-anterior axis."@en)
+AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_0001286> <https://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001286> "cuspid crown height"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001286> "canine tooth crown height"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0001286> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000119> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0003674>)))
@@ -3202,8 +3201,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0001300> ObjectIntersecti
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0001301> <http://purl.obolibrary.org/obo/IAO_0000423>)
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://orcid.org/0000-0003-2699-3066") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001301> "The diameter at the base of a canine tooth along the anterior-posterior axis."@en)
-AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/FOVT_0001301> "2021-10-29T01:32:49Z"^^xsd:dateTime)
-AnnotationAssertion(dce:term_editor <http://purl.obolibrary.org/obo/FOVT_0001301> <http://orcid.org/0000-0003-2699-3066>)
+AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_0001301> <https://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001301> "canine tooth diameter AP"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001301> "cuspid diameter AP"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001301> "cuspid tooth anterior-posterior diameter"@en)
@@ -3295,8 +3293,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001307> ObjectSomeValuesFrom(<h
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0001308> <http://purl.obolibrary.org/obo/IAO_0000423>)
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://orcid.org/0000-0003-2699-3066") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001308> "The diameter at the base of a canine tooth along the medial-lateral axis."@en)
-AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/FOVT_0001308> "2021-10-29T02:03:01Z"^^xsd:dateTime)
-AnnotationAssertion(dce:term_editor <http://purl.obolibrary.org/obo/FOVT_0001308> <http://orcid.org/0000-0003-2699-3066>)
+AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_0001308> <https://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001308> "canine tooth diameter ML"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001308> "cuspid diameter ML"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001308> "cuspid medial-lateral diameter"@en)
@@ -3660,8 +3657,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001340> ObjectSomeValuesFrom(<h
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0001341> <http://purl.obolibrary.org/obo/IAO_0000423>)
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://orcid.org/0000-0003-2699-3066") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001341> "The length of canine tooth to premolar tooth 3 along the anterior-posterior axis."@en)
-AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/FOVT_0001341> "2021-10-29T03:37:59Z"^^xsd:dateTime)
-AnnotationAssertion(dce:term_editor <http://purl.obolibrary.org/obo/FOVT_0001341> <http://orcid.org/0000-0003-2699-3066>)
+AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_0001341> <https://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001341> "canine tooth to premolar tooth 3 length AP"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001341> "cuspid to premolar tooth 3 length"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001341> "cuspid to premolar tooth 3 length AP"@en)
