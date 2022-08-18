@@ -189,6 +189,9 @@ UBERON:7500093 #calcaneal body
 UBERON:7500095 #lateral tubercle of calcaneus; parent term tubercle of calcaneus
 UBERON:7500096 #medial tubercle of calcaneus; parent term tubercle of calcaneus
 UBERON:3000467 #preorbital process of the pars facialis of the maxilla
+UBERON:2001783 #supraoccipital crest
+UBERON:0003687 #foramen magnum
+UBERON:0013463 #temporal fossa
 
 #sagittal crest
 #basion
