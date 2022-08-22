@@ -134,12 +134,12 @@ UBERON:0009678 #tooth row
 UBERON:0003675 #tooth crown
 UBERON:0003955 #molar crown
 UBERON:0000991 #gonad
-http://purl.obolibrary.org/obo/UBERON_0000992 #ovary
-http://purl.obolibrary.org/obo/UBERON_0002119 #left ovary
-http://purl.obolibrary.org/obo/UBERON_0002118 #right ovary
-http://purl.obolibrary.org/obo/UBERON_0000473 #testis
-http://purl.obolibrary.org/obo/UBERON_0004533 #left testis
-http://purl.obolibrary.org/obo/UBERON_0004534 #right testis
+UBERON:0000992 #ovary
+UBERON:0002119 #left ovary
+UBERON:0002118 #right ovary
+UBERON:0000473 #testis
+UBERON:0004533 #left testis
+UBERON:0004534 #right testis
 UBERON:4200204 #humeral facet on radius
 UBERON:4200203 #humeral facet on ulna
 UBERON:0001423 #radius bone
