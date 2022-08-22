@@ -3717,7 +3717,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/oba#measured_in_taxon> <http
 AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_2000006> <https://orcid.org/0000-0001-8415-4848>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_2000006> "foramen magnum height"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/FOVT_2000006> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000122> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0003687>)))
-SubClassOf(<http://purl.obolibrary.org/obo/FOVT_2000006> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000122> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CARO_0000008> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BSPO_0015002> <http://purl.obolibrary.org/obo/BSPO_0000417>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0003687>)))))
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_2000006> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000122> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CARO_0000008> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BSPO_0015002> <http://purl.obolibrary.org/obo/BSPO_0000009>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0003687>)))))
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_2000007> (occipital breadth)
 
