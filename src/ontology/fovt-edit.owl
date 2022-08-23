@@ -554,7 +554,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0000017> <http://purl.obolibrary
 # Class: <http://purl.obolibrary.org/obo/FOVT_0000018> (astragalus distal articular depth)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0000018> <http://purl.obolibrary.org/obo/IAO_0000423>)
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9004086161, 9789004086166") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0000018> "Length of the distal end of an astragalus (talus)."@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9004086161, 9789004086166") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0000018> "Length of the distal end of an astragalus (talus) along the anterior-posterior axis."@en)
 AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_0000018> <https://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9004086161, 9789004086166") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0000018> "astragalus distal articular depth (M5)"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0000018> "astragalus distal articular depth"@en)
@@ -583,7 +583,9 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9004086161, 9789004086166") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0000021> "astragalus maximal breadth (M4)"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0000021> "talus breadth")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0000021> "astragalus breadth"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0000021> <http://purl.obolibrary.org/obo/FOVT_0001041>)
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0000021> <http://purl.obolibrary.org/obo/PATO_0000122>)
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0000021> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BSPO_0015002> <http://purl.obolibrary.org/obo/BSPO_0001001>))
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0000021> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0002395>))
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_0000022> (calcaneus length)
 
@@ -968,7 +970,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001041> <http://purl.obolibrary
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001042> (astragalus lateral depth)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0001042> <http://purl.obolibrary.org/obo/IAO_0000423>)
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001042> "The width of the lateral side of an astragalus (talus)."@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001042> "The length of the lateral side of an astragalus (talus)."@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/oba#measured_in_taxon> <http://purl.obolibrary.org/obo/FOVT_0001042> <http://purl.obolibrary.org/obo/NCBITaxon_91561>)
 AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_0001042> <https://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001042> "astragalus depth of the lateral half (DI)"@en)
@@ -979,7 +981,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001042> <http://purl.obolibrary
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001043> (astragalus medial depth)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0001043> <http://purl.obolibrary.org/obo/IAO_0000423>)
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9004086161, 9789004086166") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001043> "The width of the medial side of an astragalus (talus)."@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9004086161, 9789004086166") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001043> "The length of the medial side of an astragalus (talus)."@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/oba#measured_in_taxon> <http://purl.obolibrary.org/obo/FOVT_0001043> <http://purl.obolibrary.org/obo/NCBITaxon_91561>)
 AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_0001043> <https://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001043> "astragalus depth of medial half (DM)"@en)
@@ -991,7 +993,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001043> <http://purl.obolibrary
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001044> (astragalus distal breadth)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0001044> <http://purl.obolibrary.org/obo/IAO_0000423>)
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "DOI:10.1007/s00267-006-0240-8") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001044> "The width of the distal end of an astragalus (talus) along the medial-lateral axis."@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "DOI:10.1007/s00267-006-0240-8") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001044> "The length of the distal end of an astragalus (talus) along the medial-lateral axis."@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/oba#measured_in_taxon> <http://purl.obolibrary.org/obo/FOVT_0001044> <http://purl.obolibrary.org/obo/NCBITaxon_91561>)
 AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_0001044> <https://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "DOI:10.1007/s00267-006-0240-8") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001044> "astragalus AST4"@en)
@@ -1019,7 +1021,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001045> <http://purl.obolibrary
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001046> (astragalus trochlea breadth)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0001046> <http://purl.obolibrary.org/obo/IAO_0000423>)
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9004086161, 9789004086166") Annotation(rdfs:comment "ISBN:9780873659505") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001046> "The width of the trochlea of an astragalus (talus) along the medial-lateral axis."@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9004086161, 9789004086166") Annotation(rdfs:comment "ISBN:9780873659505") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001046> "The length of the trochlea of an astragalus (talus) along the medial-lateral axis."@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/oba#measured_in_taxon> <http://purl.obolibrary.org/obo/FOVT_0001046> <http://purl.obolibrary.org/obo/NCBITaxon_9788>)
 AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_0001046> <https://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001046> "astragalus condylar breadth"@en)
@@ -1161,12 +1163,15 @@ SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001064> <http://purl.obolibrary
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001065> (anterior tibial tuberosity length)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0001065> <http://purl.obolibrary.org/obo/IAO_0000423>)
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9004086161, 9789004086166") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001065> "The length along the anterior-posterior axis of the anterior tibial tuberosity (fossa digitalis)."@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9004086161, 9789004086166") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001065> "The length of the tibial tuberosity (fossa digitalis) along the anterior-posterior axis."@en)
 AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_0001065> <https://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001065> "fossa digitalis length"@en)
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9004086161, 9789004086166") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001065> "tibia length of the fossa digitalis"@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9004086161, 9789004086166") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001065> "tibia length of the fossa digitalis (M9)"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001065> "anterior tibial tuberosity length"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001065> <http://purl.obolibrary.org/obo/OBA_VT0004357>)
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001065> <http://purl.obolibrary.org/obo/OBA_VT0100001>)
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001065> <http://purl.obolibrary.org/obo/PATO_0000122>)
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001065> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BSPO_0015002> <http://purl.obolibrary.org/obo/BSPO_0000013>))
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001065> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_7500062>))
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001066> (obsolete humerus proximal depth at median tubercle)
 
@@ -1292,9 +1297,10 @@ SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001077> <http://purl.obolibrary
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001078> (breadth of calcaneal body)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0001078> <http://purl.obolibrary.org/obo/IAO_0000423>)
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9004086161, 9789004086166") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://eprints.nottingham.ac.uk/50198/") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001078> "The length of a calcaneal body along the medial-lateral axis. This is the narrowest section of the calcaneus."@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9004086161, 9789004086166") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://eprints.nottingham.ac.uk/50198/") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001078> "The length of a calcaneal body along the medial-lateral axis."@en)
 AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_0001078> <https://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9004086161, 9789004086166") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001078> "calcaneus minimal breadth"@en)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/FOVT_0001078> "This is the narrowest section of the calcaneus."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001078> "breadth of calcaneal body"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001078> <http://purl.obolibrary.org/obo/FOVT_0001079>)
 
@@ -3651,8 +3657,8 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_2000001> "choana minimal breadth"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/FOVT_2000001> <http://purl.obolibrary.org/obo/OBA_VT0003104>)
 SubClassOf(<http://purl.obolibrary.org/obo/FOVT_2000001> <http://purl.obolibrary.org/obo/PATO_0000122>)
-SubClassOf(<http://purl.obolibrary.org/obo/FOVT_2000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BSPO_0000122> <http://purl.obolibrary.org/obo/UBERON_0004771>))
 SubClassOf(<http://purl.obolibrary.org/obo/FOVT_2000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BSPO_0015002> <http://purl.obolibrary.org/obo/BSPO_0000017>))
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_2000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BSPO_0000122> <http://purl.obolibrary.org/obo/UBERON_0004771>)))
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_2000002> (choana maximal breadth)
 
