@@ -3642,10 +3642,8 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/oba#measured_in_taxon> <http
 AnnotationAssertion(dce:contributor <http://purl.obolibrary.org/obo/FOVT_2000000> "https://orcid.org/0000-0001-8415-4848"^^xsd:string)
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9004086161, 9789004086166") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_2000000> "choanal length (M10)"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_2000000> "choanal length"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_2000000> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000122> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0004771>)))
 SubClassOf(<http://purl.obolibrary.org/obo/FOVT_2000000> <http://purl.obolibrary.org/obo/OBA_VT0003104>)
-SubClassOf(<http://purl.obolibrary.org/obo/FOVT_2000000> <http://purl.obolibrary.org/obo/PATO_0000122>)
-SubClassOf(<http://purl.obolibrary.org/obo/FOVT_2000000> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BSPO_0015002> <http://purl.obolibrary.org/obo/BSPO_0000013>))
-SubClassOf(<http://purl.obolibrary.org/obo/FOVT_2000000> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0004771>))
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_2000001> (choana minimal breadth)
 
@@ -3655,10 +3653,10 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/oba#measured_in_taxon> <http
 AnnotationAssertion(dce:contributor <http://purl.obolibrary.org/obo/FOVT_2000001> "https://orcid.org/0000-0001-8415-4848"^^xsd:string)
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9004086161, 9789004086166") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_2000001> "minimal breadth of the choanae (M11)"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_2000001> "choana minimal breadth"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_2000001> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000921> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BSPO_0000122> <http://purl.obolibrary.org/obo/UBERON_0004771>))))
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_2000001> <http://purl.obolibrary.org/obo/OBA_VT0002236>)
 SubClassOf(<http://purl.obolibrary.org/obo/FOVT_2000001> <http://purl.obolibrary.org/obo/OBA_VT0003104>)
-SubClassOf(<http://purl.obolibrary.org/obo/FOVT_2000001> <http://purl.obolibrary.org/obo/PATO_0000122>)
-SubClassOf(<http://purl.obolibrary.org/obo/FOVT_2000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BSPO_0015002> <http://purl.obolibrary.org/obo/BSPO_0000017>))
-SubClassOf(<http://purl.obolibrary.org/obo/FOVT_2000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BSPO_0000122> <http://purl.obolibrary.org/obo/UBERON_0004771>)))
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_2000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002314> <http://purl.obolibrary.org/obo/UBERON_0004771>))
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_2000002> (choana maximal breadth)
 
@@ -3668,10 +3666,8 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/oba#measured_in_taxon> <http
 AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_2000002> <https://orcid.org/0000-0001-8415-4848>)
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9004086161, 9789004086166") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_2000002> "maximal breadth of the choanae (M12)"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_2000002> "choana maximal breadth"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_2000002> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000921> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0004771>)))
 SubClassOf(<http://purl.obolibrary.org/obo/FOVT_2000002> <http://purl.obolibrary.org/obo/OBA_VT0003104>)
-SubClassOf(<http://purl.obolibrary.org/obo/FOVT_2000002> <http://purl.obolibrary.org/obo/PATO_0000122>)
-SubClassOf(<http://purl.obolibrary.org/obo/FOVT_2000002> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BSPO_0015002> <http://purl.obolibrary.org/obo/BSPO_0000017>))
-SubClassOf(<http://purl.obolibrary.org/obo/FOVT_2000002> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0004771>))
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_2000003> (muzzle minimal breadth)
 
