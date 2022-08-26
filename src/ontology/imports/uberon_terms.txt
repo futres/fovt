@@ -192,6 +192,12 @@ UBERON:3000467 #preorbital process of the pars facialis of the maxilla
 UBERON:2001783 #supraoccipital crest
 UBERON:0003687 #foramen magnum
 UBERON:0013463 #temporal fossa
+http://xmlns.com/foaf/0.1/depicted_by #depicted_by
+UBERON:0002517 #basicranium
+UBERON:0011156 #viscerocranium
+UBERON:0001703 #neurocranium
+UBERON:0006970 #body core of horn
+
 
 #sagittal crest
 #basion
