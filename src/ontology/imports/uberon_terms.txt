@@ -199,11 +199,12 @@ UBERON:0001703 #neurocranium
 UBERON:0006970 #body core of horn
 
 
-#sagittal crest
-#basion
+# UBERON:7500115 sagittal crest
+# UBERON:0013447 sagittal crest of skull
+# UBERON:7500109 basion
 #synsphenion
 #intersphenoid suture
-#cheek tooth
+# cheek tooth
 #cheek tooth row
 #prosthion
 #akrokranion
