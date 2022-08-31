@@ -202,11 +202,11 @@ UBERON:0006970 #body core of horn
 # UBERON:7500115 sagittal crest
 # UBERON:0013447 sagittal crest of skull
 # UBERON:7500109 basion
-#synsphenion
-#intersphenoid suture
+# UBERON:7500110 synsphenion
+# UBERON:7500111 intersphenoid suture
 # cheek tooth
 #cheek tooth row
 #prosthion
-#akrokranion
+# UBERON:7500113 akrokranion
 #hormion
 #sphenovomerine suture
