@@ -204,9 +204,9 @@ UBERON:0006970 #body core of horn
 # UBERON:7500109 basion
 # UBERON:7500110 synsphenion
 # UBERON:7500111 intersphenoid suture
-# cheek tooth
+# UBERON:7500108 cheek tooth
 #cheek tooth row
-#prosthion
+# UBERON:7500112 prosthion
 # UBERON:7500113 akrokranion
 #hormion
 #sphenovomerine suture
