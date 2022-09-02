@@ -198,15 +198,15 @@ UBERON:0011156 #viscerocranium
 UBERON:0001703 #neurocranium
 UBERON:0006970 #body core of horn
 
-
+## WAITING FOR NEW RELEASE
 # UBERON:7500115 sagittal crest
 # UBERON:0013447 sagittal crest of skull
 # UBERON:7500109 basion
 # UBERON:7500110 synsphenion
 # UBERON:7500111 intersphenoid suture
 # UBERON:7500108 cheek tooth
-#cheek tooth row
+# UBERON:7500114 cheek tooth row
 # UBERON:7500112 prosthion
 # UBERON:7500113 akrokranion
 #hormion
-#sphenovomerine suture
+# UBERON:7500107 sphenovomerine suture
