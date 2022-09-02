@@ -9,6 +9,8 @@ UBERON:0004652 #humerus diaphysis
 UBERON:0009988 #condyle of humerus
 UBERON:4200174 #distal condyle of humerus
 UBERON:0000144 #trochlea of humerus
+UBERON_7500061 #trochlear ridge of humerus
+UBERON:3000785 #trochlear groove of humerus
 UBERON:0006801 #proximal head of humerus; caput
 UBERON:0000981 #femur
 UBERON:0006767 #head of femur
