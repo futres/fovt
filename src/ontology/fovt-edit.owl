@@ -409,7 +409,8 @@ SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0000002> <http://purl.obolibrary
 # Class: <http://purl.obolibrary.org/obo/FOVT_0000003> (pes length with nail)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0000003> <http://purl.obolibrary.org/obo/IAO_0000423>)
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://orcid.org/0000-0003-2699-3066"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0000003> "A length measurement of a hind foot that includes the nail.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://orcid.org/0000-0003-2699-3066"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0000003> "A length measurement of a hindfoot that includes the nail."@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://orcid.org/0000-0003-2699-3066"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0000003> "The length of a hindfoot that includes the nail."@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/FOVT_0000003> <https://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0000003> "hindfoot length length with nail")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/FOVT_0000003> "hindfoot length"@en)
@@ -419,7 +420,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0000003> <http://purl.obolibrary
 # Class: <http://purl.obolibrary.org/obo/FOVT_0000004> (pes length without nail)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0000004> <http://purl.obolibrary.org/obo/IAO_0000423>)
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://orcid.org/0000-0003-2699-3066"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0000004> "A length measurement of a hind foot that excludes the nail.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://orcid.org/0000-0003-2699-3066"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0000004> "The length of a hindfoot that excludes the nail."@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/FOVT_0000004> <https://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0000004> "hindfoot length without nail")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/FOVT_0000004> "hindfoot length"@en)
