@@ -688,8 +688,9 @@ SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0000032> <http://purl.obolibrary
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001003> (ear length to tragus)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0001003> <http://purl.obolibrary.org/obo/IAO_0000423>)
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://orcid.org/0000-0003-2699-3066") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001003> "The length of a line of an ear from a helix of the outer ear to a tragus of an ear. This measurement is often taken in bats."@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://orcid.org/0000-0003-2699-3066") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001003> "The length of a line of an ear from a helix of the outer ear to a tragus of an ear."@en)
 AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_0001003> <https://orcid.org/0000-0003-2699-3066>)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/FOVT_0001003> "This measurement is often taken in bats."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001003> "ear length to tragus"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001003> <http://purl.obolibrary.org/obo/OBA_0003426>)
 
