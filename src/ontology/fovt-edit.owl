@@ -353,6 +353,10 @@ Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_0001355>))
 Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_0001356>))
 Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_0001357>))
 Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_0001358>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_0001359>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_0001360>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_0001361>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_0001362>))
 Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_0001365>))
 Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_0001366>))
 Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_0001367>))
@@ -3638,6 +3642,42 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynony
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001358> "metacarpal bone of digit 3 distal depth of lateral condyle"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001358> <http://purl.obolibrary.org/obo/PATO_0000921>)
 SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001358> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0003647>))
+
+# Class: <http://purl.obolibrary.org/obo/FOVT_0001359> (pelvis length)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001359> "The length of a pelvis."@en)
+AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_0001359> <https://orcid.org/0000-0003-2699-3066>)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001359> "pelvis greatest length of one half (GL)"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001359> "pelvis length"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0001359> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000122> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0007830>)))
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001359> <http://purl.obolibrary.org/obo/OBA_0002413>)
+
+# Class: <http://purl.obolibrary.org/obo/FOVT_0001360> (acetabulum length (including the lip))
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001360> "The length of an acetabulum along the upper-lower axis."@en)
+AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_0001360> <https://orcid.org/0000-0003-2699-3066>)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001360> "length of the acetabulum including the lip (LA)"@en)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/FOVT_0001360> "This measurement includes the lip of the acetabulum."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001360> "acetabulum length (including the lip)"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001360> <http://purl.obolibrary.org/obo/OBA_0002413>)
+
+# Class: <http://purl.obolibrary.org/obo/FOVT_0001361> (acetabulum length (to the rim))
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9004086161, 9789004086166") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001361> "The length of an acetabulum up to the rim of an acetabulum."@en)
+AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_0001361> <https://orcid.org/0000-0003-2699-3066>)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9004086161, 9789004086166") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001361> "diameter of the acetabulum (M1)"@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001361> "length of the acetabulum to the rim (LAR)"@en)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/FOVT_0001361> "This measurement does not include the lip."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001361> "acetabulum length (to the rim)"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001361> <http://purl.obolibrary.org/obo/OBA_0002413>)
+
+# Class: <http://purl.obolibrary.org/obo/FOVT_0001362> (pubic symphysis length)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9780873659505") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001362> "The length of a pubic symphysis along the proximal-distal axis."@en)
+AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_0001362> <https://orcid.org/0000-0003-2699-3066>)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001362> "length of the symphysis (LS)"@en)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/FOVT_0001362> "This is only measured when the two halves of the pubis are fused."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001362> "pubic symphysis length"@en)
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001365> (scapula lateral breadth)
 
