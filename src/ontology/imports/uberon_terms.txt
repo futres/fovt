@@ -171,7 +171,7 @@ UBERON:0001682 #palatine bone
 UBERON:7500105 #coracoid process of calcaneus
 UBERON:7500094 #tubercle of calcaneus
 UBERON:7500080 #articular surface for carpals
-UBERON:7500070 #ulnar notch of radius
+UBERON:7500079 #ulnar notch of radius
 UBERON:7500078 #radius styloid process
 UBERON:0001681 #nasal bone
 UBERON:0002500 #zygomatic arch
