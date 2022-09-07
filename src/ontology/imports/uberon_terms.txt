@@ -199,6 +199,14 @@ UBERON:0002517 #basicranium
 UBERON:0011156 #viscerocranium
 UBERON:0001703 #neurocranium
 UBERON:0006970 #body core of horn
+UBERON:0003699 #pubic symphysis
+UBERON:3000774 #ilial shaft
+UBERON:0006803 #obturator foramen
+UBERON:0006802 #acetabular rim
+UBERON:0034983 #ischial tuberosity
+
+
+
 
 ## WAITING FOR NEW RELEASE
 # UBERON:7500115 sagittal crest
