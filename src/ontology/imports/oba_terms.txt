@@ -49,3 +49,8 @@ OBA:VT1000062	#chest circumference
 http://purl.obolibrary.org/obo/oba#not_measured_in_taxon #not_measured_in_taxon
 http://purl.obolibrary.org/obo/oba#measured_in_taxon #measured_in_taxon
 OBA:VT0000454 #jaw morphology trait
+OBA:VT0005273 #basicranium size
+OBA:0002546 #viscerocranium size
+OBA:VT0003104 #skull size
+OBA:VT0010517 #neurocranium size
+OBA:0006029 #horn size

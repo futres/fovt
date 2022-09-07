@@ -1,0 +1,12 @@
+NCBITaxon:9789 #Equus
+NCBITaxon:9903 #Bos
+NCBITaxon:9980 #Lepus
+NCBITaxon:9984 #Oryctolagus
+NCBITaxon:9935 #Ovis
+NCBITaxon:9922 #Capra
+NCBITaxon:9639 #Ursus
+NCBITaxon:9611 #Canis
+NCBITaxon:9682 #Felis
+NCBITaxon:9822 #Sus
+NCBITaxon:9836 #Camelus
+NCBITaxon:9859 #Cervus

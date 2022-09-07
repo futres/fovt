@@ -9,6 +9,8 @@ UBERON:0004652 #humerus diaphysis
 UBERON:0009988 #condyle of humerus
 UBERON:4200174 #distal condyle of humerus
 UBERON:0000144 #trochlea of humerus
+UBERON:7500061 #trochlear ridge of humerus
+UBERON:3000785 #trochlear groove of humerus
 UBERON:0006801 #proximal head of humerus; caput
 UBERON:0000981 #femur
 UBERON:0006767 #head of femur
@@ -72,7 +74,7 @@ UBERON:0018603 $upper central incisor tooth
 UBERON:0016454 #upper central secondary incisor tooth
 UBERON:0018604 #upper lateral incisor tooth
 UBERON:0016455 #upper lateral secondary incisor tooth
-upper secondary incisor tooth
+UBERON:0019253 #upper secondary incisor tooth
 UBERON:0018550 #secondary incisor tooth
 UBERON:0003674 #cuspid
 UBERON:0018622 #lower canine tooth
@@ -134,12 +136,12 @@ UBERON:0009678 #tooth row
 UBERON:0003675 #tooth crown
 UBERON:0003955 #molar crown
 UBERON:0000991 #gonad
-http://purl.obolibrary.org/obo/UBERON_0000992 #ovary
-http://purl.obolibrary.org/obo/UBERON_0002119 #left ovary
-http://purl.obolibrary.org/obo/UBERON_0002118 #right ovary
-http://purl.obolibrary.org/obo/UBERON_0000473 #testis
-http://purl.obolibrary.org/obo/UBERON_0004533 #left testis
-http://purl.obolibrary.org/obo/UBERON_0004534 #right testis
+UBERON:0000992 #ovary
+UBERON:0002119 #left ovary
+UBERON:0002118 #right ovary
+UBERON:0000473 #testis
+UBERON:0004533 #left testis
+UBERON:0004534 #right testis
 UBERON:4200204 #humeral facet on radius
 UBERON:4200203 #humeral facet on ulna
 UBERON:0001423 #radius bone
@@ -164,3 +166,57 @@ UBERON:0006810 #olecranon
 UBERON:0004771 #posterior nasal aperture
 UBERON:0002396 #vomer
 UBERON:0012074 #bony part of hard palate
+UBERON:0002517 #basicranium
+UBERON:0001682 #palatine bone
+UBERON:7500105 #coracoid process of calcaneus
+UBERON:7500094 #tubercle of calcaneus
+UBERON:7500080 #articular surface for carpals
+UBERON:7500079 #ulnar notch of radius
+UBERON:7500078 #radius styloid process
+UBERON:0001681 #nasal bone
+UBERON:0002500 #zygomatic arch
+UBERON:0004865 #tetrapod parietal bone
+UBERON:7500101 #antorbital notch
+UBERON:7500071 #rostrum
+UBERON:7500063 #trochlea of talus
+UBERON:7500070 #sulcus tali
+UBERON:7500077 #trochlea of femur, patellar surface
+UBERON:7500064 #trochlear groove of talus
+UBERON:7500068 #ridge of medial condyle of talus; parent terms medial condyle of talus and condyle of talus
+UBERON:7500069 #ridge of lateral condyle of talus; parent terms lateral condyle of talus and condyle of talus
+UBERON:7500089 #posterior facet for talus of calcaneus
+UBERON:7500091 #middle articular facet for talus of calcaneum
+UBERON:7500092 #anterior articular  facet for talus of calcaneum
+UBERON:7500093 #calcaneal body
+UBERON:7500095 #lateral tubercle of calcaneus; parent term tubercle of calcaneus
+UBERON:7500096 #medial tubercle of calcaneus; parent term tubercle of calcaneus
+UBERON:3000467 #preorbital process of the pars facialis of the maxilla
+UBERON:2001783 #supraoccipital crest
+UBERON:0003687 #foramen magnum
+UBERON:0013463 #temporal fossa
+http://xmlns.com/foaf/0.1/depicted_by #depicted_by
+UBERON:0002517 #basicranium
+UBERON:0011156 #viscerocranium
+UBERON:0001703 #neurocranium
+UBERON:0006970 #body core of horn
+UBERON:0003699 #pubic symphysis
+UBERON:3000774 #ilial shaft
+UBERON:0006803 #obturator foramen
+UBERON:0006802 #acetabular rim
+UBERON:0034983 #ischial tuberosity
+
+
+
+
+## WAITING FOR NEW RELEASE
+# UBERON:7500115 sagittal crest
+# UBERON:0013447 sagittal crest of skull
+# UBERON:7500109 basion
+# UBERON:7500110 synsphenion
+# UBERON:7500111 intersphenoid suture
+# UBERON:7500108 cheek tooth
+# UBERON:7500114 cheek tooth row
+# UBERON:7500112 prosthion
+# UBERON:7500113 akrokranion
+#hormion
+# UBERON:7500107 sphenovomerine suture
