@@ -357,6 +357,8 @@ Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_0001359>))
 Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_0001360>))
 Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_0001361>))
 Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_0001362>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_0001363>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_0001364>))
 Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_0001365>))
 Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_0001366>))
 Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_0001367>))
@@ -364,6 +366,12 @@ Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_0001368>))
 Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_0001369>))
 Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_0001370>))
 Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_0001371>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_0001372>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_0001373>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_0001374>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_0001375>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_0001376>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_0001377>))
 Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_2000000>))
 Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_2000001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_2000002>))
@@ -3645,7 +3653,8 @@ SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001358> ObjectSomeValuesFrom(<h
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001359> (pelvis length)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001359> "The length of a pelvis."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0001359> <http://purl.obolibrary.org/obo/IAO_0000423>)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001359> "The length of a pelvis along the proximal-distal axis."@en)
 AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_0001359> <https://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001359> "pelvis greatest length of one half (GL)"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001359> "pelvis length"@en)
@@ -3654,7 +3663,10 @@ SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001359> <http://purl.obolibrary
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001360> (acetabulum length (including the lip))
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0001360> <http://purl.obolibrary.org/obo/IAO_0000423>)
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001360> "The length of an acetabulum along the upper-lower axis."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/oba#measured_in_taxon> <http://purl.obolibrary.org/obo/FOVT_0001360> <http://purl.obolibrary.org/obo/NCBITaxon_9789>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/oba#measured_in_taxon> <http://purl.obolibrary.org/obo/FOVT_0001360> <http://purl.obolibrary.org/obo/NCBITaxon_9822>)
 AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_0001360> <https://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001360> "length of the acetabulum including the lip (LA)"@en)
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/FOVT_0001360> "This measurement includes the lip of the acetabulum."@en)
@@ -3663,7 +3675,10 @@ SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001360> <http://purl.obolibrary
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001361> (acetabulum length (to the rim))
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9004086161, 9789004086166") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001361> "The length of an acetabulum up to the rim of an acetabulum."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0001361> <http://purl.obolibrary.org/obo/IAO_0000423>)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9004086161, 9789004086166") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001361> "The length of an acetabulum up to the rim of an acetabulum along the upper-lower axis."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/oba#measured_in_taxon> <http://purl.obolibrary.org/obo/FOVT_0001361> <http://purl.obolibrary.org/obo/NCBITaxon_9789>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/oba#measured_in_taxon> <http://purl.obolibrary.org/obo/FOVT_0001361> <http://purl.obolibrary.org/obo/NCBITaxon_9822>)
 AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_0001361> <https://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9004086161, 9789004086166") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001361> "diameter of the acetabulum (M1)"@en)
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001361> "length of the acetabulum to the rim (LAR)"@en)
@@ -3673,11 +3688,37 @@ SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001361> <http://purl.obolibrary
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001362> (pubic symphysis length)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0001362> <http://purl.obolibrary.org/obo/IAO_0000423>)
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9780873659505") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001362> "The length of a pubic symphysis along the proximal-distal axis."@en)
 AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_0001362> <https://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001362> "length of the symphysis (LS)"@en)
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/FOVT_0001362> "This is only measured when the two halves of the pubis are fused."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001362> "pubic symphysis length"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0001362> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000122> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0003699>)))
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001362> <http://purl.obolibrary.org/obo/OBA_0002413>)
+
+# Class: <http://purl.obolibrary.org/obo/FOVT_0001363> (ilial shaft height)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0001363> <http://purl.obolibrary.org/obo/IAO_0000423>)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001363> "The length of an ilial shaft along the dorsal-ventral axis."@en)
+AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_0001363> <https://orcid.org/0000-0003-2699-3066>)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001363> "smallest height of the shaft of ilium (SH)"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001363> "ilial shaft height"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0001363> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000122> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_3000774>)))
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001363> <http://purl.obolibrary.org/obo/OBA_0002162>)
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001363> <http://purl.obolibrary.org/obo/OBA_0002413>)
+
+# Class: <http://purl.obolibrary.org/obo/FOVT_0001364> (ilial shaft breadth)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0001364> <http://purl.obolibrary.org/obo/IAO_0000423>)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001364> "The length of an ilial shaft along the medial-lateral axis."@en)
+AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_0001364> <https://orcid.org/0000-0003-2699-3066>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001364> "ilial shaft width"@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001364> "smallest breadth of the shaft of ilium (SB)"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001364> "ilial shaft breadth"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0001364> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000921> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_3000774>)))
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001364> <http://purl.obolibrary.org/obo/OBA_0002162>)
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001364> <http://purl.obolibrary.org/obo/OBA_0002413>)
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001365> (scapula lateral breadth)
 
@@ -3749,6 +3790,71 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001371> "ov
 EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0001371> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000921> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0000992>)))
 SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001371> <http://purl.obolibrary.org/obo/OBA_VT0001127>)
 
+# Class: <http://purl.obolibrary.org/obo/FOVT_0001372> (ilial shaft circumference)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0001372> <http://purl.obolibrary.org/obo/IAO_0000423>)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001372> "The circumference of an ilial shaft."@en)
+AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_0001372> <https://orcid.org/0000-0003-2699-3066>)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001372> "smallest circumference of the shaft of ilium (SC)"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001372> "ilial shaft circumference"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0001372> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001648> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_3000774>)))
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001372> <http://purl.obolibrary.org/obo/OBA_0002162>)
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001372> <http://purl.obolibrary.org/obo/OBA_0002413>)
+
+# Class: <http://purl.obolibrary.org/obo/FOVT_0001373> (foramen obturatum length)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0001373> <http://purl.obolibrary.org/obo/IAO_0000423>)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001373> "The length of a formaen obturatum along the proximal-distal axis."@en)
+AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_0001373> <https://orcid.org/0000-0003-2699-3066>)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001373> "inner foramen obturatum length (LFo)"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001373> "foramen obturatum length"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0001373> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000122> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0006803>)))
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001373> <http://purl.obolibrary.org/obo/OBA_0002413>)
+
+# Class: <http://purl.obolibrary.org/obo/FOVT_0001374> (tubera coxarum breadth)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0001374> <http://purl.obolibrary.org/obo/IAO_0000423>)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001374> "The length of a tubera coxarum."@en)
+AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_0001374> <https://orcid.org/0000-0003-2699-3066>)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001374> "greatest breadth across the tubera coxarum (GBTc)"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001374> "tubera coxarum width"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001374> "tubera coxarum breadth"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001374> <http://purl.obolibrary.org/obo/OBA_0002413>)
+
+# Class: <http://purl.obolibrary.org/obo/FOVT_0001375> (acetabula breadth)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0001375> <http://purl.obolibrary.org/obo/IAO_0000423>)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0001375> "greatest breadth across the acetabula (GBA)"@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001375> "The length of an acetabula along the medial-lateral axis."@en)
+AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_0001375> <https://orcid.org/0000-0003-2699-3066>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001375> "acetablua width"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001375> "acetabula breadth"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0001375> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000921> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0001269>)))
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001375> <http://purl.obolibrary.org/obo/OBA_0002413>)
+
+# Class: <http://purl.obolibrary.org/obo/FOVT_0001376> (tubera ischiadica breadth)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0001376> <http://purl.obolibrary.org/obo/IAO_0000423>)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001376> "The length of an ischial tuberosity along the medial-lateral axis."@en)
+AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_0001376> <https://orcid.org/0000-0003-2699-3066>)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001376> "greatest breadth across the tubera ischiadica (GBTi)"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001376> "tubera ischiadica width"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001376> "tubera ischiadica breadth"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0001376> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000122> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0034983>)))
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001376> <http://purl.obolibrary.org/obo/OBA_0002391>)
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001376> <http://purl.obolibrary.org/obo/OBA_0002413>)
+
+# Class: <http://purl.obolibrary.org/obo/FOVT_0001377> (ischia breadth)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0001377> <http://purl.obolibrary.org/obo/IAO_0000423>)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001377> "The length across both ischia along the medial-lateral axis."@en)
+AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_0001377> <https://orcid.org/0000-0003-2699-3066>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001377> "ischia width"@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001377> "smallest breadth across the bodies of the ischia (SBI)"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001377> "ischia breadth"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0001377> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000921> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0001274>)))
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001377> <http://purl.obolibrary.org/obo/OBA_0002413>)
+
 # Class: <http://purl.obolibrary.org/obo/FOVT_2000000> (choanal length)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_2000000> <http://purl.obolibrary.org/obo/IAO_0000423>)
@@ -3790,6 +3896,10 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_2000003> "muzzle minimal breadth"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/FOVT_2000003> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000122> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0012111>)))
 SubClassOf(<http://purl.obolibrary.org/obo/FOVT_2000003> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000122> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CARO_0000008> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002176> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BSPO_0000120> <http://purl.obolibrary.org/obo/UBERON_0012111>)) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002176> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BSPO_0000121> <http://purl.obolibrary.org/obo/UBERON_0012111>))))))
+
+# Class: <http://purl.obolibrary.org/obo/OBA_0002413> (pelvic girdle bone/zone size)
+
+SubClassOf(<http://purl.obolibrary.org/obo/OBA_0002413> <http://purl.obolibrary.org/obo/OBA_0002413>)
 
 # Class: <http://purl.obolibrary.org/obo/OBA_1000049> (pes length)
 
