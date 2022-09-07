@@ -1525,12 +1525,13 @@ SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001133> <http://purl.obolibrary
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001134> (radius diaphysis circumference)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0001134> <http://purl.obolibrary.org/obo/IAO_0000423>)
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001134> "The circumference of the diaphysis of a radius."@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/oba#measured_in_taxon> <http://purl.obolibrary.org/obo/FOVT_0001134> <http://purl.obolibrary.org/obo/NCBITaxon_9788>)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001134> "The circumference of a diaphysis of a radius."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/oba#measured_in_taxon> <http://purl.obolibrary.org/obo/FOVT_0001134> <http://purl.obolibrary.org/obo/NCBITaxon_9789>)
 AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_0001134> <https://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001134> "radius smallest circumference of diaphysis (CD)"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001134> "radius diaphysis circumference"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0001134> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001648> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0001028>)))
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001134> <http://purl.obolibrary.org/obo/OBA_0002374>)
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001135> (DEPRECATED metatarsal bone length)
 
@@ -1705,6 +1706,7 @@ AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/FOVT_0001151>
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0001152> <http://purl.obolibrary.org/obo/IAO_0000423>)
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001152> "The length of the dorsal side of a scapula along the proximal-distal axis."@en)
 AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_0001152> <https://orcid.org/0000-0003-2699-3066>)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") rdfs:comment <http://purl.obolibrary.org/obo/FOVT_0001152> "scapula greatest dorsal length (Ld)"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001152> "scapula dorsal length"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0001152> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000122> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BSPO_0000122> <http://purl.obolibrary.org/obo/UBERON_0006849>))))
 SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001152> <http://purl.obolibrary.org/obo/OBA_VT0004343>)
@@ -1712,9 +1714,8 @@ SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001152> <http://purl.obolibrary
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001153> (scapula spine length)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0001153> <http://purl.obolibrary.org/obo/IAO_0000423>)
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001153> "Length of a scapular spine along the proximal-distal axis."@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001153> "The length of a scapular spine along the proximal-distal axis."@en)
 AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_0001153> <https://orcid.org/0000-0003-2699-3066>)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001153> "length of scapular spine"@en)
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001153> "scapula height along the spine (HS)"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001153> "scapula spine length"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0001153> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000122> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0004651>)))
@@ -1725,8 +1726,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001153> <http://purl.obolibrary
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0001154> <http://purl.obolibrary.org/obo/IAO_0000423>)
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9004086161, 9789004086166") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001154> "The length of the neck of a scapula."@en)
 AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_0001154> <https://orcid.org/0000-0003-2699-3066>)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001154> "neck of scapula length"@en)
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9004086161, 9789004086166") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001154> "scapula minimal breadth"@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9004086161, 9789004086166") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001154> "scapula minimal breadth at the neck (M2)"@en)
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001154> "smallest length of the collum scapulae (SLC)"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001154> "scapula neck breadth"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0001154> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000921> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0018667>)))
@@ -1737,8 +1737,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001154> <http://purl.obolibrary
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0001155> <http://purl.obolibrary.org/obo/IAO_0000423>)
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9004086161, 9789004086166") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001155> "The length of a glenoid cavity."@en)
 AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_0001155> <https://orcid.org/0000-0003-2699-3066>)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001155> "length of glenoid process"@en)
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9004086161, 9789004086166") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001155> "scapula articular maximal breadth"@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9004086161, 9789004086166") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001155> "scapula articular maximal breadth (M4)"@en)
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001155> "scapula length of glenoid cavity (LG)"@en)
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/FOVT_0001155> "In non-anatomical humans (i.e., not Homo), this is measured along the anterior-posterior axis; in anatomical humans (Homo) this is measured along the superior-inferior (upper-lower) axis."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001155> "glenoid cavity length"@en)
@@ -1748,9 +1747,10 @@ SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001155> <http://purl.obolibrary
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001156> (glenoid cavity breadth)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0001156> <http://purl.obolibrary.org/obo/IAO_0000423>)
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9004086161, 9789004086166") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001156> "The width of the glenoid cavity (glenoid fossa) along the medial-lateral axis."@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9004086161, 9789004086166") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001156> "The length of a glenoid cavity (glenoid fossa) along the proximal-distal axis."@en)
 AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_0001156> <https://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001156> "scapula breadth of glenoid cavity (BG)"@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9004086161, 9789004086166") rdfs:comment <http://purl.obolibrary.org/obo/FOVT_0001156> "scapula articular maximal depth (M5)"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001156> "glenoid cavity breadth"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0001156> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000921> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0006657>)))
 SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001156> <http://purl.obolibrary.org/obo/OBA_VT0004343>)
@@ -1760,9 +1760,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001156> <http://purl.obolibrary
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0001157> <http://purl.obolibrary.org/obo/IAO_0000423>)
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9004086161, 9789004086166") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001157> "The depth of a scapula along the anterior-posterior axis."@en)
 AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_0001157> <https://orcid.org/0000-0003-2699-3066>)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001157> "depth of scapula"@en)
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9004086161, 9789004086166") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001157> "scapula maximal depth of spina"@en)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001157> "scapula maximal height"@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9004086161, 9789004086166") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001157> "scapula maximal depth of spina (M6)"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001157> "scapula depth"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0001157> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000921> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0006849>)))
 SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001157> <http://purl.obolibrary.org/obo/OBA_VT0004343>)
@@ -1820,7 +1818,8 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001162> "ulnar condyle width"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001162> "ulnar notch breadth"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001162> "ulnar condyle breadth"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001162> <http://purl.obolibrary.org/obo/FOVT_0001147>)
+EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0001162> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000921> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_7500079>)))
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001162> <http://purl.obolibrary.org/obo/OBA_0002374>)
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001163> (patella length)
 
@@ -1843,13 +1842,14 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001164> "pa
 EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0001164> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000921> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0002446>)))
 SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001164> <http://purl.obolibrary.org/obo/OBA_0002386>)
 
-# Class: <http://purl.obolibrary.org/obo/FOVT_0001165> (scapula lateral depth)
+# Class: <http://purl.obolibrary.org/obo/FOVT_0001165> (obsolete scapula lateral depth)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0001165> <http://purl.obolibrary.org/obo/IAO_0000423>)
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9004086161, 9789004086166") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001165> "The length along the anterior-posterior axis on the lateral edge of a scapula."@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9004086161, 9789004086166") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001165> "OBSOLETE The length on the lateral edge of a scapula along the anterior-posterior axis."@en)
 AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_0001165> <https://orcid.org/0000-0003-2699-3066>)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001165> "scapula lateral depth"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001165> <http://purl.obolibrary.org/obo/OBA_VT0004343>)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/FOVT_0001165> "does not exist"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001165> "obsolete scapula lateral depth"@en)
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/FOVT_0001165> "true"^^xsd:boolean)
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001166> (molar tooth 1 occlusal surface width)
 
@@ -3639,11 +3639,12 @@ SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001358> ObjectSomeValuesFrom(<h
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001365> (scapula lateral breadth)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0001365> <http://purl.obolibrary.org/obo/IAO_0000423>)
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9004086161, 9789004086166") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001365> "The length along the medial-lateral axis of the articular process on the lateral end of a scapula."@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9004086161, 9789004086166") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001365> "The length of the articular process on the lateral end of a scapula along the medial-lateral axis."@en)
 AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_0001365> <https://orcid.org/0000-0003-2699-3066>)
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001365> "scapula geatest length of the processus articularis (GLP)"@en)
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9004086161, 9789004086166") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001365> "scapula maximal breadth of the articular process"@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001365> "scapula geatest length of the processus articularis (glenoid process) (GLP)"@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9004086161, 9789004086166") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001365> "scapula maximal breadth of the articular process (M3)"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001365> "scapula lateral breadth"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0001365> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000921> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BSPO_0000126> <http://purl.obolibrary.org/obo/UBERON_0006849>))))
 SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001365> <http://purl.obolibrary.org/obo/OBA_VT0004343>)
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001366> (obsolete right testis length)
@@ -3781,6 +3782,4 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBEORN_7500082> "
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UBEORN_7500082> "true"^^xsd:boolean)
 
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_VT0004340> "scapula diagonal height (DHA)"@en)
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9004086161, 9789004086166") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_VT0004340> "scapula maximal length"@en)
 )
