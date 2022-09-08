@@ -1308,16 +1308,16 @@ SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001071> <http://purl.obolibrary
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001072> (ulna proximal articular breadth)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0001072> <http://purl.obolibrary.org/obo/IAO_0000423>)
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9004086161, 9789004086166") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001072> "The width of the facet for the humeral head of a radius along the medial-lateral axis."@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9004086161, 9789004086166") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001072> "The length of the humeral facet of an ulna along the medial-lateral axis."@en)
 AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_0001072> <https://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001072> "ulna  facies articularis proximalis breadth"@en)
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001072> "ulna breadth across the coronoid process, breadth of the proximal articular surface (BPC)"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001072> "ulna coronoid process breadth"@en)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001072> "ulna coronoid process length ML"@en)
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9004086161, 9789004086166") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001072> "ulna maximal articular breadth"@en)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001072> "ulna proximal articula length ML"@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9004086161, 9789004086166") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001072> "ulna maximal articular breadth (M3)"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001072> "ulna proximal articula width"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001072> "ulna proximal articular breadth"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001072> <http://purl.obolibrary.org/obo/FOVT_0001073>)
+EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0001072> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000921> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_4200203>)))
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001072> <http://purl.obolibrary.org/obo/OBA_0002379>)
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001073> (ulna width)
 
@@ -1336,7 +1336,8 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001074> "ulna smallest depth of the olecranon (SDO)"@en)
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/FOVT_0001074> "Olecranon depth is often measured at the epicondyles."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001074> "olecranon depth"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001074> <http://purl.obolibrary.org/obo/FOVT_0001073>)
+EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0001074> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001595> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0006810>)))
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001074> <http://purl.obolibrary.org/obo/OBA_0002379>)
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001075> (ulna lateral length)
 
@@ -1351,11 +1352,12 @@ SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001075> <http://purl.obolibrary
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001076> (ulna depth across the process anaconaeus)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0001076> <http://purl.obolibrary.org/obo/IAO_0000423>)
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9004086161, 9789004086166") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001076> "The width along the anterior-posterior axis of the proximal-most part of the facet that articulates with the humeral head on an ulna."@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9004086161, 9789004086166") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001076> "The length of the humeral facet of an ulna along the anterior-posterior axis."@en)
 AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_0001076> <https://orcid.org/0000-0003-2699-3066>)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001076> "ulna length AP across the process anaconaeus"@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9004086161, 9789004086166") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") rdfs:comment <http://purl.obolibrary.org/obo/FOVT_0001076> "depth across the processus anconaeus (M5) (DPA)"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001076> "ulna depth across the process anaconaeus"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001076> <http://purl.obolibrary.org/obo/FOVT_0001073>)
+EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0001076> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001595> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_4200203>)))
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001076> <http://purl.obolibrary.org/obo/OBA_0002379>)
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001077> (length of astragalus along the midline)
 
