@@ -372,6 +372,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_0001374>))
 Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_0001375>))
 Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_0001376>))
 Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_0001377>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_0001378>))
 Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_2000000>))
 Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_2000001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_2000002>))
@@ -628,7 +629,6 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0000022> ObjectIntersecti
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0000023> <http://purl.obolibrary.org/obo/IAO_0000423>)
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9004086161, 9789004086166") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0000023> "The length of a distal end of a caclcaneus along the medial-lateral axis."@en)
 AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_0000023> <https://orcid.org/0000-0003-2699-3066>)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0000023> "calcaneus distal length ML"@en)
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9004086161, 9789004086166") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0000023> "calcaneus distal maximal breadth (M6)"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0000023> "calcaneus distal width"@en)
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0000023> "calcaneus greatest breadth (GB)"@en)
@@ -1319,13 +1319,13 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001072> "ul
 EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0001072> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000921> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_4200203>)))
 SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001072> <http://purl.obolibrary.org/obo/OBA_0002379>)
 
-# Class: <http://purl.obolibrary.org/obo/FOVT_0001073> (ulna width)
+# Class: <http://purl.obolibrary.org/obo/FOVT_0001073> (obsolete ulna width)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0001073> <http://purl.obolibrary.org/obo/IAO_0000423>)
 AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_0001073> <https://orcid.org/0000-0003-2699-3066>)
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://orcid.org/0000-0003-2699-3066"@en) rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001073> "ulna width"@en)
-EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0001073> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000921> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0001424>)))
-SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001073> <http://purl.obolibrary.org/obo/OBA_0002379>)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/FOVT_0001073> "not needed"^^xsd:string)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://orcid.org/0000-0003-2699-3066"@en) rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001073> "obsolete ulna width"@en)
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/FOVT_0001073> "true"^^xsd:boolean)
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001074> (olecranon depth)
 
@@ -1382,16 +1382,17 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001078> "br
 EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0001078> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000921> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_7500093>)))
 SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001078> <http://purl.obolibrary.org/obo/OBA_0003330>)
 
-# Class: <http://purl.obolibrary.org/obo/FOVT_0001079> (calcaneus width)
+# Class: <http://purl.obolibrary.org/obo/FOVT_0001079> (obsolete calcaneus width)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0001079> <http://purl.obolibrary.org/obo/IAO_0000423>)
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://orcid.org/0000-0003-2699-3066") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001079> "The width of a calcaneus."@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://orcid.org/0000-0003-2699-3066") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001079> "OBSOLETE The width of a calcaneus."@en)
 AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_0001079> <https://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "DOI:10.1007/s00267-006-0240-8") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001079> "calcaneus CALD"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001079> "calcaneus breadth"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001079> "calcaneus length ML"@en)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001079> "calcaneus width"@en)
-EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0001079> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000921> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0001450>)))
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/FOVT_0001079> "not needed"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001079> "obsolete calcaneus width"@en)
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/FOVT_0001079> "true"^^xsd:boolean)
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001080> (calcaneus proximal breadth)
 
@@ -1672,16 +1673,15 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001146> "metapodial bone of digit 3 length"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001146> <http://purl.obolibrary.org/obo/FOVT_0001141>)
 
-# Class: <http://purl.obolibrary.org/obo/FOVT_0001147> (radius width)
+# Class: <http://purl.obolibrary.org/obo/FOVT_0001147> (obsolete radius width)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0001147> <http://purl.obolibrary.org/obo/IAO_0000423>)
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://orcid.org/0000-0003-2699-3066"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001147> "The width of a radius."@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://orcid.org/0000-0003-2699-3066"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001147> "OBSOLETE The width of a radius."@en)
 AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_0001147> <https://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001147> "radius breadth"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001147> "width of radius bone"@en)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001147> "radius width"@en)
-EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0001147> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000921> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0001423>)))
-SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001147> <http://purl.obolibrary.org/obo/OBA_0002374>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001147> "obsolete radius width"@en)
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/FOVT_0001147> "true"^^xsd:boolean)
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001148> (obsolete radius distal width)
 
@@ -3867,6 +3867,16 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001377> "ischia breadth"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0001377> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000921> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0001274>)))
 SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001377> <http://purl.obolibrary.org/obo/OBA_0002413>)
+
+# Class: <http://purl.obolibrary.org/obo/FOVT_0001378> (calcaneus lateral depth)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0001378> <http://purl.obolibrary.org/obo/IAO_0000423>)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://ethnobiology.org/sites/default/files/pdfs/JoE/7-1/Purdue1987.pdf") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001378> "The length of the lateral side of a calcaneus along the proximal-distal axis."@en)
+AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_0001378> <https://orcid.org/0000-0003-2699-3066>)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://ethnobiology.org/sites/default/files/pdfs/JoE/7-1/Purdue1987.pdf") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001378> "lateral depth of the calcaneum (CALD)"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001378> "calcaneus lateral depth"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0001378> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001595> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BSPO_0000126> <http://purl.obolibrary.org/obo/UBERON_0001450>))))
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001378> <http://purl.obolibrary.org/obo/OBA_0003330>)
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_2000000> (choanal length)
 
