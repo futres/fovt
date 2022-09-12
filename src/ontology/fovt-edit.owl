@@ -3942,6 +3942,7 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_2000004> "su
 EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_2000004> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000122> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_2001783>)))
 SubClassOf(<http://purl.obolibrary.org/obo/FOVT_2000004> <http://purl.obolibrary.org/obo/OBA_0003980>)
 SubClassOf(<http://purl.obolibrary.org/obo/FOVT_2000004> <http://purl.obolibrary.org/obo/OBA_VT0003104>)
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_2000004> <http://purl.obolibrary.org/obo/OBA_VT0010517>)
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_2000005> (foramen magnum breadth)
 
@@ -3965,6 +3966,7 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_2000005> "fo
 EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_2000005> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000921> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0003687>)))
 SubClassOf(<http://purl.obolibrary.org/obo/FOVT_2000005> <http://purl.obolibrary.org/obo/OBA_0002346>)
 SubClassOf(<http://purl.obolibrary.org/obo/FOVT_2000005> <http://purl.obolibrary.org/obo/OBA_VT0003104>)
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_2000005> <http://purl.obolibrary.org/obo/OBA_VT0005273>)
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_2000006> (foramen magnum height)
 
@@ -3987,6 +3989,7 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_2000006> "fo
 EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_2000006> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000119> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0003687>)))
 SubClassOf(<http://purl.obolibrary.org/obo/FOVT_2000006> <http://purl.obolibrary.org/obo/OBA_0002346>)
 SubClassOf(<http://purl.obolibrary.org/obo/FOVT_2000006> <http://purl.obolibrary.org/obo/OBA_VT0003104>)
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_2000006> <http://purl.obolibrary.org/obo/OBA_VT0005273>)
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_2000007> (occipital breadth)
 
