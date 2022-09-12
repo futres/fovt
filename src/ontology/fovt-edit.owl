@@ -3985,6 +3985,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.ob
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_2000007> "The length of a line from the temporal fossa on the left side of the skull to the temporal fossa on the right side of the skull of an occipital region."@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/oba#measured_in_taxon> <http://purl.obolibrary.org/obo/FOVT_2000007> <http://purl.obolibrary.org/obo/NCBITaxon_9903>)
 AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_2000007> <https://orcid.org/0000-0001-8415-4848>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_2000007> "least occipital breadth"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_2000007> "occipital width"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_2000007> "occipital breadth"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_2000007> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000921> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0005902>)))
