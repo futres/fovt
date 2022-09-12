@@ -55,3 +55,4 @@ OBA:VT0003104 #skull size
 OBA:VT0010517 #neurocranium size
 OBA:0006029 #horn size
 OBA_0003100 #hard palate size
+OBA_0004900 #vomer size
