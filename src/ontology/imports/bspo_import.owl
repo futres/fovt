@@ -2953,6 +2953,36 @@ For example, A and B may be gene products and binding of B by A positively regul
     
 
 
+    <!-- http://purl.obolibrary.org/obo/BSPO_0000009 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSPO_0000009">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSPO_0000417"/>
+        <obo:IAO_0000115>Sagittal plane that divides bilateral body into equal left and right parts.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>FMA:74563</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>median sagittal plane</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>midline plane</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>midsagittal section</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>spatial</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>median plane</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>BSPO:0000009</oboInOwl:id>
+        <rdfs:comment>only in bilaterally symmetrical organisms</rdfs:comment>
+        <rdfs:label>midsagittal plane</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BSPO_0000009"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Sagittal plane that divides bilateral body into equal left and right parts.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BSPO:mah</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BSPO_0000009"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>median sagittal plane</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>FMA:74563</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/BSPO_0000010 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSPO_0000010">
