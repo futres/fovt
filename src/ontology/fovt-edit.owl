@@ -3957,6 +3957,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_2000005> "greatest breadth of foramen magnum"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_2000005> "foramen magnum breadth"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_2000005> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000921> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0003687>)))
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_2000005> <http://purl.obolibrary.org/obo/OBA_0002346>)
 SubClassOf(<http://purl.obolibrary.org/obo/FOVT_2000005> <http://purl.obolibrary.org/obo/OBA_VT0003104>)
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_2000006> (foramen magnum height)
@@ -3977,6 +3978,7 @@ AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_200
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_2000006> "height of the foramen magnum"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_2000006> "foramen magnum height"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_2000006> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000119> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0003687>)))
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_2000006> <http://purl.obolibrary.org/obo/OBA_0002346>)
 SubClassOf(<http://purl.obolibrary.org/obo/FOVT_2000006> <http://purl.obolibrary.org/obo/OBA_VT0003104>)
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_2000007> (occipital breadth)
