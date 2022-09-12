@@ -22,3 +22,4 @@ BSPO:0030003 #dorsalmost part of
 BSPO:0030004 #anteriormost part of
 BSPO:0030005 #lateralmost part of
 BSPO:0030007 #medialmost part of
+BSPO:0000009 #midsagittal plane
