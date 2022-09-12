@@ -3942,14 +3942,14 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_2000004> ObjectIntersecti
 SubClassOf(<http://purl.obolibrary.org/obo/FOVT_2000004> <http://purl.obolibrary.org/obo/OBA_0002546>)
 SubClassOf(<http://purl.obolibrary.org/obo/FOVT_2000004> <http://purl.obolibrary.org/obo/OBA_VT0003104>)
 
-# Class: <http://purl.obolibrary.org/obo/FOVT_2000005> (bony part of palate length)
+# Class: <http://purl.obolibrary.org/obo/FOVT_2000005> (bony part of hard palate length)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_2000005> <http://purl.obolibrary.org/obo/IAO_0000423>)
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9004086161, 9789004086166") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_2000005> "The length of a skull from a midsagittal plane along left-right axis on anteriormost part of cheekteeth to a anteriormost part of choanal groove."@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/oba#measured_in_taxon> <http://purl.obolibrary.org/obo/FOVT_2000005> <http://purl.obolibrary.org/obo/NCBITaxon_9788>)
 AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_2000005> <https://orcid.org/0000-0001-8415-4848>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_2000005> "palatal length"@en)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_2000005> "bony part of palate length"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_2000005> "bony part of hard palate length"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_2000005> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000122> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0012074>)))
 SubClassOf(<http://purl.obolibrary.org/obo/FOVT_2000005> <http://purl.obolibrary.org/obo/OBA_0002546>)
 SubClassOf(<http://purl.obolibrary.org/obo/FOVT_2000005> <http://purl.obolibrary.org/obo/OBA_VT0003104>)
@@ -3983,7 +3983,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/FOVT_2000007> <http://purl.obolibrary
 # Class: <http://purl.obolibrary.org/obo/FOVT_2000008> (basicranium length)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_2000008> <http://purl.obolibrary.org/obo/IAO_0000423>)
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9780873659505") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_2000008> "The length of a line of a basicranium."@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9780873659505") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_2000008> "The length of a basicranium."@en)
 AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_2000008> <https://orcid.org/0000-0001-8415-4848>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_2000008> "basicranium length"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/FOVT_2000008> <http://purl.obolibrary.org/obo/OBA_VT0003104>)
