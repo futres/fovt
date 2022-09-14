@@ -204,7 +204,7 @@ UBERON:3000774 #ilial shaft
 UBERON:0006803 #obturator foramen
 UBERON:0006802 #acetabular rim
 UBERON:0034983 #ischial tuberosity
-
+UBERON:0012111 #diastema
 
 
 
@@ -218,5 +218,6 @@ UBERON:0034983 #ischial tuberosity
 # UBERON:7500114 cheek tooth row
 # UBERON:7500112 prosthion
 # UBERON:7500113 akrokranion
-#hormion
+# UBERON:7500106  hormion
 # UBERON:7500107 sphenovomerine suture
+# UBERON:7500117 opisthocranion
