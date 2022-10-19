@@ -4161,7 +4161,6 @@ AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_200
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/FOVT_2000018> "condylobasal length"@en)
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") rdfs:comment <http://purl.obolibrary.org/obo/FOVT_2000018> "The following is the measurement number and genus for this trait in von den Driesch (1979): 2 Equus, 2 Camelus, 2 Bos, 2 Ovis and Capra, 2 Cervus, 2 Sus, 2 Canis and Ursus, 2 Felis, 2 Lepus and Oryctolagus."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_2000018> "cranium ventral length from occipital condyle"@en)
-EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_2000018> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000122> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0003128>)))
 SubClassOf(<http://purl.obolibrary.org/obo/FOVT_2000018> <http://purl.obolibrary.org/obo/OBA_0005564>)
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_2000019> (cranium ventral length from basion)
@@ -4185,7 +4184,6 @@ AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_200
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/FOVT_2000019> "basal length"@en)
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") rdfs:comment <http://purl.obolibrary.org/obo/FOVT_2000019> "The following is the measurement number and genus for this trait in von den Driesch (1979): 3 Equus, 3 Camelus, 3 Bos, 3 Ovis and Capra, 3 Cervus, 3 Sus, 3 Canis and Ursus, 3 Felis, 3 Lepus and Oryctolagus."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_2000019> "cranium ventral length from basion"@en)
-EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_2000019> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000122> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0003128>)))
 SubClassOf(<http://purl.obolibrary.org/obo/FOVT_2000019> <http://purl.obolibrary.org/obo/OBA_0005564>)
 
 # Class: <http://purl.obolibrary.org/obo/OBA_0002413> (pelvic girdle bone/zone size)
