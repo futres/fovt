@@ -390,6 +390,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_2000013>))
 Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_2000014>))
 Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_2000015>))
 Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_2000016>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_2000020>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_91561>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_9788>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_9845>))
@@ -4125,8 +4126,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSyno
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9004086161, 9789004086166") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/FOVT_2000015> "occipital height (M22)"@en)
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9780873659505") rdfs:comment <http://purl.obolibrary.org/obo/FOVT_2000015> "The following is the measurement number and genus for this trait in von den Driesch (1979): 41 Bos."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_2000015> "occipital region height from opisthion"@en)
-EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_2000015> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000119> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0005902>)))
-SubClassOf(<http://purl.obolibrary.org/obo/FOVT_2000015> <http://purl.obolibrary.org/obo/OBA_VT0005273>)
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_2000015> <http://purl.obolibrary.org/obo/FOVT_2000020>)
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_2000016> (occipital region height from basion)
 
@@ -4146,8 +4146,14 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/FOVT_2000016> "skull height"@en)
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9780873659505") rdfs:comment <http://purl.obolibrary.org/obo/FOVT_2000016> "The following is the measurement number and genus for this trait in von den Driesch (1979): 50 Equus, 30 Camelus, 40 Bos, 38 Cervus, 38 Canis and Ursus."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_2000016> "occipital region height from basion"@en)
-EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_2000016> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000119> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0005902>)))
-SubClassOf(<http://purl.obolibrary.org/obo/FOVT_2000016> <http://purl.obolibrary.org/obo/OBA_VT0005273>)
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_2000016> <http://purl.obolibrary.org/obo/FOVT_2000020>)
+
+# Class: <http://purl.obolibrary.org/obo/FOVT_2000020> (occipital region height)
+
+AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_2000020> <https://orcid.org/0000-0001-8415-4848>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_2000020> "occipital region height"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_2000020> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000119> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0005902>)))
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_2000020> <http://purl.obolibrary.org/obo/OBA_VT0005273>)
 
 # Class: <http://purl.obolibrary.org/obo/OBA_0002413> (pelvic girdle bone/zone size)
 
