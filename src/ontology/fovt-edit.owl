@@ -4150,6 +4150,8 @@ SubClassOf(<http://purl.obolibrary.org/obo/FOVT_2000016> <http://purl.obolibrary
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_2000020> (occipital region height)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_2000020> <http://purl.obolibrary.org/obo/IAO_0000423>)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9780873659505") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_2000020> "The length of an occipital region along the midsagittal axis."@en)
 AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_2000020> <https://orcid.org/0000-0001-8415-4848>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_2000020> "occipital region height"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_2000020> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000119> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0005902>)))
