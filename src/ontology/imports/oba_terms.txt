@@ -57,3 +57,4 @@ OBA:0003100 #hard palate size
 OBA:0004900 #vomer size
 OBA:0006029   #horn size
 OBA:0003980   #supraoccipital bone size
+OBA:0005564   #cranium length
