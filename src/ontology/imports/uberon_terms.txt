@@ -205,6 +205,7 @@ UBERON:0006803 #obturator foramen
 UBERON:0006802 #acetabular rim
 UBERON:0034983 #ischial tuberosity
 UBERON:0012111 #diastema
+UBERON:0006967 #horn
 
 
 
