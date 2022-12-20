@@ -223,3 +223,5 @@ UBERON:0006967 #horn
 # UBERON:7500107 sphenovomerine suture
 # UBERON:7500117 opisthocranion
 # UBERON:7500119 ectorbitale
+# UBERON:7500120 zygion
+# UBERON:7500121 paroccipital process
