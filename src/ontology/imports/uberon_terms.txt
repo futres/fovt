@@ -206,22 +206,18 @@ UBERON:0006802 #acetabular rim
 UBERON:0034983 #ischial tuberosity
 UBERON:0012111 #diastema
 UBERON:0006967 #horn
-
-
-
-## WAITING FOR NEW RELEASE
-# UBERON:7500115 sagittal crest
-# UBERON:0013447 sagittal crest of skull
-# UBERON:7500109 basion
-# UBERON:7500110 synsphenion
-# UBERON:7500111 intersphenoid suture
-# UBERON:7500108 cheek tooth
-# UBERON:7500114 cheek tooth row
-# UBERON:7500112 prosthion
-# UBERON:7500113 akrokranion
-# UBERON:7500106  hormion
-# UBERON:7500107 sphenovomerine suture
-# UBERON:7500117 opisthocranion
-# UBERON:7500119 ectorbitale
-# UBERON:7500120 zygion
-# UBERON:7500121 paroccipital process
+UBERON:7500115 #sagittal crest
+UBERON:0013447 #sagittal crest of skull
+UBERON:7500109 #basion
+UBERON:7500110 #synsphenion
+UBERON:7500111 #intersphenoid suture
+UBERON:7500108 #cheek tooth
+UBERON:7500114 #cheek tooth row
+UBERON:7500112 #prosthion
+UBERON:7500113 #akrokranion
+UBERON:7500106 #hormion
+UBERON:7500107 #sphenovomerine suture
+UBERON:7500117 #opisthocranion
+UBERON:7500119 #ectorbitale
+UBERON:7500120 #zygion
+UBERON:7500121 #paroccipital process
