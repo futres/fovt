@@ -395,6 +395,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_2000017>))
 Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_2000018>))
 Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_2000019>))
 Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_2000020>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_2000025>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_91561>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_9788>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_9845>))
@@ -4241,6 +4242,13 @@ AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_200
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_2000020> "occipital region height"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_2000020> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000119> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0005902>)))
 SubClassOf(<http://purl.obolibrary.org/obo/FOVT_2000020> <http://purl.obolibrary.org/obo/OBA_VT0005273>)
+
+# Class: <http://purl.obolibrary.org/obo/FOVT_2000025> (cranium ventral length from incisors)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_2000025> <>)
+AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_2000025> <https://orcid.org/0000-0001-8415-4848>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_2000025> "cranium ventral length from incisors"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_2000025> <http://purl.obolibrary.org/obo/OBA_0005564>)
 
 # Class: <http://purl.obolibrary.org/obo/OBA_0002413> (pelvic girdle bone/zone size)
 
