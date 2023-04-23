@@ -395,6 +395,10 @@ Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_0001397>))
 Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_0001398>))
 Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_0001399>))
 Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_0001400>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_0001401>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_0001402>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_0001403>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_0001404>))
 Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_2000000>))
 Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_2000001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_2000002>))
@@ -4197,6 +4201,42 @@ AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_000
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#editor_note> <http://purl.obolibrary.org/obo/FOVT_0001400> "need to add talonid")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001400> "lower secondary molar tooth 3 talonid length"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001400> <http://purl.obolibrary.org/obo/OBA_0004257>)
+
+# Class: <http://purl.obolibrary.org/obo/FOVT_0001401> (lower secondary molar tooth 4 trigonid width)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0001401> <http://purl.obolibrary.org/obo/IAO_0000423>)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://orcid.org/0000-0003-2699-3066") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001401> "The width of a lower secondary molar tooth 4 trigonid along the left-right axis.")
+AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_0001401> <https://orcid.org/0000-0003-2699-3066>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#editor_note> <http://purl.obolibrary.org/obo/FOVT_0001401> "need to add trigonid")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001401> "lower secondary molar tooth 4 trigonid width"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001401> <http://purl.obolibrary.org/obo/OBA_0004257>)
+
+# Class: <http://purl.obolibrary.org/obo/FOVT_0001402> (lower secondary molar tooth 4 trigonid length)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0001402> <http://purl.obolibrary.org/obo/IAO_0000423>)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://orcid.org/0000-0003-2699-3066") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001402> "The length of a lower secondary molar tooth 4 trigonid along the anterior-posterior axis.")
+AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_0001402> <https://orcid.org/0000-0003-2699-3066>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#editor_note> <http://purl.obolibrary.org/obo/FOVT_0001402> "need to add trigonid")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001402> "lower secondary molar tooth 4 trigonid length"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001402> <http://purl.obolibrary.org/obo/OBA_0004257>)
+
+# Class: <http://purl.obolibrary.org/obo/FOVT_0001403> (lower secondary molar tooth 4 talonid width)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0001403> <http://purl.obolibrary.org/obo/IAO_0000423>)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://orcid.org/0000-0003-2699-3066") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001403> "The width of a lower secondary molar tooth 4 talonid along the left-right axis.")
+AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_0001403> <https://orcid.org/0000-0003-2699-3066>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#editor_note> <http://purl.obolibrary.org/obo/FOVT_0001403> "need to add talonid")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001403> "lower secondary molar tooth 4 talonid width"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001403> <http://purl.obolibrary.org/obo/OBA_0004257>)
+
+# Class: <http://purl.obolibrary.org/obo/FOVT_0001404> (lower secondary molar tooth 4 talonid length)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0001404> <http://purl.obolibrary.org/obo/IAO_0000423>)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://orcid.org/0000-0003-2699-3066") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001404> "The length of a lower secondary molar tooth 4 talonid along the anterior-posterior axis.")
+AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_0001404> <https://orcid.org/0000-0003-2699-3066>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#editor_note> <http://purl.obolibrary.org/obo/FOVT_0001404> "need to add talonid")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001404> "lower secondary molar tooth 4 talonid length"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001404> <http://purl.obolibrary.org/obo/OBA_0004257>)
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_2000000> (choana length)
 
