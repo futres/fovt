@@ -374,6 +374,13 @@ Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_0001376>))
 Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_0001377>))
 Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_0001378>))
 Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_0001379>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_0001405>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_0001406>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_0001407>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_0001408>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_0001409>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_0001410>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_0001411>))
 Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_2000000>))
 Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_2000001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_2000002>))
@@ -485,7 +492,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.ob
 AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_0000007> <https://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0000007> "femur greatest length from caput femoris (GLC)"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0000007> "femur medial length"@en)
-AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/FOVT_0000007> "term doesn't exist, it should be lateral condyle"^^xsd:string)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/FOVT_0000007> "term doesn't exist, it should be lateral condyle")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0000007> "obsolete femur length from caput to medial condyle"@en)
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/FOVT_0000007> "true"^^xsd:boolean)
 
@@ -518,7 +525,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.ob
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0000010> "astragalus greatest breadth distal")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0000010> "talus distal width ML")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0000010> "talus head width")
-AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/FOVT_0000010> "Redundant with FOVT:0000017"^^xsd:string)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/FOVT_0000010> "Redundant with FOVT:0000017")
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/FOVT_0000010> "astragalus head breadth")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0000010> "obsolete talus distal articular breadth"@en)
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/FOVT_0000010> "true"^^xsd:boolean)
@@ -529,7 +536,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.ob
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0000012> "OBSOLETE Length between the proximal-most points of the medial and lateral trochlear ridges of an astragalus.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0000012> "breadth of the trochlea")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0000012> "breadth of the trochlea of talus")
-AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/FOVT_0000012> "This is not a measurement FOVT has a need for."^^xsd:string)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/FOVT_0000012> "This is not a measurement FOVT has a need for.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0000012> "obsolete width of the trochlea of talus"@en)
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/FOVT_0000012> "true"^^xsd:boolean)
 
@@ -553,7 +560,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.ob
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0000014> "astragalus medial depth"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0000014> "astragalus medial width AP"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0000014> "talus medial width AP"@en)
-AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/FOVT_0000014> "duplicate term"^^xsd:string)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/FOVT_0000014> "duplicate term")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0000014> "obsolete talus medial depth"@en)
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/FOVT_0000014> "true"^^xsd:boolean)
 
@@ -562,7 +569,7 @@ AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/FOVT_0000014>
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0000015> <http://purl.obolibrary.org/obo/IAO_0000423>)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0000015> "OBSOLETE Length of the lateral side of an astragalus.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/FOVT_0000015> <https://purl.obolibrary.org/obo/FOVT_0000013>)
-AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/FOVT_0000015> "Redundant term"^^xsd:string)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/FOVT_0000015> "Redundant term")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0000015> "obsolete length of the lateral side of talus"@en)
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/FOVT_0000015> "true"^^xsd:boolean)
 
@@ -672,7 +679,7 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/FOVT_0000026> <https://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/FOVT_0000026> <http://purl.obolibrary.org/obo/OBA_VT1000289>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <http://purl.obolibrary.org/obo/FOVT_0000026> "tibia width")
-AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/FOVT_0000026> "unneeded term"^^xsd:string)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/FOVT_0000026> "unneeded term")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0000026> "obsolete tibia diaphysis width"@en)
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/FOVT_0000026> "true"^^xsd:boolean)
 
@@ -683,7 +690,7 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/FOVT_0000027> <https://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/FOVT_0000027> <http://purl.obolibrary.org/obo/FOVT_0001006>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0000027> "breadth of proximal end of tibia")
-AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/FOVT_0000027> "not needed"^^xsd:string)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/FOVT_0000027> "not needed")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0000027> "obsolete tibia proximal width"@en)
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/FOVT_0000027> "true"^^xsd:boolean)
 
@@ -694,7 +701,7 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/FOVT_0000028> <https://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/FOVT_0000028> <http://purl.obolibrary.org/obo/FOVT_0001004>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0000028> "breadth of distal end of tibia")
-AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/FOVT_0000028> "not needed"^^xsd:string)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/FOVT_0000028> "not needed")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0000028> "obsolete tibia distal width"@en)
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/FOVT_0000028> "true"^^xsd:boolean)
 
@@ -704,7 +711,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.ob
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0000029> "OBSOLETE The depth of the distal end of a tibia.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/FOVT_0000029> <https://purl.obolibrary.org/obo/FOVT_0001004>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0000029> "tibia distal width ML")
-AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/FOVT_0000029> "duplicate term"^^xsd:string)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/FOVT_0000029> "duplicate term")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0000029> "obsolete tibia distal breadth"@en)
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/FOVT_0000029> "true"^^xsd:boolean)
 
@@ -827,7 +834,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.ob
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "Eisenmann, Véra, and V. Eisenmann Michael O. Woodburne PY. Studying Fossil Horses: Collected Papers After the New York International Hipparion Conference, 1981. Vol. 1. Brill Archive, 1988."@en) Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "von den Driesch, Angela. A guide to the measurement of animal bones from archaeological sites: as developed by the Institut für Palaeoanatomie, Domestikationsforschung und Geschichte der Tiermedizin of the University of Munich . Vol. 1. Peabody Museum Press, 1976."@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001022> "OBSOLETE The greatest length of a tibia from the proximal-most point of a tibia to the distal-most point of a tibia."@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/FOVT_0001022> <https://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/FOVT_0001022> <http://purl.obolibrary.org/obo/OBA_VT0004357>)
-AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/FOVT_0001022> "duplicate of a term in OBA"^^xsd:string)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/FOVT_0001022> "duplicate of a term in OBA")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001022> "obsolete tibia greatest length"@en)
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/FOVT_0001022> "true"^^xsd:boolean)
 
@@ -1046,7 +1053,7 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/FOVT_0001041> <https://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/FOVT_0001041> <http://purl.obolibrary.org/obo/FOVT_0000021>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001041> "talus width"@en)
-AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/FOVT_0001041> "same as astragalus breadth"^^xsd:string)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/FOVT_0001041> "same as astragalus breadth")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001041> "obsolete astragalus width"@en)
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/FOVT_0001041> "true"^^xsd:boolean)
 
@@ -1265,7 +1272,7 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/FOVT_0001066> <http://purl.obolibrary.org/obo/FOVT_0001038>)
 AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_0001066> <https://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001066> "humerus proximal length AP at median tubercule"@en)
-AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/FOVT_0001066> "Redundant with another term"^^xsd:string)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/FOVT_0001066> "Redundant with another term")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001066> "obsolete humerus proximal depth at median tubercle"@en)
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/FOVT_0001066> "true"^^xsd:boolean)
 
@@ -1342,7 +1349,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001072> <http://purl.obolibrary
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0001073> <http://purl.obolibrary.org/obo/IAO_0000423>)
 AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_0001073> <https://orcid.org/0000-0003-2699-3066>)
-AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/FOVT_0001073> "not needed"^^xsd:string)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/FOVT_0001073> "not needed")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://orcid.org/0000-0003-2699-3066"@en) rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001073> "obsolete ulna width"@en)
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/FOVT_0001073> "true"^^xsd:boolean)
 
@@ -1409,7 +1416,7 @@ AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_000
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "DOI:10.1007/s00267-006-0240-8") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001079> "calcaneus CALD"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001079> "calcaneus breadth"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001079> "calcaneus length ML"@en)
-AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/FOVT_0001079> "not needed"^^xsd:string)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/FOVT_0001079> "not needed")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001079> "obsolete calcaneus width"@en)
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/FOVT_0001079> "true"^^xsd:boolean)
 
@@ -1582,7 +1589,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001134> <http://purl.obolibrary
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001135> (DEPRECATED metatarsal bone length)
 
-AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/FOVT_0001135> "already in OBA"^^xsd:string)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/FOVT_0001135> "already in OBA")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001135> "DEPRECATED metatarsal bone length"@en)
 AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/FOVT_0001135> <http://purl.obolibrary.org/obo/OBA_0004033>)
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/FOVT_0001135> "true"^^xsd:boolean)
@@ -1594,7 +1601,7 @@ AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "Eis
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/FOVT_0001136> <http://purl.obolibrary.org/obo/OBA_0003272>)
 AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/FOVT_0001136> "2021-06-03T22:41:34Z"^^xsd:dateTime)
 AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_0001136> <https://orcid.org/0000-0003-2699-3066>)
-AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/FOVT_0001136> "already exists"^^xsd:string)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/FOVT_0001136> "already exists")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001136> "obsolete metatarsal bone of digit 2 length"@en)
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/FOVT_0001136> "true"^^xsd:boolean)
 
@@ -1605,7 +1612,7 @@ AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "Eis
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/FOVT_0001137> <http://purl.obolibrary.org/obo/OBA_0002565>)
 AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/FOVT_0001137> "2021-06-03T22:44:56Z"^^xsd:dateTime)
 AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_0001137> <https://orcid.org/0000-0003-2699-3066>)
-AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/FOVT_0001137> "class already exists"^^xsd:string)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/FOVT_0001137> "class already exists")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001137> "obsolete metatarsal bone of digit 3 length"@en)
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/FOVT_0001137> "true"^^xsd:boolean)
 
@@ -1616,7 +1623,7 @@ AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "Eis
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/FOVT_0001138> <http://purl.obolibrary.org/obo/OBA_0002567>)
 AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/FOVT_0001138> "2021-06-03T22:46:16Z"^^xsd:dateTime)
 AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_0001138> <https://orcid.org/0000-0003-2699-3066>)
-AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/FOVT_0001138> "class already exists"^^xsd:string)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/FOVT_0001138> "class already exists")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001138> "obsolete metatarsal bone of digit 4 length"@en)
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/FOVT_0001138> "true"^^xsd:boolean)
 
@@ -1627,7 +1634,7 @@ AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "von
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/FOVT_0001139> <http://purl.obolibrary.org/obo/OBA_0002569>)
 AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/FOVT_0001139> "2021-06-03T22:50:27Z"^^xsd:dateTime)
 AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_0001139> <https://orcid.org/0000-0003-2699-3066>)
-AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/FOVT_0001139> "class already exists"^^xsd:string)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/FOVT_0001139> "class already exists")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001139> "obsolete metatarsal bone of digit 5 length"@en)
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/FOVT_0001139> "true"^^xsd:boolean)
 
@@ -1710,7 +1717,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.ob
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://orcid.org/0000-0003-2699-3066"@en) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001148> "OBSOLETE The width of the distal end of a radius."@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/FOVT_0001148> <http://purl.obolibrary.org/obo/FOVT_0001132>)
 AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_0001148> <https://orcid.org/0000-0003-2699-3066>)
-AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/FOVT_0001148> "not needed"^^xsd:string)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/FOVT_0001148> "not needed")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001148> "obsolete radius distal width"@en)
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/FOVT_0001148> "true"^^xsd:boolean)
 
@@ -1721,7 +1728,7 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/FOVT_0001149> <http://purl.obolibrary.org/obo/FOVT_0001147>)
 AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/FOVT_0001149> "2021-06-17T00:54:08Z"^^xsd:dateTime)
 AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_0001149> <https://orcid.org/0000-0003-2699-3066>)
-AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/FOVT_0001149> "unneeded term"^^xsd:string)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/FOVT_0001149> "unneeded term")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001149> "obsolete radius proximal width"@en)
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/FOVT_0001149> "true"^^xsd:boolean)
 
@@ -1732,7 +1739,7 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/FOVT_0001150> <http://purl.obolibrary.org/obo/FOVT_0001147>)
 AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/FOVT_0001150> "2021-06-17T00:57:18Z"^^xsd:dateTime)
 AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_0001150> <https://orcid.org/0000-0003-2699-3066>)
-AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/FOVT_0001150> "unneeded term"^^xsd:string)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/FOVT_0001150> "unneeded term")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001150> "obsolete radius proximal articular width"@en)
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/FOVT_0001150> "true"^^xsd:boolean)
 
@@ -1743,7 +1750,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.ob
 AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/FOVT_0001151> "2021-07-22T21:20:50Z"^^xsd:dateTime)
 AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_0001151> <https://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001151> "length of fibula"@en)
-AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/FOVT_0001151> "Already exists in OBA."^^xsd:string)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/FOVT_0001151> "Already exists in OBA.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001151> "obsolete fibula length"@en)
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/FOVT_0001151> "true"^^xsd:boolean)
 
@@ -1821,7 +1828,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.ob
 AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/FOVT_0001158> "2021-07-27T23:38:42Z"^^xsd:dateTime)
 AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_0001158> <https://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001158> <http://purl.obolibrary.org/obo/IAO_0000423>)
-AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/FOVT_0001158> "unneeded"^^xsd:string)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/FOVT_0001158> "unneeded")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001158> "obsolete radius diaphysis width"@en)
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/FOVT_0001158> "true"^^xsd:boolean)
 
@@ -1840,7 +1847,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.ob
 AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/FOVT_0001160> "2021-07-27T23:59:50Z"^^xsd:dateTime)
 AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_0001160> <https://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/FOVT_0001160> <http://purl.obolibrary.org/obo/IAO_0000423>)
-AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/FOVT_0001160> "Term already exists."^^xsd:string)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/FOVT_0001160> "Term already exists.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001160> "obsolete skin mass"@en)
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/FOVT_0001160> "true"^^xsd:boolean)
 
@@ -1896,7 +1903,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001164> <http://purl.obolibrary
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0001165> <http://purl.obolibrary.org/obo/IAO_0000423>)
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9004086161, 9789004086166") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001165> "OBSOLETE The length on the lateral edge of a scapula along the anterior-posterior axis."@en)
 AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_0001165> <https://orcid.org/0000-0003-2699-3066>)
-AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/FOVT_0001165> "does not exist"^^xsd:string)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/FOVT_0001165> "does not exist")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001165> "obsolete scapula lateral depth"@en)
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/FOVT_0001165> "true"^^xsd:boolean)
 
@@ -2190,7 +2197,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0001197> ObjectIntersecti
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001198> (DEPRECATED upper primary molar tooth 3 occlusal surface width)
 
-AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/FOVT_0001198> "not a tooth"^^xsd:string)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/FOVT_0001198> "not a tooth")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001198> "DEPRECATED upper primary molar tooth 3 occlusal surface width"@en)
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/FOVT_0001198> "true"^^xsd:boolean)
 
@@ -2417,7 +2424,7 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_0001223> <https://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001223> "upper premolar tooth 1 occlusal surface length AP"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001223> "upper premolar tooth 1 occlusal surface length"@en)
-EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0001223> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000122> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0018294> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001709>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0007774>)))))
+EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0001223> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000122> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0018294> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001709>)))))
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001224> (lower premolar tooth 1 occlusal surface length)
 
@@ -3004,13 +3011,13 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001288> "upper canine tooth crown height"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0001288> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000119> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0003675> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0018621>)))))
 
-# Class: <http://purl.obolibrary.org/obo/FOVT_0001289> (upper secondary canine tooth cown height)
+# Class: <http://purl.obolibrary.org/obo/FOVT_0001289> (upper secondary canine tooth crown height)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0001289> <http://purl.obolibrary.org/obo/IAO_0000423>)
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://orcid.org/0000-0003-2699-3066") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001289> "The height of an upper secondary canine tooth crown along the superior-inferior axis."@en)
 AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_0001289> <https://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001289> "upper seconday cuspid crown height"@en)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001289> "upper secondary canine tooth cown height"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001289> "upper secondary canine tooth crown height"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0001289> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000119> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0003675> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0018561>)))))
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001290> (lower secondary canine tooth crown height)
@@ -3600,21 +3607,22 @@ AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_000
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001347> "diastema between lower central incisors length"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0001347> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/FOVT_0001346> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0001710>)))
 
-# Class: <http://purl.obolibrary.org/obo/FOVT_0001348> (upper secondary premolar tooth 3 height)
+# Class: <http://purl.obolibrary.org/obo/FOVT_0001348> (upper secondary premolar tooth 3 crown height)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0001348> <http://purl.obolibrary.org/obo/IAO_0000423>)
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://orcid.org/0000-0003-2699-3066") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001348> "The height of an upper secondary premolar tooth 3 along the superior-inferior axis."@en)
 AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_0001348> <https://orcid.org/0000-0003-2699-3066>)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001348> "upper secondary premolar tooth 3 height"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001348> <http://purl.obolibrary.org/obo/PATO_0000119>)
-SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001348> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0003675> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0016452>))))
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001348> "upper secondary premolar tooth 3 crown height"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001348> <http://purl.obolibrary.org/obo/FOVT_0001405>)
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001348> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001709>))
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001348> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0007774>))
 
-# Class: <http://purl.obolibrary.org/obo/FOVT_0001349> (upper secondary premolar tooth 4 height)
+# Class: <http://purl.obolibrary.org/obo/FOVT_0001349> (upper secondary premolar tooth 4 crown height)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0001349> <http://purl.obolibrary.org/obo/IAO_0000423>)
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://orcid.org/0000-0003-2699-3066") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001349> "The length of an upper secondary premolar tooth 4 along the superior-inferior axis."@en)
 AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_0001349> <https://orcid.org/0000-0003-2699-3066>)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001349> "upper secondary premolar tooth 4 height"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001349> "upper secondary premolar tooth 4 crown height"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001349> <http://purl.obolibrary.org/obo/PATO_0000119>)
 SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001349> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0003675> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0016452>))))
 
@@ -3773,7 +3781,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.ob
 AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/FOVT_0001366> "2022-05-05T23:24:47Z"^^xsd:dateTime)
 AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_0001366> <https://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/FOVT_0001366> "testis length"@en)
-AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/FOVT_0001366> "made an error, made new term"^^xsd:string)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/FOVT_0001366> "made an error, made new term")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001366> "obsolete right testis length"@en)
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/FOVT_0001366> "true"^^xsd:boolean)
 
@@ -3782,7 +3790,7 @@ AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/FOVT_0001366>
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/FOVT_0001367> <http://purl.obolibrary.org/obo/FOVT_0001058>)
 AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/FOVT_0001367> "2022-05-05T23:27:11Z"^^xsd:dateTime)
 AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_0001367> <https://orcid.org/0000-0003-2699-3066>)
-AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/FOVT_0001367> "made error, term already exists"^^xsd:string)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/FOVT_0001367> "made error, term already exists")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001367> "obsolete right testis length"@en)
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/FOVT_0001367> "true"^^xsd:boolean)
 
@@ -3811,7 +3819,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.ob
 AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/FOVT_0001370> "2022-05-05T23:45:43Z"^^xsd:dateTime)
 AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_0001370> <https://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/FOVT_0001370> "ovary length"@en)
-AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/FOVT_0001370> "didn't realize the term already existed"^^xsd:string)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/FOVT_0001370> "didn't realize the term already existed")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001370> "obsolete right ovary length"@en)
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/FOVT_0001370> "true"^^xsd:boolean)
 
@@ -3909,12 +3917,79 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001379> "forearm length"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001379> <http://purl.obolibrary.org/obo/OBA_VT0010023>)
 
+# Class: <http://purl.obolibrary.org/obo/FOVT_0001405> (premolar tooth 3 crown height)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0001405> <http://purl.obolibrary.org/obo/IAO_0000423>)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://orcid.org/0000-0003-2699-3066") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001405> "The height of a premolar tooth 3 crown along the superior-inferior axis.")
+AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_0001405> <https://orcid.org/0000-0003-2699-3066>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001405> "premolar tooth 3 crown height"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001405> <http://purl.obolibrary.org/obo/PATO_0000119>)
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001405> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0003675> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_7500056>))))
+
+# Class: <http://purl.obolibrary.org/obo/FOVT_0001406> (upper premolar tooth 3 crown height)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0001406> <http://purl.obolibrary.org/obo/IAO_0000423>)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://orcid.org/0000-0003-2699-3066") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001406> "The height of an upper premolar tooth 3 crown along the superior-inferior axis.")
+AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_0001406> <https://orcid.org/0000-0003-2699-3066>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001406> "upper premolar tooth 3 crown height"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001406> <http://purl.obolibrary.org/obo/FOVT_0001405>)
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001406> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001709>))
+
+# Class: <http://purl.obolibrary.org/obo/FOVT_0001407> (lower premolar tooth 3 crown height)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0001407> <http://purl.obolibrary.org/obo/IAO_0000423>)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://orcid.org/0000-0003-2699-3066") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001407> "The height of a lower premolar tooth 3 crown along the superior-inferior axis.")
+AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_0001407> <https://orcid.org/0000-0003-2699-3066>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001407> "lower premolar tooth 3 crown height"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001407> <http://purl.obolibrary.org/obo/FOVT_0001405>)
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001407> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001709>))
+
+# Class: <http://purl.obolibrary.org/obo/FOVT_0001408> (obsolete upper secondary premolar tooth 3 crown height)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0001408> <http://purl.obolibrary.org/obo/IAO_0000423>)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://orcid.org/0000-0003-2699-3066") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001408> "OBSOLETE. The height of an upper secondary premolar tooth 3 crown along the superior-inferior axis.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/FOVT_0001408> <http://purl.obolibrary.org/obo/FOVT_0001348>)
+AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_0001408> <https://orcid.org/0000-0003-2699-3066>)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/FOVT_0001408> "term already exists")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001408> "obsolete upper secondary premolar tooth 3 crown height"@en)
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/FOVT_0001408> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/FOVT_0001409> (lower secondary premolar tooth 3 crown height)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0001409> <http://purl.obolibrary.org/obo/IAO_0000423>)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://orcid.org/0000-0003-2699-3066") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001409> "The height of a secondary premolar tooth 3 crown along the superior-inferior axis.")
+AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_0001409> <https://orcid.org/0000-0003-2699-3066>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001409> "lower secondary premolar tooth 3 crown height"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001409> <http://purl.obolibrary.org/obo/FOVT_0001405>)
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001409> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001710>))
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001409> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0007774>))
+
+# Class: <http://purl.obolibrary.org/obo/FOVT_0001410> (upper primary premolar tooth 3 crown height)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0001410> <http://purl.obolibrary.org/obo/IAO_0000423>)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://orcid.org/0000-0003-2699-3066") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001410> "The height of an upper primary premolar tooth 3 crown along the superior-inferior axis.")
+AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_0001410> <https://orcid.org/0000-0003-2699-3066>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001410> "upper primary premolar tooth 3 crown height"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001410> <http://purl.obolibrary.org/obo/FOVT_0001405>)
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001410> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001709>))
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001410> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0007116>))
+
+# Class: <http://purl.obolibrary.org/obo/FOVT_0001411> (lower primary premolar tooth 3 crown height)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0001411> <http://purl.obolibrary.org/obo/IAO_0000423>)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://orcid.org/0000-0003-2699-3066") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001411> "The height of a lower primary premolar tooth 3 crown along the superior-inferior axis.")
+AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_0001411> <https://orcid.org/0000-0003-2699-3066>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001411> "lower primary premolar tooth 3 crown height"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001411> <http://purl.obolibrary.org/obo/FOVT_0001405>)
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001411> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001710>))
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001411> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0007116>))
+
 # Class: <http://purl.obolibrary.org/obo/FOVT_2000000> (choana length)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_2000000> <http://purl.obolibrary.org/obo/IAO_0000423>)
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9004086161, 9789004086166") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_2000000> "The length of a posterior nasal aperture of the interal naris (choana) along anterior-posterior axis."@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/oba#measured_in_taxon> <http://purl.obolibrary.org/obo/FOVT_2000000> <http://purl.obolibrary.org/obo/NCBITaxon_9789>)
-AnnotationAssertion(dce:contributor <http://purl.obolibrary.org/obo/FOVT_2000000> "https://orcid.org/0000-0001-8415-4848"^^xsd:string)
+AnnotationAssertion(dce:contributor <http://purl.obolibrary.org/obo/FOVT_2000000> "https://orcid.org/0000-0001-8415-4848")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9004086161, 9789004086166") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/FOVT_2000000> "choanal length (M10)"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_2000000> "choana length"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_2000000> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000122> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0004771>)))
@@ -3926,7 +4001,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/FOVT_2000000> <http://purl.obolibrary
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_2000001> <http://purl.obolibrary.org/obo/IAO_0000423>)
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9004086161, 9789004086166") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_2000001> "The length of the posterior portion of a posterior nasal aperture of the internal naris (choana) along left-right axis."@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/oba#measured_in_taxon> <http://purl.obolibrary.org/obo/FOVT_2000001> <http://purl.obolibrary.org/obo/NCBITaxon_9789>)
-AnnotationAssertion(dce:contributor <http://purl.obolibrary.org/obo/FOVT_2000001> "https://orcid.org/0000-0001-8415-4848"^^xsd:string)
+AnnotationAssertion(dce:contributor <http://purl.obolibrary.org/obo/FOVT_2000001> "https://orcid.org/0000-0001-8415-4848")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_2000001> "choana minimal width"@en)
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9004086161, 9789004086166") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/FOVT_2000001> "minimal breadth of the choanae (M11)"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_2000001> "choana minimal breadth"@en)
@@ -4260,7 +4335,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.ob
 AnnotationAssertion(dce:date <http://purl.obolibrary.org/obo/UBEORN_7500082> "2021-07-27T23:35:45Z"^^xsd:dateTime)
 AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/UBEORN_7500082> <https://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/UBEORN_7500082> <http://purl.obolibrary.org/obo/IAO_0000423>)
-AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UBEORN_7500082> "Term already exists."^^xsd:string)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/UBEORN_7500082> "Term already exists.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBEORN_7500082> "obsolete tibia diaphysis width"@en)
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/UBEORN_7500082> "true"^^xsd:boolean)
 
