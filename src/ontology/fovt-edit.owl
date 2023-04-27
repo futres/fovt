@@ -399,6 +399,13 @@ Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_0001401>))
 Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_0001402>))
 Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_0001403>))
 Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_0001404>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_0001405>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_0001406>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_0001407>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_0001408>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_0001409>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_0001410>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_0001411>))
 Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_2000000>))
 Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_2000001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_2000002>))
@@ -2508,7 +2515,7 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_0001223> <https://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001223> "upper premolar tooth 1 occlusal surface length AP"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001223> "upper premolar tooth 1 occlusal surface length"@en)
-EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0001223> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000122> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0018294> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001709>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0007774>)))))
+EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0001223> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000122> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0018294> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001709>)))))
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001224> (lower premolar tooth 1 occlusal surface length)
 
@@ -3098,14 +3105,14 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001288> "upper canine tooth crown height"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0001288> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000119> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0003675> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0018621>)))))
 
-# Class: <http://purl.obolibrary.org/obo/FOVT_0001289> (upper secondary canine tooth cown height)
+# Class: <http://purl.obolibrary.org/obo/FOVT_0001289> (upper secondary canine tooth crown height)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0001289> <http://purl.obolibrary.org/obo/IAO_0000423>)
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://orcid.org/0000-0003-2699-3066") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001289> "The height of an upper secondary canine tooth crown along the superior-inferior axis."@en)
 AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_0001289> <https://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#editor_note> <http://purl.obolibrary.org/obo/FOVT_0001289> "need to add \"canine tooth size trait\" for this term to be nested under")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001289> "upper seconday cuspid crown height"@en)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001289> "upper secondary canine tooth cown height"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001289> "upper secondary canine tooth crown height"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0001289> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000119> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0003675> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0018561>)))))
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001290> (lower secondary canine tooth crown height)
@@ -3737,23 +3744,22 @@ AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_000
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001347> "diastema between lower central incisors length"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0001347> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/FOVT_0001346> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0001710>)))
 
-# Class: <http://purl.obolibrary.org/obo/FOVT_0001348> (upper secondary premolar tooth 3 height)
+# Class: <http://purl.obolibrary.org/obo/FOVT_0001348> (upper secondary premolar tooth 3 crown height)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0001348> <http://purl.obolibrary.org/obo/IAO_0000423>)
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://orcid.org/0000-0003-2699-3066") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001348> "The height of an upper secondary premolar tooth 3 along the superior-inferior axis."@en)
 AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_0001348> <https://orcid.org/0000-0003-2699-3066>)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#editor_note> <http://purl.obolibrary.org/obo/FOVT_0001348> "need to all upper secondary premolar tooth 3")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001348> "upper secondary premolar tooth 3 height"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001348> <http://purl.obolibrary.org/obo/PATO_0000119>)
-SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001348> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0003675> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0016452>))))
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001348> "upper secondary premolar tooth 3 crown height"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001348> <http://purl.obolibrary.org/obo/FOVT_0001405>)
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001348> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001709>))
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001348> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0007774>))
 
-# Class: <http://purl.obolibrary.org/obo/FOVT_0001349> (upper secondary premolar tooth 4 height)
+# Class: <http://purl.obolibrary.org/obo/FOVT_0001349> (upper secondary premolar tooth 4 crown height)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0001349> <http://purl.obolibrary.org/obo/IAO_0000423>)
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://orcid.org/0000-0003-2699-3066") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001349> "The length of an upper secondary premolar tooth 4 along the superior-inferior axis."@en)
 AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_0001349> <https://orcid.org/0000-0003-2699-3066>)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#editor_note> <http://purl.obolibrary.org/obo/FOVT_0001349> "need to all upper secondary premolar tooth 4")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001349> "upper secondary premolar tooth 4 height"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001349> "upper secondary premolar tooth 4 crown height"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001349> <http://purl.obolibrary.org/obo/PATO_0000119>)
 SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001349> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0003675> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0016452>))))
 
@@ -4274,6 +4280,73 @@ AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_000
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#editor_note> <http://purl.obolibrary.org/obo/FOVT_0001404> "need to add talonid")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001404> "lower secondary molar tooth 4 talonid length"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001404> <http://purl.obolibrary.org/obo/OBA_0004257>)
+
+# Class: <http://purl.obolibrary.org/obo/FOVT_0001405> (premolar tooth 3 crown height)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0001405> <http://purl.obolibrary.org/obo/IAO_0000423>)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://orcid.org/0000-0003-2699-3066") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001405> "The height of a premolar tooth 3 crown along the superior-inferior axis.")
+AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_0001405> <https://orcid.org/0000-0003-2699-3066>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001405> "premolar tooth 3 crown height"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001405> <http://purl.obolibrary.org/obo/PATO_0000119>)
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001405> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0003675> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_7500056>))))
+
+# Class: <http://purl.obolibrary.org/obo/FOVT_0001406> (upper premolar tooth 3 crown height)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0001406> <http://purl.obolibrary.org/obo/IAO_0000423>)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://orcid.org/0000-0003-2699-3066") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001406> "The height of an upper premolar tooth 3 crown along the superior-inferior axis.")
+AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_0001406> <https://orcid.org/0000-0003-2699-3066>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001406> "upper premolar tooth 3 crown height"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001406> <http://purl.obolibrary.org/obo/FOVT_0001405>)
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001406> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001709>))
+
+# Class: <http://purl.obolibrary.org/obo/FOVT_0001407> (lower premolar tooth 3 crown height)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0001407> <http://purl.obolibrary.org/obo/IAO_0000423>)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://orcid.org/0000-0003-2699-3066") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001407> "The height of a lower premolar tooth 3 crown along the superior-inferior axis.")
+AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_0001407> <https://orcid.org/0000-0003-2699-3066>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001407> "lower premolar tooth 3 crown height"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001407> <http://purl.obolibrary.org/obo/FOVT_0001405>)
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001407> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001709>))
+
+# Class: <http://purl.obolibrary.org/obo/FOVT_0001408> (obsolete upper secondary premolar tooth 3 crown height)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0001408> <http://purl.obolibrary.org/obo/IAO_0000423>)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://orcid.org/0000-0003-2699-3066") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001408> "OBSOLETE. The height of an upper secondary premolar tooth 3 crown along the superior-inferior axis.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/FOVT_0001408> <http://purl.obolibrary.org/obo/FOVT_0001348>)
+AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_0001408> <https://orcid.org/0000-0003-2699-3066>)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/FOVT_0001408> "term already exists")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001408> "obsolete upper secondary premolar tooth 3 crown height"@en)
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/FOVT_0001408> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/FOVT_0001409> (lower secondary premolar tooth 3 crown height)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0001409> <http://purl.obolibrary.org/obo/IAO_0000423>)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://orcid.org/0000-0003-2699-3066") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001409> "The height of a secondary premolar tooth 3 crown along the superior-inferior axis.")
+AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_0001409> <https://orcid.org/0000-0003-2699-3066>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001409> "lower secondary premolar tooth 3 crown height"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001409> <http://purl.obolibrary.org/obo/FOVT_0001405>)
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001409> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001710>))
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001409> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0007774>))
+
+# Class: <http://purl.obolibrary.org/obo/FOVT_0001410> (upper primary premolar tooth 3 crown height)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0001410> <http://purl.obolibrary.org/obo/IAO_0000423>)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://orcid.org/0000-0003-2699-3066") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001410> "The height of an upper primary premolar tooth 3 crown along the superior-inferior axis.")
+AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_0001410> <https://orcid.org/0000-0003-2699-3066>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001410> "upper primary premolar tooth 3 crown height"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001410> <http://purl.obolibrary.org/obo/FOVT_0001405>)
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001410> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001709>))
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001410> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0007116>))
+
+# Class: <http://purl.obolibrary.org/obo/FOVT_0001411> (lower primary premolar tooth 3 crown height)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0001411> <http://purl.obolibrary.org/obo/IAO_0000423>)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://orcid.org/0000-0003-2699-3066") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001411> "The height of a lower primary premolar tooth 3 crown along the superior-inferior axis.")
+AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_0001411> <https://orcid.org/0000-0003-2699-3066>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001411> "lower primary premolar tooth 3 crown height"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001411> <http://purl.obolibrary.org/obo/FOVT_0001405>)
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001411> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001710>))
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001411> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0007116>))
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_2000000> (choana length)
 
