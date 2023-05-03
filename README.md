@@ -31,10 +31,11 @@ You can also use this feature to request synonyms and references for existing te
 
 ### Term Naming Conventions
 
-* avoid minimum and maximum lengths, unless both are used (e.g., minimum palatine length and minimum palatine length) <i>and</i> there are no definitive points
+* avoid minimum and maximum lengths, unless both are used (e.g., palatine minimum length and palatine maximum length) <i>and</i> there are no definitive points
 * side-bone-measurement (e.g., left occipital length)
 * bone-anatomical position-measurement (e.g., humerus lateral length)
-* only use length and axis; avoid "breadth", "depth", and "width" (e.g., humerus length ML)
+* add points to/from in definition
+* add other names for trait as a related synonym
 
 ## Versions
 
