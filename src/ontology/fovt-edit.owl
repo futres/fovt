@@ -4479,7 +4479,13 @@ SubClassOf(<http://purl.obolibrary.org/obo/FOVT_2000046> <http://purl.obolibrary
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_2000047> (neurocranium breadth at temporal crest)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_2000047> <http://purl.obolibrary.org/obo/IAO_0000423>)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_2000047> "The length of a neurocranium along the left-ridght axis."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/oba#measured_in_taxon> <http://purl.obolibrary.org/obo/FOVT_2000047> <http://purl.obolibrary.org/obo/NCBITaxon_9822>)
 AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_2000047> <https://orcid.org/0000-0001-8415-4848>)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/FOVT_2000047> "greatest breadth of the squamous part of the occipital bone"@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") rdfs:comment <http://purl.obolibrary.org/obo/FOVT_2000047> "The following is the measurement number and genus for this trait in von den Driesch (1979): 38 Sus."@en)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/FOVT_2000047> "This is the widest points of the temporal crest."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_2000047> "neurocranium breadth at temporal crest"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/FOVT_2000047> <http://purl.obolibrary.org/obo/FOVT_2000032>)
 
