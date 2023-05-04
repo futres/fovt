@@ -410,6 +410,8 @@ Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_2000042>))
 Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_2000043>))
 Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_2000044>))
 Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_2000045>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_2000046>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_2000047>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_91561>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_9788>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_9845>))
@@ -4459,6 +4461,27 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") rdfs:comment <http://purl.obolibrary.org/obo/FOVT_2000045> "This is between the lateral border of the bases of the horns."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_2000045> "neurocranium lateral breadth at horn"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/FOVT_2000045> <http://purl.obolibrary.org/obo/FOVT_2000032>)
+
+# Class: <http://purl.obolibrary.org/obo/FOVT_2000046> (neurocranium breadth at temporal line)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_2000046> <http://purl.obolibrary.org/obo/IAO_0000423>)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_2000046> "The length of a neurocranium aling the left-right axis."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/oba#measured_in_taxon> <http://purl.obolibrary.org/obo/FOVT_2000046> <http://purl.obolibrary.org/obo/NCBITaxon_9821>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/oba#measured_in_taxon> <http://purl.obolibrary.org/obo/FOVT_2000046> <http://purl.obolibrary.org/obo/NCBITaxon_9922>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/oba#measured_in_taxon> <http://purl.obolibrary.org/obo/FOVT_2000046> <http://purl.obolibrary.org/obo/NCBITaxon_9935>)
+AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_2000046> <https://orcid.org/0000-0001-8415-4848>)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/FOVT_2000046> "least breadth between the temporal lines"@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/FOVT_2000046> "least breadth of parietal"@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") rdfs:comment <http://purl.obolibrary.org/obo/FOVT_2000046> "The following is the measurement number and genus for this trait in von den Driesch (1979): 31 Ovis and Capra, 40 Sus."@en)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/FOVT_2000046> "This is the narrowest points between the temporal lines."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_2000046> "neurocranium breadth at temporal line"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_2000046> <http://purl.obolibrary.org/obo/FOVT_2000032>)
+
+# Class: <http://purl.obolibrary.org/obo/FOVT_2000047> (neurocranium breadth at temporal crest)
+
+AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_2000047> <https://orcid.org/0000-0001-8415-4848>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_2000047> "neurocranium breadth at temporal crest"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_2000047> <http://purl.obolibrary.org/obo/FOVT_2000032>)
 
 # Class: <http://purl.obolibrary.org/obo/OBA_0002413> (pelvic girdle bone/zone size)
 
