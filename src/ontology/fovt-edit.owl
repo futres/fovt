@@ -6130,7 +6130,7 @@ AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/FOVT_0001633>
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001634> (fused metatarsal bones 3 and 4 outer lateral length)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0001634> <http://purl.obolibrary.org/obo/IAO_0000423>)
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001634> "The length of the lateral side of a fused metatarsal bones 3 and 4 from the lateral border of articular facet for distal carpal bone 4 to the lateral condyle.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001634> "The length of the lateral side of a fused metatarsal bones 3 and 4 from the lateral border of articular facet for distal tarsal bone 4 to the lateral condyle.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/oba#measured_in_taxon> <http://purl.obolibrary.org/obo/FOVT_0001634> <http://purl.obolibrary.org/obo/NCBITaxon_9845>)
 AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_0001634> <https://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/FOVT_0001634> "metatarsal III&IV lateral length on the outer side (Ll)")
@@ -6278,7 +6278,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001648> ObjectSomeValuesFrom(<h
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001649> (metatarsal bone of digit 3 lateral length)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0001649> <http://purl.obolibrary.org/obo/IAO_0000423>)
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001649> "The greatest length of the lateral side of a metatarsal bone of digit 3 from the articular facet for distal carpal bone 3 and anterior facet for distal capral bone 4 to the lateral condyle.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001649> "The greatest length of the lateral side of a metatarsal bone of digit 3 from the articular facet for distal tarsal bone 3 and anterior facet for distal tarsal bone 4 to the lateral condyle.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/oba#measured_in_taxon> <http://purl.obolibrary.org/obo/FOVT_0001649> <http://purl.obolibrary.org/obo/NCBITaxon_9789>)
 AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_0001649> <https://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/FOVT_0001649> "metatarsal III greatest length of the lateral part (GLl)")
@@ -6289,7 +6289,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001649> ObjectSomeValuesFrom(<h
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001650> (metatarsal bone of digit 3 outer lateral length)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0001650> <http://purl.obolibrary.org/obo/IAO_0000423>)
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001650> "The length of the lateral side of a metatarsal bone of digit 3 from the lateral border of articular facet for distal carpal bone 4 to the lateral condyle.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001650> "The length of the lateral side of a metatarsal bone of digit 3 from the lateral border of articular facet for distal tarsal bone 4 to the lateral condyle.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/oba#measured_in_taxon> <http://purl.obolibrary.org/obo/FOVT_0001650> <http://purl.obolibrary.org/obo/NCBITaxon_9789>)
 AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_0001650> <https://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/FOVT_0001650> "metatarsal III lateral length on the outer side (Ll)")
