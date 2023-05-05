@@ -221,3 +221,13 @@ UBERON:7500117 #opisthocranion
 UBERON:7500119 #ectorbitale
 UBERON:7500120 #zygion
 UBERON:7500121 #paroccipital process
+UBERON:0004312 #distal phalanx of manual digit 3
+UBERON:0004317 #distal phalanx of pedal digit 3
+UBERON:0004321 #middle phalanx of manual digit 3
+UBERON:0004325 #middle phalanx of pedal digit 3
+UBERON:0004329 #proximal phalanx of manual digit 3
+UBERON:0004334 #proximal phalanx of pedal digit 
+UBERON:0001451 #navicular bone of pes
+UBERON:0012290 #fused carpal bones 2 and 3
+UBERON:0013774 #diaphysis of metatarsal bone
+UBERON:0013752 #diaphysis of metacarpal bone
