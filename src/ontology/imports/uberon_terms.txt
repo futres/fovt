@@ -226,3 +226,5 @@ UBERON:0002413 #cervical vertebra
 UBERON:0001092 #vertebral bone 1
 UBERON:0001093 #vertebral bone 2
 UBERON:0005814 #arch of atlas
+UBERON:2001984 #centrum 2
+UBERON:0000218 #vertebral arch of axis
