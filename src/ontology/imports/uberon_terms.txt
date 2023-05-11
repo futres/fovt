@@ -221,3 +221,8 @@ UBERON:7500117 #opisthocranion
 UBERON:7500119 #ectorbitale
 UBERON:7500120 #zygion
 UBERON:7500121 #paroccipital process
+UBERON:0018143 #transverse process of cervical vertebra
+UBERON:0002413 #cervical vertebra
+UBERON:0001092 #vertebral bone 1
+UBERON:0001093 #vertebral bone 2
+UBERON:0005814 #arch of atlas
