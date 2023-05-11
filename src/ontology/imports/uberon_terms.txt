@@ -228,3 +228,18 @@ UBERON:0001093 #vertebral bone 2
 UBERON:0005814 #arch of atlas
 UBERON:2001984 #centrum 2
 UBERON:0000218 #vertebral arch of axis
+UBERON:0004312 #distal phalanx of manual digit 3
+UBERON:0004317 #distal phalanx of pedal digit 3
+UBERON:0004321 #middle phalanx of manual digit 3
+UBERON:0004325 #middle phalanx of pedal digit 3
+UBERON:0004329 #proximal phalanx of manual digit 3
+UBERON:0004334 #proximal phalanx of pedal digit 3
+UBERON:0014883 #distal epiphysis of distal phalanx of manual digit 3
+UBERON:0004433 #proximal epiphysis of distal phalanx of manual digit 3
+UBERON:0014873 #distal epiphysis of distal phalanx of pedal digit 3
+UBERON:0004437 #proximal epiphysis of middle phalanx of manual digit 3
+UBERON:0004441 #proximal epiphysis of proximal phalanx of manual digit 3
+UBERON:0001451 #navicular bone of pes
+UBERON:0012290 #fused carpal bones 2 and 3
+UBERON:0013774 #diaphysis of metatarsal bone
+UBERON:0013752 #diaphysis of metacarpal bone

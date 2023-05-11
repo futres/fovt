@@ -59,3 +59,9 @@ OBA:0006029   #horn size
 OBA:0003980   #supraoccipital bone size
 OBA:0005564   #cranium length
 OBA:0002830 #cervical vertebra size
+OBA:0002947 #middle phalanx of manual digit 3 length
+OBA:0002514 #distal phalanx of manual digit 3 length
+OBA:0002956 #proximal phalanx of manual digit 3 length
+OBA:0002267 #distal phalanx of pes length
+OBA:0002452 #middle phalanx of pes length
+OBA:0003281 #proximal phalanx of pes length
