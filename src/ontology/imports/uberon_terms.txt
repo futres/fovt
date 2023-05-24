@@ -228,3 +228,57 @@ UBERON:0001093 #vertebral bone 2
 UBERON:0005814 #arch of atlas
 UBERON:2001984 #centrum 2
 UBERON:0000218 #vertebral arch of axis
+UBERON:0012290 #fused carpal bones 2 and 3
+UBERON:0013774 #diaphysis of metatarsal bone
+UBERON:0013752 #diaphysis of metacarpal bone
+UBERON:0001451 #navicular bone of pes
+UBERON:0004338 #proximal phalanx of manual digit 1
+UBERON:0004445 #proximal epiphysis of proximal phalanx of manual digit 1
+UBERON:0004337 #distal phalanx of manual digit 1
+UBERON:0014881 #distal epiphysis of distal phalanx of manual digit 1
+UBERON:0004444 #proximal epiphysis of distal phalanx of manual digit 1
+UBERON:4200219 #middle phalanx of manual digit 1
+UBERON:0004332 #proximal phalanx of pedal digit 1
+UBERON:0004315 #distal phalanx of pedal digit 1
+UBERON:0014871 #distal epiphysis of distal phalanx of pedal digit 1
+UBERON:0004328 #proximal phalanx of manual digit 2
+UBERON:0004440 #proximal epiphysis of proximal phalanx of manual digit 2
+UBERON:0004311 #distal phalanx of manual digit 2
+UBERON:0014882 #distal epiphysis of distal phalanx of manual digit 2
+UBERON:0004432 #proximal epiphysis of distal phalanx of manual digit 2
+UBERON:0004320 #middle phalanx of manual digit 2
+UBERON:0004333 #proximal phalanx of pedal digit 2
+UBERON:0004316 #distal phalanx of pedal digit 2
+UBERON:0014872 #distal epiphysis of distal phalanx of pedal digit 2
+UBERON:0004324 #middle phalanx of pedal digit 2
+UBERON:0004312 #distal phalanx of manual digit 3
+UBERON:0004317 #distal phalanx of pedal digit 3
+UBERON:0004321 #middle phalanx of manual digit 3
+UBERON:0004325 #middle phalanx of pedal digit 3
+UBERON:0004329 #proximal phalanx of manual digit 3
+UBERON:0004334 #proximal phalanx of pedal digit 3
+UBERON:0014883 #distal epiphysis of distal phalanx of manual digit 3
+UBERON:0004433 #proximal epiphysis of distal phalanx of manual digit 3
+UBERON:0014873 #distal epiphysis of distal phalanx of pedal digit 3
+UBERON:0004437 #proximal epiphysis of middle phalanx of manual digit 3
+UBERON:0004441 #proximal epiphysis of proximal phalanx of manual digit 3
+UBERON:0004330 #proximal phalanx of manual digit 4
+UBERON:0004442 #proximal epiphysis of proximal phalanx of manual digit 4
+UBERON:0004313 #distal phalanx of manual digit 4
+UBERON:0014884 #distal epiphysis of distal phalanx of manual digit 4
+UBERON:0004434 #proximal epiphysis of distal phalanx of manual digit 4
+UBERON:0004322 #middle phalanx of manual digit 4
+UBERON:0004335 #proximal phalanx of pedal digit 4
+UBERON:0004318 #distal phalanx of pedal digit 4
+UBERON:0014874 #distal epiphysis of distal phalanx of pedal digit 4
+UBERON:0004326 #middle phalanx of pedal digit 4
+UBERON:0004331 #proximal phalanx of manual digit 5
+UBERON:0004443 #proximal epiphysis of proximal phalanx of manual digit 5
+UBERON:0004314 #distal phalanx of manual digit 5
+UBERON:0014885 #distal epiphysis of distal phalanx of manual digit 5
+UBERON:0004435 #proximal epiphysis of distal phalanx of manual digit 5
+UBERON:0004323 #middle phalanx of manual digit 5
+UBERON:0004336 #proximal phalanx of pedal digit 5
+UBERON:0004319 #distal phalanx of pedal digit 5
+UBERON:0014875 #distal epiphysis of distal phalanx of pedal digit 5
+UBERON:0004327 #middle phalanx of pedal digit 5

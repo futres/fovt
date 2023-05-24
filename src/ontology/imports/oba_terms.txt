@@ -59,3 +59,44 @@ OBA:0006029   #horn size
 OBA:0003980   #supraoccipital bone size
 OBA:0005564   #cranium length
 OBA:0002830 #cervical vertebra size
+OBA:0002267 #distal phalanx of pes length
+OBA:0002452 #middle phalanx of pes length
+OBA:0003281 #proximal phalanx of pes length
+OBA:0003049 #pedal digit 1 phalanx size
+OBA:0002989 #proximal phalanx of manual digit 1 length
+OBA:0002990 #distal phalanx of manual digit 1 size
+OBA:0003067 #pedal digit 1 phalanx length
+OBA:0003061 #proximal phalanx of pedal digit 1 size
+OBA:0003057 #distal phalanx of pedal digit 1 size
+OBA:0003111 #pedal digit 2 phalanx size
+OBA:0002962 #manual digit 2 phalanx size
+OBA:0002980 #proximal phalanx of manual digit 2 length
+OBA:0002970 #distal phalanx of manual digit 2 length
+OBA:0002975 #middle phalanx of manual digit 2 length
+OBA:0003127 #proximal phalanx of pedal digit 2 size
+OBA:0003135 #distal phalanx of pedal digit 2 size
+OBA:0003131 #middle phalanx of pedal digit 2 size
+OBA:0003115 #pedal digit 3 phalanx size
+OBA:0002948 #manual digit 3 phalanx size
+OBA:0002956 #proximal phalanx of manual digit 3 length
+OBA:0002514 #distal phalanx of manual digit 3 length
+OBA:0002947 #middle phalanx of manual digit 3 length
+OBA:0003372 #proximal phalanx of pedal digit 3 size
+OBA:0003366 #distal phalanx of pedal digit 3 size
+OBA:0003369 #middle phalanx of pedal digit 3 size
+OBA:0003119 #pedal digit 4 phalanx size
+OBA:0002936 #manual digit 4 phalanx size
+OBA:0002923 #proximal phalanx of manual digit 4 length
+OBA:0002918 #distal phalanx of manual digit 4 length
+OBA:0002921 #middle phalanx of manual digit 4 length
+OBA:0003373 #proximal phalanx of pedal digit 4 size
+OBA:0003367 #distal phalanx of pedal digit 4 size
+OBA:0003370 #middle phalanx of pedal digit 4 size
+OBA:0003123 #pedal digit 5 phalanx size
+OBA:0002931 #manual digit 5 phalanx size
+OBA:0002903 #proximal phalanx of manual digit 5 length
+OBA:0002519 #distal phalanx of manual digit 5 length
+OBA:0002517 #middle phalanx of manual digit 5 length
+OBA:0003374 #proximal phalanx of pedal digit 5 size
+OBA:0003368 #distal phalanx of pedal digit 5 size
+OBA:0003371 #middle phalanx of pedal digit 5 size
