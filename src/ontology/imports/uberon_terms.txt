@@ -282,3 +282,40 @@ UBERON:0004336 #proximal phalanx of pedal digit 5
 UBERON:0004319 #distal phalanx of pedal digit 5
 UBERON:0014875 #distal epiphysis of distal phalanx of pedal digit 5
 UBERON:0004327 #middle phalanx of pedal digit 5
+UBERON:0003690 #fused sacrum
+UBERON:0001094 #sacral vertebra
+UBERON:0004622 #sacral vertebra 1
+UBERON:0004623 #sacral vertebra 2
+UBERON:0004624 #sacral vertebra 3
+UBERON:0004625 #sacral vertebra 4
+UBERON:0008457 #prezygapophysis of sacral vertebra
+UBERON:0004626 #thoracic vertebra 1
+UBERON:0004627 #thoracic vertebra 2
+UBERON:0004628 #thoracic vertebra 3
+UBERON:0004629 #thoracic vertebra 4
+UBERON:0004630 #thoracic vertebra 5
+UBERON:0004631 #thoracic vertebra 6
+UBERON:0004632 #thoracic vertebra 7
+UBERON:0011050 #thoracic vertebra 8
+UBERON:0004633 #thoracic vertebra 9
+UBERON:0004634 #thoracic vertebra 10
+UBERON:0004635 #thoracic vertebra 11
+UBERON:0004636 #thoracic vertebra 12
+UBERON:0008463 #postzygapophysis of thoracic vertebra
+UBERON:0008460 #prezygapophysis of thoracic vertebra
+UBERON:0004617 #lumbar vertebra 1
+UBERON:0004618 #lumbar vertebra 2
+UBERON:0004619 #lumbar vertebra 3
+UBERON:0004620 #lumbar vertebra 4
+UBERON:0004621 #lumbar vertebra 5
+UBERON:0008461 #postzygapophysis of lumbar vertebra
+UBERON:0008456 #prezygapophysis of lumbar vertebra
+UBERON:0018146 #transverse process of lumbar vertebra
+UBERON:0004612 #mammalian cervical vertebra 3
+UBERON:0004613 #mammalian cervical vertebra 4
+UBERON:0004614 #mammalian cervical vertebra 5
+UBERON:0004615 #mammalian cervical vertebra 6
+UBERON:0004616 #mammalian cervical vertebra 7
+UBERON:0008462 #postzygapophysis of cervical vertebra
+UBERON:0008459 #prezygapophysis of cervical vertebra
+UBERON:0018143 #transverse process of cervical vertebra
