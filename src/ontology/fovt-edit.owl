@@ -9940,6 +9940,219 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0002001> "thoracic vertebra 10 height"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0002001> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000119> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0004634>)))
 
+# Class: <http://purl.obolibrary.org/obo/FOVT_0002002> (lumbar vertebra 1 physiological length)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0002002> <http://purl.obolibrary.org/obo/IAO_0000423>)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0002002> "The length of the body of a lumbar vertebra 1 along the superior-inferior axis.")
+AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_0002002> <https://orcid.org/0000-0003-2699-3066>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#editor_note> <http://purl.obolibrary.org/obo/FOVT_0002002> "need to add articular surface")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/FOVT_0002002> "lumbar vertebra 1 physiological length of the body (PL)")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") rdfs:comment <http://purl.obolibrary.org/obo/FOVT_0002002> "This is measured between the centers of the facies terminalis cranialis and the facies terminalis caudalis.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0002002> "lumbar vertebra 1 physiological length"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0002002> <http://purl.obolibrary.org/obo/OBA_0004048>)
+
+# Class: <http://purl.obolibrary.org/obo/FOVT_0002003> (lumbar vertebra 1 transverse process breadth)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0002003> <http://purl.obolibrary.org/obo/IAO_0000423>)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0002003> "The width between the left and right transverse processes of a lumbar vertebra 1 along the medial-lateral axis.")
+AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_0002003> <https://orcid.org/0000-0003-2699-3066>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#editor_note> <http://purl.obolibrary.org/obo/FOVT_0002003> "need to add transverse process")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/FOVT_0002003> "lumbar vertebra 1 greatest breadth across the processus transversi (BPtr)")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0002003> "lumbar vertebra 1 transverse process breadth"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0002003> <http://purl.obolibrary.org/obo/PATO_0000921>)
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0002003> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0004617>))
+
+# Class: <http://purl.obolibrary.org/obo/FOVT_0002004> (lumbar vertebra 1 cranial articular surface height)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0002004> <http://purl.obolibrary.org/obo/IAO_0000423>)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0002004> "The height of the cranial articular surface of a lumbar vertebra 1 along the ventral-dosral axis.")
+AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_0002004> <https://orcid.org/0000-0003-2699-3066>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#editor_note> <http://purl.obolibrary.org/obo/FOVT_0002004> "need to add articular surface")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/FOVT_0002004> "lumbar vertebra 1 greatest height of the facies terminalis cranialis (HFcr)")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0002004> "lumbar vertebra 1 cranial articular surface height"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0002004> <http://purl.obolibrary.org/obo/PATO_0000119>)
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0002004> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0004617>))
+
+# Class: <http://purl.obolibrary.org/obo/FOVT_0002005> (lumbar vertebra 1 caudal articular surface height)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0002005> <http://purl.obolibrary.org/obo/IAO_0000423>)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0002005> "The height of the caudal articular surface of a lumbar vertebra 1 along the ventral-dosral axis.")
+AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_0002005> <https://orcid.org/0000-0003-2699-3066>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#editor_note> <http://purl.obolibrary.org/obo/FOVT_0002005> "need to add articular surface")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/FOVT_0002005> "lumbar vertebra 1 greatest height of the facies terminalis caudalis (HFcd)")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0002005> "lumbar vertebra 1 caudal articular surface height"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0002005> <http://purl.obolibrary.org/obo/PATO_0000119>)
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0002005> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0004617>))
+
+# Class: <http://purl.obolibrary.org/obo/FOVT_0002006> (lumbar vertebra 1 height)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0002006> <http://purl.obolibrary.org/obo/IAO_0000423>)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0002006> "The height of a lumbar vertebra 1 along the ventral-dorsal axis.")
+AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_0002006> <https://orcid.org/0000-0003-2699-3066>)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/FOVT_0002006> "lumbar vertebra 1 greatest height (H)")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0002006> "lumbar vertebra 1 height"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0002006> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000119> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0004617>)))
+
+# Class: <http://purl.obolibrary.org/obo/FOVT_0002007> (lumbar vertebra 3 physiological length)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0002007> <http://purl.obolibrary.org/obo/IAO_0000423>)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0002007> "The length of the body of a lumbar vertebra 3 along the superior-inferior axis.")
+AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_0002007> <https://orcid.org/0000-0003-2699-3066>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#editor_note> <http://purl.obolibrary.org/obo/FOVT_0002007> "need to add articular surface")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/FOVT_0002007> "lumbar vertebra 3 physiological length of the body (PL)")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") rdfs:comment <http://purl.obolibrary.org/obo/FOVT_0002007> "This is measured between the centers of the facies terminalis cranialis and the facies terminalis caudalis.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0002007> "lumbar vertebra 3 physiological length"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0002007> <http://purl.obolibrary.org/obo/OBA_0004048>)
+
+# Class: <http://purl.obolibrary.org/obo/FOVT_0002008> (lumbar vertebra 3 transverse process breadth)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0002008> <http://purl.obolibrary.org/obo/IAO_0000423>)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0002008> "The width between the left and right transverse processes of a lumbar vertebra 3 along the medial-lateral axis.")
+AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_0002008> <https://orcid.org/0000-0003-2699-3066>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#editor_note> <http://purl.obolibrary.org/obo/FOVT_0002008> "need to add transverse process")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/FOVT_0002008> "lumbar vertebra 3 greatest breadth across the processus transversi (BPtr)")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0002008> "lumbar vertebra 3 transverse process breadth"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0002008> <http://purl.obolibrary.org/obo/PATO_0000921>)
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0002008> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0004619>))
+
+# Class: <http://purl.obolibrary.org/obo/FOVT_0002009> (lumbar vertebra 3 cranial articular surface height)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0002009> <http://purl.obolibrary.org/obo/IAO_0000423>)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0002009> "The height of the cranial articular surface of a lumbar vertebra 3 along the ventral-dosral axis.")
+AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_0002009> <https://orcid.org/0000-0003-2699-3066>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#editor_note> <http://purl.obolibrary.org/obo/FOVT_0002009> "need to add articular surface")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/FOVT_0002009> "lumbar vertebra 3 greatest height of the facies terminalis cranialis (HFcr)")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0002009> "lumbar vertebra 3 cranial articular surface height"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0002009> <http://purl.obolibrary.org/obo/PATO_0000119>)
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0002009> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0004619>))
+
+# Class: <http://purl.obolibrary.org/obo/FOVT_0002010> (lumbar vertebra 3 caudal articular surface height)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0002010> <http://purl.obolibrary.org/obo/IAO_0000423>)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0002010> "The height of the caudal articular surface of a lumbar vertebra 3 along the ventral-dosral axis.")
+AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_0002010> <https://orcid.org/0000-0003-2699-3066>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#editor_note> <http://purl.obolibrary.org/obo/FOVT_0002010> "need to add articular surface")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/FOVT_0002010> "lumbar vertebra 3 greatest height of the facies terminalis caudalis (HFcd)")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0002010> "lumbar vertebra 3 caudal articular surface height"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0002010> <http://purl.obolibrary.org/obo/PATO_0000119>)
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0002010> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0004619>))
+
+# Class: <http://purl.obolibrary.org/obo/FOVT_0002011> (lumbar vertebra 3 height)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0002011> <http://purl.obolibrary.org/obo/IAO_0000423>)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0002011> "The height of a lumbar vertebra 3 along the ventral-dorsal axis.")
+AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_0002011> <https://orcid.org/0000-0003-2699-3066>)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/FOVT_0002011> "lumbar vertebra 3 greatest height (H)")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0002011> "lumbar vertebra 3 height"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0002011> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000119> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0004619>)))
+
+# Class: <http://purl.obolibrary.org/obo/FOVT_0002012> (lumbar vertebra 4 physiological length)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0002012> <http://purl.obolibrary.org/obo/IAO_0000423>)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0002012> "The length of the body of a lumbar vertebra 4 along the superior-inferior axis.")
+AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_0002012> <https://orcid.org/0000-0003-2699-3066>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#editor_note> <http://purl.obolibrary.org/obo/FOVT_0002012> "need to add articular surface")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/FOVT_0002012> "lumbar vertebra 4 physiological length of the body (PL)")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") rdfs:comment <http://purl.obolibrary.org/obo/FOVT_0002012> "This is measured between the centers of the facies terminalis cranialis and the facies terminalis caudalis.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0002012> "lumbar vertebra 4 physiological length"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0002012> <http://purl.obolibrary.org/obo/OBA_0004048>)
+
+# Class: <http://purl.obolibrary.org/obo/FOVT_0002013> (lumbar vertebra 4 transverse process breadth)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0002013> <http://purl.obolibrary.org/obo/IAO_0000423>)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0002013> "The width between the left and right transverse processes of a lumbar vertebra 4 along the medial-lateral axis.")
+AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_0002013> <https://orcid.org/0000-0003-2699-3066>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#editor_note> <http://purl.obolibrary.org/obo/FOVT_0002013> "need to add transverse process")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/FOVT_0002013> "lumbar vertebra 4 greatest breadth across the processus transversi (BPtr)")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0002013> "lumbar vertebra 4 transverse process breadth"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0002013> <http://purl.obolibrary.org/obo/PATO_0000921>)
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0002013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0004620>))
+
+# Class: <http://purl.obolibrary.org/obo/FOVT_0002014> (lumbar vertebra 4 cranial articular surface height)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0002014> <http://purl.obolibrary.org/obo/IAO_0000423>)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0002014> "The height of the cranial articular surface of a lumbar vertebra 4 along the ventral-dosral axis.")
+AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_0002014> <https://orcid.org/0000-0003-2699-3066>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#editor_note> <http://purl.obolibrary.org/obo/FOVT_0002014> "need to add articular surface")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/FOVT_0002014> "lumbar vertebra 4 greatest height of the facies terminalis cranialis (HFcr)")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0002014> "lumbar vertebra 4 cranial articular surface height"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0002014> <http://purl.obolibrary.org/obo/PATO_0000119>)
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0002014> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0004620>))
+
+# Class: <http://purl.obolibrary.org/obo/FOVT_0002015> (lumbar vertebra 4 caudal articular surface height)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0002015> <http://purl.obolibrary.org/obo/IAO_0000423>)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0002015> "The height of the caudal articular surface of a lumbar vertebra 4 along the ventral-dosral axis.")
+AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_0002015> <https://orcid.org/0000-0003-2699-3066>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#editor_note> <http://purl.obolibrary.org/obo/FOVT_0002015> "need to add articular surface")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/FOVT_0002015> "lumbar vertebra 4 greatest height of the facies terminalis caudalis (HFcd)")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0002015> "lumbar vertebra 4 caudal articular surface height"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0002015> <http://purl.obolibrary.org/obo/PATO_0000119>)
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0002015> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0004620>))
+
+# Class: <http://purl.obolibrary.org/obo/FOVT_0002016> (lumbar vertebra 4 height)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0002016> <http://purl.obolibrary.org/obo/IAO_0000423>)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0002016> "The height of a lumbar vertebra 4 along the ventral-dorsal axis.")
+AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_0002016> <https://orcid.org/0000-0003-2699-3066>)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/FOVT_0002016> "lumbar vertebra 4 greatest height (H)")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0002016> "lumbar vertebra 4 height"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0002016> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000119> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0004620>)))
+
+# Class: <http://purl.obolibrary.org/obo/FOVT_0002017> (lumbar vertebra 5 physiological length)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0002017> <http://purl.obolibrary.org/obo/IAO_0000423>)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0002017> "The length of the body of a lumbar vertebra 5 along the superior-inferior axis.")
+AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_0002017> <https://orcid.org/0000-0003-2699-3066>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#editor_note> <http://purl.obolibrary.org/obo/FOVT_0002017> "need to add articular surface")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/FOVT_0002017> "lumbar vertebra 5 physiological length of the body (PL)")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") rdfs:comment <http://purl.obolibrary.org/obo/FOVT_0002017> "This is measured between the centers of the facies terminalis cranialis and the facies terminalis caudalis.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0002017> "lumbar vertebra 5 physiological length"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0002017> <http://purl.obolibrary.org/obo/OBA_0004048>)
+
+# Class: <http://purl.obolibrary.org/obo/FOVT_0002018> (lumbar vertebra 5 transverse process breadth)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0002018> <http://purl.obolibrary.org/obo/IAO_0000423>)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0002018> "The width between the left and right transverse processes of a lumbar vertebra 5 along the medial-lateral axis.")
+AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_0002018> <https://orcid.org/0000-0003-2699-3066>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#editor_note> <http://purl.obolibrary.org/obo/FOVT_0002018> "need to add transverse process")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/FOVT_0002018> "lumbar vertebra 5 greatest breadth across the processus transversi (BPtr)")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0002018> "lumbar vertebra 5 transverse process breadth"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0002018> <http://purl.obolibrary.org/obo/PATO_0000921>)
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0002018> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0004621>))
+
+# Class: <http://purl.obolibrary.org/obo/FOVT_0002019> (lumbar vertebra 5 cranial articular surface height)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0002019> <http://purl.obolibrary.org/obo/IAO_0000423>)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0002019> "The height of the cranial articular surface of a lumbar vertebra 5 along the ventral-dosral axis.")
+AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_0002019> <https://orcid.org/0000-0003-2699-3066>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#editor_note> <http://purl.obolibrary.org/obo/FOVT_0002019> "need to add articular surface")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/FOVT_0002019> "lumbar vertebra 5 greatest height of the facies terminalis cranialis (HFcr)")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0002019> "lumbar vertebra 5 cranial articular surface height"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0002019> <http://purl.obolibrary.org/obo/PATO_0000119>)
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0002019> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0004621>))
+
+# Class: <http://purl.obolibrary.org/obo/FOVT_0002020> (lumbar vertebra 5 caudal articular surface height)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0002020> <http://purl.obolibrary.org/obo/IAO_0000423>)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0002020> "The height of the caudal articular surface of a lumbar vertebra 5 along the ventral-dosral axis.")
+AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_0002020> <https://orcid.org/0000-0003-2699-3066>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#editor_note> <http://purl.obolibrary.org/obo/FOVT_0002020> "need to add articular surface")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/FOVT_0002020> "lumbar vertebra 5 greatest height of the facies terminalis caudalis (HFcd)")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0002020> "lumbar vertebra 5 caudal articular surface height"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0002020> <http://purl.obolibrary.org/obo/PATO_0000119>)
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0002020> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0004621>))
+
+# Class: <http://purl.obolibrary.org/obo/FOVT_0002021> (lumbar vertebra 5 height)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0002021> <http://purl.obolibrary.org/obo/IAO_0000423>)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0002021> "The height of a lumbar vertebra 5 along the ventral-dorsal axis.")
+AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_0002021> <https://orcid.org/0000-0003-2699-3066>)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/FOVT_0002021> "lumbar vertebra 5 greatest height (H)")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0002021> "lumbar vertebra 5 height"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0002021> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000119> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0004621>)))
+
+
 # Class: <http://purl.obolibrary.org/obo/FOVT_2000000> (choana length)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_2000000> <http://purl.obolibrary.org/obo/IAO_0000423>)
