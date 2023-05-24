@@ -620,6 +620,19 @@ Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_0001718>))
 Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_0001719>))
 Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_0001720>))
 Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_0001722>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_0001723>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_0001724>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_0001725>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_0001726>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_0001727>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_0001728>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_0001729>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_0001730>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_0001731>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_0001732>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_0001733>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_0001734>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_0001735>))
 Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_0001736>))
 Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_0001737>))
 Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_0001738>))
@@ -1212,7 +1225,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.ob
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9004086161, 9789004086166") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0000022> "The maximal length of a calcaneus along the anterior-posterior axis."@en)
 AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_0000022> <https://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/FOVT_0000022> "calcaneus greatest length (GL)"@en)
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9004086161, 9789004086166") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/FOVT_0000022> "calcaneus maximal length (C1)"@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9004086161, 9789004086166") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/FOVT_0000022> "calcaneus maximal length (M1)"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0000022> "calcaneus length"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0000022> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000122> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0001450>)))
 
@@ -7262,7 +7275,6 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9004086161, 9789004086166") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/FOVT_0001702> "first phalanx of central digit proximal breadth (M4)")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001702> "middle phalanx of manual digit 3 proximal breadth"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0001702> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000921> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0004321>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/BSPO_0000061>))))
-SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001702> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0004321>))
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001703> (middle phalanx of manual digit 3 proximal articular surface breadth)
 
@@ -7273,6 +7285,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#editor_note> <
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/FOVT_0001703> "digit 3 phalanx 2 greatest breadth of facies articularis proximalis (BFp)")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001703> "middle phalanx of manual digit 3 proximal articular surface breadth"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001703> <http://purl.obolibrary.org/obo/PATO_0000921>)
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001703> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0004321>))
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001705> (middle phalanx of manual digit 3 distal breadth)
 
@@ -7389,6 +7402,143 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001722> "mi
 EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0001722> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000122> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0004325>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/BSPO_0000055>))))
 SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001722> <http://purl.obolibrary.org/obo/PATO_0000122>)
 
+# Class: <http://purl.obolibrary.org/obo/FOVT_0001723> (distal phalanx of manual digit 3 proximal breadth)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0001723> <http://purl.obolibrary.org/obo/IAO_0000423>)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9004086161, 9789004086166") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001723> "The breadth of the distal end of a distal phalanx of manual digit 3 along the anterior-posterior axis.")
+AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_0001723> <https://orcid.org/0000-0003-2699-3066>)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/FOVT_0001723> "digit 3 phalanx 3 greatest breadth of proximal end (Bp)")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9004086161, 9789004086166") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/FOVT_0001723> "third phalanx of central digit proximal breadth (M4)")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001723> "distal phalanx of manual digit 3 proximal breadth"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0001723> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000921> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0004312>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/BSPO_0000061>))))
+
+# Class: <http://purl.obolibrary.org/obo/FOVT_0001724> (distal phalanx of manual digit 3 articular surface breadth)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0001724> <http://purl.obolibrary.org/obo/IAO_0000423>)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9004086161, 9789004086166") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001724> "The width of the proximal articular surface of a distal phalanx of manual digit 3 along the medial-lateral axis.")
+AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_0001724> <https://orcid.org/0000-0003-2699-3066>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#editor_note> <http://purl.obolibrary.org/obo/FOVT_0001724> "need to add articular surface")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/FOVT_0001724> "digit 3 phalanx 3 greatest breadth of facies articularis (BF)")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9004086161, 9789004086166") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/FOVT_0001724> "third phalanx of central digit articular breadth (M3)")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001724> "distal phalanx of manual digit 3 articular surface breadth"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001724> <http://purl.obolibrary.org/obo/PATO_0000921>)
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001724> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0004312>))
+
+# Class: <http://purl.obolibrary.org/obo/FOVT_0001725> (distal phalanx of manual digit 3 distal breadth)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0001725> <http://purl.obolibrary.org/obo/IAO_0000423>)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9004086161, 9789004086166") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001725> "The breadth of the distal end of a distal phalanx of manual digit 3 along the anterior-posterior axis.")
+AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_0001725> <https://orcid.org/0000-0003-2699-3066>)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/FOVT_0001725> "digit 3 phalanx 3 greatest breadth of distal end (Bd)")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9004086161, 9789004086166") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/FOVT_0001725> "third phalanx of central digit distal breadth at the tuberosities (M6)")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001725> "distal phalanx of manual digit 3 distal breadth"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0001725> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000921> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0004312>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/BSPO_0000062>))))
+
+# Class: <http://purl.obolibrary.org/obo/FOVT_0001726> (distal phalanx of manual digit 3 diaphysis breadth)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0001726> <http://purl.obolibrary.org/obo/IAO_0000423>)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9004086161, 9789004086166") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001726> "The width of the diaphysis of a distal phalanx of manual digit 3 along the medial-lateral axis.")
+AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_0001726> <https://orcid.org/0000-0003-2699-3066>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#editor_note> <http://purl.obolibrary.org/obo/FOVT_0001726> "need to add diaphysis")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/FOVT_0001726> "digit 3 phalanx 3 greatest breadth (GB)")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9004086161, 9789004086166") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/FOVT_0001726> "third phalanx of central digit maximal breadth (M3)")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001726> "distal phalanx of manual digit 3 diaphysis breadth"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001726> <http://purl.obolibrary.org/obo/PATO_0000921>)
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001726> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0004312>))
+
+# Class: <http://purl.obolibrary.org/obo/FOVT_0001727> (distal phalanx of manual digit 3 anterior length)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0001727> <http://purl.obolibrary.org/obo/IAO_0000423>)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9004086161, 9789004086166") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001727> "The length of the anterior side of a distal phalanx of manual digit 3 along the distal-distal axis.")
+AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_0001727> <https://orcid.org/0000-0003-2699-3066>)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9004086161, 9789004086166") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/FOVT_0001727> "third phalanx of central digit anterior length (M2)")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001727> "distal phalanx of manual digit 3 anterior length"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0001727> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000122> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0004312>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/BSPO_0000055>))))
+
+# Class: <http://purl.obolibrary.org/obo/FOVT_0001728> (distal phalanx of manual digit 3 proximal depth)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0001728> <http://purl.obolibrary.org/obo/IAO_0000423>)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9004086161, 9789004086166") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001728> "The depth of the distal end of a distal phalanx of manual digit 3 along the anterior-posterior axis.")
+AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_0001728> <https://orcid.org/0000-0003-2699-3066>)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/FOVT_0001728> "digit 3 phalanx 3 depth of the proximal end (Dp)")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9004086161, 9789004086166") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/FOVT_0001728> "third phalanx of central digit proximal depth (M5)")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001728> "distal phalanx of manual digit 3 proximal depth"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0001728> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001595> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0004312>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/BSPO_0000061>))))
+
+# Class: <http://purl.obolibrary.org/obo/FOVT_0001729> (distal phalanx of pedal digit 3 length)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0001729> <http://purl.obolibrary.org/obo/IAO_0000423>)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9004086161, 9789004086166") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001729> "The length of a distal phalanx of pedal digit 3 along the distal-distal axis.")
+AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_0001729> <https://orcid.org/0000-0003-2699-3066>)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/FOVT_0001729> "digit 3 phalanx 3 greatest length (GL)")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9004086161, 9789004086166") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/FOVT_0001729> "first phalanx of central digit maximal length (M1)")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001729> "distal phalanx of pedal digit 3 length"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0001729> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000122> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0004317>)))
+
+# Class: <http://purl.obolibrary.org/obo/FOVT_0001730> (distal phalanx of pedal digit 3 proximal breadth)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0001730> <http://purl.obolibrary.org/obo/IAO_0000423>)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9004086161, 9789004086166") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001730> "The width of the distal end of a distal phalanx of pedal digit 3 along the medial-lateral axis.")
+AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_0001730> <https://orcid.org/0000-0003-2699-3066>)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/FOVT_0001730> "digit 3 phalanx 3 greatest breadth of proximal end (Bp)")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9004086161, 9789004086166") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/FOVT_0001730> "first phalanx of central digit proximal breadth (M4)")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001730> "distal phalanx of pedal digit 3 proximal breadth"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0001730> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000921> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0004317>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/BSPO_0000061>))))
+
+# Class: <http://purl.obolibrary.org/obo/FOVT_0001731> (distal phalanx of pedal digit 3 proximal articular surface breadth)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0001731> <http://purl.obolibrary.org/obo/IAO_0000423>)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001731> "The width of the proximal articular surface of a distal phalanx of pedal digit 3 along the medial-lateral axis.")
+AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_0001731> <https://orcid.org/0000-0003-2699-3066>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#editor_note> <http://purl.obolibrary.org/obo/FOVT_0001731> "need to add articular surface")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/FOVT_0001731> "digit 3 phalanx 3 greatest breadth of facies articularis proximalis (BFp)")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001731> "distal phalanx of pedal digit 3 proximal articular surface breadth"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001731> <http://purl.obolibrary.org/obo/PATO_0000921>)
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001731> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0004317>))
+
+# Class: <http://purl.obolibrary.org/obo/FOVT_0001732> (distal phalanx of pedal digit 3 proximal depth)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0001732> <http://purl.obolibrary.org/obo/IAO_0000423>)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9004086161, 9789004086166") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001732> "The depth of the distal end of a distal phalanx of pedal digit 3 along the anterior-posterior axis.")
+AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_0001732> <https://orcid.org/0000-0003-2699-3066>)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/FOVT_0001732> "digit 3 phalanx 3 depth of the proximal end (Dp)")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9004086161, 9789004086166") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/FOVT_0001732> "first phalanx of central digit proximal depth (M5)")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001732> "distal phalanx of pedal digit 3 proximal depth"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0001732> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001595> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0004317>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/BSPO_0000062>))))
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001732> <http://purl.obolibrary.org/obo/PATO_0001595>)
+
+# Class: <http://purl.obolibrary.org/obo/FOVT_0001733> (distal phalanx of pedal digit 3 diaphysis breadth)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0001733> <http://purl.obolibrary.org/obo/IAO_0000423>)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9004086161, 9789004086166") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001733> "The width of the diaphysis of a distal phalanx of pedal digit 3 along the medial-lateral axis.")
+AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_0001733> <https://orcid.org/0000-0003-2699-3066>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#editor_note> <http://purl.obolibrary.org/obo/FOVT_0001733> "need to add diaphysis")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/FOVT_0001733> "digit 3 phalanx 3 smallest breadth of the diaphysis (SD)")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9004086161, 9789004086166") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/FOVT_0001733> "first phalanx of central digit minimal breadth (M3)")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001733> "distal phalanx of pedal digit 3 diaphysis breadth"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001733> <http://purl.obolibrary.org/obo/PATO_0000921>)
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001733> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0004317>))
+
+# Class: <http://purl.obolibrary.org/obo/FOVT_0001734> (distal phalanx of pedal digit 3 distal breadth)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0001734> <http://purl.obolibrary.org/obo/IAO_0000423>)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9004086161, 9789004086166") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001734> "The width of the distal end of a distal phalanx of pedal digit 3 along the medial-lateral axis.")
+AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_0001734> <https://orcid.org/0000-0003-2699-3066>)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/FOVT_0001734> "digit 3 phalanx 3 greatest breadth of the distal end (Bd)")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9004086161, 9789004086166") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/FOVT_0001734> "first phalanx of central digit distal breadth at the tuberosities (M6)")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001734> "distal phalanx of pedal digit 3 distal breadth"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0001734> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000921> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0004317>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/BSPO_0000062>))))
+
+# Class: <http://purl.obolibrary.org/obo/FOVT_0001735> (distal phalanx of pedal digit 3 anterior length)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0001735> <http://purl.obolibrary.org/obo/IAO_0000423>)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9004086161, 9789004086166") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001735> "The length of the anterior side of a distal phalanx of pedal digit 3 along the distal-distal axis.")
+AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_0001735> <https://orcid.org/0000-0003-2699-3066>)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9004086161, 9789004086166") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/FOVT_0001735> "first phalanx of central digit anterior length (M2)")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001735> "distal phalanx of pedal digit 3 anterior length"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0001735> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000122> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0004317>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/BSPO_0000055>))))
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001735> <http://purl.obolibrary.org/obo/PATO_0000122>)
+
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001736> (middle phalanx of manual digit 5 proximal breadth)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0001736> <http://purl.obolibrary.org/obo/IAO_0000423>)
@@ -7398,7 +7548,6 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9004086161, 9789004086166") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/FOVT_0001736> "first phalanx of fifth digit proximal breadth (M2)")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001736> "middle phalanx of manual digit 5 proximal breadth"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0001736> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000921> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0004323>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/BSPO_0000061>))))
-SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001736> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0004323>))
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001737> (middle phalanx of manual digit 5 proximal articular surface breadth)
 
@@ -7409,6 +7558,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#editor_note> <
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/FOVT_0001737> "digit 5 phalanx 2 greatest breadth of facies articularis proximalis (BFp)")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001737> "middle phalanx of manual digit 5 proximal articular surface breadth"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001737> <http://purl.obolibrary.org/obo/PATO_0000921>)
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001737> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0004323>))
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001738> (middle phalanx of manual digit 5 distal breadth)
 
@@ -7512,7 +7662,6 @@ AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_000
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/FOVT_0001748> "digit 1 phalanx 3 greatest breadth of proximal end (Bp)")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001748> "distal phalanx of manual digit 1 proximal breadth"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0001748> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000921> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0004337>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/BSPO_0000061>))))
-SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001748> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0004337>))
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001749> (distal phalanx of manual digit 1 proximal articular surface breadth)
 
@@ -7523,6 +7672,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#editor_note> <
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/FOVT_0001749> "digit 1 phalanx 3 greatest breadth of facies articularis proximalis (BFp)")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001749> "distal phalanx of manual digit 1 proximal articular surface breadth"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001749> <http://purl.obolibrary.org/obo/PATO_0000921>)
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001749> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0004337>))
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001750> (distal phalanx of manual digit 1 distal breadth)
 
@@ -7640,7 +7790,6 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9004086161, 9789004086166") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/FOVT_0001761> "first phalanx of second digit proximal breadth (M2)")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001761> "middle phalanx of manual digit 2 proximal breadth"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0001761> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000921> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0004320>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/BSPO_0000061>))))
-SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001761> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0004320>))
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001762> (middle phalanx of manual digit 2 proximal articular surface breadth)
 
@@ -7651,6 +7800,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#editor_note> <
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/FOVT_0001762> "digit 2 phalanx 2 greatest breadth of facies articularis proximalis (BFp)")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001762> "middle phalanx of manual digit 2 proximal articular surface breadth"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001762> <http://purl.obolibrary.org/obo/PATO_0000921>)
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001762> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0004320>))
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001763> (middle phalanx of manual digit 2 distal breadth)
 
@@ -7755,7 +7905,6 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9004086161, 9789004086166") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/FOVT_0001774> "first phalanx of fourth digit proximal breadth (M2)")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001774> "middle phalanx of manual digit 4 proximal breadth"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0001774> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000921> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0004322>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/BSPO_0000061>))))
-SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001774> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0004322>))
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001775> (middle phalanx of manual digit 4 proximal articular surface breadth)
 
@@ -7766,6 +7915,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#editor_note> <
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/FOVT_0001775> "digit 4 phalanx 2 greatest breadth of facies articularis proximalis (BFp)")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001775> "middle phalanx of manual digit 4 proximal articular surface breadth"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001775> <http://purl.obolibrary.org/obo/PATO_0000921>)
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001775> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0004322>))
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001776> (middle phalanx of manual digit 4 distal breadth)
 
@@ -7869,7 +8019,6 @@ AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_000
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/FOVT_0001788> "digit 5 phalanx 3 greatest breadth of proximal end (Bp)")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001788> "distal phalanx of manual digit 5 proximal breadth"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0001788> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000921> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0004314>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/BSPO_0000061>))))
-SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001788> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0004314>))
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001789> (distal phalanx of manual digit 5 proximal articular surface breadth)
 
@@ -7880,6 +8029,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#editor_note> <
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/FOVT_0001789> "digit 5 phalanx 3 greatest breadth of facies articularis proximalis (BFp)")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001789> "distal phalanx of manual digit 5 proximal articular surface breadth"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001789> <http://purl.obolibrary.org/obo/PATO_0000921>)
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001789> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0004314>))
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001790> (distal phalanx of manual digit 5 distal breadth)
 
@@ -7996,7 +8146,6 @@ AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_000
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/FOVT_0001801> "digit 4 phalanx 3 greatest breadth of proximal end (Bp)")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001801> "distal phalanx of manual digit 4 proximal breadth"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0001801> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000921> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0004313>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/BSPO_0000061>))))
-SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001801> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0004313>))
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001802> (distal phalanx of manual digit 4 proximal articular surface breadth)
 
@@ -8007,6 +8156,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#editor_note> <
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/FOVT_0001802> "digit 4 phalanx 3 greatest breadth of facies articularis proximalis (BFp)")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001802> "distal phalanx of manual digit 4 proximal articular surface breadth"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001802> <http://purl.obolibrary.org/obo/PATO_0000921>)
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001802> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0004313>))
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001803> (distal phalanx of manual digit 4 distal breadth)
 
@@ -8123,7 +8273,6 @@ AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_000
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/FOVT_0001814> "digit 2 phalanx 3 greatest breadth of proximal end (Bp)")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001814> "distal phalanx of manual digit 2 proximal breadth"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0001814> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000921> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0004311>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/BSPO_0000061>))))
-SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001814> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0004311>))
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001815> (distal phalanx of manual digit 2 proximal articular surface breadth)
 
@@ -8134,6 +8283,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#editor_note> <
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/FOVT_0001815> "digit 2 phalanx 3 greatest breadth of facies articularis proximalis (BFp)")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001815> "distal phalanx of manual digit 2 proximal articular surface breadth"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001815> <http://purl.obolibrary.org/obo/PATO_0000921>)
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001815> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0004311>))
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001816> (distal phalanx of manual digit 2 distal breadth)
 
@@ -8251,7 +8401,6 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9004086161, 9789004086166") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/FOVT_0001827> "first phalanx of first digit proximal breadth (M2)")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001827> "middle phalanx of manual digit 1 proximal breadth"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0001827> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000921> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_4200219>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/BSPO_0000061>))))
-SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001827> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_4200219>))
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001828> (middle phalanx of manual digit 1 proximal articular surface breadth)
 
@@ -8262,6 +8411,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#editor_note> <
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/FOVT_0001828> "digit 1 phalanx 2 greatest breadth of facies articularis proximalis (BFp)")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001828> "middle phalanx of manual digit 1 proximal articular surface breadth"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001828> <http://purl.obolibrary.org/obo/PATO_0000921>)
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001828> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_4200219>))
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001829> (middle phalanx of manual digit 1 distal breadth)
 
@@ -8307,8 +8457,6 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001832> "middle phalanx of manual digit 1 proximal depth"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001832> "proximal phalanx of manual digit 1 proximal articular surface breadth"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0001832> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001595> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_4200219>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/BSPO_0000061>))))
-SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001832> <http://purl.obolibrary.org/obo/PATO_0000921>)
-SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001832> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0004338>))
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001833> (proximal phalanx of manual digit 1 distal breadth)
 
@@ -10332,6 +10480,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#editor_note> <
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/FOVT_0002024> "mammalian cervical vertebra 3 greatest breadth across the processus articulares craniales (BPacr)")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0002024> "mammalian cervical vertebra 3 cranial articular process breadth"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0002024> <http://purl.obolibrary.org/obo/PATO_0000921>)
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0002024> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0004612>))
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_0002025> (mammalian cervical vertebra 3 caudal articular process breadth)
 
@@ -10417,6 +10566,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#editor_note> <
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/FOVT_0002032> "mammalian cervical vertebra 4 greatest breadth across the processus articulares craniales (BPacr)")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0002032> "mammalian cervical vertebra 4 cranial articular process breadth"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0002032> <http://purl.obolibrary.org/obo/PATO_0000921>)
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0002032> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0004613>))
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_0002033> (mammalian cervical vertebra 4 caudal articular process breadth)
 
@@ -10502,6 +10652,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#editor_note> <
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/FOVT_0002040> "mammalian cervical vertebra 5 greatest breadth across the processus articulares craniales (BPacr)")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0002040> "mammalian cervical vertebra 5 cranial articular process breadth"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0002040> <http://purl.obolibrary.org/obo/PATO_0000921>)
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0002040> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0004614>))
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_0002041> (mammalian cervical vertebra 5 caudal articular process breadth)
 
@@ -10587,6 +10738,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#editor_note> <
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/FOVT_0002048> "mammalian cervical vertebra 6 greatest breadth across the processus articulares craniales (BPacr)")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0002048> "mammalian cervical vertebra 6 cranial articular process breadth"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0002048> <http://purl.obolibrary.org/obo/PATO_0000921>)
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0002048> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0004615>))
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_0002049> (mammalian cervical vertebra 6 caudal articular process breadth)
 
@@ -10672,6 +10824,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#editor_note> <
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/FOVT_0002056> "mammalian cervical vertebra 7 greatest breadth across the processus articulares craniales (BPacr)")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0002056> "mammalian cervical vertebra 7 cranial articular process breadth"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0002056> <http://purl.obolibrary.org/obo/PATO_0000921>)
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0002056> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0004616>))
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_0002057> (mammalian cervical vertebra 7 caudal articular process breadth)
 
