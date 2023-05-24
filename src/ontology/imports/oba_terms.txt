@@ -100,3 +100,7 @@ OBA:0002517 #middle phalanx of manual digit 5 length
 OBA:0003374 #proximal phalanx of pedal digit 5 size
 OBA:0003368 #distal phalanx of pedal digit 5 size
 OBA:0003371 #middle phalanx of pedal digit 5 size
+OBA:0002556 #fused sacrum size
+OBA:VT0003047 #thoracic vertebra morphology trait
+OBA:0004048 #lumbar vertebra length
+OBA:0002828 #lumbar vertebra 5 size
