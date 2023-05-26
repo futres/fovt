@@ -371,9 +371,8 @@ mirror-pato: | $(TMPDIR)
 .PHONY: mirror-oba
 .PRECIOUS: $(MIRRORDIR)/oba.owl
 mirror-oba: | $(TMPDIR)
-	if [ $(MIR) = true ] && [ $(IMP) = true ]; then curl -L $(OBOBASE)/oba.owl --create-dirs -o $(MIRRORDIR)/oba.owl --retry 4 --max-time 200 &&\
-		$(ROBOT) convert -i $(MIRRORDIR)/oba.owl -o $@.tmp.owl &&\
-		mv $@.tmp.owl $(TMPDIR)/$@.owl; fi
+	if [ $(MIR) = true ] && [ $(IMP) = true ]; then curl -L $(OBOBASE)/oba/oba-base.owl --create-dirs -o $(MIRRORDIR)/oba.owl --retry 4 --max-time 200 &&\
+		$(ROBOT) convert -i $(MIRRORDIR)/oba.owl -o $@.tmp.owl && mv $@.tmp.owl $(TMPDIR)/$@.owl; fi
 
 
 ## ONTOLOGY: bspo

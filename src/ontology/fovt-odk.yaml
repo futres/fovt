@@ -8,6 +8,7 @@ import_group:
     - id: bfo
     - id: pato
     - id: oba
+      use_base: True
     - id: bspo
     - id: iao
     - id: bco
