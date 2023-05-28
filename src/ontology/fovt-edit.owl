@@ -3722,7 +3722,7 @@ AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_000
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#editor_note> <http://purl.obolibrary.org/obo/FOVT_0001287> "need to add \"canine tooth size trait\" for this term to be nested under")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001287> "lower cuspid crown height"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001287> "lower canine tooth crown height"@en)
-EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0001287> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000119> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0003675> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0018622>)))))
+EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0001287> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000119> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0018622>)))
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001288> (upper canine tooth crown height)
 
@@ -3732,7 +3732,7 @@ AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_000
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#editor_note> <http://purl.obolibrary.org/obo/FOVT_0001288> "need to add \"canine tooth size trait\" for this term to be nested under")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001288> "upper cuspid crown height"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001288> "upper canine tooth crown height"@en)
-EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0001288> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000119> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0003675> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0018621>)))))
+EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0001288> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000119> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0018621>)))
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001289> (upper secondary canine tooth crown height)
 
@@ -3742,7 +3742,7 @@ AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_000
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#editor_note> <http://purl.obolibrary.org/obo/FOVT_0001289> "need to add \"canine tooth size trait\" for this term to be nested under")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001289> "upper seconday cuspid crown height"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001289> "upper secondary canine tooth crown height"@en)
-EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0001289> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000119> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0003675> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0018561>)))))
+EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0001289> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000119> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0018561>)))
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001290> (lower secondary canine tooth crown height)
 
@@ -3754,7 +3754,7 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001290> "lower secondary cuspid crown height"@en)
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") rdfs:comment <http://purl.obolibrary.org/obo/FOVT_0001290> "The measurement number and genus from von den Driesch (1979): 21 Canis, 17 Ursus.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001290> "lower secondary canine tooth crown height"@en)
-EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0001290> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000119> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0003675> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0018562>)))))
+EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0001290> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000119> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0018562>)))
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001291> (upper primary canine tooth crown height)
 
@@ -3764,7 +3764,7 @@ AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_000
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#editor_note> <http://purl.obolibrary.org/obo/FOVT_0001291> "need to add \"canine tooth size trait\" for this term to be nested under")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001291> "upper primary cuspid crown height"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001291> "upper primary canine tooth crown height"@en)
-EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0001291> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000119> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0003675> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0018597>)))))
+EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0001291> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000119> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0018597>)))
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001292> (lower primary canine tooth crown height)
 
@@ -3774,7 +3774,7 @@ AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_000
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#editor_note> <http://purl.obolibrary.org/obo/FOVT_0001292> "need to add \"canine tooth size trait\" for this term to be nested under")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001292> "lower primary cuspid crown height"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001292> "lower primary canine tooth crown height"@en)
-EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0001292> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000119> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0003675> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0018598>)))))
+EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0001292> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000119> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0018598>)))
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001293> (secondary canine tooth crown height)
 
@@ -3784,7 +3784,7 @@ AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_000
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#editor_note> <http://purl.obolibrary.org/obo/FOVT_0001293> "need to add \"canine tooth size trait\" for this term to be nested under")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001293> "secondary cuspid crown height"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001293> "secondary canine tooth crown height"@en)
-EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0001293> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000119> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0003675> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0018584>)))))
+EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0001293> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000119> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0018584>)))
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001294> (primary canine tooth crown height)
 
@@ -3794,7 +3794,7 @@ AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_000
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#editor_note> <http://purl.obolibrary.org/obo/FOVT_0001294> "need to add \"canine tooth size trait\" for this term to be nested under")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001294> "primary cuspid crown height"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001294> "primary canine tooth crown height"@en)
-EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0001294> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000119> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0003675> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0018583>)))))
+EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0001294> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000119> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0018583>)))
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001295> (premolar tooth row length)
 
@@ -4385,7 +4385,7 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_0001349> <https://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001349> "upper secondary premolar tooth 4 crown height"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001349> <http://purl.obolibrary.org/obo/PATO_0000119>)
-SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001349> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0003675> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0016452>))))
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001349> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0016452>))
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001350> (lower premolar tooth 3 anterior width)
 
@@ -4692,7 +4692,7 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_0001380> <https://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/FOVT_0001380> "need to add secondary molar tooth 1")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001380> "secondary molar tooth 1 crown height"@en)
-EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0001380> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000119> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0003675> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0018376>)))))
+EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0001380> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000119> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0018376>)))
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001381> (upper secondary molar tooth 1 crown height)
 
@@ -4721,7 +4721,7 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_0001383> <https://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#editor_note> <http://purl.obolibrary.org/obo/FOVT_0001383> "need to add secondary molar tooth 2")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001383> "secondary molar tooth 2 crown height"@en)
-EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0001383> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000119> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0003675> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0018606>)))))
+EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0001383> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000119> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0018606>)))
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001384> (lower secondary molar tooth 2 crown height)
 
@@ -4748,7 +4748,7 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_0001386> <https://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#editor_note> <http://purl.obolibrary.org/obo/FOVT_0001386> "need to add secondary molar tooth 3 to logical definition")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001386> "secondary molar tooth 3 crown height"@en)
-EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0001386> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000119> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0003675> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0018377>)))))
+EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0001386> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000119> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0018377>)))
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001387> (lower secondary molar tooth 3 crown height)
 
@@ -4918,8 +4918,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.ob
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://orcid.org/0000-0003-2699-3066") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001405> "The height of a premolar tooth 3 crown along the superior-inferior axis.")
 AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_0001405> <https://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001405> "premolar tooth 3 crown height"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001405> <http://purl.obolibrary.org/obo/PATO_0000119>)
-SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001405> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0003675> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_7500056>))))
+EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0001405> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000119> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_7500056>)))
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001406> (upper premolar tooth 3 crown height)
 
@@ -5106,7 +5105,7 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_0001508> <https://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001508> "central incisor crown height")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001508> "incisor tooth 1 crown height"@en)
-EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0001508> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000119> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0003675> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0018551>)))))
+EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0001508> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000119> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0018551>)))
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001509> (upper secondary incisor tooth 1 crown height)
 
@@ -5117,8 +5116,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001509> "upper secondary central incisor crown height")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001509> "upper secondary incisor tooth 1 crown height"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001509> <http://purl.obolibrary.org/obo/FOVT_0001508>)
-SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001509> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001709>))
-SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001509> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0007774>))
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001509> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0001709>))
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001509> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0007774>))
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001510> (lower secondary incisor tooth 1 crown height)
 
@@ -5129,8 +5128,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001510> "lower secondary central incisor crown height")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001510> "lower secondary incisor tooth 1 crown height"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001510> <http://purl.obolibrary.org/obo/FOVT_0001508>)
-SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001510> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001710>))
-SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001510> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0007774>))
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001510> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0001710>))
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001510> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0007774>))
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001511> (incisor tooth 2 anterior-posterior diameter)
 
@@ -5232,7 +5231,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_0001517> <https://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001517> "lateral incisor crown height")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001517> "incisor tooth 2 crown height"@en)
-EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0001517> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000119> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0003675> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0018552>)))))
+EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0001517> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000119> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0018552>)))
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001518> (upper secondary incisor tooth 2 crown height)
 
@@ -5243,8 +5242,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001518> "upper secondary lateral incisor crown height")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001518> "upper secondary incisor tooth 2 crown height"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001518> <http://purl.obolibrary.org/obo/FOVT_0001517>)
-SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001518> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001709>))
-SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001518> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0007774>))
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001518> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0001709>))
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001518> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0007774>))
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001519> (lower secondary incisor tooth 2 crown height)
 
@@ -5255,8 +5254,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001519> "lower secondary lateral incisor crown height")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001519> "lower secondary incisor tooth 2 crown height"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001519> <http://purl.obolibrary.org/obo/FOVT_0001517>)
-SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001519> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001710>))
-SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001519> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0007774>))
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001519> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0001710>))
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001519> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0007774>))
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001520> (incisor tooth 3 anterior-posterior diameter)
 
@@ -5355,7 +5354,7 @@ AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_000
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#editor_note> <http://purl.obolibrary.org/obo/FOVT_0001526> "need to add incisor tooth 3")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001526> "incisor tooth 3 crown height"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001526> <http://purl.obolibrary.org/obo/PATO_0000119>)
-SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001526> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001098>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0003675>)))
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001526> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0001098>))
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001527> (upper secondary incisor tooth 3 crown height)
 
@@ -5366,8 +5365,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#editor_note> <
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001527> "I3 crown height")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001527> "upper secondary incisor tooth 3 crown height"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001527> <http://purl.obolibrary.org/obo/FOVT_0001526>)
-SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001527> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001709>))
-SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001527> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0007774>))
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001527> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0001709>))
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001527> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0007774>))
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001528> (lower secondary incisor tooth 3 crown height)
 
@@ -5378,8 +5377,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#editor_note> <
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001528> "i3 crown height")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001528> "lower secondary incisor tooth 3 crown height"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001528> <http://purl.obolibrary.org/obo/FOVT_0001526>)
-SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001528> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001710>))
-SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001528> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0007774>))
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001528> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0001710>))
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001528> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0007774>))
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001529> (incisor tooth 4 anterior-posterior diameter)
 
@@ -5478,7 +5477,7 @@ AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_000
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#editor_note> <http://purl.obolibrary.org/obo/FOVT_0001535> "need to add incisor tooth 4")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001535> "incisor tooth 4 crown height"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001535> <http://purl.obolibrary.org/obo/PATO_0000119>)
-SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001535> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001098>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0003675>)))
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001535> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0001098>))
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001536> (upper secondary incisor tooth 4 crown height)
 
@@ -5489,8 +5488,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#editor_note> <
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001536> "I4 crown height")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001536> "upper secondary incisor tooth 4 crown height"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001536> <http://purl.obolibrary.org/obo/FOVT_0001535>)
-SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001536> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001709>))
-SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001536> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0007774>))
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001536> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0001709>))
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001536> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0007774>))
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001537> (lower secondary incisor tooth 4 crown height)
 
@@ -5501,8 +5500,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#editor_note> <
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001537> "i4 crown height")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001537> "lower secondary incisor tooth 4 crown height"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001537> <http://purl.obolibrary.org/obo/FOVT_0001535>)
-SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001537> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001710>))
-SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001537> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0007774>))
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001537> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0001710>))
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001537> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0007774>))
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001538> (incisor tooth 5 anterior-posterior diameter)
 
@@ -5600,7 +5599,7 @@ AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_000
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#editor_note> <http://purl.obolibrary.org/obo/FOVT_0001544> "need to add incisor tooth 5")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001544> "incisor tooth 5 crown height"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001544> <http://purl.obolibrary.org/obo/PATO_0000119>)
-SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001544> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001098>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0003675>)))
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001544> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0001098>))
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001545> (upper secondary incisor tooth 5 crown height)
 
@@ -5611,8 +5610,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#editor_note> <
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001545> "I5 crown height")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001545> "upper secondary incisor tooth 5 crown height"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001545> <http://purl.obolibrary.org/obo/FOVT_0001544>)
-SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001545> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001709>))
-SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001545> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0007774>))
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001545> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0001709>))
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001545> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0007774>))
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001546> (lower secondary incisor tooth 5 crown height)
 
@@ -5623,8 +5622,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#editor_note> <
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001546> "i5 crown height")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001546> "lower secondary incisor tooth 5 crown height"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001546> <http://purl.obolibrary.org/obo/FOVT_0001544>)
-SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001546> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001710>))
-SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001546> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0007774>))
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001546> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0001710>))
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001546> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0007774>))
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001547> (incisor tooth 6 anterior-posterior diameter)
 
@@ -5722,7 +5721,7 @@ AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_000
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#editor_note> <http://purl.obolibrary.org/obo/FOVT_0001553> "need to add incisor tooth 6")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001553> "incisor tooth 6 crown height"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001553> <http://purl.obolibrary.org/obo/PATO_0000119>)
-SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001553> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001098>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0003675>)))
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001553> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0001098>))
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001554> (upper secondary incisor 6 tooth crown height)
 
@@ -5733,8 +5732,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#editor_note> <
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001554> "I6 crown height")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001554> "upper secondary incisor 6 tooth crown height"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001554> <http://purl.obolibrary.org/obo/FOVT_0001553>)
-SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001554> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001709>))
-SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001554> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0007774>))
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001554> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0001709>))
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001554> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0007774>))
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001555> (lower secondary incisor tooth 6 crown height)
 
@@ -5745,8 +5744,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#editor_note> <
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001555> "i6 crown height")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001555> "lower secondary incisor tooth 6 crown height"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001555> <http://purl.obolibrary.org/obo/FOVT_0001553>)
-SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001555> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001710>))
-SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001555> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0007774>))
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001555> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0001710>))
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001555> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0007774>))
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001556> (incisor tooth diameter)
 
