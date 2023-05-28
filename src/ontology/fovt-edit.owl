@@ -3873,7 +3873,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001302> "upper cuspid diameter AP"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001302> "upper canine tooth anterior-posterior diameter"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001302> <http://purl.obolibrary.org/obo/FOVT_0001301>)
-SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001302> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001709>))
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001302> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0001709>))
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001303> (lower canine tooth anterior-posterior diameter)
 
@@ -3887,7 +3887,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001303> "lower cuspid diameter AP"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001303> "lower canine tooth anterior-posterior diameter"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001303> <http://purl.obolibrary.org/obo/FOVT_0001301>)
-SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001303> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001710>))
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001303> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0001710>))
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001304> (upper secondary canine tooth anterior-posterior diameter)
 
@@ -3902,8 +3902,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") rdfs:comment <http://purl.obolibrary.org/obo/FOVT_0001304> "The measurement number and genus from von den Driesch (1979): 21 Sus")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001304> "upper secondary canine tooth anterior-posterior diameter"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001304> <http://purl.obolibrary.org/obo/FOVT_0001301>)
-SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001304> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001709>))
-SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001304> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0007774>))
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001304> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0001709>))
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001304> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0007774>))
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001305> (lower secondary canine anterior-posterior diameter)
 
@@ -3916,8 +3916,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001305> "lower secondry cuspid anterior-posterior diameter"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001305> "lower secondary canine anterior-posterior diameter"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001305> <http://purl.obolibrary.org/obo/FOVT_0001301>)
-SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001305> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001710>))
-SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001305> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0007774>))
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001305> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0001710>))
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001305> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0007774>))
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001306> (upper primary canine anterior-posterior diameter)
 
@@ -3930,8 +3930,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001306> "upper primary cuspid diameter AP"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001306> "upper primary canine anterior-posterior diameter"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001306> <http://purl.obolibrary.org/obo/FOVT_0001301>)
-SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001306> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001709>))
-SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001306> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0007116>))
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001306> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0001709>))
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001306> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0007116>))
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001307> (lower primary canine tooth anterior-posterior diameter)
 
@@ -3945,8 +3945,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001307> "lower primary cuspid diameter AP"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001307> "lower primary canine tooth anterior-posterior diameter"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001307> <http://purl.obolibrary.org/obo/FOVT_0001301>)
-SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001307> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001710>))
-SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001307> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0007116>))
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001307> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0001710>))
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001307> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0007116>))
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001308> (canine tooth medial-lateral diameter)
 
@@ -3974,7 +3974,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/FOVT_0001309> "The measurement number and genus from von den Driesch (1979): 27 Felis")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001309> "upper canine tooth medial-lateral diameter"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001309> <http://purl.obolibrary.org/obo/FOVT_0001308>)
-SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001309> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001709>))
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001309> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0001709>))
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001310> (lower canine tooth medial-lateral diameter)
 
@@ -4003,8 +4003,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") rdfs:comment <http://purl.obolibrary.org/obo/FOVT_0001311> "The measurement number and genus from von den Driesch (1979): 27 Felis")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001311> "upper secondary canine tooth medial-lateral diameter"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001311> <http://purl.obolibrary.org/obo/FOVT_0001308>)
-SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001311> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001709>))
-SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001311> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0007774>))
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001311> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0001709>))
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001311> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0007774>))
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001312> (lower secondary canine tooth medial-lateral diameter)
 
@@ -4018,8 +4018,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001312> "lower secondary cuspid medial-lateral diameter"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001312> "lower secondary canine tooth medial-lateral diameter"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001312> <http://purl.obolibrary.org/obo/FOVT_0001308>)
-SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001312> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001710>))
-SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001312> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0007774>))
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001312> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0001710>))
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001312> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0007774>))
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001313> (upper primary canine tooth medial-lateral diameter)
 
@@ -4048,8 +4048,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001314> "lower primary cuspid medial-lateral diameter"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001314> "lower primary canine tooth medial-lateral diameter"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001314> <http://purl.obolibrary.org/obo/FOVT_0001308>)
-SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001314> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001710>))
-SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001314> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0007116>))
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001314> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0001710>))
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001314> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0007116>))
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001315> (upper left tooth row length)
 
@@ -4375,8 +4375,8 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_0001348> <https://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001348> "upper secondary premolar tooth 3 crown height"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001348> <http://purl.obolibrary.org/obo/FOVT_0001405>)
-SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001348> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001709>))
-SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001348> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0007774>))
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001348> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0001709>))
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001348> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0007774>))
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001349> (upper secondary premolar tooth 4 crown height)
 
@@ -4730,7 +4730,8 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_0001384> <https://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001384> "m2 crown height")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001384> "lower secondary molar tooth 2 crown height"@en)
-EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0001384> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/FOVT_0001383> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001710>)))
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001384> <http://purl.obolibrary.org/obo/FOVT_0001383>)
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001384> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0001710>))
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001385> (upper secondary molar tooth 2 crown height)
 
@@ -4739,7 +4740,8 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_0001385> <https://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001385> "M2 crown height")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001385> "upper secondary molar tooth 2 crown height"@en)
-EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0001385> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/FOVT_0001383> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001709>)))
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001385> <http://purl.obolibrary.org/obo/FOVT_0001383>)
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001385> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0001709>))
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001386> (secondary molar tooth 3 crown height)
 
@@ -4927,7 +4929,7 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_0001406> <https://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001406> "upper premolar tooth 3 crown height"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001406> <http://purl.obolibrary.org/obo/FOVT_0001405>)
-SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001406> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001709>))
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001406> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0001709>))
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001407> (lower premolar tooth 3 crown height)
 
@@ -4936,7 +4938,7 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_0001407> <https://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001407> "lower premolar tooth 3 crown height"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001407> <http://purl.obolibrary.org/obo/FOVT_0001405>)
-SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001407> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001709>))
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001407> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0001709>))
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001408> (obsolete upper secondary premolar tooth 3 crown height)
 
@@ -4955,8 +4957,8 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_0001409> <https://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001409> "lower secondary premolar tooth 3 crown height"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001409> <http://purl.obolibrary.org/obo/FOVT_0001405>)
-SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001409> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001710>))
-SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001409> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0007774>))
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001409> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0001710>))
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001409> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0007774>))
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001410> (upper primary premolar tooth 3 crown height)
 
@@ -4965,8 +4967,8 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_0001410> <https://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001410> "upper primary premolar tooth 3 crown height"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001410> <http://purl.obolibrary.org/obo/FOVT_0001405>)
-SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001410> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001709>))
-SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001410> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0007116>))
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001410> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0001709>))
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001410> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0007116>))
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001411> (lower primary premolar tooth 3 crown height)
 
@@ -4975,8 +4977,8 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_0001411> <https://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001411> "lower primary premolar tooth 3 crown height"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001411> <http://purl.obolibrary.org/obo/FOVT_0001405>)
-SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001411> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001710>))
-SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001411> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0007116>))
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001411> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0001710>))
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001411> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0007116>))
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001500> (incisor tooth 1 anterior-posterior diameter)
 
