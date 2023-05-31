@@ -5961,7 +5961,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001571> ObjectSomeValuesFrom(<h
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9004086161, 9789004086166") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001572> "The breadth of the proximal side of a metacarpal bone of digit 4 along the medial-lateral axis.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/oba#measured_in_taxon> <http://purl.obolibrary.org/obo/FOVT_0001572> <http://purl.obolibrary.org/obo/NCBITaxon_9789>)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/oba#measured_in_taxon> <http://purl.obolibrary.org/obo/FOVT_0001572> <http://purl.obolibrary.org/obo/NCBITaxon_9822>)
-AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_0001572> "https://orcid.org/0000-0003-2699-3066")
+AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_0001572> <https://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/FOVT_0001572> "metacarpal IV greatest breadth of the proximal end (Bp)")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9004086161, 9789004086166") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/FOVT_0001572> "metacarpal IV proximal maximal breadth (M3)")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001572> "metacarpal bone of digit 4 proximal breadth"@en)
@@ -5971,7 +5971,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001572> ObjectSomeValuesFrom(<h
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001573> (fused metacarpal bones 3 and 4 proximal breadth)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9004086161, 9789004086166") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_0001573> "The breadth of the proximal side of a fused metacarpal bones 3 and 4 along the medial-lateral axis.")
-AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_0001573> "https://orcid.org/0000-0003-2699-3066")
+AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_0001573> <https://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/FOVT_0001573> "metacarpal III+IV greatest breadth of the proximal end (Bp)")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001573> "fused metacarpal bones 3 and 4 proximal breadth"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001573> <http://purl.obolibrary.org/obo/PATO_0000921>)
@@ -7078,7 +7078,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001674> ObjectSomeValuesFrom(<h
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001675> (obsolete proximal phalanx of manual digit 3 proximal breadth)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/FOVT_0001675> <http://purl.obolibrary.org/obo/FOVT_0001673>)
-AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_0001675> "https://orcid.org/0000-0003-2699-3066")
+AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_0001675> <https://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/FOVT_0001675> "already exists")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001675> "obsolete proximal phalanx of manual digit 3 proximal breadth"@en)
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/FOVT_0001675> "true"^^xsd:boolean)
@@ -7119,7 +7119,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0001678> ObjectIntersecti
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001679> (obsolete proximal phalanx of manual digit 3 distal breadth)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/FOVT_0001679> <http://purl.obolibrary.org/obo/FOVT_0001676>)
-AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_0001679> "https://orcid.org/0000-0003-2699-3066")
+AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_0001679> <https://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/FOVT_0001679> "already exists")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001679> "obsolete proximal phalanx of manual digit 3 distal breadth"@en)
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/FOVT_0001679> "true"^^xsd:boolean)
@@ -11565,7 +11565,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0002119> ObjectIntersecti
 # Class: <http://purl.obolibrary.org/obo/FOVT_0002120> (obsolete phalanx distal distal articular breadth)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_0002120> <http://purl.obolibrary.org/obo/IAO_0000423>)
-AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_0002120> "https://orcid.org/0000-0003-2699-3066")
+AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_0002120> <https://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/FOVT_0002120> "not needed")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0002120> "obsolete phalanx distal distal articular breadth"@en)
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/FOVT_0002120> "true"^^xsd:boolean)
