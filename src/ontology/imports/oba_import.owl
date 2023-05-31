@@ -11,7 +11,7 @@
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/fovt/imports/oba_import.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/fovt/releases/2023-05-28/imports/oba_import.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/fovt/releases/2023-05-31/imports/oba_import.owl"/>
     </owl:Ontology>
     
 
@@ -4784,6 +4784,39 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OBA_0004840 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0004840">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000051"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002314"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001451"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>The morphology of a navicular bone of pes.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>morphology of navicular bone of pes</oboInOwl:hasExactSynonym>
+        <rdfs:label>navicular bone of pes morphology</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OBA_0004840"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The morphology of a navicular bone of pes.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>obo:oba/patterns/entity_attribute_part_of</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OBA_0004840"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>morphology of navicular bone of pes</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>obo:oba/patterns/entity_attribute_part_of</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OBA_0004900 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0004900">
@@ -5459,6 +5492,39 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OBA_1000189 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_1000189">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000001"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002314"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001451"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>The quality of a navicular bone of pes.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>quality of navicular bone of pes</oboInOwl:hasExactSynonym>
+        <rdfs:label>navicular bone of pes quality</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OBA_1000189"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The quality of a navicular bone of pes.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>obo:oba/patterns/entity_attribute_part_of</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OBA_1000189"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>quality of navicular bone of pes</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>obo:oba/patterns/entity_attribute_part_of</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OBA_1000190 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_1000190">
@@ -5677,14 +5743,14 @@
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OBA_1000215"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>The quality of a proximal phalanx of pedal digit 4.</owl:annotatedTarget>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>quality of proximal phalanx of pedal digit 4</owl:annotatedTarget>
         <oboInOwl:hasDbXref>obo:oba/patterns/entity_attribute_part_of</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OBA_1000215"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>quality of proximal phalanx of pedal digit 4</owl:annotatedTarget>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The quality of a proximal phalanx of pedal digit 4.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>obo:oba/patterns/entity_attribute_part_of</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -5743,14 +5809,14 @@
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OBA_1000240"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>quality of proximal phalanx of pedal digit 5</owl:annotatedTarget>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The quality of a proximal phalanx of pedal digit 5.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>obo:oba/patterns/entity_attribute_part_of</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OBA_1000240"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>The quality of a proximal phalanx of pedal digit 5.</owl:annotatedTarget>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>quality of proximal phalanx of pedal digit 5</owl:annotatedTarget>
         <oboInOwl:hasDbXref>obo:oba/patterns/entity_attribute_part_of</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -5982,6 +6048,39 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OBA_1000300"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>quality of ulna</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>obo:oba/patterns/entity_attribute_part_of</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBA_1000304 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_1000304">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000001"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002314"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004413"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>The quality of a proximal epiphysis of radius.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>quality of proximal epiphysis of radius</oboInOwl:hasExactSynonym>
+        <rdfs:label>proximal epiphysis of radius quality</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OBA_1000304"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The quality of a proximal epiphysis of radius.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>obo:oba/patterns/entity_attribute_part_of</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OBA_1000304"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>quality of proximal epiphysis of radius</owl:annotatedTarget>
         <oboInOwl:hasDbXref>obo:oba/patterns/entity_attribute_part_of</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -10853,6 +10952,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UBERON_0001451 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001451"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UBERON_0001690 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001690"/>
@@ -11372,6 +11477,12 @@
     <!-- http://purl.obolibrary.org/obo/UBERON_0004412 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0004412"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0004413 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0004413"/>
     
 
 
