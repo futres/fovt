@@ -2217,7 +2217,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/FOVT_0001129> "radius greatest breadth of the proximal end (Bp)")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9004086161, 9789004086166") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/FOVT_0001129> "radius proximal maximal breadth (M7)"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001129> "radius proximal breadth"@en)
-EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0001129> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000921> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0004411>)))
+EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0001129> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000921> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0004413>)))
 SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001129> <http://purl.obolibrary.org/obo/OBA_0002374>)
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001130> (radius distal articular breadth)
@@ -2363,7 +2363,7 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_0001143> <https://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001143> "length of fused metapodial bones 3 and 4"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001143> "fused metapodial bones 3 and 4 length"@en)
-EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0001143> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000122> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0013587>)))
+EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0001143> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000122> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0013586>)))
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001144> (metapodial bone of digit 4 length)
 
@@ -3541,7 +3541,7 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_0001263> <https://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001263> "premolar tooth 4 occlusal surface length AP"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001263> "premolar tooth 4 occlusal surface length"@en)
-EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0001263> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000122> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0018646>)))
+EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0001263> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000122> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0018647>)))
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001264> (upper premolar tooth 4 occlusal surface length)
 
@@ -4376,7 +4376,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001344> "upper secondary cuspid to premolar tooth 3 length AP"@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FOVT_0001344> "upper secondary cuspid tooth to premolar tooth 3 length"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001344> "upper secondary canine tooth to premolar tooth 3 length"@en)
-EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0001344> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000122> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_7500056> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001709>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0007774>)))))
+EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0001344> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000122> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0009678> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001709>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0007774>)))))
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001345> (lower secondary canine tooth to premolar tooth 3 length)
 
@@ -8275,7 +8275,7 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_0001806> <https://orcid.org/0000-0003-2699-3066>)
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/FOVT_0001806> "digit 4 phalanx 3 depth of the proximal end (Dp)")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001806> "distal phalanx of manual digit 4 proximal depth"@en)
-EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0001806> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001595> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BSPO_0000124> <http://purl.obolibrary.org/obo/UBERON_0004312>))))
+EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0001806> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0001595> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BSPO_0000124> <http://purl.obolibrary.org/obo/UBERON_0004313>))))
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001807> (distal phalanx of pedal digit 4 length)
 
@@ -8759,7 +8759,7 @@ AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_000
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/FOVT_0001856> "digit 2 phalanx 1 greatest breadth of proximal end (Bp)")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9004086161, 9789004086166") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/FOVT_0001856> "first phalanx of second digit proximal breadth (M2)")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001856> "proximal phalanx of pedal digit 2 proximal breadth"@en)
-EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0001856> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000921> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BSPO_0000124> <http://purl.obolibrary.org/obo/UBERON_0004332>))))
+EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0001856> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000921> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BSPO_0000124> <http://purl.obolibrary.org/obo/UBERON_0004333>))))
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001857> (proximal phalanx of pedal digit 2 proximal articular surface breadth)
 
