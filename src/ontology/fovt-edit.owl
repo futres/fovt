@@ -1090,6 +1090,9 @@ Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_2000021>))
 Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_2000022>))
 Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_2000023>))
 Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_2000024>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_2000048>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_2000049>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_2000050>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_91561>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_9788>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_9845>))
@@ -12509,6 +12512,35 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9004086161, 9789004086166") rdfs:comment <http://purl.obolibrary.org/obo/FOVT_2000024> "The following is the measurement number and genus for this trait in von den Driesch (1979): 35 Equus, 20 Camelus, 27 Bos, 28 Ovis and Capra, 27 Cervus, 35 Sus, 26 Canis, 26 Ursus."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_2000024> "cranium breadth at paroccipital process"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/FOVT_2000024> <http://purl.obolibrary.org/obo/FOVT_2000021>)
+
+# Class: <http://purl.obolibrary.org/obo/FOVT_2000048> (length between preorbital fossa and facial tubercle)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_2000048> <http://purl.obolibrary.org/obo/IAO_0000423>)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9004086161, 9789004086166") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_2000048> "The length from the inferior-most part of a preorbital fossa to the superior-most part of a facial tubercle."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/oba#measured_in_taxon> <http://purl.obolibrary.org/obo/FOVT_2000048> <http://purl.obolibrary.org/obo/NCBITaxon_9789>)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9004086161, 9789004086166") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/FOVT_2000048> "distance between the preorbital fossa and the facial tubercle (end of facial crest; M36)"@en)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/FOVT_2000048> "This is measured from the inferior-most part of a preorbital fossa to the superior-most part of a facial tubercle in a straight line."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_2000048> "length between preorbital fossa and facial tubercle"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_2000048> <http://purl.obolibrary.org/obo/OBA_0002546>)
+
+# Class: <http://purl.obolibrary.org/obo/FOVT_2000049> (length to infraorbital foramen)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_2000049> <http://purl.obolibrary.org/obo/IAO_0000423>)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9004086161, 9789004086166") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_2000049> "The length from the posteriormost part of an infraorbital foramen to above the alveolar border of a maxilla bone."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/oba#measured_in_taxon> <http://purl.obolibrary.org/obo/FOVT_2000049> <http://purl.obolibrary.org/obo/NCBITaxon_9789>)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9004086161, 9789004086166") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/FOVT_2000049> "height of the back of the foramen infraorbitale above the alveolar border (M37)"@en)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/FOVT_2000049> "This is measured from the posteriormost part of an infraorbital foramen to above the alveolar border in a straight line."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_2000049> "length to infraorbital foramen"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_2000049> <http://purl.obolibrary.org/obo/OBA_0002546>)
+
+# Class: <http://purl.obolibrary.org/obo/FOVT_2000050> (legnth to preorbital fossa)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_2000050> <http://purl.obolibrary.org/obo/IAO_0000423>)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9004086161, 9789004086166") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_2000050> "The length from the posteriormost part of a preorbital fossa to above the alveolar border of a maxilla."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/oba#measured_in_taxon> <http://purl.obolibrary.org/obo/FOVT_2000050> <http://purl.obolibrary.org/obo/NCBITaxon_9789>)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/FOVT_2000050> "This is measured from the posteriormost part of a preorbital fossa to above the alveolar border in a straight line."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_2000050> "legnth to preorbital fossa"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_2000050> <http://purl.obolibrary.org/obo/OBA_0002546>)
 
 # Class: <http://purl.obolibrary.org/obo/OBA_0002413> (pelvic girdle bone/zone size)
 
