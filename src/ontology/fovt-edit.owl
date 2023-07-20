@@ -1116,6 +1116,8 @@ Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_2000073>))
 Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_2000074>))
 Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_2000075>))
 Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_2000076>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_2000077>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_2000078>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_91561>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_9788>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_9845>))
@@ -12869,6 +12871,7 @@ AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_200
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_2000074> "snout breadth"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_2000074> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000921> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0006333>)))
 SubClassOf(<http://purl.obolibrary.org/obo/FOVT_2000074> <http://purl.obolibrary.org/obo/OBA_0002546>)
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_2000074> <http://purl.obolibrary.org/obo/OBA_VT0000443>)
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_2000075> (snout breadth at tooth socket)
 
@@ -12893,6 +12896,31 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_2000076> "snout breadth at premaxilla"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/FOVT_2000076> <http://purl.obolibrary.org/obo/FOVT_2000074>)
 
+# Class: <http://purl.obolibrary.org/obo/FOVT_2000077> (facial skeleton lateral length)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_2000077> <http://purl.obolibrary.org/obo/IAO_0000423>)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9004086161, 9789004086166") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_2000077> "The length of a facial skeleton from an ectorbitale to a prosthion."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/oba#measured_in_taxon> <http://purl.obolibrary.org/obo/FOVT_2000077> <http://purl.obolibrary.org/obo/NCBITaxon_9789>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/oba#measured_in_taxon> <http://purl.obolibrary.org/obo/FOVT_2000077> <http://purl.obolibrary.org/obo/NCBITaxon_9903>)
+AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_2000077> "https://orcid.org/0000-0001-8415-4848")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9004086161, 9789004086166") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/FOVT_2000077> "anterior ocular line"@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/FOVT_2000077> "lateral facial length"@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9780873659505") rdfs:comment <http://purl.obolibrary.org/obo/FOVT_2000077> "The following is the measurement number and genus for this trait in von den Driesch (1979): 15 Equus, 14 Bos."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_2000077> "facial skeleton lateral length"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_2000077> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000122> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BSPO_0000126> <http://purl.obolibrary.org/obo/UBERON_0011156>))))
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_2000077> <http://purl.obolibrary.org/obo/OBA_0002546>)
+
+# Class: <http://purl.obolibrary.org/obo/FOVT_2000078> (snout height)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_2000078> <http://purl.obolibrary.org/obo/IAO_0000423>)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9004086161, 9789004086166") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_2000078> "The length of a snout from an anterior margin of tooth socket for the second premolar to the heighest point of a nasal bone  in projection."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/oba#measured_in_taxon> <http://purl.obolibrary.org/obo/FOVT_2000078> <http://purl.obolibrary.org/obo/NCBITaxon_9789>)
+AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_2000078> "https://orcid.org/0000-0001-8415-4848")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:9004086161, 9789004086166") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/FOVT_2000078> "facial height (M25)"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_2000078> "snout height"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_2000078> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000119> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0006333>)))
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_2000078> <http://purl.obolibrary.org/obo/OBA_VT0000443>)
+
 # Class: <http://purl.obolibrary.org/obo/OBA_0002413> (pelvic girdle bone/zone size)
 
 SubClassOf(<http://purl.obolibrary.org/obo/OBA_0002413> <http://purl.obolibrary.org/obo/OBA_0002413>)
@@ -12900,6 +12928,10 @@ SubClassOf(<http://purl.obolibrary.org/obo/OBA_0002413> <http://purl.obolibrary.
 # Class: <http://purl.obolibrary.org/obo/OBA_1000049> (pes length)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_1000049> "hindfoot length")
+
+# Class: <http://purl.obolibrary.org/obo/OBA_VT0000446> (snout length)
+
+SubClassOf(<http://purl.obolibrary.org/obo/OBA_VT0000446> <http://purl.obolibrary.org/obo/OBA_VT0000443>)
 
 # Class: <http://purl.obolibrary.org/obo/OBA_VT0005110> (talus size trait)
 
