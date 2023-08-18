@@ -13016,6 +13016,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/oba#measured_in_taxon> <http
 AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_2000084> "https://orcid.org/0000-0001-8415-4848")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9004086161, 9789004086166") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/FOVT_2000084> "length of the preorbital fossa (M33)")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_2000084> "preorbital fossa length"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_2000084> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000122> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_7500103>)))
 SubClassOf(<http://purl.obolibrary.org/obo/FOVT_2000084> <http://purl.obolibrary.org/obo/OBA_0002546>)
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_2000085> (preorbital fossa height)
@@ -13026,6 +13027,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/oba#measured_in_taxon> <http
 AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_2000085> "https://orcid.org/0000-0001-8415-4848")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9004086161, 9789004086166") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/FOVT_2000085> "height of the preorbital fossa (M35)"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_2000085> "preorbital fossa height"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_2000085> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000119> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_7500103>)))
 SubClassOf(<http://purl.obolibrary.org/obo/FOVT_2000085> <http://purl.obolibrary.org/obo/OBA_0002546>)
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_2000086> (palate bone length)
