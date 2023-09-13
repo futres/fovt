@@ -1149,6 +1149,10 @@ Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_2000106>))
 Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_2000107>))
 Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_2000108>))
 Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_2000109>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_2000110>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_2000111>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_2000112>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_2000113>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_91561>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_9788>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_9845>))
@@ -13105,6 +13109,7 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9780873659505") rdfs:comment <http://purl.obolibrary.org/obo/FOVT_2000089> "The following is the measurement number and genus for this trait in von den Driesch (1979): 18a Equus, 10a Camelus, 13a Canis, 11a Felis, 11 Lepus and Oryctolagus."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_2000089> "palate bone length to choanal groove"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/FOVT_2000089> <http://purl.obolibrary.org/obo/FOVT_2000086>)
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_2000089> <http://purl.obolibrary.org/obo/OBA_0002546>)
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_2000090> (palate bone length to staphylon)
 
@@ -13122,6 +13127,7 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9780873659505") rdfs:comment <http://purl.obolibrary.org/obo/FOVT_2000090> "The following is the measurement number and genus for this trait in von den Driesch (1979): 18 Equus, 10 Camelus, 17 Cervus, 17 Sus, 13 Canis and Ursus, 11 Felis."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_2000090> "palate bone length to staphylon"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/FOVT_2000090> <http://purl.obolibrary.org/obo/FOVT_2000086>)
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_2000090> <http://purl.obolibrary.org/obo/OBA_0002546>)
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_2000091> (ventral cranium length to premolar)
 
@@ -13307,6 +13313,7 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9780873659505") rdfs:comment <http://purl.obolibrary.org/obo/FOVT_2000103> "The following is the measurement number and genus for this trait in von den Driesch (1979): 19 Equus, 11 Camelus, 17 Bos, 18 Ovis and Capra, 18 Sus, 4 Lepus and Oryctolagus."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_2000103> "palate bone length to cheek tooth"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/FOVT_2000103> <http://purl.obolibrary.org/obo/FOVT_2000086>)
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_2000103> <http://purl.obolibrary.org/obo/OBA_0002546>)
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_2000104> (tetrapod frontal bone breadth at supraorbital foramen)
 
@@ -13341,7 +13348,7 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_2000105> "fa
 SubClassOf(<http://purl.obolibrary.org/obo/FOVT_2000105> <http://purl.obolibrary.org/obo/FOVT_2000021>)
 SubClassOf(<http://purl.obolibrary.org/obo/FOVT_2000105> <http://purl.obolibrary.org/obo/OBA_0002546>)
 
-# Class: <http://purl.obolibrary.org/obo/FOVT_2000106> (facial skeleton breadth at infraorbital foramen)
+# Class: <http://purl.obolibrary.org/obo/FOVT_2000106> (facial skeleton breadth at infra-orbital foramen of maxilla)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_2000106> <http://purl.obolibrary.org/obo/IAO_0000423>)
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9780873659505") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_2000106> "The length of a facial skeleton from a left infraorbital foramen to a right infraorbital foramen."@en)
@@ -13351,7 +13358,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/oba#measured_in_taxon> <http
 AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_2000106> "https://orcid.org/0000-0001-8415-4848")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9780873659505") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/FOVT_2000106> "facial breadth between the infraorbital foramina"@en)
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9780873659505") rdfs:comment <http://purl.obolibrary.org/obo/FOVT_2000106> "The following is the measurement number and genus for this trait in von den Driesch (1979): 44 Equus, 27 Camelus, 29 Felis."@en)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_2000106> "facial skeleton breadth at infraorbital foramen"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_2000106> "facial skeleton breadth at infra-orbital foramen of maxilla"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/FOVT_2000106> <http://purl.obolibrary.org/obo/FOVT_2000021>)
 SubClassOf(<http://purl.obolibrary.org/obo/FOVT_2000106> <http://purl.obolibrary.org/obo/OBA_0002546>)
 
@@ -13407,6 +13414,63 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_2000109> "pa
 SubClassOf(<http://purl.obolibrary.org/obo/FOVT_2000109> <http://purl.obolibrary.org/obo/OBA_0002546>)
 SubClassOf(<http://purl.obolibrary.org/obo/FOVT_2000109> <http://purl.obolibrary.org/obo/OBA_0003100>)
 SubClassOf(<http://purl.obolibrary.org/obo/FOVT_2000109> <http://purl.obolibrary.org/obo/OBA_0004895>)
+
+# Class: <http://purl.obolibrary.org/obo/FOVT_2000110> (snout length to infra-orbital foramen of maxilla)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_2000110> <http://purl.obolibrary.org/obo/IAO_0000423>)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9780873659505") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_2000110> "The length of a snout from a prosthion to a posteriormost point of an infra-orbital foramen of maxilla."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/oba#measured_in_taxon> <http://purl.obolibrary.org/obo/FOVT_2000110> <http://purl.obolibrary.org/obo/NCBITaxon_9822>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/oba#measured_in_taxon> <http://purl.obolibrary.org/obo/FOVT_2000110> <http://purl.obolibrary.org/obo/NCBITaxon_9903>)
+AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_2000110> "https://orcid.org/0000-0001-8415-4848")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9780873659505") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/FOVT_2000110> "infraorbitale to prosthion"@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9780873659505") rdfs:comment <http://purl.obolibrary.org/obo/FOVT_2000110> "The following is the measurement number and genus for this trait in von den Driesch (1979): 16 Bos, 20 Sus."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_2000110> "snout length to infra-orbital foramen of maxilla"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_2000110> <http://purl.obolibrary.org/obo/OBA_0002546>)
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_2000110> <http://purl.obolibrary.org/obo/OBA_VT0000446>)
+
+# Class: <http://purl.obolibrary.org/obo/FOVT_2000111> (palate bone length to palatomaxillary suture)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_2000111> <http://purl.obolibrary.org/obo/IAO_0000423>)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9780873659505") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_2000111> "The length of a palate bone from a prosthion to a midsagittal point of a palatomaxillary suture."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/oba#measured_in_taxon> <http://purl.obolibrary.org/obo/FOVT_2000111> <http://purl.obolibrary.org/obo/NCBITaxon_9859>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/oba#measured_in_taxon> <http://purl.obolibrary.org/obo/FOVT_2000111> <http://purl.obolibrary.org/obo/NCBITaxon_9903>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/oba#measured_in_taxon> <http://purl.obolibrary.org/obo/FOVT_2000111> <http://purl.obolibrary.org/obo/NCBITaxon_9922>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/oba#measured_in_taxon> <http://purl.obolibrary.org/obo/FOVT_2000111> <http://purl.obolibrary.org/obo/NCBITaxon_9935>)
+AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_2000111> "https://orcid.org/0000-0001-8415-4848")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9780873659505") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/FOVT_2000111> "oral palatal length"@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9780873659505") rdfs:comment <http://purl.obolibrary.org/obo/FOVT_2000111> "The following is the measurement number and genus for this trait in von den Driesch (1979): 18 Bos, 19 Ovis and Capra, 18 Cervus."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_2000111> "palate bone length to palatomaxillary suture"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_2000111> <http://purl.obolibrary.org/obo/FOVT_2000086>)
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_2000111> <http://purl.obolibrary.org/obo/OBA_0002546>)
+
+# Class: <http://purl.obolibrary.org/obo/FOVT_2000112> (facial skeleton breadth at facial tubercle)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_2000112> <http://purl.obolibrary.org/obo/IAO_0000423>)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9780873659505") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_2000112> "The length of a facial skeleton along the left-right axis at the facial tubercle."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/oba#measured_in_taxon> <http://purl.obolibrary.org/obo/FOVT_2000112> <http://purl.obolibrary.org/obo/NCBITaxon_9903>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/oba#measured_in_taxon> <http://purl.obolibrary.org/obo/FOVT_2000112> <http://purl.obolibrary.org/obo/NCBITaxon_9922>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/oba#measured_in_taxon> <http://purl.obolibrary.org/obo/FOVT_2000112> <http://purl.obolibrary.org/obo/NCBITaxon_9935>)
+AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_2000112> "https://orcid.org/0000-0001-8415-4848")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9780873659505") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/FOVT_2000112> "facial breadth"@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9780873659505") rdfs:comment <http://purl.obolibrary.org/obo/FOVT_2000112> "The following is the measurement number and genus for this trait in von den Driesch (1979): 35 Bos, 36 Ovis, 36 Capra."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_2000112> "facial skeleton breadth at facial tubercle"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_2000112> <http://purl.obolibrary.org/obo/FOVT_2000021>)
+
+# Class: <http://purl.obolibrary.org/obo/FOVT_2000113> (facial skeleton breadth at nasal bone)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_2000113> <http://purl.obolibrary.org/obo/IAO_0000423>)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9780873659505") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_2000113> "The length of a facial skeleton from a lateralmost point of a left nasal bone to a lateralmost point of a right nasal bone."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/oba#measured_in_taxon> <http://purl.obolibrary.org/obo/FOVT_2000113> <http://purl.obolibrary.org/obo/NCBITaxon_9859>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/oba#measured_in_taxon> <http://purl.obolibrary.org/obo/FOVT_2000113> <http://purl.obolibrary.org/obo/NCBITaxon_9903>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/oba#measured_in_taxon> <http://purl.obolibrary.org/obo/FOVT_2000113> <http://purl.obolibrary.org/obo/NCBITaxon_9922>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/oba#measured_in_taxon> <http://purl.obolibrary.org/obo/FOVT_2000113> <http://purl.obolibrary.org/obo/NCBITaxon_9935>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/oba#measured_in_taxon> <http://purl.obolibrary.org/obo/FOVT_2000113> <http://purl.obolibrary.org/obo/NCBITaxon_9980>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/oba#measured_in_taxon> <http://purl.obolibrary.org/obo/FOVT_2000113> <http://purl.obolibrary.org/obo/NCBITaxon_9984>)
+AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_2000113> "https://orcid.org/0000-0001-8415-4848")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9780873659505") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/FOVT_2000113> "greatest breadth across the nasals"@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN: 9780873659505") rdfs:comment <http://purl.obolibrary.org/obo/FOVT_2000113> "The following is the measurement number and genus for this trait in von den Driesch (1979): 36 Bos, 37 Ovis and Capra, 35 Cervus, 18 Lepus and Oryctolagus."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_2000113> "facial skeleton breadth at nasal bone"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_2000113> <http://purl.obolibrary.org/obo/FOVT_2000021>)
 
 # Class: <http://purl.obolibrary.org/obo/OBA_0002413> (pelvic girdle bone/zone size)
 
