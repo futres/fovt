@@ -105,3 +105,4 @@ OBA:VT0003047 #thoracic vertebra morphology trait
 OBA:0004048 #lumbar vertebra length
 OBA:0002828 #lumbar vertebra 5 size
 OBA:0002399 #nasal bone length
+OBA:0003446 #premaxilla length
