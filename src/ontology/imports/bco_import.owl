@@ -7,9 +7,9 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/fovt/imports/bco_import.owl>
-<http://purl.obolibrary.org/obo/fovt/releases/2023-09-13/imports/bco_import.owl>
+<http://purl.obolibrary.org/obo/fovt/releases/2023-09-14/imports/bco_import.owl>
 Annotation(<http://purl.org/dc/elements/1.1/source> <http://purl.obolibrary.org/obo/bco/releases/2021-11-14/bco.owl>)
-Annotation(owl:versionInfo "2023-09-13"^^xsd:string)
+Annotation(owl:versionInfo "2023-09-14"^^xsd:string)
 
 Declaration(Class(<http://purl.obolibrary.org/obo/BCO_0000003>))
 Declaration(Class(<http://purl.obolibrary.org/obo/BCO_0000046>))

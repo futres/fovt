@@ -320,3 +320,4 @@ UBERON:0008462 #postzygapophysis of cervical vertebra
 UBERON:0008459 #prezygapophysis of cervical vertebra
 UBERON:0018143 #transverse process of cervical vertebra
 UBERON:7500103 #preorbital fossa
+UBERON:0001680 #lacrimal bone

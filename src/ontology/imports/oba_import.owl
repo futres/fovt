@@ -11,7 +11,7 @@
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/fovt/imports/oba_import.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/fovt/releases/2023-09-13/imports/oba_import.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/fovt/releases/2023-09-14/imports/oba_import.owl"/>
     </owl:Ontology>
     
 
@@ -9938,6 +9938,39 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OBA_VT0005271 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_VT0005271">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000051"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002314"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001680"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>The morphology of a lacrimal bone.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>morphology of lacrimal bone</oboInOwl:hasExactSynonym>
+        <rdfs:label>lacrimal bone morphology trait</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0005271"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The morphology of a lacrimal bone.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>obo:oba/patterns/entity_attribute_part_of</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0005271"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>morphology of lacrimal bone</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>obo:oba/patterns/entity_attribute_part_of</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OBA_VT0005273 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_VT0005273">
@@ -11627,6 +11660,12 @@
     <!-- http://purl.obolibrary.org/obo/UBERON_0001451 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001451"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0001680 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001680"/>
     
 
 
