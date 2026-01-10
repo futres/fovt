@@ -5,3 +5,106 @@ PATO:0001334 #diameter
 PATO:0000921 #width
 PATO:0000125 #mass
 PATO:0001595 #depth
+PATO:0000011 #age
+PATO:0001486 #chronological age
+PATO:0000047 #biological sex
+PATO:0001894 #phenotypic sex
+PATO:0000383 #female
+PATO:0002365 #intact female
+PATO:0040020 #spayed female
+PATO:0040056 #female with DSD
+PATO:0001340 #hermaphrodite
+PATO:0070000 #sequential hermaphrodite
+PATO:0040053 #protandrous
+PATO:0040055 #protandrous hermaphroditism
+PATO:0040052 #protogynous
+PATO:0040054 #protogynous hermaphroditism
+PATO:0000384 #male
+PATO:0002367 #castrated male
+PATO:0002366 #intact male
+PATO:0040049 #male with DSD
+PATO:0001827 #pseudohermaphrodite
+PATO:0001829 #female pseudohermaphrodite
+PATO:0001828 #male pseudohermaphrodite
+PATO:0020000 #genotypic sex
+PATO:0020002 #female genotypic sex
+PATO:0020001 #male genotypic sex
+PATO:0000014 #color
+PATO:0002370 #parity
+PATO:0000317 #black
+PATO:0000318 #blue
+PATO:0001244 #dark blue
+PATO:0001266 #desaturated blue
+PATO:0001243 #light blue
+PATO:0001265 #saturated blue
+PATO:0000952 #brown
+PATO:0002363 #bronze
+PATO:0001245 #dark brown
+PATO:0001268 #desaturated brown
+PATO:0001246 #light brown
+PATO:0001287 #red brown
+PATO:0001288 #dark red brown
+PATO:0001289 #light red brown
+PATO:0001267 #saturated brown
+PATO:0002411 #yellow brown
+PATO:0002412 #dark yellow brown
+PATO:0002413 #light yellow brown
+PATO:0002410 #beige
+PATO:0000336 #colored
+PATO:0000319 #cyan
+PATO:0001248 #dark cyan
+PATO:0001270 #desaturated cyan
+PATO:0001247 #light cyan
+PATO:0001269 #saturated cyan
+PATO:0000320 #green
+PATO:0001942 #brown green
+PATO:0001249 #dark green
+PATO:0001272 #desaturated green
+PATO:0001250 #light green
+PATO:0001271 #saturated green
+PATO:0001941 #yellow green
+PATO:0000950 #grey
+PATO:0001251 #dark grey
+PATO:0001252 #light grey
+PATO:0000321 #magenta
+PATO:0001254 #dark magenta
+PATO:0001276 #desaturated magenta
+PATO:0001253 #light magenta
+PATO:0001275 #saturated magenta
+PATO:0001426 #maroon
+PATO:0000953 #orange
+PATO:0001256 #dark orange
+PATO:0001278 #desaturated orange
+PATO:0001255 #light orange
+PATO:0001277 #saturated orange
+PATO:0001944 #yellow orange
+PATO:0001945 #ochre
+PATO:0000951 #purple
+PATO:0001259 #dark purple
+PATO:0001282 #desaturated purple
+PATO:0001260 #light purple
+PATO_0001943 #lilac
+PATO:0001281 #saturated purple
+PATO:0000322 #red
+PATO:0001261 #dark red
+PATO:0001284 #desaturated red
+PATO:0001262 #light red
+PATO:0000954 #pink
+PATO:0001280 #dark pale pink
+PATO:0001258 #deep pink
+PATO:0001257 #light deep pink
+PATO:0002020 #pale pink
+PATO:0001283 #saturated red
+PATO:0001425 #rosy
+PATO:0001302 #vermilion
+PATO:0001424 #violet
+PATO:0001705 #dark violet
+PATO:0001703 #desaturated violet
+PATO:0001704 #light violet
+PATO:0001702 #saturated violet
+PATO:0000323 #white
+PATO:0000324 #yellow
+PATO:0001263 #dark yellow
+PATO:0001286 #desaturated yellow
+PATO:0001264 #light yellow
+PATO:0001285 #saturated yellow

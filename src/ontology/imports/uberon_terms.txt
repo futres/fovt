@@ -319,3 +319,18 @@ UBERON:0004616 #mammalian cervical vertebra 7
 UBERON:0008462 #postzygapophysis of cervical vertebra
 UBERON:0008459 #prezygapophysis of cervical vertebra
 UBERON:0018143 #transverse process of cervical vertebra
+UBERON:0007232 #2 cell stage
+UBERON:0007233 #4 cell stage
+UBERON:0007236 #8 cell stage
+UBERON:0034920 #infant stage
+UBERON:0034919 #juvenile stage
+UBERON:0004728 #amphibian larval stage
+UBERON:0009849 #tadpole stage
+UBERON:0007222 #late adult stage
+UBERON:0035946 #start of neonate stage
+UBERON:0000110 #neurula stage
+UBERON:0018685 #nursing stage
+UBERON:0018241 #prime adult stage
+UBERON:0010869 #calcar
+UBERON:0009020 #left uterine horn
+UBERON:0009022 #right uterine horn

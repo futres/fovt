@@ -1,5 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/fovt/releases/2026-01-09/imports/go_import.owl" uri="imports/go_import.owl"/>
+    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/oba/oba-base_import" uri="imports/oba_import.owl"/>
+    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/uberon_import" uri="imports/uberon_import.owl"/>
+    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/pato_import" uri="imports/pato_import.owl"/>
+    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/obi_import" uri="imports/obi_import.owl"/>
+    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/ncit_import" uri="imports/ncit_import.owl"/>
+    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/go_import" uri="imports/go_import.owl"/>
+    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/uberon.owl" uri="imports/uberon_import.owl"/>
+    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/pato.owl" uri="imports/pato_import.owl"/>
+    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/oba/oba-base.owl" uri="imports/oba_import.owl"/>
+    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/obi.owl" uri="imports/obi_import.owl"/>
     <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/fovt/imports/bco_import.owl" uri="imports/bco_import.owl"/>
     <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/fovt/imports/bfo_import.owl" uri="imports/bfo_import.owl"/>
     <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/fovt/imports/bspo_import.owl" uri="imports/bspo_import.owl"/>
