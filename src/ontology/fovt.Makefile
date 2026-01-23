@@ -9,3 +9,8 @@ imports/oba_import.owl: mirror/oba.owl imports/oba_terms_combined.txt
 		query --update ../sparql/inject-subset-declaration.ru \
 		annotate --ontology-iri $(ONTBASE)/$@ --version-iri $(ONTBASE)/releases/$(TODAY)/$@ --output $@.tmp.owl && mv $@.tmp.owl $@; fi
 .PRECIOUS: imports/oba_import.owl
+
+imports/pato_import.owl: mirror/pato.owl imports/pato_terms.txt
+	@if [ $(IMP) = true ]; then $(ROBOT) extract -i $< -T imports/pato_terms.txt --force true --method BOT \
+		annotate --ontology-iri $(ONTBASE)/$@ --version-iri $(ONTBASE)/releases/$(TODAY)/$@ --output $@.tmp.owl && mv $@.tmp.owl $@; fi
+.PRECIOUS: imports/pato_import.owl
