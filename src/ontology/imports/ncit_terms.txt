@@ -1,5 +1,0 @@
-NCIT:C146697 #Vaginal Perforation, CTCAE 5.0
-NCIT:C145086 #Grade 2 Vaginal Perforation, CTCAE
-NCIT:C145706 #Grade 3 Vaginal Perforation, CTCAE
-NCIT:C146184 #Grade 4 Vaginal Perforation, CTCAE
-NCIT:C146611 #Grade 5 Vaginal Perforation, CTCAE

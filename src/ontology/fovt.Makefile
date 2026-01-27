@@ -7,10 +7,11 @@ imports/oba_import.owl: mirror/oba.owl imports/oba_terms_combined.txt
 	@if [ $(IMP) = true ]; then $(ROBOT) extract -i $< -T imports/oba_terms_combined.txt --force true --method BOT \
 		remove --term UBERON:0005156 --axioms EquivalentClasses \
 		query --update ../sparql/inject-subset-declaration.ru \
-		annotate --ontology-iri $(ONTBASE)/$@ --version-iri $(ONTBASE)/releases/$(TODAY)/$@ --output $@.tmp.owl && mv $@.tmp.owl $@; fi
+		$(ANNOTATE_CONVERT_FILE); fi
+###		annotate --ontology-iri $(ONTBASE)/$@ --version-iri $(ONTBASE)/releases/$(TODAY)/$@ --output $@.tmp.owl && mv $@.tmp.owl $@; fi
 .PRECIOUS: imports/oba_import.owl
 
-imports/pato_import.owl: mirror/pato.owl imports/pato_terms.txt
-	@if [ $(IMP) = true ]; then $(ROBOT) extract -i $< -T imports/pato_terms.txt --force true --method BOT \
-		annotate --ontology-iri $(ONTBASE)/$@ --version-iri $(ONTBASE)/releases/$(TODAY)/$@ --output $@.tmp.owl && mv $@.tmp.owl $@; fi
-.PRECIOUS: imports/pato_import.owl
+# imports/pato_import.owl: mirror/pato.owl imports/pato_terms.txt
+#	@if [ $(IMP) = true ]; then $(ROBOT) extract -i $< -T imports/pato_terms.txt --force true --method BOT \
+#		annotate --ontology-iri $(ONTBASE)/$@ --version-iri $(ONTBASE)/releases/$(TODAY)/$@ --output $@.tmp.owl && mv $@.tmp.owl $@; fi
+# .PRECIOUS: imports/pato_import.owl
