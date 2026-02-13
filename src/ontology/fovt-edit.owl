@@ -1067,6 +1067,13 @@ Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_0002172>))
 Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_0002173>))
 Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_0002174>))
 Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_0002175>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_1000000>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_1000001>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_1000002>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_1000003>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_1000004>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_1000006>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_1000007>))
 Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_2000000>))
 Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_2000001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_2000002>))
@@ -1120,6 +1127,10 @@ Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_9788>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_9845>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_9975>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_0004900>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OHD_0008000>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OHD_0008001>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OHD_0008002>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OHD_0008003>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0000128>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UBEORN_7500082>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_4200181>))
@@ -1904,6 +1915,7 @@ AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_000
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://orcid.org/0000-0003-2699-3066") rdfs:comment <http://purl.obolibrary.org/obo/FOVT_0001057> "The length of a testis."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0001057> "testis length"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_0001057> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000122> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0000473>)))
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_0001057> <http://purl.obolibrary.org/obo/OBA_VT0001148>)
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_0001058> (right testis length)
 
@@ -12129,6 +12141,69 @@ AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/FOVT_0002175> "
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_0002175> "obsolete distal phalanx of pedal digit 2 breadth"@en)
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/FOVT_0002175> "true"^^xsd:boolean)
 
+# Class: <http://purl.obolibrary.org/obo/FOVT_1000000> (calcar length)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_1000000> "Length of a spur of cartilage arising from the inner side of the ankle and running along part of the outer interfemoral membrane in bats."@en)
+AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_1000000> <https://orcid.org/0009-0002-7282-0836>)
+AnnotationAssertion(dcterms:created <http://purl.obolibrary.org/obo/FOVT_1000000> "2026-02-10T22:04:40Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_1000000> "calcar length"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_1000000> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000122> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0010869>)))
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_1000000> <http://purl.obolibrary.org/obo/PATO_0000122>)
+
+# Class: <http://purl.obolibrary.org/obo/FOVT_1000001> (tragus length)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_1000001> "Length of a pointed eminence of the external ear, situated in front of the concha, and projecting backward over the meatus."@en)
+AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_1000001> <https://orcid.org/0009-0002-7282-0836>)
+AnnotationAssertion(dcterms:created <http://purl.obolibrary.org/obo/FOVT_1000001> "2026-02-10T22:26:35Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_1000001> "tragus length"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_1000001> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000122> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0010887>)))
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_1000001> <http://purl.obolibrary.org/obo/OBA_0003426>)
+
+# Class: <http://purl.obolibrary.org/obo/FOVT_1000002> (uterine embryo count)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_1000002> "Measurement datum about the number of embryos observed in a uterus."@en)
+AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_1000002> <https://orcid.org/0009-0002-7282-0836>)
+AnnotationAssertion(dcterms:created <http://purl.obolibrary.org/obo/FOVT_1000002> "2026-02-10T22:30:45Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_1000002> "uterine embryo count"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_1000002> <http://purl.obolibrary.org/obo/IAO_0000109>)
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_1000002> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/UBERON_0000995>))
+
+# Class: <http://purl.obolibrary.org/obo/FOVT_1000003> (left uterine embryo count)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_1000003> "Embryo count of embryos observed in left horn of uterus."@en)
+AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_1000003> <https://orcid.org/0009-0002-7282-0836>)
+AnnotationAssertion(dcterms:created <http://purl.obolibrary.org/obo/FOVT_1000003> "2026-02-10T22:34:45Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_1000003> "left uterine embryo count"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_1000003> <http://purl.obolibrary.org/obo/FOVT_1000002>)
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_1000003> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/UBERON_0009020>))
+
+# Class: <http://purl.obolibrary.org/obo/FOVT_1000004> (right uterine embryo count)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_1000004> "Embryo count of embryos observed in right horn of uterus."@en)
+AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_1000004> <https://orcid.org/0009-0002-7282-0836>)
+AnnotationAssertion(dcterms:created <http://purl.obolibrary.org/obo/FOVT_1000004> "2026-02-10T22:35:31Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_1000004> "right uterine embryo count"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_1000004> <http://purl.obolibrary.org/obo/FOVT_1000002>)
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_1000004> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/UBERON_0009022>))
+
+# Class: <http://purl.obolibrary.org/obo/FOVT_1000006> (left testis width)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_1000006> "Testis width of left male gonad spheroid (perpendicular to long axis at midpoint)."@en)
+AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_1000006> <https://orcid.org/0009-0002-7282-0836>)
+AnnotationAssertion(dcterms:created <http://purl.obolibrary.org/obo/FOVT_1000006> "2026-02-10T22:48:27Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_1000006> "left testis width"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_1000006> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000921> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0004533>)))
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_1000006> <http://purl.obolibrary.org/obo/FOVT_0001368>)
+
+# Class: <http://purl.obolibrary.org/obo/FOVT_1000007> (right testis width)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_1000007> "Testes width of right male gonad spheroid (perpendicular to long axis at midpoint)."@en)
+AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_1000007> <https://orcid.org/0009-0002-7282-0836>)
+AnnotationAssertion(dcterms:created <http://purl.obolibrary.org/obo/FOVT_1000007> "2026-02-10T22:48:39Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_1000007> "right testis width"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_1000007> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000921> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0004534>)))
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_1000007> <http://purl.obolibrary.org/obo/FOVT_0001368>)
+
 # Class: <http://purl.obolibrary.org/obo/FOVT_2000000> (choana length)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/FOVT_2000000> <http://purl.obolibrary.org/obo/IAO_0000423>)
@@ -12871,6 +12946,40 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 # Class: <http://purl.obolibrary.org/obo/OBA_VT0005110> (talus size trait)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_VT0005110> "astragalus size trait"@en)
+
+# Class: <http://purl.obolibrary.org/obo/OHD_0008000> (biological reproduction data item)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OHD_0008000> "Data item about entities related to biological reproduction."@en)
+AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/OHD_0008000> <https://orcid.org/0009-0002-7282-0836>)
+AnnotationAssertion(dcterms:created <http://purl.obolibrary.org/obo/OHD_0008000> "2026-02-12T22:32:55Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OHD_0008000> "biological reproduction data item"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/OHD_0008000> <http://purl.obolibrary.org/obo/IAO_0000027>)
+SubClassOf(<http://purl.obolibrary.org/obo/OHD_0008000> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/GO_0022414>))
+
+# Class: <http://purl.obolibrary.org/obo/OHD_0008001> (embryonic crown-rump length)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OHD_0008001> "Length from the crown of the head to bottom of the rump of a fetus or embryo, taken in straight line along body axis."@en)
+AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/OHD_0008001> <https://orcid.org/0009-0002-7282-0836>)
+AnnotationAssertion(dcterms:created <http://purl.obolibrary.org/obo/OHD_0008001> "2026-02-12T22:44:09Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OHD_0008001> "embryonic crown-rump length"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/OHD_0008001> <http://purl.obolibrary.org/obo/OHD_0008003>)
+
+# Class: <http://purl.obolibrary.org/obo/OHD_0008002> (embryonic curvilinear length)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OHD_0008002> "Length from the crown of the head to bottom of the rump of a fetus or embryo, taken along the spinal curvature."@en)
+AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/OHD_0008002> <https://orcid.org/0009-0002-7282-0836>)
+AnnotationAssertion(dcterms:created <http://purl.obolibrary.org/obo/OHD_0008002> "2026-02-12T22:49:44Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OHD_0008002> "embryonic curvilinear length"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/OHD_0008002> <http://purl.obolibrary.org/obo/OHD_0008003>)
+
+# Class: <http://purl.obolibrary.org/obo/OHD_0008003> (embryonic body length)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OHD_0008003> "Body length of an embryo."@en)
+AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/OHD_0008003> <https://orcid.org/0009-0002-7282-0836>)
+AnnotationAssertion(dcterms:created <http://purl.obolibrary.org/obo/OHD_0008003> "2026-02-12T22:54:27Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OHD_0008003> "embryonic body length"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/OHD_0008003> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBA_VT0001256> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0000922>)))
+SubClassOf(<http://purl.obolibrary.org/obo/OHD_0008003> <http://purl.obolibrary.org/obo/OBA_VT0001256>)
 
 # Class: <http://purl.obolibrary.org/obo/PATO_0000921> (width)
 
