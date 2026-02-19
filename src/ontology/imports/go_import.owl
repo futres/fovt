@@ -7,12 +7,15 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/fovt/imports/go_import.owl>
-<http://purl.obolibrary.org/obo/fovt/releases/2026-01-27/imports/go_import.owl>
-Annotation(<http://purl.org/dc/elements/1.1/source> <http://purl.obolibrary.org/obo/go/releases/2025-10-10/go.owl>)
-Annotation(owl:versionInfo "2026-01-27")
+<http://purl.obolibrary.org/obo/fovt/releases/2026-02-17/imports/go_import.owl>
+Annotation(<http://purl.org/dc/elements/1.1/source> <http://purl.obolibrary.org/obo/go/releases/2026-01-23/go.owl>)
+Annotation(owl:versionInfo "2026-02-17")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0001942>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0003006>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0006810>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0007275>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0007548>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0007589>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0007591>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0007595>))
@@ -24,6 +27,8 @@ Declaration(Class(<http://purl.obolibrary.org/obo/GO_0018989>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0021700>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0022404>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0022405>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0022414>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0030540>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0030879>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0032501>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0032502>))
@@ -36,9 +41,13 @@ Declaration(Class(<http://purl.obolibrary.org/obo/GO_0042640>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0043588>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0044848>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0044851>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0046660>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0046903>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0048513>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0048608>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0048731>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0048732>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0048806>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0048820>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0048856>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0050878>))
@@ -46,8 +55,10 @@ Declaration(Class(<http://purl.obolibrary.org/obo/GO_0050896>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0051179>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0051234>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0060004>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0060068>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0060156>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0060429>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0061458>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0065007>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0065008>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0071695>))
@@ -228,6 +239,18 @@ SubClassOf(<http://purl.obolibrary.org/obo/GO_0001942> <http://purl.obolibrary.o
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0001942> <http://purl.obolibrary.org/obo/GO_0048856>)
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0001942> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/GO_0098773>))
 
+# Class: <http://purl.obolibrary.org/obo/GO_0003006> (developmental process involved in reproduction)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:dph") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:isa_complete") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0003006> "A developmental process in which a progressive change in the state of some part of an organism, germline or somatic, specifically contributes to its ability to form offspring.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:dph") <http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym> <http://purl.obolibrary.org/obo/GO_0003006> "puberty")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/GO_0003006> "biological_process")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:dph") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:tb") <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/GO_0003006> "reproductive developmental process")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/GO_0003006> "GO:0003006")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0003006> "developmental process involved in reproduction")
+EquivalentClasses(<http://purl.obolibrary.org/obo/GO_0003006> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/GO_0022414> <http://purl.obolibrary.org/obo/GO_0032502>))
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0003006> <http://purl.obolibrary.org/obo/GO_0022414>)
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0003006> <http://purl.obolibrary.org/obo/GO_0032502>)
+
 # Class: <http://purl.obolibrary.org/obo/GO_0006810> (transport)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:dos") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:dph") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:jl") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:mah") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0006810> "The directed movement of substances (such as macromolecules, small molecules, ions) or cellular components (such as complexes and organelles) into, out of or within a cell, or between cells, or within a multicellular organism by means of some agent such as a transporter or a transporter complex, a pore or a motor protein.")
@@ -253,6 +276,29 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <htt
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/GO_0006810> "Note that this term should not be used for direct annotation. It should be possible to make a more specific annotation to one of the children of this term, for e.g. to transmembrane transport, to microtubule-based transport or to vesicle-mediated transport.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0006810> "transport")
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0006810> <http://purl.obolibrary.org/obo/GO_0051234>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0007275> (multicellular organism development)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:dph") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:ems") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:isa_complete") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:tb") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0007275> "The biological process whose specific outcome is the progression of a multicellular organism over time from an initial condition (e.g. a zygote or a young adult) to a later condition (e.g. a multicellular animal or an aged adult).")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/GO_0007275> "https://github.com/geneontology/go-ontology/issues/21234"^^xsd:anyURI)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/GO_0007275> "biological_process")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/GO_0007275> "GO:0007275")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/GO_0007275> <http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/GO_0007275> <http://purl.obolibrary.org/obo/go#goslim_chembl>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/GO_0007275> <http://purl.obolibrary.org/obo/go#goslim_plant>)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/GO_0007275> "Note that this term was 'developmental process'.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0007275> "multicellular organism development")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0007275> <http://purl.obolibrary.org/obo/GO_0032501>)
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0007275> <http://purl.obolibrary.org/obo/GO_0048856>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0007548> (sex differentiation)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:ai") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0007548> "The establishment of the sex of an organism by physical differentiation.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0007548> "Wikipedia:Sexual_differentiation")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/GO_0007548> "biological_process")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/GO_0007548> "GO:0007548")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0007548> "sex differentiation")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0007548> <http://purl.obolibrary.org/obo/GO_0003006>)
 
 # Class: <http://purl.obolibrary.org/obo/GO_0007589> (body fluid secretion)
 
@@ -379,6 +425,41 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://pu
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0022405> "hair cycle process")
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0022405> <http://purl.obolibrary.org/obo/GO_0022404>)
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0022405> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/GO_0042633>))
+
+# Class: <http://purl.obolibrary.org/obo/GO_0022414> (reproductive process)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:dph") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:isa_complete") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0022414> "A biological process that directly contributes to the process of producing new individuals by one or two organisms. The new individuals inherit some proportion of their genetic material from the parent or parents.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/GO_0022414> "https://github.com/geneontology/go-ontology/issues/27054"^^xsd:anyURI)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/GO_0022414> "jl")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/GO_0022414> "2012-09-19T15:56:06Z")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> <http://purl.obolibrary.org/obo/GO_0022414> "GO:0019952")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> <http://purl.obolibrary.org/obo/GO_0022414> "GO:0044702")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> <http://purl.obolibrary.org/obo/GO_0022414> "GO:0050876")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0022414> "Wikipedia:Reproduction")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/GO_0022414> "biological_process")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/GO_0022414> "single organism reproductive process")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/GO_0022414> "GO:0022414")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/GO_0022414> <http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/GO_0022414> <http://purl.obolibrary.org/obo/go#goslim_agr>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/GO_0022414> <http://purl.obolibrary.org/obo/go#goslim_chembl>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/GO_0022414> <http://purl.obolibrary.org/obo/go#goslim_flybase_ribbon>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/GO_0022414> <http://purl.obolibrary.org/obo/go#goslim_generic>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/GO_0022414> <http://purl.obolibrary.org/obo/go#goslim_pir>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/GO_0022414> <http://purl.obolibrary.org/obo/go#goslim_plant>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/GO_0022414> <http://purl.obolibrary.org/obo/go#goslim_plant_ribbon>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0022414> "reproductive process")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0022414> <http://purl.obolibrary.org/obo/GO_0008150>)
+DisjointClasses(<http://purl.obolibrary.org/obo/GO_0022414> <http://purl.obolibrary.org/obo/GO_0044848>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0030540> (female genitalia development)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:mah") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0030540> "The process whose specific outcome is the progression of the female genitalia over time, from formation to the mature structure.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0030540> "female genital development")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/GO_0030540> "biological_process")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/GO_0030540> "GO:0030540")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0030540> "female genitalia development")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0030540> <http://purl.obolibrary.org/obo/GO_0048806>)
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0030540> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/GO_0046660>))
 
 # Class: <http://purl.obolibrary.org/obo/GO_0030879> (mammary gland development)
 
@@ -525,6 +606,15 @@ AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/GO_0044851> "No
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0044851> "hair cycle phase")
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0044851> <http://purl.obolibrary.org/obo/GO_0044848>)
 
+# Class: <http://purl.obolibrary.org/obo/GO_0046660> (female sex differentiation)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:bf") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0046660> "The establishment of the sex of a female organism by physical differentiation.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/GO_0046660> "biological_process")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/GO_0046660> "GO:0046660")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0046660> "female sex differentiation")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0046660> <http://purl.obolibrary.org/obo/GO_0007548>)
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0046660> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/GO_0007275>))
+
 # Class: <http://purl.obolibrary.org/obo/GO_0046903> (secretion)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:ai") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0046903> "The controlled release of a substance by a cell or a tissue.")
@@ -546,6 +636,27 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://pu
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0048513> "animal organ development")
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0048513> <http://purl.obolibrary.org/obo/GO_0048856>)
 
+# Class: <http://purl.obolibrary.org/obo/GO_0048608> (reproductive structure development)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:dph") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:isa_complete") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:jid") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0048608> "The reproductive developmental process whose specific outcome is the progression of somatic structures that will be used in the process of creating new individuals from one or more parents, from their formation to the mature structures.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <http://purl.obolibrary.org/obo/GO_0048608> "https://github.com/geneontology/go-ontology/issues/23445"^^xsd:anyURI)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/GO_0048608> "biological_process")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/GO_0048608> "GO:0048608")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0048608> "reproductive structure development")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0048608> <http://purl.obolibrary.org/obo/GO_0003006>)
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0048608> <http://purl.obolibrary.org/obo/GO_0048856>)
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0048608> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/GO_0061458>))
+
+# Class: <http://purl.obolibrary.org/obo/GO_0048731> (system development)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:dph") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:jid") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0048731> "The process whose specific outcome is the progression of an organismal system over time, from its formation to the mature structure. A system is a regularly interacting or interdependent group of organs or tissues that work together to carry out a given biological process.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/GO_0048731> "biological_process")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/GO_0048731> "GO:0048731")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/GO_0048731> <http://purl.obolibrary.org/obo/go#goslim_mouse>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0048731> "system development")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0048731> <http://purl.obolibrary.org/obo/GO_0048856>)
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0048731> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/GO_0007275>))
+
 # Class: <http://purl.obolibrary.org/obo/GO_0048732> (gland development)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:jid") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0048732> "The process whose specific outcome is the progression of a gland over time, from its formation to the mature structure. A gland is an organ specialised for secretion.")
@@ -553,6 +664,17 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespac
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/GO_0048732> "GO:0048732")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0048732> "gland development")
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0048732> <http://purl.obolibrary.org/obo/GO_0048513>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0048806> (genitalia development)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:jid") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0048806> "The process whose specific outcome is the progression of the genitalia over time, from its formation to the mature structure.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0048806> "genital development")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/GO_0048806> "biological_process")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/GO_0048806> "GO:0048806")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0048806> "genitalia development")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0048806> <http://purl.obolibrary.org/obo/GO_0048513>)
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0048806> <http://purl.obolibrary.org/obo/GO_0048608>)
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0048806> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/GO_0007548>))
 
 # Class: <http://purl.obolibrary.org/obo/GO_0048820> (hair follicle maturation)
 
@@ -652,6 +774,14 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://pu
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0060004> "reflex")
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0060004> <http://purl.obolibrary.org/obo/GO_0009605>)
 
+# Class: <http://purl.obolibrary.org/obo/GO_0060068> (vagina development)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:dph") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:ebc") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0060068> "The reproductive developmental process whose specific outcome is the progression of the vagina over time, from its formation to the mature structure.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/GO_0060068> "biological_process")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/GO_0060068> "GO:0060068")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0060068> "vagina development")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0060068> <http://purl.obolibrary.org/obo/GO_0030540>)
+
 # Class: <http://purl.obolibrary.org/obo/GO_0060156> (milk ejection reflex)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:cjm") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:dph") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:mr") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:st") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0060156> "A reflex that occurs in response to suckling, beginning with a nerve impulse from a receptor in the mammary gland and ending with the ejection of milk from the gland. Signaling never reaches a level of consciousness.")
@@ -672,6 +802,16 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://pu
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/GO_0060429> <http://purl.obolibrary.org/obo/go#goslim_drosophila>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0060429> "epithelium development")
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0060429> <http://purl.obolibrary.org/obo/GO_0009888>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0061458> (reproductive system development)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:dph") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0061458> "The progression of the reproductive system over time from its formation to the mature structure. The reproductive system consists of the organs that function in reproduction.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/GO_0061458> "dph")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/GO_0061458> "2012-08-22T17:47:53Z")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/GO_0061458> "biological_process")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/GO_0061458> "GO:0061458")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0061458> "reproductive system development")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0061458> <http://purl.obolibrary.org/obo/GO_0048731>)
 
 # Class: <http://purl.obolibrary.org/obo/GO_0065007> (biological regulation)
 

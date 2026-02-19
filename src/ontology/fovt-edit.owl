@@ -20,6 +20,7 @@ Import(<http://purl.obolibrary.org/obo/fovt/imports/ro_import.owl>)
 Import(<http://purl.obolibrary.org/obo/fovt/imports/uberon_import.owl>)
 Import(<http://purl.obolibrary.org/obo/fovt/releases/2026-01-27/imports/go_import.owl>)
 Import(<http://purl.obolibrary.org/obo/fovt/releases/2026-01-27/imports/obi_import.owl>)
+Import(<http://purl.obolibrary.org/obo/fovt/releases/2026-02-17/imports/go_import.owl>)
 Annotation(dce:description "None")
 Annotation(dce:description "These are the terms that are improted for FOVT to describe vertebrate traits."@en)
 Annotation(dce:title "FuTRES Ontology of Vertebrate Traits")
@@ -1072,8 +1073,20 @@ Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_1000001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_1000002>))
 Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_1000003>))
 Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_1000004>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_1000005>))
 Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_1000006>))
 Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_1000007>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_1000008>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_1000009>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_1000010>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_1000012>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_1000013>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_1000014>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_1000015>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_1000018>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_1000019>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_1000020>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_1000021>))
 Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_2000000>))
 Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_2000001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_2000002>))
@@ -1127,10 +1140,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_9788>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_9845>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_9975>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_0004900>))
-Declaration(Class(<http://purl.obolibrary.org/obo/OHD_0008000>))
-Declaration(Class(<http://purl.obolibrary.org/obo/OHD_0008001>))
-Declaration(Class(<http://purl.obolibrary.org/obo/OHD_0008002>))
-Declaration(Class(<http://purl.obolibrary.org/obo/OHD_0008003>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0000128>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UBEORN_7500082>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_4200181>))
@@ -12186,6 +12195,15 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_1000004> "ri
 SubClassOf(<http://purl.obolibrary.org/obo/FOVT_1000004> <http://purl.obolibrary.org/obo/FOVT_1000002>)
 SubClassOf(<http://purl.obolibrary.org/obo/FOVT_1000004> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/UBERON_0009022>))
 
+# Class: <http://purl.obolibrary.org/obo/FOVT_1000005> (reproduction data item)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_1000005> "Data item about entities related to biological reproduction."@en)
+AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_1000005> <https://orcid.org/0009-0002-7282-0836>)
+AnnotationAssertion(dcterms:created <http://purl.obolibrary.org/obo/FOVT_1000005> "2026-02-19T20:50:31Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_1000005> "reproduction data item"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_1000005> <http://purl.obolibrary.org/obo/IAO_0000027>)
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_1000005> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/GO_0022414>))
+
 # Class: <http://purl.obolibrary.org/obo/FOVT_1000006> (left testis width)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_1000006> "Testis width of left male gonad spheroid (perpendicular to long axis at midpoint)."@en)
@@ -12203,6 +12221,103 @@ AnnotationAssertion(dcterms:created <http://purl.obolibrary.org/obo/FOVT_1000007
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_1000007> "right testis width"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_1000007> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000921> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0004534>)))
 SubClassOf(<http://purl.obolibrary.org/obo/FOVT_1000007> <http://purl.obolibrary.org/obo/FOVT_0001368>)
+
+# Class: <http://purl.obolibrary.org/obo/FOVT_1000008> (embryonic curvilinear length)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_1000008> "Length from the crown of the head to bottom of the rump of a fetus or embryo, taken along the spinal curvature."@en)
+AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_1000008> <https://orcid.org/0009-0002-7282-0836>)
+AnnotationAssertion(dcterms:created <http://purl.obolibrary.org/obo/FOVT_1000008> "2026-02-19T20:52:56Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_1000008> "embryonic curvilinear length"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_1000008> <http://purl.obolibrary.org/obo/FOVT_1000010>)
+
+# Class: <http://purl.obolibrary.org/obo/FOVT_1000009> (embryonic crown-rump length)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_1000009> "Length from the crown of the head to bottom of the rump of a fetus or embryo, taken in straight line along body axis."@en)
+AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_1000009> <https://orcid.org/0009-0002-7282-0836>)
+AnnotationAssertion(dcterms:created <http://purl.obolibrary.org/obo/FOVT_1000009> "2026-02-19T20:53:43Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_1000009> "embryonic crown-rump length"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_1000009> <http://purl.obolibrary.org/obo/FOVT_1000010>)
+
+# Class: <http://purl.obolibrary.org/obo/FOVT_1000010> (embryonic body length)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_1000010> "Body length of an embryo."@en)
+AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_1000010> <https://orcid.org/0009-0002-7282-0836>)
+AnnotationAssertion(dcterms:created <http://purl.obolibrary.org/obo/FOVT_1000010> "2026-02-19T20:54:27Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_1000010> "embryonic body length"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_1000010> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBA_VT0001256> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0000922>)))
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_1000010> <http://purl.obolibrary.org/obo/OBA_VT0001256>)
+
+# Class: <http://purl.obolibrary.org/obo/FOVT_1000012> (vaginal perforation)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_1000012> "Vaginal development trait wherein an epithelial membrane fusing the vaginal orifice closed recedes from the center, thereby opening the vaginal orifice. Indicative of sexual maturity in some organisms, such as rodents."@en)
+AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_1000012> <https://orcid.org/0009-0002-7282-0836>)
+AnnotationAssertion(dcterms:created <http://purl.obolibrary.org/obo/FOVT_1000012> "2026-02-18T17:14:25Z"^^xsd:dateTime)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/FOVT_1000012> "vaginal opening"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_1000012> "vaginal perforation"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_1000012> <http://purl.obolibrary.org/obo/GO_0060068>)
+
+# Class: <http://purl.obolibrary.org/obo/FOVT_1000013> (closed vagina orifice)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_1000013> "Vagina orifice which is not patent, preventing insertion of a penis."@en)
+AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_1000013> <https://orcid.org/0009-0002-7282-0836>)
+AnnotationAssertion(dcterms:created <http://purl.obolibrary.org/obo/FOVT_1000013> "2026-02-18T18:37:45Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_1000013> "closed vagina orifice"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_1000013> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0012317> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> <http://purl.obolibrary.org/obo/PATO_0000608>)))
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_1000013> <http://purl.obolibrary.org/obo/UBERON_0012317>)
+
+# Class: <http://purl.obolibrary.org/obo/FOVT_1000014> (open vagina orifice)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_1000014> "Vagina orifice which is patent, permitting insertion of a penis. May indicate the onset of estrus in some animals, such as in rodents."@en)
+AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_1000014> <https://orcid.org/0009-0002-7282-0836>)
+AnnotationAssertion(dcterms:created <http://purl.obolibrary.org/obo/FOVT_1000014> "2026-02-18T18:37:54Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_1000014> "open vagina orifice"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_1000014> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0012317> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> <http://purl.obolibrary.org/obo/PATO_0000610>)))
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_1000014> <http://purl.obolibrary.org/obo/UBERON_0012317>)
+
+# Class: <http://purl.obolibrary.org/obo/FOVT_1000015> (closed vagina orifice due to mating plug)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_1000015> "Closed vagina orifice which is closed due to a mating plug formed by male ejaculation. Indicative of recent copulation."@en)
+AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_1000015> <https://orcid.org/0009-0002-7282-0836>)
+AnnotationAssertion(dcterms:created <http://purl.obolibrary.org/obo/FOVT_1000015> "2026-02-18T21:42:33Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_1000015> "closed vagina orifice due to mating plug"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/FOVT_1000015> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/FOVT_1000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002371> <http://purl.obolibrary.org/obo/UBERON_0010148>)))
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_1000015> <http://purl.obolibrary.org/obo/FOVT_1000013>)
+
+# Class: <http://purl.obolibrary.org/obo/FOVT_1000018> (placental scar)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_1000018> "Reproductive structure which is a remnant of a previous placenta implantation site and appears as a discolored portion of the uterine wall. Commonly observed in rodents."@en)
+AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_1000018> <https://orcid.org/0009-0002-7282-0836>)
+AnnotationAssertion(dcterms:created <http://purl.obolibrary.org/obo/FOVT_1000018> "2026-02-18T22:41:08Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_1000018> "placental scar"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_1000018> <http://purl.obolibrary.org/obo/UBERON_0005156>)
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_1000018> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0000459>))
+
+# Class: <http://purl.obolibrary.org/obo/FOVT_1000019> (placental scar count)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_1000019> "Measurement datum about the number of placental scars observed in a uterus."@en)
+AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_1000019> <https://orcid.org/0009-0002-7282-0836>)
+AnnotationAssertion(dcterms:created <http://purl.obolibrary.org/obo/FOVT_1000019> "2026-02-19T17:18:15Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_1000019> "placental scar count"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_1000019> <http://purl.obolibrary.org/obo/IAO_0000109>)
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_1000019> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/UBERON_0000995>))
+
+# Class: <http://purl.obolibrary.org/obo/FOVT_1000020> (left placental scar count)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_1000020> "Placental scar count about the number of placental scars observed in left horn of uterus."@en)
+AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_1000020> <https://orcid.org/0009-0002-7282-0836>)
+AnnotationAssertion(dcterms:created <http://purl.obolibrary.org/obo/FOVT_1000020> "2026-02-19T17:20:10Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_1000020> "left placental scar count"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_1000020> <http://purl.obolibrary.org/obo/FOVT_1000019>)
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_1000020> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/UBERON_0009020>))
+
+# Class: <http://purl.obolibrary.org/obo/FOVT_1000021> (right placental scar count)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_1000021> "Placental scar count about the number of placental scars observed in right horn of uterus."@en)
+AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_1000021> <https://orcid.org/0009-0002-7282-0836>)
+AnnotationAssertion(dcterms:created <http://purl.obolibrary.org/obo/FOVT_1000021> "2026-02-19T17:21:28Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_1000021> "right placental scar count"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_1000021> <http://purl.obolibrary.org/obo/FOVT_1000019>)
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_1000021> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/UBERON_0009022>))
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_2000000> (choana length)
 
@@ -12946,40 +13061,6 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 # Class: <http://purl.obolibrary.org/obo/OBA_VT0005110> (talus size trait)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_VT0005110> "astragalus size trait"@en)
-
-# Class: <http://purl.obolibrary.org/obo/OHD_0008000> (biological reproduction data item)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OHD_0008000> "Data item about entities related to biological reproduction."@en)
-AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/OHD_0008000> <https://orcid.org/0009-0002-7282-0836>)
-AnnotationAssertion(dcterms:created <http://purl.obolibrary.org/obo/OHD_0008000> "2026-02-12T22:32:55Z"^^xsd:dateTime)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OHD_0008000> "biological reproduction data item"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/OHD_0008000> <http://purl.obolibrary.org/obo/IAO_0000027>)
-SubClassOf(<http://purl.obolibrary.org/obo/OHD_0008000> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/GO_0022414>))
-
-# Class: <http://purl.obolibrary.org/obo/OHD_0008001> (embryonic crown-rump length)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OHD_0008001> "Length from the crown of the head to bottom of the rump of a fetus or embryo, taken in straight line along body axis."@en)
-AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/OHD_0008001> <https://orcid.org/0009-0002-7282-0836>)
-AnnotationAssertion(dcterms:created <http://purl.obolibrary.org/obo/OHD_0008001> "2026-02-12T22:44:09Z"^^xsd:dateTime)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OHD_0008001> "embryonic crown-rump length"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/OHD_0008001> <http://purl.obolibrary.org/obo/OHD_0008003>)
-
-# Class: <http://purl.obolibrary.org/obo/OHD_0008002> (embryonic curvilinear length)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OHD_0008002> "Length from the crown of the head to bottom of the rump of a fetus or embryo, taken along the spinal curvature."@en)
-AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/OHD_0008002> <https://orcid.org/0009-0002-7282-0836>)
-AnnotationAssertion(dcterms:created <http://purl.obolibrary.org/obo/OHD_0008002> "2026-02-12T22:49:44Z"^^xsd:dateTime)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OHD_0008002> "embryonic curvilinear length"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/OHD_0008002> <http://purl.obolibrary.org/obo/OHD_0008003>)
-
-# Class: <http://purl.obolibrary.org/obo/OHD_0008003> (embryonic body length)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OHD_0008003> "Body length of an embryo."@en)
-AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/OHD_0008003> <https://orcid.org/0009-0002-7282-0836>)
-AnnotationAssertion(dcterms:created <http://purl.obolibrary.org/obo/OHD_0008003> "2026-02-12T22:54:27Z"^^xsd:dateTime)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OHD_0008003> "embryonic body length"@en)
-EquivalentClasses(<http://purl.obolibrary.org/obo/OHD_0008003> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBA_VT0001256> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0000922>)))
-SubClassOf(<http://purl.obolibrary.org/obo/OHD_0008003> <http://purl.obolibrary.org/obo/OBA_VT0001256>)
 
 # Class: <http://purl.obolibrary.org/obo/PATO_0000921> (width)
 

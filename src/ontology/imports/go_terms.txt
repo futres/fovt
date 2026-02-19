@@ -7,3 +7,4 @@ GO:0042640 #anagen
 GO:0042637 #catagen
 GO:0042638 #exogen
 GO:0007595 #lactation
+GO:0060068 #vagina development
