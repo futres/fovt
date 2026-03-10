@@ -7,9 +7,8 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/fovt/imports/obi_import.owl>
-<http://purl.obolibrary.org/obo/fovt/releases/2026-01-27/imports/obi_import.owl>
 Annotation(<http://purl.org/dc/elements/1.1/source> <http://purl.obolibrary.org/obo/obi/2025-12-18/obi.owl>)
-Annotation(owl:versionInfo "2026-01-27")
+Annotation(owl:versionInfo "2026-03-10")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000015>))
 Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000017>))
@@ -30,7 +29,10 @@ Declaration(Class(<http://purl.obolibrary.org/obo/COB_0000035>))
 Declaration(Class(<http://purl.obolibrary.org/obo/COB_0000080>))
 Declaration(Class(<http://purl.obolibrary.org/obo/COB_0000082>))
 Declaration(Class(<http://purl.obolibrary.org/obo/COB_0000502>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0003674>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0005575>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0008150>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0022414>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0032991>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0044423>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0110165>))
@@ -155,6 +157,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0000466>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0000473>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0000477>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0000992>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0000995>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001062>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0003128>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UO_0000001>))
@@ -179,6 +182,7 @@ Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/OBI_0000417>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/OBI_0000833>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/OBI_0001938>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0000052>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0000053>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0000056>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0000057>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0000059>))
@@ -796,6 +800,11 @@ ObjectPropertyRange(<http://purl.obolibrary.org/obo/OBI_0001938> <http://purl.ob
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/RO_0000052> "a relation between a specifically dependent continuant (the characteristic) and any other entity (the bearer), in which the characteristic depends on the bearer for its existence."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0000052> "characteristic of"@en)
 
+# Object Property: <http://purl.obolibrary.org/obo/RO_0000053> (has characteristic)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/RO_0000053> "Inverse of characteristic_of"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0000053> "has characteristic"@en)
+
 # Object Property: <http://purl.obolibrary.org/obo/RO_0000056> (participates in)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/RO_0000056> "a relation between a continuant and a process, in which the continuant is somehow involved in the process"@en)
@@ -949,6 +958,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/COB_0000022> <http://purl.obolibrary.
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/COB_0000035> "completely executed planned process"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/COB_0000035> <http://purl.obolibrary.org/obo/COB_0000082>)
 SubClassOf(<http://purl.obolibrary.org/obo/COB_0000035> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000055> <http://purl.obolibrary.org/obo/OBI_0000260>))
+DisjointClasses(<http://purl.obolibrary.org/obo/COB_0000035> <http://purl.obolibrary.org/obo/GO_0008150>)
 
 # Class: <http://purl.obolibrary.org/obo/COB_0000080> (complex of molecules)
 
@@ -967,6 +977,16 @@ SubClassOf(<http://purl.obolibrary.org/obo/COB_0000082> <http://purl.obolibrary.
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/COB_0000502> "characteristic"@en)
 
+# Class: <http://purl.obolibrary.org/obo/GO_0003674> (molecular_function)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/GO_0003674> "molecular_function")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0003674> "A molecular process that can be carried out by the action of a single macromolecular machine, usually via direct physical interactions with other molecular entities. Function in this sense denotes an action, or activity, that a gene product (or a complex) performs.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/GO_0003674> "This is the same as GO molecular function"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/GO_0003674> <http://purl.obolibrary.org/obo/go.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0003674> "gene product or complex activity"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0003674> "molecular_function")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0003674> <http://purl.obolibrary.org/obo/BFO_0000015>)
+
 # Class: <http://purl.obolibrary.org/obo/GO_0005575> (cellular_component)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/GO_0005575> "cellular_component")
@@ -975,6 +995,24 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.ob
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0005575> "cellular_component")
 EquivalentClasses(<http://purl.obolibrary.org/obo/GO_0005575> ObjectUnionOf(<http://purl.obolibrary.org/obo/GO_0032991> <http://purl.obolibrary.org/obo/GO_0044423> <http://purl.obolibrary.org/obo/GO_0110165>))
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0005575> <http://purl.obolibrary.org/obo/BFO_0000040>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0008150> (biological_process)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/GO_0008150> "biological_process")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0008150> "A biological process is the execution of a genetically-encoded biological module or program. It consists of all the steps required to achieve the specific biological objective of the module. A biological process is accomplished by a particular set of molecular functions carried out by specific gene products (or macromolecular complexes), often in a highly regulated manner and in a particular temporal sequence.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/GO_0008150> <http://purl.obolibrary.org/obo/go.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0008150> "biological process"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0008150> "biological_process")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0008150> <http://purl.obolibrary.org/obo/BFO_0000015>)
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0008150> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/GO_0003674>))
+
+# Class: <http://purl.obolibrary.org/obo/GO_0022414> (reproductive process)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/GO_0022414> "reproductive process")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0022414> "A biological process that directly contributes to the process of producing new individuals by one or two organisms. The new individuals inherit some proportion of their genetic material from the parent or parents.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/GO_0022414> <http://purl.obolibrary.org/obo/go.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0022414> "reproductive process")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0022414> <http://purl.obolibrary.org/obo/GO_0008150>)
 
 # Class: <http://purl.obolibrary.org/obo/GO_0032991> (protein-containing complex)
 
@@ -2366,6 +2404,14 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/UBERON_0000992> <http://purl.obolibrary.org/obo/uberon.owl>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_0000992> "ovary")
 SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0000992> <http://purl.obolibrary.org/obo/UBERON_0000465>)
+
+# Class: <http://purl.obolibrary.org/obo/UBERON_0000995> (uterus)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/UBERON_0000995> "uterus")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UBERON_0000995> "The female muscular organ of gestation in which the developing embryo or fetus is nourished until birth.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/UBERON_0000995> <http://purl.obolibrary.org/obo/uberon.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_0000995> "uterus")
+SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0000995> <http://purl.obolibrary.org/obo/UBERON_0000465>)
 
 # Class: <http://purl.obolibrary.org/obo/UBERON_0001062> (anatomical entity)
 
