@@ -1,0 +1,2 @@
+OBI:0002395 #number of live births
+OBI:0002394 #number of pregnancies

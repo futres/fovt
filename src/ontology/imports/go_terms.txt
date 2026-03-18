@@ -1,0 +1,10 @@
+GO:0042303 #molting cycle
+GO:0022404 #molting cycle process
+GO:0018989 #apolysis
+GO:0022405 #hair cycle process
+GO:0048820 #hair follicle maturation
+GO:0042640 #anagen
+GO:0042637 #catagen
+GO:0042638 #exogen
+GO:0007595 #lactation
+GO:0060068 #vagina development
