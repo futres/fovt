@@ -7,9 +7,8 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/fovt/imports/bco_import.owl>
-<http://purl.obolibrary.org/obo/fovt/releases/2023-05-31/imports/bco_import.owl>
 Annotation(<http://purl.org/dc/elements/1.1/source> <http://purl.obolibrary.org/obo/bco/releases/2021-11-14/bco.owl>)
-Annotation(owl:versionInfo "2023-05-31")
+Annotation(owl:versionInfo "2026-03-19")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/BCO_0000003>))
 Declaration(Class(<http://purl.obolibrary.org/obo/BCO_0000046>))
@@ -217,10 +216,7 @@ Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/ncbitaxon#synonym
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/ro/subsets#ro-eco>))
 Declaration(AnnotationProperty(<http://purl.org/dc/elements/1.1/contributor>))
 Declaration(AnnotationProperty(<http://purl.org/dc/elements/1.1/creator>))
-Declaration(AnnotationProperty(<http://purl.org/dc/elements/1.1/date>))
-Declaration(AnnotationProperty(<http://purl.org/dc/elements/1.1/description>))
 Declaration(AnnotationProperty(<http://purl.org/dc/elements/1.1/source>))
-Declaration(AnnotationProperty(<http://purl.org/dc/elements/1.1/title>))
 Declaration(AnnotationProperty(<http://purl.org/dc/terms/creator>))
 Declaration(AnnotationProperty(<http://purl.org/dc/terms/description>))
 Declaration(AnnotationProperty(<http://purl.org/dc/terms/license>))
