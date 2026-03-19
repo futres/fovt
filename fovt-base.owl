@@ -12,13 +12,13 @@
      xmlns:dcterms="http://purl.org/dc/terms/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/fovt/fovt-base.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/fovt/releases/2023-05-31/fovt-base.owl"/>
-        <dce:description>None</dce:description>
-        <dce:description xml:lang="en">These are the terms that are improted for FOVT to describe vertebrate traits.</dce:description>
-        <dce:title>FuTRES Ontology of Vertebrate Traits</dce:title>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/fovt/releases/2026-03-19/fovt-base.owl"/>
         <dce:type rdf:resource="http://purl.obolibrary.org/obo/IAO_8000001"/>
+        <dcterms:description>None</dcterms:description>
+        <dcterms:description xml:lang="en">These are the terms that are improted for FOVT to describe vertebrate traits.</dcterms:description>
         <dcterms:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
-        <owl:versionInfo>2023-05-31</owl:versionInfo>
+        <dcterms:title>FuTRES Ontology of Vertebrate Traits</dcterms:title>
+        <owl:versionInfo>2026-03-19</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -76,30 +76,6 @@
     
 
 
-    <!-- http://purl.org/dc/elements/1.1/contributor -->
-
-    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/contributor"/>
-    
-
-
-    <!-- http://purl.org/dc/elements/1.1/date -->
-
-    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/date"/>
-    
-
-
-    <!-- http://purl.org/dc/elements/1.1/description -->
-
-    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/description"/>
-    
-
-
-    <!-- http://purl.org/dc/elements/1.1/title -->
-
-    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/title"/>
-    
-
-
     <!-- http://purl.org/dc/elements/1.1/type -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/type"/>
@@ -112,9 +88,39 @@
     
 
 
+    <!-- http://purl.org/dc/terms/created -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/created"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/date -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/date"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/description -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/description"/>
+    
+
+
     <!-- http://purl.org/dc/terms/license -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/source -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/source"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/title -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/title"/>
     
 
 
@@ -207,9 +213,21 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/IAO_0000136 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000136"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/RO_0000052 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000052"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0000053 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000053"/>
     
 
 
@@ -222,6 +240,18 @@
     <!-- http://purl.obolibrary.org/obo/RO_0002314 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002314"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002353 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002353"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002371 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002371"/>
     
 
 
@@ -377,16 +407,11 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOVT_0000005">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0003426"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000423"/>
-        <obo:IAO_0000115 xml:lang="en">The length of a line of an ear from a helix of the outer ear to an intertragus insicusure of an ear.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">The length of a line of an ear from the lower notch of the pinna to the tip of the pinna.</obo:IAO_0000115>
         <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-2699-3066"/>
+        <dcterms:contributor rdf:resource="https://orcid.org/0009-0002-7282-0836"/>
         <rdfs:label xml:lang="en">ear length to notch</rdfs:label>
     </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FOVT_0000005"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget xml:lang="en">The length of a line of an ear from a helix of the outer ear to an intertragus insicusure of an ear.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>https://orcid.org/0000-0003-2699-3066</oboInOwl:hasDbXref>
-    </owl:Axiom>
     
 
 
@@ -440,16 +465,16 @@
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FOVT_0000007"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="en">femur greatest length from caput femoris (GLC)</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>ISBN:9780873659505</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FOVT_0000007"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget xml:lang="en">OBSOLETE The length from a medial condyle of femur to a head of femur.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>ISBN:9780873659505</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>https://doi.org/10.1111/j.1096-3642.1983.tb00098.x</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FOVT_0000007"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget xml:lang="en">femur greatest length from caput femoris (GLC)</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>ISBN:9780873659505</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -1167,12 +1192,6 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FOVT_0001004"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-        <owl:annotatedTarget xml:lang="en">tibia breadth of the distal end (Bd)</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>ISBN:9780873659505</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FOVT_0001004"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
         <owl:annotatedTarget xml:lang="en">tibia distal maximal breadth (M7)</owl:annotatedTarget>
         <oboInOwl:hasDbXref>ISBN:9004086161, 9789004086166</oboInOwl:hasDbXref>
     </owl:Axiom>
@@ -1183,6 +1202,12 @@
         <oboInOwl:hasDbXref>ISBN:9004086161, 9789004086166</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ISBN:9780873659505</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>https://doi.org/10.1111/j.1096-3642.1983.tb00098.x</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FOVT_0001004"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget xml:lang="en">tibia breadth of the distal end (Bd)</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>ISBN:9780873659505</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -2644,14 +2669,15 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0001148"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000423"/>
+        <obo:IAO_0000115 xml:lang="en">The length of a testis.</obo:IAO_0000115>
         <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-2699-3066"/>
-        <rdfs:comment xml:lang="en">The length of a testis.</rdfs:comment>
         <rdfs:label xml:lang="en">testis length</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FOVT_0001057"/>
-        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget xml:lang="en">The length of a testis.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>https://orcid.org/0000-0003-2699-3066</oboInOwl:hasDbXref>
     </owl:Axiom>
@@ -2674,13 +2700,13 @@
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOVT_0001057"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000423"/>
+        <obo:IAO_0000115 xml:lang="en">The length of a testis on the right side.</obo:IAO_0000115>
         <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-2699-3066"/>
-        <rdfs:comment xml:lang="en">The length of a testis on the right side.</rdfs:comment>
         <rdfs:label xml:lang="en">right testis length</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FOVT_0001058"/>
-        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget xml:lang="en">The length of a testis on the right side.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>https://orcid.org/0000-0003-2699-3066</oboInOwl:hasDbXref>
     </owl:Axiom>
@@ -2703,13 +2729,13 @@
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOVT_0001057"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000423"/>
+        <obo:IAO_0000115 xml:lang="en">The length of a testis on the left side.</obo:IAO_0000115>
         <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-2699-3066"/>
-        <rdfs:comment xml:lang="en">The length of a testis on the left side.</rdfs:comment>
         <rdfs:label xml:lang="en">left testis length</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FOVT_0001059"/>
-        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget xml:lang="en">The length of a testis on the left side.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>https://orcid.org/0000-0003-2699-3066</oboInOwl:hasDbXref>
     </owl:Axiom>
@@ -4025,8 +4051,8 @@
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000423"/>
         <obo:IAO_0000115 xml:lang="en">OBSOLETE The length of the metatarsal bone of digit 2 along the proximal-distal axis.</obo:IAO_0000115>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBA_0003272"/>
-        <dce:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-06-03T22:41:34Z</dce:date>
         <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-2699-3066"/>
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-06-03T22:41:34Z</dcterms:date>
         <rdfs:comment>already exists</rdfs:comment>
         <rdfs:label xml:lang="en">obsolete metatarsal bone of digit 2 length</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -4047,8 +4073,8 @@
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000423"/>
         <obo:IAO_0000115 xml:lang="en">OBSOLETE The length of a metatarsal bone of digit 3 along the proximal-distal axis.</obo:IAO_0000115>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBA_0002565"/>
-        <dce:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-06-03T22:44:56Z</dce:date>
         <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-2699-3066"/>
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-06-03T22:44:56Z</dcterms:date>
         <rdfs:comment>class already exists</rdfs:comment>
         <rdfs:label xml:lang="en">obsolete metatarsal bone of digit 3 length</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -4069,8 +4095,8 @@
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000423"/>
         <obo:IAO_0000115 xml:lang="en">OBSOLETE The length of the metatarsal bone of digit 4 along the proximal-distal axis.</obo:IAO_0000115>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBA_0002567"/>
-        <dce:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-06-03T22:46:16Z</dce:date>
         <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-2699-3066"/>
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-06-03T22:46:16Z</dcterms:date>
         <rdfs:comment>class already exists</rdfs:comment>
         <rdfs:label xml:lang="en">obsolete metatarsal bone of digit 4 length</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -4091,8 +4117,8 @@
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000423"/>
         <obo:IAO_0000115 xml:lang="en">OBSOLETE The length of a metatarsal bone of digit 5 along the proximal-distal axis.</obo:IAO_0000115>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBA_0002569"/>
-        <dce:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-06-03T22:50:27Z</dce:date>
         <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-2699-3066"/>
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-06-03T22:50:27Z</dcterms:date>
         <rdfs:comment>class already exists</rdfs:comment>
         <rdfs:label xml:lang="en">obsolete metatarsal bone of digit 5 length</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -4322,8 +4348,8 @@
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000423"/>
         <obo:IAO_0000115 xml:lang="en">OBSOLETE The width of the proximal end of a radius.</obo:IAO_0000115>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/FOVT_0001147"/>
-        <dce:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-06-17T00:54:08Z</dce:date>
         <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-2699-3066"/>
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-06-17T00:54:08Z</dcterms:date>
         <rdfs:comment>unneeded term</rdfs:comment>
         <rdfs:label xml:lang="en">obsolete radius proximal width</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -4343,8 +4369,8 @@
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000423"/>
         <obo:IAO_0000115 xml:lang="en">OBSOLETE The width of the arcitular surface that articulates with the humerus located on the proximal end of a radius.</obo:IAO_0000115>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/FOVT_0001147"/>
-        <dce:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-06-17T00:57:18Z</dce:date>
         <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-2699-3066"/>
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-06-17T00:57:18Z</dcterms:date>
         <rdfs:comment>unneeded term</rdfs:comment>
         <rdfs:label xml:lang="en">obsolete radius proximal articular width</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -4363,8 +4389,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOVT_0001151">
         <obo:IAO_0000115 xml:lang="en">OBSOLETE The length of a fibula along the proximal-distal axis.</obo:IAO_0000115>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0000482"/>
-        <dce:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-07-22T21:20:50Z</dce:date>
         <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-2699-3066"/>
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-07-22T21:20:50Z</dcterms:date>
         <oboInOwl:hasExactSynonym xml:lang="en">length of fibula</oboInOwl:hasExactSynonym>
         <rdfs:comment>Already exists in OBA.</rdfs:comment>
         <rdfs:label xml:lang="en">obsolete fibula length</rdfs:label>
@@ -4633,8 +4659,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOVT_0001158">
         <obo:IAO_0000115 xml:lang="en">OBSOLETE The width of the diaphysis of a radius.</obo:IAO_0000115>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/FOVT_0001147"/>
-        <dce:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-07-27T23:38:42Z</dce:date>
         <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-2699-3066"/>
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-07-27T23:38:42Z</dcterms:date>
         <oboInOwl:hasExactSynonym rdf:resource="http://purl.obolibrary.org/obo/IAO_0000423"/>
         <rdfs:comment>unneeded</rdfs:comment>
         <rdfs:label xml:lang="en">obsolete radius diaphysis width</rdfs:label>
@@ -4672,8 +4698,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOVT_0001160">
         <obo:IAO_0000115 xml:lang="en">OBSOLETE The mass of the skin of an organism.</obo:IAO_0000115>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBA_VT1000425"/>
-        <dce:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-07-27T23:59:50Z</dce:date>
         <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-2699-3066"/>
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-07-27T23:59:50Z</dcterms:date>
         <rdfs:comment rdf:resource="http://purl.obolibrary.org/obo/IAO_0000423"/>
         <rdfs:comment>Term already exists.</rdfs:comment>
         <rdfs:label xml:lang="en">obsolete skin mass</rdfs:label>
@@ -4874,15 +4900,15 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000423"/>
-        <dce:description xml:lang="en">The length of the occlusal surface of a molar tooth 1 along the medial-lateral axis.</dce:description>
         <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-2699-3066"/>
+        <dcterms:description xml:lang="en">The length of the occlusal surface of a molar tooth 1 along the medial-lateral axis.</dcterms:description>
         <oboInOwl:editor_note>need to add secondary molar tooth 1</oboInOwl:editor_note>
         <oboInOwl:hasExactSynonym xml:lang="en">molar tooth 1 length ML</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">secondary molar tooth 1 occlusal surface width</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FOVT_0001166"/>
-        <owl:annotatedProperty rdf:resource="http://purl.org/dc/elements/1.1/description"/>
+        <owl:annotatedProperty rdf:resource="http://purl.org/dc/terms/description"/>
         <owl:annotatedTarget xml:lang="en">The length of the occlusal surface of a molar tooth 1 along the medial-lateral axis.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>https://orcid.org/0000-0003-2699-3066</oboInOwl:hasDbXref>
     </owl:Axiom>
@@ -11342,8 +11368,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOVT_0001366">
         <obo:IAO_0000115 xml:lang="en">OBSOLETE The length of a testis on the right side.</obo:IAO_0000115>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/FOVT_0001058"/>
-        <dce:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-05T23:24:47Z</dce:date>
         <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-2699-3066"/>
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-05T23:24:47Z</dcterms:date>
         <oboInOwl:hasRelatedSynonym xml:lang="en">testis length</oboInOwl:hasRelatedSynonym>
         <rdfs:comment>made an error, made new term</rdfs:comment>
         <rdfs:label xml:lang="en">obsolete right testis length</rdfs:label>
@@ -11362,8 +11388,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOVT_0001367">
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/FOVT_0001058"/>
-        <dce:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-05T23:27:11Z</dce:date>
         <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-2699-3066"/>
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-05T23:27:11Z</dcterms:date>
         <rdfs:comment>made error, term already exists</rdfs:comment>
         <rdfs:label xml:lang="en">obsolete right testis length</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -11434,8 +11460,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOVT_0001370">
         <obo:IAO_0000115 xml:lang="en">OBSOLETE The length of an ovary on the right side.</obo:IAO_0000115>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/FOVT_0001063"/>
-        <dce:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-05T23:45:43Z</dce:date>
         <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-2699-3066"/>
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-05T23:45:43Z</dcterms:date>
         <oboInOwl:hasRelatedSynonym xml:lang="en">ovary length</oboInOwl:hasRelatedSynonym>
         <rdfs:comment>didn&apos;t realize the term already existed</rdfs:comment>
         <rdfs:label xml:lang="en">obsolete right ovary length</rdfs:label>
@@ -37119,6 +37145,525 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/FOVT_1000000 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOVT_1000000">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000122"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0010869"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000122"/>
+        <obo:IAO_0000115 xml:lang="en">Length of a spur of cartilage arising from the inner side of the ankle and running along part of the outer interfemoral membrane in bats.</obo:IAO_0000115>
+        <dcterms:contributor rdf:resource="https://orcid.org/0009-0002-7282-0836"/>
+        <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-02-10T22:04:40Z</dcterms:created>
+        <rdfs:label xml:lang="en">calcar length</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FOVT_1000000"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Length of a spur of cartilage arising from the inner side of the ankle and running along part of the outer interfemoral membrane in bats.</owl:annotatedTarget>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Calcar</obo:IAO_0000119>
+        <obo:IAO_0000119>https://ranges-network.org/traits/</obo:IAO_0000119>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOVT_1000001 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOVT_1000001">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000122"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0010887"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0003426"/>
+        <obo:IAO_0000115 xml:lang="en">Length of a pointed eminence of the external ear, situated in front of the concha, and projecting backward over the meatus.</obo:IAO_0000115>
+        <dcterms:contributor rdf:resource="https://orcid.org/0009-0002-7282-0836"/>
+        <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-02-10T22:26:35Z</dcterms:created>
+        <rdfs:label xml:lang="en">tragus length</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FOVT_1000001"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Length of a pointed eminence of the external ear, situated in front of the concha, and projecting backward over the meatus.</owl:annotatedTarget>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Tragus_(ear)</obo:IAO_0000119>
+        <obo:IAO_0000119>https://ranges-network.org/traits/</obo:IAO_0000119>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOVT_1000002 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOVT_1000002">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000109"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000995"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">Measurement datum about the number of embryos observed in a uterus.</obo:IAO_0000115>
+        <dcterms:contributor rdf:resource="https://orcid.org/0009-0002-7282-0836"/>
+        <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-02-10T22:30:45Z</dcterms:created>
+        <rdfs:label xml:lang="en">uterine embryo count</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FOVT_1000002"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Measurement datum about the number of embryos observed in a uterus.</owl:annotatedTarget>
+        <obo:IAO_0000119>https://doi.org/10.1203/01.PDR.0000112034.98387.B2</obo:IAO_0000119>
+        <obo:IAO_0000119>https://ranges-network.org/traits/</obo:IAO_0000119>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOVT_1000003 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOVT_1000003">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOVT_1000002"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0009020"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">Embryo count of embryos observed in left horn of uterus.</obo:IAO_0000115>
+        <dcterms:contributor rdf:resource="https://orcid.org/0009-0002-7282-0836"/>
+        <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-02-10T22:34:45Z</dcterms:created>
+        <rdfs:label xml:lang="en">left uterine embryo count</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FOVT_1000003"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Embryo count of embryos observed in left horn of uterus.</owl:annotatedTarget>
+        <obo:IAO_0000119>https://doi.org/10.1203/01.PDR.0000112034.98387.B2</obo:IAO_0000119>
+        <obo:IAO_0000119>https://ranges-network.org/traits/</obo:IAO_0000119>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOVT_1000004 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOVT_1000004">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOVT_1000002"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0009022"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">Embryo count of embryos observed in right horn of uterus.</obo:IAO_0000115>
+        <dcterms:contributor rdf:resource="https://orcid.org/0009-0002-7282-0836"/>
+        <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-02-10T22:35:31Z</dcterms:created>
+        <rdfs:label xml:lang="en">right uterine embryo count</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FOVT_1000004"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Embryo count of embryos observed in right horn of uterus.</owl:annotatedTarget>
+        <obo:IAO_0000119>https://doi.org/10.1203/01.PDR.0000112034.98387.B2</obo:IAO_0000119>
+        <obo:IAO_0000119>https://ranges-network.org/traits/</obo:IAO_0000119>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOVT_1000005 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOVT_1000005">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0022414"/>
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0005156"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">Data item about entities related to biological reproduction.</obo:IAO_0000115>
+        <dcterms:contributor rdf:resource="https://orcid.org/0009-0002-7282-0836"/>
+        <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-02-19T20:50:31Z</dcterms:created>
+        <rdfs:label xml:lang="en">reproduction data item</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FOVT_1000005"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Data item about entities related to biological reproduction.</owl:annotatedTarget>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Reproduction</obo:IAO_0000119>
+        <obo:IAO_0000119>https://ranges-network.org/traits/</obo:IAO_0000119>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOVT_1000006 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOVT_1000006">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000921"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004533"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOVT_0001368"/>
+        <obo:IAO_0000115 xml:lang="en">Testis width of left male gonad spheroid (perpendicular to long axis at midpoint).</obo:IAO_0000115>
+        <dcterms:contributor rdf:resource="https://orcid.org/0009-0002-7282-0836"/>
+        <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-02-10T22:48:27Z</dcterms:created>
+        <rdfs:label xml:lang="en">left testis width</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FOVT_1000006"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Testis width of left male gonad spheroid (perpendicular to long axis at midpoint).</owl:annotatedTarget>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Testicle</obo:IAO_0000119>
+        <obo:IAO_0000119>https://ranges-network.org/traits/</obo:IAO_0000119>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOVT_1000007 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOVT_1000007">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000921"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004534"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOVT_0001368"/>
+        <obo:IAO_0000115 xml:lang="en">Testes width of right male gonad spheroid (perpendicular to long axis at midpoint).</obo:IAO_0000115>
+        <dcterms:contributor rdf:resource="https://orcid.org/0009-0002-7282-0836"/>
+        <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-02-10T22:48:39Z</dcterms:created>
+        <rdfs:label xml:lang="en">right testis width</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FOVT_1000007"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Testes width of right male gonad spheroid (perpendicular to long axis at midpoint).</owl:annotatedTarget>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Testicle</obo:IAO_0000119>
+        <obo:IAO_0000119>https://ranges-network.org/traits/</obo:IAO_0000119>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOVT_1000008 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOVT_1000008">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOVT_1000010"/>
+        <obo:IAO_0000115 xml:lang="en">Length from the crown of the head to bottom of the rump of a fetus or embryo, taken along the spinal curvature.</obo:IAO_0000115>
+        <dcterms:contributor rdf:resource="https://orcid.org/0009-0002-7282-0836"/>
+        <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-02-19T20:52:56Z</dcterms:created>
+        <rdfs:label xml:lang="en">embryonic curvilinear length</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FOVT_1000008"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Length from the crown of the head to bottom of the rump of a fetus or embryo, taken along the spinal curvature.</owl:annotatedTarget>
+        <obo:IAO_0000119>https://doi.org/10.3354/meps</obo:IAO_0000119>
+        <obo:IAO_0000119>https://ranges-network.org/traits/</obo:IAO_0000119>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOVT_1000009 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOVT_1000009">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOVT_1000010"/>
+        <obo:IAO_0000115 xml:lang="en">Length from the crown of the head to bottom of the rump of a fetus or embryo, taken in straight line along body axis.</obo:IAO_0000115>
+        <dcterms:contributor rdf:resource="https://orcid.org/0009-0002-7282-0836"/>
+        <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-02-19T20:53:43Z</dcterms:created>
+        <rdfs:label xml:lang="en">embryonic crown-rump length</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FOVT_1000009"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Length from the crown of the head to bottom of the rump of a fetus or embryo, taken in straight line along body axis.</owl:annotatedTarget>
+        <obo:IAO_0000119>https://doi.org/10.1002/uog.7654</obo:IAO_0000119>
+        <obo:IAO_0000119>https://ranges-network.org/traits/</obo:IAO_0000119>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOVT_1000010 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOVT_1000010">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBA_VT0001256"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000922"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0001256"/>
+        <obo:IAO_0000115 xml:lang="en">Body length of an embryo.</obo:IAO_0000115>
+        <dcterms:contributor rdf:resource="https://orcid.org/0009-0002-7282-0836"/>
+        <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-02-19T20:54:27Z</dcterms:created>
+        <rdfs:label xml:lang="en">embryonic body length</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOVT_1000011 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOVT_1000011">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0003426"/>
+        <obo:IAO_0000115 xml:lang="en">The length of a line of an ear from the dorsal end of the base of the ear to the tip of the pinna.</obo:IAO_0000115>
+        <dcterms:contributor rdf:resource="https://orcid.org/0009-0002-7282-0836"/>
+        <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-02-24T22:14:26Z</dcterms:created>
+        <rdfs:label xml:lang="en">ear length from crown</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FOVT_1000011"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The length of a line of an ear from the dorsal end of the base of the ear to the tip of the pinna.</owl:annotatedTarget>
+        <obo:IAO_0000119>https://ranges-network.org/traits/</obo:IAO_0000119>
+        <dcterms:source>ISBN-10: 1016175078 (p. 602)</dcterms:source>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOVT_1000012 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOVT_1000012">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0060068"/>
+        <obo:IAO_0000115 xml:lang="en">Vaginal development trait wherein an epithelial membrane fusing the vaginal orifice closed recedes from the center, thereby opening the vaginal orifice. Indicative of sexual maturity in some organisms, such as rodents.</obo:IAO_0000115>
+        <dcterms:contributor rdf:resource="https://orcid.org/0009-0002-7282-0836"/>
+        <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-02-18T17:14:25Z</dcterms:created>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">vaginal opening</oboInOwl:hasRelatedSynonym>
+        <rdfs:label xml:lang="en">vaginal perforation</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FOVT_1000012"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Vaginal development trait wherein an epithelial membrane fusing the vaginal orifice closed recedes from the center, thereby opening the vaginal orifice. Indicative of sexual maturity in some organisms, such as rodents.</owl:annotatedTarget>
+        <obo:IAO_0000119>https://doi.org/10.1007/s42991-025-00520-z</obo:IAO_0000119>
+        <obo:IAO_0000119>https://ranges-network.org/traits/</obo:IAO_0000119>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOVT_1000013 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOVT_1000013">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0012317"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000608"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0012317"/>
+        <obo:IAO_0000115 xml:lang="en">Vagina orifice which is not patent, preventing insertion of a penis.</obo:IAO_0000115>
+        <dcterms:contributor rdf:resource="https://orcid.org/0009-0002-7282-0836"/>
+        <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-02-18T18:37:45Z</dcterms:created>
+        <rdfs:label xml:lang="en">closed vagina orifice</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FOVT_1000013"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Vagina orifice which is not patent, preventing insertion of a penis.</owl:annotatedTarget>
+        <obo:IAO_0000119>https://doi.org/10.1007/s42991-025-00520-z</obo:IAO_0000119>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOVT_1000014 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOVT_1000014">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0012317"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000610"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0012317"/>
+        <obo:IAO_0000115 xml:lang="en">Vagina orifice which is patent, permitting insertion of a penis. May indicate the onset of estrus in some animals, such as in rodents.</obo:IAO_0000115>
+        <dcterms:contributor rdf:resource="https://orcid.org/0009-0002-7282-0836"/>
+        <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-02-18T18:37:54Z</dcterms:created>
+        <rdfs:label xml:lang="en">open vagina orifice</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FOVT_1000014"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Vagina orifice which is patent, permitting insertion of a penis. May indicate the onset of estrus in some animals, such as in rodents.</owl:annotatedTarget>
+        <obo:IAO_0000119>https://doi.org/10.1007/s42991-025-00520-z</obo:IAO_0000119>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOVT_1000015 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOVT_1000015">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOVT_1000013"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002371"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0010148"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOVT_1000013"/>
+        <obo:IAO_0000115 xml:lang="en">Closed vagina orifice which is closed due to a mating plug formed by male ejaculation. Indicative of recent copulation.</obo:IAO_0000115>
+        <dcterms:contributor rdf:resource="https://orcid.org/0009-0002-7282-0836"/>
+        <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-02-18T21:42:33Z</dcterms:created>
+        <rdfs:label xml:lang="en">closed vagina orifice due to mating plug</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FOVT_1000015"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Closed vagina orifice which is closed due to a mating plug formed by male ejaculation. Indicative of recent copulation.</owl:annotatedTarget>
+        <obo:IAO_0000119>https://doi.org/10.1073/pnas.1920526117</obo:IAO_0000119>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOVT_1000018 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOVT_1000018">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005156"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000459"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002353"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0007565"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">Reproductive structure which is a remnant of a previous placenta implantation site and appears as a discolored portion of the uterine wall. Commonly observed in rodents.</obo:IAO_0000115>
+        <dcterms:contributor rdf:resource="https://orcid.org/0009-0002-7282-0836"/>
+        <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-02-18T22:41:08Z</dcterms:created>
+        <rdfs:label xml:lang="en">placental scar</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FOVT_1000018"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Reproductive structure which is a remnant of a previous placenta implantation site and appears as a discolored portion of the uterine wall. Commonly observed in rodents.</owl:annotatedTarget>
+        <obo:IAO_0000119>DOI: 10.9734/AJRIZ/2018/v1i11100</obo:IAO_0000119>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOVT_1000019 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOVT_1000019">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000109"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000995"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">Measurement datum about the number of placental scars observed in a uterus.</obo:IAO_0000115>
+        <dcterms:contributor rdf:resource="https://orcid.org/0009-0002-7282-0836"/>
+        <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-02-19T17:18:15Z</dcterms:created>
+        <rdfs:label xml:lang="en">placental scar count</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FOVT_1000019"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Measurement datum about the number of placental scars observed in a uterus.</owl:annotatedTarget>
+        <obo:IAO_0000119>&quot;The Placental Scar as a Measure of Fertility in Rats&quot; https://www.jstor.org/stable/3796411</obo:IAO_0000119>
+        <obo:IAO_0000119>https://ranges-network.org/traits/</obo:IAO_0000119>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOVT_1000020 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOVT_1000020">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOVT_1000019"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0009020"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">Placental scar count about the number of placental scars observed in left horn of uterus.</obo:IAO_0000115>
+        <dcterms:contributor rdf:resource="https://orcid.org/0009-0002-7282-0836"/>
+        <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-02-19T17:20:10Z</dcterms:created>
+        <rdfs:label xml:lang="en">left placental scar count</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FOVT_1000020"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Placental scar count about the number of placental scars observed in left horn of uterus.</owl:annotatedTarget>
+        <obo:IAO_0000119>&quot;The Placental Scar as a Measure of Fertility in Rats&quot; https://www.jstor.org/stable/3796411</obo:IAO_0000119>
+        <obo:IAO_0000119>https://ranges-network.org/traits/</obo:IAO_0000119>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOVT_1000021 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOVT_1000021">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOVT_1000019"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0009022"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">Placental scar count about the number of placental scars observed in right horn of uterus.</obo:IAO_0000115>
+        <dcterms:contributor rdf:resource="https://orcid.org/0009-0002-7282-0836"/>
+        <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-02-19T17:21:28Z</dcterms:created>
+        <rdfs:label xml:lang="en">right placental scar count</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FOVT_1000021"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Placental scar count about the number of placental scars observed in right horn of uterus.</owl:annotatedTarget>
+        <obo:IAO_0000119>&quot;The Placental Scar as a Measure of Fertility in Rats&quot; https://www.jstor.org/stable/3796411</obo:IAO_0000119>
+        <obo:IAO_0000119>https://ranges-network.org/traits/</obo:IAO_0000119>
+    </owl:Axiom>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/FOVT_2000000 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOVT_2000000">
@@ -37138,7 +37683,7 @@
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000423"/>
         <obo:IAO_0000115 xml:lang="en">The length of a posterior nasal aperture of the interal naris (choana) along anterior-posterior axis.</obo:IAO_0000115>
         <oba:measured_in_taxon rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9789"/>
-        <dce:contributor>https://orcid.org/0000-0001-8415-4848</dce:contributor>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-8415-4848"/>
         <oboInOwl:hasRelatedSynonym xml:lang="en">choanal length (M10)</oboInOwl:hasRelatedSynonym>
         <rdfs:label xml:lang="en">choana length</rdfs:label>
     </owl:Class>
@@ -37181,7 +37726,7 @@
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000423"/>
         <obo:IAO_0000115 xml:lang="en">The length of the posterior portion of a posterior nasal aperture of the internal naris (choana) along left-right axis.</obo:IAO_0000115>
         <oba:measured_in_taxon rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9789"/>
-        <dce:contributor>https://orcid.org/0000-0001-8415-4848</dce:contributor>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-8415-4848"/>
         <oboInOwl:hasExactSynonym xml:lang="en">choana minimal width</oboInOwl:hasExactSynonym>
         <oboInOwl:hasRelatedSynonym xml:lang="en">minimal breadth of the choanae (M11)</oboInOwl:hasRelatedSynonym>
         <rdfs:label xml:lang="en">choana minimal breadth</rdfs:label>
@@ -37804,7 +38349,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOVT_2000016">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOVT_2000020"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000423"/>
-        <obo:IAO_0000115 xml:lang="en">The length of an occipital region from a basion to an akrokranion</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">The length of an occipital region from a basion to the heighest point of a sagittal crest in projection.</obo:IAO_0000115>
         <oba:measured_in_taxon rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9611"/>
         <oba:measured_in_taxon rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9639"/>
         <oba:measured_in_taxon rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9789"/>
@@ -37822,8 +38367,9 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FOVT_2000016"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget xml:lang="en">The length of an occipital region from a basion to an akrokranion</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>ISBN: 9780873659505</oboInOwl:hasDbXref>
+        <owl:annotatedTarget xml:lang="en">The length of an occipital region from a basion to the heighest point of a sagittal crest in projection.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>ISBN:9004086161, 9789004086166</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ISBN:9780873659505</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FOVT_2000016"/>
@@ -37835,7 +38381,7 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FOVT_2000016"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
         <owl:annotatedTarget xml:lang="en">The following is the measurement number and genus for this trait in von den Driesch (1979): 50 Equus, 30 Camelus, 40 Bos, 38 Cervus, 38 Canis and Ursus.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>ISBN: 9780873659505</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ISBN:9780873659505</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -38196,7 +38742,7 @@
         <oba:measured_in_taxon rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
         <oba:measured_in_taxon rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9922"/>
         <oba:measured_in_taxon rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9935"/>
-        <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-8415-4848"/>
+        <dcterms:contributor rdf:resource="http://purl.obolibrary.org/obo/fovt.owl#"/>
         <oboInOwl:hasRelatedSynonym xml:lang="en">basioccipital breadth (M21)</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym xml:lang="en">greatest breadth at the bases of the paraoccipital processes</oboInOwl:hasRelatedSynonym>
         <rdfs:comment xml:lang="en">The following is the measurement number and genus for this trait in von den Driesch (1979): 35 Equus, 20 Camelus, 27 Bos, 28 Ovis and Capra, 27 Cervus, 35 Sus, 26 Canis, 26 Ursus.</rdfs:comment>
@@ -38227,6 +38773,911 @@
         <owl:annotatedTarget xml:lang="en">The following is the measurement number and genus for this trait in von den Driesch (1979): 35 Equus, 20 Camelus, 27 Bos, 28 Ovis and Capra, 27 Cervus, 35 Sus, 26 Canis, 26 Ursus.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>ISBN: 9004086161, 9789004086166</oboInOwl:hasDbXref>
     </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOVT_2000051 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOVT_2000051">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0005564"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000423"/>
+        <obo:IAO_0000115 xml:lang="en">The length of a cranium from a basion to an anatomical point between first incisors.</obo:IAO_0000115>
+        <oba:measured_in_taxon rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9789"/>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-8415-4848"/>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">basilar length (M6)</oboInOwl:hasRelatedSynonym>
+        <rdfs:comment>The following is the measurement number and genus for this trait in von den Driesch (1979): 3a Equus.</rdfs:comment>
+        <rdfs:label xml:lang="en">cranium ventral length from incisors</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FOVT_2000051"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The length of a cranium from a basion to an anatomical point between first incisors.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>ISBN:9780873659505</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FOVT_2000051"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget xml:lang="en">basilar length (M6)</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>ISBN:9780873659505</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FOVT_2000051"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+        <owl:annotatedTarget>The following is the measurement number and genus for this trait in von den Driesch (1979): 3a Equus.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>ISBN:9780873659505</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOVT_2000052 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOVT_2000052">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000119"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001352"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0010517"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000423"/>
+        <obo:IAO_0000115 xml:lang="en">The length of an external acoustic meatus along the upper-lower axis.</obo:IAO_0000115>
+        <oba:measured_in_taxon rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9789"/>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-8415-4848"/>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">exterior height of the meatus auditivus externus (M27)</oboInOwl:hasRelatedSynonym>
+        <rdfs:label xml:lang="en">external acoustic meatus height</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FOVT_2000052"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The length of an external acoustic meatus along the upper-lower axis.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>ISBN:9004086161, 9789004086166</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FOVT_2000052"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget xml:lang="en">exterior height of the meatus auditivus externus (M27)</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>ISBN:9004086161, 9789004086166</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOVT_2000053 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOVT_2000053">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOVT_2000021"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000423"/>
+        <obo:IAO_0000115 xml:lang="en">The length of a cranium from a left to a right occipital condyle.</obo:IAO_0000115>
+        <oba:measured_in_taxon rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9611"/>
+        <oba:measured_in_taxon rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9639"/>
+        <oba:measured_in_taxon rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9682"/>
+        <oba:measured_in_taxon rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9789"/>
+        <oba:measured_in_taxon rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9822"/>
+        <oba:measured_in_taxon rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9836"/>
+        <oba:measured_in_taxon rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9859"/>
+        <oba:measured_in_taxon rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
+        <oba:measured_in_taxon rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9922"/>
+        <oba:measured_in_taxon rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9935"/>
+        <oba:measured_in_taxon rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9980"/>
+        <oba:measured_in_taxon rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9984"/>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-8415-4848"/>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">greatest breadth of the occipital condyles</oboInOwl:hasRelatedSynonym>
+        <rdfs:comment xml:lang="en">The following is the measurement number and genus for this trait in von den Driesch (1979): 34 Equus, 19 Camelus, 26 Bos, 27 Ovis and Capra, 26 Cervus, 34 Sus, 25 Canis and Ursus, 19 Felis, 12 Lepus and Oryctolagus.</rdfs:comment>
+        <rdfs:label xml:lang="en">cranium breadth at occipital condyle</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FOVT_2000053"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The length of a cranium from a left to a right occipital condyle.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>ISBN:9780873659505</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FOVT_2000053"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget xml:lang="en">greatest breadth of the occipital condyles</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>ISBN:9780873659505</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FOVT_2000053"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+        <owl:annotatedTarget xml:lang="en">The following is the measurement number and genus for this trait in von den Driesch (1979): 34 Equus, 19 Camelus, 26 Bos, 27 Ovis and Capra, 26 Cervus, 34 Sus, 25 Canis and Ursus, 19 Felis, 12 Lepus and Oryctolagus.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>ISBN:9780873659505</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOVT_2000054 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOVT_2000054">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOVT_2000021"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000423"/>
+        <oba:measured_in_taxon rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9639"/>
+        <oba:measured_in_taxon rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9682"/>
+        <oba:measured_in_taxon rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9789"/>
+        <oba:measured_in_taxon rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9822"/>
+        <oba:measured_in_taxon rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9836"/>
+        <oba:measured_in_taxon rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9859"/>
+        <oba:measured_in_taxon rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
+        <oba:measured_in_taxon rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9935"/>
+        <oba:measured_in_taxon rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9980"/>
+        <oba:measured_in_taxon rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9984"/>
+        <oba:measured_in_taxon xml:lang="en">The length of a cranium from a left to a right othion.</oba:measured_in_taxon>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-8415-4848"/>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">greatest mastoid breadth</oboInOwl:hasRelatedSynonym>
+        <rdfs:comment xml:lang="en">The following is the measurement number and genus for this trait in von den Driesch (1979): 33 Equus, 18 Camelus, 25 Bos, 26 Ovis and Capra, 25 Cervus, 33 Sus, 23 Canis and Ursus, 18 Felis, 13 Lepus and Oryctolagus.</rdfs:comment>
+        <rdfs:label xml:lang="en">cranium breadth at mastoid process of temporal bone</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FOVT_2000054"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/oba#measured_in_taxon"/>
+        <owl:annotatedTarget xml:lang="en">The length of a cranium from a left to a right othion.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>ISBN:9780873659505</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FOVT_2000054"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget xml:lang="en">greatest mastoid breadth</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>ISBN:9780873659505</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FOVT_2000054"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+        <owl:annotatedTarget xml:lang="en">The following is the measurement number and genus for this trait in von den Driesch (1979): 33 Equus, 18 Camelus, 25 Bos, 26 Ovis and Capra, 25 Cervus, 33 Sus, 23 Canis and Ursus, 18 Felis, 13 Lepus and Oryctolagus.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>ISBN:9780873659505</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOVT_2000055 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOVT_2000055">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOVT_2000020"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000423"/>
+        <obo:IAO_0000115 xml:lang="en">The length of an occipital region from a basion to an akrokranion.</obo:IAO_0000115>
+        <oba:measured_in_taxon rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9611"/>
+        <oba:measured_in_taxon rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9639"/>
+        <oba:measured_in_taxon rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9682"/>
+        <oba:measured_in_taxon rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9822"/>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-8415-4848"/>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">height of the occipital region</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">height of the occipital triangle</oboInOwl:hasRelatedSynonym>
+        <rdfs:comment xml:lang="en">The following is the measurement number and genus for this trait in von den Driesch (1979): 45 Sus, 40 Canis and Ursus, 32 Felis</rdfs:comment>
+        <rdfs:label xml:lang="en">occipital region height from akrokranion</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FOVT_2000055"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The length of an occipital region from a basion to an akrokranion.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>ISBN:9780873659505</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FOVT_2000055"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget xml:lang="en">height of the occipital region</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>ISBN:9780873659505</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FOVT_2000055"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget xml:lang="en">height of the occipital triangle</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>ISBN:9780873659505</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FOVT_2000055"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+        <owl:annotatedTarget xml:lang="en">The following is the measurement number and genus for this trait in von den Driesch (1979): 45 Sus, 40 Canis and Ursus, 32 Felis</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>ISBN:9780873659505</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOVT_2000056 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOVT_2000056">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOVT_2000021"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000423"/>
+        <obo:IAO_0000115 xml:lang="en">The length of a basicranium along the left-right axis.</obo:IAO_0000115>
+        <oba:measured_in_taxon rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9822"/>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-8415-4848"/>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">least breadth of the squamous part of the occipital bone</oboInOwl:hasRelatedSynonym>
+        <rdfs:comment>The following is the measurement number and genus for this trait in von den Driesch (1979): 38 Sus.</rdfs:comment>
+        <rdfs:comment xml:lang="en">This is the narrowest points of the temporal crest.</rdfs:comment>
+        <rdfs:label xml:lang="en">cranium breadth at temporal crest</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FOVT_2000056"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The length of a basicranium along the left-right axis.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>ISBN:9780873659505</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FOVT_2000056"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget xml:lang="en">least breadth of the squamous part of the occipital bone</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>ISBN:9780873659505</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FOVT_2000056"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+        <owl:annotatedTarget>The following is the measurement number and genus for this trait in von den Driesch (1979): 38 Sus.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>ISBN:9780873659505</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOVT_2000057 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOVT_2000057">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOVT_2000008"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000423"/>
+        <obo:IAO_0000115 xml:lang="en">The length of a basicranium from a basion to an ethmoid foramen.</obo:IAO_0000115>
+        <oba:measured_in_taxon rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9789"/>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-8415-4848"/>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">length between basion and foramen ethmoidalis (M17)</oboInOwl:hasRelatedSynonym>
+        <rdfs:label xml:lang="en">basicranium length from ethmoid foramen</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FOVT_2000057"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The length of a basicranium from a basion to an ethmoid foramen.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>ISBN:9004086161, 9789004086166</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FOVT_2000057"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget xml:lang="en">length between basion and foramen ethmoidalis (M17)</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>ISBN:9004086161, 9789004086166</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOVT_2000058 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOVT_2000058">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOVT_2000059"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000423"/>
+        <obo:IAO_0000115 xml:lang="en">The length of a neurocranium along the left-right axis.</obo:IAO_0000115>
+        <oba:measured_in_taxon rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9611"/>
+        <oba:measured_in_taxon rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9639"/>
+        <oba:measured_in_taxon rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9789"/>
+        <oba:measured_in_taxon rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9836"/>
+        <oba:measured_in_taxon rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9859"/>
+        <oba:measured_in_taxon rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-8415-4848"/>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">least breadth of forehead aboral to orbits</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">least breadth of skull</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">least frontal breadth</oboInOwl:hasRelatedSynonym>
+        <rdfs:comment xml:lang="en">The following is the measurement number and genus for this trait in von den Driesch (1979): 39 Equus, 24 Camelus, 32 Bos, 31 Cervus, 31 Canis and Ursus.</rdfs:comment>
+        <rdfs:comment xml:lang="en">This is the narrowest points of the neurocranium aboral to orbit of skull.</rdfs:comment>
+        <rdfs:label xml:lang="en">neurocranium breadth aboral to orbit of skull</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FOVT_2000058"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The length of a neurocranium along the left-right axis.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>ISBN:9780873659505</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FOVT_2000058"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget xml:lang="en">least breadth of forehead aboral to orbits</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>ISBN:9780873659505</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FOVT_2000058"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget xml:lang="en">least breadth of skull</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>ISBN:9780873659505</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FOVT_2000058"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget xml:lang="en">least frontal breadth</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>ISBN:9780873659505</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FOVT_2000058"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+        <owl:annotatedTarget xml:lang="en">The following is the measurement number and genus for this trait in von den Driesch (1979): 39 Equus, 24 Camelus, 32 Bos, 31 Cervus, 31 Canis and Ursus.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>ISBN:9780873659505</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOVT_2000059 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOVT_2000059">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000921"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001703"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0010517"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000423"/>
+        <obo:IAO_0000115 xml:lang="en">The length of a neurocranium along the left-right axis.</obo:IAO_0000115>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-8415-4848"/>
+        <rdfs:label xml:lang="en">neurocranium breadth</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOVT_2000060 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOVT_2000060">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000122"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001703"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0010517"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000423"/>
+        <obo:IAO_0000115 xml:lang="en">The length of a neurocranium along the anterior-posterior axis.</obo:IAO_0000115>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-8415-4848"/>
+        <rdfs:label xml:lang="en">neurocranium length</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOVT_2000061 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOVT_2000061">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOVT_2000059"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000423"/>
+        <obo:IAO_0000115 xml:lang="en">The length of a neurocranium from a left euryon to a right euryon.</obo:IAO_0000115>
+        <oba:measured_in_taxon rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9611"/>
+        <oba:measured_in_taxon rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9639"/>
+        <oba:measured_in_taxon rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9682"/>
+        <oba:measured_in_taxon rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9789"/>
+        <oba:measured_in_taxon rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9836"/>
+        <oba:measured_in_taxon rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9859"/>
+        <oba:measured_in_taxon rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9922"/>
+        <oba:measured_in_taxon rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9935"/>
+        <oba:measured_in_taxon rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9980"/>
+        <oba:measured_in_taxon rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9984"/>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-8415-4848"/>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">greatest breadth across the orbit</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">greatest breadth of braincase</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">greatest neurocranium breadth</oboInOwl:hasRelatedSynonym>
+        <rdfs:comment xml:lang="en">The following is the measurement number and genus for this trait in von den Driesch (1979): 38 Equus, 23 Camelus, 33 Ovis and Capra, 30 Cervus, 29 Canis and Ursus, 22 Felis, 14 Lepus and Oryctolagus.</rdfs:comment>
+        <rdfs:label xml:lang="en">neurocranium breadth at euryon</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FOVT_2000061"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The length of a neurocranium from a left euryon to a right euryon.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>ISBN:9780873659505</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FOVT_2000061"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget xml:lang="en">greatest breadth across the orbit</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>ISBN:9780873659505</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FOVT_2000061"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget xml:lang="en">greatest breadth of braincase</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>ISBN:9780873659505</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FOVT_2000061"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget xml:lang="en">greatest neurocranium breadth</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>ISBN:9780873659505</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FOVT_2000061"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+        <owl:annotatedTarget xml:lang="en">The following is the measurement number and genus for this trait in von den Driesch (1979): 38 Equus, 23 Camelus, 33 Ovis and Capra, 30 Cervus, 29 Canis and Ursus, 22 Felis, 14 Lepus and Oryctolagus.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>ISBN:9780873659505</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOVT_2000062 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOVT_2000062">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOVT_2000059"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000423"/>
+        <obo:IAO_0000115 xml:lang="en">The length of a neurocranium along the left-right axis.</obo:IAO_0000115>
+        <oba:measured_in_taxon rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9822"/>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-8415-4848"/>
+        <oboInOwl:hasRelatedSynonym>greatest breadth of the squamous part of the occipital bone</oboInOwl:hasRelatedSynonym>
+        <rdfs:comment xml:lang="en">The following is the measurement number and genus for this trait in von den Driesch (1979): 38 Sus.</rdfs:comment>
+        <rdfs:comment xml:lang="en">This is the widest points of the temporal crest.</rdfs:comment>
+        <rdfs:label xml:lang="en">neurocranium breadth at temporal crest</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FOVT_2000062"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The length of a neurocranium along the left-right axis.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>ISBN:9780873659505</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FOVT_2000062"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>greatest breadth of the squamous part of the occipital bone</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>ISBN:9780873659505</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FOVT_2000062"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+        <owl:annotatedTarget xml:lang="en">The following is the measurement number and genus for this trait in von den Driesch (1979): 38 Sus.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>ISBN:9780873659505</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOVT_2000063 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOVT_2000063">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOVT_2000059"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000423"/>
+        <obo:IAO_0000115 xml:lang="en">The length of a neurocranium along the left-right axis.</obo:IAO_0000115>
+        <oba:measured_in_taxon rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9822"/>
+        <oba:measured_in_taxon rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9922"/>
+        <oba:measured_in_taxon rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9935"/>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-8415-4848"/>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">least breadth between the temporal lines</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">least breadth of parietal</oboInOwl:hasRelatedSynonym>
+        <rdfs:comment xml:lang="en">The following is the measurement number and genus for this trait in von den Driesch (1979): 31 Ovis and Capra, 40 Sus.</rdfs:comment>
+        <rdfs:comment xml:lang="en">This is the narrowest points between the temporal lines.</rdfs:comment>
+        <rdfs:label xml:lang="en">neurocranium breadth at temporal line</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FOVT_2000063"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The length of a neurocranium along the left-right axis.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>ISBN:9780873659505</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FOVT_2000063"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget xml:lang="en">least breadth between the temporal lines</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>ISBN:9780873659505</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FOVT_2000063"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget xml:lang="en">least breadth of parietal</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>ISBN:9780873659505</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FOVT_2000063"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+        <owl:annotatedTarget xml:lang="en">The following is the measurement number and genus for this trait in von den Driesch (1979): 31 Ovis and Capra, 40 Sus.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>ISBN:9780873659505</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOVT_2000064 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOVT_2000064">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOVT_2000059"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000423"/>
+        <obo:IAO_0000115 xml:lang="en">The length of a neurocranium from a left to a right horn.</obo:IAO_0000115>
+        <oba:measured_in_taxon rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9922"/>
+        <oba:measured_in_taxon rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9935"/>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-8415-4848"/>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">greatest breadth between lateral borders of the horncore bases</oboInOwl:hasRelatedSynonym>
+        <rdfs:comment>The following is the measurement number and genus for this trait in von den Driesch (1979): 32 Ovis and Capra.</rdfs:comment>
+        <rdfs:comment xml:lang="en">This is between the lateral border of the bases of the horns.</rdfs:comment>
+        <rdfs:label xml:lang="en">neurocranium lateral breadth at horn</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FOVT_2000064"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The length of a neurocranium from a left to a right horn.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>ISBN:9780873659505</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FOVT_2000064"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget xml:lang="en">greatest breadth between lateral borders of the horncore bases</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>ISBN:9780873659505</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FOVT_2000064"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+        <owl:annotatedTarget>The following is the measurement number and genus for this trait in von den Driesch (1979): 32 Ovis and Capra.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>ISBN:9780873659505</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FOVT_2000064"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+        <owl:annotatedTarget xml:lang="en">This is between the lateral border of the bases of the horns.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>ISBN:9780873659505</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOVT_2000065 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOVT_2000065">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOVT_2000060"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000423"/>
+        <obo:IAO_0000115 xml:lang="en">The length of a neurocranium from an akrokranion to a supreorbitale.</obo:IAO_0000115>
+        <oba:measured_in_taxon rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9611"/>
+        <oba:measured_in_taxon rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9639"/>
+        <oba:measured_in_taxon rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9682"/>
+        <oba:measured_in_taxon rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9789"/>
+        <oba:measured_in_taxon rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9822"/>
+        <oba:measured_in_taxon rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9922"/>
+        <oba:measured_in_taxon rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9935"/>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-8415-4848"/>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">upper neurocranium length</oboInOwl:hasRelatedSynonym>
+        <rdfs:comment xml:lang="en">In Canis, Ursus and Felis the measurement is taken from an akrokranion to a frontal midpoint (the midsagittal point between left and rigth ectorbitale).</rdfs:comment>
+        <rdfs:comment xml:lang="en">The following is the measurement number and genus for this trait in von den Driesch (1979): 9 Equus, 11 Ovis and Capra, 11 Sus, 7 Canis and Ursus, 7 Felis.</rdfs:comment>
+        <rdfs:label xml:lang="en">neurocranium length from akrokranion</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FOVT_2000065"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The length of a neurocranium from an akrokranion to a supreorbitale.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>ISBN:9780873659505</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FOVT_2000065"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget xml:lang="en">upper neurocranium length</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>ISBN:9780873659505</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FOVT_2000065"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+        <owl:annotatedTarget xml:lang="en">In Canis, Ursus and Felis the measurement is taken from an akrokranion to a frontal midpoint (the midsagittal point between left and rigth ectorbitale).</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>ISBN:9780873659505</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FOVT_2000065"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+        <owl:annotatedTarget xml:lang="en">The following is the measurement number and genus for this trait in von den Driesch (1979): 9 Equus, 11 Ovis and Capra, 11 Sus, 7 Canis and Ursus, 7 Felis.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>ISBN:9780873659505</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOVT_2000066 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOVT_2000066">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOVT_2000060"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000423"/>
+        <obo:IAO_0000115 xml:lang="en">The length of a neurocranium from a basion to a nasion</obo:IAO_0000115>
+        <oba:measured_in_taxon rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9611"/>
+        <oba:measured_in_taxon rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9639"/>
+        <oba:measured_in_taxon rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9682"/>
+        <oba:measured_in_taxon rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9789"/>
+        <oba:measured_in_taxon rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9822"/>
+        <oba:measured_in_taxon rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9859"/>
+        <oba:measured_in_taxon rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
+        <oba:measured_in_taxon rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9922"/>
+        <oba:measured_in_taxon rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9935"/>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-8415-4848"/>
+        <oboInOwl:hasRelatedSynonym>neurocranium length</oboInOwl:hasRelatedSynonym>
+        <rdfs:comment xml:lang="en">The following is the measurement number and genus for this trait in von den Driesch (1979): 7 Equus, 6 Bos, 6 Ovis and Capra, 8 Cervus, 8 Sus, 6 Canis and Ursus, 6 Felis.</rdfs:comment>
+        <rdfs:comment xml:lang="en">this measurement can be taken only with curved callipers</rdfs:comment>
+        <rdfs:label xml:lang="en">neurocranium length from basion</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FOVT_2000066"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The length of a neurocranium from a basion to a nasion</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>ISBN:9780873659505</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FOVT_2000066"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>neurocranium length</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>ISBN:9780873659505</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FOVT_2000066"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+        <owl:annotatedTarget xml:lang="en">The following is the measurement number and genus for this trait in von den Driesch (1979): 7 Equus, 6 Bos, 6 Ovis and Capra, 8 Cervus, 8 Sus, 6 Canis and Ursus, 6 Felis.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>ISBN:9780873659505</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FOVT_2000066"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+        <owl:annotatedTarget xml:lang="en">this measurement can be taken only with curved callipers</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>ISBN:9780873659505</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOVT_2000067 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOVT_2000067">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOVT_2000060"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000423"/>
+        <obo:IAO_0000115 xml:lang="en">The length of a neurocranium from a bregma to an akrokranion.</obo:IAO_0000115>
+        <oba:measured_in_taxon rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9822"/>
+        <oba:measured_in_taxon rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9922"/>
+        <oba:measured_in_taxon rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9935"/>
+        <oba:measured_in_taxon rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9980"/>
+        <oba:measured_in_taxon rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9984"/>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-8415-4848"/>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">parietal length</oboInOwl:hasRelatedSynonym>
+        <rdfs:comment xml:lang="en">In Lepus and Oryctolagus this measurement is taken from bregma to an anatomical point connecting sagittal and lambdoidal sutures</rdfs:comment>
+        <rdfs:comment xml:lang="en">The following is the measurement number and genus for this trait in von den Driesch (1979): 9 Ovis and Capra, 13 Sus, 6 Lepus and Oryctolagus.</rdfs:comment>
+        <rdfs:label xml:lang="en">neurocranium length from bregma</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FOVT_2000067"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The length of a neurocranium from a bregma to an akrokranion.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>ISBN:9780873659505</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FOVT_2000067"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget xml:lang="en">parietal length</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>ISBN:9780873659505</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FOVT_2000067"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+        <owl:annotatedTarget xml:lang="en">The following is the measurement number and genus for this trait in von den Driesch (1979): 9 Ovis and Capra, 13 Sus, 6 Lepus and Oryctolagus.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>ISBN:9780873659505</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOVT_2000068 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOVT_2000068">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOVT_2000060"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000423"/>
+        <obo:IAO_0000115 xml:lang="en">The length of a neurocranium from an ectorbitale to an akrokranion.</obo:IAO_0000115>
+        <oba:measured_in_taxon rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9789"/>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-8415-4848"/>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">posterior ocular line (M24)</oboInOwl:hasRelatedSynonym>
+        <rdfs:label xml:lang="en">neurocranium length from ectorbitale</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FOVT_2000068"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The length of a neurocranium from an ectorbitale to an akrokranion.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>ISBN:9004086161, 9789004086166</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FOVT_2000068"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget xml:lang="en">posterior ocular line (M24)</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>ISBN:9004086161, 9789004086166</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOVT_2000069 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOVT_2000069">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOVT_2000060"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000423"/>
+        <obo:IAO_0000115 xml:lang="en">The length of a neurocranium from an entorbitale to an aboral border of occipital condyle.</obo:IAO_0000115>
+        <oba:measured_in_taxon rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-8415-4848"/>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">from the aboral border of one occipital condyle to the entorbitale of the same side</oboInOwl:hasRelatedSynonym>
+        <rdfs:comment>The following is the measurement number and genus for this trait in von den Driesch (1979): 13 Bos.</rdfs:comment>
+        <rdfs:label xml:lang="en">neurocranium length from entorbitale</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FOVT_2000069"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The length of a neurocranium from an entorbitale to an aboral border of occipital condyle.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>ISBN:9780873659505</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FOVT_2000069"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget xml:lang="en">from the aboral border of one occipital condyle to the entorbitale of the same side</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>ISBN:9780873659505</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FOVT_2000069"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+        <owl:annotatedTarget>The following is the measurement number and genus for this trait in von den Driesch (1979): 13 Bos.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>ISBN:9780873659505</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOVT_2000070 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOVT_2000070">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOVT_2000060"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000423"/>
+        <obo:IAO_0000115 xml:lang="en">The length of a neurocranium from an opisthion to an ectorbitale.</obo:IAO_0000115>
+        <oba:measured_in_taxon rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9611"/>
+        <oba:measured_in_taxon rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9639"/>
+        <oba:measured_in_taxon rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9789"/>
+        <oba:measured_in_taxon rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9836"/>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-8415-4848"/>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">length of braincase</oboInOwl:hasRelatedSynonym>
+        <rdfs:comment xml:lang="en">The following is the measurement number and genus for this trait in von den Driesch (1979): 14 Equus, 7 Camelus, 11 Canis and Ursus.</rdfs:comment>
+        <rdfs:label xml:lang="en">neurocranium length from opisthion</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FOVT_2000070"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The length of a neurocranium from an opisthion to an ectorbitale.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>ISBN:9780873659505</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FOVT_2000070"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget xml:lang="en">length of braincase</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>ISBN:9780873659505</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FOVT_2000070"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+        <owl:annotatedTarget xml:lang="en">The following is the measurement number and genus for this trait in von den Driesch (1979): 14 Equus, 7 Camelus, 11 Canis and Ursus.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>ISBN:9780873659505</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOVT_2000071 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOVT_2000071">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOVT_2000059"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000423"/>
+        <obo:IAO_0000115 xml:lang="en">The length of a neurocranium from a left to a right horn.</obo:IAO_0000115>
+        <oba:measured_in_taxon rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-8415-4848"/>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">least breadth between the bases of the hornocores</oboInOwl:hasRelatedSynonym>
+        <rdfs:comment>The following is the measurement number and genus for this trait in von den Driesch (1979): 31 Bos.</rdfs:comment>
+        <rdfs:comment xml:lang="en">This is between the medial border of the bases of the horns.</rdfs:comment>
+        <rdfs:label xml:lang="en">neurocranium medial breadth at horn</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FOVT_2000071"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The length of a neurocranium from a left to a right horn.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>ISBN:9780873659505</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FOVT_2000071"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget xml:lang="en">least breadth between the bases of the hornocores</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>ISBN:9780873659505</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FOVT_2000071"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+        <owl:annotatedTarget>The following is the measurement number and genus for this trait in von den Driesch (1979): 31 Bos.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>ISBN:9780873659505</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOVT_2000072 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOVT_2000072">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000119"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0013463"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0010517"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000423"/>
+        <obo:IAO_0000115 xml:lang="en">The length of a temporal fossa along the upper-lower axis.</obo:IAO_0000115>
+        <oba:measured_in_taxon rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-8415-4848"/>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">least inner height of the temporal groove</oboInOwl:hasRelatedSynonym>
+        <rdfs:comment>The following is the measurement number and genus for this trait in von den Driesch (1979): 39 Bos.</rdfs:comment>
+        <rdfs:comment xml:lang="en">this is the narrowest points of the temporal groove</rdfs:comment>
+        <rdfs:label xml:lang="en">temporal fossa height</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FOVT_2000072"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The length of a temporal fossa along the upper-lower axis.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>ISBN:9780873659505</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FOVT_2000072"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget xml:lang="en">least inner height of the temporal groove</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>ISBN:9780873659505</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FOVT_2000072"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+        <owl:annotatedTarget>The following is the measurement number and genus for this trait in von den Driesch (1979): 39 Bos.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>ISBN:9780873659505</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOVT_2000073 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOVT_2000073">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000122"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0013463"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOVT_2000060"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000423"/>
+        <obo:IAO_0000115 xml:lang="en">The length of the ventral side of a temporal fossa along the anterior-posterior axis.</obo:IAO_0000115>
+        <oba:measured_in_taxon rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9789"/>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-8415-4848"/>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">length of fossa temporalis (M16)</oboInOwl:hasRelatedSynonym>
+        <rdfs:label xml:lang="en">temporal fossa ventral length</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FOVT_2000073"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The length of the ventral side of a temporal fossa along the anterior-posterior axis.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>ISBN:9004086161, 9789004086166</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FOVT_2000073"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget xml:lang="en">length of fossa temporalis (M16)</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>ISBN:9004086161, 9789004086166</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0007565 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0007565"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0022414 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0022414"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0060068 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0060068"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000027 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000027"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000109 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000109"/>
     
 
 
@@ -38500,6 +39951,18 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/PATO_0000608 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000608"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0000610 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000610"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/PATO_0000921 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000921">
@@ -38535,8 +39998,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBEORN_7500082">
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/FOVT_0000026"/>
-        <dce:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-07-27T23:35:45Z</dce:date>
         <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-2699-3066"/>
+        <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-07-27T23:35:45Z</dcterms:date>
         <oboInOwl:hasExactSynonym rdf:resource="http://purl.obolibrary.org/obo/IAO_0000423"/>
         <rdfs:comment>Term already exists.</rdfs:comment>
         <rdfs:label xml:lang="en">obsolete tibia diaphysis width</rdfs:label>
@@ -38557,9 +40020,21 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UBERON_0000459 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000459"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UBERON_0000473 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000473"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0000922 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000922"/>
     
 
 
@@ -38584,6 +40059,12 @@
     <!-- http://purl.obolibrary.org/obo/UBERON_0000992 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000992"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0000995 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000995"/>
     
 
 
@@ -38629,6 +40110,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UBERON_0001352 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001352"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UBERON_0001423 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001423"/>
@@ -38668,6 +40155,12 @@
     <!-- http://purl.obolibrary.org/obo/UBERON_0001451 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001451"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0001703 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001703"/>
     
 
 
@@ -39265,6 +40758,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UBERON_0005156 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0005156"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UBERON_0005814 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0005814"/>
@@ -39349,6 +40848,18 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UBERON_0009020 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0009020"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0009022 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0009022"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UBERON_0009678 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0009678"/>
@@ -39367,6 +40878,24 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UBERON_0010148 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0010148"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0010869 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0010869"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0010887 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0010887"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UBERON_0011050 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0011050"/>
@@ -39379,9 +40908,21 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UBERON_0012317 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0012317"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UBERON_0013280 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0013280"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0013463 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0013463"/>
     
 
 
@@ -39821,5 +41362,5 @@
 
 
 
-<!-- Generated by the OWL API (version 4.5.25) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.29) https://github.com/owlcs/owlapi -->
 
