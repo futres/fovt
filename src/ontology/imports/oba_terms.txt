@@ -111,3 +111,4 @@ OBA:VT1000205 #nipple length
 OBA:1000107 #testis position
 OBA:0003232 #tragus size
 OBA:VT0001143 #vaginal opening size trait
+OBA:VT1000206 #nipple quantity
