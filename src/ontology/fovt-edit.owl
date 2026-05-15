@@ -12349,20 +12349,20 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_1000021> "ri
 SubClassOf(<http://purl.obolibrary.org/obo/FOVT_1000021> <http://purl.obolibrary.org/obo/FOVT_1000019>)
 SubClassOf(<http://purl.obolibrary.org/obo/FOVT_1000021> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/UBERON_0009022>))
 
-# Class: <http://purl.obolibrary.org/obo/FOVT_1000022> (manual digit 1 length with nail)
+# Class: <http://purl.obolibrary.org/obo/FOVT_1000022> (thumb length with nail)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_1000022> "A length measurement of a manual digit 1 that includes the nail."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_1000022> "A length measurement of a thumb that includes the nail."@en)
 AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_1000022> <https://orcid.org/0009-0002-7282-0836>)
 AnnotationAssertion(dcterms:created <http://purl.obolibrary.org/obo/FOVT_1000022> "2026-05-15T20:02:42Z"^^xsd:dateTime)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_1000022> "manual digit 1 length with nail"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_1000022> "thumb length with nail"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/FOVT_1000022> <http://purl.obolibrary.org/obo/OBA_0003003>)
 
-# Class: <http://purl.obolibrary.org/obo/FOVT_1000023> (manual digit 1 length without nail)
+# Class: <http://purl.obolibrary.org/obo/FOVT_1000023> (thumb length without nail)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_1000023> "The length of a manual digit 1 that excludes the nail."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_1000023> "The length of a thumb that excludes the nail."@en)
 AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_1000023> <https://orcid.org/0009-0002-7282-0836>)
 AnnotationAssertion(dcterms:created <http://purl.obolibrary.org/obo/FOVT_1000023> "2026-05-15T20:04:07Z"^^xsd:dateTime)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_1000023> "manual digit 1 length without nail"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_1000023> "thumb length without nail"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/FOVT_1000023> <http://purl.obolibrary.org/obo/OBA_0003003>)
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_2000000> (choana length)
