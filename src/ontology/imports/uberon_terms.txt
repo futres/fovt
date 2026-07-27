@@ -336,3 +336,4 @@ UBERON:0009020 #left uterine horn
 UBERON:0009022 #right uterine horn
 UBERON:0012317 #vagina orifice
 UBERON:0010148 #mating plug
+UBERON:1000019 #top of head
