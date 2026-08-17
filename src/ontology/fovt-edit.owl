@@ -1091,6 +1091,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_1000020>))
 Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_1000021>))
 Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_1000022>))
 Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_1000023>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_1000024>))
 Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_2000000>))
 Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_2000001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/FOVT_2000002>))
@@ -12364,6 +12365,14 @@ AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_100
 AnnotationAssertion(dcterms:created <http://purl.obolibrary.org/obo/FOVT_1000023> "2026-05-15T20:04:07Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_1000023> "thumb length without nail"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/FOVT_1000023> <http://purl.obolibrary.org/obo/OBA_0003003>)
+
+# Class: <http://purl.obolibrary.org/obo/FOVT_1000024> (placental region)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "https://en.wikipedia.org/wiki/Placenta#Structure") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FOVT_1000024> "An anatomical region of a placenta."@en)
+AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/FOVT_1000024> <https://orcid.org/0009-0002-7282-0836>)
+AnnotationAssertion(dcterms:created <http://purl.obolibrary.org/obo/FOVT_1000024> "2026-08-16T23:55:50Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FOVT_1000024> "placental region"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/FOVT_1000024> <http://purl.obolibrary.org/obo/UBERON_0005156>)
 
 # Class: <http://purl.obolibrary.org/obo/FOVT_2000000> (choana length)
 

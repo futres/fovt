@@ -7,10 +7,15 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/fovt/imports/oba_import.owl>
-Annotation(owl:versionInfo "2026-05-14")
+Annotation(owl:versionInfo "2026-08-16")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0007565>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0007595>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0008150>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0030879>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0042633>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0048732>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0050878>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0060068>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0061458>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_0000001>))
@@ -287,6 +292,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/OBA_0004840>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_0004895>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_0004900>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_0004993>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBA_0005034>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_0005188>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_0005278>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_0005468>))
@@ -294,6 +300,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/OBA_0005484>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_0005564>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_0005710>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_0005755>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBA_0005758>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_0005862>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_0006027>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_0006029>))
@@ -408,6 +415,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/OBA_1000597>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_1000600>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_1000610>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_1000611>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBA_1000620>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_1000621>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_1000628>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_1000632>))
@@ -444,6 +452,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/OBA_VT0000138>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_VT0000149>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_VT0000357>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_VT0000413>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBA_VT0000427>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_VT0000432>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_VT0000438>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_VT0000443>))
@@ -464,6 +473,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/OBA_VT0000572>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_VT0000573>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_VT0000588>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_VT0000627>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBA_VT0000628>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_VT0001119>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_VT0001120>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_VT0001126>))
@@ -478,6 +488,9 @@ Declaration(Class(<http://purl.obolibrary.org/obo/OBA_VT0001253>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_VT0001256>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_VT0001259>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_VT0001697>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBA_VT0001711>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBA_VT0001784>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBA_VT0001882>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_VT0002096>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_VT0002100>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_VT0002102>))
@@ -519,6 +532,8 @@ Declaration(Class(<http://purl.obolibrary.org/obo/OBA_VT0003857>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_VT0003936>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_VT0004134>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_VT0004214>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBA_VT0004257>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBA_VT0004258>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_VT0004340>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_VT0004343>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_VT0004347>))
@@ -571,6 +586,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/OBA_VT0010611>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_VT0010612>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_VT0010613>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_VT0010614>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBA_VT0015037>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_VT0015039>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_VT0015059>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_VT0015060>))
@@ -599,6 +615,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/OBA_VT1000425>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_VT1000641>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_VT1000642>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_VT1000644>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBA_VT1000653>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_VT1000666>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_VT1000686>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_VT1000687>))
@@ -692,6 +709,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001710>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001716>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001757>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001911>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001987>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0002030>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0002090>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0002091>))
@@ -3643,6 +3661,16 @@ SubClassOf(<http://purl.obolibrary.org/obo/OBA_0004993> <http://purl.obolibrary.
 SubClassOf(<http://purl.obolibrary.org/obo/OBA_0004993> <http://purl.obolibrary.org/obo/OBA_VT1000739>)
 SubClassOf(<http://purl.obolibrary.org/obo/OBA_0004993> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002314> <http://purl.obolibrary.org/obo/UBERON_0003690>))
 
+# Class: <http://purl.obolibrary.org/obo/OBA_0005034> (lactation amount)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/patterns/entity_attribute") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBA_0005034> "The amount of a lactation.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/patterns/entity_attribute") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_0005034> "amount of lactation")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBA_0005034> "lactation amount")
+EquivalentClasses(<http://purl.obolibrary.org/obo/OBA_0005034> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000070> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/GO_0007595>)))
+SubClassOf(<http://purl.obolibrary.org/obo/OBA_0005034> <http://purl.obolibrary.org/obo/OBA_VT0001882>)
+SubClassOf(<http://purl.obolibrary.org/obo/OBA_0005034> <http://purl.obolibrary.org/obo/PATO_0000070>)
+SubClassOf(<http://purl.obolibrary.org/obo/OBA_0005034> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/GO_0007595>))
+
 # Class: <http://purl.obolibrary.org/obo/OBA_0005188> (manual digit 1 morphology)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "obo:oba/patterns/entity_attribute_part_of") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBA_0005188> "The morphology of a manual digit 1.")
@@ -3712,6 +3740,16 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/OBA_0005755> ObjectIntersectio
 SubClassOf(<http://purl.obolibrary.org/obo/OBA_0005755> <http://purl.obolibrary.org/obo/OBA_VT0100003>)
 SubClassOf(<http://purl.obolibrary.org/obo/OBA_0005755> <http://purl.obolibrary.org/obo/PATO_0000140>)
 SubClassOf(<http://purl.obolibrary.org/obo/OBA_0005755> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0002415>))
+
+# Class: <http://purl.obolibrary.org/obo/OBA_0005758> (placenta amount)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/patterns/entity_attribute") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBA_0005758> "The amount of a placenta.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/patterns/entity_attribute") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_0005758> "amount of placenta")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBA_0005758> "placenta amount")
+EquivalentClasses(<http://purl.obolibrary.org/obo/OBA_0005758> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000070> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0001987>)))
+SubClassOf(<http://purl.obolibrary.org/obo/OBA_0005758> <http://purl.obolibrary.org/obo/OBA_1000620>)
+SubClassOf(<http://purl.obolibrary.org/obo/OBA_0005758> <http://purl.obolibrary.org/obo/PATO_0000070>)
+SubClassOf(<http://purl.obolibrary.org/obo/OBA_0005758> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0001987>))
 
 # Class: <http://purl.obolibrary.org/obo/OBA_0005862> (exocrine gland morphology)
 
@@ -4887,6 +4925,15 @@ SubClassOf(<http://purl.obolibrary.org/obo/OBA_1000611> <http://purl.obolibrary.
 SubClassOf(<http://purl.obolibrary.org/obo/OBA_1000611> <http://purl.obolibrary.org/obo/OBA_1000099>)
 SubClassOf(<http://purl.obolibrary.org/obo/OBA_1000611> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002314> <http://purl.obolibrary.org/obo/UBERON_0003653>))
 
+# Class: <http://purl.obolibrary.org/obo/OBA_1000620> (placenta quality)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "obo:oba/patterns/entity_attribute_part_of") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBA_1000620> "The quality of a placenta.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "obo:oba/patterns/entity_attribute_part_of") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_1000620> "quality of placenta")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBA_1000620> "placenta quality")
+EquivalentClasses(<http://purl.obolibrary.org/obo/OBA_1000620> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002314> <http://purl.obolibrary.org/obo/UBERON_0001987>)))
+SubClassOf(<http://purl.obolibrary.org/obo/OBA_1000620> <http://purl.obolibrary.org/obo/OBA_1000213>)
+SubClassOf(<http://purl.obolibrary.org/obo/OBA_1000620> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002314> <http://purl.obolibrary.org/obo/UBERON_0001987>))
+
 # Class: <http://purl.obolibrary.org/obo/OBA_1000621> (femur quality)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "obo:oba/patterns/entity_attribute_part_of") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBA_1000621> "The quality of a femur.")
@@ -5241,6 +5288,15 @@ SubClassOf(<http://purl.obolibrary.org/obo/OBA_VT0000413> <http://purl.obolibrar
 SubClassOf(<http://purl.obolibrary.org/obo/OBA_VT0000413> <http://purl.obolibrary.org/obo/PATO_0001555>)
 SubClassOf(<http://purl.obolibrary.org/obo/OBA_VT0000413> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0003221>))
 
+# Class: <http://purl.obolibrary.org/obo/OBA_VT0000427> (hair cycle trait)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "obo:oba/patterns/entity_attribute_part_of") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBA_VT0000427> "The quality of a hair cycle.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "obo:oba/patterns/entity_attribute_part_of") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_VT0000427> "quality of hair cycle")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBA_VT0000427> "hair cycle trait")
+EquivalentClasses(<http://purl.obolibrary.org/obo/OBA_VT0000427> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002314> <http://purl.obolibrary.org/obo/GO_0042633>)))
+SubClassOf(<http://purl.obolibrary.org/obo/OBA_VT0000427> <http://purl.obolibrary.org/obo/OBA_0100002>)
+SubClassOf(<http://purl.obolibrary.org/obo/OBA_VT0000427> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002314> <http://purl.obolibrary.org/obo/GO_0042633>))
+
 # Class: <http://purl.obolibrary.org/obo/OBA_VT0000432> (head morphology trait)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "obo:oba/patterns/entity_attribute_part_of") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBA_VT0000432> "The morphology of a head.")
@@ -5440,6 +5496,15 @@ SubClassOf(<http://purl.obolibrary.org/obo/OBA_VT0000627> <http://purl.obolibrar
 SubClassOf(<http://purl.obolibrary.org/obo/OBA_VT0000627> <http://purl.obolibrary.org/obo/OBA_VT0100020>)
 SubClassOf(<http://purl.obolibrary.org/obo/OBA_VT0000627> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002314> <http://purl.obolibrary.org/obo/UBERON_0001911>))
 
+# Class: <http://purl.obolibrary.org/obo/OBA_VT0000628> (mammary gland development trait)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "obo:oba/patterns/entity_attribute_part_of") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBA_VT0000628> "The quality of a mammary gland development.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "obo:oba/patterns/entity_attribute_part_of") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_VT0000628> "quality of mammary gland development")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBA_VT0000628> "mammary gland development trait")
+EquivalentClasses(<http://purl.obolibrary.org/obo/OBA_VT0000628> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002314> <http://purl.obolibrary.org/obo/GO_0030879>)))
+SubClassOf(<http://purl.obolibrary.org/obo/OBA_VT0000628> <http://purl.obolibrary.org/obo/OBA_VT0015037>)
+SubClassOf(<http://purl.obolibrary.org/obo/OBA_VT0000628> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002314> <http://purl.obolibrary.org/obo/GO_0030879>))
+
 # Class: <http://purl.obolibrary.org/obo/OBA_VT0001119> (female reproductive system morphology trait)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "obo:oba/patterns/entity_attribute_part_of") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBA_VT0001119> "The morphology of a female reproductive system.")
@@ -5569,6 +5634,34 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/OBA_VT0001697> ObjectIntersect
 SubClassOf(<http://purl.obolibrary.org/obo/OBA_VT0001697> <http://purl.obolibrary.org/obo/OBA_1001076>)
 SubClassOf(<http://purl.obolibrary.org/obo/OBA_VT0001697> <http://purl.obolibrary.org/obo/OBA_VT0000069>)
 SubClassOf(<http://purl.obolibrary.org/obo/OBA_VT0001697> <http://purl.obolibrary.org/obo/OBA_VT0100005>)
+
+# Class: <http://purl.obolibrary.org/obo/OBA_VT0001711> (placenta morphology trait)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "obo:oba/patterns/entity_attribute_part_of") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBA_VT0001711> "The morphology of a placenta.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "obo:oba/patterns/entity_attribute_part_of") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_VT0001711> "morphology of placenta")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBA_VT0001711> "placenta morphology trait")
+EquivalentClasses(<http://purl.obolibrary.org/obo/OBA_VT0001711> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002314> <http://purl.obolibrary.org/obo/UBERON_0001987>)))
+SubClassOf(<http://purl.obolibrary.org/obo/OBA_VT0001711> <http://purl.obolibrary.org/obo/OBA_1000620>)
+SubClassOf(<http://purl.obolibrary.org/obo/OBA_VT0001711> <http://purl.obolibrary.org/obo/OBA_VT0001119>)
+
+# Class: <http://purl.obolibrary.org/obo/OBA_VT0001784> (fluid regulation trait)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "obo:oba/patterns/entity_attribute_part_of") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBA_VT0001784> "The quality of a regulation of body fluid levels.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "obo:oba/patterns/entity_attribute_part_of") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_VT0001784> "quality of regulation of body fluid levels")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBA_VT0001784> "fluid regulation trait")
+EquivalentClasses(<http://purl.obolibrary.org/obo/OBA_VT0001784> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002314> <http://purl.obolibrary.org/obo/GO_0050878>)))
+SubClassOf(<http://purl.obolibrary.org/obo/OBA_VT0001784> <http://purl.obolibrary.org/obo/OBA_0100002>)
+SubClassOf(<http://purl.obolibrary.org/obo/OBA_VT0001784> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002314> <http://purl.obolibrary.org/obo/GO_0050878>))
+
+# Class: <http://purl.obolibrary.org/obo/OBA_VT0001882> (lactation trait)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "obo:oba/patterns/entity_attribute_part_of") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBA_VT0001882> "The quality of a lactation.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "obo:oba/patterns/entity_attribute_part_of") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_VT0001882> "quality of lactation")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBA_VT0001882> "lactation trait")
+EquivalentClasses(<http://purl.obolibrary.org/obo/OBA_VT0001882> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002314> <http://purl.obolibrary.org/obo/GO_0007595>)))
+SubClassOf(<http://purl.obolibrary.org/obo/OBA_VT0001882> <http://purl.obolibrary.org/obo/OBA_VT0000628>)
+SubClassOf(<http://purl.obolibrary.org/obo/OBA_VT0001882> <http://purl.obolibrary.org/obo/OBA_VT0001784>)
+SubClassOf(<http://purl.obolibrary.org/obo/OBA_VT0001882> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002314> <http://purl.obolibrary.org/obo/GO_0007595>))
 
 # Class: <http://purl.obolibrary.org/obo/OBA_VT0002096> (skin morphology trait)
 
@@ -5959,6 +6052,28 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBA_VT0004214> "l
 EquivalentClasses(<http://purl.obolibrary.org/obo/OBA_VT0004214> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002314> <http://purl.obolibrary.org/obo/UBERON_0004769>)))
 SubClassOf(<http://purl.obolibrary.org/obo/OBA_VT0004214> <http://purl.obolibrary.org/obo/OBA_1000552>)
 SubClassOf(<http://purl.obolibrary.org/obo/OBA_VT0004214> <http://purl.obolibrary.org/obo/OBA_VT0003723>)
+
+# Class: <http://purl.obolibrary.org/obo/OBA_VT0004257> (placenta mass)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/patterns/entity_attribute") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBA_VT0004257> "The mass of a placenta.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/OBA_VT0004257> "PMID:37798380")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/patterns/entity_attribute") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_VT0004257> "mass of placenta")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_VT0004257> "placental weight")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBA_VT0004257> "placenta mass")
+EquivalentClasses(<http://purl.obolibrary.org/obo/OBA_VT0004257> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000125> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0001987>)))
+SubClassOf(<http://purl.obolibrary.org/obo/OBA_VT0004257> <http://purl.obolibrary.org/obo/OBA_1000620>)
+SubClassOf(<http://purl.obolibrary.org/obo/OBA_VT0004257> <http://purl.obolibrary.org/obo/OBA_2045413>)
+SubClassOf(<http://purl.obolibrary.org/obo/OBA_VT0004257> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0001987>))
+
+# Class: <http://purl.obolibrary.org/obo/OBA_VT0004258> (placenta size trait)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/patterns/entity_attribute") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBA_VT0004258> "The size of a placenta.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/patterns/entity_attribute") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_VT0004258> "size of placenta")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBA_VT0004258> "placenta size trait")
+EquivalentClasses(<http://purl.obolibrary.org/obo/OBA_VT0004258> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000117> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0001987>)))
+SubClassOf(<http://purl.obolibrary.org/obo/OBA_VT0004258> <http://purl.obolibrary.org/obo/OBA_0000015>)
+SubClassOf(<http://purl.obolibrary.org/obo/OBA_VT0004258> <http://purl.obolibrary.org/obo/OBA_VT0001711>)
+SubClassOf(<http://purl.obolibrary.org/obo/OBA_VT0004258> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0001987>))
 
 # Class: <http://purl.obolibrary.org/obo/OBA_VT0004340> (scapula length)
 
@@ -6484,6 +6599,15 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/OBA_VT0010614> ObjectIntersect
 SubClassOf(<http://purl.obolibrary.org/obo/OBA_VT0010614> <http://purl.obolibrary.org/obo/OBA_2045413>)
 SubClassOf(<http://purl.obolibrary.org/obo/OBA_VT0010614> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0003128>))
 
+# Class: <http://purl.obolibrary.org/obo/OBA_VT0015037> (gland development trait)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "obo:oba/patterns/entity_attribute_part_of") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBA_VT0015037> "The quality of a gland development.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "obo:oba/patterns/entity_attribute_part_of") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_VT0015037> "quality of gland development")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBA_VT0015037> "gland development trait")
+EquivalentClasses(<http://purl.obolibrary.org/obo/OBA_VT0015037> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002314> <http://purl.obolibrary.org/obo/GO_0048732>)))
+SubClassOf(<http://purl.obolibrary.org/obo/OBA_VT0015037> <http://purl.obolibrary.org/obo/OBA_0100002>)
+SubClassOf(<http://purl.obolibrary.org/obo/OBA_VT0015037> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002314> <http://purl.obolibrary.org/obo/GO_0048732>))
+
 # Class: <http://purl.obolibrary.org/obo/OBA_VT0015039> (body width)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/patterns/entity_attribute") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBA_VT0015039> "The width of a multicellular organism.")
@@ -6753,6 +6877,16 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/OBA_VT1000644> ObjectIntersect
 SubClassOf(<http://purl.obolibrary.org/obo/OBA_VT1000644> <http://purl.obolibrary.org/obo/OBA_1000521>)
 SubClassOf(<http://purl.obolibrary.org/obo/OBA_VT1000644> <http://purl.obolibrary.org/obo/OBA_2045413>)
 SubClassOf(<http://purl.obolibrary.org/obo/OBA_VT1000644> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/UBERON_0000473>))
+
+# Class: <http://purl.obolibrary.org/obo/OBA_VT1000653> (lactation duration)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/patterns/entity_attribute") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBA_VT1000653> "The length of a lactation.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "AUTO:patterns/patterns/entity_attribute") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/OBA_VT1000653> "length of lactation")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBA_VT1000653> "lactation duration")
+EquivalentClasses(<http://purl.obolibrary.org/obo/OBA_VT1000653> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000122> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/GO_0007595>)))
+SubClassOf(<http://purl.obolibrary.org/obo/OBA_VT1000653> <http://purl.obolibrary.org/obo/OBA_VT0001882>)
+SubClassOf(<http://purl.obolibrary.org/obo/OBA_VT1000653> <http://purl.obolibrary.org/obo/PATO_0000122>)
+SubClassOf(<http://purl.obolibrary.org/obo/OBA_VT1000653> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/GO_0007595>))
 
 # Class: <http://purl.obolibrary.org/obo/OBA_VT1000666> (femur width)
 

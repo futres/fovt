@@ -112,3 +112,7 @@ OBA:1000107 #testis position
 OBA:0003232 #tragus size
 OBA:VT0001143 #vaginal opening size trait
 OBA:VT1000206 #nipple quantity
+OBA:VT0001882 #lactation trait
+OBA:VT0000427 #hair cycle trait
+OBA:VT0001711 #placenta morphology trait
+OBA:VT0001146 #testes morphology trait
